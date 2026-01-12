@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+body {
+  background: linear-gradient(135deg, #012a4a 0%, #013a63 11%, #01497c 22%, #014f86 33%, #2a6f97 44%, #2c7da0 55%, #468faf 66%, #61a5c2 77%, #89c2d9 88%, #a9d6e5 100%);
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+/* Slide up animation for BSI Enhanced modal */
+@keyframes slideUp {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide-up {
+  animation: slideUp 0.3s ease-out forwards;
+}
+
