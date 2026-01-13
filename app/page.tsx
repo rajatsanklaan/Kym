@@ -15,6 +15,9 @@ interface AccountData {
   no_of_deposits: string | number;
   no_of_withdrawals: string | number;
   mca_withdrawals?: string | number;
+  returned_items_count?: number;
+  returned_items_days?: number;
+  overdraft_days?: number;
 }
 
 // Mapped account for display
@@ -29,6 +32,9 @@ interface MappedAccount {
   no_of_deposits: number;
   no_of_withdrawals: number;
   mca_withdrawals: number;
+  returned_items_count: number;
+  returned_items_days: number;
+  overdraft_days: number;
 }
 
 // Row with all accounts from one bank statement
@@ -41,6 +47,7 @@ interface ReconciliationRow {
   first_transaction_date: string;
   last_transaction_date: string;
   accounts: MappedAccount[];
+  filename: string;
 }
 
 interface ADLSResponse {
@@ -55,6 +62,7 @@ interface ADLSResponse {
     accounts: AccountData[];
   };
   batch_id: string;
+  filename?: string;
 }
 
 // Helper function to convert month number to month abbreviation
@@ -111,6 +119,9 @@ const mapAccountData = (account: AccountData): MappedAccount => {
     no_of_deposits: safeParseInt(account.no_of_deposits),
     no_of_withdrawals: safeParseInt(account.no_of_withdrawals),
     mca_withdrawals: safeParseFloat(account.mca_withdrawals),
+    returned_items_count: safeParseInt(account.returned_items_count),
+    returned_items_days: safeParseInt(account.returned_items_days),
+    overdraft_days: safeParseInt(account.overdraft_days),
   };
 };
 
@@ -121,7 +132,7 @@ const mapADLSToReconciliationRow = (adlsData: ADLSResponse): ReconciliationRow =
     throw new Error('Invalid ADLS data structure: missing parsed_json');
   }
 
-  const { parsed_json, batch_id } = adlsData;
+  const { parsed_json, batch_id, filename } = adlsData;
   
   const monthYear = `${getMonthAbbreviation(parsed_json.statement_month || 1)} ${parsed_json.statement_year || 2025}`;
   
@@ -135,6 +146,12 @@ const mapADLSToReconciliationRow = (adlsData: ADLSResponse): ReconciliationRow =
   // Map all accounts
   const mappedAccounts = (parsed_json.accounts || []).map((account) => mapAccountData(account));
 
+  // Extract filename without "_parsing_result.json" suffix
+  let displayFilename = '';
+  if (filename) {
+    displayFilename = filename.replace(/_parsing_result\.json$/i, '');
+  }
+
   return {
     case_id: batch_id || `CASE-${Date.now()}`,
     document_name: `Statement_${monthYear.replace(" ", "_")}.pdf`,
@@ -144,6 +161,7 @@ const mapADLSToReconciliationRow = (adlsData: ADLSResponse): ReconciliationRow =
     first_transaction_date: firstTransactionDate,
     last_transaction_date: lastTransactionDate,
     accounts: mappedAccounts,
+    filename: displayFilename,
   };
 };
 
@@ -157,7 +175,7 @@ function ReconciliationRowComponent({ data }: { data: ReconciliationRow }) {
   const selectedAccount = data.accounts[selectedAccountIndex] || data.accounts[0];
   const hasMultipleAccounts = data.accounts.length > 1;
 
-  // Calculate difference for the selected account
+  // Calculate difference for the selected account hii
   const calculateDifference = (account: MappedAccount): number => {
     const calcBalance = account.starting_balance - account.total_debits + account.total_credits;
     const difference = account.ending_balance - calcBalance;
@@ -167,6 +185,7 @@ function ReconciliationRowComponent({ data }: { data: ReconciliationRow }) {
   };
 
   // Check if the selected account harmonizes (difference is 0)
+  // git error solve
   const difference = selectedAccount ? calculateDifference(selectedAccount) : 0;
   const isHarmonized = difference === 0;
 
@@ -227,6 +246,7 @@ function ReconciliationRowComponent({ data }: { data: ReconciliationRow }) {
           </span>
           <span className="text-gray-600 w-[110px] text-left">{formatCurrency(selectedAccount?.starting_balance || 0)}</span>
           <span className="text-gray-600 w-[110px] text-left">{formatCurrency(selectedAccount?.ending_balance || 0)}</span>
+          <span className="bg-blue-100 text-blue-500 font-bold px-3 py-1 rounded-lg text-sm inline-block">{data.filename || ''}</span>
         </div>
         
         {/* Reconciliation Status Section */}
@@ -548,7 +568,7 @@ function ReconciliationRowComponent({ data }: { data: ReconciliationRow }) {
                         Return Item Count
                       </span>
                       <span className="text-lg font-semibold text-gray-800 mt-1">
-                        0
+                        {selectedAccount?.returned_items_count || 0}
                       </span>
                     </div>
                     <div className="flex-1 flex flex-col">
@@ -568,7 +588,7 @@ function ReconciliationRowComponent({ data }: { data: ReconciliationRow }) {
                         Return Item Days
                       </span>
                       <span className="text-lg font-semibold text-gray-800 mt-1">
-                        0
+                        {selectedAccount?.returned_items_days || 0}
                       </span>
                     </div>
                     <div className="flex-1 flex flex-col">
@@ -576,12 +596,36 @@ function ReconciliationRowComponent({ data }: { data: ReconciliationRow }) {
                         Overdraft Days
                       </span>
                       <span className="text-lg font-semibold text-gray-800 mt-1">
-                        0
+                        {selectedAccount?.overdraft_days || 0}
                       </span>
                     </div>
                   </div>
                 </div>
               </div>
+
+              {/* Two boxes below blue box */}
+              <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl p-3 border border-blue-200 shadow-sm">
+                <div className="flex flex-col items-center justify-center">
+                  <span className="text-xs uppercase tracking-wide text-gray-500 font-medium">
+                    No. of Deposit(Calculated)
+                  </span>
+                  <span className="text-lg font-semibold text-gray-800 mt-0.5">
+                    {selectedAccount?.no_of_deposits || 0}
+                  </span>
+                </div>
+              </div>
+
+              <div className="bg-gradient-to-br from-emerald-50 to-emerald-100 rounded-xl p-3 border border-emerald-200 shadow-sm">
+                <div className="flex flex-col items-center justify-center">
+                  <span className="text-xs uppercase tracking-wide text-gray-500 font-medium">
+                    No. of Withdrawals(Calculated)
+                  </span>
+                  <span className="text-lg font-semibold text-gray-800 mt-0.5">
+                    {selectedAccount?.no_of_withdrawals || 0}
+                  </span>
+                </div>
+              </div>
+
             </div>
           </div>
         </div>,

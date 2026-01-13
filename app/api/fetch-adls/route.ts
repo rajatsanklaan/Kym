@@ -11,6 +11,9 @@ interface Account {
   avg_daily_balance: string | number;
   no_of_deposits: string | number;
   no_of_withdrawals: string | number;
+  returned_items_count?: number;
+  returned_items_days?: number;
+  overdraft_days?: number;
 }
 
 interface ADLSResponse {
@@ -25,6 +28,7 @@ interface ADLSResponse {
     accounts: Account[];
   };
   batch_id: string;
+  filename?: string;
 }
 
 export async function GET() {
@@ -91,6 +95,10 @@ export async function GET() {
         if (!jsonData.parsed_json || !jsonData.parsed_json.accounts || !Array.isArray(jsonData.parsed_json.accounts)) {
           return null;
         }
+
+        // Extract filename from filePath and add it to the response
+        const fileName = filePath.split('/').pop() || filePath;
+        jsonData.filename = fileName;
 
         return jsonData;
       } catch (error) {
