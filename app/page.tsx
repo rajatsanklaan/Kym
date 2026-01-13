@@ -185,6 +185,7 @@ function ReconciliationRowComponent({ data }: { data: ReconciliationRow }) {
   };
 
   // Check if the selected account harmonizes (difference is 0)
+  // git error solve
   const difference = selectedAccount ? calculateDifference(selectedAccount) : 0;
   const isHarmonized = difference === 0;
 
