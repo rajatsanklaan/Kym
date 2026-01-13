@@ -175,7 +175,7 @@ function ReconciliationRowComponent({ data }: { data: ReconciliationRow }) {
   const selectedAccount = data.accounts[selectedAccountIndex] || data.accounts[0];
   const hasMultipleAccounts = data.accounts.length > 1;
 
-  // Calculate difference for the selected account
+  // Calculate difference for the selected account hii
   const calculateDifference = (account: MappedAccount): number => {
     const calcBalance = account.starting_balance - account.total_debits + account.total_credits;
     const difference = account.ending_balance - calcBalance;
