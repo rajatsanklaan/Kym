@@ -221,6 +221,15 @@ function ReconciliationRowComponent({ data }: { data: ReconciliationRow }) {
   const selectedAccount = data.accounts[selectedAccountIndex] || data.accounts[0];
   const hasMultipleAccounts = data.accounts.length > 1;
 
+  // Check if account type contains both "Business" and "Checking" (case insensitive)
+  const isBusinessCheckingAccount = (accountType: string): boolean => {
+    const lowerType = accountType.toLowerCase();
+    return lowerType.includes('business') && lowerType.includes('checking');
+  };
+
+  // Show BSI Enhanced button: always for single account, only for Business Checking in multi-account
+  const showBSIEnhancedButton = !hasMultipleAccounts || isBusinessCheckingAccount(selectedAccount?.account_type || '');
+
   // Extract case ID from filename or case_id field (remove everything before "Case")
   const extractCaseId = (filename: string, caseIdField?: string): string | null => {
     // Try filename first - match "Case" followed by digits (case-insensitive)
@@ -697,15 +706,17 @@ function ReconciliationRowComponent({ data }: { data: ReconciliationRow }) {
               </div>
             </div>
             
-            {/* BSI Enhanced Button */}
-            <div className="flex items-center justify-end p-4 ml-auto">
-              <button
-                onClick={() => setIsBSIModalOpen(true)}
-                className="px-6 py-2 bg-white border-2 border-gray-400 text-gray-700 rounded hover:bg-gray-100 font-medium text-sm cursor-pointer"
-              >
-                BSI ENHANCED
-              </button>
-            </div>
+            {/* BSI Enhanced Button - Only show for single account OR Business Checking accounts in multi-account statements */}
+            {showBSIEnhancedButton && (
+              <div className="flex items-center justify-end p-4 ml-auto">
+                <button
+                  onClick={() => setIsBSIModalOpen(true)}
+                  className="px-6 py-2 bg-white border-2 border-gray-400 text-gray-700 rounded hover:bg-gray-100 font-medium text-sm cursor-pointer"
+                >
+                  BSI ENHANCED
+                </button>
+              </div>
+            )}
           </div>
         </div>
       )}
@@ -780,11 +791,11 @@ function ReconciliationRowComponent({ data }: { data: ReconciliationRow }) {
                       </span>
                     </div>
                     <div className="flex-1 flex flex-col">
-                      <span className={`text-xs uppercase tracking-wide ${fundingTransferCount !== null ? 'text-gray-500' : 'text-gray-400'} font-medium`}>
+                      <span className={`text-xs uppercase tracking-wide ${hasMultipleAccounts ? 'text-gray-400' : (fundingTransferCount !== null ? 'text-gray-500' : 'text-gray-400')} font-medium`}>
                         Funding Transfer Deposit
                       </span>
-                      <span className={`text-lg font-semibold ${fundingTransferCount !== null ? 'text-gray-800' : 'text-gray-400'} mt-1`}>
-                        {fundingTransferCount !== null ? fundingTransferCount : 0}
+                      <span className={`text-lg font-semibold ${hasMultipleAccounts ? 'text-gray-400' : (fundingTransferCount !== null ? 'text-gray-800' : 'text-gray-400')} mt-1`}>
+                        {hasMultipleAccounts ? 'N/A' : (fundingTransferCount !== null ? fundingTransferCount : 0)}
                       </span>
                     </div>
                   </div>
