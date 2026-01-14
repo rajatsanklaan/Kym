@@ -224,7 +224,7 @@ function ReconciliationRowComponent({ data }: { data: ReconciliationRow }) {
   // Check if account type contains both "Business" and "Checking" (case insensitive)
   const isBusinessCheckingAccount = (accountType: string): boolean => {
     const lowerType = accountType.toLowerCase();
-    return lowerType.includes('business') && lowerType.includes('checking');
+    return lowerType.includes('business') && lowerType.includes('checking') || lowerType.includes('elite') || lowerType.includes('essentials') || lowerType.includes('mover');
   };
 
   // Show BSI Enhanced button: always for single account, only for Business Checking in multi-account
