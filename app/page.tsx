@@ -18,6 +18,9 @@ interface AccountData {
   returned_items_count?: number;
   returned_items_days?: number;
   overdraft_days?: number;
+  calculated_deposits_count?: number;
+  calculated_withdrawals_count?: number;
+  overdraft_count?: number;
 }
 
 // Mapped account for display
@@ -35,6 +38,9 @@ interface MappedAccount {
   returned_items_count: number;
   returned_items_days: number;
   overdraft_days: number;
+  calculated_deposits_count: number;
+  calculated_withdrawals_count: number;
+  overdraft_count: number;
 }
 
 // Row with all accounts from one bank statement
@@ -122,6 +128,9 @@ const mapAccountData = (account: AccountData): MappedAccount => {
     returned_items_count: safeParseInt(account.returned_items_count),
     returned_items_days: safeParseInt(account.returned_items_days),
     overdraft_days: safeParseInt(account.overdraft_days),
+    calculated_deposits_count: safeParseInt(account.calculated_deposits_count),
+    calculated_withdrawals_count: safeParseInt(account.calculated_withdrawals_count),
+    overdraft_count: safeParseInt(account.overdraft_count),
   };
 };
 
@@ -181,6 +190,10 @@ function ReconciliationRowComponent({ data }: { data: ReconciliationRow }) {
     const difference = account.ending_balance - calcBalance;
     // Round to 2 decimal places to handle floating point precision
     const rounded = Math.round(difference * 100) / 100;
+    // If absolute difference is less than $0.99, return $0.00
+    if (Math.abs(rounded) < 0.99) {
+      return 0;
+    }
     return Math.abs(rounded) < 0.005 ? 0 : rounded;
   };
 
@@ -513,24 +526,28 @@ function ReconciliationRowComponent({ data }: { data: ReconciliationRow }) {
 
             {/* Two Cards Container */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              {/* Information 1 Card */}
-              <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl p-5 border border-blue-200 shadow-sm">
-                <div className="space-y-4">
+              {/* Information 1 Card - Disabled with warning */}
+              <div className="relative bg-gradient-to-br from-gray-100 to-gray-200 rounded-xl p-5 border border-gray-300 shadow-sm opacity-60">
+                {/* Warning Banner */}
+                <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-green-500 text-white text-xs font-medium px-3 py-1 rounded-full whitespace-nowrap">
+                  We are working on these numbers
+                </div>
+                <div className="space-y-4 pointer-events-none">
                   {/* Row 1: MCA Deposits + Funding Transfer Deposit */}
                   <div className="flex gap-4">
                     <div className="flex-1 flex flex-col">
-                      <span className="text-xs uppercase tracking-wide text-gray-500 font-medium">
+                      <span className="text-xs uppercase tracking-wide text-gray-400 font-medium">
                         MCA Deposits
                       </span>
-                      <span className="text-lg font-semibold text-gray-800 mt-1">
+                      <span className="text-lg font-semibold text-gray-400 mt-1">
                         {formatCurrency(0)}
                       </span>
                     </div>
                     <div className="flex-1 flex flex-col">
-                      <span className="text-xs uppercase tracking-wide text-gray-500 font-medium">
+                      <span className="text-xs uppercase tracking-wide text-gray-400 font-medium">
                         Funding Transfer Deposit
                       </span>
-                      <span className="text-lg font-semibold text-gray-800 mt-1">
+                      <span className="text-lg font-semibold text-gray-400 mt-1">
                         {formatCurrency(0)}
                       </span>
                     </div>
@@ -539,18 +556,18 @@ function ReconciliationRowComponent({ data }: { data: ReconciliationRow }) {
                   {/* Row 2: MCA Withdrawals + Avg Daily Balance */}
                   <div className="flex gap-4">
                     <div className="flex-1 flex flex-col">
-                      <span className="text-xs uppercase tracking-wide text-gray-500 font-medium">
+                      <span className="text-xs uppercase tracking-wide text-gray-400 font-medium">
                         MCA Withdrawals
                       </span>
-                      <span className="text-lg font-semibold text-gray-800 mt-1">
+                      <span className="text-lg font-semibold text-gray-400 mt-1">
                         {formatCurrency(selectedAccount?.mca_withdrawals || 0)}
                       </span>
                     </div>
                     <div className="flex-1 flex flex-col">
-                      <span className="text-xs uppercase tracking-wide text-gray-500 font-medium">
+                      <span className="text-xs uppercase tracking-wide text-gray-400 font-medium">
                         Avg Daily Balance (Calculated)
                       </span>
-                      <span className="text-lg font-semibold text-gray-800 mt-1">
+                      <span className="text-lg font-semibold text-gray-400 mt-1">
                         {formatCurrency(selectedAccount?.average_balance || 0)}
                       </span>
                     </div>
@@ -576,7 +593,7 @@ function ReconciliationRowComponent({ data }: { data: ReconciliationRow }) {
                         Overdraft Count
                       </span>
                       <span className="text-lg font-semibold text-gray-800 mt-1">
-                        0
+                        {selectedAccount?.overdraft_count || 0}
                       </span>
                     </div>
                   </div>
@@ -610,7 +627,7 @@ function ReconciliationRowComponent({ data }: { data: ReconciliationRow }) {
                     No. of Deposit(Calculated)
                   </span>
                   <span className="text-lg font-semibold text-gray-800 mt-0.5">
-                    {selectedAccount?.no_of_deposits || 0}
+                    {selectedAccount?.calculated_deposits_count || 0}
                   </span>
                 </div>
               </div>
@@ -621,7 +638,7 @@ function ReconciliationRowComponent({ data }: { data: ReconciliationRow }) {
                     No. of Withdrawals(Calculated)
                   </span>
                   <span className="text-lg font-semibold text-gray-800 mt-0.5">
-                    {selectedAccount?.no_of_withdrawals || 0}
+                    {selectedAccount?.calculated_withdrawals_count || 0}
                   </span>
                 </div>
               </div>
