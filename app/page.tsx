@@ -97,7 +97,7 @@ interface BSIAnalysisResponse {
 interface FundingTransferAccount {
   account_number: string;
   account_type: string;
-  funding_transfer_count: number;
+  funding_transfer_amount: number;
 }
 
 interface FundingTransferResponse {
@@ -215,7 +215,7 @@ function ReconciliationRowComponent({ data }: { data: ReconciliationRow }) {
   const [bsiData, setBsiData] = useState<BSIAnalysisData | null>(null);
   const [bsiLoading, setBsiLoading] = useState(false);
   const [bsiError, setBsiError] = useState<string | null>(null);
-  const [fundingTransferCount, setFundingTransferCount] = useState<number | null>(null);
+  const [fundingTransferAmount, setFundingTransferAmount] = useState<number | null>(null);
 
   // Get the currently selected account
   const selectedAccount = data.accounts[selectedAccountIndex] || data.accounts[0];
@@ -371,7 +371,7 @@ function ReconciliationRowComponent({ data }: { data: ReconciliationRow }) {
         
         if (!response.ok) {
           console.error('Funding transfer API error');
-          setFundingTransferCount(0);
+          setFundingTransferAmount(0);
           return;
         }
 
@@ -399,13 +399,13 @@ function ReconciliationRowComponent({ data }: { data: ReconciliationRow }) {
         }
 
         if (matchingAccount) {
-          setFundingTransferCount(matchingAccount.funding_transfer_count);
+          setFundingTransferAmount(matchingAccount.funding_transfer_amount);
         } else {
-          setFundingTransferCount(0);
+          setFundingTransferAmount(0);
         }
       } catch (err) {
         console.error('Error fetching funding transfer data:', err);
-        setFundingTransferCount(0);
+        setFundingTransferAmount(0);
       }
     };
 
@@ -791,11 +791,11 @@ function ReconciliationRowComponent({ data }: { data: ReconciliationRow }) {
                       </span>
                     </div>
                     <div className="flex-1 flex flex-col">
-                      <span className={`text-xs uppercase tracking-wide ${hasMultipleAccounts ? 'text-gray-400' : (fundingTransferCount !== null ? 'text-gray-500' : 'text-gray-400')} font-medium`}>
+                      <span className={`text-xs uppercase tracking-wide ${hasMultipleAccounts ? 'text-gray-400' : (fundingTransferAmount !== null ? 'text-gray-500' : 'text-gray-400')} font-medium`}>
                         Funding Transfer Deposit
                       </span>
-                      <span className={`text-lg font-semibold ${hasMultipleAccounts ? 'text-gray-400' : (fundingTransferCount !== null ? 'text-gray-800' : 'text-gray-400')} mt-1`}>
-                        {hasMultipleAccounts ? 'N/A' : (fundingTransferCount !== null ? fundingTransferCount : 0)}
+                      <span className={`text-lg font-semibold ${hasMultipleAccounts ? 'text-gray-400' : (fundingTransferAmount !== null ? 'text-gray-800' : 'text-gray-400')} mt-1`}>
+                        {hasMultipleAccounts ? 'N/A' : formatCurrency(fundingTransferAmount !== null ? fundingTransferAmount : 0)}
                       </span>
                     </div>
                   </div>

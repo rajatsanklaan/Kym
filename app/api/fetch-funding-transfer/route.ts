@@ -104,30 +104,32 @@ export async function GET(request: Request) {
         );
       }
 
-      // Calculate funding transfer deposit count for each account
-      const accountsWithCounts = jsonData.parsed_json.accounts.map((account) => {
-        // Count non_true_revenue = 1 across all relevant arrays
-        const countNonTrueRevenue = (items: TransactionItem[] | undefined): number => {
+      // Calculate funding transfer deposit amount for each account
+      const accountsWithAmounts = jsonData.parsed_json.accounts.map((account) => {
+        // Sum the amount for items where non_true_revenue = 1
+        const sumNonTrueRevenueAmount = (items: TransactionItem[] | undefined): number => {
           if (!items || !Array.isArray(items)) return 0;
-          return items.filter(item => item.non_true_revenue === 1).length;
+          return items
+            .filter(item => item.non_true_revenue === 1)
+            .reduce((sum, item) => sum + (item.amount || 0), 0);
         };
 
-        const fundingTransferCount = 
-          countNonTrueRevenue(account.mca_deposit) +
-          countNonTrueRevenue(account.returned_items) +
-          countNonTrueRevenue(account.internal_transfer_deposit) +
-          countNonTrueRevenue(account.other_transfer_deposit) +
-          countNonTrueRevenue(account.standard_deposit);
+        const fundingTransferAmount = 
+          sumNonTrueRevenueAmount(account.mca_deposit) +
+          sumNonTrueRevenueAmount(account.returned_items) +
+          sumNonTrueRevenueAmount(account.internal_transfer_deposit) +
+          sumNonTrueRevenueAmount(account.other_transfer_deposit) +
+          sumNonTrueRevenueAmount(account.standard_deposit);
 
         return {
           account_number: account.account_number,
           account_type: account.account_type,
-          funding_transfer_count: fundingTransferCount
+          funding_transfer_amount: fundingTransferAmount
         };
       });
 
       return NextResponse.json(
-        { data: { accounts: accountsWithCounts } },
+        { data: { accounts: accountsWithAmounts } },
         {
           headers: {
             'Cache-Control': 'public, s-maxage=60, stale-while-revalidate=300',
