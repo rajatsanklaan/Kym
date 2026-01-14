@@ -71,6 +71,39 @@ interface ADLSResponse {
   filename?: string;
 }
 
+// BSI Analysis data structure
+interface BSIAnalysisData {
+  mca_deposit_count: number;
+  mca_withdrawal_count: number;
+  returned_items_count: number;
+  returned_items_days: number;
+  overdraft_count: number;
+  overdraft_days: number;
+}
+
+interface BSIAnalysisResponse {
+  agent_name: string;
+  processing_status: string;
+  parsed_json: {
+    accounts: Array<{
+      account_number: string;
+      account_type: string;
+      summary_metrics: BSIAnalysisData;
+    }>;
+  };
+}
+
+// Funding Transfer data structure
+interface FundingTransferAccount {
+  account_number: string;
+  account_type: string;
+  funding_transfer_count: number;
+}
+
+interface FundingTransferResponse {
+  accounts: FundingTransferAccount[];
+}
+
 // Helper function to convert month number to month abbreviation
 const getMonthAbbreviation = (month: string | number): string => {
   const monthStr = String(month);
@@ -179,10 +212,196 @@ function ReconciliationRowComponent({ data }: { data: ReconciliationRow }) {
   const [selectedAccountIndex, setSelectedAccountIndex] = useState(0);
   const [isAccountDropdownOpen, setIsAccountDropdownOpen] = useState(false);
   const [isBSIModalOpen, setIsBSIModalOpen] = useState(false);
+  const [bsiData, setBsiData] = useState<BSIAnalysisData | null>(null);
+  const [bsiLoading, setBsiLoading] = useState(false);
+  const [bsiError, setBsiError] = useState<string | null>(null);
+  const [fundingTransferCount, setFundingTransferCount] = useState<number | null>(null);
 
   // Get the currently selected account
   const selectedAccount = data.accounts[selectedAccountIndex] || data.accounts[0];
   const hasMultipleAccounts = data.accounts.length > 1;
+
+  // Extract case ID from filename or case_id field (remove everything before "Case")
+  const extractCaseId = (filename: string, caseIdField?: string): string | null => {
+    // Try filename first - match "Case" followed by digits (case-insensitive)
+    let caseMatch = filename.match(/Case(\d+)/i);
+    if (caseMatch) {
+      // Return with proper capitalization
+      return 'Case' + caseMatch[1];
+    }
+    
+    // Try case_id field as fallback
+    if (caseIdField) {
+      caseMatch = caseIdField.match(/Case(\d+)/i);
+      if (caseMatch) {
+        return 'Case' + caseMatch[1];
+      }
+    }
+    
+    // Last resort: try to find any number pattern that might be a case ID
+    // This handles formats like "101_parsing_result" -> "Case101"
+    const numberMatch = filename.match(/\b(\d{2,3})\b/);
+    if (numberMatch) {
+      console.warn(`No "Case" prefix found in filename "${filename}", using number: ${numberMatch[1]}`);
+      return 'Case' + numberMatch[1];
+    }
+    
+    return null;
+  };
+
+  // Fetch BSI analysis data when modal opens
+  useEffect(() => {
+    const fetchBSIData = async () => {
+      if (!isBSIModalOpen) {
+        return;
+      }
+
+      const caseId = extractCaseId(data.filename, data.case_id);
+      console.log('Filename:', data.filename);
+      console.log('Case ID Field:', data.case_id);
+      console.log('Extracted Case ID:', caseId);
+      
+      if (!caseId) {
+        setBsiError(`Could not extract case ID from filename: ${data.filename} or case_id: ${data.case_id}`);
+        return;
+      }
+
+      setBsiLoading(true);
+      setBsiError(null);
+
+      try {
+        const response = await fetch(`/api/fetch-bsi-analysis?caseId=${caseId}`);
+        
+        if (!response.ok) {
+          const errorData = await response.json();
+          console.error('API Error:', errorData);
+          // Show short error message in UI, full details in console
+          throw new Error('Not Found');
+        }
+
+        const result = await response.json();
+        const bsiResponse: BSIAnalysisResponse = result.data;
+
+        const bsiAccounts = bsiResponse.parsed_json.accounts;
+        console.log('BSI Response accounts:', bsiAccounts.map(a => a.account_number));
+        console.log('Looking for account:', selectedAccount.account_number);
+
+        // If BSI has only one account, use it directly (common case)
+        if (bsiAccounts.length === 1) {
+          console.log('Single account in BSI, using it directly:', bsiAccounts[0].account_number);
+          setBsiData(bsiAccounts[0].summary_metrics);
+          return;
+        }
+
+        // Find the matching account in BSI data based on account number
+        // Normalize account numbers by removing spaces, dashes, and leading zeros for comparison
+        const normalizeAccountNumber = (acc: string) => acc.replace(/[\s\-]/g, '').replace(/^0+/, '');
+        const normalizedSearchAccount = normalizeAccountNumber(selectedAccount.account_number);
+        
+        let matchingAccount = bsiAccounts.find(
+          (acc) => {
+            const normalizedAcc = normalizeAccountNumber(acc.account_number);
+            return normalizedAcc === normalizedSearchAccount || acc.account_number === selectedAccount.account_number;
+          }
+        );
+
+        // Fallback: Try partial matching (last 6 digits)
+        if (!matchingAccount) {
+          const last6Digits = selectedAccount.account_number.slice(-6);
+          matchingAccount = bsiAccounts.find(
+            (acc) => acc.account_number.endsWith(last6Digits)
+          );
+          if (matchingAccount) {
+            console.log('Matched by last 6 digits:', matchingAccount.account_number);
+          }
+        }
+
+        // Fallback: Try matching by account index (same position in array)
+        if (!matchingAccount && selectedAccountIndex < bsiAccounts.length) {
+          matchingAccount = bsiAccounts[selectedAccountIndex];
+          console.log('Matched by index position:', matchingAccount.account_number);
+        }
+
+        if (matchingAccount) {
+          console.log('Matched account:', matchingAccount.account_number);
+          setBsiData(matchingAccount.summary_metrics);
+        } else {
+          console.log('No match found. Available accounts:', bsiAccounts.map(a => a.account_number));
+          // Use first account as last resort
+          if (bsiAccounts.length > 0) {
+            console.log('Using first available account as fallback');
+            setBsiData(bsiAccounts[0].summary_metrics);
+          } else {
+            setBsiError(`No accounts found in BSI analysis`);
+          }
+        }
+      } catch (err) {
+        setBsiError(err instanceof Error ? err.message : 'Failed to fetch BSI analysis data');
+      } finally {
+        setBsiLoading(false);
+      }
+    };
+
+    fetchBSIData();
+  }, [isBSIModalOpen, data.filename, data.case_id, selectedAccount.account_number, selectedAccountIndex]);
+
+  // Fetch Funding Transfer Deposit data when modal opens
+  useEffect(() => {
+    const fetchFundingTransferData = async () => {
+      if (!isBSIModalOpen) {
+        return;
+      }
+
+      const caseId = extractCaseId(data.filename, data.case_id);
+      if (!caseId) {
+        return;
+      }
+
+      try {
+        const response = await fetch(`/api/fetch-funding-transfer?caseId=${caseId}`);
+        
+        if (!response.ok) {
+          console.error('Funding transfer API error');
+          setFundingTransferCount(0);
+          return;
+        }
+
+        const result = await response.json();
+        const ftResponse: FundingTransferResponse = result.data;
+
+        // Find matching account
+        const normalizeAccountNumber = (acc: string) => acc.replace(/[\s\-]/g, '').replace(/^0+/, '');
+        const normalizedSearchAccount = normalizeAccountNumber(selectedAccount.account_number);
+        
+        let matchingAccount = ftResponse.accounts.find(
+          (acc) => {
+            const normalizedAcc = normalizeAccountNumber(acc.account_number);
+            return normalizedAcc === normalizedSearchAccount || acc.account_number === selectedAccount.account_number;
+          }
+        );
+
+        // Fallback: use first account or index matching
+        if (!matchingAccount && ftResponse.accounts.length === 1) {
+          matchingAccount = ftResponse.accounts[0];
+        } else if (!matchingAccount && selectedAccountIndex < ftResponse.accounts.length) {
+          matchingAccount = ftResponse.accounts[selectedAccountIndex];
+        } else if (!matchingAccount && ftResponse.accounts.length > 0) {
+          matchingAccount = ftResponse.accounts[0];
+        }
+
+        if (matchingAccount) {
+          setFundingTransferCount(matchingAccount.funding_transfer_count);
+        } else {
+          setFundingTransferCount(0);
+        }
+      } catch (err) {
+        console.error('Error fetching funding transfer data:', err);
+        setFundingTransferCount(0);
+      }
+    };
+
+    fetchFundingTransferData();
+  }, [isBSIModalOpen, data.filename, data.case_id, selectedAccount.account_number, selectedAccountIndex]);
 
   // Calculate difference for the selected account hii
   const calculateDifference = (account: MappedAccount): number => {
@@ -526,29 +745,46 @@ function ReconciliationRowComponent({ data }: { data: ReconciliationRow }) {
 
             {/* Two Cards Container */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              {/* Information 1 Card - Disabled with warning */}
-              <div className="relative bg-gradient-to-br from-gray-100 to-gray-200 rounded-xl p-5 border border-gray-300 shadow-sm opacity-60">
-                {/* Warning Banner */}
-                <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-green-500 text-white text-xs font-medium px-3 py-1 rounded-full whitespace-nowrap">
-                  We are working on these numbers
-                </div>
-                <div className="space-y-4 pointer-events-none">
+              {/* Information 1 Card - MCA Data from BSI Analysis */}
+              <div className={`relative bg-gradient-to-br from-gray-100 to-gray-200 rounded-xl p-5 border border-gray-300 shadow-sm ${bsiLoading || bsiError || !bsiData ? 'opacity-60' : 'opacity-100'}`}>
+                {/* Status Banner */}
+                {bsiLoading && (
+                  <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-blue-500 text-white text-xs font-medium px-3 py-1 rounded-full whitespace-nowrap">
+                    Loading MCA data...
+                  </div>
+                )}
+                {bsiError && (
+                  <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-red-500 text-white text-xs font-medium px-3 py-1 rounded-full whitespace-nowrap">
+                    {bsiError}
+                  </div>
+                )}
+                {!bsiLoading && !bsiError && !bsiData && (
+                  <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-green-500 text-white text-xs font-medium px-3 py-1 rounded-full whitespace-nowrap">
+                    We are working on these numbers
+                  </div>
+                )}
+                {!bsiLoading && !bsiError && bsiData && (
+                  <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-green-500 text-white text-xs font-medium px-3 py-1 rounded-full whitespace-nowrap">
+                    MCA Data Loaded
+                  </div>
+                )}
+                <div className={`space-y-4 ${bsiData ? '' : 'pointer-events-none'}`}>
                   {/* Row 1: MCA Deposits + Funding Transfer Deposit */}
                   <div className="flex gap-4">
                     <div className="flex-1 flex flex-col">
-                      <span className="text-xs uppercase tracking-wide text-gray-400 font-medium">
+                      <span className={`text-xs uppercase tracking-wide ${bsiData ? 'text-gray-500' : 'text-gray-400'} font-medium`}>
                         MCA Deposits
                       </span>
-                      <span className="text-lg font-semibold text-gray-400 mt-1">
-                        {formatCurrency(0)}
+                      <span className={`text-lg font-semibold ${bsiData ? 'text-gray-800' : 'text-gray-400'} mt-1`}>
+                        {bsiData ? bsiData.mca_deposit_count : 0}
                       </span>
                     </div>
                     <div className="flex-1 flex flex-col">
-                      <span className="text-xs uppercase tracking-wide text-gray-400 font-medium">
+                      <span className={`text-xs uppercase tracking-wide ${fundingTransferCount !== null ? 'text-gray-500' : 'text-gray-400'} font-medium`}>
                         Funding Transfer Deposit
                       </span>
-                      <span className="text-lg font-semibold text-gray-400 mt-1">
-                        {formatCurrency(0)}
+                      <span className={`text-lg font-semibold ${fundingTransferCount !== null ? 'text-gray-800' : 'text-gray-400'} mt-1`}>
+                        {fundingTransferCount !== null ? fundingTransferCount : 0}
                       </span>
                     </div>
                   </div>
@@ -556,19 +792,19 @@ function ReconciliationRowComponent({ data }: { data: ReconciliationRow }) {
                   {/* Row 2: MCA Withdrawals + Avg Daily Balance */}
                   <div className="flex gap-4">
                     <div className="flex-1 flex flex-col">
-                      <span className="text-xs uppercase tracking-wide text-gray-400 font-medium">
+                      <span className={`text-xs uppercase tracking-wide ${bsiData ? 'text-gray-500' : 'text-gray-400'} font-medium`}>
                         MCA Withdrawals
                       </span>
-                      <span className="text-lg font-semibold text-gray-400 mt-1">
-                        {formatCurrency(selectedAccount?.mca_withdrawals || 0)}
+                      <span className={`text-lg font-semibold ${bsiData ? 'text-gray-800' : 'text-gray-400'} mt-1`}>
+                        {bsiData ? bsiData.mca_withdrawal_count : 0}
                       </span>
                     </div>
-                    <div className="flex-1 flex flex-col">
+                    <div className="flex-1 flex flex-col opacity-50 pointer-events-none">
                       <span className="text-xs uppercase tracking-wide text-gray-400 font-medium">
                         Avg Daily Balance (Calculated)
                       </span>
                       <span className="text-lg font-semibold text-gray-400 mt-1">
-                        {formatCurrency(selectedAccount?.average_balance || 0)}
+                        {formatCurrency(0)}
                       </span>
                     </div>
                   </div>
