@@ -1210,7 +1210,7 @@ export default function Home() {
       try {
         setLoading(true);
         setError(null);
-        const response = await fetch('/api/fetch-cosmos'); // Local JSON from /jsons (no external Cosmos/ADLS)
+        const response = await fetch('/api/fetch-local'); // Local JSON from /jsons folder
         
         if (!response.ok) {
           const errorData = await response.json();
