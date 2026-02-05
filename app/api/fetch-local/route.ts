@@ -259,120 +259,85 @@ function transformLocalCaseFile(data: LocalCaseFile, filename: string): LocalSta
 
         const avg_daily_balance = account.account_summary.avg_daily_balance ?? 0;
 
-        // Build per-transaction classifications from BSI analyzer data
-        const classifiedTransactions: TransactionItem[] = [];
+        // Build list of BSI entries (date, amount, type, classification) to match against parsing transactions.
+        // We keep the full transaction list from parsing_agent_result and only assign classifications from BSI.
+        const bsiEntries: Array<{ date: string; amount: number; type: string; classification: string }> = [];
 
-        const pushTransactions = (
+        const addBsiEntries = (
           items:
-            | Array<{ date?: string; description?: string; amount?: number; type?: string; non_true_revenue?: number }>
+            | Array<{ date?: string; amount?: number; type?: string; non_true_revenue?: number }>
             | undefined,
-          baseLabel?: string,
-          options?: { alwaysFunding?: boolean; checkNonTrueRevenue?: boolean; defaultType?: 'Credit' | 'Debit' }
+          classification: string,
+          defaultType: 'Credit' | 'Debit'
         ) => {
           if (!items || !Array.isArray(items)) return;
           for (const t of items) {
-            const labels: string[] = [];
-            if (baseLabel) {
-              labels.push(baseLabel);
-            }
-            if (options?.alwaysFunding) {
-              if (!labels.includes('Funding Transfer Deposit')) {
-                labels.push('Funding Transfer Deposit');
-              }
-            }
-            if (options?.checkNonTrueRevenue && t.non_true_revenue === 1) {
-              if (!labels.includes('Funding Transfer Deposit')) {
-                labels.push('Funding Transfer Deposit');
-              }
-            }
-            if (labels.length === 0) {
-              labels.push('Other transaction');
-            }
-
-            const type =
-              t.type === 'Credit' || t.type === 'Debit'
-                ? t.type
-                : options?.defaultType ?? 'Debit';
-
-            classifiedTransactions.push({
+            const type = t.type === 'Credit' || t.type === 'Debit' ? t.type : defaultType;
+            const label = classification || 'Other transaction';
+            bsiEntries.push({
               date: t.date ?? '',
-              description: (t as any).description ?? '',
               amount: t.amount ?? 0,
               type,
-              category: '',
-              classification: labels.join(', '),
+              classification: label,
             });
           }
         };
 
-        // MCA deposits: always MCA Deposit + Funding Transfer Deposit
-        pushTransactions(bsiAcc.mca_deposit, 'Mca Deposit', {
-          alwaysFunding: true,
-          checkNonTrueRevenue: true,
-          defaultType: 'Credit',
-        });
+        const addBsiEntriesByNonTrueRevenue = (
+          items:
+            | Array<{ date?: string; amount?: number; type?: string; non_true_revenue?: number }>
+            | undefined,
+          defaultType: 'Credit' | 'Debit'
+        ) => {
+          if (!items || !Array.isArray(items)) return;
+          for (const t of items) {
+            const type = t.type === 'Credit' || t.type === 'Debit' ? t.type : defaultType;
+            const label = t.non_true_revenue === 1 ? fundingLabel : otherLabel;
+            bsiEntries.push({
+              date: t.date ?? '',
+              amount: t.amount ?? 0,
+              type,
+              classification: label,
+            });
+          }
+        };
 
-        // MCA withdrawals
-        pushTransactions(
-          bsiAcc.mca_withdrawal?.map((t) => ({ ...t, non_true_revenue: 0 })),
-          'Mca Withdrawal',
-          { defaultType: 'Debit' }
-        );
+        const fundingLabel = 'Funding Transfer Deposit';
+        const otherLabel = 'Other transaction';
 
-        // Returned items, overdrafts, and other withdrawals/deposits:
-        // mark as Funding Transfer Deposit when non_true_revenue === 1, else Other transaction
-        pushTransactions(
-          bsiAcc.returned_items as Array<{
-            date?: string;
-            description?: string;
-            amount?: number;
-            type?: string;
-            non_true_revenue?: number;
-          }>,
-          undefined,
-          { checkNonTrueRevenue: true }
+        addBsiEntries(bsiAcc.mca_deposit, 'Mca Deposit, ' + fundingLabel, 'Credit');
+        addBsiEntries(bsiAcc.mca_withdrawal, 'Mca Withdrawal', 'Debit');
+        addBsiEntriesByNonTrueRevenue(
+          bsiAcc.returned_items as Array<{ date?: string; amount?: number; type?: string; non_true_revenue?: number }>,
+          'Debit'
         );
-        pushTransactions(
-          bsiAcc.overdrafts as Array<{
-            date?: string;
-            description?: string;
-            amount?: number;
-            type?: string;
-            non_true_revenue?: number;
-          }>,
-          undefined,
-          { checkNonTrueRevenue: true }
+        addBsiEntries(
+          bsiAcc.overdrafts as Array<{ date?: string; amount?: number; type?: string }>,
+          otherLabel,
+          'Debit'
         );
-        pushTransactions(bsiAcc.internal_transfer_deposit, undefined, {
-          checkNonTrueRevenue: true,
-          defaultType: 'Credit',
-        });
-        pushTransactions(bsiAcc.other_transfer_deposit, undefined, {
-          checkNonTrueRevenue: true,
-          defaultType: 'Credit',
-        });
-        pushTransactions(bsiAcc.standard_deposit, undefined, {
-          checkNonTrueRevenue: true,
-          defaultType: 'Credit',
-        });
-        pushTransactions(
-          bsiAcc.internal_transfer_withdrawal?.map((t) => ({ ...t, non_true_revenue: 0 })),
-          undefined,
-          { defaultType: 'Debit' }
-        );
-        pushTransactions(
-          bsiAcc.other_transfer_withdrawal?.map((t) => ({ ...t, non_true_revenue: 0 })),
-          undefined,
-          { defaultType: 'Debit' }
-        );
-        pushTransactions(
-          bsiAcc.standard_withdrawal?.map((t) => ({ ...t, non_true_revenue: 0 })),
-          undefined,
-          { defaultType: 'Debit' }
-        );
+        addBsiEntriesByNonTrueRevenue(bsiAcc.internal_transfer_deposit, 'Credit');
+        addBsiEntriesByNonTrueRevenue(bsiAcc.other_transfer_deposit, 'Credit');
+        addBsiEntriesByNonTrueRevenue(bsiAcc.standard_deposit, 'Credit');
+        addBsiEntries(bsiAcc.internal_transfer_withdrawal, otherLabel, 'Debit');
+        addBsiEntries(bsiAcc.other_transfer_withdrawal, otherLabel, 'Debit');
+        addBsiEntries(bsiAcc.standard_withdrawal, otherLabel, 'Debit');
 
-        if (classifiedTransactions.length > 0) {
-          account.transactions = classifiedTransactions;
+        // Assign classification to each parsing transaction by matching (date, amount, type). One BSI entry matches at most one transaction.
+        const txs = account.transactions ?? [];
+        for (const tx of txs) {
+          const date = tx.date ?? '';
+          const amount = tx.amount ?? 0;
+          const type = tx.type ?? '';
+          const idx = bsiEntries.findIndex(
+            (e) => String(e.date) === String(date) && Number(e.amount) === Number(amount) && e.type === type
+          );
+          if (idx >= 0) {
+            (tx as TransactionItem).classification = bsiEntries[idx].classification;
+            bsiEntries.splice(idx, 1);
+          } else {
+            (tx as TransactionItem).classification = otherLabel;
+          }
         }
 
         bsiEnhancedAccounts[accountNumber] = {
