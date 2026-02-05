@@ -36,6 +36,7 @@ export interface LocalStatementData {
         amount: number;
         type: 'Credit' | 'Debit';
         category: string;
+        classification?: string;
       }>;
       calculated_deposits_count?: number;
       calculated_withdrawals_count?: number;
@@ -257,6 +258,122 @@ function transformLocalCaseFile(data: LocalCaseFile, filename: string): LocalSta
           (bsiAcc.standard_withdrawal?.length ?? 0);
 
         const avg_daily_balance = account.account_summary.avg_daily_balance ?? 0;
+
+        // Build per-transaction classifications from BSI analyzer data
+        const classifiedTransactions: TransactionItem[] = [];
+
+        const pushTransactions = (
+          items:
+            | Array<{ date?: string; description?: string; amount?: number; type?: string; non_true_revenue?: number }>
+            | undefined,
+          baseLabel?: string,
+          options?: { alwaysFunding?: boolean; checkNonTrueRevenue?: boolean; defaultType?: 'Credit' | 'Debit' }
+        ) => {
+          if (!items || !Array.isArray(items)) return;
+          for (const t of items) {
+            const labels: string[] = [];
+            if (baseLabel) {
+              labels.push(baseLabel);
+            }
+            if (options?.alwaysFunding) {
+              if (!labels.includes('Funding Transfer Deposit')) {
+                labels.push('Funding Transfer Deposit');
+              }
+            }
+            if (options?.checkNonTrueRevenue && t.non_true_revenue === 1) {
+              if (!labels.includes('Funding Transfer Deposit')) {
+                labels.push('Funding Transfer Deposit');
+              }
+            }
+            if (labels.length === 0) {
+              labels.push('Other transaction');
+            }
+
+            const type =
+              t.type === 'Credit' || t.type === 'Debit'
+                ? t.type
+                : options?.defaultType ?? 'Debit';
+
+            classifiedTransactions.push({
+              date: t.date ?? '',
+              description: (t as any).description ?? '',
+              amount: t.amount ?? 0,
+              type,
+              category: '',
+              classification: labels.join(', '),
+            });
+          }
+        };
+
+        // MCA deposits: always MCA Deposit + Funding Transfer Deposit
+        pushTransactions(bsiAcc.mca_deposit, 'Mca Deposit', {
+          alwaysFunding: true,
+          checkNonTrueRevenue: true,
+          defaultType: 'Credit',
+        });
+
+        // MCA withdrawals
+        pushTransactions(
+          bsiAcc.mca_withdrawal?.map((t) => ({ ...t, non_true_revenue: 0 })),
+          'Mca Withdrawal',
+          { defaultType: 'Debit' }
+        );
+
+        // Returned items, overdrafts, and other withdrawals/deposits:
+        // mark as Funding Transfer Deposit when non_true_revenue === 1, else Other transaction
+        pushTransactions(
+          bsiAcc.returned_items as Array<{
+            date?: string;
+            description?: string;
+            amount?: number;
+            type?: string;
+            non_true_revenue?: number;
+          }>,
+          undefined,
+          { checkNonTrueRevenue: true }
+        );
+        pushTransactions(
+          bsiAcc.overdrafts as Array<{
+            date?: string;
+            description?: string;
+            amount?: number;
+            type?: string;
+            non_true_revenue?: number;
+          }>,
+          undefined,
+          { checkNonTrueRevenue: true }
+        );
+        pushTransactions(bsiAcc.internal_transfer_deposit, undefined, {
+          checkNonTrueRevenue: true,
+          defaultType: 'Credit',
+        });
+        pushTransactions(bsiAcc.other_transfer_deposit, undefined, {
+          checkNonTrueRevenue: true,
+          defaultType: 'Credit',
+        });
+        pushTransactions(bsiAcc.standard_deposit, undefined, {
+          checkNonTrueRevenue: true,
+          defaultType: 'Credit',
+        });
+        pushTransactions(
+          bsiAcc.internal_transfer_withdrawal?.map((t) => ({ ...t, non_true_revenue: 0 })),
+          undefined,
+          { defaultType: 'Debit' }
+        );
+        pushTransactions(
+          bsiAcc.other_transfer_withdrawal?.map((t) => ({ ...t, non_true_revenue: 0 })),
+          undefined,
+          { defaultType: 'Debit' }
+        );
+        pushTransactions(
+          bsiAcc.standard_withdrawal?.map((t) => ({ ...t, non_true_revenue: 0 })),
+          undefined,
+          { defaultType: 'Debit' }
+        );
+
+        if (classifiedTransactions.length > 0) {
+          account.transactions = classifiedTransactions;
+        }
 
         bsiEnhancedAccounts[accountNumber] = {
           mca_deposit_count,

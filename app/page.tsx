@@ -382,7 +382,6 @@ function ReconciliationRowComponent({ data }: { data: ReconciliationRow }) {
   const [bsiLoading, setBsiLoading] = useState(false);
   const [bsiError, setBsiError] = useState<string | null>(null);
   const [fundingTransferAmount, setFundingTransferAmount] = useState<number | null>(null);
-  const [transactionClassifications, setTransactionClassifications] = useState<{ [key: string]: string }>({});
   
   // BSI Enhanced data derived from local JSON
   const [bsiEnhancedData, setBsiEnhancedData] = useState<BSIEnhancedDetail | null>(null);
@@ -1129,7 +1128,6 @@ function ReconciliationRowComponent({ data }: { data: ReconciliationRow }) {
                           </th>
                           <th className="px-4 py-3 text-right text-xs font-semibold text-gray-600 uppercase tracking-wider">Amount</th>
                           <th className="px-4 py-3 text-center text-xs font-semibold text-gray-600 uppercase tracking-wider">Classification</th>
-                          <th className="px-4 py-3 text-center text-xs font-semibold text-gray-600 uppercase tracking-wider">Actions</th>
                         </tr>
                       </thead>
                       <tbody className="divide-y divide-gray-100">
@@ -1137,10 +1135,8 @@ function ReconciliationRowComponent({ data }: { data: ReconciliationRow }) {
                           .map((tx, originalIndex) => ({ tx, originalIndex }))
                           .filter(({ tx }) => transactionTypeFilter === 'all' || tx.type === transactionTypeFilter)
                           .map(({ tx, originalIndex }) => {
-                          const txKey = `${selectedAccount.account_number}-${originalIndex}`;
                           const isCredit = tx.type === 'Credit';
-                          const defaultClassification = isCredit ? 'Other Deposit' : 'Other Withdrawal';
-                          const currentClassification = transactionClassifications[txKey] || tx.classification || defaultClassification;
+                          const classification = tx.classification || 'Other transaction';
                           return (
                             <tr key={originalIndex} className="hover:bg-gray-50 transition-colors">
                               <td className="px-4 py-3 text-sm text-gray-700 whitespace-nowrap">{tx.date}</td>
@@ -1162,43 +1158,12 @@ function ReconciliationRowComponent({ data }: { data: ReconciliationRow }) {
                                 {formatCurrency(tx.amount)}
                               </td>
                               <td className="px-4 py-3 text-center">
-                                <select
-                                  value={currentClassification}
-                                  onChange={(e) => {
-                                    setTransactionClassifications(prev => ({
-                                      ...prev,
-                                      [txKey]: e.target.value
-                                    }));
-                                  }}
-                                  className="px-3 py-1.5 text-sm border border-gray-300 rounded-md bg-white text-gray-700 cursor-pointer focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                                <span
+                                  className="inline-flex items-center justify-center px-3 py-1 text-xs font-semibold rounded-full bg-blue-50 text-blue-700"
+                                  title={classification}
                                 >
-                                  {isCredit ? (
-                                    <>
-                                      <option value="MCA Deposit">MCA Deposit</option>
-                                      <option value="Funding Transfer">Funding Transfer</option>
-                                      <option value="Other Deposit">Other Deposit</option>
-                                    </>
-                                  ) : (
-                                    <>
-                                      <option value="MCA Withdrawal">MCA Withdrawal</option>
-                                      <option value="Other Withdrawal">Other Withdrawal</option>
-                                    </>
-                                  )}
-                                </select>
-                              </td>
-                              <td className="px-4 py-3 text-center">
-                                <button
-                                  onClick={() => {
-                                    // Save classification action
-                                    console.log(`Saving classification for ${txKey}: ${currentClassification}`);
-                                  }}
-                                  className="px-4 py-1.5 bg-blue-600 text-white text-sm font-medium rounded-md hover:bg-blue-700 transition-colors cursor-pointer flex items-center gap-1.5 mx-auto"
-                                >
-                                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7H5a2 2 0 00-2 2v9a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-3m-1 4l-3 3m0 0l-3-3m3 3V4" />
-                                  </svg>
-                                  Save
-                                </button>
+                                  {classification}
+                                </span>
                               </td>
                             </tr>
                           );
