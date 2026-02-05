@@ -949,9 +949,66 @@ function ReconciliationRowComponent({ data }: { data: ReconciliationRow }) {
             </button>
 
             {/* Modal Header */}
-            <div className="text-left mb-6">
-              <h2 className="text-2xl font-bold text-gray-800">Transaction Intelligence</h2>
-              <p className="text-sm text-gray-500 mt-1">{selectedAccount?.account_number || ''}</p>
+            <div className="text-left mb-6 flex items-start justify-between gap-4">
+              <div>
+                <h2 className="text-2xl font-bold text-gray-800">Transaction Intelligence</h2>
+                <p className="text-sm text-gray-500 mt-1">{selectedAccount?.account_number || ''}</p>
+              </div>
+              <button
+                type="button"
+                onClick={() => {
+                  const escapeCsv = (v: string) => {
+                    const s = String(v ?? '');
+                    if (/[",\r\n]/.test(s)) return `"${s.replace(/"/g, '""')}"`;
+                    return s;
+                  };
+                  const rows: string[] = [];
+                  rows.push('Transaction Intelligence - Case Export');
+                  rows.push('');
+                  rows.push(['Case ID', data.case_id || ''].map(escapeCsv).join(','));
+                  rows.push(['Filename', data.filename || ''].map(escapeCsv).join(','));
+                  rows.push(['Bank Name', data.bank_name || ''].map(escapeCsv).join(','));
+                  rows.push(['Month / Year', data.month_year || ''].map(escapeCsv).join(','));
+                  rows.push(['Account Number', selectedAccount?.account_number || ''].map(escapeCsv).join(','));
+                  rows.push(['Account Type', selectedAccount?.account_type || ''].map(escapeCsv).join(','));
+                  rows.push(['Starting Balance', formatCurrency(selectedAccount?.starting_balance ?? 0)].map(escapeCsv).join(','));
+                  rows.push(['Ending Balance', formatCurrency(selectedAccount?.ending_balance ?? 0)].map(escapeCsv).join(','));
+                  rows.push(['Total Credits', formatCurrency(selectedAccount?.total_credits ?? 0)].map(escapeCsv).join(','));
+                  rows.push(['Total Debits', formatCurrency(selectedAccount?.total_debits ?? 0)].map(escapeCsv).join(','));
+                  if (bsiEnhancedData) {
+                    rows.push(['MCA Deposit Count', String(bsiEnhancedData.mca_deposit_count)].map(escapeCsv).join(','));
+                    rows.push(['MCA Withdrawal Count', String(bsiEnhancedData.mca_withdrawal_count)].map(escapeCsv).join(','));
+                    rows.push(['Funding / Transfer Deposits', formatCurrency(bsiEnhancedData.funding_or_transfer_deposits)].map(escapeCsv).join(','));
+                    rows.push(['Avg Daily Balance', formatCurrency(bsiEnhancedData.avg_daily_balance)].map(escapeCsv).join(','));
+                    rows.push(['Return Items', String(bsiEnhancedData.return_items)].map(escapeCsv).join(','));
+                    rows.push(['Overdraft Days', String(bsiEnhancedData.overdraft_days)].map(escapeCsv).join(','));
+                  }
+                  rows.push('');
+                  rows.push(['Date', 'Description', 'Type', 'Amount', 'Classification'].map(escapeCsv).join(','));
+                  const transactions = selectedAccount?.transactions ?? [];
+                  for (const tx of transactions) {
+                    const classification = tx.classification || 'Other transaction';
+                    rows.push(
+                      [tx.date, tx.description, tx.type, formatCurrency(tx.amount), classification].map(escapeCsv).join(',')
+                    );
+                  }
+                  const csv = rows.join('\r\n');
+                  const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+                  const url = URL.createObjectURL(blob);
+                  const a = document.createElement('a');
+                  a.href = url;
+                  a.download = `Transaction_Intelligence_${(data.filename || data.case_id || 'export').replace(/[^a-zA-Z0-9_-]/g, '_')}_${selectedAccount?.account_number || 'account'}.csv`;
+                  a.click();
+                  URL.revokeObjectURL(url);
+                }}
+                className="flex items-center gap-2 px-3 py-2 rounded-lg text-gray-600 hover:bg-gray-100 hover:text-gray-800 transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500 mr-8"
+                title="Download case data (CSV)"
+              >
+                <svg className="w-5 h-5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                </svg>
+                <span className="text-sm font-medium whitespace-nowrap">Download Summary</span>
+              </button>
             </div>
 
             {/* Two Cards Container */}

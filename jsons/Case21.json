@@ -1,0 +1,1517 @@
+{
+  "document_name": "Case21.pdf",
+  "pipeline_status": "completed",
+  "processing_metadata": {
+    "start_time": "2026-02-04T15:02:04.831113",
+    "end_time": "2026-02-04T15:05:29.745453",
+    "parsing_time_seconds": 113.109829,
+    "bsi_time_seconds": 91.79389,
+    "total_time_seconds": 204.90371900000002
+  },
+  "parsing_agent_result": {
+    "agent_name": "parsing_agent",
+    "processing_status": "success",
+    "start_time": "2026-02-04T15:02:04.834419",
+    "end_time": "2026-02-04T15:03:57.944004",
+    "parsed_json": {
+      "bank_statement_information": {
+        "bank_name": "Wells Fargo",
+        "account_holder": "LANGSTRAND CONTRACTING INC",
+        "statement_start_date": "11/01/2025",
+        "statement_end_date": "11/30/2025",
+        "n_days": 30,
+        "n_month": [
+          11
+        ],
+        "business_address": "55 SHELBY DR STE 13 SEDONA AZ 86336-5300"
+      },
+      "accounts": [
+        {
+          "account_number": "6800996552",
+          "account_type": "Initiate Business Checking",
+          "account_summary": {
+            "beginning_balance": 7325.17,
+            "ending_balance": 1676.56,
+            "total_deposits": 122598.05,
+            "total_withdrawals": 128246.66,
+            "total_deposits_count": null,
+            "total_withdrawals_count": null,
+            "avg_daily_balance": 8408.0,
+            "overdraft_days": 0
+          },
+          "transactions": [
+            {
+              "date": "11/03/2025",
+              "description": "Recurring Payment authorized on 11/02 Apple.Com/Bill 866-712-7753 CA S345306286703862 Card 7551",
+              "amount": 3.2,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "Business to Business ACH Debit - American Express ACH Pmt 251103 M8172 Chris Langstrand",
+              "amount": 400.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "Uns Gas Corporat Snap Pmt 251030 0026307142 Langstrand Contracting",
+              "amount": 69.56,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "Check 4533",
+              "amount": 146.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "Stewarttitle Phx ACH Xfer 110325 50005623610055 Christopher Louis Lang",
+              "amount": 500.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/04/2025",
+              "description": "Mobile Deposit: Ref Number : 415040754413",
+              "amount": 4000.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/04/2025",
+              "description": "Citi Card Online Payment 251103 431845868999754 Christopher Langstrand",
+              "amount": 600.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/04/2025",
+              "description": "Business to Business ACH Debit - Capital on Tap G5Azgcm 251104 Px3V Langstrand Contracting",
+              "amount": 817.39,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/05/2025",
+              "description": "Money Transfer authorized on 11/05 From Ondeck 888-269-4246 NY S585309616814028 Card 9147",
+              "amount": 3500.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 0
+            },
+            {
+              "date": "11/05/2025",
+              "description": "Zelle to Langstrand Chris on 11/05 Ref # Wfct0Zgc34Cl",
+              "amount": 6075.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/05/2025",
+              "description": "Zelle to Langstrand Chris on 11/05 Ref # Wfct0Zgc3B2W",
+              "amount": 1.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/06/2025",
+              "description": "Withdrawal Made In A Branch/Store",
+              "amount": 6034.96,
+              "type": "Debit",
+              "category": "ATM/Cash Withdrawal"
+            },
+            {
+              "date": "11/06/2025",
+              "description": "Revenued Funding 251106 5091535 McAdraw: [1A931Bbd7F8Baf84]",
+              "amount": 2500.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/06/2025",
+              "description": "Online Transfer From Langstrand Contracting Inc Business Market Rate Savings xxxxxx4253 Ref #Ib0Vljkhdy on 11/06/25",
+              "amount": 100.0,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "11/06/2025",
+              "description": "Recurring Payment authorized on 11/05 Apple.Com/Bill 866-712-7753 CA S345309290964500 Card 7551",
+              "amount": 10.68,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/06/2025",
+              "description": "Online Transfer to Langstrand Contracting Inc Business Market Rate Savings xxxxxx4253 Ref #lb0VIc883F on 11/06/25",
+              "amount": 2600.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "11/06/2025",
+              "description": "Zelle to Newhall Micheal on 11/06 Ref # Wfct0Zghkkqn Draw",
+              "amount": 100.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/07/2025",
+              "description": "Ondeck Capital20 38888 251106 xxxxx9601 Langstrand Contracting Reference # 113024160077702",
+              "amount": 2083.91,
+              "type": "Debit",
+              "category": "Returned Item"
+            },
+            {
+              "date": "11/07/2025",
+              "description": "Itria Ventures C Vendor Pmt 251107 Trans#3060558 Langstrand Contracting",
+              "amount": 38800.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/07/2025",
+              "description": "Online Transfer From Langstrand Contracting Inc Business Market Rate Savings xxxxxx4253 Ref #IbOVIss6Fq on 11/07/25",
+              "amount": 11850.05,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "11/07/2025",
+              "description": "Online Transfer From Langstrand Contracting Inc Business Market Rate Savings xxxxxx4253 Ref #IbOVIvzx63 on 11/07/25",
+              "amount": 5000.0,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "11/07/2025",
+              "description": "Online Transfer to Langstrand Contracting Inc Business Market Rate Savings xxxxxx4253 Ref #lb0VIpttmb on 11/07/25",
+              "amount": 33850.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "11/07/2025",
+              "description": "Zelle to Scheflin Aspen on 11/07 Ref # Wfct0Zgjwc7Y",
+              "amount": 200.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/07/2025",
+              "description": "Deposited OR Cashed Check 3863",
+              "amount": 908.5,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/07/2025",
+              "description": "Zelle to Langstrand Chris on 11/07 Ref # Wfct0Zgklfqx",
+              "amount": 300.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/07/2025",
+              "description": "ATM Withdrawal authorized on 11/07 2201 W Hwy 89A Sedona AZ 0004236 ATM ID 4653L Card 9147",
+              "amount": 1000.0,
+              "type": "Debit",
+              "category": "ATM/Cash Withdrawal"
+            },
+            {
+              "date": "11/07/2025",
+              "description": "Business to Business ACH Debit - Intuit 75101778 Payroll 251107 15493981 Langstrand Contracting",
+              "amount": 438.55,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/07/2025",
+              "description": "Business to Business ACH Debit - Intuit 07895424 Tax 251107 15493981 Langstrand Contracting",
+              "amount": 456.35,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/07/2025",
+              "description": "Business to Business ACH Debit - Intuit 75101778 Payroll 251107 15493981 Langstrand Contracting",
+              "amount": 586.43,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/07/2025",
+              "description": "Business to Business ACH Debit - American Express ACH Pmt 251107 W6950 Chris Langstrand",
+              "amount": 500.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/07/2025",
+              "description": "Check 4537",
+              "amount": 2366.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Revenued Debit 251107 5091535 Collect:[8C3731F51A06Af26] Reference # 267090596143221",
+              "amount": 2758.92,
+              "type": "Debit",
+              "category": "Returned Item"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Online Transfer From Langstrand Contracting Inc Business Market Rate Savings xxxxxx4253 Ref #Ib0Vmsk6Xy on 11/10/25",
+              "amount": 5000.0,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Online Transfer From Langstrand Contracting Inc Business Market Rate Savings xxxxxx4253 Ref #Ib0Vmty2Lh on 11/10/25",
+              "amount": 5000.0,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Online Transfer From Langstrand Contracting Inc Business Market Rate Savings xxxxxx4253 Ref #Ib0Vmv3732 on 11/10/25",
+              "amount": 2500.0,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Citi Card Online Payment 251107 421849357646712 Christopher Langstrand",
+              "amount": 1017.88,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Barclaycard US Creditcard 1336216578 Christopher Langstrand",
+              "amount": 1548.53,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Business to Business ACH Debit - Capital One Mobile Pmt CA01A8159CC7707 Chris J Langstrand",
+              "amount": 520.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Business to Business ACH Debit - American Express ACH Pmt 251110 W3518 Chris Langstrand",
+              "amount": 6348.65,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Paypal Inst Xfer 251110 1046111748301 Langstrand Contracting",
+              "amount": 250.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Intuit 10430843 Deposit 251111 524771999350488 Langstrand Contracting",
+              "amount": 7694.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Bill Pay Home Depot on-Line Xxxxxxxxxxxx0254 on 11-12",
+              "amount": 100.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Bill Pay US Small Business Administration on-Line xxxxxx8104 on 11-12",
+              "amount": 300.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Bill Pay Credit One Bank on-Line Xxxxxxxxxxxx8914 on 11-12",
+              "amount": 300.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Online Transfer Ref #lb0Vngdqd9 to VISA Signature Card XXXXXXXXXXXxx9298 on 11/12/25",
+              "amount": 500.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Business to Business ACH Debit - Payroll Payroll 251112 15493981 Langstrand Contracting",
+              "amount": 550.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Business to Business ACH Debit - Payroll Payroll 251112 15493981 Langstrand Contracting",
+              "amount": 1800.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Citi Card Online Payment 251110 421851960938520 Christopher Langstrand",
+              "amount": 5000.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Business to Business ACH Debit - Intuit 20120413 Tran Fee 251111 524771999350488 Langstrand Contracting",
+              "amount": 39.5,
+              "type": "Debit",
+              "category": "Service Charges/Fees"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Amazon Corp Syf Paymnt Nov 12 604578117479100 Langstrandchris",
+              "amount": 950.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/13/2025",
+              "description": "Check 4512",
+              "amount": 5100.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/13/2025",
+              "description": "Recurring Payment authorized on 11/12 Apple.Com/Bill 866-712-7753 CA S585316326470939 Card 7551",
+              "amount": 10.68,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/13/2025",
+              "description": "Business to Business ACH Debit - Itria Venture Fr AP Payment 251113 Trans#3063802 Langstrand",
+              "amount": 1282.05,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/13/2025",
+              "description": "Check 4536",
+              "amount": 2917.55,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/14/2025",
+              "description": "Cashed Check 4539",
+              "amount": 1000.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/14/2025",
+              "description": "APS Electric Pmt Payments 251112 3940013527 Langstrand Contracting",
+              "amount": 233.47,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/14/2025",
+              "description": "Business to Business ACH Debit - Revenued Debit 251114 5091535 Langstrand Contracting",
+              "amount": 1213.93,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/14/2025",
+              "description": "Business to Business ACH Debit - Intuit 06261179 Tax 251114 15493981 Langstrand Contracting",
+              "amount": 265.33,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/14/2025",
+              "description": "Business to Business ACH Debit - Intuit 75521271 Payroll 251114 15493981 Langstrand Contracting",
+              "amount": 340.68,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/14/2025",
+              "description": "Business to Business ACH Debit - Intuit 75521271 Payroll 251114 15493981 Langstrand Contracting",
+              "amount": 572.76,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/14/2025",
+              "description": "Check 4535",
+              "amount": 344.58,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "Intuit 23983153 Deposit 251115 524771999350488 Langstrand Contracting",
+              "amount": 10000.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "Mobile Deposit : Ref Number :510170558483",
+              "amount": 3230.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "ATM Withdrawal authorized on 11/16 2201 W Hwy 89A Sedona AZ 0005945 ATM ID 4653L Card 7551",
+              "amount": 500.0,
+              "type": "Debit",
+              "category": "ATM/Cash Withdrawal"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "Check 4538",
+              "amount": 250.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "Business to Business ACH Debit - Intuit 33383823 Tran Fee 251115 524771999350488 Langstrand Contracting",
+              "amount": 20.0,
+              "type": "Debit",
+              "category": "Service Charges/Fees"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "Shell Mastercard Online Pmt 251114 631855441255198 Chris L Langstrand",
+              "amount": 1000.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "Business to Business ACH Debit - Ally Ally Paymt 251117 228127155860 Chris Langstrand",
+              "amount": 1273.15,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "Business to Business ACH Debit - American Express ACH Pmt 251117 W9760 Chris Langstrand",
+              "amount": 5000.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/18/2025",
+              "description": "Online Transfer From Langstrand Contracting Inc Business Market Rate Savings xxxxxx4253 Ref #lb0Vqp3Sgg on 11/18/25",
+              "amount": 2500.0,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "11/18/2025",
+              "description": "Business to Business ACH Debit - Payroll Payroll 251118 15493981 Langstrand Contracting",
+              "amount": 300.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/18/2025",
+              "description": "Business to Business ACH Debit - American Express ACH Pmt 251118 W6762 Chris Langstrand",
+              "amount": 3500.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/19/2025",
+              "description": "Intuit 32397973 Deposit 251119 524771999350488 Langstrand Contracting",
+              "amount": 5744.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/19/2025",
+              "description": "Business to Business ACH Debit - Intuit 41623113 Tran Fee 251119 524771999350488 Langstrand Contracting",
+              "amount": 20.0,
+              "type": "Debit",
+              "category": "Service Charges/Fees"
+            },
+            {
+              "date": "11/19/2025",
+              "description": "Business to Business ACH Debit - Payroll Payroll 251119 15493981 Langstrand Contracting",
+              "amount": 550.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/19/2025",
+              "description": "Home Depot Online Pmt 251118 621858810568346 Langstrand Contracting",
+              "amount": 3000.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/19/2025",
+              "description": "Business to Business ACH Debit - American Express ACH Pmt 251119 W9586 Chris Langstrand",
+              "amount": 5000.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/20/2025",
+              "description": "Mobile Deposit : Ref Number :514200655969",
+              "amount": 15000.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/20/2025",
+              "description": "Recurring Payment authorized on 11/19 Apple.Com/Bill 866-712-7753 CA S385323326824230 Card 7551",
+              "amount": 10.68,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/21/2025",
+              "description": "Business to Business ACH Debit - B2C Abs Fundi AP Payment 251120 Trans#3070239 Langstrand",
+              "amount": 1282.05,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/21/2025",
+              "description": "Zelle From Chris Langstrand on 11/21 Ref # Bacv3Cht6O3A",
+              "amount": 180.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "11/21/2025",
+              "description": "ATM Withdrawal authorized on 11/21 2201 W Hwy 89A Sedona AZ 0005259 ATM ID 0145H Card 9147",
+              "amount": 180.0,
+              "type": "Debit",
+              "category": "ATM/Cash Withdrawal"
+            },
+            {
+              "date": "11/21/2025",
+              "description": "Cashed Check 4540",
+              "amount": 1628.75,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/21/2025",
+              "description": "Business to Business ACH Debit - Revenued Debit 251121 5091535 Collect: [Ceca2E2DE3DA9A88]",
+              "amount": 485.56,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/21/2025",
+              "description": "Business to Business ACH Debit - Intuit 27821828 Tax 251121 15493981 Langstrand Contracting",
+              "amount": 193.46,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/21/2025",
+              "description": "Business to Business ACH Debit - Intuit 76490959 Payroll 251121 15493981 Langstrand Contracting",
+              "amount": 557.39,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/21/2025",
+              "description": "Bridgecrest Dt Retail 251121 49331259 Christopher Langstrand",
+              "amount": 585.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Business to Business ACH Debit - American Express ACH Pmt 251124 M0888 Chris Langstrand",
+              "amount": 500.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Business to Business ACH Debit - Equip Financing Cntrct Pmt 112225 097-0216682-000 Langstrand Contracting",
+              "amount": 849.42,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Business to Business ACH Debit - Payroll Payroll 251124 15493981 Langstrand Contracting",
+              "amount": 1000.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Business to Business ACH Debit - Payroll Payroll 251124 15493981 Langstrand Contracting",
+              "amount": 1000.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/25/2025",
+              "description": "Online Transfer Ref #lbOVT6K645 to VISA Signature Card XXXXXXXXXXXx9298 on 11/25/25",
+              "amount": 300.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/26/2025",
+              "description": "Bill Pay Bank of America Business Card on-Line XXXXXXXXXXXxx1253 on 11-26",
+              "amount": 300.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/26/2025",
+              "description": "Zelle to Scheflin Aspen on 11/26 Ref # Wfct0Zjjypfy",
+              "amount": 100.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/26/2025",
+              "description": "Cashed Check 4541",
+              "amount": 775.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/26/2025",
+              "description": "Zelle to Ring Jordan on 11/26 Ref # Wfct0Zjktvq7",
+              "amount": 50.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/26/2025",
+              "description": "Comenity Pay lo Web Pymt 112525 P25329497050557 Chris Langstrand",
+              "amount": 500.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/26/2025",
+              "description": "Business to Business ACH Debit - Payroll Payroll 251126 15493981 Langstrand Contracting",
+              "amount": 1550.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/26/2025",
+              "description": "Business to Business ACH Debit - Payroll Payroll 251126 15493981 Langstrand Contracting",
+              "amount": 1800.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/26/2025",
+              "description": "Mercury Card Fbt Payment 251125 Fpp26996132 Chris Langstrand",
+              "amount": 250.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/28/2025",
+              "description": "Recurring Payment authorized on 11/26 Apple.Com/Bill 866-712-7753 CA S585330326656498 Card 7551",
+              "amount": 10.68,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/28/2025",
+              "description": "Foremost Epm Pymt 251126 1030925204140 Christopher Langstrand",
+              "amount": 152.28,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/28/2025",
+              "description": "Business to Business ACH Debit - Revenued Debit 251128 5091535 Collect:[9274562118Fef437]",
+              "amount": 971.12,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/28/2025",
+              "description": "Business to Business ACH Debit - B2C Abs Fundi AP Payment 251128 Trans#3076872 Langstrand",
+              "amount": 1282.05,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/28/2025",
+              "description": "Business to Business ACH Debit - Intuit 66726528 Tax 251128 15493981 Langstrand Contracting",
+              "amount": 193.48,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/28/2025",
+              "description": "Systems & Serv. Loan Pmt 251126 32861593 Langstrand Christophe",
+              "amount": 300.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/28/2025",
+              "description": "Business to Business ACH Debit - Intuit 76491067 Payroll 251128 15493981 Langstrand Contracting",
+              "amount": 557.38,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            }
+          ]
+        }
+      ]
+    },
+    "raw_output": "```json\n{\n  \"bank_statement_information\": {\n    \"bank_name\": \"Wells Fargo\",\n    \"account_holder\": \"LANGSTRAND CONTRACTING INC\",\n    \"statement_start_date\": \"11/01/2025\",\n    \"statement_end_date\": \"11/30/2025\",\n    \"n_days\": 30,\n    \"n_month\": [\n      11\n    ],\n    \"business_address\": \"55 SHELBY DR STE 13 SEDONA AZ 86336-5300\"\n  },\n  \"accounts\": [\n    {\n      \"account_number\": \"6800996552\",\n      \"account_type\": \"Initiate Business Checking\",\n      \"account_summary\": {\n        \"beginning_balance\": 7325.17,\n        \"ending_balance\": 1676.56,\n        \"total_deposits\": 122598.05,\n        \"total_withdrawals\": 128246.66,\n        \"total_deposits_count\": null,\n        \"total_withdrawals_count\": null,\n        \"avg_daily_balance\": 8408.0,\n        \"overdraft_days\": 0\n      },\n      \"transactions\": [\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"Recurring Payment authorized on 11/02 Apple.Com/Bill 866-712-7753 CA S345306286703862 Card 7551\",\n          \"amount\": 3.2,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"Business to Business ACH Debit - American Express ACH Pmt 251103 M8172 Chris Langstrand\",\n          \"amount\": 400.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"Uns Gas Corporat Snap Pmt 251030 0026307142 Langstrand Contracting\",\n          \"amount\": 69.56,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"Check 4533\",\n          \"amount\": 146.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"Stewarttitle Phx ACH Xfer 110325 50005623610055 Christopher Louis Lang\",\n          \"amount\": 500.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/04/2025\",\n          \"description\": \"Mobile Deposit: Ref Number : 415040754413\",\n          \"amount\": 4000.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/04/2025\",\n          \"description\": \"Citi Card Online Payment 251103 431845868999754 Christopher Langstrand\",\n          \"amount\": 600.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/04/2025\",\n          \"description\": \"Business to Business ACH Debit - Capital on Tap G5Azgcm 251104 Px3V Langstrand Contracting\",\n          \"amount\": 817.39,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/05/2025\",\n          \"description\": \"Money Transfer authorized on 11/05 From Ondeck 888-269-4246 NY S585309616814028 Card 9147\",\n          \"amount\": 3500.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 0\n        },\n        {\n          \"date\": \"11/05/2025\",\n          \"description\": \"Zelle to Langstrand Chris on 11/05 Ref # Wfct0Zgc34Cl\",\n          \"amount\": 6075.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/05/2025\",\n          \"description\": \"Zelle to Langstrand Chris on 11/05 Ref # Wfct0Zgc3B2W\",\n          \"amount\": 1.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/06/2025\",\n          \"description\": \"Withdrawal Made In A Branch/Store\",\n          \"amount\": 6034.96,\n          \"type\": \"Debit\",\n          \"category\": \"ATM/Cash Withdrawal\"\n        },\n        {\n          \"date\": \"11/06/2025\",\n          \"description\": \"Revenued Funding 251106 5091535 McAdraw: [1A931Bbd7F8Baf84]\",\n          \"amount\": 2500.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/06/2025\",\n          \"description\": \"Online Transfer From Langstrand Contracting Inc Business Market Rate Savings xxxxxx4253 Ref #Ib0Vljkhdy on 11/06/25\",\n          \"amount\": 100.0,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"11/06/2025\",\n          \"description\": \"Recurring Payment authorized on 11/05 Apple.Com/Bill 866-712-7753 CA S345309290964500 Card 7551\",\n          \"amount\": 10.68,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/06/2025\",\n          \"description\": \"Online Transfer to Langstrand Contracting Inc Business Market Rate Savings xxxxxx4253 Ref #lb0VIc883F on 11/06/25\",\n          \"amount\": 2600.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/06/2025\",\n          \"description\": \"Zelle to Newhall Micheal on 11/06 Ref # Wfct0Zghkkqn Draw\",\n          \"amount\": 100.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"description\": \"Ondeck Capital20 38888 251106 xxxxx9601 Langstrand Contracting Reference # 113024160077702\",\n          \"amount\": 2083.91,\n          \"type\": \"Debit\",\n          \"category\": \"Returned Item\"\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"description\": \"Itria Ventures C Vendor Pmt 251107 Trans#3060558 Langstrand Contracting\",\n          \"amount\": 38800.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"description\": \"Online Transfer From Langstrand Contracting Inc Business Market Rate Savings xxxxxx4253 Ref #IbOVIss6Fq on 11/07/25\",\n          \"amount\": 11850.05,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"description\": \"Online Transfer From Langstrand Contracting Inc Business Market Rate Savings xxxxxx4253 Ref #IbOVIvzx63 on 11/07/25\",\n          \"amount\": 5000.0,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"description\": \"Online Transfer to Langstrand Contracting Inc Business Market Rate Savings xxxxxx4253 Ref #lb0VIpttmb on 11/07/25\",\n          \"amount\": 33850.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"description\": \"Zelle to Scheflin Aspen on 11/07 Ref # Wfct0Zgjwc7Y\",\n          \"amount\": 200.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"description\": \"Deposited OR Cashed Check 3863\",\n          \"amount\": 908.5,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"description\": \"Zelle to Langstrand Chris on 11/07 Ref # Wfct0Zgklfqx\",\n          \"amount\": 300.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"description\": \"ATM Withdrawal authorized on 11/07 2201 W Hwy 89A Sedona AZ 0004236 ATM ID 4653L Card 9147\",\n          \"amount\": 1000.0,\n          \"type\": \"Debit\",\n          \"category\": \"ATM/Cash Withdrawal\"\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"description\": \"Business to Business ACH Debit - Intuit 75101778 Payroll 251107 15493981 Langstrand Contracting\",\n          \"amount\": 438.55,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"description\": \"Business to Business ACH Debit - Intuit 07895424 Tax 251107 15493981 Langstrand Contracting\",\n          \"amount\": 456.35,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"description\": \"Business to Business ACH Debit - Intuit 75101778 Payroll 251107 15493981 Langstrand Contracting\",\n          \"amount\": 586.43,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"description\": \"Business to Business ACH Debit - American Express ACH Pmt 251107 W6950 Chris Langstrand\",\n          \"amount\": 500.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"description\": \"Check 4537\",\n          \"amount\": 2366.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Revenued Debit 251107 5091535 Collect:[8C3731F51A06Af26] Reference # 267090596143221\",\n          \"amount\": 2758.92,\n          \"type\": \"Debit\",\n          \"category\": \"Returned Item\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Online Transfer From Langstrand Contracting Inc Business Market Rate Savings xxxxxx4253 Ref #Ib0Vmsk6Xy on 11/10/25\",\n          \"amount\": 5000.0,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Online Transfer From Langstrand Contracting Inc Business Market Rate Savings xxxxxx4253 Ref #Ib0Vmty2Lh on 11/10/25\",\n          \"amount\": 5000.0,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Online Transfer From Langstrand Contracting Inc Business Market Rate Savings xxxxxx4253 Ref #Ib0Vmv3732 on 11/10/25\",\n          \"amount\": 2500.0,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Citi Card Online Payment 251107 421849357646712 Christopher Langstrand\",\n          \"amount\": 1017.88,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Barclaycard US Creditcard 1336216578 Christopher Langstrand\",\n          \"amount\": 1548.53,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Business to Business ACH Debit - Capital One Mobile Pmt CA01A8159CC7707 Chris J Langstrand\",\n          \"amount\": 520.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Business to Business ACH Debit - American Express ACH Pmt 251110 W3518 Chris Langstrand\",\n          \"amount\": 6348.65,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Paypal Inst Xfer 251110 1046111748301 Langstrand Contracting\",\n          \"amount\": 250.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Intuit 10430843 Deposit 251111 524771999350488 Langstrand Contracting\",\n          \"amount\": 7694.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Bill Pay Home Depot on-Line Xxxxxxxxxxxx0254 on 11-12\",\n          \"amount\": 100.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Bill Pay US Small Business Administration on-Line xxxxxx8104 on 11-12\",\n          \"amount\": 300.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Bill Pay Credit One Bank on-Line Xxxxxxxxxxxx8914 on 11-12\",\n          \"amount\": 300.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Online Transfer Ref #lb0Vngdqd9 to VISA Signature Card XXXXXXXXXXXxx9298 on 11/12/25\",\n          \"amount\": 500.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Business to Business ACH Debit - Payroll Payroll 251112 15493981 Langstrand Contracting\",\n          \"amount\": 550.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Business to Business ACH Debit - Payroll Payroll 251112 15493981 Langstrand Contracting\",\n          \"amount\": 1800.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Citi Card Online Payment 251110 421851960938520 Christopher Langstrand\",\n          \"amount\": 5000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Business to Business ACH Debit - Intuit 20120413 Tran Fee 251111 524771999350488 Langstrand Contracting\",\n          \"amount\": 39.5,\n          \"type\": \"Debit\",\n          \"category\": \"Service Charges/Fees\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Amazon Corp Syf Paymnt Nov 12 604578117479100 Langstrandchris\",\n          \"amount\": 950.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/13/2025\",\n          \"description\": \"Check 4512\",\n          \"amount\": 5100.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/13/2025\",\n          \"description\": \"Recurring Payment authorized on 11/12 Apple.Com/Bill 866-712-7753 CA S585316326470939 Card 7551\",\n          \"amount\": 10.68,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/13/2025\",\n          \"description\": \"Business to Business ACH Debit - Itria Venture Fr AP Payment 251113 Trans#3063802 Langstrand\",\n          \"amount\": 1282.05,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/13/2025\",\n          \"description\": \"Check 4536\",\n          \"amount\": 2917.55,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/14/2025\",\n          \"description\": \"Cashed Check 4539\",\n          \"amount\": 1000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/14/2025\",\n          \"description\": \"APS Electric Pmt Payments 251112 3940013527 Langstrand Contracting\",\n          \"amount\": 233.47,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/14/2025\",\n          \"description\": \"Business to Business ACH Debit - Revenued Debit 251114 5091535 Langstrand Contracting\",\n          \"amount\": 1213.93,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/14/2025\",\n          \"description\": \"Business to Business ACH Debit - Intuit 06261179 Tax 251114 15493981 Langstrand Contracting\",\n          \"amount\": 265.33,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/14/2025\",\n          \"description\": \"Business to Business ACH Debit - Intuit 75521271 Payroll 251114 15493981 Langstrand Contracting\",\n          \"amount\": 340.68,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/14/2025\",\n          \"description\": \"Business to Business ACH Debit - Intuit 75521271 Payroll 251114 15493981 Langstrand Contracting\",\n          \"amount\": 572.76,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/14/2025\",\n          \"description\": \"Check 4535\",\n          \"amount\": 344.58,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"Intuit 23983153 Deposit 251115 524771999350488 Langstrand Contracting\",\n          \"amount\": 10000.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"Mobile Deposit : Ref Number :510170558483\",\n          \"amount\": 3230.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"ATM Withdrawal authorized on 11/16 2201 W Hwy 89A Sedona AZ 0005945 ATM ID 4653L Card 7551\",\n          \"amount\": 500.0,\n          \"type\": \"Debit\",\n          \"category\": \"ATM/Cash Withdrawal\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"Check 4538\",\n          \"amount\": 250.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"Business to Business ACH Debit - Intuit 33383823 Tran Fee 251115 524771999350488 Langstrand Contracting\",\n          \"amount\": 20.0,\n          \"type\": \"Debit\",\n          \"category\": \"Service Charges/Fees\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"Shell Mastercard Online Pmt 251114 631855441255198 Chris L Langstrand\",\n          \"amount\": 1000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"Business to Business ACH Debit - Ally Ally Paymt 251117 228127155860 Chris Langstrand\",\n          \"amount\": 1273.15,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"Business to Business ACH Debit - American Express ACH Pmt 251117 W9760 Chris Langstrand\",\n          \"amount\": 5000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"description\": \"Online Transfer From Langstrand Contracting Inc Business Market Rate Savings xxxxxx4253 Ref #lb0Vqp3Sgg on 11/18/25\",\n          \"amount\": 2500.0,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"description\": \"Business to Business ACH Debit - Payroll Payroll 251118 15493981 Langstrand Contracting\",\n          \"amount\": 300.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"description\": \"Business to Business ACH Debit - American Express ACH Pmt 251118 W6762 Chris Langstrand\",\n          \"amount\": 3500.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/19/2025\",\n          \"description\": \"Intuit 32397973 Deposit 251119 524771999350488 Langstrand Contracting\",\n          \"amount\": 5744.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/19/2025\",\n          \"description\": \"Business to Business ACH Debit - Intuit 41623113 Tran Fee 251119 524771999350488 Langstrand Contracting\",\n          \"amount\": 20.0,\n          \"type\": \"Debit\",\n          \"category\": \"Service Charges/Fees\"\n        },\n        {\n          \"date\": \"11/19/2025\",\n          \"description\": \"Business to Business ACH Debit - Payroll Payroll 251119 15493981 Langstrand Contracting\",\n          \"amount\": 550.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/19/2025\",\n          \"description\": \"Home Depot Online Pmt 251118 621858810568346 Langstrand Contracting\",\n          \"amount\": 3000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/19/2025\",\n          \"description\": \"Business to Business ACH Debit - American Express ACH Pmt 251119 W9586 Chris Langstrand\",\n          \"amount\": 5000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"description\": \"Mobile Deposit : Ref Number :514200655969\",\n          \"amount\": 15000.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"description\": \"Recurring Payment authorized on 11/19 Apple.Com/Bill 866-712-7753 CA S385323326824230 Card 7551\",\n          \"amount\": 10.68,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"description\": \"Business to Business ACH Debit - B2C Abs Fundi AP Payment 251120 Trans#3070239 Langstrand\",\n          \"amount\": 1282.05,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"description\": \"Zelle From Chris Langstrand on 11/21 Ref # Bacv3Cht6O3A\",\n          \"amount\": 180.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"description\": \"ATM Withdrawal authorized on 11/21 2201 W Hwy 89A Sedona AZ 0005259 ATM ID 0145H Card 9147\",\n          \"amount\": 180.0,\n          \"type\": \"Debit\",\n          \"category\": \"ATM/Cash Withdrawal\"\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"description\": \"Cashed Check 4540\",\n          \"amount\": 1628.75,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"description\": \"Business to Business ACH Debit - Revenued Debit 251121 5091535 Collect: [Ceca2E2DE3DA9A88]\",\n          \"amount\": 485.56,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"description\": \"Business to Business ACH Debit - Intuit 27821828 Tax 251121 15493981 Langstrand Contracting\",\n          \"amount\": 193.46,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"description\": \"Business to Business ACH Debit - Intuit 76490959 Payroll 251121 15493981 Langstrand Contracting\",\n          \"amount\": 557.39,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"description\": \"Bridgecrest Dt Retail 251121 49331259 Christopher Langstrand\",\n          \"amount\": 585.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Business to Business ACH Debit - American Express ACH Pmt 251124 M0888 Chris Langstrand\",\n          \"amount\": 500.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Business to Business ACH Debit - Equip Financing Cntrct Pmt 112225 097-0216682-000 Langstrand Contracting\",\n          \"amount\": 849.42,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Business to Business ACH Debit - Payroll Payroll 251124 15493981 Langstrand Contracting\",\n          \"amount\": 1000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Business to Business ACH Debit - Payroll Payroll 251124 15493981 Langstrand Contracting\",\n          \"amount\": 1000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/25/2025\",\n          \"description\": \"Online Transfer Ref #lbOVT6K645 to VISA Signature Card XXXXXXXXXXXx9298 on 11/25/25\",\n          \"amount\": 300.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/26/2025\",\n          \"description\": \"Bill Pay Bank of America Business Card on-Line XXXXXXXXXXXxx1253 on 11-26\",\n          \"amount\": 300.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/26/2025\",\n          \"description\": \"Zelle to Scheflin Aspen on 11/26 Ref # Wfct0Zjjypfy\",\n          \"amount\": 100.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/26/2025\",\n          \"description\": \"Cashed Check 4541\",\n          \"amount\": 775.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/26/2025\",\n          \"description\": \"Zelle to Ring Jordan on 11/26 Ref # Wfct0Zjktvq7\",\n          \"amount\": 50.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/26/2025\",\n          \"description\": \"Comenity Pay lo Web Pymt 112525 P25329497050557 Chris Langstrand\",\n          \"amount\": 500.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/26/2025\",\n          \"description\": \"Business to Business ACH Debit - Payroll Payroll 251126 15493981 Langstrand Contracting\",\n          \"amount\": 1550.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/26/2025\",\n          \"description\": \"Business to Business ACH Debit - Payroll Payroll 251126 15493981 Langstrand Contracting\",\n          \"amount\": 1800.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/26/2025\",\n          \"description\": \"Mercury Card Fbt Payment 251125 Fpp26996132 Chris Langstrand\",\n          \"amount\": 250.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/28/2025\",\n          \"description\": \"Recurring Payment authorized on 11/26 Apple.Com/Bill 866-712-7753 CA S585330326656498 Card 7551\",\n          \"amount\": 10.68,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/28/2025\",\n          \"description\": \"Foremost Epm Pymt 251126 1030925204140 Christopher Langstrand\",\n          \"amount\": 152.28,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/28/2025\",\n          \"description\": \"Business to Business ACH Debit - Revenued Debit 251128 5091535 Collect:[9274562118Fef437]\",\n          \"amount\": 971.12,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/28/2025\",\n          \"description\": \"Business to Business ACH Debit - B2C Abs Fundi AP Payment 251128 Trans#3076872 Langstrand\",\n          \"amount\": 1282.05,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/28/2025\",\n          \"description\": \"Business to Business ACH Debit - Intuit 66726528 Tax 251128 15493981 Langstrand Contracting\",\n          \"amount\": 193.48,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/28/2025\",\n          \"description\": \"Systems & Serv. Loan Pmt 251126 32861593 Langstrand Christophe\",\n          \"amount\": 300.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/28/2025\",\n          \"description\": \"Business to Business ACH Debit - Intuit 76491067 Payroll 251128 15493981 Langstrand Contracting\",\n          \"amount\": 557.38,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        }\n      ]\n    }\n  ]\n}\n```",
+    "token_count": {
+      "estimated_tokens": 2491
+    },
+    "failure_reason": null
+  },
+  "bsi_analyzer_result": {
+    "agent_name": "v1_bsi_analyzer_agent",
+    "processing_status": "success",
+    "start_time": "2026-02-04T15:03:57.950926",
+    "end_time": "2026-02-04T15:05:29.744341",
+    "parsed_json": {
+      "accounts": [
+        {
+          "account_number": "6800996552",
+          "account_type": "Initiate Business Checking",
+          "mca_deposit": [
+            {
+              "mca_name": "On Deck",
+              "date": "11/05/2025",
+              "type": "Credit",
+              "description": "Money Transfer authorized on 11/05 From Ondeck 888-269-4246 NY S585309616814028 Card 9147",
+              "amount": 3500.0,
+              "is_payment_processor": 0,
+              "non_true_revenue": 1
+            },
+            {
+              "mca_name": "Revenued",
+              "date": "11/06/2025",
+              "type": "Credit",
+              "description": "Revenued Funding 251106 5091535 McAdraw: [1A931Bbd7F8Baf84]",
+              "amount": 2500.0,
+              "non_true_revenue": 1
+            },
+            {
+              "mca_name": "Itria Ventures",
+              "date": "11/07/2025",
+              "type": "Credit",
+              "description": "Itria Ventures C Vendor Pmt 251107 Trans#3060558 Langstrand Contracting",
+              "amount": 38800.0,
+              "non_true_revenue": 1
+            }
+          ],
+          "mca_withdrawal": [
+            {
+              "mca_name": "On Deck",
+              "date": "11/07/2025",
+              "type": "Debit",
+              "description": "Ondeck Capital20 38888 251106 xxxxx9601 Langstrand Contracting Reference # 113024160077702",
+              "amount": 2083.91
+            },
+            {
+              "mca_name": "Revenued",
+              "date": "11/10/2025",
+              "type": "Debit",
+              "description": "Revenued Debit 251107 5091535 Collect:[8C3731F51A06Af26] Reference # 267090596143221",
+              "amount": 2758.92
+            },
+            {
+              "mca_name": "Itria Ventures",
+              "date": "11/13/2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - Itria Venture Fr AP Payment 251113 Trans#3063802 Langstrand",
+              "amount": 1282.05
+            },
+            {
+              "mca_name": "Revenued",
+              "date": "11/14/2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - Revenued Debit 251114 5091535 Langstrand Contracting",
+              "amount": 1213.93
+            },
+            {
+              "mca_name": "B2C Abs Funding",
+              "date": "11/21/2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - B2C Abs Fundi AP Payment 251120 Trans#3070239 Langstrand",
+              "amount": 1282.05
+            },
+            {
+              "mca_name": "Revenued",
+              "date": "11/21/2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - Revenued Debit 251121 5091535 Collect: [Ceca2E2DE3DA9A88]",
+              "amount": 485.56
+            },
+            {
+              "mca_name": "Revenued",
+              "date": "11/28/2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - Revenued Debit 251128 5091535 Collect:[9274562118Fef437]",
+              "amount": 971.12
+            },
+            {
+              "mca_name": "B2C Abs Funding",
+              "date": "11/28/2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - B2C Abs Fundi AP Payment 251128 Trans#3076872 Langstrand",
+              "amount": 1282.05
+            }
+          ],
+          "returned_items": [],
+          "overdrafts": [],
+          "service_charges": [
+            {
+              "date": "11/12/2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - Intuit 20120413 Tran Fee 251111 524771999350488 Langstrand Contracting",
+              "amount": 39.5
+            },
+            {
+              "date": "11/17/2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - Intuit 33383823 Tran Fee 251115 524771999350488 Langstrand Contracting",
+              "amount": 20.0
+            },
+            {
+              "date": "11/19/2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - Intuit 41623113 Tran Fee 251119 524771999350488 Langstrand Contracting",
+              "amount": 20.0
+            }
+          ],
+          "atm_cash_withdrawal": [
+            {
+              "date": "11/06/2025",
+              "type": "Debit",
+              "description": "Withdrawal Made In A Branch/Store",
+              "amount": 6034.96
+            },
+            {
+              "date": "11/07/2025",
+              "type": "Debit",
+              "description": "ATM Withdrawal authorized on 11/07 2201 W Hwy 89A Sedona AZ 0004236 ATM ID 4653L Card 9147",
+              "amount": 1000.0
+            },
+            {
+              "date": "11/17/2025",
+              "type": "Debit",
+              "description": "ATM Withdrawal authorized on 11/16 2201 W Hwy 89A Sedona AZ 0005945 ATM ID 4653L Card 7551",
+              "amount": 500.0
+            },
+            {
+              "date": "11/21/2025",
+              "type": "Debit",
+              "description": "ATM Withdrawal authorized on 11/21 2201 W Hwy 89A Sedona AZ 0005259 ATM ID 0145H Card 9147",
+              "amount": 180.0
+            }
+          ],
+          "internal_transfer_deposit": [
+            {
+              "date": "11/06/2025",
+              "type": "Credit",
+              "description": "Online Transfer From Langstrand Contracting Inc Business Market Rate Savings xxxxxx4253 Ref #Ib0Vljkhdy on 11/06/25",
+              "amount": 100.0,
+              "non_true_revenue": 1
+            },
+            {
+              "date": "11/07/2025",
+              "type": "Credit",
+              "description": "Online Transfer From Langstrand Contracting Inc Business Market Rate Savings xxxxxx4253 Ref #IbOVIss6Fq on 11/07/25",
+              "amount": 11850.05,
+              "non_true_revenue": 1
+            },
+            {
+              "date": "11/07/2025",
+              "type": "Credit",
+              "description": "Online Transfer From Langstrand Contracting Inc Business Market Rate Savings xxxxxx4253 Ref #IbOVIvzx63 on 11/07/25",
+              "amount": 5000.0,
+              "non_true_revenue": 1
+            },
+            {
+              "date": "11/10/2025",
+              "type": "Credit",
+              "description": "Online Transfer From Langstrand Contracting Inc Business Market Rate Savings xxxxxx4253 Ref #Ib0Vmsk6Xy on 11/10/25",
+              "amount": 5000.0,
+              "non_true_revenue": 1
+            },
+            {
+              "date": "11/10/2025",
+              "type": "Credit",
+              "description": "Online Transfer From Langstrand Contracting Inc Business Market Rate Savings xxxxxx4253 Ref #Ib0Vmty2Lh on 11/10/25",
+              "amount": 5000.0,
+              "non_true_revenue": 1
+            },
+            {
+              "date": "11/10/2025",
+              "type": "Credit",
+              "description": "Online Transfer From Langstrand Contracting Inc Business Market Rate Savings xxxxxx4253 Ref #Ib0Vmv3732 on 11/10/25",
+              "amount": 2500.0,
+              "non_true_revenue": 1
+            },
+            {
+              "date": "11/18/2025",
+              "type": "Credit",
+              "description": "Online Transfer From Langstrand Contracting Inc Business Market Rate Savings xxxxxx4253 Ref #lb0Vqp3Sgg on 11/18/25",
+              "amount": 2500.0,
+              "non_true_revenue": 1
+            }
+          ],
+          "other_transfer_deposit": [
+            {
+              "date": "11/21/2025",
+              "type": "Credit",
+              "description": "Zelle From Chris Langstrand on 11/21 Ref # Bacv3Cht6O3A",
+              "amount": 180.0,
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            }
+          ],
+          "internal_transfer_withdrawal": [
+            {
+              "date": "11/06/2025",
+              "type": "Debit",
+              "description": "Online Transfer to Langstrand Contracting Inc Business Market Rate Savings xxxxxx4253 Ref #lb0VIc883F on 11/06/25",
+              "amount": 2600.0
+            },
+            {
+              "date": "11/07/2025",
+              "type": "Debit",
+              "description": "Online Transfer to Langstrand Contracting Inc Business Market Rate Savings xxxxxx4253 Ref #lb0VIpttmb on 11/07/25",
+              "amount": 33850.0
+            }
+          ],
+          "other_transfer_withdrawal": [
+            {
+              "date": "11/03/2025",
+              "type": "Debit",
+              "description": "Stewarttitle Phx ACH Xfer 110325 50005623610055 Christopher Louis Lang",
+              "amount": 500.0
+            },
+            {
+              "date": "11/05/2025",
+              "type": "Debit",
+              "description": "Zelle to Langstrand Chris on 11/05 Ref # Wfct0Zgc34Cl",
+              "amount": 6075.0
+            },
+            {
+              "date": "11/05/2025",
+              "type": "Debit",
+              "description": "Zelle to Langstrand Chris on 11/05 Ref # Wfct0Zgc3B2W",
+              "amount": 1.0
+            },
+            {
+              "date": "11/06/2025",
+              "type": "Debit",
+              "description": "Zelle to Newhall Micheal on 11/06 Ref # Wfct0Zghkkqn Draw",
+              "amount": 100.0
+            },
+            {
+              "date": "11/07/2025",
+              "type": "Debit",
+              "description": "Zelle to Scheflin Aspen on 11/07 Ref # Wfct0Zgjwc7Y",
+              "amount": 200.0
+            },
+            {
+              "date": "11/07/2025",
+              "type": "Debit",
+              "description": "Zelle to Langstrand Chris on 11/07 Ref # Wfct0Zgklfqx",
+              "amount": 300.0
+            },
+            {
+              "date": "11/10/2025",
+              "type": "Debit",
+              "description": "Paypal Inst Xfer 251110 1046111748301 Langstrand Contracting",
+              "amount": 250.0
+            },
+            {
+              "date": "11/12/2025",
+              "type": "Debit",
+              "description": "Online Transfer Ref #lb0Vngdqd9 to VISA Signature Card XXXXXXXXXXXxx9298 on 11/12/25",
+              "amount": 500.0
+            },
+            {
+              "date": "11/25/2025",
+              "type": "Debit",
+              "description": "Online Transfer Ref #lbOVT6K645 to VISA Signature Card XXXXXXXXXXXx9298 on 11/25/25",
+              "amount": 300.0
+            },
+            {
+              "date": "11/26/2025",
+              "type": "Debit",
+              "description": "Zelle to Scheflin Aspen on 11/26 Ref # Wfct0Zjjypfy",
+              "amount": 100.0
+            },
+            {
+              "date": "11/26/2025",
+              "type": "Debit",
+              "description": "Zelle to Ring Jordan on 11/26 Ref # Wfct0Zjktvq7",
+              "amount": 50.0
+            }
+          ],
+          "standard_deposit": [
+            {
+              "date": "11/04/2025",
+              "type": "Credit",
+              "description": "Mobile Deposit: Ref Number : 415040754413",
+              "amount": 4000.0,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/12/2025",
+              "type": "Credit",
+              "description": "Intuit 10430843 Deposit 251111 524771999350488 Langstrand Contracting",
+              "amount": 7694.0,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/17/2025",
+              "type": "Credit",
+              "description": "Intuit 23983153 Deposit 251115 524771999350488 Langstrand Contracting",
+              "amount": 10000.0,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/17/2025",
+              "type": "Credit",
+              "description": "Mobile Deposit : Ref Number :510170558483",
+              "amount": 3230.0,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/19/2025",
+              "type": "Credit",
+              "description": "Intuit 32397973 Deposit 251119 524771999350488 Langstrand Contracting",
+              "amount": 5744.0,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/20/2025",
+              "type": "Credit",
+              "description": "Mobile Deposit : Ref Number :514200655969",
+              "amount": 15000.0,
+              "non_true_revenue": 0
+            }
+          ],
+          "standard_withdrawal": [
+            {
+              "date": "11/03/2025",
+              "type": "Debit",
+              "description": "Recurring Payment authorized on 11/02 Apple.Com/Bill 866-712-7753 CA S345306286703862 Card 7551",
+              "amount": 3.2
+            },
+            {
+              "date": "11/03/2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - American Express ACH Pmt 251103 M8172 Chris Langstrand",
+              "amount": 400.0
+            },
+            {
+              "date": "11/03/2025",
+              "type": "Debit",
+              "description": "Uns Gas Corporat Snap Pmt 251030 0026307142 Langstrand Contracting",
+              "amount": 69.56
+            },
+            {
+              "date": "11/03/2025",
+              "type": "Debit",
+              "description": "Check 4533",
+              "amount": 146.0
+            },
+            {
+              "date": "11/04/2025",
+              "type": "Debit",
+              "description": "Citi Card Online Payment 251103 431845868999754 Christopher Langstrand",
+              "amount": 600.0
+            },
+            {
+              "date": "11/04/2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - Capital on Tap G5Azgcm 251104 Px3V Langstrand Contracting",
+              "amount": 817.39
+            },
+            {
+              "date": "11/06/2025",
+              "type": "Debit",
+              "description": "Recurring Payment authorized on 11/05 Apple.Com/Bill 866-712-7753 CA S345309290964500 Card 7551",
+              "amount": 10.68
+            },
+            {
+              "date": "11/07/2025",
+              "type": "Debit",
+              "description": "Deposited OR Cashed Check 3863",
+              "amount": 908.5
+            },
+            {
+              "date": "11/07/2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - Intuit 75101778 Payroll 251107 15493981 Langstrand Contracting",
+              "amount": 438.55
+            },
+            {
+              "date": "11/07/2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - Intuit 07895424 Tax 251107 15493981 Langstrand Contracting",
+              "amount": 456.35
+            },
+            {
+              "date": "11/07/2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - Intuit 75101778 Payroll 251107 15493981 Langstrand Contracting",
+              "amount": 586.43
+            },
+            {
+              "date": "11/07/2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - American Express ACH Pmt 251107 W6950 Chris Langstrand",
+              "amount": 500.0
+            },
+            {
+              "date": "11/07/2025",
+              "type": "Debit",
+              "description": "Check 4537",
+              "amount": 2366.0
+            },
+            {
+              "date": "11/10/2025",
+              "type": "Debit",
+              "description": "Citi Card Online Payment 251107 421849357646712 Christopher Langstrand",
+              "amount": 1017.88
+            },
+            {
+              "date": "11/10/2025",
+              "type": "Debit",
+              "description": "Barclaycard US Creditcard 1336216578 Christopher Langstrand",
+              "amount": 1548.53
+            },
+            {
+              "date": "11/10/2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - Capital One Mobile Pmt CA01A8159CC7707 Chris J Langstrand",
+              "amount": 520.0
+            },
+            {
+              "date": "11/10/2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - American Express ACH Pmt 251110 W3518 Chris Langstrand",
+              "amount": 6348.65
+            },
+            {
+              "date": "11/12/2025",
+              "type": "Debit",
+              "description": "Bill Pay Home Depot on-Line Xxxxxxxxxxxx0254 on 11-12",
+              "amount": 100.0
+            },
+            {
+              "date": "11/12/2025",
+              "type": "Debit",
+              "description": "Bill Pay US Small Business Administration on-Line xxxxxx8104 on 11-12",
+              "amount": 300.0
+            },
+            {
+              "date": "11/12/2025",
+              "type": "Debit",
+              "description": "Bill Pay Credit One Bank on-Line Xxxxxxxxxxxx8914 on 11-12",
+              "amount": 300.0
+            },
+            {
+              "date": "11/12/2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - Payroll Payroll 251112 15493981 Langstrand Contracting",
+              "amount": 550.0
+            },
+            {
+              "date": "11/12/2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - Payroll Payroll 251112 15493981 Langstrand Contracting",
+              "amount": 1800.0
+            },
+            {
+              "date": "11/12/2025",
+              "type": "Debit",
+              "description": "Citi Card Online Payment 251110 421851960938520 Christopher Langstrand",
+              "amount": 5000.0
+            },
+            {
+              "date": "11/12/2025",
+              "type": "Debit",
+              "description": "Amazon Corp Syf Paymnt Nov 12 604578117479100 Langstrandchris",
+              "amount": 950.0
+            },
+            {
+              "date": "11/13/2025",
+              "type": "Debit",
+              "description": "Check 4512",
+              "amount": 5100.0
+            },
+            {
+              "date": "11/13/2025",
+              "type": "Debit",
+              "description": "Recurring Payment authorized on 11/12 Apple.Com/Bill 866-712-7753 CA S585316326470939 Card 7551",
+              "amount": 10.68
+            },
+            {
+              "date": "11/13/2025",
+              "type": "Debit",
+              "description": "Check 4536",
+              "amount": 2917.55
+            },
+            {
+              "date": "11/14/2025",
+              "type": "Debit",
+              "description": "Cashed Check 4539",
+              "amount": 1000.0
+            },
+            {
+              "date": "11/14/2025",
+              "type": "Debit",
+              "description": "APS Electric Pmt Payments 251112 3940013527 Langstrand Contracting",
+              "amount": 233.47
+            },
+            {
+              "date": "11/14/2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - Intuit 06261179 Tax 251114 15493981 Langstrand Contracting",
+              "amount": 265.33
+            },
+            {
+              "date": "11/14/2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - Intuit 75521271 Payroll 251114 15493981 Langstrand Contracting",
+              "amount": 340.68
+            },
+            {
+              "date": "11/14/2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - Intuit 75521271 Payroll 251114 15493981 Langstrand Contracting",
+              "amount": 572.76
+            },
+            {
+              "date": "11/14/2025",
+              "type": "Debit",
+              "description": "Check 4535",
+              "amount": 344.58
+            },
+            {
+              "date": "11/17/2025",
+              "type": "Debit",
+              "description": "Check 4538",
+              "amount": 250.0
+            },
+            {
+              "date": "11/17/2025",
+              "type": "Debit",
+              "description": "Shell Mastercard Online Pmt 251114 631855441255198 Chris L Langstrand",
+              "amount": 1000.0
+            },
+            {
+              "date": "11/17/2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - Ally Ally Paymt 251117 228127155860 Chris Langstrand",
+              "amount": 1273.15
+            },
+            {
+              "date": "11/17/2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - American Express ACH Pmt 251117 W9760 Chris Langstrand",
+              "amount": 5000.0
+            },
+            {
+              "date": "11/18/2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - Payroll Payroll 251118 15493981 Langstrand Contracting",
+              "amount": 300.0
+            },
+            {
+              "date": "11/18/2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - American Express ACH Pmt 251118 W6762 Chris Langstrand",
+              "amount": 3500.0
+            },
+            {
+              "date": "11/19/2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - Payroll Payroll 251119 15493981 Langstrand Contracting",
+              "amount": 550.0
+            },
+            {
+              "date": "11/19/2025",
+              "type": "Debit",
+              "description": "Home Depot Online Pmt 251118 621858810568346 Langstrand Contracting",
+              "amount": 3000.0
+            },
+            {
+              "date": "11/19/2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - American Express ACH Pmt 251119 W9586 Chris Langstrand",
+              "amount": 5000.0
+            },
+            {
+              "date": "11/20/2025",
+              "type": "Debit",
+              "description": "Recurring Payment authorized on 11/19 Apple.Com/Bill 866-712-7753 CA S385323326824230 Card 7551",
+              "amount": 10.68
+            },
+            {
+              "date": "11/21/2025",
+              "type": "Debit",
+              "description": "Cashed Check 4540",
+              "amount": 1628.75
+            },
+            {
+              "date": "11/21/2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - Intuit 27821828 Tax 251121 15493981 Langstrand Contracting",
+              "amount": 193.46
+            },
+            {
+              "date": "11/21/2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - Intuit 76490959 Payroll 251121 15493981 Langstrand Contracting",
+              "amount": 557.39
+            },
+            {
+              "date": "11/21/2025",
+              "type": "Debit",
+              "description": "Bridgecrest Dt Retail 251121 49331259 Christopher Langstrand",
+              "amount": 585.0
+            },
+            {
+              "date": "11/24/2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - American Express ACH Pmt 251124 M0888 Chris Langstrand",
+              "amount": 500.0
+            },
+            {
+              "date": "11/24/2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - Equip Financing Cntrct Pmt 112225 097-0216682-000 Langstrand Contracting",
+              "amount": 849.42
+            },
+            {
+              "date": "11/24/2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - Payroll Payroll 251124 15493981 Langstrand Contracting",
+              "amount": 1000.0
+            },
+            {
+              "date": "11/24/2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - Payroll Payroll 251124 15493981 Langstrand Contracting",
+              "amount": 1000.0
+            },
+            {
+              "date": "11/26/2025",
+              "type": "Debit",
+              "description": "Bill Pay Bank of America Business Card on-Line XXXXXXXXXXXxx1253 on 11-26",
+              "amount": 300.0
+            },
+            {
+              "date": "11/26/2025",
+              "type": "Debit",
+              "description": "Cashed Check 4541",
+              "amount": 775.0
+            },
+            {
+              "date": "11/26/2025",
+              "type": "Debit",
+              "description": "Comenity Pay lo Web Pymt 112525 P25329497050557 Chris Langstrand",
+              "amount": 500.0
+            },
+            {
+              "date": "11/26/2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - Payroll Payroll 251126 15493981 Langstrand Contracting",
+              "amount": 1550.0
+            },
+            {
+              "date": "11/26/2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - Payroll Payroll 251126 15493981 Langstrand Contracting",
+              "amount": 1800.0
+            },
+            {
+              "date": "11/26/2025",
+              "type": "Debit",
+              "description": "Mercury Card Fbt Payment 251125 Fpp26996132 Chris Langstrand",
+              "amount": 250.0
+            },
+            {
+              "date": "11/28/2025",
+              "type": "Debit",
+              "description": "Recurring Payment authorized on 11/26 Apple.Com/Bill 866-712-7753 CA S585330326656498 Card 7551",
+              "amount": 10.68
+            },
+            {
+              "date": "11/28/2025",
+              "type": "Debit",
+              "description": "Foremost Epm Pymt 251126 1030925204140 Christopher Langstrand",
+              "amount": 152.28
+            },
+            {
+              "date": "11/28/2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - Intuit 66726528 Tax 251128 15493981 Langstrand Contracting",
+              "amount": 193.48
+            },
+            {
+              "date": "11/28/2025",
+              "type": "Debit",
+              "description": "Systems & Serv. Loan Pmt 251126 32861593 Langstrand Christophe",
+              "amount": 300.0
+            },
+            {
+              "date": "11/28/2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - Intuit 76491067 Payroll 251128 15493981 Langstrand Contracting",
+              "amount": 557.38
+            }
+          ]
+        }
+      ]
+    },
+    "raw_output": "```json\n{\n  \"accounts\": [\n    {\n      \"account_number\": \"6800996552\",\n      \"account_type\": \"Initiate Business Checking\",\n      \"mca_deposit\": [\n        {\n          \"mca_name\": \"On Deck\",\n          \"date\": \"11/05/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Money Transfer authorized on 11/05 From Ondeck 888-269-4246 NY S585309616814028 Card 9147\",\n          \"amount\": 3500.0,\n          \"is_payment_processor\": 0,\n          \"non_true_revenue\": 1\n        },\n        {\n          \"mca_name\": \"Revenued\",\n          \"date\": \"11/06/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Revenued Funding 251106 5091535 McAdraw: [1A931Bbd7F8Baf84]\",\n          \"amount\": 2500.0,\n          \"non_true_revenue\": 1\n        },\n        {\n          \"mca_name\": \"Itria Ventures\",\n          \"date\": \"11/07/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Itria Ventures C Vendor Pmt 251107 Trans#3060558 Langstrand Contracting\",\n          \"amount\": 38800.0,\n          \"non_true_revenue\": 1\n        }\n      ],\n      \"mca_withdrawal\": [\n        {\n          \"mca_name\": \"On Deck\",\n          \"date\": \"11/07/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Ondeck Capital20 38888 251106 xxxxx9601 Langstrand Contracting Reference # 113024160077702\",\n          \"amount\": 2083.91\n        },\n        {\n          \"mca_name\": \"Revenued\",\n          \"date\": \"11/10/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Revenued Debit 251107 5091535 Collect:[8C3731F51A06Af26] Reference # 267090596143221\",\n          \"amount\": 2758.92\n        },\n        {\n          \"mca_name\": \"Itria Ventures\",\n          \"date\": \"11/13/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - Itria Venture Fr AP Payment 251113 Trans#3063802 Langstrand\",\n          \"amount\": 1282.05\n        },\n        {\n          \"mca_name\": \"Revenued\",\n          \"date\": \"11/14/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - Revenued Debit 251114 5091535 Langstrand Contracting\",\n          \"amount\": 1213.93\n        },\n        {\n          \"mca_name\": \"B2C Abs Funding\",\n          \"date\": \"11/21/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - B2C Abs Fundi AP Payment 251120 Trans#3070239 Langstrand\",\n          \"amount\": 1282.05\n        },\n        {\n          \"mca_name\": \"Revenued\",\n          \"date\": \"11/21/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - Revenued Debit 251121 5091535 Collect: [Ceca2E2DE3DA9A88]\",\n          \"amount\": 485.56\n        },\n        {\n          \"mca_name\": \"Revenued\",\n          \"date\": \"11/28/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - Revenued Debit 251128 5091535 Collect:[9274562118Fef437]\",\n          \"amount\": 971.12\n        },\n        {\n          \"mca_name\": \"B2C Abs Funding\",\n          \"date\": \"11/28/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - B2C Abs Fundi AP Payment 251128 Trans#3076872 Langstrand\",\n          \"amount\": 1282.05\n        }\n      ],\n      \"returned_items\": [],\n      \"overdrafts\": [],\n      \"service_charges\": [\n        {\n          \"date\": \"11/12/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - Intuit 20120413 Tran Fee 251111 524771999350488 Langstrand Contracting\",\n          \"amount\": 39.5\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - Intuit 33383823 Tran Fee 251115 524771999350488 Langstrand Contracting\",\n          \"amount\": 20.0\n        },\n        {\n          \"date\": \"11/19/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - Intuit 41623113 Tran Fee 251119 524771999350488 Langstrand Contracting\",\n          \"amount\": 20.0\n        }\n      ],\n      \"atm_cash_withdrawal\": [\n        {\n          \"date\": \"11/06/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Withdrawal Made In A Branch/Store\",\n          \"amount\": 6034.96\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"ATM Withdrawal authorized on 11/07 2201 W Hwy 89A Sedona AZ 0004236 ATM ID 4653L Card 9147\",\n          \"amount\": 1000.0\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"ATM Withdrawal authorized on 11/16 2201 W Hwy 89A Sedona AZ 0005945 ATM ID 4653L Card 7551\",\n          \"amount\": 500.0\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"ATM Withdrawal authorized on 11/21 2201 W Hwy 89A Sedona AZ 0005259 ATM ID 0145H Card 9147\",\n          \"amount\": 180.0\n        }\n      ],\n      \"internal_transfer_deposit\": [\n        {\n          \"date\": \"11/06/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Online Transfer From Langstrand Contracting Inc Business Market Rate Savings xxxxxx4253 Ref #Ib0Vljkhdy on 11/06/25\",\n          \"amount\": 100.0,\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Online Transfer From Langstrand Contracting Inc Business Market Rate Savings xxxxxx4253 Ref #IbOVIss6Fq on 11/07/25\",\n          \"amount\": 11850.05,\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Online Transfer From Langstrand Contracting Inc Business Market Rate Savings xxxxxx4253 Ref #IbOVIvzx63 on 11/07/25\",\n          \"amount\": 5000.0,\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Online Transfer From Langstrand Contracting Inc Business Market Rate Savings xxxxxx4253 Ref #Ib0Vmsk6Xy on 11/10/25\",\n          \"amount\": 5000.0,\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Online Transfer From Langstrand Contracting Inc Business Market Rate Savings xxxxxx4253 Ref #Ib0Vmty2Lh on 11/10/25\",\n          \"amount\": 5000.0,\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Online Transfer From Langstrand Contracting Inc Business Market Rate Savings xxxxxx4253 Ref #Ib0Vmv3732 on 11/10/25\",\n          \"amount\": 2500.0,\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Online Transfer From Langstrand Contracting Inc Business Market Rate Savings xxxxxx4253 Ref #lb0Vqp3Sgg on 11/18/25\",\n          \"amount\": 2500.0,\n          \"non_true_revenue\": 1\n        }\n      ],\n      \"other_transfer_deposit\": [\n        {\n          \"date\": \"11/21/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Zelle From Chris Langstrand on 11/21 Ref # Bacv3Cht6O3A\",\n          \"amount\": 180.0,\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        }\n      ],\n      \"internal_transfer_withdrawal\": [\n        {\n          \"date\": \"11/06/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Online Transfer to Langstrand Contracting Inc Business Market Rate Savings xxxxxx4253 Ref #lb0VIc883F on 11/06/25\",\n          \"amount\": 2600.0\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Online Transfer to Langstrand Contracting Inc Business Market Rate Savings xxxxxx4253 Ref #lb0VIpttmb on 11/07/25\",\n          \"amount\": 33850.0\n        }\n      ],\n      \"other_transfer_withdrawal\": [\n        {\n          \"date\": \"11/03/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Stewarttitle Phx ACH Xfer 110325 50005623610055 Christopher Louis Lang\",\n          \"amount\": 500.0\n        },\n        {\n          \"date\": \"11/05/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Zelle to Langstrand Chris on 11/05 Ref # Wfct0Zgc34Cl\",\n          \"amount\": 6075.0\n        },\n        {\n          \"date\": \"11/05/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Zelle to Langstrand Chris on 11/05 Ref # Wfct0Zgc3B2W\",\n          \"amount\": 1.0\n        },\n        {\n          \"date\": \"11/06/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Zelle to Newhall Micheal on 11/06 Ref # Wfct0Zghkkqn Draw\",\n          \"amount\": 100.0\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Zelle to Scheflin Aspen on 11/07 Ref # Wfct0Zgjwc7Y\",\n          \"amount\": 200.0\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Zelle to Langstrand Chris on 11/07 Ref # Wfct0Zgklfqx\",\n          \"amount\": 300.0\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Paypal Inst Xfer 251110 1046111748301 Langstrand Contracting\",\n          \"amount\": 250.0\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Online Transfer Ref #lb0Vngdqd9 to VISA Signature Card XXXXXXXXXXXxx9298 on 11/12/25\",\n          \"amount\": 500.0\n        },\n        {\n          \"date\": \"11/25/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Online Transfer Ref #lbOVT6K645 to VISA Signature Card XXXXXXXXXXXx9298 on 11/25/25\",\n          \"amount\": 300.0\n        },\n        {\n          \"date\": \"11/26/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Zelle to Scheflin Aspen on 11/26 Ref # Wfct0Zjjypfy\",\n          \"amount\": 100.0\n        },\n        {\n          \"date\": \"11/26/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Zelle to Ring Jordan on 11/26 Ref # Wfct0Zjktvq7\",\n          \"amount\": 50.0\n        }\n      ],\n      \"standard_deposit\": [\n        {\n          \"date\": \"11/04/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Mobile Deposit: Ref Number : 415040754413\",\n          \"amount\": 4000.0,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Intuit 10430843 Deposit 251111 524771999350488 Langstrand Contracting\",\n          \"amount\": 7694.0,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Intuit 23983153 Deposit 251115 524771999350488 Langstrand Contracting\",\n          \"amount\": 10000.0,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Mobile Deposit : Ref Number :510170558483\",\n          \"amount\": 3230.0,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/19/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Intuit 32397973 Deposit 251119 524771999350488 Langstrand Contracting\",\n          \"amount\": 5744.0,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Mobile Deposit : Ref Number :514200655969\",\n          \"amount\": 15000.0,\n          \"non_true_revenue\": 0\n        }\n      ],\n      \"standard_withdrawal\": [\n        {\n          \"date\": \"11/03/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Recurring Payment authorized on 11/02 Apple.Com/Bill 866-712-7753 CA S345306286703862 Card 7551\",\n          \"amount\": 3.2\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - American Express ACH Pmt 251103 M8172 Chris Langstrand\",\n          \"amount\": 400.0\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Uns Gas Corporat Snap Pmt 251030 0026307142 Langstrand Contracting\",\n          \"amount\": 69.56\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Check 4533\",\n          \"amount\": 146.0\n        },\n        {\n          \"date\": \"11/04/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Citi Card Online Payment 251103 431845868999754 Christopher Langstrand\",\n          \"amount\": 600.0\n        },\n        {\n          \"date\": \"11/04/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - Capital on Tap G5Azgcm 251104 Px3V Langstrand Contracting\",\n          \"amount\": 817.39\n        },\n        {\n          \"date\": \"11/06/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Recurring Payment authorized on 11/05 Apple.Com/Bill 866-712-7753 CA S345309290964500 Card 7551\",\n          \"amount\": 10.68\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Deposited OR Cashed Check 3863\",\n          \"amount\": 908.5\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - Intuit 75101778 Payroll 251107 15493981 Langstrand Contracting\",\n          \"amount\": 438.55\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - Intuit 07895424 Tax 251107 15493981 Langstrand Contracting\",\n          \"amount\": 456.35\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - Intuit 75101778 Payroll 251107 15493981 Langstrand Contracting\",\n          \"amount\": 586.43\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - American Express ACH Pmt 251107 W6950 Chris Langstrand\",\n          \"amount\": 500.0\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Check 4537\",\n          \"amount\": 2366.0\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Citi Card Online Payment 251107 421849357646712 Christopher Langstrand\",\n          \"amount\": 1017.88\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Barclaycard US Creditcard 1336216578 Christopher Langstrand\",\n          \"amount\": 1548.53\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - Capital One Mobile Pmt CA01A8159CC7707 Chris J Langstrand\",\n          \"amount\": 520.0\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - American Express ACH Pmt 251110 W3518 Chris Langstrand\",\n          \"amount\": 6348.65\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Bill Pay Home Depot on-Line Xxxxxxxxxxxx0254 on 11-12\",\n          \"amount\": 100.0\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Bill Pay US Small Business Administration on-Line xxxxxx8104 on 11-12\",\n          \"amount\": 300.0\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Bill Pay Credit One Bank on-Line Xxxxxxxxxxxx8914 on 11-12\",\n          \"amount\": 300.0\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - Payroll Payroll 251112 15493981 Langstrand Contracting\",\n          \"amount\": 550.0\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - Payroll Payroll 251112 15493981 Langstrand Contracting\",\n          \"amount\": 1800.0\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Citi Card Online Payment 251110 421851960938520 Christopher Langstrand\",\n          \"amount\": 5000.0\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Amazon Corp Syf Paymnt Nov 12 604578117479100 Langstrandchris\",\n          \"amount\": 950.0\n        },\n        {\n          \"date\": \"11/13/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Check 4512\",\n          \"amount\": 5100.0\n        },\n        {\n          \"date\": \"11/13/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Recurring Payment authorized on 11/12 Apple.Com/Bill 866-712-7753 CA S585316326470939 Card 7551\",\n          \"amount\": 10.68\n        },\n        {\n          \"date\": \"11/13/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Check 4536\",\n          \"amount\": 2917.55\n        },\n        {\n          \"date\": \"11/14/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Cashed Check 4539\",\n          \"amount\": 1000.0\n        },\n        {\n          \"date\": \"11/14/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"APS Electric Pmt Payments 251112 3940013527 Langstrand Contracting\",\n          \"amount\": 233.47\n        },\n        {\n          \"date\": \"11/14/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - Intuit 06261179 Tax 251114 15493981 Langstrand Contracting\",\n          \"amount\": 265.33\n        },\n        {\n          \"date\": \"11/14/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - Intuit 75521271 Payroll 251114 15493981 Langstrand Contracting\",\n          \"amount\": 340.68\n        },\n        {\n          \"date\": \"11/14/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - Intuit 75521271 Payroll 251114 15493981 Langstrand Contracting\",\n          \"amount\": 572.76\n        },\n        {\n          \"date\": \"11/14/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Check 4535\",\n          \"amount\": 344.58\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Check 4538\",\n          \"amount\": 250.0\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Shell Mastercard Online Pmt 251114 631855441255198 Chris L Langstrand\",\n          \"amount\": 1000.0\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - Ally Ally Paymt 251117 228127155860 Chris Langstrand\",\n          \"amount\": 1273.15\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - American Express ACH Pmt 251117 W9760 Chris Langstrand\",\n          \"amount\": 5000.0\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - Payroll Payroll 251118 15493981 Langstrand Contracting\",\n          \"amount\": 300.0\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - American Express ACH Pmt 251118 W6762 Chris Langstrand\",\n          \"amount\": 3500.0\n        },\n        {\n          \"date\": \"11/19/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - Payroll Payroll 251119 15493981 Langstrand Contracting\",\n          \"amount\": 550.0\n        },\n        {\n          \"date\": \"11/19/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Home Depot Online Pmt 251118 621858810568346 Langstrand Contracting\",\n          \"amount\": 3000.0\n        },\n        {\n          \"date\": \"11/19/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - American Express ACH Pmt 251119 W9586 Chris Langstrand\",\n          \"amount\": 5000.0\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Recurring Payment authorized on 11/19 Apple.Com/Bill 866-712-7753 CA S385323326824230 Card 7551\",\n          \"amount\": 10.68\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Cashed Check 4540\",\n          \"amount\": 1628.75\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - Intuit 27821828 Tax 251121 15493981 Langstrand Contracting\",\n          \"amount\": 193.46\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - Intuit 76490959 Payroll 251121 15493981 Langstrand Contracting\",\n          \"amount\": 557.39\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Bridgecrest Dt Retail 251121 49331259 Christopher Langstrand\",\n          \"amount\": 585.0\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - American Express ACH Pmt 251124 M0888 Chris Langstrand\",\n          \"amount\": 500.0\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - Equip Financing Cntrct Pmt 112225 097-0216682-000 Langstrand Contracting\",\n          \"amount\": 849.42\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - Payroll Payroll 251124 15493981 Langstrand Contracting\",\n          \"amount\": 1000.0\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - Payroll Payroll 251124 15493981 Langstrand Contracting\",\n          \"amount\": 1000.0\n        },\n        {\n          \"date\": \"11/26/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Bill Pay Bank of America Business Card on-Line XXXXXXXXXXXxx1253 on 11-26\",\n          \"amount\": 300.0\n        },\n        {\n          \"date\": \"11/26/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Cashed Check 4541\",\n          \"amount\": 775.0\n        },\n        {\n          \"date\": \"11/26/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Comenity Pay lo Web Pymt 112525 P25329497050557 Chris Langstrand\",\n          \"amount\": 500.0\n        },\n        {\n          \"date\": \"11/26/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - Payroll Payroll 251126 15493981 Langstrand Contracting\",\n          \"amount\": 1550.0\n        },\n        {\n          \"date\": \"11/26/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - Payroll Payroll 251126 15493981 Langstrand Contracting\",\n          \"amount\": 1800.0\n        },\n        {\n          \"date\": \"11/26/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Mercury Card Fbt Payment 251125 Fpp26996132 Chris Langstrand\",\n          \"amount\": 250.0\n        },\n        {\n          \"date\": \"11/28/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Recurring Payment authorized on 11/26 Apple.Com/Bill 866-712-7753 CA S585330326656498 Card 7551\",\n          \"amount\": 10.68\n        },\n        {\n          \"date\": \"11/28/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Foremost Epm Pymt 251126 1030925204140 Christopher Langstrand\",\n          \"amount\": 152.28\n        },\n        {\n          \"date\": \"11/28/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - Intuit 66726528 Tax 251128 15493981 Langstrand Contracting\",\n          \"amount\": 193.48\n        },\n        {\n          \"date\": \"11/28/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Systems & Serv. Loan Pmt 251126 32861593 Langstrand Christophe\",\n          \"amount\": 300.0\n        },\n        {\n          \"date\": \"11/28/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - Intuit 76491067 Payroll 251128 15493981 Langstrand Contracting\",\n          \"amount\": 557.38\n        }\n      ]\n    }\n  ]\n}\n```",
+    "token_count": {
+      "estimated_tokens": 2195
+    },
+    "failure_reason": null
+  }
+}

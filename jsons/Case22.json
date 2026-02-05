@@ -1,0 +1,973 @@
+{
+  "document_name": "Case22.pdf",
+  "pipeline_status": "completed",
+  "processing_metadata": {
+    "start_time": "2026-02-04T15:00:34.797077",
+    "end_time": "2026-02-04T15:03:18.402940",
+    "parsing_time_seconds": 108.415105,
+    "bsi_time_seconds": 55.040539,
+    "total_time_seconds": 163.455644
+  },
+  "parsing_agent_result": {
+    "agent_name": "parsing_agent",
+    "processing_status": "success",
+    "start_time": "2026-02-04T15:00:34.940439",
+    "end_time": "2026-02-04T15:02:23.355349",
+    "parsed_json": {
+      "bank_statement_information": {
+        "bank_name": "FirstBank",
+        "account_holder": "Nancy S Whaley DBA Simply Southern Interiors",
+        "statement_start_date": "09/02/2025",
+        "statement_end_date": "09/30/2025",
+        "n_days": 29,
+        "n_month": [
+          9
+        ],
+        "business_address": "1899 Middle Summit Drive # 97 Dalton GA 30721"
+      },
+      "accounts": [
+        {
+          "account_number": "1453",
+          "account_type": "FirstBusiness Checking",
+          "account_summary": {
+            "beginning_balance": -2603.86,
+            "ending_balance": 1.74,
+            "total_deposits": 16307.33,
+            "total_withdrawals": 13701.73,
+            "total_deposits_count": 20,
+            "total_withdrawals_count": 46,
+            "avg_daily_balance": null,
+            "overdraft_days": 4
+          },
+          "transactions": [
+            {
+              "date": "09/02/2025",
+              "description": "APP GREENLIGHT WEB GREENLIGHT PYMNT00001 091000017446434",
+              "amount": 20.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/02/2025",
+              "description": "Draft Titanium Payment CCD SIMPLY SOUTHERN SIMPLY SOUTHERN",
+              "amount": 29.95,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/02/2025",
+              "description": "MERCH FEES TITANIUM CCD 177202116682800 SIMPLY SOUTHERN INTERI",
+              "amount": 40.5,
+              "type": "Debit",
+              "category": "Service Charges/Fees"
+            },
+            {
+              "date": "09/02/2025",
+              "description": "Check #1616",
+              "amount": 98.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/03/2025",
+              "description": "Return Item Credit",
+              "amount": 20.0,
+              "type": "Credit",
+              "category": "Returned Item"
+            },
+            {
+              "date": "09/03/2025",
+              "description": "Return Item Credit",
+              "amount": 29.95,
+              "type": "Credit",
+              "category": "Returned Item"
+            },
+            {
+              "date": "09/03/2025",
+              "description": "Return Item Credit",
+              "amount": 40.5,
+              "type": "Credit",
+              "category": "Returned Item"
+            },
+            {
+              "date": "09/03/2025",
+              "description": "Return Item Credit",
+              "amount": 98.0,
+              "type": "Credit",
+              "category": "Returned Item"
+            },
+            {
+              "date": "09/03/2025",
+              "description": "POS CRE 0000 09/01/25 91491152 THE HOME DEPOT #0137 DALTON GA C#7602",
+              "amount": 18.17,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "09/03/2025",
+              "description": "Insufficient Funds Charge",
+              "amount": 35.0,
+              "type": "Debit",
+              "category": "Overdraft"
+            },
+            {
+              "date": "09/03/2025",
+              "description": "Insufficient Funds Charge",
+              "amount": 35.0,
+              "type": "Debit",
+              "category": "Overdraft"
+            },
+            {
+              "date": "09/03/2025",
+              "description": "Insufficient Funds Charge",
+              "amount": 35.0,
+              "type": "Debit",
+              "category": "Overdraft"
+            },
+            {
+              "date": "09/03/2025",
+              "description": "Insufficient Funds Charge",
+              "amount": 35.0,
+              "type": "Debit",
+              "category": "Overdraft"
+            },
+            {
+              "date": "09/04/2025",
+              "description": "8778005577 FORTH-CORDOBA PPD 1766797296 NANCYWHALEY",
+              "amount": 297.87,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/04/2025",
+              "description": "Overdraft Item Charge",
+              "amount": 35.0,
+              "type": "Debit",
+              "category": "Overdraft"
+            },
+            {
+              "date": "09/04/2025",
+              "description": "Overdraft Item Charge",
+              "amount": 35.0,
+              "type": "Debit",
+              "category": "Overdraft"
+            },
+            {
+              "date": "09/04/2025",
+              "description": "Overdraft Item Charge",
+              "amount": 35.0,
+              "type": "Debit",
+              "category": "Overdraft"
+            },
+            {
+              "date": "09/04/2025",
+              "description": "Check #1613",
+              "amount": 786.46,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/04/2025",
+              "description": "Check #1614",
+              "amount": 3322.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/05/2025",
+              "description": "Return Item Credit",
+              "amount": 297.87,
+              "type": "Credit",
+              "category": "Returned Item"
+            },
+            {
+              "date": "09/05/2025",
+              "description": "Return Item Credit",
+              "amount": 786.46,
+              "type": "Credit",
+              "category": "Returned Item"
+            },
+            {
+              "date": "09/05/2025",
+              "description": "Return Item Credit",
+              "amount": 3322.0,
+              "type": "Credit",
+              "category": "Returned Item"
+            },
+            {
+              "date": "09/05/2025",
+              "description": "Reverse OD Item Charge",
+              "amount": 35.0,
+              "type": "Credit",
+              "category": "Service Charges/Fees"
+            },
+            {
+              "date": "09/05/2025",
+              "description": "Reverse OD Item Charge",
+              "amount": 35.0,
+              "type": "Credit",
+              "category": "Service Charges/Fees"
+            },
+            {
+              "date": "09/05/2025",
+              "description": "Reverse OD Item Charge",
+              "amount": 35.0,
+              "type": "Credit",
+              "category": "Service Charges/Fees"
+            },
+            {
+              "date": "09/05/2025",
+              "description": "8778005577 FORTH PPD 1740985866 NANCYWHALEY",
+              "amount": 351.9,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/05/2025",
+              "description": "Check #1616",
+              "amount": 98.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/08/2025",
+              "description": "Return Item Credit",
+              "amount": 98.0,
+              "type": "Credit",
+              "category": "Returned Item"
+            },
+            {
+              "date": "09/08/2025",
+              "description": "Return Item Credit",
+              "amount": 351.9,
+              "type": "Credit",
+              "category": "Returned Item"
+            },
+            {
+              "date": "09/08/2025",
+              "description": "POS CRE 0000 09/05/25 38641319 THE HOME DEPOT #0137 DALTON GA C#7602",
+              "amount": 49.18,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "09/08/2025",
+              "description": "Deposit",
+              "amount": 9720.4,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "09/08/2025",
+              "description": "Insufficient Funds Charge",
+              "amount": 35.0,
+              "type": "Debit",
+              "category": "Overdraft"
+            },
+            {
+              "date": "09/08/2025",
+              "description": "Insufficient Funds Charge",
+              "amount": 35.0,
+              "type": "Debit",
+              "category": "Overdraft"
+            },
+            {
+              "date": "09/08/2025",
+              "description": "POS DEB 1450 09/08/25 40272000 SUNOCO 8002483301 2900 AIRPORT ROAD DALTON GA C#7602",
+              "amount": 40.16,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/08/2025",
+              "description": "Transfer from x1453 to x3331",
+              "amount": 105.71,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "09/08/2025",
+              "description": "Transfer: per customer request",
+              "amount": 200.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/08/2025",
+              "description": "Transfer from x1453 to x3331",
+              "amount": 250.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "09/08/2025",
+              "description": "52VGJ6A TRANSFORM CREDIT WEB 8253 7891460966 021000028132077",
+              "amount": 5.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/09/2025",
+              "description": "Transfer from x3331 to x1453",
+              "amount": 150.0,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "09/09/2025",
+              "description": "DBT CRD 1724 09/08/25 06762085 AMAZON RETA* PB2S82Q93 WWW.AMAZON.CO WA C#7602",
+              "amount": 49.18,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/09/2025",
+              "description": "DBT CRD 1023 09/09/25 54305556 DALTON UTILITIES 706-278-1313 GA C#7602",
+              "amount": 124.02,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/09/2025",
+              "description": "DBT CRD 1152 09/08/25 07307461 HIBU GLOBAL / HIBU INC 800-929-3556 IA C#7602",
+              "amount": 299.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/09/2025",
+              "description": "Transfer from x1453 to x3331",
+              "amount": 100.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "09/09/2025",
+              "description": "Transfer from x1453 to x3331",
+              "amount": 200.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "09/09/2025",
+              "description": "Check #1618",
+              "amount": 3443.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/10/2025",
+              "description": "Transfer from x3331 to x1453",
+              "amount": 200.0,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "09/10/2025",
+              "description": "DBT CRD 0337 09/10/25 10349280 CLEO SUBSCRIPTION MEETCLEO.COM DE C#7602",
+              "amount": 5.99,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/10/2025",
+              "description": "DBT CRD 1040 09/09/25 64599314 AMAZON MARK* M74UM58W3 AMAZON.COM/MA WA C#7602",
+              "amount": 37.44,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/10/2025",
+              "description": "DBT CRD 1021 09/10/25 52688243 The Sherwin-Williams C Cleveland OH C#7602",
+              "amount": 200.68,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/10/2025",
+              "description": "DBT CRD 1027 09/09/25 56639412 BLD*AMF LLC 706-260-7476 GA C#7602",
+              "amount": 1200.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/10/2025",
+              "description": "PAYMENT CITI CARD ONLINE WEB 431798538986748 CITICTP 091409685717926",
+              "amount": 110.95,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/11/2025",
+              "description": "DBT CRD 1735 09/11/25 13246824 THE EPOCH TIMES 833-699-1888 NY C#7602",
+              "amount": 4.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/11/2025",
+              "description": "DBT CRD 1926 09/10/25 16195296 HP *INSTANT INK 855-785-2777 CA C#7602",
+              "amount": 10.69,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/12/2025",
+              "description": "POS CRE 0000 09/11/25 86586362 SAVE*E.FILE-TAX.NET 8006300780 NC C#7602",
+              "amount": 9.95,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "09/12/2025",
+              "description": "DBT CRD 1650 09/11/25 86586362 SAVE*E.FILE-TAX.NET 8006300780 NC C#7602",
+              "amount": 9.95,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/12/2025",
+              "description": "DBT CRD 0923 09/10/25 18393826 MAYBERRY CARPET & RUG 706-3707737 GA C#7602",
+              "amount": 812.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/12/2025",
+              "description": "DALTON OPT DALTON OPTILINK CCD A5J11E4917511 SIMPLY SOUTHERN INTERI",
+              "amount": 59.9,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/15/2025",
+              "description": "POS CRE 0000 09/12/25 97683647 SAVE*E.FILE-TAX.NET 8006300780 NC C#7602",
+              "amount": 9.95,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "09/15/2025",
+              "description": "Stop Payment Charge",
+              "amount": 32.0,
+              "type": "Debit",
+              "category": "Service Charges/Fees"
+            },
+            {
+              "date": "09/15/2025",
+              "description": "POS DEB 1713 09/13/25 25418177 MICROSOFT MICROSOFT 36 MICROSOFT*HTTPS:// REDMOND WA C#7602",
+              "amount": 1.99,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/15/2025",
+              "description": "DBT CRD 1136 09/12/25 97683647 SAVE*E.FILE-TAX.NET 8006300780 NC C#7602",
+              "amount": 9.95,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/15/2025",
+              "description": "DBT CRD 1140 09/12/25 00176313 INVOICESIMPLE OAKVILLE CD C#7602",
+              "amount": 13.49,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/19/2025",
+              "description": "DBT CRD 1146 09/17/25 04028053 HERITAGE CHILDREN CLOT 866-963-9357 CA C#7602",
+              "amount": 14.95,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/23/2025",
+              "description": "Transfer from x1453 to x3331",
+              "amount": 2.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "09/26/2025",
+              "description": "7018623984 ADVANCE.CASH C PPD 24809537 Nancy Whaley",
+              "amount": 1000.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 0
+            },
+            {
+              "date": "09/26/2025",
+              "description": "Check #1621",
+              "amount": 1000.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            }
+          ]
+        }
+      ]
+    },
+    "raw_output": "```json\n{\n  \"bank_statement_information\": {\n    \"bank_name\": \"FirstBank\",\n    \"account_holder\": \"Nancy S Whaley DBA Simply Southern Interiors\",\n    \"statement_start_date\": \"09/02/2025\",\n    \"statement_end_date\": \"09/30/2025\",\n    \"n_days\": 29,\n    \"n_month\": [\n      9\n    ],\n    \"business_address\": \"1899 Middle Summit Drive # 97 Dalton GA 30721\"\n  },\n  \"accounts\": [\n    {\n      \"account_number\": \"1453\",\n      \"account_type\": \"FirstBusiness Checking\",\n      \"account_summary\": {\n        \"beginning_balance\": -2603.86,\n        \"ending_balance\": 1.74,\n        \"total_deposits\": 16307.33,\n        \"total_withdrawals\": 13701.73,\n        \"total_deposits_count\": 20,\n        \"total_withdrawals_count\": 46,\n        \"avg_daily_balance\": null,\n        \"overdraft_days\": 4\n      },\n      \"transactions\": [\n        {\n          \"date\": \"09/02/2025\",\n          \"description\": \"APP GREENLIGHT WEB GREENLIGHT PYMNT00001 091000017446434\",\n          \"amount\": 20.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/02/2025\",\n          \"description\": \"Draft Titanium Payment CCD SIMPLY SOUTHERN SIMPLY SOUTHERN\",\n          \"amount\": 29.95,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/02/2025\",\n          \"description\": \"MERCH FEES TITANIUM CCD 177202116682800 SIMPLY SOUTHERN INTERI\",\n          \"amount\": 40.5,\n          \"type\": \"Debit\",\n          \"category\": \"Service Charges/Fees\"\n        },\n        {\n          \"date\": \"09/02/2025\",\n          \"description\": \"Check #1616\",\n          \"amount\": 98.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/03/2025\",\n          \"description\": \"Return Item Credit\",\n          \"amount\": 20.0,\n          \"type\": \"Credit\",\n          \"category\": \"Returned Item\"\n        },\n        {\n          \"date\": \"09/03/2025\",\n          \"description\": \"Return Item Credit\",\n          \"amount\": 29.95,\n          \"type\": \"Credit\",\n          \"category\": \"Returned Item\"\n        },\n        {\n          \"date\": \"09/03/2025\",\n          \"description\": \"Return Item Credit\",\n          \"amount\": 40.5,\n          \"type\": \"Credit\",\n          \"category\": \"Returned Item\"\n        },\n        {\n          \"date\": \"09/03/2025\",\n          \"description\": \"Return Item Credit\",\n          \"amount\": 98.0,\n          \"type\": \"Credit\",\n          \"category\": \"Returned Item\"\n        },\n        {\n          \"date\": \"09/03/2025\",\n          \"description\": \"POS CRE 0000 09/01/25 91491152 THE HOME DEPOT #0137 DALTON GA C#7602\",\n          \"amount\": 18.17,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"09/03/2025\",\n          \"description\": \"Insufficient Funds Charge\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\",\n          \"category\": \"Overdraft\"\n        },\n        {\n          \"date\": \"09/03/2025\",\n          \"description\": \"Insufficient Funds Charge\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\",\n          \"category\": \"Overdraft\"\n        },\n        {\n          \"date\": \"09/03/2025\",\n          \"description\": \"Insufficient Funds Charge\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\",\n          \"category\": \"Overdraft\"\n        },\n        {\n          \"date\": \"09/03/2025\",\n          \"description\": \"Insufficient Funds Charge\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\",\n          \"category\": \"Overdraft\"\n        },\n        {\n          \"date\": \"09/04/2025\",\n          \"description\": \"8778005577 FORTH-CORDOBA PPD 1766797296 NANCYWHALEY\",\n          \"amount\": 297.87,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/04/2025\",\n          \"description\": \"Overdraft Item Charge\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\",\n          \"category\": \"Overdraft\"\n        },\n        {\n          \"date\": \"09/04/2025\",\n          \"description\": \"Overdraft Item Charge\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\",\n          \"category\": \"Overdraft\"\n        },\n        {\n          \"date\": \"09/04/2025\",\n          \"description\": \"Overdraft Item Charge\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\",\n          \"category\": \"Overdraft\"\n        },\n        {\n          \"date\": \"09/04/2025\",\n          \"description\": \"Check #1613\",\n          \"amount\": 786.46,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/04/2025\",\n          \"description\": \"Check #1614\",\n          \"amount\": 3322.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/05/2025\",\n          \"description\": \"Return Item Credit\",\n          \"amount\": 297.87,\n          \"type\": \"Credit\",\n          \"category\": \"Returned Item\"\n        },\n        {\n          \"date\": \"09/05/2025\",\n          \"description\": \"Return Item Credit\",\n          \"amount\": 786.46,\n          \"type\": \"Credit\",\n          \"category\": \"Returned Item\"\n        },\n        {\n          \"date\": \"09/05/2025\",\n          \"description\": \"Return Item Credit\",\n          \"amount\": 3322.0,\n          \"type\": \"Credit\",\n          \"category\": \"Returned Item\"\n        },\n        {\n          \"date\": \"09/05/2025\",\n          \"description\": \"Reverse OD Item Charge\",\n          \"amount\": 35.0,\n          \"type\": \"Credit\",\n          \"category\": \"Service Charges/Fees\"\n        },\n        {\n          \"date\": \"09/05/2025\",\n          \"description\": \"Reverse OD Item Charge\",\n          \"amount\": 35.0,\n          \"type\": \"Credit\",\n          \"category\": \"Service Charges/Fees\"\n        },\n        {\n          \"date\": \"09/05/2025\",\n          \"description\": \"Reverse OD Item Charge\",\n          \"amount\": 35.0,\n          \"type\": \"Credit\",\n          \"category\": \"Service Charges/Fees\"\n        },\n        {\n          \"date\": \"09/05/2025\",\n          \"description\": \"8778005577 FORTH PPD 1740985866 NANCYWHALEY\",\n          \"amount\": 351.9,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/05/2025\",\n          \"description\": \"Check #1616\",\n          \"amount\": 98.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/08/2025\",\n          \"description\": \"Return Item Credit\",\n          \"amount\": 98.0,\n          \"type\": \"Credit\",\n          \"category\": \"Returned Item\"\n        },\n        {\n          \"date\": \"09/08/2025\",\n          \"description\": \"Return Item Credit\",\n          \"amount\": 351.9,\n          \"type\": \"Credit\",\n          \"category\": \"Returned Item\"\n        },\n        {\n          \"date\": \"09/08/2025\",\n          \"description\": \"POS CRE 0000 09/05/25 38641319 THE HOME DEPOT #0137 DALTON GA C#7602\",\n          \"amount\": 49.18,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"09/08/2025\",\n          \"description\": \"Deposit\",\n          \"amount\": 9720.4,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"09/08/2025\",\n          \"description\": \"Insufficient Funds Charge\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\",\n          \"category\": \"Overdraft\"\n        },\n        {\n          \"date\": \"09/08/2025\",\n          \"description\": \"Insufficient Funds Charge\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\",\n          \"category\": \"Overdraft\"\n        },\n        {\n          \"date\": \"09/08/2025\",\n          \"description\": \"POS DEB 1450 09/08/25 40272000 SUNOCO 8002483301 2900 AIRPORT ROAD DALTON GA C#7602\",\n          \"amount\": 40.16,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/08/2025\",\n          \"description\": \"Transfer from x1453 to x3331\",\n          \"amount\": 105.71,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/08/2025\",\n          \"description\": \"Transfer: per customer request\",\n          \"amount\": 200.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/08/2025\",\n          \"description\": \"Transfer from x1453 to x3331\",\n          \"amount\": 250.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/08/2025\",\n          \"description\": \"52VGJ6A TRANSFORM CREDIT WEB 8253 7891460966 021000028132077\",\n          \"amount\": 5.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/09/2025\",\n          \"description\": \"Transfer from x3331 to x1453\",\n          \"amount\": 150.0,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"09/09/2025\",\n          \"description\": \"DBT CRD 1724 09/08/25 06762085 AMAZON RETA* PB2S82Q93 WWW.AMAZON.CO WA C#7602\",\n          \"amount\": 49.18,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/09/2025\",\n          \"description\": \"DBT CRD 1023 09/09/25 54305556 DALTON UTILITIES 706-278-1313 GA C#7602\",\n          \"amount\": 124.02,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/09/2025\",\n          \"description\": \"DBT CRD 1152 09/08/25 07307461 HIBU GLOBAL / HIBU INC 800-929-3556 IA C#7602\",\n          \"amount\": 299.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/09/2025\",\n          \"description\": \"Transfer from x1453 to x3331\",\n          \"amount\": 100.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/09/2025\",\n          \"description\": \"Transfer from x1453 to x3331\",\n          \"amount\": 200.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/09/2025\",\n          \"description\": \"Check #1618\",\n          \"amount\": 3443.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/10/2025\",\n          \"description\": \"Transfer from x3331 to x1453\",\n          \"amount\": 200.0,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"09/10/2025\",\n          \"description\": \"DBT CRD 0337 09/10/25 10349280 CLEO SUBSCRIPTION MEETCLEO.COM DE C#7602\",\n          \"amount\": 5.99,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/10/2025\",\n          \"description\": \"DBT CRD 1040 09/09/25 64599314 AMAZON MARK* M74UM58W3 AMAZON.COM/MA WA C#7602\",\n          \"amount\": 37.44,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/10/2025\",\n          \"description\": \"DBT CRD 1021 09/10/25 52688243 The Sherwin-Williams C Cleveland OH C#7602\",\n          \"amount\": 200.68,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/10/2025\",\n          \"description\": \"DBT CRD 1027 09/09/25 56639412 BLD*AMF LLC 706-260-7476 GA C#7602\",\n          \"amount\": 1200.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/10/2025\",\n          \"description\": \"PAYMENT CITI CARD ONLINE WEB 431798538986748 CITICTP 091409685717926\",\n          \"amount\": 110.95,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/11/2025\",\n          \"description\": \"DBT CRD 1735 09/11/25 13246824 THE EPOCH TIMES 833-699-1888 NY C#7602\",\n          \"amount\": 4.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/11/2025\",\n          \"description\": \"DBT CRD 1926 09/10/25 16195296 HP *INSTANT INK 855-785-2777 CA C#7602\",\n          \"amount\": 10.69,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/12/2025\",\n          \"description\": \"POS CRE 0000 09/11/25 86586362 SAVE*E.FILE-TAX.NET 8006300780 NC C#7602\",\n          \"amount\": 9.95,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"09/12/2025\",\n          \"description\": \"DBT CRD 1650 09/11/25 86586362 SAVE*E.FILE-TAX.NET 8006300780 NC C#7602\",\n          \"amount\": 9.95,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/12/2025\",\n          \"description\": \"DBT CRD 0923 09/10/25 18393826 MAYBERRY CARPET & RUG 706-3707737 GA C#7602\",\n          \"amount\": 812.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/12/2025\",\n          \"description\": \"DALTON OPT DALTON OPTILINK CCD A5J11E4917511 SIMPLY SOUTHERN INTERI\",\n          \"amount\": 59.9,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"description\": \"POS CRE 0000 09/12/25 97683647 SAVE*E.FILE-TAX.NET 8006300780 NC C#7602\",\n          \"amount\": 9.95,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"description\": \"Stop Payment Charge\",\n          \"amount\": 32.0,\n          \"type\": \"Debit\",\n          \"category\": \"Service Charges/Fees\"\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"description\": \"POS DEB 1713 09/13/25 25418177 MICROSOFT MICROSOFT 36 MICROSOFT*HTTPS:// REDMOND WA C#7602\",\n          \"amount\": 1.99,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"description\": \"DBT CRD 1136 09/12/25 97683647 SAVE*E.FILE-TAX.NET 8006300780 NC C#7602\",\n          \"amount\": 9.95,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"description\": \"DBT CRD 1140 09/12/25 00176313 INVOICESIMPLE OAKVILLE CD C#7602\",\n          \"amount\": 13.49,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/19/2025\",\n          \"description\": \"DBT CRD 1146 09/17/25 04028053 HERITAGE CHILDREN CLOT 866-963-9357 CA C#7602\",\n          \"amount\": 14.95,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/23/2025\",\n          \"description\": \"Transfer from x1453 to x3331\",\n          \"amount\": 2.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/26/2025\",\n          \"description\": \"7018623984 ADVANCE.CASH C PPD 24809537 Nancy Whaley\",\n          \"amount\": 1000.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 0\n        },\n        {\n          \"date\": \"09/26/2025\",\n          \"description\": \"Check #1621\",\n          \"amount\": 1000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        }\n      ]\n    }\n  ]\n}\n```",
+    "token_count": {
+      "estimated_tokens": 1262
+    },
+    "failure_reason": null
+  },
+  "bsi_analyzer_result": {
+    "agent_name": "v1_bsi_analyzer_agent",
+    "processing_status": "success",
+    "start_time": "2026-02-04T15:02:23.361803",
+    "end_time": "2026-02-04T15:03:18.401976",
+    "parsed_json": {
+      "accounts": [
+        {
+          "account_number": "1453",
+          "account_type": "FirstBusiness Checking",
+          "mca_deposit": [
+            {
+              "mca_name": "AdvanceCash",
+              "date": "09/26/2025",
+              "type": "Credit",
+              "description": "7018623984 ADVANCE.CASH C PPD 24809537 Nancy Whaley",
+              "amount": 1000.0,
+              "non_true_revenue": 1
+            }
+          ],
+          "mca_withdrawal": [],
+          "returned_items": [
+            {
+              "date": "09/03/2025",
+              "description": "Return Item Credit",
+              "amount": 20.0,
+              "type": "Credit",
+              "non_true_revenue": 1
+            },
+            {
+              "date": "09/03/2025",
+              "description": "Return Item Credit",
+              "amount": 29.95,
+              "type": "Credit",
+              "non_true_revenue": 1
+            },
+            {
+              "date": "09/03/2025",
+              "description": "Return Item Credit",
+              "amount": 40.5,
+              "type": "Credit",
+              "non_true_revenue": 1
+            },
+            {
+              "date": "09/03/2025",
+              "description": "Return Item Credit",
+              "amount": 98.0,
+              "type": "Credit",
+              "non_true_revenue": 1
+            },
+            {
+              "date": "09/05/2025",
+              "description": "Return Item Credit",
+              "amount": 297.87,
+              "type": "Credit",
+              "non_true_revenue": 1
+            },
+            {
+              "date": "09/05/2025",
+              "description": "Return Item Credit",
+              "amount": 786.46,
+              "type": "Credit",
+              "non_true_revenue": 1
+            },
+            {
+              "date": "09/05/2025",
+              "description": "Return Item Credit",
+              "amount": 3322.0,
+              "type": "Credit",
+              "non_true_revenue": 1
+            },
+            {
+              "date": "09/08/2025",
+              "description": "Return Item Credit",
+              "amount": 98.0,
+              "type": "Credit",
+              "non_true_revenue": 1
+            },
+            {
+              "date": "09/08/2025",
+              "description": "Return Item Credit",
+              "amount": 351.9,
+              "type": "Credit",
+              "non_true_revenue": 1
+            }
+          ],
+          "overdrafts": [
+            {
+              "date": "09/03/2025",
+              "description": "Insufficient Funds Charge",
+              "amount": 35.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09/03/2025",
+              "description": "Insufficient Funds Charge",
+              "amount": 35.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09/03/2025",
+              "description": "Insufficient Funds Charge",
+              "amount": 35.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09/03/2025",
+              "description": "Insufficient Funds Charge",
+              "amount": 35.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09/04/2025",
+              "description": "Overdraft Item Charge",
+              "amount": 35.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09/04/2025",
+              "description": "Overdraft Item Charge",
+              "amount": 35.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09/04/2025",
+              "description": "Overdraft Item Charge",
+              "amount": 35.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09/08/2025",
+              "description": "Insufficient Funds Charge",
+              "amount": 35.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09/08/2025",
+              "description": "Insufficient Funds Charge",
+              "amount": 35.0,
+              "type": "Debit"
+            }
+          ],
+          "service_charges": [
+            {
+              "date": "09/02/2025",
+              "description": "MERCH FEES TITANIUM CCD 177202116682800 SIMPLY SOUTHERN INTERI",
+              "amount": 40.5,
+              "type": "Debit"
+            },
+            {
+              "date": "09/05/2025",
+              "description": "Reverse OD Item Charge",
+              "amount": 35.0,
+              "type": "Credit",
+              "non_true_revenue": 1
+            },
+            {
+              "date": "09/05/2025",
+              "description": "Reverse OD Item Charge",
+              "amount": 35.0,
+              "type": "Credit",
+              "non_true_revenue": 1
+            },
+            {
+              "date": "09/05/2025",
+              "description": "Reverse OD Item Charge",
+              "amount": 35.0,
+              "type": "Credit",
+              "non_true_revenue": 1
+            },
+            {
+              "date": "09/15/2025",
+              "description": "Stop Payment Charge",
+              "amount": 32.0,
+              "type": "Debit"
+            }
+          ],
+          "atm_cash_withdrawal": [],
+          "internal_transfer_deposit": [
+            {
+              "date": "09/09/2025",
+              "description": "Transfer from x3331 to x1453",
+              "amount": 150.0,
+              "type": "Credit",
+              "non_true_revenue": 1
+            },
+            {
+              "date": "09/10/2025",
+              "description": "Transfer from x3331 to x1453",
+              "amount": 200.0,
+              "type": "Credit",
+              "non_true_revenue": 1
+            }
+          ],
+          "other_transfer_deposit": [],
+          "internal_transfer_withdrawal": [
+            {
+              "date": "09/08/2025",
+              "description": "Transfer from x1453 to x3331",
+              "amount": 105.71,
+              "type": "Debit"
+            },
+            {
+              "date": "09/08/2025",
+              "description": "Transfer from x1453 to x3331",
+              "amount": 250.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09/09/2025",
+              "description": "Transfer from x1453 to x3331",
+              "amount": 100.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09/09/2025",
+              "description": "Transfer from x1453 to x3331",
+              "amount": 200.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09/23/2025",
+              "description": "Transfer from x1453 to x3331",
+              "amount": 2.0,
+              "type": "Debit"
+            }
+          ],
+          "other_transfer_withdrawal": [
+            {
+              "date": "09/08/2025",
+              "description": "Transfer: per customer request",
+              "amount": 200.0,
+              "type": "Debit"
+            }
+          ],
+          "standard_deposit": [
+            {
+              "date": "09/03/2025",
+              "description": "POS CRE 0000 09/01/25 91491152 THE HOME DEPOT #0137 DALTON GA C#7602",
+              "amount": 18.17,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09/08/2025",
+              "description": "POS CRE 0000 09/05/25 38641319 THE HOME DEPOT #0137 DALTON GA C#7602",
+              "amount": 49.18,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09/08/2025",
+              "description": "Deposit",
+              "amount": 9720.4,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09/12/2025",
+              "description": "POS CRE 0000 09/11/25 86586362 SAVE*E.FILE-TAX.NET 8006300780 NC C#7602",
+              "amount": 9.95,
+              "type": "Credit",
+              "non_true_revenue": 1
+            },
+            {
+              "date": "09/15/2025",
+              "description": "POS CRE 0000 09/12/25 97683647 SAVE*E.FILE-TAX.NET 8006300780 NC C#7602",
+              "amount": 9.95,
+              "type": "Credit",
+              "non_true_revenue": 1
+            }
+          ],
+          "standard_withdrawal": [
+            {
+              "date": "09/02/2025",
+              "description": "APP GREENLIGHT WEB GREENLIGHT PYMNT00001 091000017446434",
+              "amount": 20.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09/02/2025",
+              "description": "Draft Titanium Payment CCD SIMPLY SOUTHERN SIMPLY SOUTHERN",
+              "amount": 29.95,
+              "type": "Debit"
+            },
+            {
+              "date": "09/02/2025",
+              "description": "Check #1616",
+              "amount": 98.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09/04/2025",
+              "description": "8778005577 FORTH-CORDOBA PPD 1766797296 NANCYWHALEY",
+              "amount": 297.87,
+              "type": "Debit"
+            },
+            {
+              "date": "09/04/2025",
+              "description": "Check #1613",
+              "amount": 786.46,
+              "type": "Debit"
+            },
+            {
+              "date": "09/04/2025",
+              "description": "Check #1614",
+              "amount": 3322.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09/05/2025",
+              "description": "8778005577 FORTH PPD 1740985866 NANCYWHALEY",
+              "amount": 351.9,
+              "type": "Debit"
+            },
+            {
+              "date": "09/05/2025",
+              "description": "Check #1616",
+              "amount": 98.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09/08/2025",
+              "description": "POS DEB 1450 09/08/25 40272000 SUNOCO 8002483301 2900 AIRPORT ROAD DALTON GA C#7602",
+              "amount": 40.16,
+              "type": "Debit"
+            },
+            {
+              "date": "09/08/2025",
+              "description": "52VGJ6A TRANSFORM CREDIT WEB 8253 7891460966 021000028132077",
+              "amount": 5.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09/09/2025",
+              "description": "DBT CRD 1724 09/08/25 06762085 AMAZON RETA* PB2S82Q93 WWW.AMAZON.CO WA C#7602",
+              "amount": 49.18,
+              "type": "Debit"
+            },
+            {
+              "date": "09/09/2025",
+              "description": "DBT CRD 1023 09/09/25 54305556 DALTON UTILITIES 706-278-1313 GA C#7602",
+              "amount": 124.02,
+              "type": "Debit"
+            },
+            {
+              "date": "09/09/2025",
+              "description": "DBT CRD 1152 09/08/25 07307461 HIBU GLOBAL / HIBU INC 800-929-3556 IA C#7602",
+              "amount": 299.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09/09/2025",
+              "description": "Check #1618",
+              "amount": 3443.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09/10/2025",
+              "description": "DBT CRD 0337 09/10/25 10349280 CLEO SUBSCRIPTION MEETCLEO.COM DE C#7602",
+              "amount": 5.99,
+              "type": "Debit"
+            },
+            {
+              "date": "09/10/2025",
+              "description": "DBT CRD 1040 09/09/25 64599314 AMAZON MARK* M74UM58W3 AMAZON.COM/MA WA C#7602",
+              "amount": 37.44,
+              "type": "Debit"
+            },
+            {
+              "date": "09/10/2025",
+              "description": "DBT CRD 1021 09/10/25 52688243 The Sherwin-Williams C Cleveland OH C#7602",
+              "amount": 200.68,
+              "type": "Debit"
+            },
+            {
+              "date": "09/10/2025",
+              "description": "DBT CRD 1027 09/09/25 56639412 BLD*AMF LLC 706-260-7476 GA C#7602",
+              "amount": 1200.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09/10/2025",
+              "description": "PAYMENT CITI CARD ONLINE WEB 431798538986748 CITICTP 091409685717926",
+              "amount": 110.95,
+              "type": "Debit"
+            },
+            {
+              "date": "09/11/2025",
+              "description": "DBT CRD 1735 09/11/25 13246824 THE EPOCH TIMES 833-699-1888 NY C#7602",
+              "amount": 4.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09/11/2025",
+              "description": "DBT CRD 1926 09/10/25 16195296 HP *INSTANT INK 855-785-2777 CA C#7602",
+              "amount": 10.69,
+              "type": "Debit"
+            },
+            {
+              "date": "09/12/2025",
+              "description": "DBT CRD 1650 09/11/25 86586362 SAVE*E.FILE-TAX.NET 8006300780 NC C#7602",
+              "amount": 9.95,
+              "type": "Debit"
+            },
+            {
+              "date": "09/12/2025",
+              "description": "DBT CRD 0923 09/10/25 18393826 MAYBERRY CARPET & RUG 706-3707737 GA C#7602",
+              "amount": 812.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09/12/2025",
+              "description": "DALTON OPT DALTON OPTILINK CCD A5J11E4917511 SIMPLY SOUTHERN INTERI",
+              "amount": 59.9,
+              "type": "Debit"
+            },
+            {
+              "date": "09/15/2025",
+              "description": "POS DEB 1713 09/13/25 25418177 MICROSOFT MICROSOFT 36 MICROSOFT*HTTPS:// REDMOND WA C#7602",
+              "amount": 1.99,
+              "type": "Debit"
+            },
+            {
+              "date": "09/15/2025",
+              "description": "DBT CRD 1136 09/12/25 97683647 SAVE*E.FILE-TAX.NET 8006300780 NC C#7602",
+              "amount": 9.95,
+              "type": "Debit"
+            },
+            {
+              "date": "09/15/2025",
+              "description": "DBT CRD 1140 09/12/25 00176313 INVOICESIMPLE OAKVILLE CD C#7602",
+              "amount": 13.49,
+              "type": "Debit"
+            },
+            {
+              "date": "09/19/2025",
+              "description": "DBT CRD 1146 09/17/25 04028053 HERITAGE CHILDREN CLOT 866-963-9357 CA C#7602",
+              "amount": 14.95,
+              "type": "Debit"
+            },
+            {
+              "date": "09/26/2025",
+              "description": "Check #1621",
+              "amount": 1000.0,
+              "type": "Debit"
+            }
+          ]
+        }
+      ]
+    },
+    "raw_output": "```json\n{\n  \"accounts\": [\n    {\n      \"account_number\": \"1453\",\n      \"account_type\": \"FirstBusiness Checking\",\n      \"mca_deposit\": [\n        {\n          \"mca_name\": \"AdvanceCash\",\n          \"date\": \"09/26/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"7018623984 ADVANCE.CASH C PPD 24809537 Nancy Whaley\",\n          \"amount\": 1000.0,\n          \"non_true_revenue\": 1\n        }\n      ],\n      \"mca_withdrawal\": [],\n      \"returned_items\": [\n        {\n          \"date\": \"09/03/2025\",\n          \"description\": \"Return Item Credit\",\n          \"amount\": 20.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"09/03/2025\",\n          \"description\": \"Return Item Credit\",\n          \"amount\": 29.95,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"09/03/2025\",\n          \"description\": \"Return Item Credit\",\n          \"amount\": 40.5,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"09/03/2025\",\n          \"description\": \"Return Item Credit\",\n          \"amount\": 98.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"09/05/2025\",\n          \"description\": \"Return Item Credit\",\n          \"amount\": 297.87,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"09/05/2025\",\n          \"description\": \"Return Item Credit\",\n          \"amount\": 786.46,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"09/05/2025\",\n          \"description\": \"Return Item Credit\",\n          \"amount\": 3322.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"09/08/2025\",\n          \"description\": \"Return Item Credit\",\n          \"amount\": 98.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"09/08/2025\",\n          \"description\": \"Return Item Credit\",\n          \"amount\": 351.9,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        }\n      ],\n      \"overdrafts\": [\n        {\n          \"date\": \"09/03/2025\",\n          \"description\": \"Insufficient Funds Charge\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/03/2025\",\n          \"description\": \"Insufficient Funds Charge\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/03/2025\",\n          \"description\": \"Insufficient Funds Charge\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/03/2025\",\n          \"description\": \"Insufficient Funds Charge\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/04/2025\",\n          \"description\": \"Overdraft Item Charge\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/04/2025\",\n          \"description\": \"Overdraft Item Charge\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/04/2025\",\n          \"description\": \"Overdraft Item Charge\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/08/2025\",\n          \"description\": \"Insufficient Funds Charge\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/08/2025\",\n          \"description\": \"Insufficient Funds Charge\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\"\n        }\n      ],\n      \"service_charges\": [\n        {\n          \"date\": \"09/02/2025\",\n          \"description\": \"MERCH FEES TITANIUM CCD 177202116682800 SIMPLY SOUTHERN INTERI\",\n          \"amount\": 40.5,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/05/2025\",\n          \"description\": \"Reverse OD Item Charge\",\n          \"amount\": 35.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"09/05/2025\",\n          \"description\": \"Reverse OD Item Charge\",\n          \"amount\": 35.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"09/05/2025\",\n          \"description\": \"Reverse OD Item Charge\",\n          \"amount\": 35.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"description\": \"Stop Payment Charge\",\n          \"amount\": 32.0,\n          \"type\": \"Debit\"\n        }\n      ],\n      \"atm_cash_withdrawal\": [],\n      \"internal_transfer_deposit\": [\n        {\n          \"date\": \"09/09/2025\",\n          \"description\": \"Transfer from x3331 to x1453\",\n          \"amount\": 150.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"09/10/2025\",\n          \"description\": \"Transfer from x3331 to x1453\",\n          \"amount\": 200.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        }\n      ],\n      \"other_transfer_deposit\": [],\n      \"internal_transfer_withdrawal\": [\n        {\n          \"date\": \"09/08/2025\",\n          \"description\": \"Transfer from x1453 to x3331\",\n          \"amount\": 105.71,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/08/2025\",\n          \"description\": \"Transfer from x1453 to x3331\",\n          \"amount\": 250.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/09/2025\",\n          \"description\": \"Transfer from x1453 to x3331\",\n          \"amount\": 100.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/09/2025\",\n          \"description\": \"Transfer from x1453 to x3331\",\n          \"amount\": 200.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/23/2025\",\n          \"description\": \"Transfer from x1453 to x3331\",\n          \"amount\": 2.0,\n          \"type\": \"Debit\"\n        }\n      ],\n      \"other_transfer_withdrawal\": [\n        {\n          \"date\": \"09/08/2025\",\n          \"description\": \"Transfer: per customer request\",\n          \"amount\": 200.0,\n          \"type\": \"Debit\"\n        }\n      ],\n      \"standard_deposit\": [\n        {\n          \"date\": \"09/03/2025\",\n          \"description\": \"POS CRE 0000 09/01/25 91491152 THE HOME DEPOT #0137 DALTON GA C#7602\",\n          \"amount\": 18.17,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09/08/2025\",\n          \"description\": \"POS CRE 0000 09/05/25 38641319 THE HOME DEPOT #0137 DALTON GA C#7602\",\n          \"amount\": 49.18,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09/08/2025\",\n          \"description\": \"Deposit\",\n          \"amount\": 9720.4,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09/12/2025\",\n          \"description\": \"POS CRE 0000 09/11/25 86586362 SAVE*E.FILE-TAX.NET 8006300780 NC C#7602\",\n          \"amount\": 9.95,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"description\": \"POS CRE 0000 09/12/25 97683647 SAVE*E.FILE-TAX.NET 8006300780 NC C#7602\",\n          \"amount\": 9.95,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        }\n      ],\n      \"standard_withdrawal\": [\n        {\n          \"date\": \"09/02/2025\",\n          \"description\": \"APP GREENLIGHT WEB GREENLIGHT PYMNT00001 091000017446434\",\n          \"amount\": 20.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/02/2025\",\n          \"description\": \"Draft Titanium Payment CCD SIMPLY SOUTHERN SIMPLY SOUTHERN\",\n          \"amount\": 29.95,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/02/2025\",\n          \"description\": \"Check #1616\",\n          \"amount\": 98.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/04/2025\",\n          \"description\": \"8778005577 FORTH-CORDOBA PPD 1766797296 NANCYWHALEY\",\n          \"amount\": 297.87,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/04/2025\",\n          \"description\": \"Check #1613\",\n          \"amount\": 786.46,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/04/2025\",\n          \"description\": \"Check #1614\",\n          \"amount\": 3322.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/05/2025\",\n          \"description\": \"8778005577 FORTH PPD 1740985866 NANCYWHALEY\",\n          \"amount\": 351.9,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/05/2025\",\n          \"description\": \"Check #1616\",\n          \"amount\": 98.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/08/2025\",\n          \"description\": \"POS DEB 1450 09/08/25 40272000 SUNOCO 8002483301 2900 AIRPORT ROAD DALTON GA C#7602\",\n          \"amount\": 40.16,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/08/2025\",\n          \"description\": \"52VGJ6A TRANSFORM CREDIT WEB 8253 7891460966 021000028132077\",\n          \"amount\": 5.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/09/2025\",\n          \"description\": \"DBT CRD 1724 09/08/25 06762085 AMAZON RETA* PB2S82Q93 WWW.AMAZON.CO WA C#7602\",\n          \"amount\": 49.18,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/09/2025\",\n          \"description\": \"DBT CRD 1023 09/09/25 54305556 DALTON UTILITIES 706-278-1313 GA C#7602\",\n          \"amount\": 124.02,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/09/2025\",\n          \"description\": \"DBT CRD 1152 09/08/25 07307461 HIBU GLOBAL / HIBU INC 800-929-3556 IA C#7602\",\n          \"amount\": 299.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/09/2025\",\n          \"description\": \"Check #1618\",\n          \"amount\": 3443.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/10/2025\",\n          \"description\": \"DBT CRD 0337 09/10/25 10349280 CLEO SUBSCRIPTION MEETCLEO.COM DE C#7602\",\n          \"amount\": 5.99,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/10/2025\",\n          \"description\": \"DBT CRD 1040 09/09/25 64599314 AMAZON MARK* M74UM58W3 AMAZON.COM/MA WA C#7602\",\n          \"amount\": 37.44,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/10/2025\",\n          \"description\": \"DBT CRD 1021 09/10/25 52688243 The Sherwin-Williams C Cleveland OH C#7602\",\n          \"amount\": 200.68,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/10/2025\",\n          \"description\": \"DBT CRD 1027 09/09/25 56639412 BLD*AMF LLC 706-260-7476 GA C#7602\",\n          \"amount\": 1200.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/10/2025\",\n          \"description\": \"PAYMENT CITI CARD ONLINE WEB 431798538986748 CITICTP 091409685717926\",\n          \"amount\": 110.95,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/11/2025\",\n          \"description\": \"DBT CRD 1735 09/11/25 13246824 THE EPOCH TIMES 833-699-1888 NY C#7602\",\n          \"amount\": 4.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/11/2025\",\n          \"description\": \"DBT CRD 1926 09/10/25 16195296 HP *INSTANT INK 855-785-2777 CA C#7602\",\n          \"amount\": 10.69,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/12/2025\",\n          \"description\": \"DBT CRD 1650 09/11/25 86586362 SAVE*E.FILE-TAX.NET 8006300780 NC C#7602\",\n          \"amount\": 9.95,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/12/2025\",\n          \"description\": \"DBT CRD 0923 09/10/25 18393826 MAYBERRY CARPET & RUG 706-3707737 GA C#7602\",\n          \"amount\": 812.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/12/2025\",\n          \"description\": \"DALTON OPT DALTON OPTILINK CCD A5J11E4917511 SIMPLY SOUTHERN INTERI\",\n          \"amount\": 59.9,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"description\": \"POS DEB 1713 09/13/25 25418177 MICROSOFT MICROSOFT 36 MICROSOFT*HTTPS:// REDMOND WA C#7602\",\n          \"amount\": 1.99,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"description\": \"DBT CRD 1136 09/12/25 97683647 SAVE*E.FILE-TAX.NET 8006300780 NC C#7602\",\n          \"amount\": 9.95,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"description\": \"DBT CRD 1140 09/12/25 00176313 INVOICESIMPLE OAKVILLE CD C#7602\",\n          \"amount\": 13.49,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/19/2025\",\n          \"description\": \"DBT CRD 1146 09/17/25 04028053 HERITAGE CHILDREN CLOT 866-963-9357 CA C#7602\",\n          \"amount\": 14.95,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/26/2025\",\n          \"description\": \"Check #1621\",\n          \"amount\": 1000.0,\n          \"type\": \"Debit\"\n        }\n      ]\n    }\n  ]\n}\n```",
+    "token_count": {
+      "estimated_tokens": 1082
+    },
+    "failure_reason": null
+  }
+}

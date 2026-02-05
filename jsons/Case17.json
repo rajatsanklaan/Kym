@@ -1,0 +1,1116 @@
+{
+  "document_name": "Case17.pdf",
+  "pipeline_status": "completed",
+  "processing_metadata": {
+    "start_time": "2026-02-04T15:04:30.567397",
+    "end_time": "2026-02-04T15:07:25.263000",
+    "parsing_time_seconds": 110.006306,
+    "bsi_time_seconds": 64.672593,
+    "total_time_seconds": 174.678899
+  },
+  "parsing_agent_result": {
+    "agent_name": "parsing_agent",
+    "processing_status": "success",
+    "start_time": "2026-02-04T15:04:30.571264",
+    "end_time": "2026-02-04T15:06:20.577378",
+    "parsed_json": {
+      "bank_statement_information": {
+        "bank_name": "BANK OF AMERICA",
+        "account_holder": "CLAVER GONZALEZSEVILLA SOLE PROP DBA LA FONDITA STEAK AND CHEESE",
+        "statement_start_date": "11-01-2025",
+        "statement_end_date": "11-30-2025",
+        "n_days": 30,
+        "n_month": [
+          11
+        ],
+        "business_address": "1916 BRIAR ROSE LN APT 202 WOODBRIDGE, VA 22192-6972"
+      },
+      "accounts": [
+        {
+          "account_number": "****0627",
+          "account_type": "Business Advantage Fundamentals Banking",
+          "account_summary": {
+            "beginning_balance": -93.97,
+            "ending_balance": 12522.08,
+            "total_deposits": 27246.69,
+            "total_withdrawals": 14630.64,
+            "total_deposits_count": 29,
+            "total_withdrawals_count": 45,
+            "avg_daily_balance": 8834.92,
+            "overdraft_days": 1
+          },
+          "transactions": [
+            {
+              "date": "11/04/2025",
+              "description": "Online Banking transfer from CHK 8246 Confirmation# 7729717519",
+              "amount": 95.0,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "11/05/2025",
+              "description": "Transfer COASTAL COMMUNITY BANK",
+              "amount": 50.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 0
+            },
+            {
+              "date": "11/05/2025",
+              "description": "Online Banking transfer to CHK 8246 Confirmation# 7539579007",
+              "amount": 6.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "11/06/2025",
+              "description": "CHECKCARD 1105 POSSIBLE https://WWW.PWA 24435655310132433123546 CKCD 6051 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 45.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/07/2025",
+              "description": "Online Banking transfer from CHK 8246 Confirmation# 7256279045",
+              "amount": 200.0,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "11/07/2025",
+              "description": "MCA SERVICING DES:8003243863 ID:PAY110625180016 INDN:CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD",
+              "amount": 200.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Transfer Rasier, LLC; \"/LIPR/STANDARD\"",
+              "amount": 70.01,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Mobile transfer from CHK 0510 Confirmation# ogvjyqpuf; ABOU DRAA KASSAR, SALEM",
+              "amount": 25.0,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Mobile Banking payment to CRD 0377 Confirmation# yd6kxx9fb",
+              "amount": 35.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "CHECKCARD 1110 CVS/PHARMACY # WOODBRIDGE VA CKCD 5912 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 17.72,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Online Banking transfer from CHK 8246 Confirmation# 7286307333",
+              "amount": 24727.0,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Transfer Rasier, LLC; \"/LIPR/STANDARD\"",
+              "amount": 47.06,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Transfer Rasier, LLC; \"/LIPR/STANDARD\"",
+              "amount": 26.67,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Online Banking transfer to CHK 8246 Confirmation# 7488087125",
+              "amount": 26.67,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Online Banking transfer to CHK 8246 Confirmation# 7988512306",
+              "amount": 1030.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Zelle payment to NAYRA Conf# thvy1oi0d",
+              "amount": 500.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Online Banking transfer to CHK 8246 Confirmation# 8589253422",
+              "amount": 2751.61,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Online Banking transfer to CHK 8246 Confirmation# 7889259955",
+              "amount": 9.9,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Zelle payment to Salem Usa Conf# xezakj5ab",
+              "amount": 259.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "MCA Servicing DES:8003243863 ID:XXXXXXXXX INDN:CLAVER GONZALEZ SEVILL CO ID:9843488861 CCD",
+              "amount": 49.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "BKOFAMERICA ATM 11/11 #000007578 WITHDRWL POTOMAC MILLS WOODBRIDGE VA",
+              "amount": 800.0,
+              "type": "Debit",
+              "category": "ATM/Cash Withdrawal"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "BKOFAMERICA ATM 11/11 #000007580 WITHDRWL POTOMAC MILLS WOODBRIDGE VA",
+              "amount": 200.0,
+              "type": "Debit",
+              "category": "ATM/Cash Withdrawal"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "CHECKCARD 1110 OLD BRIDGE COASTAL WOODBRIDGE VA 24607945315545316248480 CKCD 5542 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 24.83,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "CHECKCARD 1110 SAFEWAY 1331 WOODBRIDGE VA 24231685315545577476776 CKCD 5411 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 5.53,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "CHECKCARD 1110 OLD BRIDGE COASTAL WOODBRIDGE VA 24607945315545316248472 CKCD 5542 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 11.3,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "CHECKCARD 1111 GEICO *AUTO 800-841-3000 DC 24692165315105405602534 CKCD 6300 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 441.06,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "WM SUPERCENTER 11/11 #000242647 PURCHASE 14000 WORTH AVE WOODBRIDGE VA",
+              "amount": 446.54,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "WAL-MART #1852 11/11 #000193500 PURCHASE 14000 WORTH AVE WOODBRIDGE VA",
+              "amount": 78.55,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/13/2025",
+              "description": "Online Banking transfer from CHK 8246 Confirmation# 7104683097",
+              "amount": 2.0,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "11/13/2025",
+              "description": "TOYOTA ACH RTL DES:11122025 ID:9GBP7XCBC4QZ1XR INDN:SALEMABOU-DRAA-KASSAR CO ID:4953775816 WEB PMT INFO:PXXXXXXXXX-26269",
+              "amount": 1210.86,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/14/2025",
+              "description": "Online Banking transfer from CHK 8246 Confirmation# 7412775712",
+              "amount": 115.0,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "11/14/2025",
+              "description": "Transfer Rasier, LLC; \"/LIPR/STANDARD\"",
+              "amount": 38.11,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "11/14/2025",
+              "description": "Online Banking transfer from CHK 8246 Confirmation# 7314158349",
+              "amount": 19.5,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "11/14/2025",
+              "description": "MCA SERVICING 80 DES:8006226585 ID:251113160044XFV INDN:CLAVER GONZALEZ SEVILL CO ID:1016207445 CCD PMT INFO:PAY11132518025977781224",
+              "amount": 200.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/14/2025",
+              "description": "Possible Finance DES:PossibleFi ID: INDN:Claver Gonzalez CO ID:0000139249 WEB",
+              "amount": 15.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "Transfer Rasier, LLC; \"/LIPR/STANDARD\"",
+              "amount": 133.63,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "11/17/2025",
+              "description": "Online Banking transfer to CHK 8246 Confirmation# 7242167719",
+              "amount": 133.63,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "11/18/2025",
+              "description": "Online Banking transfer to CHK 8246 Confirmation# 8049348510",
+              "amount": 140.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "11/18/2025",
+              "description": "NSM DBAMR.COOPER DES:NSM DBAMR ID:4989724 INDN:SALEM ABOU DRAA *KASSA CO ID:0000452701 WEB",
+              "amount": 3999.04,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/18/2025",
+              "description": "CHECKCARD 1118 Ashley F Morgan Law PC Chantilly VA 24793385322001930857060 CKCD 8111 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 500.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/19/2025",
+              "description": "Online Banking transfer from CHK 8246 Confirmation# 7355571876",
+              "amount": 140.0,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "11/19/2025",
+              "description": "Transfer Rasier, LLC; \"/LIPR/STANDARD\"",
+              "amount": 122.2,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "11/19/2025",
+              "description": "Online Banking transfer from CHK 8246 Confirmation# 8060136520",
+              "amount": 1.17,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "11/19/2025",
+              "description": "Online Banking transfer to CHK 8246 Confirmation# 7659055515",
+              "amount": 122.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "11/20/2025",
+              "description": "Transfer Rasier, LLC; \"/LIPR/STANDARD\"",
+              "amount": 140.97,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "11/20/2025",
+              "description": "Online Banking transfer to CHK 8246 Confirmation# 7167524885",
+              "amount": 141.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "11/20/2025",
+              "description": "CHECKCARD 1120 BP#9313883OLD WOODBRIDGE VA CKCD 5542 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 9.77,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/21/2025",
+              "description": "Transfer Rasier, LLC; \"/LIPR/STANDARD\"",
+              "amount": 160.57,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "11/21/2025",
+              "description": "Online Banking transfer from CHK 8246 Confirmation# 8577153567",
+              "amount": 70.0,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "11/21/2025",
+              "description": "Online Banking transfer from CHK 8246 Confirmation# 7976439043",
+              "amount": 40.0,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "11/21/2025",
+              "description": "MCA SERVICING DES:8003243863 ID:PAY112025180527 INDN:CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD",
+              "amount": 200.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Transfer Rasier, LLC; \"/LIPR/STANDARD\"",
+              "amount": 189.15,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Transfer Rasier, LLC; \"/LIPR/STANDARD\"",
+              "amount": 105.64,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Transfer Rasier, LLC; \"/LIPR/STANDARD\"",
+              "amount": 70.81,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Zelle payment to Chris Liberator Liberator Conf# wkccqvjgj",
+              "amount": 75.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Online Banking transfer to CHK 8246 Confirmation# 8385534949",
+              "amount": 15.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Online Banking transfer to CHK 8246 Confirmation# 8092138817",
+              "amount": 70.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Online Banking transfer to CHK 8246 Confirmation# 7601580710",
+              "amount": 105.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Online Banking transfer to CHK 8246 Confirmation# 8201586043",
+              "amount": 1.52,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "BKOFAMERICA ATM 11/22 #000003027 WITHDRWL CHAIN BRIDGE MCLEAN VA",
+              "amount": 80.0,
+              "type": "Debit",
+              "category": "ATM/Cash Withdrawal"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "CHECKCARD 1121 BINGO TIRE - WOODBRIDGE WOODBRIDGE VA 24257615327900016764468 CKCD 7538 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 70.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "CHECKCARD 1122 RAZZAA INC. UPPER MARLBORMD CKCD 5542 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 19.99,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/26/2025",
+              "description": "Transfer Rasier, LLC; \"/LIPR/STANDARD\"",
+              "amount": 186.77,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "11/26/2025",
+              "description": "Online Banking transfer from CHK 8246 Confirmation# 7619935287",
+              "amount": 0.23,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "11/26/2025",
+              "description": "Online Banking transfer to CHK 8246 Confirmation# 7219930748",
+              "amount": 187.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "11/28/2025",
+              "description": "Transfer Rasier, LLC; \"/LIPR/STANDARD\"",
+              "amount": 165.82,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "11/28/2025",
+              "description": "Online Banking transfer from CHK 8246 Confirmation# 7529938352",
+              "amount": 127.0,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "11/28/2025",
+              "description": "Online Banking transfer from CHK 8246 Confirmation# 8338103404",
+              "amount": 104.05,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "11/28/2025",
+              "description": "Transfer Rasier, LLC; \"/LIPR/STANDARD\"",
+              "amount": 73.33,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "11/28/2025",
+              "description": "Online Banking transfer to CHK 8246 Confirmation# 7433689904",
+              "amount": 153.1,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "11/28/2025",
+              "description": "Zelle payment to Michelle Conf# zc2t8kyme",
+              "amount": 100.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/28/2025",
+              "description": "Zelle payment to NAYRA Conf# ur1qrapgp",
+              "amount": 100.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/28/2025",
+              "description": "Possible Finance DES:PossibleFi ID: INDN:Claver Gonzalez CO ID:0000139249 WEB",
+              "amount": 15.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/28/2025",
+              "description": "OLD TOWN LIBER 11/28 #000870633 PURCHASE OLD TOWN LIBERTY ALEXANDRIA VA",
+              "amount": 30.02,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            }
+          ]
+        }
+      ]
+    },
+    "raw_output": "```json\n{\n  \"bank_statement_information\": {\n    \"bank_name\": \"BANK OF AMERICA\",\n    \"account_holder\": \"CLAVER GONZALEZSEVILLA SOLE PROP DBA LA FONDITA STEAK AND CHEESE\",\n    \"statement_start_date\": \"11-01-2025\",\n    \"statement_end_date\": \"11-30-2025\",\n    \"n_days\": 30,\n    \"n_month\": [\n      11\n    ],\n    \"business_address\": \"1916 BRIAR ROSE LN APT 202 WOODBRIDGE, VA 22192-6972\"\n  },\n  \"accounts\": [\n    {\n      \"account_number\": \"****0627\",\n      \"account_type\": \"Business Advantage Fundamentals Banking\",\n      \"account_summary\": {\n        \"beginning_balance\": -93.97,\n        \"ending_balance\": 12522.08,\n        \"total_deposits\": 27246.69,\n        \"total_withdrawals\": 14630.64,\n        \"total_deposits_count\": 29,\n        \"total_withdrawals_count\": 45,\n        \"avg_daily_balance\": 8834.92,\n        \"overdraft_days\": 1\n      },\n      \"transactions\": [\n        {\n          \"date\": \"11/04/2025\",\n          \"description\": \"Online Banking transfer from CHK 8246 Confirmation# 7729717519\",\n          \"amount\": 95.0,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"11/05/2025\",\n          \"description\": \"Transfer COASTAL COMMUNITY BANK\",\n          \"amount\": 50.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 0\n        },\n        {\n          \"date\": \"11/05/2025\",\n          \"description\": \"Online Banking transfer to CHK 8246 Confirmation# 7539579007\",\n          \"amount\": 6.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/06/2025\",\n          \"description\": \"CHECKCARD 1105 POSSIBLE https://WWW.PWA 24435655310132433123546 CKCD 6051 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 45.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"description\": \"Online Banking transfer from CHK 8246 Confirmation# 7256279045\",\n          \"amount\": 200.0,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"description\": \"MCA SERVICING DES:8003243863 ID:PAY110625180016 INDN:CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD\",\n          \"amount\": 200.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Transfer Rasier, LLC; \\\"/LIPR/STANDARD\\\"\",\n          \"amount\": 70.01,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Mobile transfer from CHK 0510 Confirmation# ogvjyqpuf; ABOU DRAA KASSAR, SALEM\",\n          \"amount\": 25.0,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Mobile Banking payment to CRD 0377 Confirmation# yd6kxx9fb\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"CHECKCARD 1110 CVS/PHARMACY # WOODBRIDGE VA CKCD 5912 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 17.72,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Online Banking transfer from CHK 8246 Confirmation# 7286307333\",\n          \"amount\": 24727.0,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Transfer Rasier, LLC; \\\"/LIPR/STANDARD\\\"\",\n          \"amount\": 47.06,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Transfer Rasier, LLC; \\\"/LIPR/STANDARD\\\"\",\n          \"amount\": 26.67,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Online Banking transfer to CHK 8246 Confirmation# 7488087125\",\n          \"amount\": 26.67,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Online Banking transfer to CHK 8246 Confirmation# 7988512306\",\n          \"amount\": 1030.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Zelle payment to NAYRA Conf# thvy1oi0d\",\n          \"amount\": 500.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Online Banking transfer to CHK 8246 Confirmation# 8589253422\",\n          \"amount\": 2751.61,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Online Banking transfer to CHK 8246 Confirmation# 7889259955\",\n          \"amount\": 9.9,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Zelle payment to Salem Usa Conf# xezakj5ab\",\n          \"amount\": 259.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"MCA Servicing DES:8003243863 ID:XXXXXXXXX INDN:CLAVER GONZALEZ SEVILL CO ID:9843488861 CCD\",\n          \"amount\": 49.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"BKOFAMERICA ATM 11/11 #000007578 WITHDRWL POTOMAC MILLS WOODBRIDGE VA\",\n          \"amount\": 800.0,\n          \"type\": \"Debit\",\n          \"category\": \"ATM/Cash Withdrawal\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"BKOFAMERICA ATM 11/11 #000007580 WITHDRWL POTOMAC MILLS WOODBRIDGE VA\",\n          \"amount\": 200.0,\n          \"type\": \"Debit\",\n          \"category\": \"ATM/Cash Withdrawal\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"CHECKCARD 1110 OLD BRIDGE COASTAL WOODBRIDGE VA 24607945315545316248480 CKCD 5542 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 24.83,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"CHECKCARD 1110 SAFEWAY 1331 WOODBRIDGE VA 24231685315545577476776 CKCD 5411 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 5.53,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"CHECKCARD 1110 OLD BRIDGE COASTAL WOODBRIDGE VA 24607945315545316248472 CKCD 5542 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 11.3,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"CHECKCARD 1111 GEICO *AUTO 800-841-3000 DC 24692165315105405602534 CKCD 6300 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 441.06,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"WM SUPERCENTER 11/11 #000242647 PURCHASE 14000 WORTH AVE WOODBRIDGE VA\",\n          \"amount\": 446.54,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"WAL-MART #1852 11/11 #000193500 PURCHASE 14000 WORTH AVE WOODBRIDGE VA\",\n          \"amount\": 78.55,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/13/2025\",\n          \"description\": \"Online Banking transfer from CHK 8246 Confirmation# 7104683097\",\n          \"amount\": 2.0,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"11/13/2025\",\n          \"description\": \"TOYOTA ACH RTL DES:11122025 ID:9GBP7XCBC4QZ1XR INDN:SALEMABOU-DRAA-KASSAR CO ID:4953775816 WEB PMT INFO:PXXXXXXXXX-26269\",\n          \"amount\": 1210.86,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/14/2025\",\n          \"description\": \"Online Banking transfer from CHK 8246 Confirmation# 7412775712\",\n          \"amount\": 115.0,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"11/14/2025\",\n          \"description\": \"Transfer Rasier, LLC; \\\"/LIPR/STANDARD\\\"\",\n          \"amount\": 38.11,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"11/14/2025\",\n          \"description\": \"Online Banking transfer from CHK 8246 Confirmation# 7314158349\",\n          \"amount\": 19.5,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"11/14/2025\",\n          \"description\": \"MCA SERVICING 80 DES:8006226585 ID:251113160044XFV INDN:CLAVER GONZALEZ SEVILL CO ID:1016207445 CCD PMT INFO:PAY11132518025977781224\",\n          \"amount\": 200.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/14/2025\",\n          \"description\": \"Possible Finance DES:PossibleFi ID: INDN:Claver Gonzalez CO ID:0000139249 WEB\",\n          \"amount\": 15.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"Transfer Rasier, LLC; \\\"/LIPR/STANDARD\\\"\",\n          \"amount\": 133.63,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"Online Banking transfer to CHK 8246 Confirmation# 7242167719\",\n          \"amount\": 133.63,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"description\": \"Online Banking transfer to CHK 8246 Confirmation# 8049348510\",\n          \"amount\": 140.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"description\": \"NSM DBAMR.COOPER DES:NSM DBAMR ID:4989724 INDN:SALEM ABOU DRAA *KASSA CO ID:0000452701 WEB\",\n          \"amount\": 3999.04,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"description\": \"CHECKCARD 1118 Ashley F Morgan Law PC Chantilly VA 24793385322001930857060 CKCD 8111 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 500.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/19/2025\",\n          \"description\": \"Online Banking transfer from CHK 8246 Confirmation# 7355571876\",\n          \"amount\": 140.0,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"11/19/2025\",\n          \"description\": \"Transfer Rasier, LLC; \\\"/LIPR/STANDARD\\\"\",\n          \"amount\": 122.2,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"11/19/2025\",\n          \"description\": \"Online Banking transfer from CHK 8246 Confirmation# 8060136520\",\n          \"amount\": 1.17,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"11/19/2025\",\n          \"description\": \"Online Banking transfer to CHK 8246 Confirmation# 7659055515\",\n          \"amount\": 122.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"description\": \"Transfer Rasier, LLC; \\\"/LIPR/STANDARD\\\"\",\n          \"amount\": 140.97,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"description\": \"Online Banking transfer to CHK 8246 Confirmation# 7167524885\",\n          \"amount\": 141.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"description\": \"CHECKCARD 1120 BP#9313883OLD WOODBRIDGE VA CKCD 5542 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 9.77,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"description\": \"Transfer Rasier, LLC; \\\"/LIPR/STANDARD\\\"\",\n          \"amount\": 160.57,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"description\": \"Online Banking transfer from CHK 8246 Confirmation# 8577153567\",\n          \"amount\": 70.0,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"description\": \"Online Banking transfer from CHK 8246 Confirmation# 7976439043\",\n          \"amount\": 40.0,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"description\": \"MCA SERVICING DES:8003243863 ID:PAY112025180527 INDN:CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD\",\n          \"amount\": 200.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Transfer Rasier, LLC; \\\"/LIPR/STANDARD\\\"\",\n          \"amount\": 189.15,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Transfer Rasier, LLC; \\\"/LIPR/STANDARD\\\"\",\n          \"amount\": 105.64,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Transfer Rasier, LLC; \\\"/LIPR/STANDARD\\\"\",\n          \"amount\": 70.81,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Zelle payment to Chris Liberator Liberator Conf# wkccqvjgj\",\n          \"amount\": 75.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Online Banking transfer to CHK 8246 Confirmation# 8385534949\",\n          \"amount\": 15.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Online Banking transfer to CHK 8246 Confirmation# 8092138817\",\n          \"amount\": 70.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Online Banking transfer to CHK 8246 Confirmation# 7601580710\",\n          \"amount\": 105.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Online Banking transfer to CHK 8246 Confirmation# 8201586043\",\n          \"amount\": 1.52,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"BKOFAMERICA ATM 11/22 #000003027 WITHDRWL CHAIN BRIDGE MCLEAN VA\",\n          \"amount\": 80.0,\n          \"type\": \"Debit\",\n          \"category\": \"ATM/Cash Withdrawal\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"CHECKCARD 1121 BINGO TIRE - WOODBRIDGE WOODBRIDGE VA 24257615327900016764468 CKCD 7538 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 70.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"CHECKCARD 1122 RAZZAA INC. UPPER MARLBORMD CKCD 5542 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 19.99,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/26/2025\",\n          \"description\": \"Transfer Rasier, LLC; \\\"/LIPR/STANDARD\\\"\",\n          \"amount\": 186.77,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"11/26/2025\",\n          \"description\": \"Online Banking transfer from CHK 8246 Confirmation# 7619935287\",\n          \"amount\": 0.23,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"11/26/2025\",\n          \"description\": \"Online Banking transfer to CHK 8246 Confirmation# 7219930748\",\n          \"amount\": 187.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/28/2025\",\n          \"description\": \"Transfer Rasier, LLC; \\\"/LIPR/STANDARD\\\"\",\n          \"amount\": 165.82,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"11/28/2025\",\n          \"description\": \"Online Banking transfer from CHK 8246 Confirmation# 7529938352\",\n          \"amount\": 127.0,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"11/28/2025\",\n          \"description\": \"Online Banking transfer from CHK 8246 Confirmation# 8338103404\",\n          \"amount\": 104.05,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"11/28/2025\",\n          \"description\": \"Transfer Rasier, LLC; \\\"/LIPR/STANDARD\\\"\",\n          \"amount\": 73.33,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"11/28/2025\",\n          \"description\": \"Online Banking transfer to CHK 8246 Confirmation# 7433689904\",\n          \"amount\": 153.1,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/28/2025\",\n          \"description\": \"Zelle payment to Michelle Conf# zc2t8kyme\",\n          \"amount\": 100.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/28/2025\",\n          \"description\": \"Zelle payment to NAYRA Conf# ur1qrapgp\",\n          \"amount\": 100.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/28/2025\",\n          \"description\": \"Possible Finance DES:PossibleFi ID: INDN:Claver Gonzalez CO ID:0000139249 WEB\",\n          \"amount\": 15.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/28/2025\",\n          \"description\": \"OLD TOWN LIBER 11/28 #000870633 PURCHASE OLD TOWN LIBERTY ALEXANDRIA VA\",\n          \"amount\": 30.02,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        }\n      ]\n    }\n  ]\n}\n```",
+    "token_count": {
+      "estimated_tokens": 1662
+    },
+    "failure_reason": null
+  },
+  "bsi_analyzer_result": {
+    "agent_name": "v1_bsi_analyzer_agent",
+    "processing_status": "success",
+    "start_time": "2026-02-04T15:06:20.587655",
+    "end_time": "2026-02-04T15:07:25.259930",
+    "parsed_json": {
+      "accounts": [
+        {
+          "account_number": "****0627",
+          "account_type": "Business Advantage Fundamentals Banking",
+          "mca_deposit": [],
+          "mca_withdrawal": [
+            {
+              "mca_name": "MCA Servicing",
+              "date": "11/07/2025",
+              "type": "Debit",
+              "description": "MCA SERVICING DES:8003243863 ID:PAY110625180016 INDN:CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD",
+              "amount": 200.0
+            },
+            {
+              "mca_name": "MCA Servicing",
+              "date": "11/12/2025",
+              "type": "Debit",
+              "description": "MCA Servicing DES:8003243863 ID:XXXXXXXXX INDN:CLAVER GONZALEZ SEVILL CO ID:9843488861 CCD",
+              "amount": 49.0
+            },
+            {
+              "mca_name": "MCA Servicing",
+              "date": "11/14/2025",
+              "type": "Debit",
+              "description": "MCA SERVICING 80 DES:8006226585 ID:251113160044XFV INDN:CLAVER GONZALEZ SEVILL CO ID:1016207445 CCD PMT INFO:PAY11132518025977781224",
+              "amount": 200.0
+            },
+            {
+              "mca_name": "MCA Servicing",
+              "date": "11/21/2025",
+              "type": "Debit",
+              "description": "MCA SERVICING DES:8003243863 ID:PAY112025180527 INDN:CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD",
+              "amount": 200.0
+            }
+          ],
+          "returned_items": [],
+          "overdrafts": [],
+          "service_charges": [],
+          "atm_cash_withdrawal": [
+            {
+              "date": "11/12/2025",
+              "description": "BKOFAMERICA ATM 11/11 #000007578 WITHDRWL POTOMAC MILLS WOODBRIDGE VA",
+              "amount": 800.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "BKOFAMERICA ATM 11/11 #000007580 WITHDRWL POTOMAC MILLS WOODBRIDGE VA",
+              "amount": 200.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "BKOFAMERICA ATM 11/22 #000003027 WITHDRWL CHAIN BRIDGE MCLEAN VA",
+              "amount": 80.0,
+              "type": "Debit"
+            }
+          ],
+          "internal_transfer_deposit": [
+            {
+              "date": "11/04/2025",
+              "description": "Online Banking transfer from CHK 8246 Confirmation# 7729717519",
+              "amount": 95.0,
+              "type": "Credit",
+              "non_true_revenue": 1
+            },
+            {
+              "date": "11/07/2025",
+              "description": "Online Banking transfer from CHK 8246 Confirmation# 7256279045",
+              "amount": 200.0,
+              "type": "Credit",
+              "non_true_revenue": 1
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Mobile transfer from CHK 0510 Confirmation# ogvjyqpuf; ABOU DRAA KASSAR, SALEM",
+              "amount": 25.0,
+              "type": "Credit",
+              "non_true_revenue": 1
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Online Banking transfer from CHK 8246 Confirmation# 7286307333",
+              "amount": 24727.0,
+              "type": "Credit",
+              "non_true_revenue": 1
+            },
+            {
+              "date": "11/13/2025",
+              "description": "Online Banking transfer from CHK 8246 Confirmation# 7104683097",
+              "amount": 2.0,
+              "type": "Credit",
+              "non_true_revenue": 1
+            },
+            {
+              "date": "11/14/2025",
+              "description": "Online Banking transfer from CHK 8246 Confirmation# 7412775712",
+              "amount": 115.0,
+              "type": "Credit",
+              "non_true_revenue": 1
+            },
+            {
+              "date": "11/14/2025",
+              "description": "Online Banking transfer from CHK 8246 Confirmation# 7314158349",
+              "amount": 19.5,
+              "type": "Credit",
+              "non_true_revenue": 1
+            },
+            {
+              "date": "11/19/2025",
+              "description": "Online Banking transfer from CHK 8246 Confirmation# 7355571876",
+              "amount": 140.0,
+              "type": "Credit",
+              "non_true_revenue": 1
+            },
+            {
+              "date": "11/19/2025",
+              "description": "Online Banking transfer from CHK 8246 Confirmation# 8060136520",
+              "amount": 1.17,
+              "type": "Credit",
+              "non_true_revenue": 1
+            },
+            {
+              "date": "11/21/2025",
+              "description": "Online Banking transfer from CHK 8246 Confirmation# 8577153567",
+              "amount": 70.0,
+              "type": "Credit",
+              "non_true_revenue": 1
+            },
+            {
+              "date": "11/21/2025",
+              "description": "Online Banking transfer from CHK 8246 Confirmation# 7976439043",
+              "amount": 40.0,
+              "type": "Credit",
+              "non_true_revenue": 1
+            },
+            {
+              "date": "11/26/2025",
+              "description": "Online Banking transfer from CHK 8246 Confirmation# 7619935287",
+              "amount": 0.23,
+              "type": "Credit",
+              "non_true_revenue": 1
+            },
+            {
+              "date": "11/28/2025",
+              "description": "Online Banking transfer from CHK 8246 Confirmation# 7529938352",
+              "amount": 127.0,
+              "type": "Credit",
+              "non_true_revenue": 1
+            },
+            {
+              "date": "11/28/2025",
+              "description": "Online Banking transfer from CHK 8246 Confirmation# 8338103404",
+              "amount": 104.05,
+              "type": "Credit",
+              "non_true_revenue": 1
+            }
+          ],
+          "other_transfer_deposit": [
+            {
+              "date": "11/05/2025",
+              "description": "Transfer COASTAL COMMUNITY BANK",
+              "amount": 50.0,
+              "type": "Credit",
+              "is_payment_processor": 0,
+              "non_true_revenue": 1
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Transfer Rasier, LLC; \"/LIPR/STANDARD\"",
+              "amount": 70.01,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Transfer Rasier, LLC; \"/LIPR/STANDARD\"",
+              "amount": 47.06,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Transfer Rasier, LLC; \"/LIPR/STANDARD\"",
+              "amount": 26.67,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/14/2025",
+              "description": "Transfer Rasier, LLC; \"/LIPR/STANDARD\"",
+              "amount": 38.11,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/17/2025",
+              "description": "Transfer Rasier, LLC; \"/LIPR/STANDARD\"",
+              "amount": 133.63,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/19/2025",
+              "description": "Transfer Rasier, LLC; \"/LIPR/STANDARD\"",
+              "amount": 122.2,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/20/2025",
+              "description": "Transfer Rasier, LLC; \"/LIPR/STANDARD\"",
+              "amount": 140.97,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/21/2025",
+              "description": "Transfer Rasier, LLC; \"/LIPR/STANDARD\"",
+              "amount": 160.57,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Transfer Rasier, LLC; \"/LIPR/STANDARD\"",
+              "amount": 189.15,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Transfer Rasier, LLC; \"/LIPR/STANDARD\"",
+              "amount": 105.64,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Transfer Rasier, LLC; \"/LIPR/STANDARD\"",
+              "amount": 70.81,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/26/2025",
+              "description": "Transfer Rasier, LLC; \"/LIPR/STANDARD\"",
+              "amount": 186.77,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/28/2025",
+              "description": "Transfer Rasier, LLC; \"/LIPR/STANDARD\"",
+              "amount": 165.82,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/28/2025",
+              "description": "Transfer Rasier, LLC; \"/LIPR/STANDARD\"",
+              "amount": 73.33,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            }
+          ],
+          "internal_transfer_withdrawal": [
+            {
+              "date": "11/05/2025",
+              "description": "Online Banking transfer to CHK 8246 Confirmation# 7539579007",
+              "amount": 6.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Online Banking transfer to CHK 8246 Confirmation# 7488087125",
+              "amount": 26.67,
+              "type": "Debit"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Online Banking transfer to CHK 8246 Confirmation# 7988512306",
+              "amount": 1030.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Online Banking transfer to CHK 8246 Confirmation# 8589253422",
+              "amount": 2751.61,
+              "type": "Debit"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Online Banking transfer to CHK 8246 Confirmation# 7889259955",
+              "amount": 9.9,
+              "type": "Debit"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "Online Banking transfer to CHK 8246 Confirmation# 7242167719",
+              "amount": 133.63,
+              "type": "Debit"
+            },
+            {
+              "date": "11/18/2025",
+              "description": "Online Banking transfer to CHK 8246 Confirmation# 8049348510",
+              "amount": 140.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/19/2025",
+              "description": "Online Banking transfer to CHK 8246 Confirmation# 7659055515",
+              "amount": 122.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/20/2025",
+              "description": "Online Banking transfer to CHK 8246 Confirmation# 7167524885",
+              "amount": 141.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Online Banking transfer to CHK 8246 Confirmation# 8385534949",
+              "amount": 15.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Online Banking transfer to CHK 8246 Confirmation# 8092138817",
+              "amount": 70.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Online Banking transfer to CHK 8246 Confirmation# 7601580710",
+              "amount": 105.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Online Banking transfer to CHK 8246 Confirmation# 8201586043",
+              "amount": 1.52,
+              "type": "Debit"
+            },
+            {
+              "date": "11/26/2025",
+              "description": "Online Banking transfer to CHK 8246 Confirmation# 7219930748",
+              "amount": 187.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/28/2025",
+              "description": "Online Banking transfer to CHK 8246 Confirmation# 7433689904",
+              "amount": 153.1,
+              "type": "Debit"
+            }
+          ],
+          "other_transfer_withdrawal": [
+            {
+              "date": "11/12/2025",
+              "description": "Zelle payment to NAYRA Conf# thvy1oi0d",
+              "amount": 500.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Zelle payment to Salem Usa Conf# xezakj5ab",
+              "amount": 259.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Zelle payment to Chris Liberator Liberator Conf# wkccqvjgj",
+              "amount": 75.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/28/2025",
+              "description": "Zelle payment to Michelle Conf# zc2t8kyme",
+              "amount": 100.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/28/2025",
+              "description": "Zelle payment to NAYRA Conf# ur1qrapgp",
+              "amount": 100.0,
+              "type": "Debit"
+            }
+          ],
+          "standard_deposit": [],
+          "standard_withdrawal": [
+            {
+              "date": "11/06/2025",
+              "description": "CHECKCARD 1105 POSSIBLE https://WWW.PWA 24435655310132433123546 CKCD 6051 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 45.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Mobile Banking payment to CRD 0377 Confirmation# yd6kxx9fb",
+              "amount": 35.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "CHECKCARD 1110 CVS/PHARMACY # WOODBRIDGE VA CKCD 5912 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 17.72,
+              "type": "Debit"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "CHECKCARD 1110 OLD BRIDGE COASTAL WOODBRIDGE VA 24607945315545316248480 CKCD 5542 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 24.83,
+              "type": "Debit"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "CHECKCARD 1110 SAFEWAY 1331 WOODBRIDGE VA 24231685315545577476776 CKCD 5411 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 5.53,
+              "type": "Debit"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "CHECKCARD 1110 OLD BRIDGE COASTAL WOODBRIDGE VA 24607945315545316248472 CKCD 5542 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 11.3,
+              "type": "Debit"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "CHECKCARD 1111 GEICO *AUTO 800-841-3000 DC 24692165315105405602534 CKCD 6300 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 441.06,
+              "type": "Debit"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "WM SUPERCENTER 11/11 #000242647 PURCHASE 14000 WORTH AVE WOODBRIDGE VA",
+              "amount": 446.54,
+              "type": "Debit"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "WAL-MART #1852 11/11 #000193500 PURCHASE 14000 WORTH AVE WOODBRIDGE VA",
+              "amount": 78.55,
+              "type": "Debit"
+            },
+            {
+              "date": "11/13/2025",
+              "description": "TOYOTA ACH RTL DES:11122025 ID:9GBP7XCBC4QZ1XR INDN:SALEMABOU-DRAA-KASSAR CO ID:4953775816 WEB PMT INFO:PXXXXXXXXX-26269",
+              "amount": 1210.86,
+              "type": "Debit"
+            },
+            {
+              "date": "11/14/2025",
+              "description": "Possible Finance DES:PossibleFi ID: INDN:Claver Gonzalez CO ID:0000139249 WEB",
+              "amount": 15.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/18/2025",
+              "description": "NSM DBAMR.COOPER DES:NSM DBAMR ID:4989724 INDN:SALEM ABOU DRAA *KASSA CO ID:0000452701 WEB",
+              "amount": 3999.04,
+              "type": "Debit"
+            },
+            {
+              "date": "11/18/2025",
+              "description": "CHECKCARD 1118 Ashley F Morgan Law PC Chantilly VA 24793385322001930857060 CKCD 8111 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 500.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/20/2025",
+              "description": "CHECKCARD 1120 BP#9313883OLD WOODBRIDGE VA CKCD 5542 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 9.77,
+              "type": "Debit"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "CHECKCARD 1121 BINGO TIRE - WOODBRIDGE WOODBRIDGE VA 24257615327900016764468 CKCD 7538 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 70.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "CHECKCARD 1122 RAZZAA INC. UPPER MARLBORMD CKCD 5542 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 19.99,
+              "type": "Debit"
+            },
+            {
+              "date": "11/28/2025",
+              "description": "Possible Finance DES:PossibleFi ID: INDN:Claver Gonzalez CO ID:0000139249 WEB",
+              "amount": 15.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/28/2025",
+              "description": "OLD TOWN LIBER 11/28 #000870633 PURCHASE OLD TOWN LIBERTY ALEXANDRIA VA",
+              "amount": 30.02,
+              "type": "Debit"
+            }
+          ]
+        }
+      ]
+    },
+    "raw_output": "```json\n{\n  \"accounts\": [\n    {\n      \"account_number\": \"****0627\",\n      \"account_type\": \"Business Advantage Fundamentals Banking\",\n      \"mca_deposit\": [],\n      \"mca_withdrawal\": [\n        {\n          \"mca_name\": \"MCA Servicing\",\n          \"date\": \"11/07/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"MCA SERVICING DES:8003243863 ID:PAY110625180016 INDN:CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD\",\n          \"amount\": 200.0\n        },\n        {\n          \"mca_name\": \"MCA Servicing\",\n          \"date\": \"11/12/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"MCA Servicing DES:8003243863 ID:XXXXXXXXX INDN:CLAVER GONZALEZ SEVILL CO ID:9843488861 CCD\",\n          \"amount\": 49.0\n        },\n        {\n          \"mca_name\": \"MCA Servicing\",\n          \"date\": \"11/14/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"MCA SERVICING 80 DES:8006226585 ID:251113160044XFV INDN:CLAVER GONZALEZ SEVILL CO ID:1016207445 CCD PMT INFO:PAY11132518025977781224\",\n          \"amount\": 200.0\n        },\n        {\n          \"mca_name\": \"MCA Servicing\",\n          \"date\": \"11/21/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"MCA SERVICING DES:8003243863 ID:PAY112025180527 INDN:CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD\",\n          \"amount\": 200.0\n        }\n      ],\n      \"returned_items\": [],\n      \"overdrafts\": [],\n      \"service_charges\": [],\n      \"atm_cash_withdrawal\": [\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"BKOFAMERICA ATM 11/11 #000007578 WITHDRWL POTOMAC MILLS WOODBRIDGE VA\",\n          \"amount\": 800.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"BKOFAMERICA ATM 11/11 #000007580 WITHDRWL POTOMAC MILLS WOODBRIDGE VA\",\n          \"amount\": 200.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"BKOFAMERICA ATM 11/22 #000003027 WITHDRWL CHAIN BRIDGE MCLEAN VA\",\n          \"amount\": 80.0,\n          \"type\": \"Debit\"\n        }\n      ],\n      \"internal_transfer_deposit\": [\n        {\n          \"date\": \"11/04/2025\",\n          \"description\": \"Online Banking transfer from CHK 8246 Confirmation# 7729717519\",\n          \"amount\": 95.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"description\": \"Online Banking transfer from CHK 8246 Confirmation# 7256279045\",\n          \"amount\": 200.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Mobile transfer from CHK 0510 Confirmation# ogvjyqpuf; ABOU DRAA KASSAR, SALEM\",\n          \"amount\": 25.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Online Banking transfer from CHK 8246 Confirmation# 7286307333\",\n          \"amount\": 24727.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"11/13/2025\",\n          \"description\": \"Online Banking transfer from CHK 8246 Confirmation# 7104683097\",\n          \"amount\": 2.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"11/14/2025\",\n          \"description\": \"Online Banking transfer from CHK 8246 Confirmation# 7412775712\",\n          \"amount\": 115.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"11/14/2025\",\n          \"description\": \"Online Banking transfer from CHK 8246 Confirmation# 7314158349\",\n          \"amount\": 19.5,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"11/19/2025\",\n          \"description\": \"Online Banking transfer from CHK 8246 Confirmation# 7355571876\",\n          \"amount\": 140.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"11/19/2025\",\n          \"description\": \"Online Banking transfer from CHK 8246 Confirmation# 8060136520\",\n          \"amount\": 1.17,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"description\": \"Online Banking transfer from CHK 8246 Confirmation# 8577153567\",\n          \"amount\": 70.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"description\": \"Online Banking transfer from CHK 8246 Confirmation# 7976439043\",\n          \"amount\": 40.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"11/26/2025\",\n          \"description\": \"Online Banking transfer from CHK 8246 Confirmation# 7619935287\",\n          \"amount\": 0.23,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"11/28/2025\",\n          \"description\": \"Online Banking transfer from CHK 8246 Confirmation# 7529938352\",\n          \"amount\": 127.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"11/28/2025\",\n          \"description\": \"Online Banking transfer from CHK 8246 Confirmation# 8338103404\",\n          \"amount\": 104.05,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        }\n      ],\n      \"other_transfer_deposit\": [\n        {\n          \"date\": \"11/05/2025\",\n          \"description\": \"Transfer COASTAL COMMUNITY BANK\",\n          \"amount\": 50.0,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 0,\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Transfer Rasier, LLC; \\\"/LIPR/STANDARD\\\"\",\n          \"amount\": 70.01,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Transfer Rasier, LLC; \\\"/LIPR/STANDARD\\\"\",\n          \"amount\": 47.06,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Transfer Rasier, LLC; \\\"/LIPR/STANDARD\\\"\",\n          \"amount\": 26.67,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/14/2025\",\n          \"description\": \"Transfer Rasier, LLC; \\\"/LIPR/STANDARD\\\"\",\n          \"amount\": 38.11,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"Transfer Rasier, LLC; \\\"/LIPR/STANDARD\\\"\",\n          \"amount\": 133.63,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/19/2025\",\n          \"description\": \"Transfer Rasier, LLC; \\\"/LIPR/STANDARD\\\"\",\n          \"amount\": 122.2,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"description\": \"Transfer Rasier, LLC; \\\"/LIPR/STANDARD\\\"\",\n          \"amount\": 140.97,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"description\": \"Transfer Rasier, LLC; \\\"/LIPR/STANDARD\\\"\",\n          \"amount\": 160.57,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Transfer Rasier, LLC; \\\"/LIPR/STANDARD\\\"\",\n          \"amount\": 189.15,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Transfer Rasier, LLC; \\\"/LIPR/STANDARD\\\"\",\n          \"amount\": 105.64,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Transfer Rasier, LLC; \\\"/LIPR/STANDARD\\\"\",\n          \"amount\": 70.81,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/26/2025\",\n          \"description\": \"Transfer Rasier, LLC; \\\"/LIPR/STANDARD\\\"\",\n          \"amount\": 186.77,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/28/2025\",\n          \"description\": \"Transfer Rasier, LLC; \\\"/LIPR/STANDARD\\\"\",\n          \"amount\": 165.82,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/28/2025\",\n          \"description\": \"Transfer Rasier, LLC; \\\"/LIPR/STANDARD\\\"\",\n          \"amount\": 73.33,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        }\n      ],\n      \"internal_transfer_withdrawal\": [\n        {\n          \"date\": \"11/05/2025\",\n          \"description\": \"Online Banking transfer to CHK 8246 Confirmation# 7539579007\",\n          \"amount\": 6.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Online Banking transfer to CHK 8246 Confirmation# 7488087125\",\n          \"amount\": 26.67,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Online Banking transfer to CHK 8246 Confirmation# 7988512306\",\n          \"amount\": 1030.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Online Banking transfer to CHK 8246 Confirmation# 8589253422\",\n          \"amount\": 2751.61,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Online Banking transfer to CHK 8246 Confirmation# 7889259955\",\n          \"amount\": 9.9,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"Online Banking transfer to CHK 8246 Confirmation# 7242167719\",\n          \"amount\": 133.63,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"description\": \"Online Banking transfer to CHK 8246 Confirmation# 8049348510\",\n          \"amount\": 140.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/19/2025\",\n          \"description\": \"Online Banking transfer to CHK 8246 Confirmation# 7659055515\",\n          \"amount\": 122.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"description\": \"Online Banking transfer to CHK 8246 Confirmation# 7167524885\",\n          \"amount\": 141.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Online Banking transfer to CHK 8246 Confirmation# 8385534949\",\n          \"amount\": 15.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Online Banking transfer to CHK 8246 Confirmation# 8092138817\",\n          \"amount\": 70.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Online Banking transfer to CHK 8246 Confirmation# 7601580710\",\n          \"amount\": 105.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Online Banking transfer to CHK 8246 Confirmation# 8201586043\",\n          \"amount\": 1.52,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/26/2025\",\n          \"description\": \"Online Banking transfer to CHK 8246 Confirmation# 7219930748\",\n          \"amount\": 187.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/28/2025\",\n          \"description\": \"Online Banking transfer to CHK 8246 Confirmation# 7433689904\",\n          \"amount\": 153.1,\n          \"type\": \"Debit\"\n        }\n      ],\n      \"other_transfer_withdrawal\": [\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Zelle payment to NAYRA Conf# thvy1oi0d\",\n          \"amount\": 500.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Zelle payment to Salem Usa Conf# xezakj5ab\",\n          \"amount\": 259.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Zelle payment to Chris Liberator Liberator Conf# wkccqvjgj\",\n          \"amount\": 75.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/28/2025\",\n          \"description\": \"Zelle payment to Michelle Conf# zc2t8kyme\",\n          \"amount\": 100.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/28/2025\",\n          \"description\": \"Zelle payment to NAYRA Conf# ur1qrapgp\",\n          \"amount\": 100.0,\n          \"type\": \"Debit\"\n        }\n      ],\n      \"standard_deposit\": [],\n      \"standard_withdrawal\": [\n        {\n          \"date\": \"11/06/2025\",\n          \"description\": \"CHECKCARD 1105 POSSIBLE https://WWW.PWA 24435655310132433123546 CKCD 6051 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 45.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Mobile Banking payment to CRD 0377 Confirmation# yd6kxx9fb\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"CHECKCARD 1110 CVS/PHARMACY # WOODBRIDGE VA CKCD 5912 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 17.72,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"CHECKCARD 1110 OLD BRIDGE COASTAL WOODBRIDGE VA 24607945315545316248480 CKCD 5542 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 24.83,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"CHECKCARD 1110 SAFEWAY 1331 WOODBRIDGE VA 24231685315545577476776 CKCD 5411 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 5.53,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"CHECKCARD 1110 OLD BRIDGE COASTAL WOODBRIDGE VA 24607945315545316248472 CKCD 5542 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 11.3,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"CHECKCARD 1111 GEICO *AUTO 800-841-3000 DC 24692165315105405602534 CKCD 6300 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 441.06,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"WM SUPERCENTER 11/11 #000242647 PURCHASE 14000 WORTH AVE WOODBRIDGE VA\",\n          \"amount\": 446.54,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"WAL-MART #1852 11/11 #000193500 PURCHASE 14000 WORTH AVE WOODBRIDGE VA\",\n          \"amount\": 78.55,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/13/2025\",\n          \"description\": \"TOYOTA ACH RTL DES:11122025 ID:9GBP7XCBC4QZ1XR INDN:SALEMABOU-DRAA-KASSAR CO ID:4953775816 WEB PMT INFO:PXXXXXXXXX-26269\",\n          \"amount\": 1210.86,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/14/2025\",\n          \"description\": \"Possible Finance DES:PossibleFi ID: INDN:Claver Gonzalez CO ID:0000139249 WEB\",\n          \"amount\": 15.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"description\": \"NSM DBAMR.COOPER DES:NSM DBAMR ID:4989724 INDN:SALEM ABOU DRAA *KASSA CO ID:0000452701 WEB\",\n          \"amount\": 3999.04,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"description\": \"CHECKCARD 1118 Ashley F Morgan Law PC Chantilly VA 24793385322001930857060 CKCD 8111 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 500.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"description\": \"CHECKCARD 1120 BP#9313883OLD WOODBRIDGE VA CKCD 5542 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 9.77,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"CHECKCARD 1121 BINGO TIRE - WOODBRIDGE WOODBRIDGE VA 24257615327900016764468 CKCD 7538 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 70.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"CHECKCARD 1122 RAZZAA INC. UPPER MARLBORMD CKCD 5542 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 19.99,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/28/2025\",\n          \"description\": \"Possible Finance DES:PossibleFi ID: INDN:Claver Gonzalez CO ID:0000139249 WEB\",\n          \"amount\": 15.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/28/2025\",\n          \"description\": \"OLD TOWN LIBER 11/28 #000870633 PURCHASE OLD TOWN LIBERTY ALEXANDRIA VA\",\n          \"amount\": 30.02,\n          \"type\": \"Debit\"\n        }\n      ]\n    }\n  ]\n}\n```",
+    "token_count": {
+      "estimated_tokens": 1432
+    },
+    "failure_reason": null
+  }
+}

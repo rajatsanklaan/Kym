@@ -1,0 +1,1130 @@
+{
+  "document_name": "Case24.pdf",
+  "pipeline_status": "completed",
+  "processing_metadata": {
+    "start_time": "2026-02-04T15:03:02.140766",
+    "end_time": "2026-02-04T15:05:55.615673",
+    "parsing_time_seconds": 108.472933,
+    "bsi_time_seconds": 64.976269,
+    "total_time_seconds": 173.449202
+  },
+  "parsing_agent_result": {
+    "agent_name": "parsing_agent",
+    "processing_status": "success",
+    "start_time": "2026-02-04T15:03:02.147716",
+    "end_time": "2026-02-04T15:04:50.620375",
+    "parsed_json": {
+      "bank_statement_information": {
+        "bank_name": "FirstBank",
+        "account_holder": "Nancy S Whaley DBA Simply Southern Interiors",
+        "statement_start_date": "11/03/2025",
+        "statement_end_date": "11/30/2025",
+        "n_days": 28,
+        "n_month": [
+          11
+        ],
+        "business_address": "1899 Middle Summit Drive # 97 Dalton GA 30721"
+      },
+      "accounts": [
+        {
+          "account_number": "1453",
+          "account_type": "FirstBusiness Checking",
+          "account_summary": {
+            "beginning_balance": 13500.0,
+            "ending_balance": 38.65,
+            "total_deposits": 13089.6,
+            "total_withdrawals": 26550.95,
+            "total_deposits_count": 14,
+            "total_withdrawals_count": 72,
+            "avg_daily_balance": null,
+            "overdraft_days": 4
+          },
+          "transactions": [
+            {
+              "date": "11/03/2025",
+              "description": "Check",
+              "amount": 605.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "Transfer from x1453 to x3331",
+              "amount": 124.82,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "Transfer from x1453 to x3331",
+              "amount": 410.42,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "APP GREENLIGHT WEB GREENLIGHT PYMNT00001 091000013103382",
+              "amount": 20.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "Draft Titanium Payment CCD SIMPLY SOUTHERN SIMPLY SOUTHERN",
+              "amount": 29.95,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "PAYMENT CITI CARD ONLINE WEB 421844311826644 CITICTP 091409685225723",
+              "amount": 430.63,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "D002076363 Dedicated Financ CCD 102359639 Nancy Whaley",
+              "amount": 609.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/04/2025",
+              "description": "DBT CRD 1510 11/04/25 62390893 DALTON UTILITIES 706-278-1313 GA C#5708",
+              "amount": 103.73,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/04/2025",
+              "description": "Transfer from x1453 to x3331",
+              "amount": 108.91,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "11/04/2025",
+              "description": "ORDER FAIRE WHOLESALE CCD pay_kgnmx2ca8c LLCSimply Southern In",
+              "amount": 19.99,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/04/2025",
+              "description": "ONLINE PMT HOME DEPOT WEB 631845308956166",
+              "amount": 73.72,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/05/2025",
+              "description": "ATM W/D 1159 11/05/25 00003903 FIRSTBANK 401 S THORNTON DALTON GA C#5708",
+              "amount": 100.0,
+              "type": "Debit",
+              "category": "ATM/Cash Withdrawal"
+            },
+            {
+              "date": "11/05/2025",
+              "description": "DBT CRD 1224 11/04/25 62803985 WAL-MART #5173 DALTON GA C#5708",
+              "amount": 203.24,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/05/2025",
+              "description": "DBT CRD 1600 11/04/25 92283951 HIBU GLOBAL / HIBU INC 800-929-3556 IA C#5708",
+              "amount": 866.45,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/05/2025",
+              "description": "7018623984 ADVANCE.CASH PPD 25633170 Nancy Whaley",
+              "amount": 121.82,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/05/2025",
+              "description": "0080835391 BetrLink LLC PPD 000000080778287 NANCY S WHALEY",
+              "amount": 481.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/06/2025",
+              "description": "DBT CRD 1238 11/05/25 71363356 INVOICESIMPLE OAKVILLE CD C#5708",
+              "amount": 13.49,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/06/2025",
+              "description": "POS DEB 0654 11/06/25 00311019 SDedicated Comme Roseville MN C#5708",
+              "amount": 609.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/06/2025",
+              "description": "Transfer from x1453 to x8906",
+              "amount": 69.3,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "11/06/2025",
+              "description": "Transfer from x1453 to x3331",
+              "amount": 100.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "11/06/2025",
+              "description": "52VGJ6A TRANSFORM CREDIT WEB CGBA 7891460966 021000028533294",
+              "amount": 5.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/06/2025",
+              "description": "ORDER FAIRE WHOLESALE CCD pay_rpqdam849p LLCSimply Southern In",
+              "amount": 197.15,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/07/2025",
+              "description": "POS DEB 1100 11/07/25 87961863 RASPBERRY ROW INC -n63 205 WEST CUYLER ST DALTON GA C#5708",
+              "amount": 39.38,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/07/2025",
+              "description": "Transfer from x1453 to x3331",
+              "amount": 100.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "11/07/2025",
+              "description": "Transfer from x1453 to x8906",
+              "amount": 132.91,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "DBT CRD 0643 11/07/25 57945206 SP USWALLDECOR.COM",
+              "amount": 25.65,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "DBT CRD 1317 11/07/25 94617320 TJ MAXX #1106 DALTON GA C#5708",
+              "amount": 39.21,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "DBT CRD 1740 11/08/25 52296640 PY *CREATIVE ARTS GUIL 706-278-0168 GA C#5708",
+              "amount": 58.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "DBT CRD 1441 11/08/25 44857133 BACKOFFICECO 800-7113307 FL C#5708",
+              "amount": 799.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Transfer from x1453 to x8906",
+              "amount": 142.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Return Item Credit",
+              "amount": 3483.12,
+              "type": "Credit",
+              "category": "Returned Item"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Insufficient Funds Charge",
+              "amount": 35.0,
+              "type": "Debit",
+              "category": "Overdraft"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "8555085411 HIATUS WEB f1b5b8db68a3546 1273846756 091000010732768",
+              "amount": 10.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "DALTON OPT DALTON OPTILINK CCD J5L10E4543367 SIMPLY SOUTHERN INTERI",
+              "amount": 59.9,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "7018623984 ADVANCE.CASH PPD 25765747 Nancy Whaley",
+              "amount": 121.82,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "0081247168 BetrLink LLC PPD 000000081231932 NANCY S WHALEY",
+              "amount": 200.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "ORDER FAIRE WHOLESALE CCD pay_6qnazmvhzn LLCSimply Southern In",
+              "amount": 213.4,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "7018623984 ADVANCE.CASH WEB 25765792 FP00000151 081001432096406",
+              "amount": 500.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "FUNDING AMF LLC WEB 706-260-7476 3201463633 091000012767077",
+              "amount": 1200.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/13/2025",
+              "description": "Return Item Credit",
+              "amount": 1200.0,
+              "type": "Credit",
+              "category": "Returned Item"
+            },
+            {
+              "date": "11/13/2025",
+              "description": "Return Item Credit",
+              "amount": 2475.0,
+              "type": "Credit",
+              "category": "Returned Item"
+            },
+            {
+              "date": "11/13/2025",
+              "description": "Insufficient Funds Charge",
+              "amount": 35.0,
+              "type": "Debit",
+              "category": "Overdraft"
+            },
+            {
+              "date": "11/13/2025",
+              "description": "Insufficient Funds Charge",
+              "amount": 35.0,
+              "type": "Debit",
+              "category": "Overdraft"
+            },
+            {
+              "date": "11/14/2025",
+              "description": "Overdraft Item Charge",
+              "amount": 35.0,
+              "type": "Debit",
+              "category": "Overdraft"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "Return Item Credit",
+              "amount": 3483.12,
+              "type": "Credit",
+              "category": "Returned Item"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "Reverse OD Item Charge",
+              "amount": 35.0,
+              "type": "Credit",
+              "category": "Service Charges/Fees"
+            },
+            {
+              "date": "11/18/2025",
+              "description": "Transfer from x1453 to x3331",
+              "amount": 25.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "11/18/2025",
+              "description": "Transfer from x1453 to x3331",
+              "amount": 50.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "11/18/2025",
+              "description": "Transfer from x1453 to x3331",
+              "amount": 250.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "11/19/2025",
+              "description": "Deposit",
+              "amount": 265.36,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/19/2025",
+              "description": "DBT CRD 0921 11/17/25 53016287 KASMIR FABRICS 214-631-8040 TX C#5708",
+              "amount": 9.36,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/19/2025",
+              "description": "7018623984 ADVANCE.CASH PPD 25917970 Nancy Whaley",
+              "amount": 121.82,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/19/2025",
+              "description": "0081664506 BetrLink LLC PPD 000000081631961 NANCY S WHALEY",
+              "amount": 200.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/19/2025",
+              "description": "0081664506 BetrLink LLC PPD 000000081631959 NANCY S WHALEY",
+              "amount": 481.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/19/2025",
+              "description": "Overdraft Item Charge",
+              "amount": 35.0,
+              "type": "Debit",
+              "category": "Overdraft"
+            },
+            {
+              "date": "11/19/2025",
+              "description": "0081664506 BetrLink LLC PPD 000000081631960 NANCY S WHALEY",
+              "amount": 481.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/19/2025",
+              "description": "Overdraft Item Charge",
+              "amount": 35.0,
+              "type": "Debit",
+              "category": "Overdraft"
+            },
+            {
+              "date": "11/20/2025",
+              "description": "Return Item Credit",
+              "amount": 481.0,
+              "type": "Credit",
+              "category": "Returned Item"
+            },
+            {
+              "date": "11/20/2025",
+              "description": "Return Item Credit",
+              "amount": 481.0,
+              "type": "Credit",
+              "category": "Returned Item"
+            },
+            {
+              "date": "11/20/2025",
+              "description": "Reverse OD Item Charge",
+              "amount": 35.0,
+              "type": "Credit",
+              "category": "Service Charges/Fees"
+            },
+            {
+              "date": "11/20/2025",
+              "description": "Reverse OD Item Charge",
+              "amount": 35.0,
+              "type": "Credit",
+              "category": "Service Charges/Fees"
+            },
+            {
+              "date": "11/20/2025",
+              "description": "0081758965 BetrLink LLC PPD 000000081754014 NANCY S WHALEY",
+              "amount": 681.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/20/2025",
+              "description": "Deposit",
+              "amount": 300.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/20/2025",
+              "description": "Transfer from x1453 to x3331",
+              "amount": 100.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "11/20/2025",
+              "description": "Transfer from x1453 to x3331",
+              "amount": 100.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "11/20/2025",
+              "description": "Zelle Debit ZEL* Stacey Gibson J2C0I8XT1M44",
+              "amount": 125.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/21/2025",
+              "description": "Transfer from x1453 to x3331",
+              "amount": 150.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Transfer from x1453 to x3331",
+              "amount": 50.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "0082106086 BetrLink LLC PPD 000000082093314 NANCY S WHALEY",
+              "amount": 200.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/25/2025",
+              "description": "DBT CRD 1426 11/24/25 35731509 APEX SPINE AND HEALTH 7065290770 GA C#5708",
+              "amount": 43.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/25/2025",
+              "description": "0082225174 BetrLink LLC PPD 000000082159636 NANCY S WHALEY",
+              "amount": 162.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/26/2025",
+              "description": "Transfer from x3331 to x1453",
+              "amount": 60.0,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "11/26/2025",
+              "description": "DBT CRD 1048 11/24/25 05399793 THE HOME DEPOT #0137 DALTON GA C#5708",
+              "amount": 9.59,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/26/2025",
+              "description": "7018623984 ADVANCE.CASH PPD 26061748 Nancy Whaley",
+              "amount": 121.82,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/28/2025",
+              "description": "RTP Credit RTP deposit from Empower",
+              "amount": 75.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "11/28/2025",
+              "description": "DBT CRD 1758 11/26/25 63320056 PAYPAL *BACKINSWING 402-935-7733 GA C#5708",
+              "amount": 60.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/28/2025",
+              "description": "Transfer from x1453 to x3331",
+              "amount": 5.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "11/28/2025",
+              "description": "Transfer from x1453 to x3331",
+              "amount": 50.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            }
+          ]
+        }
+      ]
+    },
+    "raw_output": "```json\n{\n  \"bank_statement_information\": {\n    \"bank_name\": \"FirstBank\",\n    \"account_holder\": \"Nancy S Whaley DBA Simply Southern Interiors\",\n    \"statement_start_date\": \"11/03/2025\",\n    \"statement_end_date\": \"11/30/2025\",\n    \"n_days\": 28,\n    \"n_month\": [\n      11\n    ],\n    \"business_address\": \"1899 Middle Summit Drive # 97 Dalton GA 30721\"\n  },\n  \"accounts\": [\n    {\n      \"account_number\": \"1453\",\n      \"account_type\": \"FirstBusiness Checking\",\n      \"account_summary\": {\n        \"beginning_balance\": 13500.0,\n        \"ending_balance\": 38.65,\n        \"total_deposits\": 13089.6,\n        \"total_withdrawals\": 26550.95,\n        \"total_deposits_count\": 14,\n        \"total_withdrawals_count\": 72,\n        \"avg_daily_balance\": null,\n        \"overdraft_days\": 4\n      },\n      \"transactions\": [\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"Check\",\n          \"amount\": 605.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"Transfer from x1453 to x3331\",\n          \"amount\": 124.82,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"Transfer from x1453 to x3331\",\n          \"amount\": 410.42,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"APP GREENLIGHT WEB GREENLIGHT PYMNT00001 091000013103382\",\n          \"amount\": 20.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"Draft Titanium Payment CCD SIMPLY SOUTHERN SIMPLY SOUTHERN\",\n          \"amount\": 29.95,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"PAYMENT CITI CARD ONLINE WEB 421844311826644 CITICTP 091409685225723\",\n          \"amount\": 430.63,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"D002076363 Dedicated Financ CCD 102359639 Nancy Whaley\",\n          \"amount\": 609.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/04/2025\",\n          \"description\": \"DBT CRD 1510 11/04/25 62390893 DALTON UTILITIES 706-278-1313 GA C#5708\",\n          \"amount\": 103.73,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/04/2025\",\n          \"description\": \"Transfer from x1453 to x3331\",\n          \"amount\": 108.91,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/04/2025\",\n          \"description\": \"ORDER FAIRE WHOLESALE CCD pay_kgnmx2ca8c LLCSimply Southern In\",\n          \"amount\": 19.99,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/04/2025\",\n          \"description\": \"ONLINE PMT HOME DEPOT WEB 631845308956166\",\n          \"amount\": 73.72,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/05/2025\",\n          \"description\": \"ATM W/D 1159 11/05/25 00003903 FIRSTBANK 401 S THORNTON DALTON GA C#5708\",\n          \"amount\": 100.0,\n          \"type\": \"Debit\",\n          \"category\": \"ATM/Cash Withdrawal\"\n        },\n        {\n          \"date\": \"11/05/2025\",\n          \"description\": \"DBT CRD 1224 11/04/25 62803985 WAL-MART #5173 DALTON GA C#5708\",\n          \"amount\": 203.24,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/05/2025\",\n          \"description\": \"DBT CRD 1600 11/04/25 92283951 HIBU GLOBAL / HIBU INC 800-929-3556 IA C#5708\",\n          \"amount\": 866.45,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/05/2025\",\n          \"description\": \"7018623984 ADVANCE.CASH PPD 25633170 Nancy Whaley\",\n          \"amount\": 121.82,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/05/2025\",\n          \"description\": \"0080835391 BetrLink LLC PPD 000000080778287 NANCY S WHALEY\",\n          \"amount\": 481.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/06/2025\",\n          \"description\": \"DBT CRD 1238 11/05/25 71363356 INVOICESIMPLE OAKVILLE CD C#5708\",\n          \"amount\": 13.49,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/06/2025\",\n          \"description\": \"POS DEB 0654 11/06/25 00311019 SDedicated Comme Roseville MN C#5708\",\n          \"amount\": 609.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/06/2025\",\n          \"description\": \"Transfer from x1453 to x8906\",\n          \"amount\": 69.3,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/06/2025\",\n          \"description\": \"Transfer from x1453 to x3331\",\n          \"amount\": 100.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/06/2025\",\n          \"description\": \"52VGJ6A TRANSFORM CREDIT WEB CGBA 7891460966 021000028533294\",\n          \"amount\": 5.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/06/2025\",\n          \"description\": \"ORDER FAIRE WHOLESALE CCD pay_rpqdam849p LLCSimply Southern In\",\n          \"amount\": 197.15,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"description\": \"POS DEB 1100 11/07/25 87961863 RASPBERRY ROW INC -n63 205 WEST CUYLER ST DALTON GA C#5708\",\n          \"amount\": 39.38,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"description\": \"Transfer from x1453 to x3331\",\n          \"amount\": 100.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"description\": \"Transfer from x1453 to x8906\",\n          \"amount\": 132.91,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"DBT CRD 0643 11/07/25 57945206 SP USWALLDECOR.COM\",\n          \"amount\": 25.65,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"DBT CRD 1317 11/07/25 94617320 TJ MAXX #1106 DALTON GA C#5708\",\n          \"amount\": 39.21,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"DBT CRD 1740 11/08/25 52296640 PY *CREATIVE ARTS GUIL 706-278-0168 GA C#5708\",\n          \"amount\": 58.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"DBT CRD 1441 11/08/25 44857133 BACKOFFICECO 800-7113307 FL C#5708\",\n          \"amount\": 799.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Transfer from x1453 to x8906\",\n          \"amount\": 142.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Return Item Credit\",\n          \"amount\": 3483.12,\n          \"type\": \"Credit\",\n          \"category\": \"Returned Item\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Insufficient Funds Charge\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\",\n          \"category\": \"Overdraft\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"8555085411 HIATUS WEB f1b5b8db68a3546 1273846756 091000010732768\",\n          \"amount\": 10.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"DALTON OPT DALTON OPTILINK CCD J5L10E4543367 SIMPLY SOUTHERN INTERI\",\n          \"amount\": 59.9,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"7018623984 ADVANCE.CASH PPD 25765747 Nancy Whaley\",\n          \"amount\": 121.82,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"0081247168 BetrLink LLC PPD 000000081231932 NANCY S WHALEY\",\n          \"amount\": 200.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"ORDER FAIRE WHOLESALE CCD pay_6qnazmvhzn LLCSimply Southern In\",\n          \"amount\": 213.4,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"7018623984 ADVANCE.CASH WEB 25765792 FP00000151 081001432096406\",\n          \"amount\": 500.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"FUNDING AMF LLC WEB 706-260-7476 3201463633 091000012767077\",\n          \"amount\": 1200.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/13/2025\",\n          \"description\": \"Return Item Credit\",\n          \"amount\": 1200.0,\n          \"type\": \"Credit\",\n          \"category\": \"Returned Item\"\n        },\n        {\n          \"date\": \"11/13/2025\",\n          \"description\": \"Return Item Credit\",\n          \"amount\": 2475.0,\n          \"type\": \"Credit\",\n          \"category\": \"Returned Item\"\n        },\n        {\n          \"date\": \"11/13/2025\",\n          \"description\": \"Insufficient Funds Charge\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\",\n          \"category\": \"Overdraft\"\n        },\n        {\n          \"date\": \"11/13/2025\",\n          \"description\": \"Insufficient Funds Charge\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\",\n          \"category\": \"Overdraft\"\n        },\n        {\n          \"date\": \"11/14/2025\",\n          \"description\": \"Overdraft Item Charge\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\",\n          \"category\": \"Overdraft\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"Return Item Credit\",\n          \"amount\": 3483.12,\n          \"type\": \"Credit\",\n          \"category\": \"Returned Item\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"Reverse OD Item Charge\",\n          \"amount\": 35.0,\n          \"type\": \"Credit\",\n          \"category\": \"Service Charges/Fees\"\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"description\": \"Transfer from x1453 to x3331\",\n          \"amount\": 25.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"description\": \"Transfer from x1453 to x3331\",\n          \"amount\": 50.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"description\": \"Transfer from x1453 to x3331\",\n          \"amount\": 250.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/19/2025\",\n          \"description\": \"Deposit\",\n          \"amount\": 265.36,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/19/2025\",\n          \"description\": \"DBT CRD 0921 11/17/25 53016287 KASMIR FABRICS 214-631-8040 TX C#5708\",\n          \"amount\": 9.36,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/19/2025\",\n          \"description\": \"7018623984 ADVANCE.CASH PPD 25917970 Nancy Whaley\",\n          \"amount\": 121.82,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/19/2025\",\n          \"description\": \"0081664506 BetrLink LLC PPD 000000081631961 NANCY S WHALEY\",\n          \"amount\": 200.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/19/2025\",\n          \"description\": \"0081664506 BetrLink LLC PPD 000000081631959 NANCY S WHALEY\",\n          \"amount\": 481.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/19/2025\",\n          \"description\": \"Overdraft Item Charge\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\",\n          \"category\": \"Overdraft\"\n        },\n        {\n          \"date\": \"11/19/2025\",\n          \"description\": \"0081664506 BetrLink LLC PPD 000000081631960 NANCY S WHALEY\",\n          \"amount\": 481.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/19/2025\",\n          \"description\": \"Overdraft Item Charge\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\",\n          \"category\": \"Overdraft\"\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"description\": \"Return Item Credit\",\n          \"amount\": 481.0,\n          \"type\": \"Credit\",\n          \"category\": \"Returned Item\"\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"description\": \"Return Item Credit\",\n          \"amount\": 481.0,\n          \"type\": \"Credit\",\n          \"category\": \"Returned Item\"\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"description\": \"Reverse OD Item Charge\",\n          \"amount\": 35.0,\n          \"type\": \"Credit\",\n          \"category\": \"Service Charges/Fees\"\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"description\": \"Reverse OD Item Charge\",\n          \"amount\": 35.0,\n          \"type\": \"Credit\",\n          \"category\": \"Service Charges/Fees\"\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"description\": \"0081758965 BetrLink LLC PPD 000000081754014 NANCY S WHALEY\",\n          \"amount\": 681.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"description\": \"Deposit\",\n          \"amount\": 300.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"description\": \"Transfer from x1453 to x3331\",\n          \"amount\": 100.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"description\": \"Transfer from x1453 to x3331\",\n          \"amount\": 100.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"description\": \"Zelle Debit ZEL* Stacey Gibson J2C0I8XT1M44\",\n          \"amount\": 125.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"description\": \"Transfer from x1453 to x3331\",\n          \"amount\": 150.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Transfer from x1453 to x3331\",\n          \"amount\": 50.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"0082106086 BetrLink LLC PPD 000000082093314 NANCY S WHALEY\",\n          \"amount\": 200.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/25/2025\",\n          \"description\": \"DBT CRD 1426 11/24/25 35731509 APEX SPINE AND HEALTH 7065290770 GA C#5708\",\n          \"amount\": 43.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/25/2025\",\n          \"description\": \"0082225174 BetrLink LLC PPD 000000082159636 NANCY S WHALEY\",\n          \"amount\": 162.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/26/2025\",\n          \"description\": \"Transfer from x3331 to x1453\",\n          \"amount\": 60.0,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"11/26/2025\",\n          \"description\": \"DBT CRD 1048 11/24/25 05399793 THE HOME DEPOT #0137 DALTON GA C#5708\",\n          \"amount\": 9.59,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/26/2025\",\n          \"description\": \"7018623984 ADVANCE.CASH PPD 26061748 Nancy Whaley\",\n          \"amount\": 121.82,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/28/2025\",\n          \"description\": \"RTP Credit RTP deposit from Empower\",\n          \"amount\": 75.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"11/28/2025\",\n          \"description\": \"DBT CRD 1758 11/26/25 63320056 PAYPAL *BACKINSWING 402-935-7733 GA C#5708\",\n          \"amount\": 60.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/28/2025\",\n          \"description\": \"Transfer from x1453 to x3331\",\n          \"amount\": 5.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/28/2025\",\n          \"description\": \"Transfer from x1453 to x3331\",\n          \"amount\": 50.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        }\n      ]\n    }\n  ]\n}\n```",
+    "token_count": {
+      "estimated_tokens": 1519
+    },
+    "failure_reason": null
+  },
+  "bsi_analyzer_result": {
+    "agent_name": "v1_bsi_analyzer_agent",
+    "processing_status": "success",
+    "start_time": "2026-02-04T15:04:50.638744",
+    "end_time": "2026-02-04T15:05:55.614738",
+    "parsed_json": {
+      "accounts": [
+        {
+          "account_number": "1453",
+          "account_type": "FirstBusiness Checking",
+          "mca_deposit": [],
+          "mca_withdrawal": [
+            {
+              "mca_name": "AdvanceCash",
+              "date": "11/05/2025",
+              "type": "Debit",
+              "description": "7018623984 ADVANCE.CASH PPD 25633170 Nancy Whaley",
+              "amount": 121.82
+            },
+            {
+              "mca_name": "AdvanceCash",
+              "date": "11/12/2025",
+              "type": "Debit",
+              "description": "7018623984 ADVANCE.CASH PPD 25765747 Nancy Whaley",
+              "amount": 121.82
+            },
+            {
+              "mca_name": "AdvanceCash",
+              "date": "11/12/2025",
+              "type": "Debit",
+              "description": "7018623984 ADVANCE.CASH WEB 25765792 FP00000151 081001432096406",
+              "amount": 500.0
+            },
+            {
+              "mca_name": "AdvanceCash",
+              "date": "11/19/2025",
+              "type": "Debit",
+              "description": "7018623984 ADVANCE.CASH PPD 25917970 Nancy Whaley",
+              "amount": 121.82
+            },
+            {
+              "mca_name": "AdvanceCash",
+              "date": "11/26/2025",
+              "type": "Debit",
+              "description": "7018623984 ADVANCE.CASH PPD 26061748 Nancy Whaley",
+              "amount": 121.82
+            }
+          ],
+          "returned_items": [
+            {
+              "date": "11/12/2025",
+              "type": "Credit",
+              "description": "Return Item Credit",
+              "amount": 3483.12,
+              "non_true_revenue": 1
+            },
+            {
+              "date": "11/13/2025",
+              "type": "Credit",
+              "description": "Return Item Credit",
+              "amount": 1200.0,
+              "non_true_revenue": 1
+            },
+            {
+              "date": "11/13/2025",
+              "type": "Credit",
+              "description": "Return Item Credit",
+              "amount": 2475.0,
+              "non_true_revenue": 1
+            },
+            {
+              "date": "11/17/2025",
+              "type": "Credit",
+              "description": "Return Item Credit",
+              "amount": 3483.12,
+              "non_true_revenue": 1
+            },
+            {
+              "date": "11/20/2025",
+              "type": "Credit",
+              "description": "Return Item Credit",
+              "amount": 481.0,
+              "non_true_revenue": 1
+            },
+            {
+              "date": "11/20/2025",
+              "type": "Credit",
+              "description": "Return Item Credit",
+              "amount": 481.0,
+              "non_true_revenue": 1
+            }
+          ],
+          "overdrafts": [
+            {
+              "date": "11/12/2025",
+              "type": "Debit",
+              "description": "Insufficient Funds Charge",
+              "amount": 35.0
+            },
+            {
+              "date": "11/13/2025",
+              "type": "Debit",
+              "description": "Insufficient Funds Charge",
+              "amount": 35.0
+            },
+            {
+              "date": "11/13/2025",
+              "type": "Debit",
+              "description": "Insufficient Funds Charge",
+              "amount": 35.0
+            },
+            {
+              "date": "11/14/2025",
+              "type": "Debit",
+              "description": "Overdraft Item Charge",
+              "amount": 35.0
+            },
+            {
+              "date": "11/19/2025",
+              "type": "Debit",
+              "description": "Overdraft Item Charge",
+              "amount": 35.0
+            },
+            {
+              "date": "11/19/2025",
+              "type": "Debit",
+              "description": "Overdraft Item Charge",
+              "amount": 35.0
+            }
+          ],
+          "service_charges": [
+            {
+              "date": "11/17/2025",
+              "type": "Credit",
+              "description": "Reverse OD Item Charge",
+              "amount": 35.0,
+              "non_true_revenue": 1
+            },
+            {
+              "date": "11/20/2025",
+              "type": "Credit",
+              "description": "Reverse OD Item Charge",
+              "amount": 35.0,
+              "non_true_revenue": 1
+            },
+            {
+              "date": "11/20/2025",
+              "type": "Credit",
+              "description": "Reverse OD Item Charge",
+              "amount": 35.0,
+              "non_true_revenue": 1
+            }
+          ],
+          "atm_cash_withdrawal": [
+            {
+              "date": "11/05/2025",
+              "type": "Debit",
+              "description": "ATM W/D 1159 11/05/25 00003903 FIRSTBANK 401 S THORNTON DALTON GA C#5708",
+              "amount": 100.0
+            }
+          ],
+          "internal_transfer_deposit": [
+            {
+              "date": "11/26/2025",
+              "type": "Credit",
+              "description": "Transfer from x3331 to x1453",
+              "amount": 60.0,
+              "non_true_revenue": 1
+            }
+          ],
+          "other_transfer_deposit": [
+            {
+              "date": "11/28/2025",
+              "type": "Credit",
+              "description": "RTP Credit RTP deposit from Empower",
+              "amount": 75.0,
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            }
+          ],
+          "internal_transfer_withdrawal": [
+            {
+              "date": "11/03/2025",
+              "type": "Debit",
+              "description": "Transfer from x1453 to x3331",
+              "amount": 124.82
+            },
+            {
+              "date": "11/03/2025",
+              "type": "Debit",
+              "description": "Transfer from x1453 to x3331",
+              "amount": 410.42
+            },
+            {
+              "date": "11/04/2025",
+              "type": "Debit",
+              "description": "Transfer from x1453 to x3331",
+              "amount": 108.91
+            },
+            {
+              "date": "11/06/2025",
+              "type": "Debit",
+              "description": "Transfer from x1453 to x8906",
+              "amount": 69.3
+            },
+            {
+              "date": "11/06/2025",
+              "type": "Debit",
+              "description": "Transfer from x1453 to x3331",
+              "amount": 100.0
+            },
+            {
+              "date": "11/07/2025",
+              "type": "Debit",
+              "description": "Transfer from x1453 to x3331",
+              "amount": 100.0
+            },
+            {
+              "date": "11/07/2025",
+              "type": "Debit",
+              "description": "Transfer from x1453 to x8906",
+              "amount": 132.91
+            },
+            {
+              "date": "11/10/2025",
+              "type": "Debit",
+              "description": "Transfer from x1453 to x8906",
+              "amount": 142.0
+            },
+            {
+              "date": "11/18/2025",
+              "type": "Debit",
+              "description": "Transfer from x1453 to x3331",
+              "amount": 25.0
+            },
+            {
+              "date": "11/18/2025",
+              "type": "Debit",
+              "description": "Transfer from x1453 to x3331",
+              "amount": 50.0
+            },
+            {
+              "date": "11/18/2025",
+              "type": "Debit",
+              "description": "Transfer from x1453 to x3331",
+              "amount": 250.0
+            },
+            {
+              "date": "11/20/2025",
+              "type": "Debit",
+              "description": "Transfer from x1453 to x3331",
+              "amount": 100.0
+            },
+            {
+              "date": "11/20/2025",
+              "type": "Debit",
+              "description": "Transfer from x1453 to x3331",
+              "amount": 100.0
+            },
+            {
+              "date": "11/21/2025",
+              "type": "Debit",
+              "description": "Transfer from x1453 to x3331",
+              "amount": 150.0
+            },
+            {
+              "date": "11/24/2025",
+              "type": "Debit",
+              "description": "Transfer from x1453 to x3331",
+              "amount": 50.0
+            },
+            {
+              "date": "11/28/2025",
+              "type": "Debit",
+              "description": "Transfer from x1453 to x3331",
+              "amount": 5.0
+            },
+            {
+              "date": "11/28/2025",
+              "type": "Debit",
+              "description": "Transfer from x1453 to x3331",
+              "amount": 50.0
+            }
+          ],
+          "other_transfer_withdrawal": [
+            {
+              "date": "11/20/2025",
+              "type": "Debit",
+              "description": "Zelle Debit ZEL* Stacey Gibson J2C0I8XT1M44",
+              "amount": 125.0
+            }
+          ],
+          "standard_deposit": [
+            {
+              "date": "11/19/2025",
+              "type": "Credit",
+              "description": "Deposit",
+              "amount": 265.36,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/20/2025",
+              "type": "Credit",
+              "description": "0081758965 BetrLink LLC PPD 000000081754014 NANCY S WHALEY",
+              "amount": 681.0,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/20/2025",
+              "type": "Credit",
+              "description": "Deposit",
+              "amount": 300.0,
+              "non_true_revenue": 0
+            }
+          ],
+          "standard_withdrawal": [
+            {
+              "date": "11/03/2025",
+              "type": "Debit",
+              "description": "Check",
+              "amount": 605.0
+            },
+            {
+              "date": "11/03/2025",
+              "type": "Debit",
+              "description": "APP GREENLIGHT WEB GREENLIGHT PYMNT00001 091000013103382",
+              "amount": 20.0
+            },
+            {
+              "date": "11/03/2025",
+              "type": "Debit",
+              "description": "Draft Titanium Payment CCD SIMPLY SOUTHERN SIMPLY SOUTHERN",
+              "amount": 29.95
+            },
+            {
+              "date": "11/03/2025",
+              "type": "Debit",
+              "description": "PAYMENT CITI CARD ONLINE WEB 421844311826644 CITICTP 091409685225723",
+              "amount": 430.63
+            },
+            {
+              "date": "11/03/2025",
+              "type": "Debit",
+              "description": "D002076363 Dedicated Financ CCD 102359639 Nancy Whaley",
+              "amount": 609.0
+            },
+            {
+              "date": "11/04/2025",
+              "type": "Debit",
+              "description": "DBT CRD 1510 11/04/25 62390893 DALTON UTILITIES 706-278-1313 GA C#5708",
+              "amount": 103.73
+            },
+            {
+              "date": "11/04/2025",
+              "type": "Debit",
+              "description": "ORDER FAIRE WHOLESALE CCD pay_kgnmx2ca8c LLCSimply Southern In",
+              "amount": 19.99
+            },
+            {
+              "date": "11/04/2025",
+              "type": "Debit",
+              "description": "ONLINE PMT HOME DEPOT WEB 631845308956166",
+              "amount": 73.72
+            },
+            {
+              "date": "11/05/2025",
+              "type": "Debit",
+              "description": "DBT CRD 1224 11/04/25 62803985 WAL-MART #5173 DALTON GA C#5708",
+              "amount": 203.24
+            },
+            {
+              "date": "11/05/2025",
+              "type": "Debit",
+              "description": "DBT CRD 1600 11/04/25 92283951 HIBU GLOBAL / HIBU INC 800-929-3556 IA C#5708",
+              "amount": 866.45
+            },
+            {
+              "date": "11/05/2025",
+              "type": "Debit",
+              "description": "0080835391 BetrLink LLC PPD 000000080778287 NANCY S WHALEY",
+              "amount": 481.0
+            },
+            {
+              "date": "11/06/2025",
+              "type": "Debit",
+              "description": "DBT CRD 1238 11/05/25 71363356 INVOICESIMPLE OAKVILLE CD C#5708",
+              "amount": 13.49
+            },
+            {
+              "date": "11/06/2025",
+              "type": "Debit",
+              "description": "POS DEB 0654 11/06/25 00311019 SDedicated Comme Roseville MN C#5708",
+              "amount": 609.0
+            },
+            {
+              "date": "11/06/2025",
+              "type": "Debit",
+              "description": "52VGJ6A TRANSFORM CREDIT WEB CGBA 7891460966 021000028533294",
+              "amount": 5.0
+            },
+            {
+              "date": "11/06/2025",
+              "type": "Debit",
+              "description": "ORDER FAIRE WHOLESALE CCD pay_rpqdam849p LLCSimply Southern In",
+              "amount": 197.15
+            },
+            {
+              "date": "11/07/2025",
+              "type": "Debit",
+              "description": "POS DEB 1100 11/07/25 87961863 RASPBERRY ROW INC -n63 205 WEST CUYLER ST DALTON GA C#5708",
+              "amount": 39.38
+            },
+            {
+              "date": "11/10/2025",
+              "type": "Debit",
+              "description": "DBT CRD 0643 11/07/25 57945206 SP USWALLDECOR.COM",
+              "amount": 25.65
+            },
+            {
+              "date": "11/10/2025",
+              "type": "Debit",
+              "description": "DBT CRD 1317 11/07/25 94617320 TJ MAXX #1106 DALTON GA C#5708",
+              "amount": 39.21
+            },
+            {
+              "date": "11/10/2025",
+              "type": "Debit",
+              "description": "DBT CRD 1740 11/08/25 52296640 PY *CREATIVE ARTS GUIL 706-278-0168 GA C#5708",
+              "amount": 58.0
+            },
+            {
+              "date": "11/10/2025",
+              "type": "Debit",
+              "description": "DBT CRD 1441 11/08/25 44857133 BACKOFFICECO 800-7113307 FL C#5708",
+              "amount": 799.0
+            },
+            {
+              "date": "11/12/2025",
+              "type": "Debit",
+              "description": "8555085411 HIATUS WEB f1b5b8db68a3546 1273846756 091000010732768",
+              "amount": 10.0
+            },
+            {
+              "date": "11/12/2025",
+              "type": "Debit",
+              "description": "DALTON OPT DALTON OPTILINK CCD J5L10E4543367 SIMPLY SOUTHERN INTERI",
+              "amount": 59.9
+            },
+            {
+              "date": "11/12/2025",
+              "type": "Debit",
+              "description": "0081247168 BetrLink LLC PPD 000000081231932 NANCY S WHALEY",
+              "amount": 200.0
+            },
+            {
+              "date": "11/12/2025",
+              "type": "Debit",
+              "description": "ORDER FAIRE WHOLESALE CCD pay_6qnazmvhzn LLCSimply Southern In",
+              "amount": 213.4
+            },
+            {
+              "date": "11/12/2025",
+              "type": "Debit",
+              "description": "FUNDING AMF LLC WEB 706-260-7476 3201463633 091000012767077",
+              "amount": 1200.0
+            },
+            {
+              "date": "11/19/2025",
+              "type": "Debit",
+              "description": "DBT CRD 0921 11/17/25 53016287 KASMIR FABRICS 214-631-8040 TX C#5708",
+              "amount": 9.36
+            },
+            {
+              "date": "11/19/2025",
+              "type": "Debit",
+              "description": "0081664506 BetrLink LLC PPD 000000081631961 NANCY S WHALEY",
+              "amount": 200.0
+            },
+            {
+              "date": "11/19/2025",
+              "type": "Debit",
+              "description": "0081664506 BetrLink LLC PPD 000000081631959 NANCY S WHALEY",
+              "amount": 481.0
+            },
+            {
+              "date": "11/19/2025",
+              "type": "Debit",
+              "description": "0081664506 BetrLink LLC PPD 000000081631960 NANCY S WHALEY",
+              "amount": 481.0
+            },
+            {
+              "date": "11/24/2025",
+              "type": "Debit",
+              "description": "0082106086 BetrLink LLC PPD 000000082093314 NANCY S WHALEY",
+              "amount": 200.0
+            },
+            {
+              "date": "11/25/2025",
+              "type": "Debit",
+              "description": "DBT CRD 1426 11/24/25 35731509 APEX SPINE AND HEALTH 7065290770 GA C#5708",
+              "amount": 43.0
+            },
+            {
+              "date": "11/25/2025",
+              "type": "Debit",
+              "description": "0082225174 BetrLink LLC PPD 000000082159636 NANCY S WHALEY",
+              "amount": 162.0
+            },
+            {
+              "date": "11/26/2025",
+              "type": "Debit",
+              "description": "DBT CRD 1048 11/24/25 05399793 THE HOME DEPOT #0137 DALTON GA C#5708",
+              "amount": 9.59
+            },
+            {
+              "date": "11/28/2025",
+              "type": "Debit",
+              "description": "DBT CRD 1758 11/26/25 63320056 PAYPAL *BACKINSWING 402-935-7733 GA C#5708",
+              "amount": 60.0
+            }
+          ]
+        }
+      ]
+    },
+    "raw_output": "```json\n{\n  \"accounts\": [\n    {\n      \"account_number\": \"1453\",\n      \"account_type\": \"FirstBusiness Checking\",\n      \"mca_deposit\": [],\n      \"mca_withdrawal\": [\n        {\n          \"mca_name\": \"AdvanceCash\",\n          \"date\": \"11/05/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"7018623984 ADVANCE.CASH PPD 25633170 Nancy Whaley\",\n          \"amount\": 121.82\n        },\n        {\n          \"mca_name\": \"AdvanceCash\",\n          \"date\": \"11/12/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"7018623984 ADVANCE.CASH PPD 25765747 Nancy Whaley\",\n          \"amount\": 121.82\n        },\n        {\n          \"mca_name\": \"AdvanceCash\",\n          \"date\": \"11/12/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"7018623984 ADVANCE.CASH WEB 25765792 FP00000151 081001432096406\",\n          \"amount\": 500.0\n        },\n        {\n          \"mca_name\": \"AdvanceCash\",\n          \"date\": \"11/19/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"7018623984 ADVANCE.CASH PPD 25917970 Nancy Whaley\",\n          \"amount\": 121.82\n        },\n        {\n          \"mca_name\": \"AdvanceCash\",\n          \"date\": \"11/26/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"7018623984 ADVANCE.CASH PPD 26061748 Nancy Whaley\",\n          \"amount\": 121.82\n        }\n      ],\n      \"returned_items\": [\n        {\n          \"date\": \"11/12/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Return Item Credit\",\n          \"amount\": 3483.12,\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"11/13/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Return Item Credit\",\n          \"amount\": 1200.0,\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"11/13/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Return Item Credit\",\n          \"amount\": 2475.0,\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Return Item Credit\",\n          \"amount\": 3483.12,\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Return Item Credit\",\n          \"amount\": 481.0,\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Return Item Credit\",\n          \"amount\": 481.0,\n          \"non_true_revenue\": 1\n        }\n      ],\n      \"overdrafts\": [\n        {\n          \"date\": \"11/12/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Insufficient Funds Charge\",\n          \"amount\": 35.0\n        },\n        {\n          \"date\": \"11/13/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Insufficient Funds Charge\",\n          \"amount\": 35.0\n        },\n        {\n          \"date\": \"11/13/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Insufficient Funds Charge\",\n          \"amount\": 35.0\n        },\n        {\n          \"date\": \"11/14/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Overdraft Item Charge\",\n          \"amount\": 35.0\n        },\n        {\n          \"date\": \"11/19/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Overdraft Item Charge\",\n          \"amount\": 35.0\n        },\n        {\n          \"date\": \"11/19/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Overdraft Item Charge\",\n          \"amount\": 35.0\n        }\n      ],\n      \"service_charges\": [\n        {\n          \"date\": \"11/17/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Reverse OD Item Charge\",\n          \"amount\": 35.0,\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Reverse OD Item Charge\",\n          \"amount\": 35.0,\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Reverse OD Item Charge\",\n          \"amount\": 35.0,\n          \"non_true_revenue\": 1\n        }\n      ],\n      \"atm_cash_withdrawal\": [\n        {\n          \"date\": \"11/05/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"ATM W/D 1159 11/05/25 00003903 FIRSTBANK 401 S THORNTON DALTON GA C#5708\",\n          \"amount\": 100.0\n        }\n      ],\n      \"internal_transfer_deposit\": [\n        {\n          \"date\": \"11/26/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Transfer from x3331 to x1453\",\n          \"amount\": 60.0,\n          \"non_true_revenue\": 1\n        }\n      ],\n      \"other_transfer_deposit\": [\n        {\n          \"date\": \"11/28/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"RTP Credit RTP deposit from Empower\",\n          \"amount\": 75.0,\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        }\n      ],\n      \"internal_transfer_withdrawal\": [\n        {\n          \"date\": \"11/03/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Transfer from x1453 to x3331\",\n          \"amount\": 124.82\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Transfer from x1453 to x3331\",\n          \"amount\": 410.42\n        },\n        {\n          \"date\": \"11/04/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Transfer from x1453 to x3331\",\n          \"amount\": 108.91\n        },\n        {\n          \"date\": \"11/06/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Transfer from x1453 to x8906\",\n          \"amount\": 69.3\n        },\n        {\n          \"date\": \"11/06/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Transfer from x1453 to x3331\",\n          \"amount\": 100.0\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Transfer from x1453 to x3331\",\n          \"amount\": 100.0\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Transfer from x1453 to x8906\",\n          \"amount\": 132.91\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Transfer from x1453 to x8906\",\n          \"amount\": 142.0\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Transfer from x1453 to x3331\",\n          \"amount\": 25.0\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Transfer from x1453 to x3331\",\n          \"amount\": 50.0\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Transfer from x1453 to x3331\",\n          \"amount\": 250.0\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Transfer from x1453 to x3331\",\n          \"amount\": 100.0\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Transfer from x1453 to x3331\",\n          \"amount\": 100.0\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Transfer from x1453 to x3331\",\n          \"amount\": 150.0\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Transfer from x1453 to x3331\",\n          \"amount\": 50.0\n        },\n        {\n          \"date\": \"11/28/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Transfer from x1453 to x3331\",\n          \"amount\": 5.0\n        },\n        {\n          \"date\": \"11/28/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Transfer from x1453 to x3331\",\n          \"amount\": 50.0\n        }\n      ],\n      \"other_transfer_withdrawal\": [\n        {\n          \"date\": \"11/20/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Zelle Debit ZEL* Stacey Gibson J2C0I8XT1M44\",\n          \"amount\": 125.0\n        }\n      ],\n      \"standard_deposit\": [\n        {\n          \"date\": \"11/19/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Deposit\",\n          \"amount\": 265.36,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"0081758965 BetrLink LLC PPD 000000081754014 NANCY S WHALEY\",\n          \"amount\": 681.0,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Deposit\",\n          \"amount\": 300.0,\n          \"non_true_revenue\": 0\n        }\n      ],\n      \"standard_withdrawal\": [\n        {\n          \"date\": \"11/03/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Check\",\n          \"amount\": 605.0\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"APP GREENLIGHT WEB GREENLIGHT PYMNT00001 091000013103382\",\n          \"amount\": 20.0\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Draft Titanium Payment CCD SIMPLY SOUTHERN SIMPLY SOUTHERN\",\n          \"amount\": 29.95\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"PAYMENT CITI CARD ONLINE WEB 421844311826644 CITICTP 091409685225723\",\n          \"amount\": 430.63\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"D002076363 Dedicated Financ CCD 102359639 Nancy Whaley\",\n          \"amount\": 609.0\n        },\n        {\n          \"date\": \"11/04/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"DBT CRD 1510 11/04/25 62390893 DALTON UTILITIES 706-278-1313 GA C#5708\",\n          \"amount\": 103.73\n        },\n        {\n          \"date\": \"11/04/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"ORDER FAIRE WHOLESALE CCD pay_kgnmx2ca8c LLCSimply Southern In\",\n          \"amount\": 19.99\n        },\n        {\n          \"date\": \"11/04/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"ONLINE PMT HOME DEPOT WEB 631845308956166\",\n          \"amount\": 73.72\n        },\n        {\n          \"date\": \"11/05/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"DBT CRD 1224 11/04/25 62803985 WAL-MART #5173 DALTON GA C#5708\",\n          \"amount\": 203.24\n        },\n        {\n          \"date\": \"11/05/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"DBT CRD 1600 11/04/25 92283951 HIBU GLOBAL / HIBU INC 800-929-3556 IA C#5708\",\n          \"amount\": 866.45\n        },\n        {\n          \"date\": \"11/05/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"0080835391 BetrLink LLC PPD 000000080778287 NANCY S WHALEY\",\n          \"amount\": 481.0\n        },\n        {\n          \"date\": \"11/06/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"DBT CRD 1238 11/05/25 71363356 INVOICESIMPLE OAKVILLE CD C#5708\",\n          \"amount\": 13.49\n        },\n        {\n          \"date\": \"11/06/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"POS DEB 0654 11/06/25 00311019 SDedicated Comme Roseville MN C#5708\",\n          \"amount\": 609.0\n        },\n        {\n          \"date\": \"11/06/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"52VGJ6A TRANSFORM CREDIT WEB CGBA 7891460966 021000028533294\",\n          \"amount\": 5.0\n        },\n        {\n          \"date\": \"11/06/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"ORDER FAIRE WHOLESALE CCD pay_rpqdam849p LLCSimply Southern In\",\n          \"amount\": 197.15\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"POS DEB 1100 11/07/25 87961863 RASPBERRY ROW INC -n63 205 WEST CUYLER ST DALTON GA C#5708\",\n          \"amount\": 39.38\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"DBT CRD 0643 11/07/25 57945206 SP USWALLDECOR.COM\",\n          \"amount\": 25.65\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"DBT CRD 1317 11/07/25 94617320 TJ MAXX #1106 DALTON GA C#5708\",\n          \"amount\": 39.21\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"DBT CRD 1740 11/08/25 52296640 PY *CREATIVE ARTS GUIL 706-278-0168 GA C#5708\",\n          \"amount\": 58.0\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"DBT CRD 1441 11/08/25 44857133 BACKOFFICECO 800-7113307 FL C#5708\",\n          \"amount\": 799.0\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"8555085411 HIATUS WEB f1b5b8db68a3546 1273846756 091000010732768\",\n          \"amount\": 10.0\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"DALTON OPT DALTON OPTILINK CCD J5L10E4543367 SIMPLY SOUTHERN INTERI\",\n          \"amount\": 59.9\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"0081247168 BetrLink LLC PPD 000000081231932 NANCY S WHALEY\",\n          \"amount\": 200.0\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"ORDER FAIRE WHOLESALE CCD pay_6qnazmvhzn LLCSimply Southern In\",\n          \"amount\": 213.4\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"FUNDING AMF LLC WEB 706-260-7476 3201463633 091000012767077\",\n          \"amount\": 1200.0\n        },\n        {\n          \"date\": \"11/19/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"DBT CRD 0921 11/17/25 53016287 KASMIR FABRICS 214-631-8040 TX C#5708\",\n          \"amount\": 9.36\n        },\n        {\n          \"date\": \"11/19/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"0081664506 BetrLink LLC PPD 000000081631961 NANCY S WHALEY\",\n          \"amount\": 200.0\n        },\n        {\n          \"date\": \"11/19/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"0081664506 BetrLink LLC PPD 000000081631959 NANCY S WHALEY\",\n          \"amount\": 481.0\n        },\n        {\n          \"date\": \"11/19/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"0081664506 BetrLink LLC PPD 000000081631960 NANCY S WHALEY\",\n          \"amount\": 481.0\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"0082106086 BetrLink LLC PPD 000000082093314 NANCY S WHALEY\",\n          \"amount\": 200.0\n        },\n        {\n          \"date\": \"11/25/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"DBT CRD 1426 11/24/25 35731509 APEX SPINE AND HEALTH 7065290770 GA C#5708\",\n          \"amount\": 43.0\n        },\n        {\n          \"date\": \"11/25/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"0082225174 BetrLink LLC PPD 000000082159636 NANCY S WHALEY\",\n          \"amount\": 162.0\n        },\n        {\n          \"date\": \"11/26/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"DBT CRD 1048 11/24/25 05399793 THE HOME DEPOT #0137 DALTON GA C#5708\",\n          \"amount\": 9.59\n        },\n        {\n          \"date\": \"11/28/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"DBT CRD 1758 11/26/25 63320056 PAYPAL *BACKINSWING 402-935-7733 GA C#5708\",\n          \"amount\": 60.0\n        }\n      ]\n    }\n  ]\n}\n```",
+    "token_count": {
+      "estimated_tokens": 1289
+    },
+    "failure_reason": null
+  }
+}

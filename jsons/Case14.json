@@ -1,0 +1,1111 @@
+{
+  "document_name": "Case14.pdf",
+  "pipeline_status": "completed",
+  "processing_metadata": {
+    "start_time": "2026-02-04T15:04:41.361603",
+    "end_time": "2026-02-04T15:07:09.623905",
+    "parsing_time_seconds": 87.009695,
+    "bsi_time_seconds": 61.231783,
+    "total_time_seconds": 148.241478
+  },
+  "parsing_agent_result": {
+    "agent_name": "parsing_agent",
+    "processing_status": "success",
+    "start_time": "2026-02-04T15:04:41.373517",
+    "end_time": "2026-02-04T15:06:08.382837",
+    "parsed_json": {
+      "bank_statement_information": {
+        "bank_name": "Wells Fargo",
+        "account_holder": "A.P.V BUSINESS SOLUTIONS LLC",
+        "statement_start_date": "11-01-2025",
+        "statement_end_date": "11-30-2025",
+        "n_days": 30,
+        "n_month": [
+          11
+        ],
+        "business_address": "2010 E RAMPART ST TAMPA FL 33604-2038"
+      },
+      "accounts": [
+        {
+          "account_number": "7159325476",
+          "account_type": "Initiate Business Checking",
+          "account_summary": {
+            "beginning_balance": 1505.9,
+            "ending_balance": 3192.42,
+            "total_deposits": 8808.0,
+            "total_withdrawals": 7121.48,
+            "total_deposits_count": null,
+            "total_withdrawals_count": null,
+            "avg_daily_balance": 1928.0,
+            "overdraft_days": 0
+          },
+          "transactions": [
+            {
+              "date": "11/03/2025",
+              "description": "Purchase authorized on 11/01 Google *Gsuite Jor 650-253-0000 CA S465305384643308 Card 7265",
+              "amount": 0.81,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "Zelle to Pastrana Alexander on 11/01 Ref # Wfct0Zfwrllq",
+              "amount": 20.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "Purchase authorized on 11/01 MR. Express #1 LLC Tampa FL S305305692578662 Card 7265",
+              "amount": 20.25,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "Recurring Payment authorized on 11/01 Canva* 104688-1754 Canva.Com DE S385306039918548 Card 7265",
+              "amount": 15.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "Purchase authorized on 11/02 7-Eleven Tampa FL P000000783799978 Card 7265",
+              "amount": 13.2,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "Zelle to Fierro Lizeth on 11/02 Ref # Wfct0Zg3Bbsq Renta Noviembre",
+              "amount": 700.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "Zelle to Pastrana Alexander on 11/03 Ref # Wfct0Zg4Mfqz Pago Chatgpt",
+              "amount": 22.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/04/2025",
+              "description": "Zelle From Yennyffer Medina Mendez on 11/04 Ref # Bacxzfoppghg",
+              "amount": 180.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "11/04/2025",
+              "description": "Recurring Payment authorized on 11/03 Openai *Chatgpt Su Openai.Com CA S385307552342411 Card 7265",
+              "amount": 20.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/04/2025",
+              "description": "Purchase authorized on 11/04 7-Eleven Tampa FL P000000784957091 Card 7265",
+              "amount": 6.42,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/05/2025",
+              "description": "Zelle From Alexander Pastrana Villamil on 11/05 Ref # Baco3AK5M6Op",
+              "amount": 105.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "11/05/2025",
+              "description": "Purchase authorized on 11/05 2K Citgo Express Tampa FL P305309460521656 Card 7265",
+              "amount": 22.25,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/05/2025",
+              "description": "Zelle to Medina Yennyffer on 11/05 Ref # Wfct0Zgbhky4",
+              "amount": 30.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/05/2025",
+              "description": "Zelle to Medina Yennyffer on 11/05 Ref # Wfct0Zgdkcg3",
+              "amount": 180.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/06/2025",
+              "description": "Purchase authorized on 11/06 Marathon 200683 Mulberry FL P000000681675615 Card 7265",
+              "amount": 2.88,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/06/2025",
+              "description": "Zelle to Pastrana Alexander on 11/06 Ref # Wfct0Zghxgzz",
+              "amount": 100.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/07/2025",
+              "description": "Zelle From Yennyffer Medina Mendez on 11/07 Ref # Bacym5Hphvdl",
+              "amount": 150.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "11/07/2025",
+              "description": "ATM Cash Deposit on 11/07 9775 N 56th St Temple Terrac FL 0006354 ATM ID 3745Q Card 7265",
+              "amount": 570.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/07/2025",
+              "description": "Purchase authorized on 11/03 Hostinger* Hosting WWW.Hostinger DE S305308012094442 Card 7265",
+              "amount": 7.99,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Zelle From Yennyffer Medina Mendez on 11/10 Ref # Bacyt5595Njv",
+              "amount": 550.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Purchase authorized on 11/06 Levy@2Kia Ctr Orlando FL S355311004339830 Card 7265",
+              "amount": 5.99,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Purchase authorized on 11/08 Pp*Als Games Tampa FL S305312600355493 Card 7265",
+              "amount": 25.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Purchase authorized on 11/09 MR. Express #1 LLC Tampa FL S385313741370011 Card 7265",
+              "amount": 20.25,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Zelle to Pastrana Alexander on 11/09 Ref # Wfct0Zgt3Blt",
+              "amount": 20.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Zelle to Pastrana Alexander on 11/09 Ref # Wfct0Zgt87TX",
+              "amount": 10.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Purchase authorized on 11/10 2K Citgo Express Tampa FL P465314443424010 Card 7265",
+              "amount": 26.08,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Zelle to Medina Yennyffer on 11/10 Ref # Wfct0Zgvd8Y3",
+              "amount": 150.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Zelle From Yennyffer Medina Mendez on 11/12 Ref # Bacxoii5Dz5N",
+              "amount": 100.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Zelle to Pastrana Alexander on 11/12 Ref # Wfct0Zh2Frx6 Seguro",
+              "amount": 315.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Purchase authorized on 11/12 2K Citgo Express Tampa FL P305316755587481 Card 7265",
+              "amount": 31.15,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/13/2025",
+              "description": "ATM Cash Deposit on 11/13 2510 E Fowler Ave Tampa FL 0008546 ATM ID 60390 Card 5835",
+              "amount": 1560.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/13/2025",
+              "description": "Zelle From Yennyffer Medina Mendez on 11/13 Ref # Bacyoromld52",
+              "amount": 200.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "11/13/2025",
+              "description": "Zelle From Yennyffer Medina Mendez on 11/13 Ref # Bacvviobphos",
+              "amount": 100.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "11/13/2025",
+              "description": "ATM Withdrawal authorized on 11/13 2510 E Fowler Ave Tampa FL 0008545 ATM ID 60390 Card 5835",
+              "amount": 650.0,
+              "type": "Debit",
+              "category": "ATM/Cash Withdrawal"
+            },
+            {
+              "date": "11/14/2025",
+              "description": "Zelle From Yennyffer Medina Mendez on 11/14 Ref # Bacybsxifmz9",
+              "amount": 100.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "11/14/2025",
+              "description": "Zelle to Medina Yennyffer on 11/14 Ref # Wfct0Zh8P9P6 Payroll",
+              "amount": 500.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/14/2025",
+              "description": "Zelle to Medina Yennyffer on 11/14 Ref # Wfct0Zh8Q3V7",
+              "amount": 250.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/14/2025",
+              "description": "Zelle to Pastrana Alexander on 11/14 Ref # Wfct0Zhbv6Fb",
+              "amount": 200.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "Purchase authorized on 11/14 Wendys 1325 Tampa FL S585318805278582 Card 7265",
+              "amount": 3.86,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "Purchase authorized on 11/15 Luna Fuels-Tampa Tampa FL P465319698572498 Card 7265",
+              "amount": 30.59,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "Zelle to Medina Yennyffer on 11/17 Ref # Wfct0Zhmvpyr Payroll",
+              "amount": 300.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/18/2025",
+              "description": "Purchase authorized on 11/18 Wal-Mart #5221 Tampa FL P000000685698798 Card 5835",
+              "amount": 18.69,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/19/2025",
+              "description": "Zelle From Yennyffer Medina Mendez on 11/19 Ref # Baczhfz0Pbk0",
+              "amount": 100.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "11/19/2025",
+              "description": "Purchase authorized on 11/19 2K Citgo Express Tampa FL P585323448098266 Card 7265",
+              "amount": 29.49,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/20/2025",
+              "description": "Zelle From Yennyffer Medina Mendez on 11/20 Ref # Backvxngdxqx",
+              "amount": 50.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "11/20/2025",
+              "description": "Recurring Payment authorized on 11/17 Twilio Inc Twilio.Com CA S345322021499105 Card 7265",
+              "amount": 20.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/20/2025",
+              "description": "Purchase authorized on 11/19 Udemy: Online Cour Udemy.Com CA S305323687449187 Card 7265",
+              "amount": 11.33,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/20/2025",
+              "description": "ATM Withdrawal authorized on 11/20 13304 Bruce B Downs Blvd Tampa FL 0003393 ATM ID 3745P Card 5835",
+              "amount": 20.0,
+              "type": "Debit",
+              "category": "ATM/Cash Withdrawal"
+            },
+            {
+              "date": "11/21/2025",
+              "description": "Zelle From Yennyffer Medina Mendez on 11/21 Ref # Bacw7T10Ane8",
+              "amount": 200.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "11/21/2025",
+              "description": "ATM Cash Deposit on 11/21 2510 E Fowler Ave Tampa FL 0009958 ATM ID 60390 Card 5835",
+              "amount": 1009.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/21/2025",
+              "description": "Zelle From Yennyffer Medina Mendez on 11/21 Ref # Bacv46Z8Jgar",
+              "amount": 200.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "11/21/2025",
+              "description": "Zelle From Alexander Pastrana Villamil on 11/21 Ref # Back0Mrn313M",
+              "amount": 94.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "11/21/2025",
+              "description": "Purchase authorized on 11/21 2K Citgo Express Tampa FL P385325448300701 Card 7265",
+              "amount": 26.71,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/21/2025",
+              "description": "Zelle to Pastrana Alexander on 11/21 Ref # Wfct0Zhyj99M",
+              "amount": 100.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/21/2025",
+              "description": "Zelle to Medina Yennyffer on 11/21 Ref # Wfct0Zhyz4W7",
+              "amount": 30.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Zelle From Yennyffer Medina Mendez on 11/24 Ref # Bacvy4Dg25F0",
+              "amount": 1400.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Purchase authorized on 11/22 LA Antioquena Cafe Tampa FL S385326457802643 Card 5835",
+              "amount": 11.13,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Purchase authorized on 11/22 WM Supercenter #5221 Tampa FL P000000254707251 Card 5835",
+              "amount": 16.37,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Zelle to Medina Yennyffer on 11/22 Ref # Wfct0Zj4Mc6B",
+              "amount": 200.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Purchase authorized on 11/22 Onstreet Ph Parkmobilecom FL S305326852010980 Card 7265",
+              "amount": 10.5,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Purchase authorized on 11/22 Tst* Tampa Convent Tampa FL S465327014816414 Card 7265",
+              "amount": 38.69,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Purchase authorized on 11/23 Sq *Tina?S Tampa FL S385327711154700 Card 7265",
+              "amount": 15.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Purchase authorized on 11/23 Sq *L Skin Health Tampa FL S385327717379151 Card 7265",
+              "amount": 5.38,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Zelle to Medina Yennyffer on 11/23 Ref # Wfct0Zj8S9Nr",
+              "amount": 400.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Zelle to Medina Yennyffer on 11/24 Ref # Wfct0Zjbb4x8",
+              "amount": 1000.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Zelle to Pastrana Alexander on 11/24 Ref # Wfct0Zjcxj28",
+              "amount": 30.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/25/2025",
+              "description": "Purchase authorized on 11/23 Burger King #990 Tampa FL S305327765921304 Card 7265",
+              "amount": 13.53,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/25/2025",
+              "description": "Purchase authorized on 11/24 Bluswan Car Wash Tampa FL S305328825918341 Card 7265",
+              "amount": 13.99,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/25/2025",
+              "description": "Purchase authorized on 11/25 2K Citgo Express Tampa FL P465329451703734 Card 7265",
+              "amount": 30.39,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/26/2025",
+              "description": "ATM Cash Deposit on 11/26 9775 N 56th St Temple Terrac FL 0001728 ATM ID 3745Q Card 7265",
+              "amount": 2140.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/26/2025",
+              "description": "Zelle to Medina Yennyffer on 11/26 Ref # Wfct0Zjk3Ck8",
+              "amount": 800.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/26/2025",
+              "description": "Zelle to Pastrana Alexander on 11/26 Ref # Wfct0Zjk3Dyc",
+              "amount": 505.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/28/2025",
+              "description": "Purchase authorized on 11/26 Citlalys Mexican F Lutz FL S585331017056557 Card 7265",
+              "amount": 34.6,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/28/2025",
+              "description": "Purchase authorized on 11/27 Bravo Supermarket Tampa FL P305331730329965 Card 7265",
+              "amount": 41.36,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/28/2025",
+              "description": "Cash Deposit Processing Fee",
+              "amount": 0.6,
+              "type": "Debit",
+              "category": "Service Charges/Fees"
+            }
+          ]
+        }
+      ]
+    },
+    "raw_output": "```json\n{\n  \"bank_statement_information\": {\n    \"bank_name\": \"Wells Fargo\",\n    \"account_holder\": \"A.P.V BUSINESS SOLUTIONS LLC\",\n    \"statement_start_date\": \"11-01-2025\",\n    \"statement_end_date\": \"11-30-2025\",\n    \"n_days\": 30,\n    \"n_month\": [\n      11\n    ],\n    \"business_address\": \"2010 E RAMPART ST TAMPA FL 33604-2038\"\n  },\n  \"accounts\": [\n    {\n      \"account_number\": \"7159325476\",\n      \"account_type\": \"Initiate Business Checking\",\n      \"account_summary\": {\n        \"beginning_balance\": 1505.9,\n        \"ending_balance\": 3192.42,\n        \"total_deposits\": 8808.0,\n        \"total_withdrawals\": 7121.48,\n        \"total_deposits_count\": null,\n        \"total_withdrawals_count\": null,\n        \"avg_daily_balance\": 1928.0,\n        \"overdraft_days\": 0\n      },\n      \"transactions\": [\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"Purchase authorized on 11/01 Google *Gsuite Jor 650-253-0000 CA S465305384643308 Card 7265\",\n          \"amount\": 0.81,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"Zelle to Pastrana Alexander on 11/01 Ref # Wfct0Zfwrllq\",\n          \"amount\": 20.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"Purchase authorized on 11/01 MR. Express #1 LLC Tampa FL S305305692578662 Card 7265\",\n          \"amount\": 20.25,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"Recurring Payment authorized on 11/01 Canva* 104688-1754 Canva.Com DE S385306039918548 Card 7265\",\n          \"amount\": 15.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"Purchase authorized on 11/02 7-Eleven Tampa FL P000000783799978 Card 7265\",\n          \"amount\": 13.2,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"Zelle to Fierro Lizeth on 11/02 Ref # Wfct0Zg3Bbsq Renta Noviembre\",\n          \"amount\": 700.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"Zelle to Pastrana Alexander on 11/03 Ref # Wfct0Zg4Mfqz Pago Chatgpt\",\n          \"amount\": 22.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/04/2025\",\n          \"description\": \"Zelle From Yennyffer Medina Mendez on 11/04 Ref # Bacxzfoppghg\",\n          \"amount\": 180.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"11/04/2025\",\n          \"description\": \"Recurring Payment authorized on 11/03 Openai *Chatgpt Su Openai.Com CA S385307552342411 Card 7265\",\n          \"amount\": 20.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/04/2025\",\n          \"description\": \"Purchase authorized on 11/04 7-Eleven Tampa FL P000000784957091 Card 7265\",\n          \"amount\": 6.42,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/05/2025\",\n          \"description\": \"Zelle From Alexander Pastrana Villamil on 11/05 Ref # Baco3AK5M6Op\",\n          \"amount\": 105.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"11/05/2025\",\n          \"description\": \"Purchase authorized on 11/05 2K Citgo Express Tampa FL P305309460521656 Card 7265\",\n          \"amount\": 22.25,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/05/2025\",\n          \"description\": \"Zelle to Medina Yennyffer on 11/05 Ref # Wfct0Zgbhky4\",\n          \"amount\": 30.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/05/2025\",\n          \"description\": \"Zelle to Medina Yennyffer on 11/05 Ref # Wfct0Zgdkcg3\",\n          \"amount\": 180.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/06/2025\",\n          \"description\": \"Purchase authorized on 11/06 Marathon 200683 Mulberry FL P000000681675615 Card 7265\",\n          \"amount\": 2.88,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/06/2025\",\n          \"description\": \"Zelle to Pastrana Alexander on 11/06 Ref # Wfct0Zghxgzz\",\n          \"amount\": 100.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"description\": \"Zelle From Yennyffer Medina Mendez on 11/07 Ref # Bacym5Hphvdl\",\n          \"amount\": 150.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"description\": \"ATM Cash Deposit on 11/07 9775 N 56th St Temple Terrac FL 0006354 ATM ID 3745Q Card 7265\",\n          \"amount\": 570.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"description\": \"Purchase authorized on 11/03 Hostinger* Hosting WWW.Hostinger DE S305308012094442 Card 7265\",\n          \"amount\": 7.99,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Zelle From Yennyffer Medina Mendez on 11/10 Ref # Bacyt5595Njv\",\n          \"amount\": 550.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Purchase authorized on 11/06 Levy@2Kia Ctr Orlando FL S355311004339830 Card 7265\",\n          \"amount\": 5.99,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Purchase authorized on 11/08 Pp*Als Games Tampa FL S305312600355493 Card 7265\",\n          \"amount\": 25.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Purchase authorized on 11/09 MR. Express #1 LLC Tampa FL S385313741370011 Card 7265\",\n          \"amount\": 20.25,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Zelle to Pastrana Alexander on 11/09 Ref # Wfct0Zgt3Blt\",\n          \"amount\": 20.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Zelle to Pastrana Alexander on 11/09 Ref # Wfct0Zgt87TX\",\n          \"amount\": 10.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Purchase authorized on 11/10 2K Citgo Express Tampa FL P465314443424010 Card 7265\",\n          \"amount\": 26.08,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Zelle to Medina Yennyffer on 11/10 Ref # Wfct0Zgvd8Y3\",\n          \"amount\": 150.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Zelle From Yennyffer Medina Mendez on 11/12 Ref # Bacxoii5Dz5N\",\n          \"amount\": 100.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Zelle to Pastrana Alexander on 11/12 Ref # Wfct0Zh2Frx6 Seguro\",\n          \"amount\": 315.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Purchase authorized on 11/12 2K Citgo Express Tampa FL P305316755587481 Card 7265\",\n          \"amount\": 31.15,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/13/2025\",\n          \"description\": \"ATM Cash Deposit on 11/13 2510 E Fowler Ave Tampa FL 0008546 ATM ID 60390 Card 5835\",\n          \"amount\": 1560.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/13/2025\",\n          \"description\": \"Zelle From Yennyffer Medina Mendez on 11/13 Ref # Bacyoromld52\",\n          \"amount\": 200.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"11/13/2025\",\n          \"description\": \"Zelle From Yennyffer Medina Mendez on 11/13 Ref # Bacvviobphos\",\n          \"amount\": 100.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"11/13/2025\",\n          \"description\": \"ATM Withdrawal authorized on 11/13 2510 E Fowler Ave Tampa FL 0008545 ATM ID 60390 Card 5835\",\n          \"amount\": 650.0,\n          \"type\": \"Debit\",\n          \"category\": \"ATM/Cash Withdrawal\"\n        },\n        {\n          \"date\": \"11/14/2025\",\n          \"description\": \"Zelle From Yennyffer Medina Mendez on 11/14 Ref # Bacybsxifmz9\",\n          \"amount\": 100.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"11/14/2025\",\n          \"description\": \"Zelle to Medina Yennyffer on 11/14 Ref # Wfct0Zh8P9P6 Payroll\",\n          \"amount\": 500.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/14/2025\",\n          \"description\": \"Zelle to Medina Yennyffer on 11/14 Ref # Wfct0Zh8Q3V7\",\n          \"amount\": 250.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/14/2025\",\n          \"description\": \"Zelle to Pastrana Alexander on 11/14 Ref # Wfct0Zhbv6Fb\",\n          \"amount\": 200.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"Purchase authorized on 11/14 Wendys 1325 Tampa FL S585318805278582 Card 7265\",\n          \"amount\": 3.86,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"Purchase authorized on 11/15 Luna Fuels-Tampa Tampa FL P465319698572498 Card 7265\",\n          \"amount\": 30.59,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"Zelle to Medina Yennyffer on 11/17 Ref # Wfct0Zhmvpyr Payroll\",\n          \"amount\": 300.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"description\": \"Purchase authorized on 11/18 Wal-Mart #5221 Tampa FL P000000685698798 Card 5835\",\n          \"amount\": 18.69,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/19/2025\",\n          \"description\": \"Zelle From Yennyffer Medina Mendez on 11/19 Ref # Baczhfz0Pbk0\",\n          \"amount\": 100.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"11/19/2025\",\n          \"description\": \"Purchase authorized on 11/19 2K Citgo Express Tampa FL P585323448098266 Card 7265\",\n          \"amount\": 29.49,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"description\": \"Zelle From Yennyffer Medina Mendez on 11/20 Ref # Backvxngdxqx\",\n          \"amount\": 50.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"description\": \"Recurring Payment authorized on 11/17 Twilio Inc Twilio.Com CA S345322021499105 Card 7265\",\n          \"amount\": 20.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"description\": \"Purchase authorized on 11/19 Udemy: Online Cour Udemy.Com CA S305323687449187 Card 7265\",\n          \"amount\": 11.33,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"description\": \"ATM Withdrawal authorized on 11/20 13304 Bruce B Downs Blvd Tampa FL 0003393 ATM ID 3745P Card 5835\",\n          \"amount\": 20.0,\n          \"type\": \"Debit\",\n          \"category\": \"ATM/Cash Withdrawal\"\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"description\": \"Zelle From Yennyffer Medina Mendez on 11/21 Ref # Bacw7T10Ane8\",\n          \"amount\": 200.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"description\": \"ATM Cash Deposit on 11/21 2510 E Fowler Ave Tampa FL 0009958 ATM ID 60390 Card 5835\",\n          \"amount\": 1009.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"description\": \"Zelle From Yennyffer Medina Mendez on 11/21 Ref # Bacv46Z8Jgar\",\n          \"amount\": 200.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"description\": \"Zelle From Alexander Pastrana Villamil on 11/21 Ref # Back0Mrn313M\",\n          \"amount\": 94.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"description\": \"Purchase authorized on 11/21 2K Citgo Express Tampa FL P385325448300701 Card 7265\",\n          \"amount\": 26.71,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"description\": \"Zelle to Pastrana Alexander on 11/21 Ref # Wfct0Zhyj99M\",\n          \"amount\": 100.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"description\": \"Zelle to Medina Yennyffer on 11/21 Ref # Wfct0Zhyz4W7\",\n          \"amount\": 30.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Zelle From Yennyffer Medina Mendez on 11/24 Ref # Bacvy4Dg25F0\",\n          \"amount\": 1400.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Purchase authorized on 11/22 LA Antioquena Cafe Tampa FL S385326457802643 Card 5835\",\n          \"amount\": 11.13,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Purchase authorized on 11/22 WM Supercenter #5221 Tampa FL P000000254707251 Card 5835\",\n          \"amount\": 16.37,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Zelle to Medina Yennyffer on 11/22 Ref # Wfct0Zj4Mc6B\",\n          \"amount\": 200.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Purchase authorized on 11/22 Onstreet Ph Parkmobilecom FL S305326852010980 Card 7265\",\n          \"amount\": 10.5,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Purchase authorized on 11/22 Tst* Tampa Convent Tampa FL S465327014816414 Card 7265\",\n          \"amount\": 38.69,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Purchase authorized on 11/23 Sq *Tina?S Tampa FL S385327711154700 Card 7265\",\n          \"amount\": 15.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Purchase authorized on 11/23 Sq *L Skin Health Tampa FL S385327717379151 Card 7265\",\n          \"amount\": 5.38,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Zelle to Medina Yennyffer on 11/23 Ref # Wfct0Zj8S9Nr\",\n          \"amount\": 400.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Zelle to Medina Yennyffer on 11/24 Ref # Wfct0Zjbb4x8\",\n          \"amount\": 1000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Zelle to Pastrana Alexander on 11/24 Ref # Wfct0Zjcxj28\",\n          \"amount\": 30.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/25/2025\",\n          \"description\": \"Purchase authorized on 11/23 Burger King #990 Tampa FL S305327765921304 Card 7265\",\n          \"amount\": 13.53,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/25/2025\",\n          \"description\": \"Purchase authorized on 11/24 Bluswan Car Wash Tampa FL S305328825918341 Card 7265\",\n          \"amount\": 13.99,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/25/2025\",\n          \"description\": \"Purchase authorized on 11/25 2K Citgo Express Tampa FL P465329451703734 Card 7265\",\n          \"amount\": 30.39,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/26/2025\",\n          \"description\": \"ATM Cash Deposit on 11/26 9775 N 56th St Temple Terrac FL 0001728 ATM ID 3745Q Card 7265\",\n          \"amount\": 2140.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/26/2025\",\n          \"description\": \"Zelle to Medina Yennyffer on 11/26 Ref # Wfct0Zjk3Ck8\",\n          \"amount\": 800.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/26/2025\",\n          \"description\": \"Zelle to Pastrana Alexander on 11/26 Ref # Wfct0Zjk3Dyc\",\n          \"amount\": 505.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/28/2025\",\n          \"description\": \"Purchase authorized on 11/26 Citlalys Mexican F Lutz FL S585331017056557 Card 7265\",\n          \"amount\": 34.6,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/28/2025\",\n          \"description\": \"Purchase authorized on 11/27 Bravo Supermarket Tampa FL P305331730329965 Card 7265\",\n          \"amount\": 41.36,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/28/2025\",\n          \"description\": \"Cash Deposit Processing Fee\",\n          \"amount\": 0.6,\n          \"type\": \"Debit\",\n          \"category\": \"Service Charges/Fees\"\n        }\n      ]\n    }\n  ]\n}\n```",
+    "token_count": {
+      "estimated_tokens": 1858
+    },
+    "failure_reason": null
+  },
+  "bsi_analyzer_result": {
+    "agent_name": "v1_bsi_analyzer_agent",
+    "processing_status": "success",
+    "start_time": "2026-02-04T15:06:08.391675",
+    "end_time": "2026-02-04T15:07:09.623191",
+    "parsed_json": {
+      "accounts": [
+        {
+          "account_number": "7159325476",
+          "account_type": "Initiate Business Checking",
+          "mca_deposit": [],
+          "mca_withdrawal": [],
+          "returned_items": [],
+          "overdrafts": [],
+          "service_charges": [
+            {
+              "date": "11/28/2025",
+              "description": "Cash Deposit Processing Fee",
+              "amount": 0.6,
+              "type": "Debit"
+            }
+          ],
+          "atm_cash_withdrawal": [
+            {
+              "date": "11/13/2025",
+              "description": "ATM Withdrawal authorized on 11/13 2510 E Fowler Ave Tampa FL 0008545 ATM ID 60390 Card 5835",
+              "amount": 650.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/20/2025",
+              "description": "ATM Withdrawal authorized on 11/20 13304 Bruce B Downs Blvd Tampa FL 0003393 ATM ID 3745P Card 5835",
+              "amount": 20.0,
+              "type": "Debit"
+            }
+          ],
+          "internal_transfer_deposit": [],
+          "other_transfer_deposit": [
+            {
+              "date": "11/04/2025",
+              "description": "Zelle From Yennyffer Medina Mendez on 11/04 Ref # Bacxzfoppghg",
+              "amount": 180.0,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/05/2025",
+              "description": "Zelle From Alexander Pastrana Villamil on 11/05 Ref # Baco3AK5M6Op",
+              "amount": 105.0,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/07/2025",
+              "description": "Zelle From Yennyffer Medina Mendez on 11/07 Ref # Bacym5Hphvdl",
+              "amount": 150.0,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Zelle From Yennyffer Medina Mendez on 11/10 Ref # Bacyt5595Njv",
+              "amount": 550.0,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Zelle From Yennyffer Medina Mendez on 11/12 Ref # Bacxoii5Dz5N",
+              "amount": 100.0,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/13/2025",
+              "description": "Zelle From Yennyffer Medina Mendez on 11/13 Ref # Bacyoromld52",
+              "amount": 200.0,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/13/2025",
+              "description": "Zelle From Yennyffer Medina Mendez on 11/13 Ref # Bacvviobphos",
+              "amount": 100.0,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/14/2025",
+              "description": "Zelle From Yennyffer Medina Mendez on 11/14 Ref # Bacybsxifmz9",
+              "amount": 100.0,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/19/2025",
+              "description": "Zelle From Yennyffer Medina Mendez on 11/19 Ref # Baczhfz0Pbk0",
+              "amount": 100.0,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/20/2025",
+              "description": "Zelle From Yennyffer Medina Mendez on 11/20 Ref # Backvxngdxqx",
+              "amount": 50.0,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/21/2025",
+              "description": "Zelle From Yennyffer Medina Mendez on 11/21 Ref # Bacw7T10Ane8",
+              "amount": 200.0,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/21/2025",
+              "description": "Zelle From Yennyffer Medina Mendez on 11/21 Ref # Bacv46Z8Jgar",
+              "amount": 200.0,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/21/2025",
+              "description": "Zelle From Alexander Pastrana Villamil on 11/21 Ref # Back0Mrn313M",
+              "amount": 94.0,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Zelle From Yennyffer Medina Mendez on 11/24 Ref # Bacvy4Dg25F0",
+              "amount": 1400.0,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            }
+          ],
+          "internal_transfer_withdrawal": [],
+          "other_transfer_withdrawal": [
+            {
+              "date": "11/03/2025",
+              "description": "Zelle to Pastrana Alexander on 11/01 Ref # Wfct0Zfwrllq",
+              "amount": 20.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "Zelle to Fierro Lizeth on 11/02 Ref # Wfct0Zg3Bbsq Renta Noviembre",
+              "amount": 700.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "Zelle to Pastrana Alexander on 11/03 Ref # Wfct0Zg4Mfqz Pago Chatgpt",
+              "amount": 22.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/05/2025",
+              "description": "Zelle to Medina Yennyffer on 11/05 Ref # Wfct0Zgbhky4",
+              "amount": 30.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/05/2025",
+              "description": "Zelle to Medina Yennyffer on 11/05 Ref # Wfct0Zgdkcg3",
+              "amount": 180.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/06/2025",
+              "description": "Zelle to Pastrana Alexander on 11/06 Ref # Wfct0Zghxgzz",
+              "amount": 100.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Zelle to Pastrana Alexander on 11/09 Ref # Wfct0Zgt3Blt",
+              "amount": 20.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Zelle to Pastrana Alexander on 11/09 Ref # Wfct0Zgt87TX",
+              "amount": 10.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Zelle to Medina Yennyffer on 11/10 Ref # Wfct0Zgvd8Y3",
+              "amount": 150.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Zelle to Pastrana Alexander on 11/12 Ref # Wfct0Zh2Frx6 Seguro",
+              "amount": 315.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/14/2025",
+              "description": "Zelle to Medina Yennyffer on 11/14 Ref # Wfct0Zh8P9P6 Payroll",
+              "amount": 500.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/14/2025",
+              "description": "Zelle to Medina Yennyffer on 11/14 Ref # Wfct0Zh8Q3V7",
+              "amount": 250.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/14/2025",
+              "description": "Zelle to Pastrana Alexander on 11/14 Ref # Wfct0Zhbv6Fb",
+              "amount": 200.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "Zelle to Medina Yennyffer on 11/17 Ref # Wfct0Zhmvpyr Payroll",
+              "amount": 300.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/21/2025",
+              "description": "Zelle to Pastrana Alexander on 11/21 Ref # Wfct0Zhyj99M",
+              "amount": 100.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/21/2025",
+              "description": "Zelle to Medina Yennyffer on 11/21 Ref # Wfct0Zhyz4W7",
+              "amount": 30.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Zelle to Medina Yennyffer on 11/22 Ref # Wfct0Zj4Mc6B",
+              "amount": 200.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Zelle to Medina Yennyffer on 11/23 Ref # Wfct0Zj8S9Nr",
+              "amount": 400.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Zelle to Medina Yennyffer on 11/24 Ref # Wfct0Zjbb4x8",
+              "amount": 1000.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Zelle to Pastrana Alexander on 11/24 Ref # Wfct0Zjcxj28",
+              "amount": 30.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/26/2025",
+              "description": "Zelle to Medina Yennyffer on 11/26 Ref # Wfct0Zjk3Ck8",
+              "amount": 800.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/26/2025",
+              "description": "Zelle to Pastrana Alexander on 11/26 Ref # Wfct0Zjk3Dyc",
+              "amount": 505.0,
+              "type": "Debit"
+            }
+          ],
+          "standard_deposit": [
+            {
+              "date": "11/07/2025",
+              "description": "ATM Cash Deposit on 11/07 9775 N 56th St Temple Terrac FL 0006354 ATM ID 3745Q Card 7265",
+              "amount": 570.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/13/2025",
+              "description": "ATM Cash Deposit on 11/13 2510 E Fowler Ave Tampa FL 0008546 ATM ID 60390 Card 5835",
+              "amount": 1560.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/21/2025",
+              "description": "ATM Cash Deposit on 11/21 2510 E Fowler Ave Tampa FL 0009958 ATM ID 60390 Card 5835",
+              "amount": 1009.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/26/2025",
+              "description": "ATM Cash Deposit on 11/26 9775 N 56th St Temple Terrac FL 0001728 ATM ID 3745Q Card 7265",
+              "amount": 2140.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            }
+          ],
+          "standard_withdrawal": [
+            {
+              "date": "11/03/2025",
+              "description": "Purchase authorized on 11/01 Google *Gsuite Jor 650-253-0000 CA S465305384643308 Card 7265",
+              "amount": 0.81,
+              "type": "Debit"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "Purchase authorized on 11/01 MR. Express #1 LLC Tampa FL S305305692578662 Card 7265",
+              "amount": 20.25,
+              "type": "Debit"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "Recurring Payment authorized on 11/01 Canva* 104688-1754 Canva.Com DE S385306039918548 Card 7265",
+              "amount": 15.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "Purchase authorized on 11/02 7-Eleven Tampa FL P000000783799978 Card 7265",
+              "amount": 13.2,
+              "type": "Debit"
+            },
+            {
+              "date": "11/04/2025",
+              "description": "Recurring Payment authorized on 11/03 Openai *Chatgpt Su Openai.Com CA S385307552342411 Card 7265",
+              "amount": 20.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/04/2025",
+              "description": "Purchase authorized on 11/04 7-Eleven Tampa FL P000000784957091 Card 7265",
+              "amount": 6.42,
+              "type": "Debit"
+            },
+            {
+              "date": "11/05/2025",
+              "description": "Purchase authorized on 11/05 2K Citgo Express Tampa FL P305309460521656 Card 7265",
+              "amount": 22.25,
+              "type": "Debit"
+            },
+            {
+              "date": "11/06/2025",
+              "description": "Purchase authorized on 11/06 Marathon 200683 Mulberry FL P000000681675615 Card 7265",
+              "amount": 2.88,
+              "type": "Debit"
+            },
+            {
+              "date": "11/07/2025",
+              "description": "Purchase authorized on 11/03 Hostinger* Hosting WWW.Hostinger DE S305308012094442 Card 7265",
+              "amount": 7.99,
+              "type": "Debit"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Purchase authorized on 11/06 Levy@2Kia Ctr Orlando FL S355311004339830 Card 7265",
+              "amount": 5.99,
+              "type": "Debit"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Purchase authorized on 11/08 Pp*Als Games Tampa FL S305312600355493 Card 7265",
+              "amount": 25.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Purchase authorized on 11/09 MR. Express #1 LLC Tampa FL S385313741370011 Card 7265",
+              "amount": 20.25,
+              "type": "Debit"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Purchase authorized on 11/10 2K Citgo Express Tampa FL P465314443424010 Card 7265",
+              "amount": 26.08,
+              "type": "Debit"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Purchase authorized on 11/12 2K Citgo Express Tampa FL P305316755587481 Card 7265",
+              "amount": 31.15,
+              "type": "Debit"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "Purchase authorized on 11/14 Wendys 1325 Tampa FL S585318805278582 Card 7265",
+              "amount": 3.86,
+              "type": "Debit"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "Purchase authorized on 11/15 Luna Fuels-Tampa Tampa FL P465319698572498 Card 7265",
+              "amount": 30.59,
+              "type": "Debit"
+            },
+            {
+              "date": "11/18/2025",
+              "description": "Purchase authorized on 11/18 Wal-Mart #5221 Tampa FL P000000685698798 Card 5835",
+              "amount": 18.69,
+              "type": "Debit"
+            },
+            {
+              "date": "11/19/2025",
+              "description": "Purchase authorized on 11/19 2K Citgo Express Tampa FL P585323448098266 Card 7265",
+              "amount": 29.49,
+              "type": "Debit"
+            },
+            {
+              "date": "11/20/2025",
+              "description": "Recurring Payment authorized on 11/17 Twilio Inc Twilio.Com CA S345322021499105 Card 7265",
+              "amount": 20.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/20/2025",
+              "description": "Purchase authorized on 11/19 Udemy: Online Cour Udemy.Com CA S305323687449187 Card 7265",
+              "amount": 11.33,
+              "type": "Debit"
+            },
+            {
+              "date": "11/21/2025",
+              "description": "Purchase authorized on 11/21 2K Citgo Express Tampa FL P385325448300701 Card 7265",
+              "amount": 26.71,
+              "type": "Debit"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Purchase authorized on 11/22 LA Antioquena Cafe Tampa FL S385326457802643 Card 5835",
+              "amount": 11.13,
+              "type": "Debit"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Purchase authorized on 11/22 WM Supercenter #5221 Tampa FL P000000254707251 Card 5835",
+              "amount": 16.37,
+              "type": "Debit"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Purchase authorized on 11/22 Onstreet Ph Parkmobilecom FL S305326852010980 Card 7265",
+              "amount": 10.5,
+              "type": "Debit"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Purchase authorized on 11/22 Tst* Tampa Convent Tampa FL S465327014816414 Card 7265",
+              "amount": 38.69,
+              "type": "Debit"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Purchase authorized on 11/23 Sq *Tina?S Tampa FL S385327711154700 Card 7265",
+              "amount": 15.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Purchase authorized on 11/23 Sq *L Skin Health Tampa FL S385327717379151 Card 7265",
+              "amount": 5.38,
+              "type": "Debit"
+            },
+            {
+              "date": "11/25/2025",
+              "description": "Purchase authorized on 11/23 Burger King #990 Tampa FL S305327765921304 Card 7265",
+              "amount": 13.53,
+              "type": "Debit"
+            },
+            {
+              "date": "11/25/2025",
+              "description": "Purchase authorized on 11/24 Bluswan Car Wash Tampa FL S305328825918341 Card 7265",
+              "amount": 13.99,
+              "type": "Debit"
+            },
+            {
+              "date": "11/25/2025",
+              "description": "Purchase authorized on 11/25 2K Citgo Express Tampa FL P465329451703734 Card 7265",
+              "amount": 30.39,
+              "type": "Debit"
+            },
+            {
+              "date": "11/28/2025",
+              "description": "Purchase authorized on 11/26 Citlalys Mexican F Lutz FL S585331017056557 Card 7265",
+              "amount": 34.6,
+              "type": "Debit"
+            },
+            {
+              "date": "11/28/2025",
+              "description": "Purchase authorized on 11/27 Bravo Supermarket Tampa FL P305331730329965 Card 7265",
+              "amount": 41.36,
+              "type": "Debit"
+            }
+          ]
+        }
+      ]
+    },
+    "raw_output": "```json\n{\n  \"accounts\": [\n    {\n      \"account_number\": \"7159325476\",\n      \"account_type\": \"Initiate Business Checking\",\n      \"mca_deposit\": [],\n      \"mca_withdrawal\": [],\n      \"returned_items\": [],\n      \"overdrafts\": [],\n      \"service_charges\": [\n        {\n          \"date\": \"11/28/2025\",\n          \"description\": \"Cash Deposit Processing Fee\",\n          \"amount\": 0.6,\n          \"type\": \"Debit\"\n        }\n      ],\n      \"atm_cash_withdrawal\": [\n        {\n          \"date\": \"11/13/2025\",\n          \"description\": \"ATM Withdrawal authorized on 11/13 2510 E Fowler Ave Tampa FL 0008545 ATM ID 60390 Card 5835\",\n          \"amount\": 650.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"description\": \"ATM Withdrawal authorized on 11/20 13304 Bruce B Downs Blvd Tampa FL 0003393 ATM ID 3745P Card 5835\",\n          \"amount\": 20.0,\n          \"type\": \"Debit\"\n        }\n      ],\n      \"internal_transfer_deposit\": [],\n      \"other_transfer_deposit\": [\n        {\n          \"date\": \"11/04/2025\",\n          \"description\": \"Zelle From Yennyffer Medina Mendez on 11/04 Ref # Bacxzfoppghg\",\n          \"amount\": 180.0,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/05/2025\",\n          \"description\": \"Zelle From Alexander Pastrana Villamil on 11/05 Ref # Baco3AK5M6Op\",\n          \"amount\": 105.0,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"description\": \"Zelle From Yennyffer Medina Mendez on 11/07 Ref # Bacym5Hphvdl\",\n          \"amount\": 150.0,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Zelle From Yennyffer Medina Mendez on 11/10 Ref # Bacyt5595Njv\",\n          \"amount\": 550.0,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Zelle From Yennyffer Medina Mendez on 11/12 Ref # Bacxoii5Dz5N\",\n          \"amount\": 100.0,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/13/2025\",\n          \"description\": \"Zelle From Yennyffer Medina Mendez on 11/13 Ref # Bacyoromld52\",\n          \"amount\": 200.0,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/13/2025\",\n          \"description\": \"Zelle From Yennyffer Medina Mendez on 11/13 Ref # Bacvviobphos\",\n          \"amount\": 100.0,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/14/2025\",\n          \"description\": \"Zelle From Yennyffer Medina Mendez on 11/14 Ref # Bacybsxifmz9\",\n          \"amount\": 100.0,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/19/2025\",\n          \"description\": \"Zelle From Yennyffer Medina Mendez on 11/19 Ref # Baczhfz0Pbk0\",\n          \"amount\": 100.0,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"description\": \"Zelle From Yennyffer Medina Mendez on 11/20 Ref # Backvxngdxqx\",\n          \"amount\": 50.0,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"description\": \"Zelle From Yennyffer Medina Mendez on 11/21 Ref # Bacw7T10Ane8\",\n          \"amount\": 200.0,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"description\": \"Zelle From Yennyffer Medina Mendez on 11/21 Ref # Bacv46Z8Jgar\",\n          \"amount\": 200.0,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"description\": \"Zelle From Alexander Pastrana Villamil on 11/21 Ref # Back0Mrn313M\",\n          \"amount\": 94.0,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Zelle From Yennyffer Medina Mendez on 11/24 Ref # Bacvy4Dg25F0\",\n          \"amount\": 1400.0,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        }\n      ],\n      \"internal_transfer_withdrawal\": [],\n      \"other_transfer_withdrawal\": [\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"Zelle to Pastrana Alexander on 11/01 Ref # Wfct0Zfwrllq\",\n          \"amount\": 20.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"Zelle to Fierro Lizeth on 11/02 Ref # Wfct0Zg3Bbsq Renta Noviembre\",\n          \"amount\": 700.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"Zelle to Pastrana Alexander on 11/03 Ref # Wfct0Zg4Mfqz Pago Chatgpt\",\n          \"amount\": 22.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/05/2025\",\n          \"description\": \"Zelle to Medina Yennyffer on 11/05 Ref # Wfct0Zgbhky4\",\n          \"amount\": 30.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/05/2025\",\n          \"description\": \"Zelle to Medina Yennyffer on 11/05 Ref # Wfct0Zgdkcg3\",\n          \"amount\": 180.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/06/2025\",\n          \"description\": \"Zelle to Pastrana Alexander on 11/06 Ref # Wfct0Zghxgzz\",\n          \"amount\": 100.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Zelle to Pastrana Alexander on 11/09 Ref # Wfct0Zgt3Blt\",\n          \"amount\": 20.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Zelle to Pastrana Alexander on 11/09 Ref # Wfct0Zgt87TX\",\n          \"amount\": 10.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Zelle to Medina Yennyffer on 11/10 Ref # Wfct0Zgvd8Y3\",\n          \"amount\": 150.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Zelle to Pastrana Alexander on 11/12 Ref # Wfct0Zh2Frx6 Seguro\",\n          \"amount\": 315.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/14/2025\",\n          \"description\": \"Zelle to Medina Yennyffer on 11/14 Ref # Wfct0Zh8P9P6 Payroll\",\n          \"amount\": 500.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/14/2025\",\n          \"description\": \"Zelle to Medina Yennyffer on 11/14 Ref # Wfct0Zh8Q3V7\",\n          \"amount\": 250.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/14/2025\",\n          \"description\": \"Zelle to Pastrana Alexander on 11/14 Ref # Wfct0Zhbv6Fb\",\n          \"amount\": 200.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"Zelle to Medina Yennyffer on 11/17 Ref # Wfct0Zhmvpyr Payroll\",\n          \"amount\": 300.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"description\": \"Zelle to Pastrana Alexander on 11/21 Ref # Wfct0Zhyj99M\",\n          \"amount\": 100.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"description\": \"Zelle to Medina Yennyffer on 11/21 Ref # Wfct0Zhyz4W7\",\n          \"amount\": 30.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Zelle to Medina Yennyffer on 11/22 Ref # Wfct0Zj4Mc6B\",\n          \"amount\": 200.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Zelle to Medina Yennyffer on 11/23 Ref # Wfct0Zj8S9Nr\",\n          \"amount\": 400.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Zelle to Medina Yennyffer on 11/24 Ref # Wfct0Zjbb4x8\",\n          \"amount\": 1000.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Zelle to Pastrana Alexander on 11/24 Ref # Wfct0Zjcxj28\",\n          \"amount\": 30.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/26/2025\",\n          \"description\": \"Zelle to Medina Yennyffer on 11/26 Ref # Wfct0Zjk3Ck8\",\n          \"amount\": 800.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/26/2025\",\n          \"description\": \"Zelle to Pastrana Alexander on 11/26 Ref # Wfct0Zjk3Dyc\",\n          \"amount\": 505.0,\n          \"type\": \"Debit\"\n        }\n      ],\n      \"standard_deposit\": [\n        {\n          \"date\": \"11/07/2025\",\n          \"description\": \"ATM Cash Deposit on 11/07 9775 N 56th St Temple Terrac FL 0006354 ATM ID 3745Q Card 7265\",\n          \"amount\": 570.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/13/2025\",\n          \"description\": \"ATM Cash Deposit on 11/13 2510 E Fowler Ave Tampa FL 0008546 ATM ID 60390 Card 5835\",\n          \"amount\": 1560.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"description\": \"ATM Cash Deposit on 11/21 2510 E Fowler Ave Tampa FL 0009958 ATM ID 60390 Card 5835\",\n          \"amount\": 1009.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/26/2025\",\n          \"description\": \"ATM Cash Deposit on 11/26 9775 N 56th St Temple Terrac FL 0001728 ATM ID 3745Q Card 7265\",\n          \"amount\": 2140.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        }\n      ],\n      \"standard_withdrawal\": [\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"Purchase authorized on 11/01 Google *Gsuite Jor 650-253-0000 CA S465305384643308 Card 7265\",\n          \"amount\": 0.81,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"Purchase authorized on 11/01 MR. Express #1 LLC Tampa FL S305305692578662 Card 7265\",\n          \"amount\": 20.25,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"Recurring Payment authorized on 11/01 Canva* 104688-1754 Canva.Com DE S385306039918548 Card 7265\",\n          \"amount\": 15.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"Purchase authorized on 11/02 7-Eleven Tampa FL P000000783799978 Card 7265\",\n          \"amount\": 13.2,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/04/2025\",\n          \"description\": \"Recurring Payment authorized on 11/03 Openai *Chatgpt Su Openai.Com CA S385307552342411 Card 7265\",\n          \"amount\": 20.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/04/2025\",\n          \"description\": \"Purchase authorized on 11/04 7-Eleven Tampa FL P000000784957091 Card 7265\",\n          \"amount\": 6.42,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/05/2025\",\n          \"description\": \"Purchase authorized on 11/05 2K Citgo Express Tampa FL P305309460521656 Card 7265\",\n          \"amount\": 22.25,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/06/2025\",\n          \"description\": \"Purchase authorized on 11/06 Marathon 200683 Mulberry FL P000000681675615 Card 7265\",\n          \"amount\": 2.88,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"description\": \"Purchase authorized on 11/03 Hostinger* Hosting WWW.Hostinger DE S305308012094442 Card 7265\",\n          \"amount\": 7.99,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Purchase authorized on 11/06 Levy@2Kia Ctr Orlando FL S355311004339830 Card 7265\",\n          \"amount\": 5.99,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Purchase authorized on 11/08 Pp*Als Games Tampa FL S305312600355493 Card 7265\",\n          \"amount\": 25.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Purchase authorized on 11/09 MR. Express #1 LLC Tampa FL S385313741370011 Card 7265\",\n          \"amount\": 20.25,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Purchase authorized on 11/10 2K Citgo Express Tampa FL P465314443424010 Card 7265\",\n          \"amount\": 26.08,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Purchase authorized on 11/12 2K Citgo Express Tampa FL P305316755587481 Card 7265\",\n          \"amount\": 31.15,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"Purchase authorized on 11/14 Wendys 1325 Tampa FL S585318805278582 Card 7265\",\n          \"amount\": 3.86,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"Purchase authorized on 11/15 Luna Fuels-Tampa Tampa FL P465319698572498 Card 7265\",\n          \"amount\": 30.59,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"description\": \"Purchase authorized on 11/18 Wal-Mart #5221 Tampa FL P000000685698798 Card 5835\",\n          \"amount\": 18.69,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/19/2025\",\n          \"description\": \"Purchase authorized on 11/19 2K Citgo Express Tampa FL P585323448098266 Card 7265\",\n          \"amount\": 29.49,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"description\": \"Recurring Payment authorized on 11/17 Twilio Inc Twilio.Com CA S345322021499105 Card 7265\",\n          \"amount\": 20.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"description\": \"Purchase authorized on 11/19 Udemy: Online Cour Udemy.Com CA S305323687449187 Card 7265\",\n          \"amount\": 11.33,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"description\": \"Purchase authorized on 11/21 2K Citgo Express Tampa FL P385325448300701 Card 7265\",\n          \"amount\": 26.71,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Purchase authorized on 11/22 LA Antioquena Cafe Tampa FL S385326457802643 Card 5835\",\n          \"amount\": 11.13,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Purchase authorized on 11/22 WM Supercenter #5221 Tampa FL P000000254707251 Card 5835\",\n          \"amount\": 16.37,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Purchase authorized on 11/22 Onstreet Ph Parkmobilecom FL S305326852010980 Card 7265\",\n          \"amount\": 10.5,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Purchase authorized on 11/22 Tst* Tampa Convent Tampa FL S465327014816414 Card 7265\",\n          \"amount\": 38.69,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Purchase authorized on 11/23 Sq *Tina?S Tampa FL S385327711154700 Card 7265\",\n          \"amount\": 15.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Purchase authorized on 11/23 Sq *L Skin Health Tampa FL S385327717379151 Card 7265\",\n          \"amount\": 5.38,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/25/2025\",\n          \"description\": \"Purchase authorized on 11/23 Burger King #990 Tampa FL S305327765921304 Card 7265\",\n          \"amount\": 13.53,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/25/2025\",\n          \"description\": \"Purchase authorized on 11/24 Bluswan Car Wash Tampa FL S305328825918341 Card 7265\",\n          \"amount\": 13.99,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/25/2025\",\n          \"description\": \"Purchase authorized on 11/25 2K Citgo Express Tampa FL P465329451703734 Card 7265\",\n          \"amount\": 30.39,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/28/2025\",\n          \"description\": \"Purchase authorized on 11/26 Citlalys Mexican F Lutz FL S585331017056557 Card 7265\",\n          \"amount\": 34.6,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/28/2025\",\n          \"description\": \"Purchase authorized on 11/27 Bravo Supermarket Tampa FL P305331730329965 Card 7265\",\n          \"amount\": 41.36,\n          \"type\": \"Debit\"\n        }\n      ]\n    }\n  ]\n}\n```",
+    "token_count": {
+      "estimated_tokens": 1612
+    },
+    "failure_reason": null
+  }
+}
