@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import { createPortal } from "react-dom";
 
-// Parsed account data from ADLS
+// Parsed account data from local statement JSON
 // Transaction interface for individual transactions
 interface Transaction {
   date: string;
@@ -78,13 +78,14 @@ interface ReconciliationRow {
   last_transaction_date: string;
   accounts: MappedAccount[];
   filename: string;
-  // Optional per-account enhanced metrics coming from local JSON (via fetch-cosmos)
+  // Optional per-account enhanced metrics from local JSON
   bsi_enhanced_accounts?: {
     [accountNumber: string]: BSIEnhancedDetail;
   };
 }
 
-interface ADLSResponse {
+// Shape of each item returned by /api/fetch-local
+interface StatementData {
   agent_name: string;
   processing_status: string;
   start_time: string;
@@ -104,7 +105,7 @@ interface ADLSResponse {
   source_path?: string;
   source_folder?: string;
   filename?: string;
-  // Optional per-account enhanced metrics coming from local JSON (via fetch-cosmos)
+  // Optional per-account enhanced metrics from local JSON
   bsi_enhanced_accounts?: {
     [accountNumber: string]: BSIEnhancedDetail;
   };
@@ -143,7 +144,7 @@ interface FundingTransferResponse {
   accounts: FundingTransferAccount[];
 }
 
-// BSI Enhanced data structure from Cosmos DB
+// BSI Enhanced data structure
 interface BSIEnhancedDetail {
   statement_month: number;
   return_items: number;
@@ -285,14 +286,13 @@ const parseDateString = (dateStr: string): { month: number; year: number } => {
   return { month: 1, year: 2025 };
 };
 
-// Map ADLS response to ReconciliationRow (one row per bank statement with all accounts)
-const mapADLSToReconciliationRow = (adlsData: ADLSResponse): ReconciliationRow => {
-  // Validate input
-  if (!adlsData || !adlsData.parsed_json) {
-    throw new Error('Invalid ADLS data structure: missing parsed_json');
+// Map statement data to ReconciliationRow (one row per bank statement with all accounts)
+const mapStatementToReconciliationRow = (stmt: StatementData): ReconciliationRow => {
+  if (!stmt || !stmt.parsed_json) {
+    throw new Error('Invalid statement data: missing parsed_json');
   }
 
-  const { parsed_json, batch_id, filename, source_path, bsi_enhanced_accounts } = adlsData;
+  const { parsed_json, batch_id, filename, source_path, bsi_enhanced_accounts } = stmt;
   
   // Support both new structure (bank_statement_information) and legacy structure
   const hasNewStructure = !!parsed_json.bank_statement_information;
@@ -344,14 +344,15 @@ const mapADLSToReconciliationRow = (adlsData: ADLSResponse): ReconciliationRow =
   // Map all accounts
   const mappedAccounts = (parsed_json.accounts || []).map((account) => mapAccountData(account));
 
-  // Extract filename - prefer source_path, then filename, then extract from source_path
+  // Extract filename - prefer source_path, then filename
   let displayFilename = '';
-  if (source_path) {
-    // Extract filename from path (e.g., "base_parser/Case104.pdf" -> "Case104")
-    const pathParts = source_path.split('/');
-    const fileName = pathParts[pathParts.length - 1] || source_path;
+  const pathOrName = source_path ?? filename;
+  if (pathOrName) {
+    const pathParts = pathOrName.split('/');
+    const fileName = pathParts[pathParts.length - 1] || pathOrName;
     displayFilename = fileName.replace(/\.(pdf|json)$/i, '').replace(/_parsing_result$/i, '');
-  } else if (filename) {
+  }
+  if (!displayFilename && filename) {
     displayFilename = filename.replace(/_parsing_result\.json$/i, '').replace(/\.(pdf|json)$/i, '');
   }
 
@@ -383,7 +384,7 @@ function ReconciliationRowComponent({ data }: { data: ReconciliationRow }) {
   const [fundingTransferAmount, setFundingTransferAmount] = useState<number | null>(null);
   const [transactionClassifications, setTransactionClassifications] = useState<{ [key: string]: string }>({});
   
-  // BSI Enhanced data derived from local JSON (via fetch-cosmos)
+  // BSI Enhanced data derived from local JSON
   const [bsiEnhancedData, setBsiEnhancedData] = useState<BSIEnhancedDetail | null>(null);
   const [bsiEnhancedLoading, setBsiEnhancedLoading] = useState(false);
   const [bsiEnhancedError, setBsiEnhancedError] = useState<string | null>(null);
@@ -583,7 +584,7 @@ function ReconciliationRowComponent({ data }: { data: ReconciliationRow }) {
     fetchFundingTransferData();
   }, [isBSIModalOpen, data.filename, data.case_id, selectedAccount.account_number, selectedAccountIndex]);
 
-  // Load BSI Enhanced-style metrics from local JSON (precomputed in fetch-cosmos) when modal opens
+  // Load BSI Enhanced-style metrics from local JSON when modal opens
   useEffect(() => {
     if (!isBSIModalOpen) {
       return;
@@ -1209,7 +1210,7 @@ export default function Home() {
       try {
         setLoading(true);
         setError(null);
-        const response = await fetch('/api/fetch-cosmos');
+        const response = await fetch('/api/fetch-cosmos'); // Local JSON from /jsons (no external Cosmos/ADLS)
         
         if (!response.ok) {
           const errorData = await response.json();
@@ -1222,7 +1223,7 @@ export default function Home() {
         
         // Create one ReconciliationRow per bank statement (with all accounts)
         const mappedData: ReconciliationRow[] = [];
-        result.data.forEach((item: ADLSResponse) => {
+        result.data.forEach((item: StatementData) => {
           // Validate that parsed_json and accounts exist
           if (!item.parsed_json || !item.parsed_json.accounts || !Array.isArray(item.parsed_json.accounts)) {
             return;
@@ -1237,7 +1238,7 @@ export default function Home() {
           }
           
           try {
-            const mapped = mapADLSToReconciliationRow(item);
+            const mapped = mapStatementToReconciliationRow(item);
             mappedData.push(mapped);
           } catch {
             // Skip invalid items silently
