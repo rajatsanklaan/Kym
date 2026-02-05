@@ -156,24 +156,42 @@ function transformLocalCaseFile(data: LocalCaseFile, filename: string): LocalSta
     const baseName =
       (data.document_name || filename).replace(/\.(pdf|json)$/i, '') || `LOCAL-${Date.now()}`;
 
-    const accounts = (parsing.parsed_json.accounts || []).map((account) => ({
-      account_number: account.account_number || '',
-      account_type: account.account_type || '',
-      account_summary: {
-        beginning_balance: account.account_summary?.beginning_balance ?? 0,
-        ending_balance: account.account_summary?.ending_balance ?? 0,
-        total_deposits: account.account_summary?.total_deposits ?? null,
-        total_withdrawals: account.account_summary?.total_withdrawals ?? null,
-        total_deposits_count: account.account_summary?.total_deposits_count ?? null,
-        total_withdrawals_count: account.account_summary?.total_withdrawals_count ?? null,
-        avg_daily_balance: account.account_summary?.avg_daily_balance ?? null,
-        overdraft_days: account.account_summary?.overdraft_days ?? 0,
-      },
-      transactions: account.transactions,
-      calculated_deposits_count: account.calculated_deposits_count,
-      calculated_withdrawals_count: account.calculated_withdrawals_count,
-      total_transactions: account.total_transactions,
-    }));
+    type AccountItem = LocalStatementData['parsed_json']['accounts'][number];
+    type TransactionItem = NonNullable<AccountItem['transactions']>[number];
+    const normalizeTransactions = (
+      raw: Array<{ date?: string; description?: string; amount?: number; type?: string; category?: string }> | undefined
+    ): TransactionItem[] | undefined => {
+      if (!raw || !Array.isArray(raw)) return undefined;
+      return raw.map((t) => ({
+        date: t.date ?? '',
+        description: t.description ?? '',
+        amount: t.amount ?? 0,
+        type: (t.type === 'Credit' || t.type === 'Debit' ? t.type : 'Credit') as 'Credit' | 'Debit',
+        category: t.category ?? '',
+      }));
+    };
+    const accounts: AccountItem[] = (parsing.parsed_json.accounts || []).map((account) => {
+      const summary = account.account_summary;
+      const accountSummary: AccountItem['account_summary'] = {
+        beginning_balance: summary?.beginning_balance ?? 0,
+        ending_balance: summary?.ending_balance ?? 0,
+        total_deposits: summary?.total_deposits ?? null,
+        total_withdrawals: summary?.total_withdrawals ?? null,
+        total_deposits_count: summary?.total_deposits_count ?? null,
+        total_withdrawals_count: summary?.total_withdrawals_count ?? null,
+        avg_daily_balance: summary?.avg_daily_balance ?? null,
+      };
+      if (summary?.overdraft_days != null) accountSummary.overdraft_days = summary.overdraft_days;
+      return {
+        account_number: account.account_number || '',
+        account_type: account.account_type || '',
+        account_summary: accountSummary,
+        transactions: normalizeTransactions(account.transactions),
+        calculated_deposits_count: account.calculated_deposits_count,
+        calculated_withdrawals_count: account.calculated_withdrawals_count,
+        total_transactions: account.total_transactions,
+      };
+    });
 
     let bsiEnhancedAccounts: LocalStatementData['bsi_enhanced_accounts'] = undefined;
 
