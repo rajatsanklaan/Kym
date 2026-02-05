@@ -225,10 +225,17 @@ function transformLocalCaseFile(data: LocalCaseFile, filename: string): LocalSta
         const accountNumber = account.account_number;
         if (!accountNumber) continue;
 
-        const bsiAcc =
-          bsiAccounts.find(
-            (a) => (a.account_number || '').replace(/[\s\-]/g, '') === accountNumber.replace(/[\s\-]/g, '')
-          ) || bsiAccounts[0];
+        // Find matching BSI account by normalized account number
+        // Only use fallback to first BSI account when there's exactly one account in both lists
+        const normalizedAccountNumber = accountNumber.replace(/[\s\-]/g, '');
+        let bsiAcc = bsiAccounts.find(
+          (a) => (a.account_number || '').replace(/[\s\-]/g, '') === normalizedAccountNumber
+        );
+        
+        // Fallback: if single account in BSI and single account in parsing, use it
+        if (!bsiAcc && bsiAccounts.length === 1 && accounts.length === 1) {
+          bsiAcc = bsiAccounts[0];
+        }
 
         if (!bsiAcc) continue;
 
@@ -245,7 +252,8 @@ function transformLocalCaseFile(data: LocalCaseFile, filename: string): LocalSta
         const return_items = bsiAcc.returned_items?.length ?? 0;
         const overdraft_items_count = bsiAcc.overdrafts?.length ?? 0;
         const return_item_days = getUniqueDayCount(bsiAcc.returned_items);
-        const overdraft_days = getUniqueDayCount(bsiAcc.overdrafts);
+        // Use parser's overdraft_days from account_summary, not calculated from BSI overdrafts array
+        const overdraft_days = account.account_summary.overdraft_days ?? 0;
 
         const monthly_number_of_deposits =
           (bsiAcc.mca_deposit?.length ?? 0) +
