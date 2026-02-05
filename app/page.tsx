@@ -388,6 +388,7 @@ function ReconciliationRowComponent({ data }: { data: ReconciliationRow }) {
   const [bsiEnhancedLoading, setBsiEnhancedLoading] = useState(false);
   const [bsiEnhancedError, setBsiEnhancedError] = useState<string | null>(null);
   const [transactionTypeFilter, setTransactionTypeFilter] = useState<'all' | 'Credit' | 'Debit'>('all');
+  const [classificationFilter, setClassificationFilter] = useState<'all' | 'Other transaction' | 'Mca Deposit' | 'Funding Transfer Deposit' | 'Mca Withdrawal'>('all');
 
   // Get the currently selected account
   const selectedAccount = data.accounts[selectedAccountIndex] || data.accounts[0];
@@ -1184,16 +1185,49 @@ function ReconciliationRowComponent({ data }: { data: ReconciliationRow }) {
                             </div>
                           </th>
                           <th className="px-4 py-3 text-right text-xs font-semibold text-gray-600 uppercase tracking-wider">Amount</th>
-                          <th className="px-4 py-3 text-center text-xs font-semibold text-gray-600 uppercase tracking-wider">Classification</th>
+                          <th className="px-4 py-3 text-center text-xs font-semibold text-gray-600 uppercase tracking-wider">
+                            <div className="flex flex-col items-center gap-1">
+                              <span>Classification</span>
+                              <select
+                                value={classificationFilter}
+                                onChange={(e) => setClassificationFilter(e.target.value as typeof classificationFilter)}
+                                className="px-2 py-1 text-xs border border-gray-300 rounded-md bg-white text-gray-700 cursor-pointer focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 min-w-[140px]"
+                              >
+                                <option value="all">All</option>
+                                <option value="Other transaction">Other Transaction</option>
+                                <option value="Mca Deposit">MCA Deposit</option>
+                                <option value="Funding Transfer Deposit">Funding Transfer</option>
+                                <option value="Mca Withdrawal">MCA Withdrawal</option>
+                              </select>
+                            </div>
+                          </th>
                         </tr>
                       </thead>
                       <tbody className="divide-y divide-gray-100">
                         {selectedAccount.transactions
                           .map((tx, originalIndex) => ({ tx, originalIndex }))
                           .filter(({ tx }) => transactionTypeFilter === 'all' || tx.type === transactionTypeFilter)
+                          .filter(({ tx }) => {
+                            if (classificationFilter === 'all') return true;
+                            const classification = tx.classification || 'Other transaction';
+                            return classification.toLowerCase().includes(classificationFilter.toLowerCase());
+                          })
                           .map(({ tx, originalIndex }) => {
                           const isCredit = tx.type === 'Credit';
                           const classification = tx.classification || 'Other transaction';
+                          
+                          // Determine tag color based on individual classification
+                          const getTagStyle = (tag: string) => {
+                            const lowerTag = tag.toLowerCase().trim();
+                            if (lowerTag.includes('mca deposit')) return 'bg-purple-100 text-purple-700';
+                            if (lowerTag.includes('mca withdrawal')) return 'bg-orange-100 text-orange-700';
+                            if (lowerTag.includes('funding transfer')) return 'bg-teal-100 text-teal-700';
+                            return 'bg-gray-100 text-gray-600'; // Other transaction
+                          };
+                          
+                          // Split classification into individual tags
+                          const classificationTags = classification.split(',').map(t => t.trim()).filter(t => t.length > 0);
+                          
                           return (
                             <tr key={originalIndex} className="hover:bg-gray-50 transition-colors">
                               <td className="px-4 py-3 text-sm text-gray-700 whitespace-nowrap">{tx.date}</td>
@@ -1215,12 +1249,17 @@ function ReconciliationRowComponent({ data }: { data: ReconciliationRow }) {
                                 {formatCurrency(tx.amount)}
                               </td>
                               <td className="px-4 py-3 text-center">
-                                <span
-                                  className="inline-flex items-center justify-center px-3 py-1 text-xs font-semibold rounded-full bg-blue-50 text-blue-700"
-                                  title={classification}
-                                >
-                                  {classification}
-                                </span>
+                                <div className="flex flex-wrap items-center justify-center gap-1">
+                                  {classificationTags.map((tag, tagIndex) => (
+                                    <span
+                                      key={tagIndex}
+                                      className={`inline-flex items-center justify-center px-2 py-0.5 text-xs font-semibold rounded-full ${getTagStyle(tag)}`}
+                                      title={tag}
+                                    >
+                                      {tag}
+                                    </span>
+                                  ))}
+                                </div>
                               </td>
                             </tr>
                           );
