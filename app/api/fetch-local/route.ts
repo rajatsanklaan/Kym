@@ -247,7 +247,8 @@ function transformLocalCaseFile(data: LocalCaseFile, filename: string): LocalSta
           sumNonTrueRevenue(bsiAcc.returned_items as Array<{ amount?: number; non_true_revenue?: number }>) +
           sumNonTrueRevenue(bsiAcc.internal_transfer_deposit) +
           sumNonTrueRevenue(bsiAcc.other_transfer_deposit) +
-          sumNonTrueRevenue(bsiAcc.standard_deposit);
+          sumNonTrueRevenue(bsiAcc.standard_deposit) +
+          sumNonTrueRevenue(bsiAcc.service_charges as Array<{ amount?: number; non_true_revenue?: number }>);
 
         const return_items = bsiAcc.returned_items?.length ?? 0;
         const overdraft_items_count = bsiAcc.overdrafts?.length ?? 0;
