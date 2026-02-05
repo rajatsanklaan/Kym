@@ -388,7 +388,7 @@ function ReconciliationRowComponent({ data }: { data: ReconciliationRow }) {
   const [bsiEnhancedLoading, setBsiEnhancedLoading] = useState(false);
   const [bsiEnhancedError, setBsiEnhancedError] = useState<string | null>(null);
   const [transactionTypeFilter, setTransactionTypeFilter] = useState<'all' | 'Credit' | 'Debit'>('all');
-  const [classificationFilter, setClassificationFilter] = useState<'all' | 'Other transaction' | 'Mca Deposit' | 'Funding Transfer Deposit' | 'Mca Withdrawal'>('all');
+  const [classificationFilter, setClassificationFilter] = useState<'all' | 'Other Credit' | 'Other Debit' | 'Mca Deposit' | 'Funding Transfer Deposit' | 'Mca Withdrawal'>('all');
 
   // Get the currently selected account
   const selectedAccount = data.accounts[selectedAccountIndex] || data.accounts[0];
@@ -988,7 +988,7 @@ function ReconciliationRowComponent({ data }: { data: ReconciliationRow }) {
                   rows.push(['Date', 'Description', 'Type', 'Amount', 'Classification'].map(escapeCsv).join(','));
                   const transactions = selectedAccount?.transactions ?? [];
                   for (const tx of transactions) {
-                    const classification = tx.classification || 'Other transaction';
+                    const classification = tx.classification || (tx.type === 'Credit' ? 'Other Credit' : 'Other Debit');
                     rows.push(
                       [tx.date, tx.description, tx.type, formatCurrency(tx.amount), classification].map(escapeCsv).join(',')
                     );
@@ -1194,7 +1194,8 @@ function ReconciliationRowComponent({ data }: { data: ReconciliationRow }) {
                                 className="px-2 py-1 text-xs border border-gray-300 rounded-md bg-white text-gray-700 cursor-pointer focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 min-w-[140px]"
                               >
                                 <option value="all">All</option>
-                                <option value="Other transaction">Other Transaction</option>
+                                <option value="Other Credit">Other Credit</option>
+                                <option value="Other Debit">Other Debit</option>
                                 <option value="Mca Deposit">MCA Deposit</option>
                                 <option value="Funding Transfer Deposit">Funding Transfer</option>
                                 <option value="Mca Withdrawal">MCA Withdrawal</option>
@@ -1209,12 +1210,12 @@ function ReconciliationRowComponent({ data }: { data: ReconciliationRow }) {
                           .filter(({ tx }) => transactionTypeFilter === 'all' || tx.type === transactionTypeFilter)
                           .filter(({ tx }) => {
                             if (classificationFilter === 'all') return true;
-                            const classification = tx.classification || 'Other transaction';
+                            const classification = tx.classification || (tx.type === 'Credit' ? 'Other Credit' : 'Other Debit');
                             return classification.toLowerCase().includes(classificationFilter.toLowerCase());
                           })
                           .map(({ tx, originalIndex }) => {
                           const isCredit = tx.type === 'Credit';
-                          const classification = tx.classification || 'Other transaction';
+                          const classification = tx.classification || (isCredit ? 'Other Credit' : 'Other Debit');
                           
                           // Determine tag color based on individual classification
                           const getTagStyle = (tag: string) => {
@@ -1222,7 +1223,9 @@ function ReconciliationRowComponent({ data }: { data: ReconciliationRow }) {
                             if (lowerTag.includes('mca deposit')) return 'bg-purple-100 text-purple-700';
                             if (lowerTag.includes('mca withdrawal')) return 'bg-orange-100 text-orange-700';
                             if (lowerTag.includes('funding transfer')) return 'bg-teal-100 text-teal-700';
-                            return 'bg-gray-100 text-gray-600'; // Other transaction
+                            if (lowerTag.includes('other credit')) return 'bg-green-100 text-green-700';
+                            if (lowerTag.includes('other debit')) return 'bg-red-100 text-red-700';
+                            return 'bg-gray-100 text-gray-600'; // fallback
                           };
                           
                           // Split classification into individual tags

@@ -274,6 +274,10 @@ function transformLocalCaseFile(data: LocalCaseFile, filename: string): LocalSta
         // We keep the full transaction list from parsing_agent_result and only assign classifications from BSI.
         const bsiEntries: Array<{ date: string; amount: number; type: string; classification: string }> = [];
 
+        const fundingLabel = 'Funding Transfer Deposit';
+        const otherCreditLabel = 'Other Credit';
+        const otherDebitLabel = 'Other Debit';
+
         const addBsiEntries = (
           items:
             | Array<{ date?: string; amount?: number; type?: string; non_true_revenue?: number }>
@@ -284,7 +288,7 @@ function transformLocalCaseFile(data: LocalCaseFile, filename: string): LocalSta
           if (!items || !Array.isArray(items)) return;
           for (const t of items) {
             const type = t.type === 'Credit' || t.type === 'Debit' ? t.type : defaultType;
-            const label = classification || 'Other transaction';
+            const label = classification || (type === 'Credit' ? otherCreditLabel : otherDebitLabel);
             bsiEntries.push({
               date: t.date ?? '',
               amount: t.amount ?? 0,
@@ -303,6 +307,7 @@ function transformLocalCaseFile(data: LocalCaseFile, filename: string): LocalSta
           if (!items || !Array.isArray(items)) return;
           for (const t of items) {
             const type = t.type === 'Credit' || t.type === 'Debit' ? t.type : defaultType;
+            const otherLabel = type === 'Credit' ? otherCreditLabel : otherDebitLabel;
             const label = t.non_true_revenue === 1 ? fundingLabel : otherLabel;
             bsiEntries.push({
               date: t.date ?? '',
@@ -313,9 +318,6 @@ function transformLocalCaseFile(data: LocalCaseFile, filename: string): LocalSta
           }
         };
 
-        const fundingLabel = 'Funding Transfer Deposit';
-        const otherLabel = 'Other transaction';
-
         addBsiEntries(bsiAcc.mca_deposit, 'Mca Deposit, ' + fundingLabel, 'Credit');
         addBsiEntries(bsiAcc.mca_withdrawal, 'Mca Withdrawal', 'Debit');
         addBsiEntriesByNonTrueRevenue(
@@ -324,13 +326,14 @@ function transformLocalCaseFile(data: LocalCaseFile, filename: string): LocalSta
         );
         addBsiEntries(
           bsiAcc.overdrafts as Array<{ date?: string; amount?: number; type?: string }>,
-          otherLabel,
+          otherDebitLabel,
           'Debit'
         );
         // service_charges can be Credit (refunds) or Debit; use actual type from data
         if (bsiAcc.service_charges) {
           for (const t of bsiAcc.service_charges) {
             const type = t.type === 'Credit' || t.type === 'Debit' ? t.type : 'Debit';
+            const otherLabel = type === 'Credit' ? otherCreditLabel : otherDebitLabel;
             const label = t.non_true_revenue === 1 ? fundingLabel : otherLabel;
             bsiEntries.push({
               date: t.date ?? '',
@@ -342,15 +345,15 @@ function transformLocalCaseFile(data: LocalCaseFile, filename: string): LocalSta
         }
         addBsiEntries(
           bsiAcc.atm_cash_withdrawal as Array<{ date?: string; amount?: number; type?: string }>,
-          otherLabel,
+          otherDebitLabel,
           'Debit'
         );
         addBsiEntriesByNonTrueRevenue(bsiAcc.internal_transfer_deposit, 'Credit');
         addBsiEntriesByNonTrueRevenue(bsiAcc.other_transfer_deposit, 'Credit');
         addBsiEntriesByNonTrueRevenue(bsiAcc.standard_deposit, 'Credit');
-        addBsiEntries(bsiAcc.internal_transfer_withdrawal, otherLabel, 'Debit');
-        addBsiEntries(bsiAcc.other_transfer_withdrawal, otherLabel, 'Debit');
-        addBsiEntries(bsiAcc.standard_withdrawal, otherLabel, 'Debit');
+        addBsiEntries(bsiAcc.internal_transfer_withdrawal, otherDebitLabel, 'Debit');
+        addBsiEntries(bsiAcc.other_transfer_withdrawal, otherDebitLabel, 'Debit');
+        addBsiEntries(bsiAcc.standard_withdrawal, otherDebitLabel, 'Debit');
 
         // Assign classification to each parsing transaction by matching (date, amount, type). One BSI entry matches at most one transaction.
         const txs = account.transactions ?? [];
@@ -365,7 +368,8 @@ function transformLocalCaseFile(data: LocalCaseFile, filename: string): LocalSta
             (tx as TransactionItem).classification = bsiEntries[idx].classification;
             bsiEntries.splice(idx, 1);
           } else {
-            (tx as TransactionItem).classification = otherLabel;
+            // Use type-specific "Other" label for unmatched transactions
+            (tx as TransactionItem).classification = type === 'Credit' ? otherCreditLabel : otherDebitLabel;
           }
         }
 
