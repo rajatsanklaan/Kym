@@ -1,0 +1,1448 @@
+{
+  "document_name": "Case1.pdf",
+  "pipeline_status": "completed",
+  "processing_metadata": {
+    "start_time": "2026-02-04T15:07:56.660563",
+    "end_time": "2026-02-04T15:11:07.737482",
+    "parsing_time_seconds": 103.744655,
+    "bsi_time_seconds": 87.29128,
+    "total_time_seconds": 191.035935
+  },
+  "parsing_agent_result": {
+    "agent_name": "parsing_agent",
+    "processing_status": "success",
+    "start_time": "2026-02-04T15:07:56.679522",
+    "end_time": "2026-02-04T15:09:40.423739",
+    "parsed_json": {
+      "bank_statement_information": {
+        "bank_name": "WELLS FARGO",
+        "account_holder": "CAV 81 LLC",
+        "statement_start_date": "09/01/2025",
+        "statement_end_date": "09/30/2025",
+        "n_days": 30,
+        "n_month": [
+          9
+        ],
+        "business_address": "5570 MELROSE AVE STE 303 LOS ANGELES CA 90038-3153"
+      },
+      "accounts": [
+        {
+          "account_number": "6567957813",
+          "account_type": "Initiate Business Checking",
+          "account_summary": {
+            "beginning_balance": 1029.17,
+            "ending_balance": 4344.8,
+            "total_deposits": 13053.98,
+            "total_withdrawals": 9738.35,
+            "total_deposits_count": null,
+            "total_withdrawals_count": null,
+            "avg_daily_balance": 3081.0,
+            "overdraft_days": 7
+          },
+          "transactions": [
+            {
+              "date": "09/02/2025",
+              "description": "Mobile Deposit : Ref Number :617310029152",
+              "amount": 86.53,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "09/02/2025",
+              "description": "Purchase authorized on 08/28 Tst* WI Jammin Caf Inglewood CA S465240822523937 Card 3339",
+              "amount": 20.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/02/2025",
+              "description": "Purchase authorized on 08/30 Ralphs #0 1730 W. Manc Los Angeles CA P000000385494632 Card 3339",
+              "amount": 25.85,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/02/2025",
+              "description": "Online Transfer to Walker C Ref #lb0Tqntsxt Wells Fargo Clear Access Ba Tatsu",
+              "amount": 86.53,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/02/2025",
+              "description": "Purchase authorized on 08/31 Tst*Dinahs Comfort Culver City CA S385244048650627 Card 3339",
+              "amount": 67.37,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/02/2025",
+              "description": "Purchase authorized on 09/01 Kfc H730121 Los Angeles CA S385244741675826 Card 3339",
+              "amount": 13.71,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/02/2025",
+              "description": "Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012355999 Cav 81 LLC",
+              "amount": 144.76,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/03/2025",
+              "description": "Provisional Credit for Claim-Ref #2509030013222",
+              "amount": 90.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "09/03/2025",
+              "description": "Provisional Credit for Claim-Ref #2509030013222",
+              "amount": 90.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "09/03/2025",
+              "description": "Recurring Payment authorized on 09/01 Homebot Inc 720-4321115 CO S385244713589176 Card 3339",
+              "amount": 50.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/03/2025",
+              "description": "Purchase authorized on 09/02 Arco42192001 Los Angeles CA P000000559936386 Card 3339",
+              "amount": 47.43,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/03/2025",
+              "description": "Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012363438 Cav 81 LLC",
+              "amount": 144.76,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/03/2025",
+              "description": "Business to Business ACH Debit - Fairfigure Card 8007857185 250902 Cav 81 LLC",
+              "amount": 272.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/04/2025",
+              "description": "Recurring Payment authorized on 09/02 Supra Re 877-699-6787 FL S385245558341588 Card 3339",
+              "amount": 17.61,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/04/2025",
+              "description": "Recurring Payment authorized on 09/03 Apple.Com/Bill 866-712-7753 CA S585246286337492 Card 3339",
+              "amount": 11.99,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/04/2025",
+              "description": "Recurring Payment authorized on 09/03 Apple.Com/Bill 866-712-7753 CA S585246546916583 Card 3339",
+              "amount": 7.99,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/04/2025",
+              "description": "Recurring Payment authorized on 09/03 Apple.Com/Bill 866-712-7753 CA S585246555697865 Card 3339",
+              "amount": 2.99,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/04/2025",
+              "description": "Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012370902 Cav 81 LLC",
+              "amount": 144.76,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/05/2025",
+              "description": "Asteroom Inc. Asteroom I St-17A4C816E0L8 Cav 81 LLC",
+              "amount": 75.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "09/05/2025",
+              "description": "Zelle From Amy Cakes LLC on 09/05 Ref # Usbkdqko2Fml Food",
+              "amount": 60.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "09/05/2025",
+              "description": "Instant Pmt From Paypal on 09/05 Ref#20250905021000021P1Brjpc00480205752",
+              "amount": 142.11,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "09/05/2025",
+              "description": "Recurring Payment authorized on 09/04 Apple.Com/Bill 866-712-7753 CA S385247317795547 Card 3339",
+              "amount": 12.99,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/05/2025",
+              "description": "Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012378479 Cav 81 LLC",
+              "amount": 144.76,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/08/2025",
+              "description": "Recurring Payment authorized on 09/06 Fairfigure 917-676-9589 NY S385249636008035 Card 3339",
+              "amount": 272.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/08/2025",
+              "description": "Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012385921 Cav 81 LLC",
+              "amount": 144.76,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/09/2025",
+              "description": "Overdraft Fee for a Transaction Posted on 09/08 $144.76 Vader Servicing Ebf Debit 000000012385 921 Cav 81 LLC",
+              "amount": 35.0,
+              "type": "Debit",
+              "category": "Overdraft"
+            },
+            {
+              "date": "09/09/2025",
+              "description": "Fairfigure Card Wire 250908 Cav 81 LLC",
+              "amount": 500.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 0
+            },
+            {
+              "date": "09/09/2025",
+              "description": "Recurring Payment authorized on 09/08 Apple.Com/Bill 866-712-7753 CA S385251306694162 Card 3339",
+              "amount": 9.99,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/09/2025",
+              "description": "Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012393426 Cav 81 LLC",
+              "amount": 144.76,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/10/2025",
+              "description": "Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012400995 Cav 81 LLC",
+              "amount": 144.76,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/11/2025",
+              "description": "Recurring Payment authorized on 09/10 Apple.Com/Bill 866-712-7753 CA S385253547529274 Card 3339",
+              "amount": 7.99,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/11/2025",
+              "description": "Recurring Payment authorized on 09/10 Apple.Com/Bill 866-712-7753 CA S585253608899288 Card 3339",
+              "amount": 16.99,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/11/2025",
+              "description": "Recurring Payment authorized on 09/10 Apple.Com/Bill 866-712-7753 CA S385253608968713 Card 3339",
+              "amount": 10.99,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/11/2025",
+              "description": "Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012408527 Cav 81 LLC",
+              "amount": 144.76,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/12/2025",
+              "description": "Overdraft Fee for a Transaction Posted on 09/11 $144.76 Vader Servicing Ebf Debit 000000012408 527 Cav 81 LLC",
+              "amount": 35.0,
+              "type": "Debit",
+              "category": "Overdraft"
+            },
+            {
+              "date": "09/12/2025",
+              "description": "Asteroom Inc. Asteroom I St-Y1Z3S3G7U9Q6 Cav 81 LLC",
+              "amount": 250.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "09/12/2025",
+              "description": "Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012416289 Cav 81 LLC",
+              "amount": 144.76,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/15/2025",
+              "description": "Overdraft Fee for a Transaction Posted on 09/12 $144.76 Vader Servicing Ebf Debit 000000012416 289 Cav 81 LLC",
+              "amount": 35.0,
+              "type": "Debit",
+              "category": "Overdraft"
+            },
+            {
+              "date": "09/15/2025",
+              "description": "Zelle From Shopprop Inc on 09/13 Ref # Wfct0Z8R9Qw3",
+              "amount": 175.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "09/15/2025",
+              "description": "Instant Pmt From Paypal on 09/15 Ref#20250915021000021P1Brjpc06080167658",
+              "amount": 189.64,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "09/15/2025",
+              "description": "Recurring Payment authorized on 09/12 Hp *Instant Ink 855-785-2777 CA S465255804964931 Card 3339",
+              "amount": 17.55,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/15/2025",
+              "description": "Recurring Payment authorized on 09/13 Adobe Inc 800-8336687 CA S465256529415993 Card 3339",
+              "amount": 19.99,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/15/2025",
+              "description": "Purchase authorized on 09/14 Apple.Com/Bill 866-712-7753 CA S585257682516383 Card 3339",
+              "amount": 4.99,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/15/2025",
+              "description": "Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012423865 Cav 81 LLC",
+              "amount": 144.76,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/15/2025",
+              "description": "Business to Business ACH Debit - Fairfigure Card 8007857185 250915 Cav 81 LLC",
+              "amount": 272.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/16/2025",
+              "description": "Overdraft Fee for a Transaction Posted on 09/15 $272.00 Fairfigure Card 8007857185 250915 Cav 81 LLC",
+              "amount": 35.0,
+              "type": "Debit",
+              "category": "Overdraft"
+            },
+            {
+              "date": "09/16/2025",
+              "description": "Purchase authorized on 09/15 Kfc K312040 Lomita CA S305259033678843 Card 3339",
+              "amount": 12.57,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/16/2025",
+              "description": "Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012431506 Cav 81 LLC",
+              "amount": 144.76,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/17/2025",
+              "description": "Overdraft Fee for a Transaction Posted on 09/16 $144.76 Vader Servicing Ebf Debit 000000012431 506 Cav 81 LLC",
+              "amount": 35.0,
+              "type": "Debit",
+              "category": "Overdraft"
+            },
+            {
+              "date": "09/17/2025",
+              "description": "Zelle From Shopprop Inc on 09/17 Ref # Wfct0Z95Xgw4 Showing",
+              "amount": 315.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "09/17/2025",
+              "description": "Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012439197 Cav 81 LLC",
+              "amount": 144.76,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/18/2025",
+              "description": "Overdraft Fee for a Transaction Posted on 09/17 $144.76 Vader Servicing Ebf Debit 000000012439 197 Cav 81 LLC",
+              "amount": 35.0,
+              "type": "Debit",
+              "category": "Overdraft"
+            },
+            {
+              "date": "09/18/2025",
+              "description": "Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012446806 Cav 81 LLC",
+              "amount": 144.76,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/19/2025",
+              "description": "Overdraft Fee for a Transaction Posted on 09/18 $144.76 Vader Servicing Ebf Debit 000000012446 806 Cav 81 LLC",
+              "amount": 35.0,
+              "type": "Debit",
+              "category": "Overdraft"
+            },
+            {
+              "date": "09/19/2025",
+              "description": "Zelle From Shopprop Inc on 09/19 Ref # Wfct0Z9C7Vc2",
+              "amount": 140.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "09/19/2025",
+              "description": "WT Fed#01C00 First American Tru/Org=Glen Oaks Escrow, Inc. Srf# 2025262000626200 Trn#250919130416 Rfb# BI0000251461",
+              "amount": 2363.5,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 0
+            },
+            {
+              "date": "09/19/2025",
+              "description": "WT Seq455351 Real Commissions LLC/Org-Real Commissions LLC Srf# Gw00000079226844 Trn#250919455351 Rfb# 34264",
+              "amount": 8002.2,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 0
+            },
+            {
+              "date": "09/19/2025",
+              "description": "Recurring Payment authorized on 09/18 Adobe Inc 800-8336687 CA S385261667190666 Card 3339",
+              "amount": 22.99,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/19/2025",
+              "description": "Online Transfer to Walker M Everyday Checking xxxxxx8704 Ref #Ib0Tymfz2G on 09/19/25",
+              "amount": 500.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "09/19/2025",
+              "description": "Online Transfer Ref #lb0Tyn9Gdx to Wells Fargo Active Cash VISA Card Xxxxxxxxxxxx9433 on 09/19/25",
+              "amount": 82.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/19/2025",
+              "description": "Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012454647 Cav 81 LLC",
+              "amount": 144.76,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/19/2025",
+              "description": "Discover E-Payment 250919 0900 Walker Mark",
+              "amount": 67.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/22/2025",
+              "description": "Fairfigure Card Wire 250922 Cav 81 LLC",
+              "amount": 500.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 0
+            },
+            {
+              "date": "09/22/2025",
+              "description": "Recurring Payment authorized on 09/18 Paypal *Smallpdf 4029357733 Che S465261787315781 Card 3339",
+              "amount": 15.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/22/2025",
+              "description": "Recurring Payment authorized on 09/20 Spectrum 855-707-7328 MO S585263768578701 Card 3339",
+              "amount": 286.82,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/22/2025",
+              "description": "Purchase authorized on 09/20 Muraya Los Angeles CA S465264080293146 Card 3339",
+              "amount": 70.46,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/22/2025",
+              "description": "Recurring Payment authorized on 09/21 Apple.Com/Bill 866-712-7753 CA S385264394738826 Card 3339",
+              "amount": 32.97,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/22/2025",
+              "description": "Recurring Payment authorized on 09/21 Fairfigure 917-676-9589 NY S385264683201137 Card 3339",
+              "amount": 272.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/22/2025",
+              "description": "Provisional Credit Reversal-Ref #2509030013222",
+              "amount": 90.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/22/2025",
+              "description": "Provisional Credit Reversal-Ref #2509030013222",
+              "amount": 90.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/22/2025",
+              "description": "Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012462265 Cav 81 LLC",
+              "amount": 144.76,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/22/2025",
+              "description": "Business to Business ACH Debit - Fairfigure Card 8007857185 250922 Cav 81 LLC",
+              "amount": 272.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/23/2025",
+              "description": "Purchase authorized on 09/22 Mti Education 562-4213539 CA S465265573415551 Card 3339",
+              "amount": 100.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/23/2025",
+              "description": "Purchase authorized on 09/22 MT1562-4213539 CA S385265602015134 Card 3339",
+              "amount": 67.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/23/2025",
+              "description": "Purchase authorized on 09/22 MT1562-4213539 CA S385265604154830 Card 3339",
+              "amount": 27.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/23/2025",
+              "description": "Purchase authorized on 09/23 Playa Vista 76 Los Angeles CA P000000289792449 Card 3339",
+              "amount": 25.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/23/2025",
+              "description": "Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012469920 Cav 81 LLC",
+              "amount": 144.76,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/24/2025",
+              "description": "Purchase authorized on 09/23 The Big Burger Carson CA S585266690564653 Card 3339",
+              "amount": 14.6,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/24/2025",
+              "description": "Purchase authorized on 09/23 Sq *Lavender & Hon Redondo Beach CA S465266725217367 Card 3339",
+              "amount": 7.13,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/24/2025",
+              "description": "Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012477617 Cav 81 LLC",
+              "amount": 144.76,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/25/2025",
+              "description": "Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012485314 Cav 81 LLC",
+              "amount": 144.76,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/26/2025",
+              "description": "Asteroom Inc. Asteroom I St-O5H7D2L1B5G2 Cav 81 LLC",
+              "amount": 75.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "09/26/2025",
+              "description": "Purchase authorized on 09/25 Tst*Compagnon Wine San Pedro CA S385269044223173 Card 3339",
+              "amount": 117.08,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/26/2025",
+              "description": "Online Transfer to Walker M Everyday Checking xxxxxx8704 Ref #Ib0V2Ypcz2 on 09/26/25",
+              "amount": 1000.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "09/26/2025",
+              "description": "Purchase authorized on 09/26 Asap Lock Key Los Angeles CA P585269806769486 Card 3339",
+              "amount": 10.4,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/26/2025",
+              "description": "Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012493146 Cav 81 LLC",
+              "amount": 144.76,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/26/2025",
+              "description": "Business to Business ACH Debit - Fairfigure Card 8007857185 250926 Cav 81 LLC",
+              "amount": 272.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/29/2025",
+              "description": "Recurring Payment authorized on 09/25 Fairfigure NEW York NY S615270477193542 Card 3339",
+              "amount": 35.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/29/2025",
+              "description": "Purchase authorized on 09/25 Ladot Meter Parkin Los Angeles CA S385268848987773 Card 3339",
+              "amount": 0.25,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/29/2025",
+              "description": "Purchase authorized on 09/25 Ladot Meter Parkin Los Angeles CA S305268850341397 Card 3339",
+              "amount": 0.75,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/29/2025",
+              "description": "Purchase authorized on 09/26 Renaissance Hotels Los Angeles CA S585269847984725 Card 3339",
+              "amount": 116.58,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/29/2025",
+              "description": "Money Transfer authorized on 09/27 Venmo *Emma Walker VISA Direct NY S465270411874170 Card 3339",
+              "amount": 335.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/29/2025",
+              "description": "Recurring Payment authorized on 09/28 Nav Tech 855-226-8 Nav.Com UT S465271671000613 Card 3339",
+              "amount": 37.49,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/29/2025",
+              "description": "Purchase authorized on 09/28 McDonald's M2817 O Los Angeles CA S305271671656152 Card 3339",
+              "amount": 12.25,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/29/2025",
+              "description": "Purchase authorized on 09/28 Indo Phili Inc Los Angeles CA P000000885216769 Card 3339",
+              "amount": 60.43,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/29/2025",
+              "description": "Petal Card, Inc. Payments 250926 Dmnzedn0N9L1Obm Mark A Walker",
+              "amount": 25.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/29/2025",
+              "description": "Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012500842 Cav 81 LLC",
+              "amount": 144.76,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/30/2025",
+              "description": "Purchase authorized on 09/29 Amazon Mark* NJ9R5 Amazon.Com/MA WA S355272693429584 Card 3339",
+              "amount": 7.67,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/30/2025",
+              "description": "Online Transfer to Walker M Everyday Checking xxxxxx8704 Ref #Ib0V4Df45F on 09/30/25",
+              "amount": 1100.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "09/30/2025",
+              "description": "Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012508540 Cav 81 LLC",
+              "amount": 144.76,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            }
+          ]
+        }
+      ]
+    },
+    "raw_output": "```json\n{\n  \"bank_statement_information\": {\n    \"bank_name\": \"WELLS FARGO\",\n    \"account_holder\": \"CAV 81 LLC\",\n    \"statement_start_date\": \"09/01/2025\",\n    \"statement_end_date\": \"09/30/2025\",\n    \"n_days\": 30,\n    \"n_month\": [\n      9\n    ],\n    \"business_address\": \"5570 MELROSE AVE STE 303 LOS ANGELES CA 90038-3153\"\n  },\n  \"accounts\": [\n    {\n      \"account_number\": \"6567957813\",\n      \"account_type\": \"Initiate Business Checking\",\n      \"account_summary\": {\n        \"beginning_balance\": 1029.17,\n        \"ending_balance\": 4344.8,\n        \"total_deposits\": 13053.98,\n        \"total_withdrawals\": 9738.35,\n        \"total_deposits_count\": null,\n        \"total_withdrawals_count\": null,\n        \"avg_daily_balance\": 3081.0,\n        \"overdraft_days\": 7\n      },\n      \"transactions\": [\n        {\n          \"date\": \"09/02/2025\",\n          \"description\": \"Mobile Deposit : Ref Number :617310029152\",\n          \"amount\": 86.53,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"09/02/2025\",\n          \"description\": \"Purchase authorized on 08/28 Tst* WI Jammin Caf Inglewood CA S465240822523937 Card 3339\",\n          \"amount\": 20.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/02/2025\",\n          \"description\": \"Purchase authorized on 08/30 Ralphs #0 1730 W. Manc Los Angeles CA P000000385494632 Card 3339\",\n          \"amount\": 25.85,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/02/2025\",\n          \"description\": \"Online Transfer to Walker C Ref #lb0Tqntsxt Wells Fargo Clear Access Ba Tatsu\",\n          \"amount\": 86.53,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/02/2025\",\n          \"description\": \"Purchase authorized on 08/31 Tst*Dinahs Comfort Culver City CA S385244048650627 Card 3339\",\n          \"amount\": 67.37,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/02/2025\",\n          \"description\": \"Purchase authorized on 09/01 Kfc H730121 Los Angeles CA S385244741675826 Card 3339\",\n          \"amount\": 13.71,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/02/2025\",\n          \"description\": \"Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012355999 Cav 81 LLC\",\n          \"amount\": 144.76,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/03/2025\",\n          \"description\": \"Provisional Credit for Claim-Ref #2509030013222\",\n          \"amount\": 90.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"09/03/2025\",\n          \"description\": \"Provisional Credit for Claim-Ref #2509030013222\",\n          \"amount\": 90.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"09/03/2025\",\n          \"description\": \"Recurring Payment authorized on 09/01 Homebot Inc 720-4321115 CO S385244713589176 Card 3339\",\n          \"amount\": 50.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/03/2025\",\n          \"description\": \"Purchase authorized on 09/02 Arco42192001 Los Angeles CA P000000559936386 Card 3339\",\n          \"amount\": 47.43,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/03/2025\",\n          \"description\": \"Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012363438 Cav 81 LLC\",\n          \"amount\": 144.76,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/03/2025\",\n          \"description\": \"Business to Business ACH Debit - Fairfigure Card 8007857185 250902 Cav 81 LLC\",\n          \"amount\": 272.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/04/2025\",\n          \"description\": \"Recurring Payment authorized on 09/02 Supra Re 877-699-6787 FL S385245558341588 Card 3339\",\n          \"amount\": 17.61,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/04/2025\",\n          \"description\": \"Recurring Payment authorized on 09/03 Apple.Com/Bill 866-712-7753 CA S585246286337492 Card 3339\",\n          \"amount\": 11.99,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/04/2025\",\n          \"description\": \"Recurring Payment authorized on 09/03 Apple.Com/Bill 866-712-7753 CA S585246546916583 Card 3339\",\n          \"amount\": 7.99,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/04/2025\",\n          \"description\": \"Recurring Payment authorized on 09/03 Apple.Com/Bill 866-712-7753 CA S585246555697865 Card 3339\",\n          \"amount\": 2.99,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/04/2025\",\n          \"description\": \"Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012370902 Cav 81 LLC\",\n          \"amount\": 144.76,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/05/2025\",\n          \"description\": \"Asteroom Inc. Asteroom I St-17A4C816E0L8 Cav 81 LLC\",\n          \"amount\": 75.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"09/05/2025\",\n          \"description\": \"Zelle From Amy Cakes LLC on 09/05 Ref # Usbkdqko2Fml Food\",\n          \"amount\": 60.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"09/05/2025\",\n          \"description\": \"Instant Pmt From Paypal on 09/05 Ref#20250905021000021P1Brjpc00480205752\",\n          \"amount\": 142.11,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"09/05/2025\",\n          \"description\": \"Recurring Payment authorized on 09/04 Apple.Com/Bill 866-712-7753 CA S385247317795547 Card 3339\",\n          \"amount\": 12.99,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/05/2025\",\n          \"description\": \"Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012378479 Cav 81 LLC\",\n          \"amount\": 144.76,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/08/2025\",\n          \"description\": \"Recurring Payment authorized on 09/06 Fairfigure 917-676-9589 NY S385249636008035 Card 3339\",\n          \"amount\": 272.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/08/2025\",\n          \"description\": \"Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012385921 Cav 81 LLC\",\n          \"amount\": 144.76,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/09/2025\",\n          \"description\": \"Overdraft Fee for a Transaction Posted on 09/08 $144.76 Vader Servicing Ebf Debit 000000012385 921 Cav 81 LLC\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\",\n          \"category\": \"Overdraft\"\n        },\n        {\n          \"date\": \"09/09/2025\",\n          \"description\": \"Fairfigure Card Wire 250908 Cav 81 LLC\",\n          \"amount\": 500.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 0\n        },\n        {\n          \"date\": \"09/09/2025\",\n          \"description\": \"Recurring Payment authorized on 09/08 Apple.Com/Bill 866-712-7753 CA S385251306694162 Card 3339\",\n          \"amount\": 9.99,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/09/2025\",\n          \"description\": \"Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012393426 Cav 81 LLC\",\n          \"amount\": 144.76,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/10/2025\",\n          \"description\": \"Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012400995 Cav 81 LLC\",\n          \"amount\": 144.76,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/11/2025\",\n          \"description\": \"Recurring Payment authorized on 09/10 Apple.Com/Bill 866-712-7753 CA S385253547529274 Card 3339\",\n          \"amount\": 7.99,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/11/2025\",\n          \"description\": \"Recurring Payment authorized on 09/10 Apple.Com/Bill 866-712-7753 CA S585253608899288 Card 3339\",\n          \"amount\": 16.99,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/11/2025\",\n          \"description\": \"Recurring Payment authorized on 09/10 Apple.Com/Bill 866-712-7753 CA S385253608968713 Card 3339\",\n          \"amount\": 10.99,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/11/2025\",\n          \"description\": \"Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012408527 Cav 81 LLC\",\n          \"amount\": 144.76,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/12/2025\",\n          \"description\": \"Overdraft Fee for a Transaction Posted on 09/11 $144.76 Vader Servicing Ebf Debit 000000012408 527 Cav 81 LLC\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\",\n          \"category\": \"Overdraft\"\n        },\n        {\n          \"date\": \"09/12/2025\",\n          \"description\": \"Asteroom Inc. Asteroom I St-Y1Z3S3G7U9Q6 Cav 81 LLC\",\n          \"amount\": 250.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"09/12/2025\",\n          \"description\": \"Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012416289 Cav 81 LLC\",\n          \"amount\": 144.76,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"description\": \"Overdraft Fee for a Transaction Posted on 09/12 $144.76 Vader Servicing Ebf Debit 000000012416 289 Cav 81 LLC\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\",\n          \"category\": \"Overdraft\"\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"description\": \"Zelle From Shopprop Inc on 09/13 Ref # Wfct0Z8R9Qw3\",\n          \"amount\": 175.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"description\": \"Instant Pmt From Paypal on 09/15 Ref#20250915021000021P1Brjpc06080167658\",\n          \"amount\": 189.64,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"description\": \"Recurring Payment authorized on 09/12 Hp *Instant Ink 855-785-2777 CA S465255804964931 Card 3339\",\n          \"amount\": 17.55,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"description\": \"Recurring Payment authorized on 09/13 Adobe Inc 800-8336687 CA S465256529415993 Card 3339\",\n          \"amount\": 19.99,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"description\": \"Purchase authorized on 09/14 Apple.Com/Bill 866-712-7753 CA S585257682516383 Card 3339\",\n          \"amount\": 4.99,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"description\": \"Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012423865 Cav 81 LLC\",\n          \"amount\": 144.76,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"description\": \"Business to Business ACH Debit - Fairfigure Card 8007857185 250915 Cav 81 LLC\",\n          \"amount\": 272.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/16/2025\",\n          \"description\": \"Overdraft Fee for a Transaction Posted on 09/15 $272.00 Fairfigure Card 8007857185 250915 Cav 81 LLC\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\",\n          \"category\": \"Overdraft\"\n        },\n        {\n          \"date\": \"09/16/2025\",\n          \"description\": \"Purchase authorized on 09/15 Kfc K312040 Lomita CA S305259033678843 Card 3339\",\n          \"amount\": 12.57,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/16/2025\",\n          \"description\": \"Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012431506 Cav 81 LLC\",\n          \"amount\": 144.76,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/17/2025\",\n          \"description\": \"Overdraft Fee for a Transaction Posted on 09/16 $144.76 Vader Servicing Ebf Debit 000000012431 506 Cav 81 LLC\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\",\n          \"category\": \"Overdraft\"\n        },\n        {\n          \"date\": \"09/17/2025\",\n          \"description\": \"Zelle From Shopprop Inc on 09/17 Ref # Wfct0Z95Xgw4 Showing\",\n          \"amount\": 315.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"09/17/2025\",\n          \"description\": \"Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012439197 Cav 81 LLC\",\n          \"amount\": 144.76,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/18/2025\",\n          \"description\": \"Overdraft Fee for a Transaction Posted on 09/17 $144.76 Vader Servicing Ebf Debit 000000012439 197 Cav 81 LLC\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\",\n          \"category\": \"Overdraft\"\n        },\n        {\n          \"date\": \"09/18/2025\",\n          \"description\": \"Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012446806 Cav 81 LLC\",\n          \"amount\": 144.76,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/19/2025\",\n          \"description\": \"Overdraft Fee for a Transaction Posted on 09/18 $144.76 Vader Servicing Ebf Debit 000000012446 806 Cav 81 LLC\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\",\n          \"category\": \"Overdraft\"\n        },\n        {\n          \"date\": \"09/19/2025\",\n          \"description\": \"Zelle From Shopprop Inc on 09/19 Ref # Wfct0Z9C7Vc2\",\n          \"amount\": 140.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"09/19/2025\",\n          \"description\": \"WT Fed#01C00 First American Tru/Org=Glen Oaks Escrow, Inc. Srf# 2025262000626200 Trn#250919130416 Rfb# BI0000251461\",\n          \"amount\": 2363.5,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 0\n        },\n        {\n          \"date\": \"09/19/2025\",\n          \"description\": \"WT Seq455351 Real Commissions LLC/Org-Real Commissions LLC Srf# Gw00000079226844 Trn#250919455351 Rfb# 34264\",\n          \"amount\": 8002.2,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 0\n        },\n        {\n          \"date\": \"09/19/2025\",\n          \"description\": \"Recurring Payment authorized on 09/18 Adobe Inc 800-8336687 CA S385261667190666 Card 3339\",\n          \"amount\": 22.99,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/19/2025\",\n          \"description\": \"Online Transfer to Walker M Everyday Checking xxxxxx8704 Ref #Ib0Tymfz2G on 09/19/25\",\n          \"amount\": 500.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/19/2025\",\n          \"description\": \"Online Transfer Ref #lb0Tyn9Gdx to Wells Fargo Active Cash VISA Card Xxxxxxxxxxxx9433 on 09/19/25\",\n          \"amount\": 82.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/19/2025\",\n          \"description\": \"Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012454647 Cav 81 LLC\",\n          \"amount\": 144.76,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/19/2025\",\n          \"description\": \"Discover E-Payment 250919 0900 Walker Mark\",\n          \"amount\": 67.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/22/2025\",\n          \"description\": \"Fairfigure Card Wire 250922 Cav 81 LLC\",\n          \"amount\": 500.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 0\n        },\n        {\n          \"date\": \"09/22/2025\",\n          \"description\": \"Recurring Payment authorized on 09/18 Paypal *Smallpdf 4029357733 Che S465261787315781 Card 3339\",\n          \"amount\": 15.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/22/2025\",\n          \"description\": \"Recurring Payment authorized on 09/20 Spectrum 855-707-7328 MO S585263768578701 Card 3339\",\n          \"amount\": 286.82,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/22/2025\",\n          \"description\": \"Purchase authorized on 09/20 Muraya Los Angeles CA S465264080293146 Card 3339\",\n          \"amount\": 70.46,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/22/2025\",\n          \"description\": \"Recurring Payment authorized on 09/21 Apple.Com/Bill 866-712-7753 CA S385264394738826 Card 3339\",\n          \"amount\": 32.97,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/22/2025\",\n          \"description\": \"Recurring Payment authorized on 09/21 Fairfigure 917-676-9589 NY S385264683201137 Card 3339\",\n          \"amount\": 272.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/22/2025\",\n          \"description\": \"Provisional Credit Reversal-Ref #2509030013222\",\n          \"amount\": 90.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/22/2025\",\n          \"description\": \"Provisional Credit Reversal-Ref #2509030013222\",\n          \"amount\": 90.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/22/2025\",\n          \"description\": \"Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012462265 Cav 81 LLC\",\n          \"amount\": 144.76,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/22/2025\",\n          \"description\": \"Business to Business ACH Debit - Fairfigure Card 8007857185 250922 Cav 81 LLC\",\n          \"amount\": 272.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/23/2025\",\n          \"description\": \"Purchase authorized on 09/22 Mti Education 562-4213539 CA S465265573415551 Card 3339\",\n          \"amount\": 100.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/23/2025\",\n          \"description\": \"Purchase authorized on 09/22 MT1562-4213539 CA S385265602015134 Card 3339\",\n          \"amount\": 67.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/23/2025\",\n          \"description\": \"Purchase authorized on 09/22 MT1562-4213539 CA S385265604154830 Card 3339\",\n          \"amount\": 27.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/23/2025\",\n          \"description\": \"Purchase authorized on 09/23 Playa Vista 76 Los Angeles CA P000000289792449 Card 3339\",\n          \"amount\": 25.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/23/2025\",\n          \"description\": \"Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012469920 Cav 81 LLC\",\n          \"amount\": 144.76,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/24/2025\",\n          \"description\": \"Purchase authorized on 09/23 The Big Burger Carson CA S585266690564653 Card 3339\",\n          \"amount\": 14.6,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/24/2025\",\n          \"description\": \"Purchase authorized on 09/23 Sq *Lavender & Hon Redondo Beach CA S465266725217367 Card 3339\",\n          \"amount\": 7.13,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/24/2025\",\n          \"description\": \"Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012477617 Cav 81 LLC\",\n          \"amount\": 144.76,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/25/2025\",\n          \"description\": \"Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012485314 Cav 81 LLC\",\n          \"amount\": 144.76,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/26/2025\",\n          \"description\": \"Asteroom Inc. Asteroom I St-O5H7D2L1B5G2 Cav 81 LLC\",\n          \"amount\": 75.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"09/26/2025\",\n          \"description\": \"Purchase authorized on 09/25 Tst*Compagnon Wine San Pedro CA S385269044223173 Card 3339\",\n          \"amount\": 117.08,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/26/2025\",\n          \"description\": \"Online Transfer to Walker M Everyday Checking xxxxxx8704 Ref #Ib0V2Ypcz2 on 09/26/25\",\n          \"amount\": 1000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/26/2025\",\n          \"description\": \"Purchase authorized on 09/26 Asap Lock Key Los Angeles CA P585269806769486 Card 3339\",\n          \"amount\": 10.4,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/26/2025\",\n          \"description\": \"Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012493146 Cav 81 LLC\",\n          \"amount\": 144.76,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/26/2025\",\n          \"description\": \"Business to Business ACH Debit - Fairfigure Card 8007857185 250926 Cav 81 LLC\",\n          \"amount\": 272.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/29/2025\",\n          \"description\": \"Recurring Payment authorized on 09/25 Fairfigure NEW York NY S615270477193542 Card 3339\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/29/2025\",\n          \"description\": \"Purchase authorized on 09/25 Ladot Meter Parkin Los Angeles CA S385268848987773 Card 3339\",\n          \"amount\": 0.25,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/29/2025\",\n          \"description\": \"Purchase authorized on 09/25 Ladot Meter Parkin Los Angeles CA S305268850341397 Card 3339\",\n          \"amount\": 0.75,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/29/2025\",\n          \"description\": \"Purchase authorized on 09/26 Renaissance Hotels Los Angeles CA S585269847984725 Card 3339\",\n          \"amount\": 116.58,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/29/2025\",\n          \"description\": \"Money Transfer authorized on 09/27 Venmo *Emma Walker VISA Direct NY S465270411874170 Card 3339\",\n          \"amount\": 335.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/29/2025\",\n          \"description\": \"Recurring Payment authorized on 09/28 Nav Tech 855-226-8 Nav.Com UT S465271671000613 Card 3339\",\n          \"amount\": 37.49,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/29/2025\",\n          \"description\": \"Purchase authorized on 09/28 McDonald's M2817 O Los Angeles CA S305271671656152 Card 3339\",\n          \"amount\": 12.25,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/29/2025\",\n          \"description\": \"Purchase authorized on 09/28 Indo Phili Inc Los Angeles CA P000000885216769 Card 3339\",\n          \"amount\": 60.43,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/29/2025\",\n          \"description\": \"Petal Card, Inc. Payments 250926 Dmnzedn0N9L1Obm Mark A Walker\",\n          \"amount\": 25.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/29/2025\",\n          \"description\": \"Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012500842 Cav 81 LLC\",\n          \"amount\": 144.76,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/30/2025\",\n          \"description\": \"Purchase authorized on 09/29 Amazon Mark* NJ9R5 Amazon.Com/MA WA S355272693429584 Card 3339\",\n          \"amount\": 7.67,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/30/2025\",\n          \"description\": \"Online Transfer to Walker M Everyday Checking xxxxxx8704 Ref #Ib0V4Df45F on 09/30/25\",\n          \"amount\": 1100.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/30/2025\",\n          \"description\": \"Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012508540 Cav 81 LLC\",\n          \"amount\": 144.76,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        }\n      ]\n    }\n  ]\n}\n```",
+    "token_count": {
+      "estimated_tokens": 2517
+    },
+    "failure_reason": null
+  },
+  "bsi_analyzer_result": {
+    "agent_name": "v1_bsi_analyzer_agent",
+    "processing_status": "success",
+    "start_time": "2026-02-04T15:09:40.444700",
+    "end_time": "2026-02-04T15:11:07.735669",
+    "parsed_json": {
+      "accounts": [
+        {
+          "account_number": "6567957813",
+          "account_type": "Initiate Business Checking",
+          "mca_deposit": [],
+          "mca_withdrawal": [
+            {
+              "mca_name": "vader servicing",
+              "date": "09/02/2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012355999 Cav 81 LLC",
+              "amount": 144.76
+            },
+            {
+              "mca_name": "vader servicing",
+              "date": "09/03/2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012363438 Cav 81 LLC",
+              "amount": 144.76
+            },
+            {
+              "mca_name": "vader servicing",
+              "date": "09/04/2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012370902 Cav 81 LLC",
+              "amount": 144.76
+            },
+            {
+              "mca_name": "vader servicing",
+              "date": "09/05/2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012378479 Cav 81 LLC",
+              "amount": 144.76
+            },
+            {
+              "mca_name": "vader servicing",
+              "date": "09/08/2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012385921 Cav 81 LLC",
+              "amount": 144.76
+            },
+            {
+              "mca_name": "vader servicing",
+              "date": "09/09/2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012393426 Cav 81 LLC",
+              "amount": 144.76
+            },
+            {
+              "mca_name": "vader servicing",
+              "date": "09/10/2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012400995 Cav 81 LLC",
+              "amount": 144.76
+            },
+            {
+              "mca_name": "vader servicing",
+              "date": "09/11/2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012408527 Cav 81 LLC",
+              "amount": 144.76
+            },
+            {
+              "mca_name": "vader servicing",
+              "date": "09/12/2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012416289 Cav 81 LLC",
+              "amount": 144.76
+            },
+            {
+              "mca_name": "vader servicing",
+              "date": "09/15/2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012423865 Cav 81 LLC",
+              "amount": 144.76
+            },
+            {
+              "mca_name": "vader servicing",
+              "date": "09/16/2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012431506 Cav 81 LLC",
+              "amount": 144.76
+            },
+            {
+              "mca_name": "vader servicing",
+              "date": "09/17/2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012439197 Cav 81 LLC",
+              "amount": 144.76
+            },
+            {
+              "mca_name": "vader servicing",
+              "date": "09/18/2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012446806 Cav 81 LLC",
+              "amount": 144.76
+            },
+            {
+              "mca_name": "vader servicing",
+              "date": "09/19/2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012454647 Cav 81 LLC",
+              "amount": 144.76
+            },
+            {
+              "mca_name": "vader servicing",
+              "date": "09/22/2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012462265 Cav 81 LLC",
+              "amount": 144.76
+            },
+            {
+              "mca_name": "vader servicing",
+              "date": "09/23/2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012469920 Cav 81 LLC",
+              "amount": 144.76
+            },
+            {
+              "mca_name": "vader servicing",
+              "date": "09/24/2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012477617 Cav 81 LLC",
+              "amount": 144.76
+            },
+            {
+              "mca_name": "vader servicing",
+              "date": "09/25/2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012485314 Cav 81 LLC",
+              "amount": 144.76
+            },
+            {
+              "mca_name": "vader servicing",
+              "date": "09/26/2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012493146 Cav 81 LLC",
+              "amount": 144.76
+            },
+            {
+              "mca_name": "vader servicing",
+              "date": "09/29/2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012500842 Cav 81 LLC",
+              "amount": 144.76
+            },
+            {
+              "mca_name": "vader servicing",
+              "date": "09/30/2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012508540 Cav 81 LLC",
+              "amount": 144.76
+            }
+          ],
+          "returned_items": [],
+          "overdrafts": [
+            {
+              "date": "09/09/2025",
+              "description": "Overdraft Fee for a Transaction Posted on 09/08 $144.76 Vader Servicing Ebf Debit 000000012385 921 Cav 81 LLC",
+              "amount": 35.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09/12/2025",
+              "description": "Overdraft Fee for a Transaction Posted on 09/11 $144.76 Vader Servicing Ebf Debit 000000012408 527 Cav 81 LLC",
+              "amount": 35.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09/15/2025",
+              "description": "Overdraft Fee for a Transaction Posted on 09/12 $144.76 Vader Servicing Ebf Debit 000000012416 289 Cav 81 LLC",
+              "amount": 35.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09/16/2025",
+              "description": "Overdraft Fee for a Transaction Posted on 09/15 $272.00 Fairfigure Card 8007857185 250915 Cav 81 LLC",
+              "amount": 35.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09/17/2025",
+              "description": "Overdraft Fee for a Transaction Posted on 09/16 $144.76 Vader Servicing Ebf Debit 000000012431 506 Cav 81 LLC",
+              "amount": 35.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09/18/2025",
+              "description": "Overdraft Fee for a Transaction Posted on 09/17 $144.76 Vader Servicing Ebf Debit 000000012439 197 Cav 81 LLC",
+              "amount": 35.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09/19/2025",
+              "description": "Overdraft Fee for a Transaction Posted on 09/18 $144.76 Vader Servicing Ebf Debit 000000012446 806 Cav 81 LLC",
+              "amount": 35.0,
+              "type": "Debit"
+            }
+          ],
+          "service_charges": [],
+          "atm_cash_withdrawal": [],
+          "internal_transfer_deposit": [],
+          "other_transfer_deposit": [
+            {
+              "date": "09/05/2025",
+              "description": "Zelle From Amy Cakes LLC on 09/05 Ref # Usbkdqko2Fml Food",
+              "amount": 60.0,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09/05/2025",
+              "description": "Instant Pmt From Paypal on 09/05 Ref#20250905021000021P1Brjpc00480205752",
+              "amount": 142.11,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09/09/2025",
+              "description": "Fairfigure Card Wire 250908 Cav 81 LLC",
+              "amount": 500.0,
+              "type": "Credit",
+              "is_payment_processor": 0,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09/15/2025",
+              "description": "Zelle From Shopprop Inc on 09/13 Ref # Wfct0Z8R9Qw3",
+              "amount": 175.0,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09/15/2025",
+              "description": "Instant Pmt From Paypal on 09/15 Ref#20250915021000021P1Brjpc06080167658",
+              "amount": 189.64,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09/17/2025",
+              "description": "Zelle From Shopprop Inc on 09/17 Ref # Wfct0Z95Xgw4 Showing",
+              "amount": 315.0,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09/19/2025",
+              "description": "Zelle From Shopprop Inc on 09/19 Ref # Wfct0Z9C7Vc2",
+              "amount": 140.0,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09/19/2025",
+              "description": "WT Fed#01C00 First American Tru/Org=Glen Oaks Escrow, Inc. Srf# 2025262000626200 Trn#250919130416 Rfb# BI0000251461",
+              "amount": 2363.5,
+              "type": "Credit",
+              "is_payment_processor": 0,
+              "non_true_revenue": 1
+            },
+            {
+              "date": "09/19/2025",
+              "description": "WT Seq455351 Real Commissions LLC/Org-Real Commissions LLC Srf# Gw00000079226844 Trn#250919455351 Rfb# 34264",
+              "amount": 8002.2,
+              "type": "Credit",
+              "is_payment_processor": 0,
+              "non_true_revenue": 1
+            },
+            {
+              "date": "09/22/2025",
+              "description": "Fairfigure Card Wire 250922 Cav 81 LLC",
+              "amount": 500.0,
+              "type": "Credit",
+              "is_payment_processor": 0,
+              "non_true_revenue": 0
+            }
+          ],
+          "internal_transfer_withdrawal": [
+            {
+              "date": "09/19/2025",
+              "description": "Online Transfer to Walker M Everyday Checking xxxxxx8704 Ref #Ib0Tymfz2G on 09/19/25",
+              "amount": 500.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09/26/2025",
+              "description": "Online Transfer to Walker M Everyday Checking xxxxxx8704 Ref #Ib0V2Ypcz2 on 09/26/25",
+              "amount": 1000.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09/30/2025",
+              "description": "Online Transfer to Walker M Everyday Checking xxxxxx8704 Ref #Ib0V4Df45F on 09/30/25",
+              "amount": 1100.0,
+              "type": "Debit"
+            }
+          ],
+          "other_transfer_withdrawal": [
+            {
+              "date": "09/02/2025",
+              "description": "Online Transfer to Walker C Ref #lb0Tqntsxt Wells Fargo Clear Access Ba Tatsu",
+              "amount": 86.53,
+              "type": "Debit"
+            },
+            {
+              "date": "09/03/2025",
+              "description": "Business to Business ACH Debit - Fairfigure Card 8007857185 250902 Cav 81 LLC",
+              "amount": 272.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09/15/2025",
+              "description": "Business to Business ACH Debit - Fairfigure Card 8007857185 250915 Cav 81 LLC",
+              "amount": 272.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09/19/2025",
+              "description": "Online Transfer Ref #lb0Tyn9Gdx to Wells Fargo Active Cash VISA Card Xxxxxxxxxxxx9433 on 09/19/25",
+              "amount": 82.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09/22/2025",
+              "description": "Business to Business ACH Debit - Fairfigure Card 8007857185 250922 Cav 81 LLC",
+              "amount": 272.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09/26/2025",
+              "description": "Business to Business ACH Debit - Fairfigure Card 8007857185 250926 Cav 81 LLC",
+              "amount": 272.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09/29/2025",
+              "description": "Money Transfer authorized on 09/27 Venmo *Emma Walker VISA Direct NY S465270411874170 Card 3339",
+              "amount": 335.0,
+              "type": "Debit"
+            }
+          ],
+          "standard_deposit": [
+            {
+              "date": "09/02/2025",
+              "description": "Mobile Deposit : Ref Number :617310029152",
+              "amount": 86.53,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09/03/2025",
+              "description": "Provisional Credit for Claim-Ref #2509030013222",
+              "amount": 90.0,
+              "type": "Credit",
+              "non_true_revenue": 1
+            },
+            {
+              "date": "09/03/2025",
+              "description": "Provisional Credit for Claim-Ref #2509030013222",
+              "amount": 90.0,
+              "type": "Credit",
+              "non_true_revenue": 1
+            },
+            {
+              "date": "09/05/2025",
+              "description": "Asteroom Inc. Asteroom I St-17A4C816E0L8 Cav 81 LLC",
+              "amount": 75.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09/12/2025",
+              "description": "Asteroom Inc. Asteroom I St-Y1Z3S3G7U9Q6 Cav 81 LLC",
+              "amount": 250.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09/26/2025",
+              "description": "Asteroom Inc. Asteroom I St-O5H7D2L1B5G2 Cav 81 LLC",
+              "amount": 75.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            }
+          ],
+          "standard_withdrawal": [
+            {
+              "date": "09/02/2025",
+              "description": "Purchase authorized on 08/28 Tst* WI Jammin Caf Inglewood CA S465240822523937 Card 3339",
+              "amount": 20.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09/02/2025",
+              "description": "Purchase authorized on 08/30 Ralphs #0 1730 W. Manc Los Angeles CA P000000385494632 Card 3339",
+              "amount": 25.85,
+              "type": "Debit"
+            },
+            {
+              "date": "09/02/2025",
+              "description": "Purchase authorized on 08/31 Tst*Dinahs Comfort Culver City CA S385244048650627 Card 3339",
+              "amount": 67.37,
+              "type": "Debit"
+            },
+            {
+              "date": "09/02/2025",
+              "description": "Purchase authorized on 09/01 Kfc H730121 Los Angeles CA S385244741675826 Card 3339",
+              "amount": 13.71,
+              "type": "Debit"
+            },
+            {
+              "date": "09/03/2025",
+              "description": "Recurring Payment authorized on 09/01 Homebot Inc 720-4321115 CO S385244713589176 Card 3339",
+              "amount": 50.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09/03/2025",
+              "description": "Purchase authorized on 09/02 Arco42192001 Los Angeles CA P000000559936386 Card 3339",
+              "amount": 47.43,
+              "type": "Debit"
+            },
+            {
+              "date": "09/04/2025",
+              "description": "Recurring Payment authorized on 09/02 Supra Re 877-699-6787 FL S385245558341588 Card 3339",
+              "amount": 17.61,
+              "type": "Debit"
+            },
+            {
+              "date": "09/04/2025",
+              "description": "Recurring Payment authorized on 09/03 Apple.Com/Bill 866-712-7753 CA S585246286337492 Card 3339",
+              "amount": 11.99,
+              "type": "Debit"
+            },
+            {
+              "date": "09/04/2025",
+              "description": "Recurring Payment authorized on 09/03 Apple.Com/Bill 866-712-7753 CA S585246546916583 Card 3339",
+              "amount": 7.99,
+              "type": "Debit"
+            },
+            {
+              "date": "09/04/2025",
+              "description": "Recurring Payment authorized on 09/03 Apple.Com/Bill 866-712-7753 CA S585246555697865 Card 3339",
+              "amount": 2.99,
+              "type": "Debit"
+            },
+            {
+              "date": "09/05/2025",
+              "description": "Recurring Payment authorized on 09/04 Apple.Com/Bill 866-712-7753 CA S385247317795547 Card 3339",
+              "amount": 12.99,
+              "type": "Debit"
+            },
+            {
+              "date": "09/08/2025",
+              "description": "Recurring Payment authorized on 09/06 Fairfigure 917-676-9589 NY S385249636008035 Card 3339",
+              "amount": 272.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09/09/2025",
+              "description": "Recurring Payment authorized on 09/08 Apple.Com/Bill 866-712-7753 CA S385251306694162 Card 3339",
+              "amount": 9.99,
+              "type": "Debit"
+            },
+            {
+              "date": "09/11/2025",
+              "description": "Recurring Payment authorized on 09/10 Apple.Com/Bill 866-712-7753 CA S385253547529274 Card 3339",
+              "amount": 7.99,
+              "type": "Debit"
+            },
+            {
+              "date": "09/11/2025",
+              "description": "Recurring Payment authorized on 09/10 Apple.Com/Bill 866-712-7753 CA S585253608899288 Card 3339",
+              "amount": 16.99,
+              "type": "Debit"
+            },
+            {
+              "date": "09/11/2025",
+              "description": "Recurring Payment authorized on 09/10 Apple.Com/Bill 866-712-7753 CA S385253608968713 Card 3339",
+              "amount": 10.99,
+              "type": "Debit"
+            },
+            {
+              "date": "09/15/2025",
+              "description": "Recurring Payment authorized on 09/12 Hp *Instant Ink 855-785-2777 CA S465255804964931 Card 3339",
+              "amount": 17.55,
+              "type": "Debit"
+            },
+            {
+              "date": "09/15/2025",
+              "description": "Recurring Payment authorized on 09/13 Adobe Inc 800-8336687 CA S465256529415993 Card 3339",
+              "amount": 19.99,
+              "type": "Debit"
+            },
+            {
+              "date": "09/15/2025",
+              "description": "Purchase authorized on 09/14 Apple.Com/Bill 866-712-7753 CA S585257682516383 Card 3339",
+              "amount": 4.99,
+              "type": "Debit"
+            },
+            {
+              "date": "09/16/2025",
+              "description": "Purchase authorized on 09/15 Kfc K312040 Lomita CA S305259033678843 Card 3339",
+              "amount": 12.57,
+              "type": "Debit"
+            },
+            {
+              "date": "09/19/2025",
+              "description": "Recurring Payment authorized on 09/18 Adobe Inc 800-8336687 CA S385261667190666 Card 3339",
+              "amount": 22.99,
+              "type": "Debit"
+            },
+            {
+              "date": "09/19/2025",
+              "description": "Discover E-Payment 250919 0900 Walker Mark",
+              "amount": 67.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09/22/2025",
+              "description": "Recurring Payment authorized on 09/18 Paypal *Smallpdf 4029357733 Che S465261787315781 Card 3339",
+              "amount": 15.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09/22/2025",
+              "description": "Recurring Payment authorized on 09/20 Spectrum 855-707-7328 MO S585263768578701 Card 3339",
+              "amount": 286.82,
+              "type": "Debit"
+            },
+            {
+              "date": "09/22/2025",
+              "description": "Purchase authorized on 09/20 Muraya Los Angeles CA S465264080293146 Card 3339",
+              "amount": 70.46,
+              "type": "Debit"
+            },
+            {
+              "date": "09/22/2025",
+              "description": "Recurring Payment authorized on 09/21 Apple.Com/Bill 866-712-7753 CA S385264394738826 Card 3339",
+              "amount": 32.97,
+              "type": "Debit"
+            },
+            {
+              "date": "09/22/2025",
+              "description": "Recurring Payment authorized on 09/21 Fairfigure 917-676-9589 NY S385264683201137 Card 3339",
+              "amount": 272.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09/22/2025",
+              "description": "Provisional Credit Reversal-Ref #2509030013222",
+              "amount": 90.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09/22/2025",
+              "description": "Provisional Credit Reversal-Ref #2509030013222",
+              "amount": 90.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09/23/2025",
+              "description": "Purchase authorized on 09/22 Mti Education 562-4213539 CA S465265573415551 Card 3339",
+              "amount": 100.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09/23/2025",
+              "description": "Purchase authorized on 09/22 MT1562-4213539 CA S385265602015134 Card 3339",
+              "amount": 67.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09/23/2025",
+              "description": "Purchase authorized on 09/22 MT1562-4213539 CA S385265604154830 Card 3339",
+              "amount": 27.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09/23/2025",
+              "description": "Purchase authorized on 09/23 Playa Vista 76 Los Angeles CA P000000289792449 Card 3339",
+              "amount": 25.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09/24/2025",
+              "description": "Purchase authorized on 09/23 The Big Burger Carson CA S585266690564653 Card 3339",
+              "amount": 14.6,
+              "type": "Debit"
+            },
+            {
+              "date": "09/24/2025",
+              "description": "Purchase authorized on 09/23 Sq *Lavender & Hon Redondo Beach CA S465266725217367 Card 3339",
+              "amount": 7.13,
+              "type": "Debit"
+            },
+            {
+              "date": "09/26/2025",
+              "description": "Purchase authorized on 09/25 Tst*Compagnon Wine San Pedro CA S385269044223173 Card 3339",
+              "amount": 117.08,
+              "type": "Debit"
+            },
+            {
+              "date": "09/26/2025",
+              "description": "Purchase authorized on 09/26 Asap Lock Key Los Angeles CA P585269806769486 Card 3339",
+              "amount": 10.4,
+              "type": "Debit"
+            },
+            {
+              "date": "09/29/2025",
+              "description": "Recurring Payment authorized on 09/25 Fairfigure NEW York NY S615270477193542 Card 3339",
+              "amount": 35.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09/29/2025",
+              "description": "Purchase authorized on 09/25 Ladot Meter Parkin Los Angeles CA S385268848987773 Card 3339",
+              "amount": 0.25,
+              "type": "Debit"
+            },
+            {
+              "date": "09/29/2025",
+              "description": "Purchase authorized on 09/25 Ladot Meter Parkin Los Angeles CA S305268850341397 Card 3339",
+              "amount": 0.75,
+              "type": "Debit"
+            },
+            {
+              "date": "09/29/2025",
+              "description": "Purchase authorized on 09/26 Renaissance Hotels Los Angeles CA S585269847984725 Card 3339",
+              "amount": 116.58,
+              "type": "Debit"
+            },
+            {
+              "date": "09/29/2025",
+              "description": "Recurring Payment authorized on 09/28 Nav Tech 855-226-8 Nav.Com UT S465271671000613 Card 3339",
+              "amount": 37.49,
+              "type": "Debit"
+            },
+            {
+              "date": "09/29/2025",
+              "description": "Purchase authorized on 09/28 McDonald's M2817 O Los Angeles CA S305271671656152 Card 3339",
+              "amount": 12.25,
+              "type": "Debit"
+            },
+            {
+              "date": "09/29/2025",
+              "description": "Purchase authorized on 09/28 Indo Phili Inc Los Angeles CA P000000885216769 Card 3339",
+              "amount": 60.43,
+              "type": "Debit"
+            },
+            {
+              "date": "09/29/2025",
+              "description": "Petal Card, Inc. Payments 250926 Dmnzedn0N9L1Obm Mark A Walker",
+              "amount": 25.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09/30/2025",
+              "description": "Purchase authorized on 09/29 Amazon Mark* NJ9R5 Amazon.Com/MA WA S355272693429584 Card 3339",
+              "amount": 7.67,
+              "type": "Debit"
+            }
+          ]
+        }
+      ]
+    },
+    "raw_output": "```json\n{\n  \"accounts\": [\n    {\n      \"account_number\": \"6567957813\",\n      \"account_type\": \"Initiate Business Checking\",\n      \"mca_deposit\": [],\n      \"mca_withdrawal\": [\n        {\n          \"mca_name\": \"vader servicing\",\n          \"date\": \"09/02/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012355999 Cav 81 LLC\",\n          \"amount\": 144.76\n        },\n        {\n          \"mca_name\": \"vader servicing\",\n          \"date\": \"09/03/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012363438 Cav 81 LLC\",\n          \"amount\": 144.76\n        },\n        {\n          \"mca_name\": \"vader servicing\",\n          \"date\": \"09/04/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012370902 Cav 81 LLC\",\n          \"amount\": 144.76\n        },\n        {\n          \"mca_name\": \"vader servicing\",\n          \"date\": \"09/05/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012378479 Cav 81 LLC\",\n          \"amount\": 144.76\n        },\n        {\n          \"mca_name\": \"vader servicing\",\n          \"date\": \"09/08/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012385921 Cav 81 LLC\",\n          \"amount\": 144.76\n        },\n        {\n          \"mca_name\": \"vader servicing\",\n          \"date\": \"09/09/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012393426 Cav 81 LLC\",\n          \"amount\": 144.76\n        },\n        {\n          \"mca_name\": \"vader servicing\",\n          \"date\": \"09/10/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012400995 Cav 81 LLC\",\n          \"amount\": 144.76\n        },\n        {\n          \"mca_name\": \"vader servicing\",\n          \"date\": \"09/11/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012408527 Cav 81 LLC\",\n          \"amount\": 144.76\n        },\n        {\n          \"mca_name\": \"vader servicing\",\n          \"date\": \"09/12/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012416289 Cav 81 LLC\",\n          \"amount\": 144.76\n        },\n        {\n          \"mca_name\": \"vader servicing\",\n          \"date\": \"09/15/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012423865 Cav 81 LLC\",\n          \"amount\": 144.76\n        },\n        {\n          \"mca_name\": \"vader servicing\",\n          \"date\": \"09/16/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012431506 Cav 81 LLC\",\n          \"amount\": 144.76\n        },\n        {\n          \"mca_name\": \"vader servicing\",\n          \"date\": \"09/17/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012439197 Cav 81 LLC\",\n          \"amount\": 144.76\n        },\n        {\n          \"mca_name\": \"vader servicing\",\n          \"date\": \"09/18/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012446806 Cav 81 LLC\",\n          \"amount\": 144.76\n        },\n        {\n          \"mca_name\": \"vader servicing\",\n          \"date\": \"09/19/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012454647 Cav 81 LLC\",\n          \"amount\": 144.76\n        },\n        {\n          \"mca_name\": \"vader servicing\",\n          \"date\": \"09/22/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012462265 Cav 81 LLC\",\n          \"amount\": 144.76\n        },\n        {\n          \"mca_name\": \"vader servicing\",\n          \"date\": \"09/23/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012469920 Cav 81 LLC\",\n          \"amount\": 144.76\n        },\n        {\n          \"mca_name\": \"vader servicing\",\n          \"date\": \"09/24/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012477617 Cav 81 LLC\",\n          \"amount\": 144.76\n        },\n        {\n          \"mca_name\": \"vader servicing\",\n          \"date\": \"09/25/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012485314 Cav 81 LLC\",\n          \"amount\": 144.76\n        },\n        {\n          \"mca_name\": \"vader servicing\",\n          \"date\": \"09/26/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012493146 Cav 81 LLC\",\n          \"amount\": 144.76\n        },\n        {\n          \"mca_name\": \"vader servicing\",\n          \"date\": \"09/29/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012500842 Cav 81 LLC\",\n          \"amount\": 144.76\n        },\n        {\n          \"mca_name\": \"vader servicing\",\n          \"date\": \"09/30/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - Vader Servicing Ebf Debit 000000012508540 Cav 81 LLC\",\n          \"amount\": 144.76\n        }\n      ],\n      \"returned_items\": [],\n      \"overdrafts\": [\n        {\n          \"date\": \"09/09/2025\",\n          \"description\": \"Overdraft Fee for a Transaction Posted on 09/08 $144.76 Vader Servicing Ebf Debit 000000012385 921 Cav 81 LLC\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/12/2025\",\n          \"description\": \"Overdraft Fee for a Transaction Posted on 09/11 $144.76 Vader Servicing Ebf Debit 000000012408 527 Cav 81 LLC\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"description\": \"Overdraft Fee for a Transaction Posted on 09/12 $144.76 Vader Servicing Ebf Debit 000000012416 289 Cav 81 LLC\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/16/2025\",\n          \"description\": \"Overdraft Fee for a Transaction Posted on 09/15 $272.00 Fairfigure Card 8007857185 250915 Cav 81 LLC\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/17/2025\",\n          \"description\": \"Overdraft Fee for a Transaction Posted on 09/16 $144.76 Vader Servicing Ebf Debit 000000012431 506 Cav 81 LLC\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/18/2025\",\n          \"description\": \"Overdraft Fee for a Transaction Posted on 09/17 $144.76 Vader Servicing Ebf Debit 000000012439 197 Cav 81 LLC\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/19/2025\",\n          \"description\": \"Overdraft Fee for a Transaction Posted on 09/18 $144.76 Vader Servicing Ebf Debit 000000012446 806 Cav 81 LLC\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\"\n        }\n      ],\n      \"service_charges\": [],\n      \"atm_cash_withdrawal\": [],\n      \"internal_transfer_deposit\": [],\n      \"other_transfer_deposit\": [\n        {\n          \"date\": \"09/05/2025\",\n          \"description\": \"Zelle From Amy Cakes LLC on 09/05 Ref # Usbkdqko2Fml Food\",\n          \"amount\": 60.0,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09/05/2025\",\n          \"description\": \"Instant Pmt From Paypal on 09/05 Ref#20250905021000021P1Brjpc00480205752\",\n          \"amount\": 142.11,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09/09/2025\",\n          \"description\": \"Fairfigure Card Wire 250908 Cav 81 LLC\",\n          \"amount\": 500.0,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 0,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"description\": \"Zelle From Shopprop Inc on 09/13 Ref # Wfct0Z8R9Qw3\",\n          \"amount\": 175.0,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"description\": \"Instant Pmt From Paypal on 09/15 Ref#20250915021000021P1Brjpc06080167658\",\n          \"amount\": 189.64,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09/17/2025\",\n          \"description\": \"Zelle From Shopprop Inc on 09/17 Ref # Wfct0Z95Xgw4 Showing\",\n          \"amount\": 315.0,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09/19/2025\",\n          \"description\": \"Zelle From Shopprop Inc on 09/19 Ref # Wfct0Z9C7Vc2\",\n          \"amount\": 140.0,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09/19/2025\",\n          \"description\": \"WT Fed#01C00 First American Tru/Org=Glen Oaks Escrow, Inc. Srf# 2025262000626200 Trn#250919130416 Rfb# BI0000251461\",\n          \"amount\": 2363.5,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 0,\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"09/19/2025\",\n          \"description\": \"WT Seq455351 Real Commissions LLC/Org-Real Commissions LLC Srf# Gw00000079226844 Trn#250919455351 Rfb# 34264\",\n          \"amount\": 8002.2,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 0,\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"09/22/2025\",\n          \"description\": \"Fairfigure Card Wire 250922 Cav 81 LLC\",\n          \"amount\": 500.0,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 0,\n          \"non_true_revenue\": 0\n        }\n      ],\n      \"internal_transfer_withdrawal\": [\n        {\n          \"date\": \"09/19/2025\",\n          \"description\": \"Online Transfer to Walker M Everyday Checking xxxxxx8704 Ref #Ib0Tymfz2G on 09/19/25\",\n          \"amount\": 500.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/26/2025\",\n          \"description\": \"Online Transfer to Walker M Everyday Checking xxxxxx8704 Ref #Ib0V2Ypcz2 on 09/26/25\",\n          \"amount\": 1000.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/30/2025\",\n          \"description\": \"Online Transfer to Walker M Everyday Checking xxxxxx8704 Ref #Ib0V4Df45F on 09/30/25\",\n          \"amount\": 1100.0,\n          \"type\": \"Debit\"\n        }\n      ],\n      \"other_transfer_withdrawal\": [\n        {\n          \"date\": \"09/02/2025\",\n          \"description\": \"Online Transfer to Walker C Ref #lb0Tqntsxt Wells Fargo Clear Access Ba Tatsu\",\n          \"amount\": 86.53,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/03/2025\",\n          \"description\": \"Business to Business ACH Debit - Fairfigure Card 8007857185 250902 Cav 81 LLC\",\n          \"amount\": 272.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"description\": \"Business to Business ACH Debit - Fairfigure Card 8007857185 250915 Cav 81 LLC\",\n          \"amount\": 272.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/19/2025\",\n          \"description\": \"Online Transfer Ref #lb0Tyn9Gdx to Wells Fargo Active Cash VISA Card Xxxxxxxxxxxx9433 on 09/19/25\",\n          \"amount\": 82.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/22/2025\",\n          \"description\": \"Business to Business ACH Debit - Fairfigure Card 8007857185 250922 Cav 81 LLC\",\n          \"amount\": 272.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/26/2025\",\n          \"description\": \"Business to Business ACH Debit - Fairfigure Card 8007857185 250926 Cav 81 LLC\",\n          \"amount\": 272.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/29/2025\",\n          \"description\": \"Money Transfer authorized on 09/27 Venmo *Emma Walker VISA Direct NY S465270411874170 Card 3339\",\n          \"amount\": 335.0,\n          \"type\": \"Debit\"\n        }\n      ],\n      \"standard_deposit\": [\n        {\n          \"date\": \"09/02/2025\",\n          \"description\": \"Mobile Deposit : Ref Number :617310029152\",\n          \"amount\": 86.53,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09/03/2025\",\n          \"description\": \"Provisional Credit for Claim-Ref #2509030013222\",\n          \"amount\": 90.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"09/03/2025\",\n          \"description\": \"Provisional Credit for Claim-Ref #2509030013222\",\n          \"amount\": 90.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"09/05/2025\",\n          \"description\": \"Asteroom Inc. Asteroom I St-17A4C816E0L8 Cav 81 LLC\",\n          \"amount\": 75.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09/12/2025\",\n          \"description\": \"Asteroom Inc. Asteroom I St-Y1Z3S3G7U9Q6 Cav 81 LLC\",\n          \"amount\": 250.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09/26/2025\",\n          \"description\": \"Asteroom Inc. Asteroom I St-O5H7D2L1B5G2 Cav 81 LLC\",\n          \"amount\": 75.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        }\n      ],\n      \"standard_withdrawal\": [\n        {\n          \"date\": \"09/02/2025\",\n          \"description\": \"Purchase authorized on 08/28 Tst* WI Jammin Caf Inglewood CA S465240822523937 Card 3339\",\n          \"amount\": 20.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/02/2025\",\n          \"description\": \"Purchase authorized on 08/30 Ralphs #0 1730 W. Manc Los Angeles CA P000000385494632 Card 3339\",\n          \"amount\": 25.85,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/02/2025\",\n          \"description\": \"Purchase authorized on 08/31 Tst*Dinahs Comfort Culver City CA S385244048650627 Card 3339\",\n          \"amount\": 67.37,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/02/2025\",\n          \"description\": \"Purchase authorized on 09/01 Kfc H730121 Los Angeles CA S385244741675826 Card 3339\",\n          \"amount\": 13.71,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/03/2025\",\n          \"description\": \"Recurring Payment authorized on 09/01 Homebot Inc 720-4321115 CO S385244713589176 Card 3339\",\n          \"amount\": 50.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/03/2025\",\n          \"description\": \"Purchase authorized on 09/02 Arco42192001 Los Angeles CA P000000559936386 Card 3339\",\n          \"amount\": 47.43,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/04/2025\",\n          \"description\": \"Recurring Payment authorized on 09/02 Supra Re 877-699-6787 FL S385245558341588 Card 3339\",\n          \"amount\": 17.61,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/04/2025\",\n          \"description\": \"Recurring Payment authorized on 09/03 Apple.Com/Bill 866-712-7753 CA S585246286337492 Card 3339\",\n          \"amount\": 11.99,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/04/2025\",\n          \"description\": \"Recurring Payment authorized on 09/03 Apple.Com/Bill 866-712-7753 CA S585246546916583 Card 3339\",\n          \"amount\": 7.99,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/04/2025\",\n          \"description\": \"Recurring Payment authorized on 09/03 Apple.Com/Bill 866-712-7753 CA S585246555697865 Card 3339\",\n          \"amount\": 2.99,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/05/2025\",\n          \"description\": \"Recurring Payment authorized on 09/04 Apple.Com/Bill 866-712-7753 CA S385247317795547 Card 3339\",\n          \"amount\": 12.99,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/08/2025\",\n          \"description\": \"Recurring Payment authorized on 09/06 Fairfigure 917-676-9589 NY S385249636008035 Card 3339\",\n          \"amount\": 272.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/09/2025\",\n          \"description\": \"Recurring Payment authorized on 09/08 Apple.Com/Bill 866-712-7753 CA S385251306694162 Card 3339\",\n          \"amount\": 9.99,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/11/2025\",\n          \"description\": \"Recurring Payment authorized on 09/10 Apple.Com/Bill 866-712-7753 CA S385253547529274 Card 3339\",\n          \"amount\": 7.99,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/11/2025\",\n          \"description\": \"Recurring Payment authorized on 09/10 Apple.Com/Bill 866-712-7753 CA S585253608899288 Card 3339\",\n          \"amount\": 16.99,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/11/2025\",\n          \"description\": \"Recurring Payment authorized on 09/10 Apple.Com/Bill 866-712-7753 CA S385253608968713 Card 3339\",\n          \"amount\": 10.99,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"description\": \"Recurring Payment authorized on 09/12 Hp *Instant Ink 855-785-2777 CA S465255804964931 Card 3339\",\n          \"amount\": 17.55,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"description\": \"Recurring Payment authorized on 09/13 Adobe Inc 800-8336687 CA S465256529415993 Card 3339\",\n          \"amount\": 19.99,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"description\": \"Purchase authorized on 09/14 Apple.Com/Bill 866-712-7753 CA S585257682516383 Card 3339\",\n          \"amount\": 4.99,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/16/2025\",\n          \"description\": \"Purchase authorized on 09/15 Kfc K312040 Lomita CA S305259033678843 Card 3339\",\n          \"amount\": 12.57,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/19/2025\",\n          \"description\": \"Recurring Payment authorized on 09/18 Adobe Inc 800-8336687 CA S385261667190666 Card 3339\",\n          \"amount\": 22.99,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/19/2025\",\n          \"description\": \"Discover E-Payment 250919 0900 Walker Mark\",\n          \"amount\": 67.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/22/2025\",\n          \"description\": \"Recurring Payment authorized on 09/18 Paypal *Smallpdf 4029357733 Che S465261787315781 Card 3339\",\n          \"amount\": 15.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/22/2025\",\n          \"description\": \"Recurring Payment authorized on 09/20 Spectrum 855-707-7328 MO S585263768578701 Card 3339\",\n          \"amount\": 286.82,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/22/2025\",\n          \"description\": \"Purchase authorized on 09/20 Muraya Los Angeles CA S465264080293146 Card 3339\",\n          \"amount\": 70.46,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/22/2025\",\n          \"description\": \"Recurring Payment authorized on 09/21 Apple.Com/Bill 866-712-7753 CA S385264394738826 Card 3339\",\n          \"amount\": 32.97,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/22/2025\",\n          \"description\": \"Recurring Payment authorized on 09/21 Fairfigure 917-676-9589 NY S385264683201137 Card 3339\",\n          \"amount\": 272.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/22/2025\",\n          \"description\": \"Provisional Credit Reversal-Ref #2509030013222\",\n          \"amount\": 90.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/22/2025\",\n          \"description\": \"Provisional Credit Reversal-Ref #2509030013222\",\n          \"amount\": 90.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/23/2025\",\n          \"description\": \"Purchase authorized on 09/22 Mti Education 562-4213539 CA S465265573415551 Card 3339\",\n          \"amount\": 100.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/23/2025\",\n          \"description\": \"Purchase authorized on 09/22 MT1562-4213539 CA S385265602015134 Card 3339\",\n          \"amount\": 67.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/23/2025\",\n          \"description\": \"Purchase authorized on 09/22 MT1562-4213539 CA S385265604154830 Card 3339\",\n          \"amount\": 27.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/23/2025\",\n          \"description\": \"Purchase authorized on 09/23 Playa Vista 76 Los Angeles CA P000000289792449 Card 3339\",\n          \"amount\": 25.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/24/2025\",\n          \"description\": \"Purchase authorized on 09/23 The Big Burger Carson CA S585266690564653 Card 3339\",\n          \"amount\": 14.6,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/24/2025\",\n          \"description\": \"Purchase authorized on 09/23 Sq *Lavender & Hon Redondo Beach CA S465266725217367 Card 3339\",\n          \"amount\": 7.13,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/26/2025\",\n          \"description\": \"Purchase authorized on 09/25 Tst*Compagnon Wine San Pedro CA S385269044223173 Card 3339\",\n          \"amount\": 117.08,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/26/2025\",\n          \"description\": \"Purchase authorized on 09/26 Asap Lock Key Los Angeles CA P585269806769486 Card 3339\",\n          \"amount\": 10.4,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/29/2025\",\n          \"description\": \"Recurring Payment authorized on 09/25 Fairfigure NEW York NY S615270477193542 Card 3339\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/29/2025\",\n          \"description\": \"Purchase authorized on 09/25 Ladot Meter Parkin Los Angeles CA S385268848987773 Card 3339\",\n          \"amount\": 0.25,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/29/2025\",\n          \"description\": \"Purchase authorized on 09/25 Ladot Meter Parkin Los Angeles CA S305268850341397 Card 3339\",\n          \"amount\": 0.75,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/29/2025\",\n          \"description\": \"Purchase authorized on 09/26 Renaissance Hotels Los Angeles CA S585269847984725 Card 3339\",\n          \"amount\": 116.58,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/29/2025\",\n          \"description\": \"Recurring Payment authorized on 09/28 Nav Tech 855-226-8 Nav.Com UT S465271671000613 Card 3339\",\n          \"amount\": 37.49,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/29/2025\",\n          \"description\": \"Purchase authorized on 09/28 McDonald's M2817 O Los Angeles CA S305271671656152 Card 3339\",\n          \"amount\": 12.25,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/29/2025\",\n          \"description\": \"Purchase authorized on 09/28 Indo Phili Inc Los Angeles CA P000000885216769 Card 3339\",\n          \"amount\": 60.43,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/29/2025\",\n          \"description\": \"Petal Card, Inc. Payments 250926 Dmnzedn0N9L1Obm Mark A Walker\",\n          \"amount\": 25.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/30/2025\",\n          \"description\": \"Purchase authorized on 09/29 Amazon Mark* NJ9R5 Amazon.Com/MA WA S355272693429584 Card 3339\",\n          \"amount\": 7.67,\n          \"type\": \"Debit\"\n        }\n      ]\n    }\n  ]\n}\n```",
+    "token_count": {
+      "estimated_tokens": 2257
+    },
+    "failure_reason": null
+  }
+}

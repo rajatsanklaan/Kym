@@ -91,14 +91,29 @@ export async function GET() {
         const fileContent = await streamToString(downloadResponse.readableStreamBody!);
         const jsonData: ADLSResponse = JSON.parse(fileContent);
 
-        // Validate structure silently
+        // Validate structure silently - support both new and legacy structures
         if (!jsonData.parsed_json || !jsonData.parsed_json.accounts || !Array.isArray(jsonData.parsed_json.accounts)) {
+          return null;
+        }
+        
+        // Validate that either new structure (bank_statement_information) or legacy structure exists
+        const hasNewStructure = !!(jsonData.parsed_json as any).bank_statement_information;
+        const hasLegacyStructure = !!(jsonData.parsed_json as any).bank_name;
+        if (!hasNewStructure && !hasLegacyStructure) {
           return null;
         }
 
         // Extract filename from filePath and add it to the response
-        const fileName = filePath.split('/').pop() || filePath;
-        jsonData.filename = fileName;
+        // Use source_path from JSON if available, otherwise use filePath
+        if (!jsonData.filename) {
+          const fileName = filePath.split('/').pop() || filePath;
+          jsonData.filename = fileName;
+        }
+        
+        // Ensure source_path is set if not present in JSON
+        if (!jsonData.source_path && filePath) {
+          (jsonData as any).source_path = filePath;
+        }
 
         return jsonData;
       } catch (error) {

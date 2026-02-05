@@ -1,0 +1,1901 @@
+{
+  "document_name": "Case2.pdf",
+  "pipeline_status": "completed",
+  "processing_metadata": {
+    "start_time": "2026-02-04T15:08:27.489795",
+    "end_time": "2026-02-04T15:12:16.367591",
+    "parsing_time_seconds": 124.95129,
+    "bsi_time_seconds": 103.901045,
+    "total_time_seconds": 228.85233499999998
+  },
+  "parsing_agent_result": {
+    "agent_name": "parsing_agent",
+    "processing_status": "success",
+    "start_time": "2026-02-04T15:08:27.494863",
+    "end_time": "2026-02-04T15:10:32.445772",
+    "parsed_json": {
+      "bank_statement_information": {
+        "bank_name": "WELLS FARGO",
+        "account_holder": "SALVADOR AGUILAR DBA AGUILARAUTO REPAIR",
+        "statement_start_date": "09-01-2025",
+        "statement_end_date": "09-30-2025",
+        "n_days": 30,
+        "n_month": [
+          9
+        ],
+        "business_address": "11416 EMELITA ST APT 2 NORTH HOLLYWOOD CA 91601-5901"
+      },
+      "accounts": [
+        {
+          "account_number": "2815349754",
+          "account_type": "Initiate Business Checking",
+          "account_summary": {
+            "beginning_balance": 4237.11,
+            "ending_balance": 3763.4,
+            "total_deposits": 38443.27,
+            "total_withdrawals": 38916.98,
+            "total_deposits_count": null,
+            "total_withdrawals_count": null,
+            "avg_daily_balance": null,
+            "overdraft_days": 0
+          },
+          "transactions": [
+            {
+              "date": "09-02-2025",
+              "description": "Zelle From Avila Javier on 08/30 Ref # Wfct0Z79G28J",
+              "amount": 180.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "09-02-2025",
+              "description": "09/02Bankcard Deposit -0225127436",
+              "amount": 1479.17,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "09-02-2025",
+              "description": "ATM Cash Deposit on 09/02 12160 Victory Blvd North Hollywo CA 0003391 ATM ID 0639Q Card 4229",
+              "amount": 2500.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "09-02-2025",
+              "description": "Zelle From Chisomo Masambuka on 09/02 Ref # Bacqujne2HOM",
+              "amount": 180.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "09-02-2025",
+              "description": "Purchase authorized on 08/29 Amazon.Com*Xw7Jg6V Amzn.Com/Bill WA S305242163810129 Card 4229",
+              "amount": 87.76,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-02-2025",
+              "description": "Purchase authorized on 08/31 Smart and Final N. Hollywood CA P000000681499929 Card 4229",
+              "amount": 40.69,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-02-2025",
+              "description": "Purchase authorized on 08/31 Tmobile*Prepaid We 877-778-2106 WA S465243563919313 Card 4229",
+              "amount": 60.44,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-02-2025",
+              "description": "Purchase authorized on 08/31 Tst* Kabuki - Burb Burbank CA S585243802204288 Card 4229",
+              "amount": 204.08,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-02-2025",
+              "description": "Purchase authorized on 09/01 Smart and Final N. Hollywood CA P000000756118689 Card 4229",
+              "amount": 15.47,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-02-2025",
+              "description": "Purchase authorized on 09/01 Prime Video Channe Amzn.Com/Bill WA S385245136465962 Card 4229",
+              "amount": 5.99,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-02-2025",
+              "description": "Business to Business ACH Debit - The Hartford Inspmtcl 17808559 Aguilar's Auto Repair",
+              "amount": 263.8,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-02-2025",
+              "description": "Business to Business ACH Debit - Lendr Lendr/Trn Aug 29 3F058Dfbad5A467 Aguilars Auto Repair",
+              "amount": 1321.43,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-02-2025",
+              "description": "Check 2053",
+              "amount": 135.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-03-2025",
+              "description": "09/03Bankcard Deposit -0225127436",
+              "amount": 76.83,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "09-03-2025",
+              "description": "Zelle From Cubas Cesar on 09/03 Ref # Wfct0Z7Q6Ykt",
+              "amount": 500.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "09-03-2025",
+              "description": "Purchase authorized on 09/03 Ebay Commerce Inc. San Jose CA P000000187925024 Card 4229",
+              "amount": 187.66,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-03-2025",
+              "description": "Check 2054",
+              "amount": 3250.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-03-2025",
+              "description": "Check 2051",
+              "amount": 87.8,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-03-2025",
+              "description": "Check 2052",
+              "amount": 1229.97,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-04-2025",
+              "description": "Purchase Return authorized on 09/03 Amazon.Com Amzn.Com/Bill WA S585246658976420 Card 4229",
+              "amount": 87.76,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "09-04-2025",
+              "description": "09/04Bankcard Deposit -0225127436",
+              "amount": 164.63,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "09-04-2025",
+              "description": "Purchase authorized on 09/02 Amazon.Com*Ae12Z1K Amzn.Com/Bill WA S585246087036112 Card 4229",
+              "amount": 11.76,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-05-2025",
+              "description": "09/05Bankcard Deposit -0225127436",
+              "amount": 76.83,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "09-05-2025",
+              "description": "Zelle From Estela Martinez on 09/05 Ref # 0A10Xbw1Nimw",
+              "amount": 75.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "09-05-2025",
+              "description": "Zelle From Margarita Ismeri Paz on 09/05 Ref # Jpm99Bm5Zd7Z Brakes",
+              "amount": 180.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "09-05-2025",
+              "description": "Purchase authorized on 09/03 Snap-on Tools Erwi LA Canada CA S305246739084742 Card 4229",
+              "amount": 100.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-05-2025",
+              "description": "Purchase authorized on 09/03 Amazon Mktpl*1Z8Yq Amzn.Com/Bill WA S385247050902178 Card 4229",
+              "amount": 91.47,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-05-2025",
+              "description": "Purchase authorized on 09/04 Amazon Mktpl*H47Ot Amzn.Com/Bill WA S585247558976177 Card 4229",
+              "amount": 10.96,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-05-2025",
+              "description": "Purchase authorized on 09/04 Amazon Mktpl*Hn1Lc Amzn.Com/Bill WA S465247559022449 Card 4229",
+              "amount": 21.94,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-05-2025",
+              "description": "Check 2055",
+              "amount": 2000.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-08-2025",
+              "description": "09/08Bankcard Deposit -0225127436",
+              "amount": 1382.85,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "09-08-2025",
+              "description": "Zelle From Andrew Fuentes on 09/06 Ref # Jpm99Bmaw6Ti.",
+              "amount": 250.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "09-08-2025",
+              "description": "Zelle From Monica M Llamas on 09/06 Ref # Jpm99Bmbkhi4 Toyota Camry Mark Pereida",
+              "amount": 1280.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "09-08-2025",
+              "description": "Zelle From Daniel Haro on 09/06 Ref # Jpm99Bmc7Uaw.",
+              "amount": 450.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "09-08-2025",
+              "description": "ATM Cash Deposit on 09/08 12160 Victory Blvd North Hollywo CA 0005115 ATM ID 06390 Card 4229",
+              "amount": 600.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "09-08-2025",
+              "description": "Zelle From Alyssa Moreno on 09/08 Ref # Bacqselm3219",
+              "amount": 95.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "09-08-2025",
+              "description": "ATM Cash Deposit on 09/08 12160 Victory Blvd North Hollywo CA 0002772 ATM ID 0639B Card 4229",
+              "amount": 800.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "09-08-2025",
+              "description": "Purchase authorized on 09/04 Amazon Mktpl*Xh9Aq Amzn.Com/Bill WA S585247363617379 Card 4229",
+              "amount": 17.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-08-2025",
+              "description": "Purchase authorized on 09/04 Amazon Mktpl*9F9Yj Amzn.Com/Bill WA S465247791293781 Card 4229",
+              "amount": 43.85,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-08-2025",
+              "description": "Purchase authorized on 09/05 Crypto.Com 305-539-0413 TX S385249175713847 Card 4229",
+              "amount": 50.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-08-2025",
+              "description": "Purchase authorized on 09/07 Smart and Final N. Hollywood CA P000000281299779 Card 4229",
+              "amount": 28.17,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-08-2025",
+              "description": "Check 2057",
+              "amount": 844.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-08-2025",
+              "description": "Business to Business ACH Debit - Lendr Lendr/Trn SEP 05 D8Cabe95C07C447 Aguilars Auto Repair",
+              "amount": 1321.43,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-09-2025",
+              "description": "09/09Bankcard Deposit -0225127436",
+              "amount": 872.51,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "09-09-2025",
+              "description": "Zelle From Chisomo Masambuka on 09/09 Ref # Bacp1Hmaxk7E",
+              "amount": 150.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "09-09-2025",
+              "description": "ATM Cash Deposit on 09/09 12160 Victory Blvd North Hollywo CA 0001856 ATM ID 0639A Card 4229",
+              "amount": 2000.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "09-09-2025",
+              "description": "Recurring Payment authorized on 09/08 Frontier Comm Corp WWW.Frontier. CT S465251367323384 Card 4229",
+              "amount": 87.18,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-09-2025",
+              "description": "Purchase authorized on 09/09 Harbor Freight Tools U North Hollywo CA P000000581762130 Card 4229",
+              "amount": 83.32,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-09-2025",
+              "description": "Check 2056",
+              "amount": 261.77,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-10-2025",
+              "description": "Purchase authorized on 09/09 Metro By T-Mobile 888-863-8768 WA S465253084462944 Card 4229",
+              "amount": 45.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-10-2025",
+              "description": "Check 2060",
+              "amount": 1085.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-11-2025",
+              "description": "09/11Bankcard Deposit -0225127436",
+              "amount": 680.45,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "09-11-2025",
+              "description": "Zelle From Hector Martinez on 09/11 Ref # Bacdxumavnv0",
+              "amount": 90.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "09-11-2025",
+              "description": "Zelle From Pritpal Singh on 09/11 Ref # Bacn3Zbixejs",
+              "amount": 485.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "09-11-2025",
+              "description": "Recurring Payment authorized on 09/10 Progressive *Insur 800-776-4737 OH S385253488599896 Card 4229",
+              "amount": 762.88,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-11-2025",
+              "description": "Purchase authorized on 09/10 Amazon Mktpl*Si5Px Amzn.Com/Bill WA S585253772242531 Card 4229",
+              "amount": 464.24,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-11-2025",
+              "description": "Business to Business ACH Debit - Clover Fees Clover Fee 250911 1554553 Aguilarauto Repair",
+              "amount": 41.9,
+              "type": "Debit",
+              "category": "Service Charges/Fees"
+            },
+            {
+              "date": "09-12-2025",
+              "description": "ATM Check Deposit on 09/12 12160 Victory Blvd North Hollywo CA 0003341 ATM ID 0639B Card 4229",
+              "amount": 1300.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "09-12-2025",
+              "description": "ATM Cash Deposit on 09/12 12160 Victory Blvd North Hollywo CA 0003342 ATM ID 0639B Card 4229",
+              "amount": 700.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "09-12-2025",
+              "description": "Zelle From Nidia Molina Benitez on 09/12 Ref # Bacyr5Pgzcum",
+              "amount": 70.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "09-12-2025",
+              "description": "Purchase authorized on 09/10 Snap-on Tools Erwi LA Canada CA S465253793833506 Card 4229",
+              "amount": 100.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-12-2025",
+              "description": "Check 2058",
+              "amount": 1614.81,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-15-2025",
+              "description": "Zelle From Ahmet Tosun on 09/13 Ref # Bacht003S1lj",
+              "amount": 800.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "09-15-2025",
+              "description": "Zelle From Avila Javier on 09/13 Ref # Wfct0Z8SM25D",
+              "amount": 140.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "09-15-2025",
+              "description": "Zelle From Armando H Villegas on 09/15 Ref # Jpm99Bneksb8 Oil",
+              "amount": 280.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "09-15-2025",
+              "description": "ATM Check Deposit on 09/15 12160 Victory Blvd North Hollywo CA 0006394 ATM ID 0639Q Card 4229",
+              "amount": 2000.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "09-15-2025",
+              "description": "Purchase authorized on 09/13 Ebay Commerce Inc. San Jose CA P000000685083219 Card 4229",
+              "amount": 10.9,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-15-2025",
+              "description": "Purchase authorized on 09/14 Smart and Final N. Hollywood CA P000000185703235 Card 4229",
+              "amount": 60.63,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-15-2025",
+              "description": "Check 2064",
+              "amount": 220.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-15-2025",
+              "description": "Business to Business ACH Debit - Lendr Lendr/Trn SEP 12 B89C90719Bee488 Aguilars Auto Repair",
+              "amount": 1321.43,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-15-2025",
+              "description": "Check 2062",
+              "amount": 125.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-15-2025",
+              "description": "Check 2061",
+              "amount": 1500.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-16-2025",
+              "description": "09/16Bankcard Deposit -0225127436",
+              "amount": 833.13,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "09-16-2025",
+              "description": "Zelle From Daniel Rodriguez on 09/16 Ref # Cti4Ldivmgcg",
+              "amount": 500.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "09-16-2025",
+              "description": "Zelle From Chisomo Masambuka on 09/16 Ref # Bacpo25lutr8",
+              "amount": 250.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "09-17-2025",
+              "description": "Zelle From Maria Garcia Rodriguez on 09/17 Ref # Bactlkij9F1H",
+              "amount": 120.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "09-17-2025",
+              "description": "Zelle From Adrian Villalobos on 09/17 Ref # Jpm99Bnmuohn Pagar",
+              "amount": 600.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "09-17-2025",
+              "description": "Purchase authorized on 09/15 CA Dmv Fee 678-7315516 TN S585258736101055 Card 4229",
+              "amount": 0.27,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-17-2025",
+              "description": "Purchase authorized on 09/15 State of Calif Dmv 800-7770133 CA S465258736092466 Card 4229",
+              "amount": 14.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-17-2025",
+              "description": "Purchase authorized on 09/16 Smart and Final N. Hollywood CA P000000851623968 Card 4229",
+              "amount": 42.99,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-17-2025",
+              "description": "Check 2066",
+              "amount": 75.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-17-2025",
+              "description": "Check 2059",
+              "amount": 1236.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-17-2025",
+              "description": "Check 2067",
+              "amount": 1200.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-18-2025",
+              "description": "Purchase authorized on 09/16 Amazon.Com*Kp1Dj0J Amzn.Com/Bill WA S465259331467922 Card 4229",
+              "amount": 10.92,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-18-2025",
+              "description": "Purchase authorized on 09/16 Amazon.Com*J002682 Amzn.Com/Bill WA S585259821398298 Card 4229",
+              "amount": 493.82,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-18-2025",
+              "description": "Purchase authorized on 09/16 Amazon Mktpl*Qa5DI Amzn.Com/Bill WA S465259847305724 Card 4229",
+              "amount": 75.28,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-18-2025",
+              "description": "Recurring Payment authorized on 09/17 Spectrum 855-707-7328 MO S465260672442420 Card 4229",
+              "amount": 335.04,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-18-2025",
+              "description": "Purchase authorized on 09/18 Lowe's #1852 Pacoima CA P385261567354087 Card 4229",
+              "amount": 83.71,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-18-2025",
+              "description": "Check 2068",
+              "amount": 270.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-19-2025",
+              "description": "09/19Bankcard Deposit -0225127436",
+              "amount": 76.83,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "09-19-2025",
+              "description": "Purchase authorized on 09/17 Snap-on Tools Erwi LA Canada CA S465260747174697 Card 4229",
+              "amount": 100.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-19-2025",
+              "description": "Purchase authorized on 09/17 Amazon Mktpl*2P3Ou Amzn.Com/Bill WA S585261043897216 Card 4229",
+              "amount": 119.51,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-22-2025",
+              "description": "Zelle From Raquel Luciosahagun on 09/20 Ref # J3D0F48P8Fs3 Car Repair",
+              "amount": 480.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "09-22-2025",
+              "description": "Zelle From Osman D Del Cid on 09/22 Ref # Jpm99B074Jyh Repair T.",
+              "amount": 630.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "09-22-2025",
+              "description": "ATM Cash Deposit on 09/22 12160 Victory Blvd North Hollywo CA 0007881 ATM ID 0639Q Card 4229",
+              "amount": 1100.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "09-22-2025",
+              "description": "Purchase authorized on 09/18 Amazon Mktpl*7Z5Bf Amzn.Com/Bill WA S305261471714756 Card 4229",
+              "amount": 57.06,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-22-2025",
+              "description": "Recurring Payment authorized on 09/19 Otl*Scoresense.Com 800-679-6327 TX S465262454025319 Card 4229",
+              "amount": 19.95,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-22-2025",
+              "description": "Purchase authorized on 09/19 Amazon Mktpl*A77Yy Amzn.Com/Bill WA S385262625311374 Card 4229",
+              "amount": 75.28,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-22-2025",
+              "description": "Money Transfer authorized on 09/19 Crypto.Com 888-8248817 DE S465263036674810 Card 4229",
+              "amount": 1000.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-22-2025",
+              "description": "Purchase authorized on 09/21 Smart and Final N. Hollywood CA P000000582548351 Card 4229",
+              "amount": 33.05,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-22-2025",
+              "description": "Purchase authorized on 09/21 The Home Depot #6613 N. Hollywood CA P385264828775009 Card 4229",
+              "amount": 240.35,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-22-2025",
+              "description": "Business to Business ACH Debit - Lendr Lendr/Trn SEP 19 2372F66C29534Ba Aguilars Auto Repair",
+              "amount": 1321.43,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-22-2025",
+              "description": "Check 2065",
+              "amount": 2000.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-23-2025",
+              "description": "Purchase Return authorized on 09/23 Ebay Commerce Inc. San Jose CA P000000982623764 Card 4229",
+              "amount": 187.66,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "09-23-2025",
+              "description": "09/23Bankcard Deposit -0225127436",
+              "amount": 274.38,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "09-23-2025",
+              "description": "ATM Cash Deposit on 09/23 12160 Victory Blvd North Hollywo CA 0008073 ATM ID 0639Q Card 4229",
+              "amount": 1400.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "09-23-2025",
+              "description": "Purchase authorized on 09/20 Amazon Mktpl*Lt3Fz Amzn.Com/Bill WA S305263670581319 Card 4229",
+              "amount": 40.27,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-23-2025",
+              "description": "Recurring Payment authorized on 09/22 Amazon Prime*2A540 Amzn.Com/Bill WA S585265781497247 Card 4229",
+              "amount": 16.45,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-23-2025",
+              "description": "Check 2063",
+              "amount": 300.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-23-2025",
+              "description": "Check 2069",
+              "amount": 1936.26,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-24-2025",
+              "description": "ATM Check Deposit on 09/24 8548 Van Nuys Blvd Panorama City CA 0008302 ATM ID 0279A Card 4229",
+              "amount": 11060.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "09-24-2025",
+              "description": "Purchase authorized on 09/22 Amazon Mktpl*Yf4Kx Amzn.Com/Bill WA S305265595399496 Card 4229",
+              "amount": 29.18,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-24-2025",
+              "description": "ATM Withdrawal authorized on 09/24 8548 Van Nuys Blvd Panorama City CA 0008303 ATM ID 0279A Card 4229",
+              "amount": 400.0,
+              "type": "Debit",
+              "category": "ATM/Cash Withdrawal"
+            },
+            {
+              "date": "09-25-2025",
+              "description": "09/25Bankcard Deposit -0225127436",
+              "amount": 38.41,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "09-25-2025",
+              "description": "Zelle From Cubas Cesar on 09/25 Ref # Wfct0Z9Xbfmp",
+              "amount": 500.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "09-26-2025",
+              "description": "Purchase authorized on 09/24 Snap-on Tools Erwi LA Canada CA S585267716110541 Card 4229",
+              "amount": 100.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-26-2025",
+              "description": "Check 2072",
+              "amount": 1330.86,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-29-2025",
+              "description": "Zelle From Monica M Llamas on 09/27 Ref # Jpm99Bot70R9 Mark Toyota Camry",
+              "amount": 390.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "09-29-2025",
+              "description": "Money Transfer authorized on 09/25 Crypto.Com Miami FL S305268721520159 Card 4229",
+              "amount": 2200.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-29-2025",
+              "description": "Purchase authorized on 09/25 Amazon Mktpl*8B4Uu Amzn.Com/Bill WA S385268781424707 Card 4229",
+              "amount": 70.21,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-29-2025",
+              "description": "Purchase authorized on 09/26 Amazon Mktpl*NJ5E8 Amzn.Com/Bill WA S305269805307315 Card 4229",
+              "amount": 88.61,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-29-2025",
+              "description": "Purchase authorized on 09/28 Smart and Final N. Hollywood CA P000000551299159 Card 4229",
+              "amount": 15.85,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-29-2025",
+              "description": "Purchase authorized on 09/28 Superior Super Whse #118 N. Hollywood CA P385271672131158 Card 4229",
+              "amount": 44.11,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-29-2025",
+              "description": "Purchase authorized on 09/29 Ebay Commerce Inc. San Jose CA P000000280048751 Card 4229",
+              "amount": 352.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-29-2025",
+              "description": "Purchase authorized on 09/29 Ebay Commerce Inc. San Jose CA P000000481662353 Card 4229",
+              "amount": 39.25,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-29-2025",
+              "description": "Check 2070",
+              "amount": 150.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-29-2025",
+              "description": "Business to Business ACH Debit - Lendr Lendr/Trn SEP 26 Bed49178Af9C4Bd Aguilars Auto Repair",
+              "amount": 1321.43,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-29-2025",
+              "description": "Check 2074",
+              "amount": 375.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-29-2025",
+              "description": "Check 2073",
+              "amount": 2000.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-30-2025",
+              "description": "09/30Bankcard Deposit -0225127436",
+              "amount": 76.83,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "09-30-2025",
+              "description": "Purchase authorized on 09/29 Amazon Mktpl*NJ9Z6 Amzn.Com/Bill WA S385272748321052 Card 4229",
+              "amount": 76.81,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-30-2025",
+              "description": "Cash Deposit Processing Fee",
+              "amount": 12.3,
+              "type": "Debit",
+              "category": "Service Charges/Fees"
+            }
+          ]
+        }
+      ]
+    },
+    "raw_output": "```json\n{\n  \"bank_statement_information\": {\n    \"bank_name\": \"WELLS FARGO\",\n    \"account_holder\": \"SALVADOR AGUILAR DBA AGUILARAUTO REPAIR\",\n    \"statement_start_date\": \"09-01-2025\",\n    \"statement_end_date\": \"09-30-2025\",\n    \"n_days\": 30,\n    \"n_month\": [\n      9\n    ],\n    \"business_address\": \"11416 EMELITA ST APT 2 NORTH HOLLYWOOD CA 91601-5901\"\n  },\n  \"accounts\": [\n    {\n      \"account_number\": \"2815349754\",\n      \"account_type\": \"Initiate Business Checking\",\n      \"account_summary\": {\n        \"beginning_balance\": 4237.11,\n        \"ending_balance\": 3763.4,\n        \"total_deposits\": 38443.27,\n        \"total_withdrawals\": 38916.98,\n        \"total_deposits_count\": null,\n        \"total_withdrawals_count\": null,\n        \"avg_daily_balance\": null,\n        \"overdraft_days\": 0\n      },\n      \"transactions\": [\n        {\n          \"date\": \"09-02-2025\",\n          \"description\": \"Zelle From Avila Javier on 08/30 Ref # Wfct0Z79G28J\",\n          \"amount\": 180.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"09-02-2025\",\n          \"description\": \"09/02Bankcard Deposit -0225127436\",\n          \"amount\": 1479.17,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"09-02-2025\",\n          \"description\": \"ATM Cash Deposit on 09/02 12160 Victory Blvd North Hollywo CA 0003391 ATM ID 0639Q Card 4229\",\n          \"amount\": 2500.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"09-02-2025\",\n          \"description\": \"Zelle From Chisomo Masambuka on 09/02 Ref # Bacqujne2HOM\",\n          \"amount\": 180.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"09-02-2025\",\n          \"description\": \"Purchase authorized on 08/29 Amazon.Com*Xw7Jg6V Amzn.Com/Bill WA S305242163810129 Card 4229\",\n          \"amount\": 87.76,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-02-2025\",\n          \"description\": \"Purchase authorized on 08/31 Smart and Final N. Hollywood CA P000000681499929 Card 4229\",\n          \"amount\": 40.69,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-02-2025\",\n          \"description\": \"Purchase authorized on 08/31 Tmobile*Prepaid We 877-778-2106 WA S465243563919313 Card 4229\",\n          \"amount\": 60.44,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-02-2025\",\n          \"description\": \"Purchase authorized on 08/31 Tst* Kabuki - Burb Burbank CA S585243802204288 Card 4229\",\n          \"amount\": 204.08,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-02-2025\",\n          \"description\": \"Purchase authorized on 09/01 Smart and Final N. Hollywood CA P000000756118689 Card 4229\",\n          \"amount\": 15.47,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-02-2025\",\n          \"description\": \"Purchase authorized on 09/01 Prime Video Channe Amzn.Com/Bill WA S385245136465962 Card 4229\",\n          \"amount\": 5.99,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-02-2025\",\n          \"description\": \"Business to Business ACH Debit - The Hartford Inspmtcl 17808559 Aguilar's Auto Repair\",\n          \"amount\": 263.8,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-02-2025\",\n          \"description\": \"Business to Business ACH Debit - Lendr Lendr/Trn Aug 29 3F058Dfbad5A467 Aguilars Auto Repair\",\n          \"amount\": 1321.43,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-02-2025\",\n          \"description\": \"Check 2053\",\n          \"amount\": 135.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-03-2025\",\n          \"description\": \"09/03Bankcard Deposit -0225127436\",\n          \"amount\": 76.83,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"09-03-2025\",\n          \"description\": \"Zelle From Cubas Cesar on 09/03 Ref # Wfct0Z7Q6Ykt\",\n          \"amount\": 500.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"09-03-2025\",\n          \"description\": \"Purchase authorized on 09/03 Ebay Commerce Inc. San Jose CA P000000187925024 Card 4229\",\n          \"amount\": 187.66,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-03-2025\",\n          \"description\": \"Check 2054\",\n          \"amount\": 3250.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-03-2025\",\n          \"description\": \"Check 2051\",\n          \"amount\": 87.8,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-03-2025\",\n          \"description\": \"Check 2052\",\n          \"amount\": 1229.97,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-04-2025\",\n          \"description\": \"Purchase Return authorized on 09/03 Amazon.Com Amzn.Com/Bill WA S585246658976420 Card 4229\",\n          \"amount\": 87.76,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"09-04-2025\",\n          \"description\": \"09/04Bankcard Deposit -0225127436\",\n          \"amount\": 164.63,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"09-04-2025\",\n          \"description\": \"Purchase authorized on 09/02 Amazon.Com*Ae12Z1K Amzn.Com/Bill WA S585246087036112 Card 4229\",\n          \"amount\": 11.76,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-05-2025\",\n          \"description\": \"09/05Bankcard Deposit -0225127436\",\n          \"amount\": 76.83,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"09-05-2025\",\n          \"description\": \"Zelle From Estela Martinez on 09/05 Ref # 0A10Xbw1Nimw\",\n          \"amount\": 75.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"09-05-2025\",\n          \"description\": \"Zelle From Margarita Ismeri Paz on 09/05 Ref # Jpm99Bm5Zd7Z Brakes\",\n          \"amount\": 180.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"09-05-2025\",\n          \"description\": \"Purchase authorized on 09/03 Snap-on Tools Erwi LA Canada CA S305246739084742 Card 4229\",\n          \"amount\": 100.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-05-2025\",\n          \"description\": \"Purchase authorized on 09/03 Amazon Mktpl*1Z8Yq Amzn.Com/Bill WA S385247050902178 Card 4229\",\n          \"amount\": 91.47,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-05-2025\",\n          \"description\": \"Purchase authorized on 09/04 Amazon Mktpl*H47Ot Amzn.Com/Bill WA S585247558976177 Card 4229\",\n          \"amount\": 10.96,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-05-2025\",\n          \"description\": \"Purchase authorized on 09/04 Amazon Mktpl*Hn1Lc Amzn.Com/Bill WA S465247559022449 Card 4229\",\n          \"amount\": 21.94,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-05-2025\",\n          \"description\": \"Check 2055\",\n          \"amount\": 2000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"description\": \"09/08Bankcard Deposit -0225127436\",\n          \"amount\": 1382.85,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"description\": \"Zelle From Andrew Fuentes on 09/06 Ref # Jpm99Bmaw6Ti.\",\n          \"amount\": 250.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"description\": \"Zelle From Monica M Llamas on 09/06 Ref # Jpm99Bmbkhi4 Toyota Camry Mark Pereida\",\n          \"amount\": 1280.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"description\": \"Zelle From Daniel Haro on 09/06 Ref # Jpm99Bmc7Uaw.\",\n          \"amount\": 450.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"description\": \"ATM Cash Deposit on 09/08 12160 Victory Blvd North Hollywo CA 0005115 ATM ID 06390 Card 4229\",\n          \"amount\": 600.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"description\": \"Zelle From Alyssa Moreno on 09/08 Ref # Bacqselm3219\",\n          \"amount\": 95.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"description\": \"ATM Cash Deposit on 09/08 12160 Victory Blvd North Hollywo CA 0002772 ATM ID 0639B Card 4229\",\n          \"amount\": 800.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"description\": \"Purchase authorized on 09/04 Amazon Mktpl*Xh9Aq Amzn.Com/Bill WA S585247363617379 Card 4229\",\n          \"amount\": 17.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"description\": \"Purchase authorized on 09/04 Amazon Mktpl*9F9Yj Amzn.Com/Bill WA S465247791293781 Card 4229\",\n          \"amount\": 43.85,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"description\": \"Purchase authorized on 09/05 Crypto.Com 305-539-0413 TX S385249175713847 Card 4229\",\n          \"amount\": 50.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"description\": \"Purchase authorized on 09/07 Smart and Final N. Hollywood CA P000000281299779 Card 4229\",\n          \"amount\": 28.17,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"description\": \"Check 2057\",\n          \"amount\": 844.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"description\": \"Business to Business ACH Debit - Lendr Lendr/Trn SEP 05 D8Cabe95C07C447 Aguilars Auto Repair\",\n          \"amount\": 1321.43,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-09-2025\",\n          \"description\": \"09/09Bankcard Deposit -0225127436\",\n          \"amount\": 872.51,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"09-09-2025\",\n          \"description\": \"Zelle From Chisomo Masambuka on 09/09 Ref # Bacp1Hmaxk7E\",\n          \"amount\": 150.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"09-09-2025\",\n          \"description\": \"ATM Cash Deposit on 09/09 12160 Victory Blvd North Hollywo CA 0001856 ATM ID 0639A Card 4229\",\n          \"amount\": 2000.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"09-09-2025\",\n          \"description\": \"Recurring Payment authorized on 09/08 Frontier Comm Corp WWW.Frontier. CT S465251367323384 Card 4229\",\n          \"amount\": 87.18,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-09-2025\",\n          \"description\": \"Purchase authorized on 09/09 Harbor Freight Tools U North Hollywo CA P000000581762130 Card 4229\",\n          \"amount\": 83.32,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-09-2025\",\n          \"description\": \"Check 2056\",\n          \"amount\": 261.77,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-10-2025\",\n          \"description\": \"Purchase authorized on 09/09 Metro By T-Mobile 888-863-8768 WA S465253084462944 Card 4229\",\n          \"amount\": 45.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-10-2025\",\n          \"description\": \"Check 2060\",\n          \"amount\": 1085.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-11-2025\",\n          \"description\": \"09/11Bankcard Deposit -0225127436\",\n          \"amount\": 680.45,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"09-11-2025\",\n          \"description\": \"Zelle From Hector Martinez on 09/11 Ref # Bacdxumavnv0\",\n          \"amount\": 90.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"09-11-2025\",\n          \"description\": \"Zelle From Pritpal Singh on 09/11 Ref # Bacn3Zbixejs\",\n          \"amount\": 485.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"09-11-2025\",\n          \"description\": \"Recurring Payment authorized on 09/10 Progressive *Insur 800-776-4737 OH S385253488599896 Card 4229\",\n          \"amount\": 762.88,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-11-2025\",\n          \"description\": \"Purchase authorized on 09/10 Amazon Mktpl*Si5Px Amzn.Com/Bill WA S585253772242531 Card 4229\",\n          \"amount\": 464.24,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-11-2025\",\n          \"description\": \"Business to Business ACH Debit - Clover Fees Clover Fee 250911 1554553 Aguilarauto Repair\",\n          \"amount\": 41.9,\n          \"type\": \"Debit\",\n          \"category\": \"Service Charges/Fees\"\n        },\n        {\n          \"date\": \"09-12-2025\",\n          \"description\": \"ATM Check Deposit on 09/12 12160 Victory Blvd North Hollywo CA 0003341 ATM ID 0639B Card 4229\",\n          \"amount\": 1300.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"09-12-2025\",\n          \"description\": \"ATM Cash Deposit on 09/12 12160 Victory Blvd North Hollywo CA 0003342 ATM ID 0639B Card 4229\",\n          \"amount\": 700.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"09-12-2025\",\n          \"description\": \"Zelle From Nidia Molina Benitez on 09/12 Ref # Bacyr5Pgzcum\",\n          \"amount\": 70.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"09-12-2025\",\n          \"description\": \"Purchase authorized on 09/10 Snap-on Tools Erwi LA Canada CA S465253793833506 Card 4229\",\n          \"amount\": 100.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-12-2025\",\n          \"description\": \"Check 2058\",\n          \"amount\": 1614.81,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-15-2025\",\n          \"description\": \"Zelle From Ahmet Tosun on 09/13 Ref # Bacht003S1lj\",\n          \"amount\": 800.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"09-15-2025\",\n          \"description\": \"Zelle From Avila Javier on 09/13 Ref # Wfct0Z8SM25D\",\n          \"amount\": 140.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"09-15-2025\",\n          \"description\": \"Zelle From Armando H Villegas on 09/15 Ref # Jpm99Bneksb8 Oil\",\n          \"amount\": 280.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"09-15-2025\",\n          \"description\": \"ATM Check Deposit on 09/15 12160 Victory Blvd North Hollywo CA 0006394 ATM ID 0639Q Card 4229\",\n          \"amount\": 2000.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"09-15-2025\",\n          \"description\": \"Purchase authorized on 09/13 Ebay Commerce Inc. San Jose CA P000000685083219 Card 4229\",\n          \"amount\": 10.9,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-15-2025\",\n          \"description\": \"Purchase authorized on 09/14 Smart and Final N. Hollywood CA P000000185703235 Card 4229\",\n          \"amount\": 60.63,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-15-2025\",\n          \"description\": \"Check 2064\",\n          \"amount\": 220.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-15-2025\",\n          \"description\": \"Business to Business ACH Debit - Lendr Lendr/Trn SEP 12 B89C90719Bee488 Aguilars Auto Repair\",\n          \"amount\": 1321.43,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-15-2025\",\n          \"description\": \"Check 2062\",\n          \"amount\": 125.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-15-2025\",\n          \"description\": \"Check 2061\",\n          \"amount\": 1500.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-16-2025\",\n          \"description\": \"09/16Bankcard Deposit -0225127436\",\n          \"amount\": 833.13,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"09-16-2025\",\n          \"description\": \"Zelle From Daniel Rodriguez on 09/16 Ref # Cti4Ldivmgcg\",\n          \"amount\": 500.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"09-16-2025\",\n          \"description\": \"Zelle From Chisomo Masambuka on 09/16 Ref # Bacpo25lutr8\",\n          \"amount\": 250.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"09-17-2025\",\n          \"description\": \"Zelle From Maria Garcia Rodriguez on 09/17 Ref # Bactlkij9F1H\",\n          \"amount\": 120.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"09-17-2025\",\n          \"description\": \"Zelle From Adrian Villalobos on 09/17 Ref # Jpm99Bnmuohn Pagar\",\n          \"amount\": 600.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"09-17-2025\",\n          \"description\": \"Purchase authorized on 09/15 CA Dmv Fee 678-7315516 TN S585258736101055 Card 4229\",\n          \"amount\": 0.27,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-17-2025\",\n          \"description\": \"Purchase authorized on 09/15 State of Calif Dmv 800-7770133 CA S465258736092466 Card 4229\",\n          \"amount\": 14.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-17-2025\",\n          \"description\": \"Purchase authorized on 09/16 Smart and Final N. Hollywood CA P000000851623968 Card 4229\",\n          \"amount\": 42.99,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-17-2025\",\n          \"description\": \"Check 2066\",\n          \"amount\": 75.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-17-2025\",\n          \"description\": \"Check 2059\",\n          \"amount\": 1236.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-17-2025\",\n          \"description\": \"Check 2067\",\n          \"amount\": 1200.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-18-2025\",\n          \"description\": \"Purchase authorized on 09/16 Amazon.Com*Kp1Dj0J Amzn.Com/Bill WA S465259331467922 Card 4229\",\n          \"amount\": 10.92,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-18-2025\",\n          \"description\": \"Purchase authorized on 09/16 Amazon.Com*J002682 Amzn.Com/Bill WA S585259821398298 Card 4229\",\n          \"amount\": 493.82,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-18-2025\",\n          \"description\": \"Purchase authorized on 09/16 Amazon Mktpl*Qa5DI Amzn.Com/Bill WA S465259847305724 Card 4229\",\n          \"amount\": 75.28,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-18-2025\",\n          \"description\": \"Recurring Payment authorized on 09/17 Spectrum 855-707-7328 MO S465260672442420 Card 4229\",\n          \"amount\": 335.04,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-18-2025\",\n          \"description\": \"Purchase authorized on 09/18 Lowe's #1852 Pacoima CA P385261567354087 Card 4229\",\n          \"amount\": 83.71,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-18-2025\",\n          \"description\": \"Check 2068\",\n          \"amount\": 270.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-19-2025\",\n          \"description\": \"09/19Bankcard Deposit -0225127436\",\n          \"amount\": 76.83,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"09-19-2025\",\n          \"description\": \"Purchase authorized on 09/17 Snap-on Tools Erwi LA Canada CA S465260747174697 Card 4229\",\n          \"amount\": 100.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-19-2025\",\n          \"description\": \"Purchase authorized on 09/17 Amazon Mktpl*2P3Ou Amzn.Com/Bill WA S585261043897216 Card 4229\",\n          \"amount\": 119.51,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-22-2025\",\n          \"description\": \"Zelle From Raquel Luciosahagun on 09/20 Ref # J3D0F48P8Fs3 Car Repair\",\n          \"amount\": 480.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"09-22-2025\",\n          \"description\": \"Zelle From Osman D Del Cid on 09/22 Ref # Jpm99B074Jyh Repair T.\",\n          \"amount\": 630.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"09-22-2025\",\n          \"description\": \"ATM Cash Deposit on 09/22 12160 Victory Blvd North Hollywo CA 0007881 ATM ID 0639Q Card 4229\",\n          \"amount\": 1100.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"09-22-2025\",\n          \"description\": \"Purchase authorized on 09/18 Amazon Mktpl*7Z5Bf Amzn.Com/Bill WA S305261471714756 Card 4229\",\n          \"amount\": 57.06,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-22-2025\",\n          \"description\": \"Recurring Payment authorized on 09/19 Otl*Scoresense.Com 800-679-6327 TX S465262454025319 Card 4229\",\n          \"amount\": 19.95,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-22-2025\",\n          \"description\": \"Purchase authorized on 09/19 Amazon Mktpl*A77Yy Amzn.Com/Bill WA S385262625311374 Card 4229\",\n          \"amount\": 75.28,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-22-2025\",\n          \"description\": \"Money Transfer authorized on 09/19 Crypto.Com 888-8248817 DE S465263036674810 Card 4229\",\n          \"amount\": 1000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-22-2025\",\n          \"description\": \"Purchase authorized on 09/21 Smart and Final N. Hollywood CA P000000582548351 Card 4229\",\n          \"amount\": 33.05,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-22-2025\",\n          \"description\": \"Purchase authorized on 09/21 The Home Depot #6613 N. Hollywood CA P385264828775009 Card 4229\",\n          \"amount\": 240.35,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-22-2025\",\n          \"description\": \"Business to Business ACH Debit - Lendr Lendr/Trn SEP 19 2372F66C29534Ba Aguilars Auto Repair\",\n          \"amount\": 1321.43,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-22-2025\",\n          \"description\": \"Check 2065\",\n          \"amount\": 2000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-23-2025\",\n          \"description\": \"Purchase Return authorized on 09/23 Ebay Commerce Inc. San Jose CA P000000982623764 Card 4229\",\n          \"amount\": 187.66,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"09-23-2025\",\n          \"description\": \"09/23Bankcard Deposit -0225127436\",\n          \"amount\": 274.38,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"09-23-2025\",\n          \"description\": \"ATM Cash Deposit on 09/23 12160 Victory Blvd North Hollywo CA 0008073 ATM ID 0639Q Card 4229\",\n          \"amount\": 1400.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"09-23-2025\",\n          \"description\": \"Purchase authorized on 09/20 Amazon Mktpl*Lt3Fz Amzn.Com/Bill WA S305263670581319 Card 4229\",\n          \"amount\": 40.27,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-23-2025\",\n          \"description\": \"Recurring Payment authorized on 09/22 Amazon Prime*2A540 Amzn.Com/Bill WA S585265781497247 Card 4229\",\n          \"amount\": 16.45,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-23-2025\",\n          \"description\": \"Check 2063\",\n          \"amount\": 300.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-23-2025\",\n          \"description\": \"Check 2069\",\n          \"amount\": 1936.26,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-24-2025\",\n          \"description\": \"ATM Check Deposit on 09/24 8548 Van Nuys Blvd Panorama City CA 0008302 ATM ID 0279A Card 4229\",\n          \"amount\": 11060.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"09-24-2025\",\n          \"description\": \"Purchase authorized on 09/22 Amazon Mktpl*Yf4Kx Amzn.Com/Bill WA S305265595399496 Card 4229\",\n          \"amount\": 29.18,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-24-2025\",\n          \"description\": \"ATM Withdrawal authorized on 09/24 8548 Van Nuys Blvd Panorama City CA 0008303 ATM ID 0279A Card 4229\",\n          \"amount\": 400.0,\n          \"type\": \"Debit\",\n          \"category\": \"ATM/Cash Withdrawal\"\n        },\n        {\n          \"date\": \"09-25-2025\",\n          \"description\": \"09/25Bankcard Deposit -0225127436\",\n          \"amount\": 38.41,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"09-25-2025\",\n          \"description\": \"Zelle From Cubas Cesar on 09/25 Ref # Wfct0Z9Xbfmp\",\n          \"amount\": 500.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"09-26-2025\",\n          \"description\": \"Purchase authorized on 09/24 Snap-on Tools Erwi LA Canada CA S585267716110541 Card 4229\",\n          \"amount\": 100.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-26-2025\",\n          \"description\": \"Check 2072\",\n          \"amount\": 1330.86,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-29-2025\",\n          \"description\": \"Zelle From Monica M Llamas on 09/27 Ref # Jpm99Bot70R9 Mark Toyota Camry\",\n          \"amount\": 390.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"09-29-2025\",\n          \"description\": \"Money Transfer authorized on 09/25 Crypto.Com Miami FL S305268721520159 Card 4229\",\n          \"amount\": 2200.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-29-2025\",\n          \"description\": \"Purchase authorized on 09/25 Amazon Mktpl*8B4Uu Amzn.Com/Bill WA S385268781424707 Card 4229\",\n          \"amount\": 70.21,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-29-2025\",\n          \"description\": \"Purchase authorized on 09/26 Amazon Mktpl*NJ5E8 Amzn.Com/Bill WA S305269805307315 Card 4229\",\n          \"amount\": 88.61,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-29-2025\",\n          \"description\": \"Purchase authorized on 09/28 Smart and Final N. Hollywood CA P000000551299159 Card 4229\",\n          \"amount\": 15.85,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-29-2025\",\n          \"description\": \"Purchase authorized on 09/28 Superior Super Whse #118 N. Hollywood CA P385271672131158 Card 4229\",\n          \"amount\": 44.11,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-29-2025\",\n          \"description\": \"Purchase authorized on 09/29 Ebay Commerce Inc. San Jose CA P000000280048751 Card 4229\",\n          \"amount\": 352.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-29-2025\",\n          \"description\": \"Purchase authorized on 09/29 Ebay Commerce Inc. San Jose CA P000000481662353 Card 4229\",\n          \"amount\": 39.25,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-29-2025\",\n          \"description\": \"Check 2070\",\n          \"amount\": 150.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-29-2025\",\n          \"description\": \"Business to Business ACH Debit - Lendr Lendr/Trn SEP 26 Bed49178Af9C4Bd Aguilars Auto Repair\",\n          \"amount\": 1321.43,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-29-2025\",\n          \"description\": \"Check 2074\",\n          \"amount\": 375.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-29-2025\",\n          \"description\": \"Check 2073\",\n          \"amount\": 2000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-30-2025\",\n          \"description\": \"09/30Bankcard Deposit -0225127436\",\n          \"amount\": 76.83,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"09-30-2025\",\n          \"description\": \"Purchase authorized on 09/29 Amazon Mktpl*NJ9Z6 Amzn.Com/Bill WA S385272748321052 Card 4229\",\n          \"amount\": 76.81,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-30-2025\",\n          \"description\": \"Cash Deposit Processing Fee\",\n          \"amount\": 12.3,\n          \"type\": \"Debit\",\n          \"category\": \"Service Charges/Fees\"\n        }\n      ]\n    }\n  ]\n}\n```",
+    "token_count": {
+      "estimated_tokens": 2985
+    },
+    "failure_reason": null
+  },
+  "bsi_analyzer_result": {
+    "agent_name": "v1_bsi_analyzer_agent",
+    "processing_status": "success",
+    "start_time": "2026-02-04T15:10:32.464305",
+    "end_time": "2026-02-04T15:12:16.363969",
+    "parsed_json": {
+      "accounts": [
+        {
+          "account_number": "2815349754",
+          "account_type": "Initiate Business Checking",
+          "mca_deposit": [],
+          "mca_withdrawal": [
+            {
+              "mca_name": "Lendr",
+              "date": "09-02-2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - Lendr Lendr/Trn Aug 29 3F058Dfbad5A467 Aguilars Auto Repair",
+              "amount": 1321.43
+            },
+            {
+              "mca_name": "Lendr",
+              "date": "09-08-2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - Lendr Lendr/Trn SEP 05 D8Cabe95C07C447 Aguilars Auto Repair",
+              "amount": 1321.43
+            },
+            {
+              "mca_name": "Lendr",
+              "date": "09-15-2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - Lendr Lendr/Trn SEP 12 B89C90719Bee488 Aguilars Auto Repair",
+              "amount": 1321.43
+            },
+            {
+              "mca_name": "Lendr",
+              "date": "09-22-2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - Lendr Lendr/Trn SEP 19 2372F66C29534Ba Aguilars Auto Repair",
+              "amount": 1321.43
+            },
+            {
+              "mca_name": "Lendr",
+              "date": "09-29-2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - Lendr Lendr/Trn SEP 26 Bed49178Af9C4Bd Aguilars Auto Repair",
+              "amount": 1321.43
+            }
+          ],
+          "returned_items": [],
+          "overdrafts": [],
+          "service_charges": [
+            {
+              "date": "09-11-2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - Clover Fees Clover Fee 250911 1554553 Aguilarauto Repair",
+              "amount": 41.9
+            },
+            {
+              "date": "09-30-2025",
+              "type": "Debit",
+              "description": "Cash Deposit Processing Fee",
+              "amount": 12.3
+            }
+          ],
+          "atm_cash_withdrawal": [
+            {
+              "date": "09-24-2025",
+              "type": "Debit",
+              "description": "ATM Withdrawal authorized on 09/24 8548 Van Nuys Blvd Panorama City CA 0008303 ATM ID 0279A Card 4229",
+              "amount": 400.0
+            }
+          ],
+          "internal_transfer_deposit": [],
+          "other_transfer_deposit": [
+            {
+              "date": "09-02-2025",
+              "description": "Zelle From Avila Javier on 08/30 Ref # Wfct0Z79G28J",
+              "amount": 180.0,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-02-2025",
+              "description": "Zelle From Chisomo Masambuka on 09/02 Ref # Bacqujne2HOM",
+              "amount": 180.0,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-03-2025",
+              "description": "Zelle From Cubas Cesar on 09/03 Ref # Wfct0Z7Q6Ykt",
+              "amount": 500.0,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-05-2025",
+              "description": "Zelle From Estela Martinez on 09/05 Ref # 0A10Xbw1Nimw",
+              "amount": 75.0,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-05-2025",
+              "description": "Zelle From Margarita Ismeri Paz on 09/05 Ref # Jpm99Bm5Zd7Z Brakes",
+              "amount": 180.0,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-08-2025",
+              "description": "Zelle From Andrew Fuentes on 09/06 Ref # Jpm99Bmaw6Ti.",
+              "amount": 250.0,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-08-2025",
+              "description": "Zelle From Monica M Llamas on 09/06 Ref # Jpm99Bmbkhi4 Toyota Camry Mark Pereida",
+              "amount": 1280.0,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-08-2025",
+              "description": "Zelle From Daniel Haro on 09/06 Ref # Jpm99Bmc7Uaw.",
+              "amount": 450.0,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-08-2025",
+              "description": "Zelle From Alyssa Moreno on 09/08 Ref # Bacqselm3219",
+              "amount": 95.0,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-09-2025",
+              "description": "Zelle From Chisomo Masambuka on 09/09 Ref # Bacp1Hmaxk7E",
+              "amount": 150.0,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-11-2025",
+              "description": "Zelle From Hector Martinez on 09/11 Ref # Bacdxumavnv0",
+              "amount": 90.0,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-11-2025",
+              "description": "Zelle From Pritpal Singh on 09/11 Ref # Bacn3Zbixejs",
+              "amount": 485.0,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-12-2025",
+              "description": "Zelle From Nidia Molina Benitez on 09/12 Ref # Bacyr5Pgzcum",
+              "amount": 70.0,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-15-2025",
+              "description": "Zelle From Ahmet Tosun on 09/13 Ref # Bacht003S1lj",
+              "amount": 800.0,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-15-2025",
+              "description": "Zelle From Avila Javier on 09/13 Ref # Wfct0Z8SM25D",
+              "amount": 140.0,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-15-2025",
+              "description": "Zelle From Armando H Villegas on 09/15 Ref # Jpm99Bneksb8 Oil",
+              "amount": 280.0,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-16-2025",
+              "description": "Zelle From Daniel Rodriguez on 09/16 Ref # Cti4Ldivmgcg",
+              "amount": 500.0,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-16-2025",
+              "description": "Zelle From Chisomo Masambuka on 09/16 Ref # Bacpo25lutr8",
+              "amount": 250.0,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-17-2025",
+              "description": "Zelle From Maria Garcia Rodriguez on 09/17 Ref # Bactlkij9F1H",
+              "amount": 120.0,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-17-2025",
+              "description": "Zelle From Adrian Villalobos on 09/17 Ref # Jpm99Bnmuohn Pagar",
+              "amount": 600.0,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-22-2025",
+              "description": "Zelle From Raquel Luciosahagun on 09/20 Ref # J3D0F48P8Fs3 Car Repair",
+              "amount": 480.0,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-22-2025",
+              "description": "Zelle From Osman D Del Cid on 09/22 Ref # Jpm99B074Jyh Repair T.",
+              "amount": 630.0,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-25-2025",
+              "description": "Zelle From Cubas Cesar on 09/25 Ref # Wfct0Z9Xbfmp",
+              "amount": 500.0,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-29-2025",
+              "description": "Zelle From Monica M Llamas on 09/27 Ref # Jpm99Bot70R9 Mark Toyota Camry",
+              "amount": 390.0,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            }
+          ],
+          "internal_transfer_withdrawal": [],
+          "other_transfer_withdrawal": [
+            {
+              "date": "09-02-2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - The Hartford Inspmtcl 17808559 Aguilar's Auto Repair",
+              "amount": 263.8
+            },
+            {
+              "date": "09-22-2025",
+              "type": "Debit",
+              "description": "Money Transfer authorized on 09/19 Crypto.Com 888-8248817 DE S465263036674810 Card 4229",
+              "amount": 1000.0
+            },
+            {
+              "date": "09-29-2025",
+              "type": "Debit",
+              "description": "Money Transfer authorized on 09/25 Crypto.Com Miami FL S305268721520159 Card 4229",
+              "amount": 2200.0
+            }
+          ],
+          "standard_deposit": [
+            {
+              "date": "09-02-2025",
+              "description": "09/02Bankcard Deposit -0225127436",
+              "amount": 1479.17,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-02-2025",
+              "description": "ATM Cash Deposit on 09/02 12160 Victory Blvd North Hollywo CA 0003391 ATM ID 0639Q Card 4229",
+              "amount": 2500.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-03-2025",
+              "description": "09/03Bankcard Deposit -0225127436",
+              "amount": 76.83,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-04-2025",
+              "description": "Purchase Return authorized on 09/03 Amazon.Com Amzn.Com/Bill WA S585246658976420 Card 4229",
+              "amount": 87.76,
+              "type": "Credit",
+              "non_true_revenue": 1
+            },
+            {
+              "date": "09-04-2025",
+              "description": "09/04Bankcard Deposit -0225127436",
+              "amount": 164.63,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-05-2025",
+              "description": "09/05Bankcard Deposit -0225127436",
+              "amount": 76.83,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-08-2025",
+              "description": "09/08Bankcard Deposit -0225127436",
+              "amount": 1382.85,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-08-2025",
+              "description": "ATM Cash Deposit on 09/08 12160 Victory Blvd North Hollywo CA 0005115 ATM ID 06390 Card 4229",
+              "amount": 600.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-08-2025",
+              "description": "ATM Cash Deposit on 09/08 12160 Victory Blvd North Hollywo CA 0002772 ATM ID 0639B Card 4229",
+              "amount": 800.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-09-2025",
+              "description": "09/09Bankcard Deposit -0225127436",
+              "amount": 872.51,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-09-2025",
+              "description": "ATM Cash Deposit on 09/09 12160 Victory Blvd North Hollywo CA 0001856 ATM ID 0639A Card 4229",
+              "amount": 2000.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-11-2025",
+              "description": "09/11Bankcard Deposit -0225127436",
+              "amount": 680.45,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-12-2025",
+              "description": "ATM Check Deposit on 09/12 12160 Victory Blvd North Hollywo CA 0003341 ATM ID 0639B Card 4229",
+              "amount": 1300.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-12-2025",
+              "description": "ATM Cash Deposit on 09/12 12160 Victory Blvd North Hollywo CA 0003342 ATM ID 0639B Card 4229",
+              "amount": 700.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-15-2025",
+              "description": "ATM Check Deposit on 09/15 12160 Victory Blvd North Hollywo CA 0006394 ATM ID 0639Q Card 4229",
+              "amount": 2000.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-16-2025",
+              "description": "09/16Bankcard Deposit -0225127436",
+              "amount": 833.13,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-19-2025",
+              "description": "09/19Bankcard Deposit -0225127436",
+              "amount": 76.83,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-23-2025",
+              "description": "Purchase Return authorized on 09/23 Ebay Commerce Inc. San Jose CA P000000982623764 Card 4229",
+              "amount": 187.66,
+              "type": "Credit",
+              "non_true_revenue": 1
+            },
+            {
+              "date": "09-23-2025",
+              "description": "09/23Bankcard Deposit -0225127436",
+              "amount": 274.38,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-23-2025",
+              "description": "ATM Cash Deposit on 09/23 12160 Victory Blvd North Hollywo CA 0008073 ATM ID 0639Q Card 4229",
+              "amount": 1400.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-24-2025",
+              "description": "ATM Check Deposit on 09/24 8548 Van Nuys Blvd Panorama City CA 0008302 ATM ID 0279A Card 4229",
+              "amount": 11060.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-25-2025",
+              "description": "09/25Bankcard Deposit -0225127436",
+              "amount": 38.41,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-30-2025",
+              "description": "09/30Bankcard Deposit -0225127436",
+              "amount": 76.83,
+              "type": "Credit",
+              "non_true_revenue": 0
+            }
+          ],
+          "standard_withdrawal": [
+            {
+              "date": "09-02-2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 08/29 Amazon.Com*Xw7Jg6V Amzn.Com/Bill WA S305242163810129 Card 4229",
+              "amount": 87.76
+            },
+            {
+              "date": "09-02-2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 08/31 Smart and Final N. Hollywood CA P000000681499929 Card 4229",
+              "amount": 40.69
+            },
+            {
+              "date": "09-02-2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 08/31 Tmobile*Prepaid We 877-778-2106 WA S465243563919313 Card 4229",
+              "amount": 60.44
+            },
+            {
+              "date": "09-02-2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 08/31 Tst* Kabuki - Burb Burbank CA S585243802204288 Card 4229",
+              "amount": 204.08
+            },
+            {
+              "date": "09-02-2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/01 Smart and Final N. Hollywood CA P000000756118689 Card 4229",
+              "amount": 15.47
+            },
+            {
+              "date": "09-02-2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/01 Prime Video Channe Amzn.Com/Bill WA S385245136465962 Card 4229",
+              "amount": 5.99
+            },
+            {
+              "date": "09-02-2025",
+              "type": "Debit",
+              "description": "Check 2053",
+              "amount": 135.0
+            },
+            {
+              "date": "09-03-2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/03 Ebay Commerce Inc. San Jose CA P000000187925024 Card 4229",
+              "amount": 187.66
+            },
+            {
+              "date": "09-03-2025",
+              "type": "Debit",
+              "description": "Check 2054",
+              "amount": 3250.0
+            },
+            {
+              "date": "09-03-2025",
+              "type": "Debit",
+              "description": "Check 2051",
+              "amount": 87.8
+            },
+            {
+              "date": "09-03-2025",
+              "type": "Debit",
+              "description": "Check 2052",
+              "amount": 1229.97
+            },
+            {
+              "date": "09-04-2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/02 Amazon.Com*Ae12Z1K Amzn.Com/Bill WA S585246087036112 Card 4229",
+              "amount": 11.76
+            },
+            {
+              "date": "09-05-2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/03 Snap-on Tools Erwi LA Canada CA S305246739084742 Card 4229",
+              "amount": 100.0
+            },
+            {
+              "date": "09-05-2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/03 Amazon Mktpl*1Z8Yq Amzn.Com/Bill WA S385247050902178 Card 4229",
+              "amount": 91.47
+            },
+            {
+              "date": "09-05-2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/04 Amazon Mktpl*H47Ot Amzn.Com/Bill WA S585247558976177 Card 4229",
+              "amount": 10.96
+            },
+            {
+              "date": "09-05-2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/04 Amazon Mktpl*Hn1Lc Amzn.Com/Bill WA S465247559022449 Card 4229",
+              "amount": 21.94
+            },
+            {
+              "date": "09-05-2025",
+              "type": "Debit",
+              "description": "Check 2055",
+              "amount": 2000.0
+            },
+            {
+              "date": "09-08-2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/04 Amazon Mktpl*Xh9Aq Amzn.Com/Bill WA S585247363617379 Card 4229",
+              "amount": 17.0
+            },
+            {
+              "date": "09-08-2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/04 Amazon Mktpl*9F9Yj Amzn.Com/Bill WA S465247791293781 Card 4229",
+              "amount": 43.85
+            },
+            {
+              "date": "09-08-2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/05 Crypto.Com 305-539-0413 TX S385249175713847 Card 4229",
+              "amount": 50.0
+            },
+            {
+              "date": "09-08-2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/07 Smart and Final N. Hollywood CA P000000281299779 Card 4229",
+              "amount": 28.17
+            },
+            {
+              "date": "09-08-2025",
+              "type": "Debit",
+              "description": "Check 2057",
+              "amount": 844.0
+            },
+            {
+              "date": "09-09-2025",
+              "type": "Debit",
+              "description": "Recurring Payment authorized on 09/08 Frontier Comm Corp WWW.Frontier. CT S465251367323384 Card 4229",
+              "amount": 87.18
+            },
+            {
+              "date": "09-09-2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/09 Harbor Freight Tools U North Hollywo CA P000000581762130 Card 4229",
+              "amount": 83.32
+            },
+            {
+              "date": "09-09-2025",
+              "type": "Debit",
+              "description": "Check 2056",
+              "amount": 261.77
+            },
+            {
+              "date": "09-10-2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/09 Metro By T-Mobile 888-863-8768 WA S465253084462944 Card 4229",
+              "amount": 45.0
+            },
+            {
+              "date": "09-10-2025",
+              "type": "Debit",
+              "description": "Check 2060",
+              "amount": 1085.0
+            },
+            {
+              "date": "09-11-2025",
+              "type": "Debit",
+              "description": "Recurring Payment authorized on 09/10 Progressive *Insur 800-776-4737 OH S385253488599896 Card 4229",
+              "amount": 762.88
+            },
+            {
+              "date": "09-11-2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/10 Amazon Mktpl*Si5Px Amzn.Com/Bill WA S585253772242531 Card 4229",
+              "amount": 464.24
+            },
+            {
+              "date": "09-12-2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/10 Snap-on Tools Erwi LA Canada CA S465253793833506 Card 4229",
+              "amount": 100.0
+            },
+            {
+              "date": "09-12-2025",
+              "type": "Debit",
+              "description": "Check 2058",
+              "amount": 1614.81
+            },
+            {
+              "date": "09-15-2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/13 Ebay Commerce Inc. San Jose CA P000000685083219 Card 4229",
+              "amount": 10.9
+            },
+            {
+              "date": "09-15-2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/14 Smart and Final N. Hollywood CA P000000185703235 Card 4229",
+              "amount": 60.63
+            },
+            {
+              "date": "09-15-2025",
+              "type": "Debit",
+              "description": "Check 2064",
+              "amount": 220.0
+            },
+            {
+              "date": "09-15-2025",
+              "type": "Debit",
+              "description": "Check 2062",
+              "amount": 125.0
+            },
+            {
+              "date": "09-15-2025",
+              "type": "Debit",
+              "description": "Check 2061",
+              "amount": 1500.0
+            },
+            {
+              "date": "09-17-2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/15 CA Dmv Fee 678-7315516 TN S585258736101055 Card 4229",
+              "amount": 0.27
+            },
+            {
+              "date": "09-17-2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/15 State of Calif Dmv 800-7770133 CA S465258736092466 Card 4229",
+              "amount": 14.0
+            },
+            {
+              "date": "09-17-2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/16 Smart and Final N. Hollywood CA P000000851623968 Card 4229",
+              "amount": 42.99
+            },
+            {
+              "date": "09-17-2025",
+              "type": "Debit",
+              "description": "Check 2066",
+              "amount": 75.0
+            },
+            {
+              "date": "09-17-2025",
+              "type": "Debit",
+              "description": "Check 2059",
+              "amount": 1236.0
+            },
+            {
+              "date": "09-17-2025",
+              "type": "Debit",
+              "description": "Check 2067",
+              "amount": 1200.0
+            },
+            {
+              "date": "09-18-2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/16 Amazon.Com*Kp1Dj0J Amzn.Com/Bill WA S465259331467922 Card 4229",
+              "amount": 10.92
+            },
+            {
+              "date": "09-18-2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/16 Amazon.Com*J002682 Amzn.Com/Bill WA S585259821398298 Card 4229",
+              "amount": 493.82
+            },
+            {
+              "date": "09-18-2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/16 Amazon Mktpl*Qa5DI Amzn.Com/Bill WA S465259847305724 Card 4229",
+              "amount": 75.28
+            },
+            {
+              "date": "09-18-2025",
+              "type": "Debit",
+              "description": "Recurring Payment authorized on 09/17 Spectrum 855-707-7328 MO S465260672442420 Card 4229",
+              "amount": 335.04
+            },
+            {
+              "date": "09-18-2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/18 Lowe's #1852 Pacoima CA P385261567354087 Card 4229",
+              "amount": 83.71
+            },
+            {
+              "date": "09-18-2025",
+              "type": "Debit",
+              "description": "Check 2068",
+              "amount": 270.0
+            },
+            {
+              "date": "09-19-2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/17 Snap-on Tools Erwi LA Canada CA S465260747174697 Card 4229",
+              "amount": 100.0
+            },
+            {
+              "date": "09-19-2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/17 Amazon Mktpl*2P3Ou Amzn.Com/Bill WA S585261043897216 Card 4229",
+              "amount": 119.51
+            },
+            {
+              "date": "09-22-2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/18 Amazon Mktpl*7Z5Bf Amzn.Com/Bill WA S305261471714756 Card 4229",
+              "amount": 57.06
+            },
+            {
+              "date": "09-22-2025",
+              "type": "Debit",
+              "description": "Recurring Payment authorized on 09/19 Otl*Scoresense.Com 800-679-6327 TX S465262454025319 Card 4229",
+              "amount": 19.95
+            },
+            {
+              "date": "09-22-2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/19 Amazon Mktpl*A77Yy Amzn.Com/Bill WA S385262625311374 Card 4229",
+              "amount": 75.28
+            },
+            {
+              "date": "09-22-2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/21 Smart and Final N. Hollywood CA P000000582548351 Card 4229",
+              "amount": 33.05
+            },
+            {
+              "date": "09-22-2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/21 The Home Depot #6613 N. Hollywood CA P385264828775009 Card 4229",
+              "amount": 240.35
+            },
+            {
+              "date": "09-22-2025",
+              "type": "Debit",
+              "description": "Check 2065",
+              "amount": 2000.0
+            },
+            {
+              "date": "09-23-2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/20 Amazon Mktpl*Lt3Fz Amzn.Com/Bill WA S305263670581319 Card 4229",
+              "amount": 40.27
+            },
+            {
+              "date": "09-23-2025",
+              "type": "Debit",
+              "description": "Recurring Payment authorized on 09/22 Amazon Prime*2A540 Amzn.Com/Bill WA S585265781497247 Card 4229",
+              "amount": 16.45
+            },
+            {
+              "date": "09-23-2025",
+              "type": "Debit",
+              "description": "Check 2063",
+              "amount": 300.0
+            },
+            {
+              "date": "09-23-2025",
+              "type": "Debit",
+              "description": "Check 2069",
+              "amount": 1936.26
+            },
+            {
+              "date": "09-24-2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/22 Amazon Mktpl*Yf4Kx Amzn.Com/Bill WA S305265595399496 Card 4229",
+              "amount": 29.18
+            },
+            {
+              "date": "09-26-2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/24 Snap-on Tools Erwi LA Canada CA S585267716110541 Card 4229",
+              "amount": 100.0
+            },
+            {
+              "date": "09-26-2025",
+              "type": "Debit",
+              "description": "Check 2072",
+              "amount": 1330.86
+            },
+            {
+              "date": "09-29-2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/25 Amazon Mktpl*8B4Uu Amzn.Com/Bill WA S385268781424707 Card 4229",
+              "amount": 70.21
+            },
+            {
+              "date": "09-29-2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/26 Amazon Mktpl*NJ5E8 Amzn.Com/Bill WA S305269805307315 Card 4229",
+              "amount": 88.61
+            },
+            {
+              "date": "09-29-2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/28 Smart and Final N. Hollywood CA P000000551299159 Card 4229",
+              "amount": 15.85
+            },
+            {
+              "date": "09-29-2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/28 Superior Super Whse #118 N. Hollywood CA P385271672131158 Card 4229",
+              "amount": 44.11
+            },
+            {
+              "date": "09-29-2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/29 Ebay Commerce Inc. San Jose CA P000000280048751 Card 4229",
+              "amount": 352.0
+            },
+            {
+              "date": "09-29-2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/29 Ebay Commerce Inc. San Jose CA P000000481662353 Card 4229",
+              "amount": 39.25
+            },
+            {
+              "date": "09-29-2025",
+              "type": "Debit",
+              "description": "Check 2070",
+              "amount": 150.0
+            },
+            {
+              "date": "09-29-2025",
+              "type": "Debit",
+              "description": "Check 2074",
+              "amount": 375.0
+            },
+            {
+              "date": "09-29-2025",
+              "type": "Debit",
+              "description": "Check 2073",
+              "amount": 2000.0
+            },
+            {
+              "date": "09-30-2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/29 Amazon Mktpl*NJ9Z6 Amzn.Com/Bill WA S385272748321052 Card 4229",
+              "amount": 76.81
+            }
+          ]
+        }
+      ]
+    },
+    "raw_output": "```json\n{\n  \"accounts\": [\n    {\n      \"account_number\": \"2815349754\",\n      \"account_type\": \"Initiate Business Checking\",\n      \"mca_deposit\": [],\n      \"mca_withdrawal\": [\n        {\n          \"mca_name\": \"Lendr\",\n          \"date\": \"09-02-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - Lendr Lendr/Trn Aug 29 3F058Dfbad5A467 Aguilars Auto Repair\",\n          \"amount\": 1321.43\n        },\n        {\n          \"mca_name\": \"Lendr\",\n          \"date\": \"09-08-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - Lendr Lendr/Trn SEP 05 D8Cabe95C07C447 Aguilars Auto Repair\",\n          \"amount\": 1321.43\n        },\n        {\n          \"mca_name\": \"Lendr\",\n          \"date\": \"09-15-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - Lendr Lendr/Trn SEP 12 B89C90719Bee488 Aguilars Auto Repair\",\n          \"amount\": 1321.43\n        },\n        {\n          \"mca_name\": \"Lendr\",\n          \"date\": \"09-22-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - Lendr Lendr/Trn SEP 19 2372F66C29534Ba Aguilars Auto Repair\",\n          \"amount\": 1321.43\n        },\n        {\n          \"mca_name\": \"Lendr\",\n          \"date\": \"09-29-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - Lendr Lendr/Trn SEP 26 Bed49178Af9C4Bd Aguilars Auto Repair\",\n          \"amount\": 1321.43\n        }\n      ],\n      \"returned_items\": [],\n      \"overdrafts\": [],\n      \"service_charges\": [\n        {\n          \"date\": \"09-11-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - Clover Fees Clover Fee 250911 1554553 Aguilarauto Repair\",\n          \"amount\": 41.9\n        },\n        {\n          \"date\": \"09-30-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Cash Deposit Processing Fee\",\n          \"amount\": 12.3\n        }\n      ],\n      \"atm_cash_withdrawal\": [\n        {\n          \"date\": \"09-24-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"ATM Withdrawal authorized on 09/24 8548 Van Nuys Blvd Panorama City CA 0008303 ATM ID 0279A Card 4229\",\n          \"amount\": 400.0\n        }\n      ],\n      \"internal_transfer_deposit\": [],\n      \"other_transfer_deposit\": [\n        {\n          \"date\": \"09-02-2025\",\n          \"description\": \"Zelle From Avila Javier on 08/30 Ref # Wfct0Z79G28J\",\n          \"amount\": 180.0,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-02-2025\",\n          \"description\": \"Zelle From Chisomo Masambuka on 09/02 Ref # Bacqujne2HOM\",\n          \"amount\": 180.0,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-03-2025\",\n          \"description\": \"Zelle From Cubas Cesar on 09/03 Ref # Wfct0Z7Q6Ykt\",\n          \"amount\": 500.0,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-05-2025\",\n          \"description\": \"Zelle From Estela Martinez on 09/05 Ref # 0A10Xbw1Nimw\",\n          \"amount\": 75.0,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-05-2025\",\n          \"description\": \"Zelle From Margarita Ismeri Paz on 09/05 Ref # Jpm99Bm5Zd7Z Brakes\",\n          \"amount\": 180.0,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"description\": \"Zelle From Andrew Fuentes on 09/06 Ref # Jpm99Bmaw6Ti.\",\n          \"amount\": 250.0,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"description\": \"Zelle From Monica M Llamas on 09/06 Ref # Jpm99Bmbkhi4 Toyota Camry Mark Pereida\",\n          \"amount\": 1280.0,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"description\": \"Zelle From Daniel Haro on 09/06 Ref # Jpm99Bmc7Uaw.\",\n          \"amount\": 450.0,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"description\": \"Zelle From Alyssa Moreno on 09/08 Ref # Bacqselm3219\",\n          \"amount\": 95.0,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-09-2025\",\n          \"description\": \"Zelle From Chisomo Masambuka on 09/09 Ref # Bacp1Hmaxk7E\",\n          \"amount\": 150.0,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-11-2025\",\n          \"description\": \"Zelle From Hector Martinez on 09/11 Ref # Bacdxumavnv0\",\n          \"amount\": 90.0,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-11-2025\",\n          \"description\": \"Zelle From Pritpal Singh on 09/11 Ref # Bacn3Zbixejs\",\n          \"amount\": 485.0,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-12-2025\",\n          \"description\": \"Zelle From Nidia Molina Benitez on 09/12 Ref # Bacyr5Pgzcum\",\n          \"amount\": 70.0,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-15-2025\",\n          \"description\": \"Zelle From Ahmet Tosun on 09/13 Ref # Bacht003S1lj\",\n          \"amount\": 800.0,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-15-2025\",\n          \"description\": \"Zelle From Avila Javier on 09/13 Ref # Wfct0Z8SM25D\",\n          \"amount\": 140.0,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-15-2025\",\n          \"description\": \"Zelle From Armando H Villegas on 09/15 Ref # Jpm99Bneksb8 Oil\",\n          \"amount\": 280.0,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-16-2025\",\n          \"description\": \"Zelle From Daniel Rodriguez on 09/16 Ref # Cti4Ldivmgcg\",\n          \"amount\": 500.0,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-16-2025\",\n          \"description\": \"Zelle From Chisomo Masambuka on 09/16 Ref # Bacpo25lutr8\",\n          \"amount\": 250.0,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-17-2025\",\n          \"description\": \"Zelle From Maria Garcia Rodriguez on 09/17 Ref # Bactlkij9F1H\",\n          \"amount\": 120.0,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-17-2025\",\n          \"description\": \"Zelle From Adrian Villalobos on 09/17 Ref # Jpm99Bnmuohn Pagar\",\n          \"amount\": 600.0,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-22-2025\",\n          \"description\": \"Zelle From Raquel Luciosahagun on 09/20 Ref # J3D0F48P8Fs3 Car Repair\",\n          \"amount\": 480.0,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-22-2025\",\n          \"description\": \"Zelle From Osman D Del Cid on 09/22 Ref # Jpm99B074Jyh Repair T.\",\n          \"amount\": 630.0,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-25-2025\",\n          \"description\": \"Zelle From Cubas Cesar on 09/25 Ref # Wfct0Z9Xbfmp\",\n          \"amount\": 500.0,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-29-2025\",\n          \"description\": \"Zelle From Monica M Llamas on 09/27 Ref # Jpm99Bot70R9 Mark Toyota Camry\",\n          \"amount\": 390.0,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        }\n      ],\n      \"internal_transfer_withdrawal\": [],\n      \"other_transfer_withdrawal\": [\n        {\n          \"date\": \"09-02-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - The Hartford Inspmtcl 17808559 Aguilar's Auto Repair\",\n          \"amount\": 263.8\n        },\n        {\n          \"date\": \"09-22-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Money Transfer authorized on 09/19 Crypto.Com 888-8248817 DE S465263036674810 Card 4229\",\n          \"amount\": 1000.0\n        },\n        {\n          \"date\": \"09-29-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Money Transfer authorized on 09/25 Crypto.Com Miami FL S305268721520159 Card 4229\",\n          \"amount\": 2200.0\n        }\n      ],\n      \"standard_deposit\": [\n        {\n          \"date\": \"09-02-2025\",\n          \"description\": \"09/02Bankcard Deposit -0225127436\",\n          \"amount\": 1479.17,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-02-2025\",\n          \"description\": \"ATM Cash Deposit on 09/02 12160 Victory Blvd North Hollywo CA 0003391 ATM ID 0639Q Card 4229\",\n          \"amount\": 2500.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-03-2025\",\n          \"description\": \"09/03Bankcard Deposit -0225127436\",\n          \"amount\": 76.83,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-04-2025\",\n          \"description\": \"Purchase Return authorized on 09/03 Amazon.Com Amzn.Com/Bill WA S585246658976420 Card 4229\",\n          \"amount\": 87.76,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"09-04-2025\",\n          \"description\": \"09/04Bankcard Deposit -0225127436\",\n          \"amount\": 164.63,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-05-2025\",\n          \"description\": \"09/05Bankcard Deposit -0225127436\",\n          \"amount\": 76.83,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"description\": \"09/08Bankcard Deposit -0225127436\",\n          \"amount\": 1382.85,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"description\": \"ATM Cash Deposit on 09/08 12160 Victory Blvd North Hollywo CA 0005115 ATM ID 06390 Card 4229\",\n          \"amount\": 600.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"description\": \"ATM Cash Deposit on 09/08 12160 Victory Blvd North Hollywo CA 0002772 ATM ID 0639B Card 4229\",\n          \"amount\": 800.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-09-2025\",\n          \"description\": \"09/09Bankcard Deposit -0225127436\",\n          \"amount\": 872.51,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-09-2025\",\n          \"description\": \"ATM Cash Deposit on 09/09 12160 Victory Blvd North Hollywo CA 0001856 ATM ID 0639A Card 4229\",\n          \"amount\": 2000.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-11-2025\",\n          \"description\": \"09/11Bankcard Deposit -0225127436\",\n          \"amount\": 680.45,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-12-2025\",\n          \"description\": \"ATM Check Deposit on 09/12 12160 Victory Blvd North Hollywo CA 0003341 ATM ID 0639B Card 4229\",\n          \"amount\": 1300.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-12-2025\",\n          \"description\": \"ATM Cash Deposit on 09/12 12160 Victory Blvd North Hollywo CA 0003342 ATM ID 0639B Card 4229\",\n          \"amount\": 700.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-15-2025\",\n          \"description\": \"ATM Check Deposit on 09/15 12160 Victory Blvd North Hollywo CA 0006394 ATM ID 0639Q Card 4229\",\n          \"amount\": 2000.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-16-2025\",\n          \"description\": \"09/16Bankcard Deposit -0225127436\",\n          \"amount\": 833.13,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-19-2025\",\n          \"description\": \"09/19Bankcard Deposit -0225127436\",\n          \"amount\": 76.83,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-23-2025\",\n          \"description\": \"Purchase Return authorized on 09/23 Ebay Commerce Inc. San Jose CA P000000982623764 Card 4229\",\n          \"amount\": 187.66,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"09-23-2025\",\n          \"description\": \"09/23Bankcard Deposit -0225127436\",\n          \"amount\": 274.38,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-23-2025\",\n          \"description\": \"ATM Cash Deposit on 09/23 12160 Victory Blvd North Hollywo CA 0008073 ATM ID 0639Q Card 4229\",\n          \"amount\": 1400.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-24-2025\",\n          \"description\": \"ATM Check Deposit on 09/24 8548 Van Nuys Blvd Panorama City CA 0008302 ATM ID 0279A Card 4229\",\n          \"amount\": 11060.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-25-2025\",\n          \"description\": \"09/25Bankcard Deposit -0225127436\",\n          \"amount\": 38.41,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-30-2025\",\n          \"description\": \"09/30Bankcard Deposit -0225127436\",\n          \"amount\": 76.83,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        }\n      ],\n      \"standard_withdrawal\": [\n        {\n          \"date\": \"09-02-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 08/29 Amazon.Com*Xw7Jg6V Amzn.Com/Bill WA S305242163810129 Card 4229\",\n          \"amount\": 87.76\n        },\n        {\n          \"date\": \"09-02-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 08/31 Smart and Final N. Hollywood CA P000000681499929 Card 4229\",\n          \"amount\": 40.69\n        },\n        {\n          \"date\": \"09-02-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 08/31 Tmobile*Prepaid We 877-778-2106 WA S465243563919313 Card 4229\",\n          \"amount\": 60.44\n        },\n        {\n          \"date\": \"09-02-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 08/31 Tst* Kabuki - Burb Burbank CA S585243802204288 Card 4229\",\n          \"amount\": 204.08\n        },\n        {\n          \"date\": \"09-02-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/01 Smart and Final N. Hollywood CA P000000756118689 Card 4229\",\n          \"amount\": 15.47\n        },\n        {\n          \"date\": \"09-02-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/01 Prime Video Channe Amzn.Com/Bill WA S385245136465962 Card 4229\",\n          \"amount\": 5.99\n        },\n        {\n          \"date\": \"09-02-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Check 2053\",\n          \"amount\": 135.0\n        },\n        {\n          \"date\": \"09-03-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/03 Ebay Commerce Inc. San Jose CA P000000187925024 Card 4229\",\n          \"amount\": 187.66\n        },\n        {\n          \"date\": \"09-03-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Check 2054\",\n          \"amount\": 3250.0\n        },\n        {\n          \"date\": \"09-03-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Check 2051\",\n          \"amount\": 87.8\n        },\n        {\n          \"date\": \"09-03-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Check 2052\",\n          \"amount\": 1229.97\n        },\n        {\n          \"date\": \"09-04-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/02 Amazon.Com*Ae12Z1K Amzn.Com/Bill WA S585246087036112 Card 4229\",\n          \"amount\": 11.76\n        },\n        {\n          \"date\": \"09-05-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/03 Snap-on Tools Erwi LA Canada CA S305246739084742 Card 4229\",\n          \"amount\": 100.0\n        },\n        {\n          \"date\": \"09-05-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/03 Amazon Mktpl*1Z8Yq Amzn.Com/Bill WA S385247050902178 Card 4229\",\n          \"amount\": 91.47\n        },\n        {\n          \"date\": \"09-05-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/04 Amazon Mktpl*H47Ot Amzn.Com/Bill WA S585247558976177 Card 4229\",\n          \"amount\": 10.96\n        },\n        {\n          \"date\": \"09-05-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/04 Amazon Mktpl*Hn1Lc Amzn.Com/Bill WA S465247559022449 Card 4229\",\n          \"amount\": 21.94\n        },\n        {\n          \"date\": \"09-05-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Check 2055\",\n          \"amount\": 2000.0\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/04 Amazon Mktpl*Xh9Aq Amzn.Com/Bill WA S585247363617379 Card 4229\",\n          \"amount\": 17.0\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/04 Amazon Mktpl*9F9Yj Amzn.Com/Bill WA S465247791293781 Card 4229\",\n          \"amount\": 43.85\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/05 Crypto.Com 305-539-0413 TX S385249175713847 Card 4229\",\n          \"amount\": 50.0\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/07 Smart and Final N. Hollywood CA P000000281299779 Card 4229\",\n          \"amount\": 28.17\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Check 2057\",\n          \"amount\": 844.0\n        },\n        {\n          \"date\": \"09-09-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Recurring Payment authorized on 09/08 Frontier Comm Corp WWW.Frontier. CT S465251367323384 Card 4229\",\n          \"amount\": 87.18\n        },\n        {\n          \"date\": \"09-09-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/09 Harbor Freight Tools U North Hollywo CA P000000581762130 Card 4229\",\n          \"amount\": 83.32\n        },\n        {\n          \"date\": \"09-09-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Check 2056\",\n          \"amount\": 261.77\n        },\n        {\n          \"date\": \"09-10-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/09 Metro By T-Mobile 888-863-8768 WA S465253084462944 Card 4229\",\n          \"amount\": 45.0\n        },\n        {\n          \"date\": \"09-10-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Check 2060\",\n          \"amount\": 1085.0\n        },\n        {\n          \"date\": \"09-11-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Recurring Payment authorized on 09/10 Progressive *Insur 800-776-4737 OH S385253488599896 Card 4229\",\n          \"amount\": 762.88\n        },\n        {\n          \"date\": \"09-11-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/10 Amazon Mktpl*Si5Px Amzn.Com/Bill WA S585253772242531 Card 4229\",\n          \"amount\": 464.24\n        },\n        {\n          \"date\": \"09-12-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/10 Snap-on Tools Erwi LA Canada CA S465253793833506 Card 4229\",\n          \"amount\": 100.0\n        },\n        {\n          \"date\": \"09-12-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Check 2058\",\n          \"amount\": 1614.81\n        },\n        {\n          \"date\": \"09-15-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/13 Ebay Commerce Inc. San Jose CA P000000685083219 Card 4229\",\n          \"amount\": 10.9\n        },\n        {\n          \"date\": \"09-15-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/14 Smart and Final N. Hollywood CA P000000185703235 Card 4229\",\n          \"amount\": 60.63\n        },\n        {\n          \"date\": \"09-15-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Check 2064\",\n          \"amount\": 220.0\n        },\n        {\n          \"date\": \"09-15-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Check 2062\",\n          \"amount\": 125.0\n        },\n        {\n          \"date\": \"09-15-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Check 2061\",\n          \"amount\": 1500.0\n        },\n        {\n          \"date\": \"09-17-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/15 CA Dmv Fee 678-7315516 TN S585258736101055 Card 4229\",\n          \"amount\": 0.27\n        },\n        {\n          \"date\": \"09-17-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/15 State of Calif Dmv 800-7770133 CA S465258736092466 Card 4229\",\n          \"amount\": 14.0\n        },\n        {\n          \"date\": \"09-17-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/16 Smart and Final N. Hollywood CA P000000851623968 Card 4229\",\n          \"amount\": 42.99\n        },\n        {\n          \"date\": \"09-17-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Check 2066\",\n          \"amount\": 75.0\n        },\n        {\n          \"date\": \"09-17-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Check 2059\",\n          \"amount\": 1236.0\n        },\n        {\n          \"date\": \"09-17-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Check 2067\",\n          \"amount\": 1200.0\n        },\n        {\n          \"date\": \"09-18-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/16 Amazon.Com*Kp1Dj0J Amzn.Com/Bill WA S465259331467922 Card 4229\",\n          \"amount\": 10.92\n        },\n        {\n          \"date\": \"09-18-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/16 Amazon.Com*J002682 Amzn.Com/Bill WA S585259821398298 Card 4229\",\n          \"amount\": 493.82\n        },\n        {\n          \"date\": \"09-18-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/16 Amazon Mktpl*Qa5DI Amzn.Com/Bill WA S465259847305724 Card 4229\",\n          \"amount\": 75.28\n        },\n        {\n          \"date\": \"09-18-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Recurring Payment authorized on 09/17 Spectrum 855-707-7328 MO S465260672442420 Card 4229\",\n          \"amount\": 335.04\n        },\n        {\n          \"date\": \"09-18-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/18 Lowe's #1852 Pacoima CA P385261567354087 Card 4229\",\n          \"amount\": 83.71\n        },\n        {\n          \"date\": \"09-18-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Check 2068\",\n          \"amount\": 270.0\n        },\n        {\n          \"date\": \"09-19-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/17 Snap-on Tools Erwi LA Canada CA S465260747174697 Card 4229\",\n          \"amount\": 100.0\n        },\n        {\n          \"date\": \"09-19-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/17 Amazon Mktpl*2P3Ou Amzn.Com/Bill WA S585261043897216 Card 4229\",\n          \"amount\": 119.51\n        },\n        {\n          \"date\": \"09-22-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/18 Amazon Mktpl*7Z5Bf Amzn.Com/Bill WA S305261471714756 Card 4229\",\n          \"amount\": 57.06\n        },\n        {\n          \"date\": \"09-22-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Recurring Payment authorized on 09/19 Otl*Scoresense.Com 800-679-6327 TX S465262454025319 Card 4229\",\n          \"amount\": 19.95\n        },\n        {\n          \"date\": \"09-22-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/19 Amazon Mktpl*A77Yy Amzn.Com/Bill WA S385262625311374 Card 4229\",\n          \"amount\": 75.28\n        },\n        {\n          \"date\": \"09-22-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/21 Smart and Final N. Hollywood CA P000000582548351 Card 4229\",\n          \"amount\": 33.05\n        },\n        {\n          \"date\": \"09-22-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/21 The Home Depot #6613 N. Hollywood CA P385264828775009 Card 4229\",\n          \"amount\": 240.35\n        },\n        {\n          \"date\": \"09-22-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Check 2065\",\n          \"amount\": 2000.0\n        },\n        {\n          \"date\": \"09-23-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/20 Amazon Mktpl*Lt3Fz Amzn.Com/Bill WA S305263670581319 Card 4229\",\n          \"amount\": 40.27\n        },\n        {\n          \"date\": \"09-23-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Recurring Payment authorized on 09/22 Amazon Prime*2A540 Amzn.Com/Bill WA S585265781497247 Card 4229\",\n          \"amount\": 16.45\n        },\n        {\n          \"date\": \"09-23-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Check 2063\",\n          \"amount\": 300.0\n        },\n        {\n          \"date\": \"09-23-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Check 2069\",\n          \"amount\": 1936.26\n        },\n        {\n          \"date\": \"09-24-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/22 Amazon Mktpl*Yf4Kx Amzn.Com/Bill WA S305265595399496 Card 4229\",\n          \"amount\": 29.18\n        },\n        {\n          \"date\": \"09-26-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/24 Snap-on Tools Erwi LA Canada CA S585267716110541 Card 4229\",\n          \"amount\": 100.0\n        },\n        {\n          \"date\": \"09-26-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Check 2072\",\n          \"amount\": 1330.86\n        },\n        {\n          \"date\": \"09-29-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/25 Amazon Mktpl*8B4Uu Amzn.Com/Bill WA S385268781424707 Card 4229\",\n          \"amount\": 70.21\n        },\n        {\n          \"date\": \"09-29-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/26 Amazon Mktpl*NJ5E8 Amzn.Com/Bill WA S305269805307315 Card 4229\",\n          \"amount\": 88.61\n        },\n        {\n          \"date\": \"09-29-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/28 Smart and Final N. Hollywood CA P000000551299159 Card 4229\",\n          \"amount\": 15.85\n        },\n        {\n          \"date\": \"09-29-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/28 Superior Super Whse #118 N. Hollywood CA P385271672131158 Card 4229\",\n          \"amount\": 44.11\n        },\n        {\n          \"date\": \"09-29-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/29 Ebay Commerce Inc. San Jose CA P000000280048751 Card 4229\",\n          \"amount\": 352.0\n        },\n        {\n          \"date\": \"09-29-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/29 Ebay Commerce Inc. San Jose CA P000000481662353 Card 4229\",\n          \"amount\": 39.25\n        },\n        {\n          \"date\": \"09-29-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Check 2070\",\n          \"amount\": 150.0\n        },\n        {\n          \"date\": \"09-29-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Check 2074\",\n          \"amount\": 375.0\n        },\n        {\n          \"date\": \"09-29-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Check 2073\",\n          \"amount\": 2000.0\n        },\n        {\n          \"date\": \"09-30-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/29 Amazon Mktpl*NJ9Z6 Amzn.Com/Bill WA S385272748321052 Card 4229\",\n          \"amount\": 76.81\n        }\n      ]\n    }\n  ]\n}\n```",
+    "token_count": {
+      "estimated_tokens": 2612
+    },
+    "failure_reason": null
+  }
+}

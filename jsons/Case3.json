@@ -1,0 +1,2141 @@
+{
+  "document_name": "Case3.pdf",
+  "pipeline_status": "completed",
+  "processing_metadata": {
+    "start_time": "2026-02-04T15:08:26.118942",
+    "end_time": "2026-02-04T15:12:45.042371",
+    "parsing_time_seconds": 149.157964,
+    "bsi_time_seconds": 109.736579,
+    "total_time_seconds": 258.894543
+  },
+  "parsing_agent_result": {
+    "agent_name": "parsing_agent",
+    "processing_status": "success",
+    "start_time": "2026-02-04T15:08:26.130053",
+    "end_time": "2026-02-04T15:10:55.287551",
+    "parsed_json": {
+      "bank_statement_information": {
+        "bank_name": "WELLS FARGO",
+        "account_holder": "PERFECTION TOURS INC",
+        "statement_start_date": "09-01-2025",
+        "statement_end_date": "09-30-2025",
+        "n_days": 30,
+        "n_month": [
+          9
+        ],
+        "business_address": "4607 KINGSWELL AVE LOS ANGELES CA 90027-4301"
+      },
+      "accounts": [
+        {
+          "account_number": "7432378086",
+          "account_type": "Navigate Business Checking",
+          "account_summary": {
+            "beginning_balance": 7805.8,
+            "ending_balance": 30051.25,
+            "total_deposits": 142307.72,
+            "total_withdrawals": 120062.27,
+            "total_deposits_count": null,
+            "total_withdrawals_count": null,
+            "avg_daily_balance": 25522.31,
+            "overdraft_days": 0
+          },
+          "transactions": [
+            {
+              "date": "09-02-2025",
+              "description": "Purchase authorized on 08/31 Starbucks Store 05 Los Angeles CA S465243591504913 Card 3075",
+              "amount": 3.25,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-02-2025",
+              "description": "Non-WF ATM Withdrawal authorized on 08/31 *Franklin & Hillhurst Los Angeles CA 465243641254707 ATM ID Icad7442 Card 3075",
+              "amount": 404.0,
+              "type": "Debit",
+              "category": "ATM/Cash Withdrawal"
+            },
+            {
+              "date": "09-02-2025",
+              "description": "Check 1024",
+              "amount": 2158.85,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-02-2025",
+              "description": "Check 1023",
+              "amount": 923.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-03-2025",
+              "description": "Uber USA 6787 EDI Paymnt SEP 02 Ojmkrj6Gfuypcry Ref*TN*Ojmkrj6Gfu\\",
+              "amount": 15032.45,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "09-03-2025",
+              "description": "Cashed Check 1025",
+              "amount": 2457.37,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-03-2025",
+              "description": "Cash eWithdrawal IN Branch 09/03/2025 11:11 Am 250 E Olive Ave Burbank CA 3075",
+              "amount": 2000.0,
+              "type": "Debit",
+              "category": "ATM/Cash Withdrawal"
+            },
+            {
+              "date": "09-03-2025",
+              "description": "WT Seq208595 Capital Premium Financi /Bnf=Capital Premium Financing Inc Srf# Ow00006056026159 Trn#250903208595 Rfb# Ow00006056026159",
+              "amount": 826.32,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-03-2025",
+              "description": "Zelle to Razmik B on 09/03 Ref # Wfct0Z7Qd85J",
+              "amount": 1976.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-03-2025",
+              "description": "Zelle to Razmik B on 09/03 Ref # Wfct0Z7R48P7",
+              "amount": 225.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-03-2025",
+              "description": "Truist Ln 001 Tel Pymt 250902 020345095251001 Arther Ayrapetyan",
+              "amount": 1289.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-04-2025",
+              "description": "Discover E-Payment 250903 3234 Khachatryan Verzhine",
+              "amount": 139.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-04-2025",
+              "description": "Zelle to Vaagn on 09/04 Ref # Wfct0Z7Vg89W",
+              "amount": 592.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-04-2025",
+              "description": "Chase Credit Crd Epay 250903 8693087966 Verzhine Khachatryan",
+              "amount": 139.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-04-2025",
+              "description": "Newrez-Shellpoin Web Pmts 250902 0579056819 Ayrapetyan Arthur",
+              "amount": 4456.11,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-05-2025",
+              "description": "Cashed Check 1026",
+              "amount": 975.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-05-2025",
+              "description": "Synchrony Card Syf Paymnt SEP 05 524363120934135 Khachatryanverzhine",
+              "amount": 139.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-08-2025",
+              "description": "Square Inc Acctverify 250908 T3Mqkte0Tcx6MT1 Perfection Tours Inc",
+              "amount": 0.01,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "09-08-2025",
+              "description": "Square Inc Sq250908 250908 T36P85Dwcy8Jfdg Perfection Tours Inc",
+              "amount": 476.4,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "09-08-2025",
+              "description": "Instant Pmt From Square on 09/08 Ref#20250908021000021P1Brjpc02320033475",
+              "amount": 374.39,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "09-08-2025",
+              "description": "Instant Pmt From Square on 09/08 Ref#20250908021000021P1Brjpc02320167026",
+              "amount": 975.46,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "09-08-2025",
+              "description": "Instant Pmt From Square on 09/08 Ref#20250908021000021P1Brjpc05920209770",
+              "amount": 585.15,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "09-08-2025",
+              "description": "eDeposit IN Branch 09/08/25 02:49:23 PM 250 E Olive Ave Burbank CA 3075",
+              "amount": 31000.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "09-08-2025",
+              "description": "eDeposit IN Branch 09/08/25 02:50:25 PM 250 E Olive Ave Burbank CA 3075",
+              "amount": 6000.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "09-08-2025",
+              "description": "Purchase authorized on 09/05 76 - CF United LLC Los Angeles CA S305248754377141 Card 3075",
+              "amount": 30.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-08-2025",
+              "description": "Purchase authorized on 09/05 Tst* Pinos Sandwic Los Angeles CA S585249109912258 Card 3075",
+              "amount": 36.51,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-08-2025",
+              "description": "Purchase authorized on 09/06 Starbucks Store 05 Los Angeles CA S305249610686336 Card 3075",
+              "amount": 4.25,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-08-2025",
+              "description": "Purchase authorized on 09/06 Los Feliz Smoke Sh Los Angeles CA S385249648993712 Card 3075",
+              "amount": 13.94,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-08-2025",
+              "description": "Purchase authorized on 09/06 76 - Schafer Capit LA Canada CA S305249719519798 Card 3075",
+              "amount": 80.01,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-08-2025",
+              "description": "Zelle to Andys Auto Center on 09/06 Ref # Wfct0Z83Llkm",
+              "amount": 500.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-08-2025",
+              "description": "Purchase authorized on 09/06 818 Smoke Shop Glendale CA S385249824611072 Card 3075",
+              "amount": 13.26,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-08-2025",
+              "description": "Zelle to Razmik B on 09/07 Ref # Wfct0Z86Tj3D",
+              "amount": 50.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-08-2025",
+              "description": "Purchase authorized on 09/07 Chevron 0091410 Pasadena CA S585251125745806 Card 3075",
+              "amount": 17.11,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-08-2025",
+              "description": "Zelle to Harutun on 09/08 Ref # WfctOZ889Xfl",
+              "amount": 1710.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-08-2025",
+              "description": "Purchase authorized on 09/08 7-Eleven Los Angeles CA P000000280347095 Card 3075",
+              "amount": 3.89,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-08-2025",
+              "description": "Business to Business ACH Debit - Square Inc Acctverify 250908 T3Qhq61S75Bsfjd Perfection Tours Inc",
+              "amount": 0.01,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-08-2025",
+              "description": "Business to Business ACH Debit - American Express ACH Pmt 250908 W3566 Verzhine Khachatryan",
+              "amount": 100.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-08-2025",
+              "description": "Business to Business ACH Debit - American Express ACH Pmt 250908 M2008 Verzhine Khachatryan",
+              "amount": 600.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-08-2025",
+              "description": "Business to Business ACH Debit - American Express ACH Pmt 250908 W6046 Verzhine Khachatryan",
+              "amount": 3912.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-09-2025",
+              "description": "Uber USA 6787 EDI Paymnt SEP 09 O8Eze5U8MI74C64 Ref*TN*O8Eze5U8MI\\",
+              "amount": 16815.55,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "09-09-2025",
+              "description": "Purchase authorized on 09/08 Farmers Ins Billin 877-327-6392 CA S585251672446853 Card 3075",
+              "amount": 155.99,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-09-2025",
+              "description": "Cashed Check 1030",
+              "amount": 2585.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-09-2025",
+              "description": "Zelle to Light House on 09/09 Ref # Wfct0Z8Cbxg4",
+              "amount": 1000.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-09-2025",
+              "description": "WT 250909-158508 Jpmorgan Chase Bank /Bnf=Poesche Financial Services Srf# 0003513252006811 Trn#250909158508 Rfb#",
+              "amount": 3800.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-09-2025",
+              "description": "Business to Business ACH Debit - American Express ACH Pmt 250909 W4366 Verzhine Khachatryan",
+              "amount": 100.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-10-2025",
+              "description": "Purchase authorized on 09/08 Hollywood Shell Los Angeles CA S465251676243827 Card 3075",
+              "amount": 60.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-10-2025",
+              "description": "Purchase authorized on 09/08 Aga Karinas Bakery Glendale CA S585252089279855 Card 3075",
+              "amount": 35.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-10-2025",
+              "description": "Zelle to Razmik B on 09/10 Ref # Wfct0Z8Ghrzz",
+              "amount": 1100.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-10-2025",
+              "description": "Zelle to Razmik B on 09/10 Ref # Wfct0Z8Gk3Zg",
+              "amount": 2000.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-10-2025",
+              "description": "Check 1028",
+              "amount": 294.23,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-10-2025",
+              "description": "Discover E-Payment 250910 3234 Khachatryan Verzhine",
+              "amount": 149.56,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-11-2025",
+              "description": "Purchase authorized on 09/10 Costco Whse #0130 Los Angeles CA S385253687204369 Card 3075",
+              "amount": 74.53,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-11-2025",
+              "description": "Purchase authorized on 09/10 76 - Apro LLC 2651 Los Angeles CA S585253694196114 Card 3075",
+              "amount": 33.12,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-11-2025",
+              "description": "Zelle to Gilbert on 09/11 Ref # Wfct0Z8Lcnw4",
+              "amount": 1000.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-11-2025",
+              "description": "Synchrony Card Syf Paymnt SEP 11 524363120934135 Khachatryanverzhine",
+              "amount": 139.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-11-2025",
+              "description": "Chase Credit Crd Epay 250910 8709788833 Verzhine Khachatryan",
+              "amount": 148.23,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-11-2025",
+              "description": "Bmwfinancial Svs Bmwfs Pymt 250910 xxxxx0359 Perfection T4004219835",
+              "amount": 900.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-12-2025",
+              "description": "Cashed Check 1031",
+              "amount": 1100.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-12-2025",
+              "description": "Socalgas Paid Scgc 250911 0177023701 301601474294963834",
+              "amount": 42.52,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-12-2025",
+              "description": "Socalgas Paid Scgc 250911 0706218501 301601474294963833",
+              "amount": 200.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-12-2025",
+              "description": "Check 1027",
+              "amount": 2500.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-12-2025",
+              "description": "Business to Business ACH Debit - American Express ACH Pmt 250912 W7566 Verzhine Khachatryan",
+              "amount": 115.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-12-2025",
+              "description": "Business to Business ACH Debit - American Express ACH Pmt 250912 W6008 Verzhine Khachatryan",
+              "amount": 717.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-12-2025",
+              "description": "Business to Business ACH Debit - American Express ACH Pmt 250912 W7760 Verzhine Khachatryan",
+              "amount": 1788.89,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-15-2025",
+              "description": "Instant Pmt From Square on 09/15 Ref#20250915021000021P1Brjpc06080161721",
+              "amount": 331.16,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "09-15-2025",
+              "description": "Non-WF ATM Withdrawal authorized on 09/14 4500 Los Feliz Blvd Los Angeles CA 585257707329845 ATM ID CA0576 Card 3075",
+              "amount": 104.0,
+              "type": "Debit",
+              "category": "ATM/Cash Withdrawal"
+            },
+            {
+              "date": "09-15-2025",
+              "description": "Non-WF ATM Withdrawal authorized on 09/14 *Franklin & Hillhurst Los Angeles CA 465258028173961 ATM ID Icad7442 Card 3075",
+              "amount": 604.0,
+              "type": "Debit",
+              "category": "ATM/Cash Withdrawal"
+            },
+            {
+              "date": "09-15-2025",
+              "description": "Non-Wells Fargo ATM Transaction Fee",
+              "amount": 3.0,
+              "type": "Debit",
+              "category": "Service Charges/Fees"
+            },
+            {
+              "date": "09-15-2025",
+              "description": "Deposited OR Cashed Check 1033",
+              "amount": 2228.45,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-15-2025",
+              "description": "Zelle to H Artak on 09/15 Ref # WfctOZ8Zfw8N",
+              "amount": 50.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-15-2025",
+              "description": "Discover E-Payment 250913 9170 Ayrapetyan Arthur",
+              "amount": 130.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-15-2025",
+              "description": "Check 1032",
+              "amount": 2030.53,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-15-2025",
+              "description": "Business to Business ACH Debit - Capital One Online Pmt CA0F7703DA975Df Arthur Ayrapetyan",
+              "amount": 440.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-16-2025",
+              "description": "Uber USA 6787 EDI Paymnt SEP 16 0Q39Swg06DN96Kz Ref*TN*0Q39Swg06D\\",
+              "amount": 20986.18,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "09-16-2025",
+              "description": "Instant Pmt From Square on 09/16 Ref#20250916021000021P1Brjpc06080149613",
+              "amount": 663.22,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "09-16-2025",
+              "description": "Zelle to Khachatryan Verzhine on 09/16 Ref # Wfct0Z92Vtqg",
+              "amount": 530.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-16-2025",
+              "description": "Cashed Check 1034",
+              "amount": 2500.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-16-2025",
+              "description": "Home Depot Online Pmt 250915 631803640219465 Arthur Ayrapetyan",
+              "amount": 30.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-16-2025",
+              "description": "Citi Card Online Payment 250915 431803642161507 Arthur Ayrapetyan",
+              "amount": 190.25,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-16-2025",
+              "description": "Bank of America Payment 250915 17Cbwrza3 Ayrapetyan, Arthur",
+              "amount": 1281.18,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-16-2025",
+              "description": "Truist Ln 001 Tel Pymt 250915 020345095251001 Arther Ayrapetyan",
+              "amount": 1288.5,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-16-2025",
+              "description": "Bank of America Payment 250915 111Kt37Ty Ayrapetyan, Arthur",
+              "amount": 1313.5,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-17-2025",
+              "description": "Zelle to Razmik B on 09/16 Ref # Wfct0Z94Kbkq",
+              "amount": 200.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-17-2025",
+              "description": "Zelle to Andys Auto Center on 09/17 Ref # Wfct0Z95CR49",
+              "amount": 500.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-17-2025",
+              "description": "Withdrawal Made In A Branch/Store",
+              "amount": 583.0,
+              "type": "Debit",
+              "category": "ATM/Cash Withdrawal"
+            },
+            {
+              "date": "09-17-2025",
+              "description": "Deposited OR Cashed Check 1036",
+              "amount": 500.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-17-2025",
+              "description": "Zelle to H Artak on 09/17 Ref # Wfct0Z96C2Lg",
+              "amount": 100.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-17-2025",
+              "description": "Non-WF ATM Withdrawal authorized on 09/17 *Franklin & Hillhurst Los Angeles CA 465261022598113 ATM ID Icad4217 Card 3075",
+              "amount": 1004.0,
+              "type": "Debit",
+              "category": "ATM/Cash Withdrawal"
+            },
+            {
+              "date": "09-17-2025",
+              "description": "Non-Wells Fargo ATM Transaction Fee",
+              "amount": 3.0,
+              "type": "Debit",
+              "category": "Service Charges/Fees"
+            },
+            {
+              "date": "09-17-2025",
+              "description": "Business to Business ACH Debit - Jpmorgan Chase Ext Trnsfr 250917 26235233895 Perfection Tours Inc",
+              "amount": 1400.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-17-2025",
+              "description": "Discover E-Payment 250917 3234 Khachatryan Verzhine",
+              "amount": 139.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-18-2025",
+              "description": "Zelle From Guardian Angels Hospice Care Inc on 09/18 Ref # Jpm99Bnpj3PI",
+              "amount": 1000.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "09-18-2025",
+              "description": "Zelle From Nikolay Garibyan on 09/18 Ref # Jpm99Bnppb9L",
+              "amount": 1000.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "09-18-2025",
+              "description": "Deposited OR Cashed Check 1035",
+              "amount": 583.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-18-2025",
+              "description": "Deposited OR Cashed Check 1039",
+              "amount": 880.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-18-2025",
+              "description": "Zelle to Razmik B on 09/18 Ref # Wfct0Z994M62",
+              "amount": 800.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-18-2025",
+              "description": "Chase Credit Crd Epay 250916 8729013657 Verzhine Khachatryan",
+              "amount": 139.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-18-2025",
+              "description": "Synchrony Card Syf Paymnt SEP 18 524363120934135 Khachatryanverzhine",
+              "amount": 149.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-18-2025",
+              "description": "Check 1038",
+              "amount": 700.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-19-2025",
+              "description": "Purchase authorized on 09/18 Chevron 0202019 Manhattan Bea CA S585262054001343 Card 3075",
+              "amount": 14.46,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-19-2025",
+              "description": "Cashed Check 1040",
+              "amount": 1283.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-19-2025",
+              "description": "Zelle to Am Management on 09/19 Ref # Wfct0Z9Csbcq",
+              "amount": 350.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-19-2025",
+              "description": "Chase Credit Crd Epay 250918 8733498699 Lsls LLC",
+              "amount": 487.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-19-2025",
+              "description": "Check 1037",
+              "amount": 4040.57,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-19-2025",
+              "description": "Business to Business ACH Debit - American Express ACH Pmt 250919 W9518 Verzhine Khachatryan",
+              "amount": 294.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-22-2025",
+              "description": "Instant Pmt From Square on 09/20 Ref#20250920021000021P1Brjpc08320015128",
+              "amount": 389.71,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "09-22-2025",
+              "description": "Purchase authorized on 09/20 Gg Smoke Shop Glendale CA S305263759552478 Card 3075",
+              "amount": 13.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-22-2025",
+              "description": "Deposited OR Cashed Check 1042",
+              "amount": 2203.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-22-2025",
+              "description": "Zelle to Light House on 09/21 Ref # Wfct0Z9Mkkcy",
+              "amount": 1000.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-22-2025",
+              "description": "Affirm Inc Affirm Pay 250921 4361219 Arthur *Ayrapet",
+              "amount": 927.36,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-23-2025",
+              "description": "Uber USA 6787 EDI Paymnt SEP 23 8Q54Ocuy3E97NM0 Ref*TN*8Q54Ocuy3E\\",
+              "amount": 22067.06,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "09-23-2025",
+              "description": "Instant Pmt From Square on 09/23 Ref#20250923021000021P1Brjpc09280129971",
+              "amount": 140.21,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "09-23-2025",
+              "description": "Purchase authorized on 09/22 Ladot Parking Cita 866-561-9742 CA S465265655274893 Card 3075",
+              "amount": 295.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-23-2025",
+              "description": "Cash eWithdrawal IN Branch 09/23/2025 10:19 Am 1534 N Vermont Ave Los Angeles CA 3075",
+              "amount": 1500.0,
+              "type": "Debit",
+              "category": "ATM/Cash Withdrawal"
+            },
+            {
+              "date": "09-23-2025",
+              "description": "Cashed Check 1043",
+              "amount": 2500.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-23-2025",
+              "description": "Zelle to Am Management on 09/23 Ref # Wfct0Z9Rbrtq",
+              "amount": 2000.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-23-2025",
+              "description": "Business to Business ACH Debit - Square Inc Sq Cap9286 250923 T3Paw3P7Wpsy346 Perfection Tours Inc",
+              "amount": 1031.43,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-23-2025",
+              "description": "Discover E-Payment 250923 3234 Khachatryan Verzhine",
+              "amount": 149.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-23-2025",
+              "description": "Discover E-Payment 250923 1764 Ayrapetyan Anthony",
+              "amount": 153.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-24-2025",
+              "description": "Purchase authorized on 09/23 Sq *Eworld Enterta Los Angeles CA S585266666394056 Card 3075",
+              "amount": 20.8,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-24-2025",
+              "description": "Zelle to Hayrapetyan Karen on 09/24 Ref # Wfct0Z9Vw2V8",
+              "amount": 150.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-24-2025",
+              "description": "Chase Credit Crd Epay 250923 8745877895 Verzhine Khachatryan",
+              "amount": 149.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-24-2025",
+              "description": "Gm Financial Gmf Pymt 250924 00211062451732 Null Lsls LLC",
+              "amount": 903.5,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-24-2025",
+              "description": "Aci Kmf Kmfusa.Com 250923 20211006332936 Perfection Tours Inc",
+              "amount": 10004.25,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-25-2025",
+              "description": "Instant Pmt From Square on 09/25 Ref#20250925021000021P1Brjpc08320129088",
+              "amount": 951.74,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "09-25-2025",
+              "description": "Zelle to Tomas on 09/25 Ref # Wfct0Z9Xmt2Q",
+              "amount": 320.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-25-2025",
+              "description": "Affirm Inc Affirm Pay 250924 5531342 Arthur *Ayrapet",
+              "amount": 134.23,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-25-2025",
+              "description": "Business to Business ACH Debit - Equipment Financ Onlineinv 250924 Bggbk2003715678 Khachatryanverzhine",
+              "amount": 940.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-25-2025",
+              "description": "Business to Business ACH Debit - Equipment Financ Onlineinv 250924 Bggbk2003715680 Ayrapetyanarthur",
+              "amount": 1036.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-26-2025",
+              "description": "Purchase authorized on 09/25 Los Feliz Smoke Sh Los Angeles CA S465268713358395 Card 3075",
+              "amount": 27.88,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-26-2025",
+              "description": "Cashed Check 1046",
+              "amount": 1460.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-26-2025",
+              "description": "Deposited OR Cashed Check 1049",
+              "amount": 2146.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-26-2025",
+              "description": "Purchase authorized on 09/26 Dollar Tree Sun Valley CA P000000184118810 Card 3075",
+              "amount": 26.9,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-26-2025",
+              "description": "Check 1029",
+              "amount": 3300.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-29-2025",
+              "description": "Instant Pmt From Square on 09/29 Ref#20250929021000021P1Brjpc09200182667",
+              "amount": 506.79,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "09-29-2025",
+              "description": "Purchase authorized on 09/26 7-Eleven Los Angeles CA P000000089451267 Card 3075",
+              "amount": 13.69,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-29-2025",
+              "description": "Purchase authorized on 09/27 Los Feliz Smoke Sh Los Angeles CA S385270820966600 Card 3075",
+              "amount": 13.94,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-29-2025",
+              "description": "ATM Withdrawal authorized on 09/27 1534 N Vermont Ave Los Angeles CA 0006339 ATM ID 0740C Card 3075",
+              "amount": 2000.0,
+              "type": "Debit",
+              "category": "ATM/Cash Withdrawal"
+            },
+            {
+              "date": "09-29-2025",
+              "description": "Purchase authorized on 09/27 Metro Smoke Shop Los Angeles CA S305271163192768 Card 3075",
+              "amount": 13.71,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-29-2025",
+              "description": "Zelle to Zhora on 09/28 Ref # Wfct0Zb9Nrpx",
+              "amount": 120.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-29-2025",
+              "description": "Zelle to Erik on 09/28 Ref # Wfct0Zb9P2N5",
+              "amount": 125.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-29-2025",
+              "description": "Deposited OR Cashed Check 1051",
+              "amount": 2038.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-29-2025",
+              "description": "Zelle to Gilbert on 09/29 Ref # Wfct0Zbffl3Q",
+              "amount": 2000.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-29-2025",
+              "description": "Check 1050",
+              "amount": 1838.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-29-2025",
+              "description": "Chase Credit Crd Autopay 250928 000000000017504 Khachatryan Verzhine",
+              "amount": 67.4,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-29-2025",
+              "description": "Best Buy Payment 250928 621814869065374 Arthur Ayrapetyan",
+              "amount": 480.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-29-2025",
+              "description": "Check 1045",
+              "amount": 4292.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-30-2025",
+              "description": "Uber USA 6787 EDI Paymnt SEP 30 H7Det698Vilelr9 Ref*TN*H7Det698VI\\",
+              "amount": 21012.04,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "09-30-2025",
+              "description": "Zelle From Ardi Limo Inc on 09/30 Ref # Bacrhcqcrfnq",
+              "amount": 2000.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "09-30-2025",
+              "description": "Purchase authorized on 09/28 Domino's 8289 323-667-2323 CA S465272039972378 Card 3075",
+              "amount": 36.79,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-30-2025",
+              "description": "Ford Motor CR Fordcredit 250929 691873 Ayrapetyan Arthur",
+              "amount": 1800.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-30-2025",
+              "description": "Discover E-Payment 250930 3234 Khachatryan Verzhine",
+              "amount": 149.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-30-2025",
+              "description": "Interest Payment",
+              "amount": 0.2,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            }
+          ]
+        }
+      ]
+    },
+    "raw_output": "```json\n{\n  \"bank_statement_information\": {\n    \"bank_name\": \"WELLS FARGO\",\n    \"account_holder\": \"PERFECTION TOURS INC\",\n    \"statement_start_date\": \"09-01-2025\",\n    \"statement_end_date\": \"09-30-2025\",\n    \"n_days\": 30,\n    \"n_month\": [\n      9\n    ],\n    \"business_address\": \"4607 KINGSWELL AVE LOS ANGELES CA 90027-4301\"\n  },\n  \"accounts\": [\n    {\n      \"account_number\": \"7432378086\",\n      \"account_type\": \"Navigate Business Checking\",\n      \"account_summary\": {\n        \"beginning_balance\": 7805.8,\n        \"ending_balance\": 30051.25,\n        \"total_deposits\": 142307.72,\n        \"total_withdrawals\": 120062.27,\n        \"total_deposits_count\": null,\n        \"total_withdrawals_count\": null,\n        \"avg_daily_balance\": 25522.31,\n        \"overdraft_days\": 0\n      },\n      \"transactions\": [\n        {\n          \"date\": \"09-02-2025\",\n          \"description\": \"Purchase authorized on 08/31 Starbucks Store 05 Los Angeles CA S465243591504913 Card 3075\",\n          \"amount\": 3.25,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-02-2025\",\n          \"description\": \"Non-WF ATM Withdrawal authorized on 08/31 *Franklin & Hillhurst Los Angeles CA 465243641254707 ATM ID Icad7442 Card 3075\",\n          \"amount\": 404.0,\n          \"type\": \"Debit\",\n          \"category\": \"ATM/Cash Withdrawal\"\n        },\n        {\n          \"date\": \"09-02-2025\",\n          \"description\": \"Check 1024\",\n          \"amount\": 2158.85,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-02-2025\",\n          \"description\": \"Check 1023\",\n          \"amount\": 923.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-03-2025\",\n          \"description\": \"Uber USA 6787 EDI Paymnt SEP 02 Ojmkrj6Gfuypcry Ref*TN*Ojmkrj6Gfu\\\\\",\n          \"amount\": 15032.45,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"09-03-2025\",\n          \"description\": \"Cashed Check 1025\",\n          \"amount\": 2457.37,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-03-2025\",\n          \"description\": \"Cash eWithdrawal IN Branch 09/03/2025 11:11 Am 250 E Olive Ave Burbank CA 3075\",\n          \"amount\": 2000.0,\n          \"type\": \"Debit\",\n          \"category\": \"ATM/Cash Withdrawal\"\n        },\n        {\n          \"date\": \"09-03-2025\",\n          \"description\": \"WT Seq208595 Capital Premium Financi /Bnf=Capital Premium Financing Inc Srf# Ow00006056026159 Trn#250903208595 Rfb# Ow00006056026159\",\n          \"amount\": 826.32,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-03-2025\",\n          \"description\": \"Zelle to Razmik B on 09/03 Ref # Wfct0Z7Qd85J\",\n          \"amount\": 1976.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-03-2025\",\n          \"description\": \"Zelle to Razmik B on 09/03 Ref # Wfct0Z7R48P7\",\n          \"amount\": 225.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-03-2025\",\n          \"description\": \"Truist Ln 001 Tel Pymt 250902 020345095251001 Arther Ayrapetyan\",\n          \"amount\": 1289.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-04-2025\",\n          \"description\": \"Discover E-Payment 250903 3234 Khachatryan Verzhine\",\n          \"amount\": 139.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-04-2025\",\n          \"description\": \"Zelle to Vaagn on 09/04 Ref # Wfct0Z7Vg89W\",\n          \"amount\": 592.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-04-2025\",\n          \"description\": \"Chase Credit Crd Epay 250903 8693087966 Verzhine Khachatryan\",\n          \"amount\": 139.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-04-2025\",\n          \"description\": \"Newrez-Shellpoin Web Pmts 250902 0579056819 Ayrapetyan Arthur\",\n          \"amount\": 4456.11,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-05-2025\",\n          \"description\": \"Cashed Check 1026\",\n          \"amount\": 975.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-05-2025\",\n          \"description\": \"Synchrony Card Syf Paymnt SEP 05 524363120934135 Khachatryanverzhine\",\n          \"amount\": 139.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"description\": \"Square Inc Acctverify 250908 T3Mqkte0Tcx6MT1 Perfection Tours Inc\",\n          \"amount\": 0.01,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"description\": \"Square Inc Sq250908 250908 T36P85Dwcy8Jfdg Perfection Tours Inc\",\n          \"amount\": 476.4,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"description\": \"Instant Pmt From Square on 09/08 Ref#20250908021000021P1Brjpc02320033475\",\n          \"amount\": 374.39,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"description\": \"Instant Pmt From Square on 09/08 Ref#20250908021000021P1Brjpc02320167026\",\n          \"amount\": 975.46,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"description\": \"Instant Pmt From Square on 09/08 Ref#20250908021000021P1Brjpc05920209770\",\n          \"amount\": 585.15,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"description\": \"eDeposit IN Branch 09/08/25 02:49:23 PM 250 E Olive Ave Burbank CA 3075\",\n          \"amount\": 31000.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"description\": \"eDeposit IN Branch 09/08/25 02:50:25 PM 250 E Olive Ave Burbank CA 3075\",\n          \"amount\": 6000.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"description\": \"Purchase authorized on 09/05 76 - CF United LLC Los Angeles CA S305248754377141 Card 3075\",\n          \"amount\": 30.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"description\": \"Purchase authorized on 09/05 Tst* Pinos Sandwic Los Angeles CA S585249109912258 Card 3075\",\n          \"amount\": 36.51,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"description\": \"Purchase authorized on 09/06 Starbucks Store 05 Los Angeles CA S305249610686336 Card 3075\",\n          \"amount\": 4.25,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"description\": \"Purchase authorized on 09/06 Los Feliz Smoke Sh Los Angeles CA S385249648993712 Card 3075\",\n          \"amount\": 13.94,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"description\": \"Purchase authorized on 09/06 76 - Schafer Capit LA Canada CA S305249719519798 Card 3075\",\n          \"amount\": 80.01,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"description\": \"Zelle to Andys Auto Center on 09/06 Ref # Wfct0Z83Llkm\",\n          \"amount\": 500.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"description\": \"Purchase authorized on 09/06 818 Smoke Shop Glendale CA S385249824611072 Card 3075\",\n          \"amount\": 13.26,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"description\": \"Zelle to Razmik B on 09/07 Ref # Wfct0Z86Tj3D\",\n          \"amount\": 50.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"description\": \"Purchase authorized on 09/07 Chevron 0091410 Pasadena CA S585251125745806 Card 3075\",\n          \"amount\": 17.11,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"description\": \"Zelle to Harutun on 09/08 Ref # WfctOZ889Xfl\",\n          \"amount\": 1710.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"description\": \"Purchase authorized on 09/08 7-Eleven Los Angeles CA P000000280347095 Card 3075\",\n          \"amount\": 3.89,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"description\": \"Business to Business ACH Debit - Square Inc Acctverify 250908 T3Qhq61S75Bsfjd Perfection Tours Inc\",\n          \"amount\": 0.01,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"description\": \"Business to Business ACH Debit - American Express ACH Pmt 250908 W3566 Verzhine Khachatryan\",\n          \"amount\": 100.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"description\": \"Business to Business ACH Debit - American Express ACH Pmt 250908 M2008 Verzhine Khachatryan\",\n          \"amount\": 600.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"description\": \"Business to Business ACH Debit - American Express ACH Pmt 250908 W6046 Verzhine Khachatryan\",\n          \"amount\": 3912.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-09-2025\",\n          \"description\": \"Uber USA 6787 EDI Paymnt SEP 09 O8Eze5U8MI74C64 Ref*TN*O8Eze5U8MI\\\\\",\n          \"amount\": 16815.55,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"09-09-2025\",\n          \"description\": \"Purchase authorized on 09/08 Farmers Ins Billin 877-327-6392 CA S585251672446853 Card 3075\",\n          \"amount\": 155.99,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-09-2025\",\n          \"description\": \"Cashed Check 1030\",\n          \"amount\": 2585.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-09-2025\",\n          \"description\": \"Zelle to Light House on 09/09 Ref # Wfct0Z8Cbxg4\",\n          \"amount\": 1000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-09-2025\",\n          \"description\": \"WT 250909-158508 Jpmorgan Chase Bank /Bnf=Poesche Financial Services Srf# 0003513252006811 Trn#250909158508 Rfb#\",\n          \"amount\": 3800.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-09-2025\",\n          \"description\": \"Business to Business ACH Debit - American Express ACH Pmt 250909 W4366 Verzhine Khachatryan\",\n          \"amount\": 100.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-10-2025\",\n          \"description\": \"Purchase authorized on 09/08 Hollywood Shell Los Angeles CA S465251676243827 Card 3075\",\n          \"amount\": 60.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-10-2025\",\n          \"description\": \"Purchase authorized on 09/08 Aga Karinas Bakery Glendale CA S585252089279855 Card 3075\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-10-2025\",\n          \"description\": \"Zelle to Razmik B on 09/10 Ref # Wfct0Z8Ghrzz\",\n          \"amount\": 1100.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-10-2025\",\n          \"description\": \"Zelle to Razmik B on 09/10 Ref # Wfct0Z8Gk3Zg\",\n          \"amount\": 2000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-10-2025\",\n          \"description\": \"Check 1028\",\n          \"amount\": 294.23,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-10-2025\",\n          \"description\": \"Discover E-Payment 250910 3234 Khachatryan Verzhine\",\n          \"amount\": 149.56,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-11-2025\",\n          \"description\": \"Purchase authorized on 09/10 Costco Whse #0130 Los Angeles CA S385253687204369 Card 3075\",\n          \"amount\": 74.53,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-11-2025\",\n          \"description\": \"Purchase authorized on 09/10 76 - Apro LLC 2651 Los Angeles CA S585253694196114 Card 3075\",\n          \"amount\": 33.12,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-11-2025\",\n          \"description\": \"Zelle to Gilbert on 09/11 Ref # Wfct0Z8Lcnw4\",\n          \"amount\": 1000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-11-2025\",\n          \"description\": \"Synchrony Card Syf Paymnt SEP 11 524363120934135 Khachatryanverzhine\",\n          \"amount\": 139.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-11-2025\",\n          \"description\": \"Chase Credit Crd Epay 250910 8709788833 Verzhine Khachatryan\",\n          \"amount\": 148.23,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-11-2025\",\n          \"description\": \"Bmwfinancial Svs Bmwfs Pymt 250910 xxxxx0359 Perfection T4004219835\",\n          \"amount\": 900.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-12-2025\",\n          \"description\": \"Cashed Check 1031\",\n          \"amount\": 1100.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-12-2025\",\n          \"description\": \"Socalgas Paid Scgc 250911 0177023701 301601474294963834\",\n          \"amount\": 42.52,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-12-2025\",\n          \"description\": \"Socalgas Paid Scgc 250911 0706218501 301601474294963833\",\n          \"amount\": 200.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-12-2025\",\n          \"description\": \"Check 1027\",\n          \"amount\": 2500.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-12-2025\",\n          \"description\": \"Business to Business ACH Debit - American Express ACH Pmt 250912 W7566 Verzhine Khachatryan\",\n          \"amount\": 115.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-12-2025\",\n          \"description\": \"Business to Business ACH Debit - American Express ACH Pmt 250912 W6008 Verzhine Khachatryan\",\n          \"amount\": 717.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-12-2025\",\n          \"description\": \"Business to Business ACH Debit - American Express ACH Pmt 250912 W7760 Verzhine Khachatryan\",\n          \"amount\": 1788.89,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-15-2025\",\n          \"description\": \"Instant Pmt From Square on 09/15 Ref#20250915021000021P1Brjpc06080161721\",\n          \"amount\": 331.16,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"09-15-2025\",\n          \"description\": \"Non-WF ATM Withdrawal authorized on 09/14 4500 Los Feliz Blvd Los Angeles CA 585257707329845 ATM ID CA0576 Card 3075\",\n          \"amount\": 104.0,\n          \"type\": \"Debit\",\n          \"category\": \"ATM/Cash Withdrawal\"\n        },\n        {\n          \"date\": \"09-15-2025\",\n          \"description\": \"Non-WF ATM Withdrawal authorized on 09/14 *Franklin & Hillhurst Los Angeles CA 465258028173961 ATM ID Icad7442 Card 3075\",\n          \"amount\": 604.0,\n          \"type\": \"Debit\",\n          \"category\": \"ATM/Cash Withdrawal\"\n        },\n        {\n          \"date\": \"09-15-2025\",\n          \"description\": \"Non-Wells Fargo ATM Transaction Fee\",\n          \"amount\": 3.0,\n          \"type\": \"Debit\",\n          \"category\": \"Service Charges/Fees\"\n        },\n        {\n          \"date\": \"09-15-2025\",\n          \"description\": \"Deposited OR Cashed Check 1033\",\n          \"amount\": 2228.45,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-15-2025\",\n          \"description\": \"Zelle to H Artak on 09/15 Ref # WfctOZ8Zfw8N\",\n          \"amount\": 50.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-15-2025\",\n          \"description\": \"Discover E-Payment 250913 9170 Ayrapetyan Arthur\",\n          \"amount\": 130.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-15-2025\",\n          \"description\": \"Check 1032\",\n          \"amount\": 2030.53,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-15-2025\",\n          \"description\": \"Business to Business ACH Debit - Capital One Online Pmt CA0F7703DA975Df Arthur Ayrapetyan\",\n          \"amount\": 440.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-16-2025\",\n          \"description\": \"Uber USA 6787 EDI Paymnt SEP 16 0Q39Swg06DN96Kz Ref*TN*0Q39Swg06D\\\\\",\n          \"amount\": 20986.18,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"09-16-2025\",\n          \"description\": \"Instant Pmt From Square on 09/16 Ref#20250916021000021P1Brjpc06080149613\",\n          \"amount\": 663.22,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"09-16-2025\",\n          \"description\": \"Zelle to Khachatryan Verzhine on 09/16 Ref # Wfct0Z92Vtqg\",\n          \"amount\": 530.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-16-2025\",\n          \"description\": \"Cashed Check 1034\",\n          \"amount\": 2500.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-16-2025\",\n          \"description\": \"Home Depot Online Pmt 250915 631803640219465 Arthur Ayrapetyan\",\n          \"amount\": 30.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-16-2025\",\n          \"description\": \"Citi Card Online Payment 250915 431803642161507 Arthur Ayrapetyan\",\n          \"amount\": 190.25,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-16-2025\",\n          \"description\": \"Bank of America Payment 250915 17Cbwrza3 Ayrapetyan, Arthur\",\n          \"amount\": 1281.18,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-16-2025\",\n          \"description\": \"Truist Ln 001 Tel Pymt 250915 020345095251001 Arther Ayrapetyan\",\n          \"amount\": 1288.5,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-16-2025\",\n          \"description\": \"Bank of America Payment 250915 111Kt37Ty Ayrapetyan, Arthur\",\n          \"amount\": 1313.5,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-17-2025\",\n          \"description\": \"Zelle to Razmik B on 09/16 Ref # Wfct0Z94Kbkq\",\n          \"amount\": 200.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-17-2025\",\n          \"description\": \"Zelle to Andys Auto Center on 09/17 Ref # Wfct0Z95CR49\",\n          \"amount\": 500.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-17-2025\",\n          \"description\": \"Withdrawal Made In A Branch/Store\",\n          \"amount\": 583.0,\n          \"type\": \"Debit\",\n          \"category\": \"ATM/Cash Withdrawal\"\n        },\n        {\n          \"date\": \"09-17-2025\",\n          \"description\": \"Deposited OR Cashed Check 1036\",\n          \"amount\": 500.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-17-2025\",\n          \"description\": \"Zelle to H Artak on 09/17 Ref # Wfct0Z96C2Lg\",\n          \"amount\": 100.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-17-2025\",\n          \"description\": \"Non-WF ATM Withdrawal authorized on 09/17 *Franklin & Hillhurst Los Angeles CA 465261022598113 ATM ID Icad4217 Card 3075\",\n          \"amount\": 1004.0,\n          \"type\": \"Debit\",\n          \"category\": \"ATM/Cash Withdrawal\"\n        },\n        {\n          \"date\": \"09-17-2025\",\n          \"description\": \"Non-Wells Fargo ATM Transaction Fee\",\n          \"amount\": 3.0,\n          \"type\": \"Debit\",\n          \"category\": \"Service Charges/Fees\"\n        },\n        {\n          \"date\": \"09-17-2025\",\n          \"description\": \"Business to Business ACH Debit - Jpmorgan Chase Ext Trnsfr 250917 26235233895 Perfection Tours Inc\",\n          \"amount\": 1400.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-17-2025\",\n          \"description\": \"Discover E-Payment 250917 3234 Khachatryan Verzhine\",\n          \"amount\": 139.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-18-2025\",\n          \"description\": \"Zelle From Guardian Angels Hospice Care Inc on 09/18 Ref # Jpm99Bnpj3PI\",\n          \"amount\": 1000.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"09-18-2025\",\n          \"description\": \"Zelle From Nikolay Garibyan on 09/18 Ref # Jpm99Bnppb9L\",\n          \"amount\": 1000.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"09-18-2025\",\n          \"description\": \"Deposited OR Cashed Check 1035\",\n          \"amount\": 583.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-18-2025\",\n          \"description\": \"Deposited OR Cashed Check 1039\",\n          \"amount\": 880.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-18-2025\",\n          \"description\": \"Zelle to Razmik B on 09/18 Ref # Wfct0Z994M62\",\n          \"amount\": 800.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-18-2025\",\n          \"description\": \"Chase Credit Crd Epay 250916 8729013657 Verzhine Khachatryan\",\n          \"amount\": 139.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-18-2025\",\n          \"description\": \"Synchrony Card Syf Paymnt SEP 18 524363120934135 Khachatryanverzhine\",\n          \"amount\": 149.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-18-2025\",\n          \"description\": \"Check 1038\",\n          \"amount\": 700.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-19-2025\",\n          \"description\": \"Purchase authorized on 09/18 Chevron 0202019 Manhattan Bea CA S585262054001343 Card 3075\",\n          \"amount\": 14.46,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-19-2025\",\n          \"description\": \"Cashed Check 1040\",\n          \"amount\": 1283.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-19-2025\",\n          \"description\": \"Zelle to Am Management on 09/19 Ref # Wfct0Z9Csbcq\",\n          \"amount\": 350.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-19-2025\",\n          \"description\": \"Chase Credit Crd Epay 250918 8733498699 Lsls LLC\",\n          \"amount\": 487.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-19-2025\",\n          \"description\": \"Check 1037\",\n          \"amount\": 4040.57,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-19-2025\",\n          \"description\": \"Business to Business ACH Debit - American Express ACH Pmt 250919 W9518 Verzhine Khachatryan\",\n          \"amount\": 294.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-22-2025\",\n          \"description\": \"Instant Pmt From Square on 09/20 Ref#20250920021000021P1Brjpc08320015128\",\n          \"amount\": 389.71,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"09-22-2025\",\n          \"description\": \"Purchase authorized on 09/20 Gg Smoke Shop Glendale CA S305263759552478 Card 3075\",\n          \"amount\": 13.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-22-2025\",\n          \"description\": \"Deposited OR Cashed Check 1042\",\n          \"amount\": 2203.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-22-2025\",\n          \"description\": \"Zelle to Light House on 09/21 Ref # Wfct0Z9Mkkcy\",\n          \"amount\": 1000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-22-2025\",\n          \"description\": \"Affirm Inc Affirm Pay 250921 4361219 Arthur *Ayrapet\",\n          \"amount\": 927.36,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-23-2025\",\n          \"description\": \"Uber USA 6787 EDI Paymnt SEP 23 8Q54Ocuy3E97NM0 Ref*TN*8Q54Ocuy3E\\\\\",\n          \"amount\": 22067.06,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"09-23-2025\",\n          \"description\": \"Instant Pmt From Square on 09/23 Ref#20250923021000021P1Brjpc09280129971\",\n          \"amount\": 140.21,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"09-23-2025\",\n          \"description\": \"Purchase authorized on 09/22 Ladot Parking Cita 866-561-9742 CA S465265655274893 Card 3075\",\n          \"amount\": 295.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-23-2025\",\n          \"description\": \"Cash eWithdrawal IN Branch 09/23/2025 10:19 Am 1534 N Vermont Ave Los Angeles CA 3075\",\n          \"amount\": 1500.0,\n          \"type\": \"Debit\",\n          \"category\": \"ATM/Cash Withdrawal\"\n        },\n        {\n          \"date\": \"09-23-2025\",\n          \"description\": \"Cashed Check 1043\",\n          \"amount\": 2500.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-23-2025\",\n          \"description\": \"Zelle to Am Management on 09/23 Ref # Wfct0Z9Rbrtq\",\n          \"amount\": 2000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-23-2025\",\n          \"description\": \"Business to Business ACH Debit - Square Inc Sq Cap9286 250923 T3Paw3P7Wpsy346 Perfection Tours Inc\",\n          \"amount\": 1031.43,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-23-2025\",\n          \"description\": \"Discover E-Payment 250923 3234 Khachatryan Verzhine\",\n          \"amount\": 149.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-23-2025\",\n          \"description\": \"Discover E-Payment 250923 1764 Ayrapetyan Anthony\",\n          \"amount\": 153.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-24-2025\",\n          \"description\": \"Purchase authorized on 09/23 Sq *Eworld Enterta Los Angeles CA S585266666394056 Card 3075\",\n          \"amount\": 20.8,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-24-2025\",\n          \"description\": \"Zelle to Hayrapetyan Karen on 09/24 Ref # Wfct0Z9Vw2V8\",\n          \"amount\": 150.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-24-2025\",\n          \"description\": \"Chase Credit Crd Epay 250923 8745877895 Verzhine Khachatryan\",\n          \"amount\": 149.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-24-2025\",\n          \"description\": \"Gm Financial Gmf Pymt 250924 00211062451732 Null Lsls LLC\",\n          \"amount\": 903.5,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-24-2025\",\n          \"description\": \"Aci Kmf Kmfusa.Com 250923 20211006332936 Perfection Tours Inc\",\n          \"amount\": 10004.25,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-25-2025\",\n          \"description\": \"Instant Pmt From Square on 09/25 Ref#20250925021000021P1Brjpc08320129088\",\n          \"amount\": 951.74,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"09-25-2025\",\n          \"description\": \"Zelle to Tomas on 09/25 Ref # Wfct0Z9Xmt2Q\",\n          \"amount\": 320.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-25-2025\",\n          \"description\": \"Affirm Inc Affirm Pay 250924 5531342 Arthur *Ayrapet\",\n          \"amount\": 134.23,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-25-2025\",\n          \"description\": \"Business to Business ACH Debit - Equipment Financ Onlineinv 250924 Bggbk2003715678 Khachatryanverzhine\",\n          \"amount\": 940.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-25-2025\",\n          \"description\": \"Business to Business ACH Debit - Equipment Financ Onlineinv 250924 Bggbk2003715680 Ayrapetyanarthur\",\n          \"amount\": 1036.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-26-2025\",\n          \"description\": \"Purchase authorized on 09/25 Los Feliz Smoke Sh Los Angeles CA S465268713358395 Card 3075\",\n          \"amount\": 27.88,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-26-2025\",\n          \"description\": \"Cashed Check 1046\",\n          \"amount\": 1460.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-26-2025\",\n          \"description\": \"Deposited OR Cashed Check 1049\",\n          \"amount\": 2146.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-26-2025\",\n          \"description\": \"Purchase authorized on 09/26 Dollar Tree Sun Valley CA P000000184118810 Card 3075\",\n          \"amount\": 26.9,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-26-2025\",\n          \"description\": \"Check 1029\",\n          \"amount\": 3300.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-29-2025\",\n          \"description\": \"Instant Pmt From Square on 09/29 Ref#20250929021000021P1Brjpc09200182667\",\n          \"amount\": 506.79,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"09-29-2025\",\n          \"description\": \"Purchase authorized on 09/26 7-Eleven Los Angeles CA P000000089451267 Card 3075\",\n          \"amount\": 13.69,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-29-2025\",\n          \"description\": \"Purchase authorized on 09/27 Los Feliz Smoke Sh Los Angeles CA S385270820966600 Card 3075\",\n          \"amount\": 13.94,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-29-2025\",\n          \"description\": \"ATM Withdrawal authorized on 09/27 1534 N Vermont Ave Los Angeles CA 0006339 ATM ID 0740C Card 3075\",\n          \"amount\": 2000.0,\n          \"type\": \"Debit\",\n          \"category\": \"ATM/Cash Withdrawal\"\n        },\n        {\n          \"date\": \"09-29-2025\",\n          \"description\": \"Purchase authorized on 09/27 Metro Smoke Shop Los Angeles CA S305271163192768 Card 3075\",\n          \"amount\": 13.71,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-29-2025\",\n          \"description\": \"Zelle to Zhora on 09/28 Ref # Wfct0Zb9Nrpx\",\n          \"amount\": 120.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-29-2025\",\n          \"description\": \"Zelle to Erik on 09/28 Ref # Wfct0Zb9P2N5\",\n          \"amount\": 125.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-29-2025\",\n          \"description\": \"Deposited OR Cashed Check 1051\",\n          \"amount\": 2038.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-29-2025\",\n          \"description\": \"Zelle to Gilbert on 09/29 Ref # Wfct0Zbffl3Q\",\n          \"amount\": 2000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-29-2025\",\n          \"description\": \"Check 1050\",\n          \"amount\": 1838.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-29-2025\",\n          \"description\": \"Chase Credit Crd Autopay 250928 000000000017504 Khachatryan Verzhine\",\n          \"amount\": 67.4,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-29-2025\",\n          \"description\": \"Best Buy Payment 250928 621814869065374 Arthur Ayrapetyan\",\n          \"amount\": 480.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-29-2025\",\n          \"description\": \"Check 1045\",\n          \"amount\": 4292.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-30-2025\",\n          \"description\": \"Uber USA 6787 EDI Paymnt SEP 30 H7Det698Vilelr9 Ref*TN*H7Det698VI\\\\\",\n          \"amount\": 21012.04,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"09-30-2025\",\n          \"description\": \"Zelle From Ardi Limo Inc on 09/30 Ref # Bacrhcqcrfnq\",\n          \"amount\": 2000.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"09-30-2025\",\n          \"description\": \"Purchase authorized on 09/28 Domino's 8289 323-667-2323 CA S465272039972378 Card 3075\",\n          \"amount\": 36.79,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-30-2025\",\n          \"description\": \"Ford Motor CR Fordcredit 250929 691873 Ayrapetyan Arthur\",\n          \"amount\": 1800.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-30-2025\",\n          \"description\": \"Discover E-Payment 250930 3234 Khachatryan Verzhine\",\n          \"amount\": 149.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-30-2025\",\n          \"description\": \"Interest Payment\",\n          \"amount\": 0.2,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        }\n      ]\n    }\n  ]\n}\n```",
+    "token_count": {
+      "estimated_tokens": 3355
+    },
+    "failure_reason": null
+  },
+  "bsi_analyzer_result": {
+    "agent_name": "v1_bsi_analyzer_agent",
+    "processing_status": "success",
+    "start_time": "2026-02-04T15:10:55.305087",
+    "end_time": "2026-02-04T15:12:45.041236",
+    "parsed_json": {
+      "accounts": [
+        {
+          "account_number": "7432378086",
+          "account_type": "Navigate Business Checking",
+          "mca_deposit": [],
+          "mca_withdrawal": [
+            {
+              "mca_name": "Square Cap",
+              "date": "09-23-2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - Square Inc Sq Cap9286 250923 T3Paw3P7Wpsy346 Perfection Tours Inc",
+              "amount": 1031.43
+            }
+          ],
+          "returned_items": [],
+          "overdrafts": [],
+          "service_charges": [
+            {
+              "date": "09-15-2025",
+              "type": "Debit",
+              "description": "Non-Wells Fargo ATM Transaction Fee",
+              "amount": 3.0
+            },
+            {
+              "date": "09-17-2025",
+              "type": "Debit",
+              "description": "Non-Wells Fargo ATM Transaction Fee",
+              "amount": 3.0
+            }
+          ],
+          "atm_cash_withdrawal": [
+            {
+              "date": "09-02-2025",
+              "type": "Debit",
+              "description": "Non-WF ATM Withdrawal authorized on 08/31 *Franklin & Hillhurst Los Angeles CA 465243641254707 ATM ID Icad7442 Card 3075",
+              "amount": 404.0
+            },
+            {
+              "date": "09-03-2025",
+              "type": "Debit",
+              "description": "Cash eWithdrawal IN Branch 09/03/2025 11:11 Am 250 E Olive Ave Burbank CA 3075",
+              "amount": 2000.0
+            },
+            {
+              "date": "09-15-2025",
+              "type": "Debit",
+              "description": "Non-WF ATM Withdrawal authorized on 09/14 4500 Los Feliz Blvd Los Angeles CA 585257707329845 ATM ID CA0576 Card 3075",
+              "amount": 104.0
+            },
+            {
+              "date": "09-15-2025",
+              "type": "Debit",
+              "description": "Non-WF ATM Withdrawal authorized on 09/14 *Franklin & Hillhurst Los Angeles CA 465258028173961 ATM ID Icad7442 Card 3075",
+              "amount": 604.0
+            },
+            {
+              "date": "09-17-2025",
+              "type": "Debit",
+              "description": "Withdrawal Made In A Branch/Store",
+              "amount": 583.0
+            },
+            {
+              "date": "09-17-2025",
+              "type": "Debit",
+              "description": "Non-WF ATM Withdrawal authorized on 09/17 *Franklin & Hillhurst Los Angeles CA 465261022598113 ATM ID Icad4217 Card 3075",
+              "amount": 1004.0
+            },
+            {
+              "date": "09-23-2025",
+              "type": "Debit",
+              "description": "Cash eWithdrawal IN Branch 09/23/2025 10:19 Am 1534 N Vermont Ave Los Angeles CA 3075",
+              "amount": 1500.0
+            },
+            {
+              "date": "09-29-2025",
+              "type": "Debit",
+              "description": "ATM Withdrawal authorized on 09/27 1534 N Vermont Ave Los Angeles CA 0006339 ATM ID 0740C Card 3075",
+              "amount": 2000.0
+            }
+          ],
+          "internal_transfer_deposit": [],
+          "other_transfer_deposit": [
+            {
+              "date": "09-03-2025",
+              "description": "Uber USA 6787 EDI Paymnt SEP 02 Ojmkrj6Gfuypcry Ref*TN*Ojmkrj6Gfu\\",
+              "amount": 15032.45,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-08-2025",
+              "description": "Square Inc Acctverify 250908 T3Mqkte0Tcx6MT1 Perfection Tours Inc",
+              "amount": 0.01,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-08-2025",
+              "description": "Square Inc Sq250908 250908 T36P85Dwcy8Jfdg Perfection Tours Inc",
+              "amount": 476.4,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-08-2025",
+              "description": "Instant Pmt From Square on 09/08 Ref#20250908021000021P1Brjpc02320033475",
+              "amount": 374.39,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-08-2025",
+              "description": "Instant Pmt From Square on 09/08 Ref#20250908021000021P1Brjpc02320167026",
+              "amount": 975.46,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-08-2025",
+              "description": "Instant Pmt From Square on 09/08 Ref#20250908021000021P1Brjpc05920209770",
+              "amount": 585.15,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-09-2025",
+              "description": "Uber USA 6787 EDI Paymnt SEP 09 O8Eze5U8MI74C64 Ref*TN*O8Eze5U8MI\\",
+              "amount": 16815.55,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-15-2025",
+              "description": "Instant Pmt From Square on 09/15 Ref#20250915021000021P1Brjpc06080161721",
+              "amount": 331.16,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-16-2025",
+              "description": "Uber USA 6787 EDI Paymnt SEP 16 0Q39Swg06DN96Kz Ref*TN*0Q39Swg06D\\",
+              "amount": 20986.18,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-16-2025",
+              "description": "Instant Pmt From Square on 09/16 Ref#20250916021000021P1Brjpc06080149613",
+              "amount": 663.22,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-18-2025",
+              "description": "Zelle From Guardian Angels Hospice Care Inc on 09/18 Ref # Jpm99Bnpj3PI",
+              "amount": 1000.0,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-18-2025",
+              "description": "Zelle From Nikolay Garibyan on 09/18 Ref # Jpm99Bnppb9L",
+              "amount": 1000.0,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-22-2025",
+              "description": "Instant Pmt From Square on 09/20 Ref#20250920021000021P1Brjpc08320015128",
+              "amount": 389.71,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-23-2025",
+              "description": "Uber USA 6787 EDI Paymnt SEP 23 8Q54Ocuy3E97NM0 Ref*TN*8Q54Ocuy3E\\",
+              "amount": 22067.06,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-23-2025",
+              "description": "Instant Pmt From Square on 09/23 Ref#20250923021000021P1Brjpc09280129971",
+              "amount": 140.21,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-25-2025",
+              "description": "Instant Pmt From Square on 09/25 Ref#20250925021000021P1Brjpc08320129088",
+              "amount": 951.74,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-29-2025",
+              "description": "Instant Pmt From Square on 09/29 Ref#20250929021000021P1Brjpc09200182667",
+              "amount": 506.79,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-30-2025",
+              "description": "Uber USA 6787 EDI Paymnt SEP 30 H7Det698Vilelr9 Ref*TN*H7Det698VI\\",
+              "amount": 21012.04,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-30-2025",
+              "description": "Zelle From Ardi Limo Inc on 09/30 Ref # Bacrhcqcrfnq",
+              "amount": 2000.0,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            }
+          ],
+          "internal_transfer_withdrawal": [],
+          "other_transfer_withdrawal": [
+            {
+              "date": "09-03-2025",
+              "type": "Debit",
+              "description": "Zelle to Razmik B on 09/03 Ref # Wfct0Z7Qd85J",
+              "amount": 1976.0
+            },
+            {
+              "date": "09-03-2025",
+              "type": "Debit",
+              "description": "Zelle to Razmik B on 09/03 Ref # Wfct0Z7R48P7",
+              "amount": 225.0
+            },
+            {
+              "date": "09-04-2025",
+              "type": "Debit",
+              "description": "Zelle to Vaagn on 09/04 Ref # Wfct0Z7Vg89W",
+              "amount": 592.0
+            },
+            {
+              "date": "09-08-2025",
+              "type": "Debit",
+              "description": "Zelle to Andys Auto Center on 09/06 Ref # Wfct0Z83Llkm",
+              "amount": 500.0
+            },
+            {
+              "date": "09-08-2025",
+              "type": "Debit",
+              "description": "Zelle to Razmik B on 09/07 Ref # Wfct0Z86Tj3D",
+              "amount": 50.0
+            },
+            {
+              "date": "09-08-2025",
+              "type": "Debit",
+              "description": "Zelle to Harutun on 09/08 Ref # WfctOZ889Xfl",
+              "amount": 1710.0
+            },
+            {
+              "date": "09-08-2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - Square Inc Acctverify 250908 T3Qhq61S75Bsfjd Perfection Tours Inc",
+              "amount": 0.01
+            },
+            {
+              "date": "09-09-2025",
+              "type": "Debit",
+              "description": "Zelle to Light House on 09/09 Ref # Wfct0Z8Cbxg4",
+              "amount": 1000.0
+            },
+            {
+              "date": "09-10-2025",
+              "type": "Debit",
+              "description": "Zelle to Razmik B on 09/10 Ref # Wfct0Z8Ghrzz",
+              "amount": 1100.0
+            },
+            {
+              "date": "09-10-2025",
+              "type": "Debit",
+              "description": "Zelle to Razmik B on 09/10 Ref # Wfct0Z8Gk3Zg",
+              "amount": 2000.0
+            },
+            {
+              "date": "09-11-2025",
+              "type": "Debit",
+              "description": "Zelle to Gilbert on 09/11 Ref # Wfct0Z8Lcnw4",
+              "amount": 1000.0
+            },
+            {
+              "date": "09-15-2025",
+              "type": "Debit",
+              "description": "Zelle to H Artak on 09/15 Ref # WfctOZ8Zfw8N",
+              "amount": 50.0
+            },
+            {
+              "date": "09-16-2025",
+              "type": "Debit",
+              "description": "Zelle to Khachatryan Verzhine on 09/16 Ref # Wfct0Z92Vtqg",
+              "amount": 530.0
+            },
+            {
+              "date": "09-17-2025",
+              "type": "Debit",
+              "description": "Zelle to Razmik B on 09/16 Ref # Wfct0Z94Kbkq",
+              "amount": 200.0
+            },
+            {
+              "date": "09-17-2025",
+              "type": "Debit",
+              "description": "Zelle to Andys Auto Center on 09/17 Ref # Wfct0Z95CR49",
+              "amount": 500.0
+            },
+            {
+              "date": "09-17-2025",
+              "type": "Debit",
+              "description": "Zelle to H Artak on 09/17 Ref # Wfct0Z96C2Lg",
+              "amount": 100.0
+            },
+            {
+              "date": "09-17-2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - Jpmorgan Chase Ext Trnsfr 250917 26235233895 Perfection Tours Inc",
+              "amount": 1400.0
+            },
+            {
+              "date": "09-18-2025",
+              "type": "Debit",
+              "description": "Zelle to Razmik B on 09/18 Ref # Wfct0Z994M62",
+              "amount": 800.0
+            },
+            {
+              "date": "09-19-2025",
+              "type": "Debit",
+              "description": "Zelle to Am Management on 09/19 Ref # Wfct0Z9Csbcq",
+              "amount": 350.0
+            },
+            {
+              "date": "09-22-2025",
+              "type": "Debit",
+              "description": "Zelle to Light House on 09/21 Ref # Wfct0Z9Mkkcy",
+              "amount": 1000.0
+            },
+            {
+              "date": "09-23-2025",
+              "type": "Debit",
+              "description": "Zelle to Am Management on 09/23 Ref # Wfct0Z9Rbrtq",
+              "amount": 2000.0
+            },
+            {
+              "date": "09-24-2025",
+              "type": "Debit",
+              "description": "Zelle to Hayrapetyan Karen on 09/24 Ref # Wfct0Z9Vw2V8",
+              "amount": 150.0
+            },
+            {
+              "date": "09-25-2025",
+              "type": "Debit",
+              "description": "Zelle to Tomas on 09/25 Ref # Wfct0Z9Xmt2Q",
+              "amount": 320.0
+            },
+            {
+              "date": "09-29-2025",
+              "type": "Debit",
+              "description": "Zelle to Zhora on 09/28 Ref # Wfct0Zb9Nrpx",
+              "amount": 120.0
+            },
+            {
+              "date": "09-29-2025",
+              "type": "Debit",
+              "description": "Zelle to Erik on 09/28 Ref # Wfct0Zb9P2N5",
+              "amount": 125.0
+            },
+            {
+              "date": "09-29-2025",
+              "type": "Debit",
+              "description": "Zelle to Gilbert on 09/29 Ref # Wfct0Zbffl3Q",
+              "amount": 2000.0
+            }
+          ],
+          "standard_deposit": [
+            {
+              "date": "09-08-2025",
+              "description": "eDeposit IN Branch 09/08/25 02:49:23 PM 250 E Olive Ave Burbank CA 3075",
+              "amount": 31000.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-08-2025",
+              "description": "eDeposit IN Branch 09/08/25 02:50:25 PM 250 E Olive Ave Burbank CA 3075",
+              "amount": 6000.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-30-2025",
+              "description": "Interest Payment",
+              "amount": 0.2,
+              "type": "Credit",
+              "non_true_revenue": 0
+            }
+          ],
+          "standard_withdrawal": [
+            {
+              "date": "09-02-2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 08/31 Starbucks Store 05 Los Angeles CA S465243591504913 Card 3075",
+              "amount": 3.25
+            },
+            {
+              "date": "09-02-2025",
+              "type": "Debit",
+              "description": "Check 1024",
+              "amount": 2158.85
+            },
+            {
+              "date": "09-02-2025",
+              "type": "Debit",
+              "description": "Check 1023",
+              "amount": 923.0
+            },
+            {
+              "date": "09-03-2025",
+              "type": "Debit",
+              "description": "Cashed Check 1025",
+              "amount": 2457.37
+            },
+            {
+              "date": "09-03-2025",
+              "type": "Debit",
+              "description": "WT Seq208595 Capital Premium Financi /Bnf=Capital Premium Financing Inc Srf# Ow00006056026159 Trn#250903208595 Rfb# Ow00006056026159",
+              "amount": 826.32
+            },
+            {
+              "date": "09-03-2025",
+              "type": "Debit",
+              "description": "Truist Ln 001 Tel Pymt 250902 020345095251001 Arther Ayrapetyan",
+              "amount": 1289.0
+            },
+            {
+              "date": "09-04-2025",
+              "type": "Debit",
+              "description": "Discover E-Payment 250903 3234 Khachatryan Verzhine",
+              "amount": 139.0
+            },
+            {
+              "date": "09-04-2025",
+              "type": "Debit",
+              "description": "Chase Credit Crd Epay 250903 8693087966 Verzhine Khachatryan",
+              "amount": 139.0
+            },
+            {
+              "date": "09-04-2025",
+              "type": "Debit",
+              "description": "Newrez-Shellpoin Web Pmts 250902 0579056819 Ayrapetyan Arthur",
+              "amount": 4456.11
+            },
+            {
+              "date": "09-05-2025",
+              "type": "Debit",
+              "description": "Cashed Check 1026",
+              "amount": 975.0
+            },
+            {
+              "date": "09-05-2025",
+              "type": "Debit",
+              "description": "Synchrony Card Syf Paymnt SEP 05 524363120934135 Khachatryanverzhine",
+              "amount": 139.0
+            },
+            {
+              "date": "09-08-2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/05 76 - CF United LLC Los Angeles CA S305248754377141 Card 3075",
+              "amount": 30.0
+            },
+            {
+              "date": "09-08-2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/05 Tst* Pinos Sandwic Los Angeles CA S585249109912258 Card 3075",
+              "amount": 36.51
+            },
+            {
+              "date": "09-08-2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/06 Starbucks Store 05 Los Angeles CA S305249610686336 Card 3075",
+              "amount": 4.25
+            },
+            {
+              "date": "09-08-2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/06 Los Feliz Smoke Sh Los Angeles CA S385249648993712 Card 3075",
+              "amount": 13.94
+            },
+            {
+              "date": "09-08-2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/06 76 - Schafer Capit LA Canada CA S305249719519798 Card 3075",
+              "amount": 80.01
+            },
+            {
+              "date": "09-08-2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/06 818 Smoke Shop Glendale CA S385249824611072 Card 3075",
+              "amount": 13.26
+            },
+            {
+              "date": "09-08-2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/07 Chevron 0091410 Pasadena CA S585251125745806 Card 3075",
+              "amount": 17.11
+            },
+            {
+              "date": "09-08-2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/08 7-Eleven Los Angeles CA P000000280347095 Card 3075",
+              "amount": 3.89
+            },
+            {
+              "date": "09-08-2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - American Express ACH Pmt 250908 W3566 Verzhine Khachatryan",
+              "amount": 100.0
+            },
+            {
+              "date": "09-08-2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - American Express ACH Pmt 250908 M2008 Verzhine Khachatryan",
+              "amount": 600.0
+            },
+            {
+              "date": "09-08-2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - American Express ACH Pmt 250908 W6046 Verzhine Khachatryan",
+              "amount": 3912.0
+            },
+            {
+              "date": "09-09-2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/08 Farmers Ins Billin 877-327-6392 CA S585251672446853 Card 3075",
+              "amount": 155.99
+            },
+            {
+              "date": "09-09-2025",
+              "type": "Debit",
+              "description": "Cashed Check 1030",
+              "amount": 2585.0
+            },
+            {
+              "date": "09-09-2025",
+              "type": "Debit",
+              "description": "WT 250909-158508 Jpmorgan Chase Bank /Bnf=Poesche Financial Services Srf# 0003513252006811 Trn#250909158508 Rfb#",
+              "amount": 3800.0
+            },
+            {
+              "date": "09-09-2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - American Express ACH Pmt 250909 W4366 Verzhine Khachatryan",
+              "amount": 100.0
+            },
+            {
+              "date": "09-10-2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/08 Hollywood Shell Los Angeles CA S465251676243827 Card 3075",
+              "amount": 60.0
+            },
+            {
+              "date": "09-10-2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/08 Aga Karinas Bakery Glendale CA S585252089279855 Card 3075",
+              "amount": 35.0
+            },
+            {
+              "date": "09-10-2025",
+              "type": "Debit",
+              "description": "Check 1028",
+              "amount": 294.23
+            },
+            {
+              "date": "09-10-2025",
+              "type": "Debit",
+              "description": "Discover E-Payment 250910 3234 Khachatryan Verzhine",
+              "amount": 149.56
+            },
+            {
+              "date": "09-11-2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/10 Costco Whse #0130 Los Angeles CA S385253687204369 Card 3075",
+              "amount": 74.53
+            },
+            {
+              "date": "09-11-2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/10 76 - Apro LLC 2651 Los Angeles CA S585253694196114 Card 3075",
+              "amount": 33.12
+            },
+            {
+              "date": "09-11-2025",
+              "type": "Debit",
+              "description": "Synchrony Card Syf Paymnt SEP 11 524363120934135 Khachatryanverzhine",
+              "amount": 139.0
+            },
+            {
+              "date": "09-11-2025",
+              "type": "Debit",
+              "description": "Chase Credit Crd Epay 250910 8709788833 Verzhine Khachatryan",
+              "amount": 148.23
+            },
+            {
+              "date": "09-11-2025",
+              "type": "Debit",
+              "description": "Bmwfinancial Svs Bmwfs Pymt 250910 xxxxx0359 Perfection T4004219835",
+              "amount": 900.0
+            },
+            {
+              "date": "09-12-2025",
+              "type": "Debit",
+              "description": "Cashed Check 1031",
+              "amount": 1100.0
+            },
+            {
+              "date": "09-12-2025",
+              "type": "Debit",
+              "description": "Socalgas Paid Scgc 250911 0177023701 301601474294963834",
+              "amount": 42.52
+            },
+            {
+              "date": "09-12-2025",
+              "type": "Debit",
+              "description": "Socalgas Paid Scgc 250911 0706218501 301601474294963833",
+              "amount": 200.0
+            },
+            {
+              "date": "09-12-2025",
+              "type": "Debit",
+              "description": "Check 1027",
+              "amount": 2500.0
+            },
+            {
+              "date": "09-12-2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - American Express ACH Pmt 250912 W7566 Verzhine Khachatryan",
+              "amount": 115.0
+            },
+            {
+              "date": "09-12-2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - American Express ACH Pmt 250912 W6008 Verzhine Khachatryan",
+              "amount": 717.0
+            },
+            {
+              "date": "09-12-2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - American Express ACH Pmt 250912 W7760 Verzhine Khachatryan",
+              "amount": 1788.89
+            },
+            {
+              "date": "09-15-2025",
+              "type": "Debit",
+              "description": "Deposited OR Cashed Check 1033",
+              "amount": 2228.45
+            },
+            {
+              "date": "09-15-2025",
+              "type": "Debit",
+              "description": "Discover E-Payment 250913 9170 Ayrapetyan Arthur",
+              "amount": 130.0
+            },
+            {
+              "date": "09-15-2025",
+              "type": "Debit",
+              "description": "Check 1032",
+              "amount": 2030.53
+            },
+            {
+              "date": "09-15-2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - Capital One Online Pmt CA0F7703DA975Df Arthur Ayrapetyan",
+              "amount": 440.0
+            },
+            {
+              "date": "09-16-2025",
+              "type": "Debit",
+              "description": "Cashed Check 1034",
+              "amount": 2500.0
+            },
+            {
+              "date": "09-16-2025",
+              "type": "Debit",
+              "description": "Home Depot Online Pmt 250915 631803640219465 Arthur Ayrapetyan",
+              "amount": 30.0
+            },
+            {
+              "date": "09-16-2025",
+              "type": "Debit",
+              "description": "Citi Card Online Payment 250915 431803642161507 Arthur Ayrapetyan",
+              "amount": 190.25
+            },
+            {
+              "date": "09-16-2025",
+              "type": "Debit",
+              "description": "Bank of America Payment 250915 17Cbwrza3 Ayrapetyan, Arthur",
+              "amount": 1281.18
+            },
+            {
+              "date": "09-16-2025",
+              "type": "Debit",
+              "description": "Truist Ln 001 Tel Pymt 250915 020345095251001 Arther Ayrapetyan",
+              "amount": 1288.5
+            },
+            {
+              "date": "09-16-2025",
+              "type": "Debit",
+              "description": "Bank of America Payment 250915 111Kt37Ty Ayrapetyan, Arthur",
+              "amount": 1313.5
+            },
+            {
+              "date": "09-17-2025",
+              "type": "Debit",
+              "description": "Deposited OR Cashed Check 1036",
+              "amount": 500.0
+            },
+            {
+              "date": "09-17-2025",
+              "type": "Debit",
+              "description": "Discover E-Payment 250917 3234 Khachatryan Verzhine",
+              "amount": 139.0
+            },
+            {
+              "date": "09-18-2025",
+              "type": "Debit",
+              "description": "Deposited OR Cashed Check 1035",
+              "amount": 583.0
+            },
+            {
+              "date": "09-18-2025",
+              "type": "Debit",
+              "description": "Deposited OR Cashed Check 1039",
+              "amount": 880.0
+            },
+            {
+              "date": "09-18-2025",
+              "type": "Debit",
+              "description": "Chase Credit Crd Epay 250916 8729013657 Verzhine Khachatryan",
+              "amount": 139.0
+            },
+            {
+              "date": "09-18-2025",
+              "type": "Debit",
+              "description": "Synchrony Card Syf Paymnt SEP 18 524363120934135 Khachatryanverzhine",
+              "amount": 149.0
+            },
+            {
+              "date": "09-18-2025",
+              "type": "Debit",
+              "description": "Check 1038",
+              "amount": 700.0
+            },
+            {
+              "date": "09-19-2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/18 Chevron 0202019 Manhattan Bea CA S585262054001343 Card 3075",
+              "amount": 14.46
+            },
+            {
+              "date": "09-19-2025",
+              "type": "Debit",
+              "description": "Cashed Check 1040",
+              "amount": 1283.0
+            },
+            {
+              "date": "09-19-2025",
+              "type": "Debit",
+              "description": "Chase Credit Crd Epay 250918 8733498699 Lsls LLC",
+              "amount": 487.0
+            },
+            {
+              "date": "09-19-2025",
+              "type": "Debit",
+              "description": "Check 1037",
+              "amount": 4040.57
+            },
+            {
+              "date": "09-19-2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - American Express ACH Pmt 250919 W9518 Verzhine Khachatryan",
+              "amount": 294.0
+            },
+            {
+              "date": "09-22-2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/20 Gg Smoke Shop Glendale CA S305263759552478 Card 3075",
+              "amount": 13.0
+            },
+            {
+              "date": "09-22-2025",
+              "type": "Debit",
+              "description": "Deposited OR Cashed Check 1042",
+              "amount": 2203.0
+            },
+            {
+              "date": "09-22-2025",
+              "type": "Debit",
+              "description": "Affirm Inc Affirm Pay 250921 4361219 Arthur *Ayrapet",
+              "amount": 927.36
+            },
+            {
+              "date": "09-23-2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/22 Ladot Parking Cita 866-561-9742 CA S465265655274893 Card 3075",
+              "amount": 295.0
+            },
+            {
+              "date": "09-23-2025",
+              "type": "Debit",
+              "description": "Cashed Check 1043",
+              "amount": 2500.0
+            },
+            {
+              "date": "09-23-2025",
+              "type": "Debit",
+              "description": "Discover E-Payment 250923 3234 Khachatryan Verzhine",
+              "amount": 149.0
+            },
+            {
+              "date": "09-23-2025",
+              "type": "Debit",
+              "description": "Discover E-Payment 250923 1764 Ayrapetyan Anthony",
+              "amount": 153.0
+            },
+            {
+              "date": "09-24-2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/23 Sq *Eworld Enterta Los Angeles CA S585266666394056 Card 3075",
+              "amount": 20.8
+            },
+            {
+              "date": "09-24-2025",
+              "type": "Debit",
+              "description": "Chase Credit Crd Epay 250923 8745877895 Verzhine Khachatryan",
+              "amount": 149.0
+            },
+            {
+              "date": "09-24-2025",
+              "type": "Debit",
+              "description": "Gm Financial Gmf Pymt 250924 00211062451732 Null Lsls LLC",
+              "amount": 903.5
+            },
+            {
+              "date": "09-24-2025",
+              "type": "Debit",
+              "description": "Aci Kmf Kmfusa.Com 250923 20211006332936 Perfection Tours Inc",
+              "amount": 10004.25
+            },
+            {
+              "date": "09-25-2025",
+              "type": "Debit",
+              "description": "Affirm Inc Affirm Pay 250924 5531342 Arthur *Ayrapet",
+              "amount": 134.23
+            },
+            {
+              "date": "09-25-2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - Equipment Financ Onlineinv 250924 Bggbk2003715678 Khachatryanverzhine",
+              "amount": 940.0
+            },
+            {
+              "date": "09-25-2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - Equipment Financ Onlineinv 250924 Bggbk2003715680 Ayrapetyanarthur",
+              "amount": 1036.0
+            },
+            {
+              "date": "09-26-2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/25 Los Feliz Smoke Sh Los Angeles CA S465268713358395 Card 3075",
+              "amount": 27.88
+            },
+            {
+              "date": "09-26-2025",
+              "type": "Debit",
+              "description": "Cashed Check 1046",
+              "amount": 1460.0
+            },
+            {
+              "date": "09-26-2025",
+              "type": "Debit",
+              "description": "Deposited OR Cashed Check 1049",
+              "amount": 2146.0
+            },
+            {
+              "date": "09-26-2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/26 Dollar Tree Sun Valley CA P000000184118810 Card 3075",
+              "amount": 26.9
+            },
+            {
+              "date": "09-26-2025",
+              "type": "Debit",
+              "description": "Check 1029",
+              "amount": 3300.0
+            },
+            {
+              "date": "09-29-2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/26 7-Eleven Los Angeles CA P000000089451267 Card 3075",
+              "amount": 13.69
+            },
+            {
+              "date": "09-29-2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/27 Los Feliz Smoke Sh Los Angeles CA S385270820966600 Card 3075",
+              "amount": 13.94
+            },
+            {
+              "date": "09-29-2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/27 Metro Smoke Shop Los Angeles CA S305271163192768 Card 3075",
+              "amount": 13.71
+            },
+            {
+              "date": "09-29-2025",
+              "type": "Debit",
+              "description": "Deposited OR Cashed Check 1051",
+              "amount": 2038.0
+            },
+            {
+              "date": "09-29-2025",
+              "type": "Debit",
+              "description": "Check 1050",
+              "amount": 1838.0
+            },
+            {
+              "date": "09-29-2025",
+              "type": "Debit",
+              "description": "Chase Credit Crd Autopay 250928 000000000017504 Khachatryan Verzhine",
+              "amount": 67.4
+            },
+            {
+              "date": "09-29-2025",
+              "type": "Debit",
+              "description": "Best Buy Payment 250928 621814869065374 Arthur Ayrapetyan",
+              "amount": 480.0
+            },
+            {
+              "date": "09-29-2025",
+              "type": "Debit",
+              "description": "Check 1045",
+              "amount": 4292.0
+            },
+            {
+              "date": "09-30-2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/28 Domino's 8289 323-667-2323 CA S465272039972378 Card 3075",
+              "amount": 36.79
+            },
+            {
+              "date": "09-30-2025",
+              "type": "Debit",
+              "description": "Ford Motor CR Fordcredit 250929 691873 Ayrapetyan Arthur",
+              "amount": 1800.0
+            },
+            {
+              "date": "09-30-2025",
+              "type": "Debit",
+              "description": "Discover E-Payment 250930 3234 Khachatryan Verzhine",
+              "amount": 149.0
+            }
+          ]
+        }
+      ]
+    },
+    "raw_output": "```json\n{\n  \"accounts\": [\n    {\n      \"account_number\": \"7432378086\",\n      \"account_type\": \"Navigate Business Checking\",\n      \"mca_deposit\": [],\n      \"mca_withdrawal\": [\n        {\n          \"mca_name\": \"Square Cap\",\n          \"date\": \"09-23-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - Square Inc Sq Cap9286 250923 T3Paw3P7Wpsy346 Perfection Tours Inc\",\n          \"amount\": 1031.43\n        }\n      ],\n      \"returned_items\": [],\n      \"overdrafts\": [],\n      \"service_charges\": [\n        {\n          \"date\": \"09-15-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Non-Wells Fargo ATM Transaction Fee\",\n          \"amount\": 3.0\n        },\n        {\n          \"date\": \"09-17-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Non-Wells Fargo ATM Transaction Fee\",\n          \"amount\": 3.0\n        }\n      ],\n      \"atm_cash_withdrawal\": [\n        {\n          \"date\": \"09-02-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Non-WF ATM Withdrawal authorized on 08/31 *Franklin & Hillhurst Los Angeles CA 465243641254707 ATM ID Icad7442 Card 3075\",\n          \"amount\": 404.0\n        },\n        {\n          \"date\": \"09-03-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Cash eWithdrawal IN Branch 09/03/2025 11:11 Am 250 E Olive Ave Burbank CA 3075\",\n          \"amount\": 2000.0\n        },\n        {\n          \"date\": \"09-15-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Non-WF ATM Withdrawal authorized on 09/14 4500 Los Feliz Blvd Los Angeles CA 585257707329845 ATM ID CA0576 Card 3075\",\n          \"amount\": 104.0\n        },\n        {\n          \"date\": \"09-15-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Non-WF ATM Withdrawal authorized on 09/14 *Franklin & Hillhurst Los Angeles CA 465258028173961 ATM ID Icad7442 Card 3075\",\n          \"amount\": 604.0\n        },\n        {\n          \"date\": \"09-17-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Withdrawal Made In A Branch/Store\",\n          \"amount\": 583.0\n        },\n        {\n          \"date\": \"09-17-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Non-WF ATM Withdrawal authorized on 09/17 *Franklin & Hillhurst Los Angeles CA 465261022598113 ATM ID Icad4217 Card 3075\",\n          \"amount\": 1004.0\n        },\n        {\n          \"date\": \"09-23-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Cash eWithdrawal IN Branch 09/23/2025 10:19 Am 1534 N Vermont Ave Los Angeles CA 3075\",\n          \"amount\": 1500.0\n        },\n        {\n          \"date\": \"09-29-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"ATM Withdrawal authorized on 09/27 1534 N Vermont Ave Los Angeles CA 0006339 ATM ID 0740C Card 3075\",\n          \"amount\": 2000.0\n        }\n      ],\n      \"internal_transfer_deposit\": [],\n      \"other_transfer_deposit\": [\n        {\n          \"date\": \"09-03-2025\",\n          \"description\": \"Uber USA 6787 EDI Paymnt SEP 02 Ojmkrj6Gfuypcry Ref*TN*Ojmkrj6Gfu\\\\\",\n          \"amount\": 15032.45,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"description\": \"Square Inc Acctverify 250908 T3Mqkte0Tcx6MT1 Perfection Tours Inc\",\n          \"amount\": 0.01,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"description\": \"Square Inc Sq250908 250908 T36P85Dwcy8Jfdg Perfection Tours Inc\",\n          \"amount\": 476.4,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"description\": \"Instant Pmt From Square on 09/08 Ref#20250908021000021P1Brjpc02320033475\",\n          \"amount\": 374.39,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"description\": \"Instant Pmt From Square on 09/08 Ref#20250908021000021P1Brjpc02320167026\",\n          \"amount\": 975.46,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"description\": \"Instant Pmt From Square on 09/08 Ref#20250908021000021P1Brjpc05920209770\",\n          \"amount\": 585.15,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-09-2025\",\n          \"description\": \"Uber USA 6787 EDI Paymnt SEP 09 O8Eze5U8MI74C64 Ref*TN*O8Eze5U8MI\\\\\",\n          \"amount\": 16815.55,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-15-2025\",\n          \"description\": \"Instant Pmt From Square on 09/15 Ref#20250915021000021P1Brjpc06080161721\",\n          \"amount\": 331.16,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-16-2025\",\n          \"description\": \"Uber USA 6787 EDI Paymnt SEP 16 0Q39Swg06DN96Kz Ref*TN*0Q39Swg06D\\\\\",\n          \"amount\": 20986.18,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-16-2025\",\n          \"description\": \"Instant Pmt From Square on 09/16 Ref#20250916021000021P1Brjpc06080149613\",\n          \"amount\": 663.22,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-18-2025\",\n          \"description\": \"Zelle From Guardian Angels Hospice Care Inc on 09/18 Ref # Jpm99Bnpj3PI\",\n          \"amount\": 1000.0,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-18-2025\",\n          \"description\": \"Zelle From Nikolay Garibyan on 09/18 Ref # Jpm99Bnppb9L\",\n          \"amount\": 1000.0,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-22-2025\",\n          \"description\": \"Instant Pmt From Square on 09/20 Ref#20250920021000021P1Brjpc08320015128\",\n          \"amount\": 389.71,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-23-2025\",\n          \"description\": \"Uber USA 6787 EDI Paymnt SEP 23 8Q54Ocuy3E97NM0 Ref*TN*8Q54Ocuy3E\\\\\",\n          \"amount\": 22067.06,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-23-2025\",\n          \"description\": \"Instant Pmt From Square on 09/23 Ref#20250923021000021P1Brjpc09280129971\",\n          \"amount\": 140.21,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-25-2025\",\n          \"description\": \"Instant Pmt From Square on 09/25 Ref#20250925021000021P1Brjpc08320129088\",\n          \"amount\": 951.74,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-29-2025\",\n          \"description\": \"Instant Pmt From Square on 09/29 Ref#20250929021000021P1Brjpc09200182667\",\n          \"amount\": 506.79,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-30-2025\",\n          \"description\": \"Uber USA 6787 EDI Paymnt SEP 30 H7Det698Vilelr9 Ref*TN*H7Det698VI\\\\\",\n          \"amount\": 21012.04,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-30-2025\",\n          \"description\": \"Zelle From Ardi Limo Inc on 09/30 Ref # Bacrhcqcrfnq\",\n          \"amount\": 2000.0,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        }\n      ],\n      \"internal_transfer_withdrawal\": [],\n      \"other_transfer_withdrawal\": [\n        {\n          \"date\": \"09-03-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Zelle to Razmik B on 09/03 Ref # Wfct0Z7Qd85J\",\n          \"amount\": 1976.0\n        },\n        {\n          \"date\": \"09-03-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Zelle to Razmik B on 09/03 Ref # Wfct0Z7R48P7\",\n          \"amount\": 225.0\n        },\n        {\n          \"date\": \"09-04-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Zelle to Vaagn on 09/04 Ref # Wfct0Z7Vg89W\",\n          \"amount\": 592.0\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Zelle to Andys Auto Center on 09/06 Ref # Wfct0Z83Llkm\",\n          \"amount\": 500.0\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Zelle to Razmik B on 09/07 Ref # Wfct0Z86Tj3D\",\n          \"amount\": 50.0\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Zelle to Harutun on 09/08 Ref # WfctOZ889Xfl\",\n          \"amount\": 1710.0\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - Square Inc Acctverify 250908 T3Qhq61S75Bsfjd Perfection Tours Inc\",\n          \"amount\": 0.01\n        },\n        {\n          \"date\": \"09-09-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Zelle to Light House on 09/09 Ref # Wfct0Z8Cbxg4\",\n          \"amount\": 1000.0\n        },\n        {\n          \"date\": \"09-10-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Zelle to Razmik B on 09/10 Ref # Wfct0Z8Ghrzz\",\n          \"amount\": 1100.0\n        },\n        {\n          \"date\": \"09-10-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Zelle to Razmik B on 09/10 Ref # Wfct0Z8Gk3Zg\",\n          \"amount\": 2000.0\n        },\n        {\n          \"date\": \"09-11-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Zelle to Gilbert on 09/11 Ref # Wfct0Z8Lcnw4\",\n          \"amount\": 1000.0\n        },\n        {\n          \"date\": \"09-15-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Zelle to H Artak on 09/15 Ref # WfctOZ8Zfw8N\",\n          \"amount\": 50.0\n        },\n        {\n          \"date\": \"09-16-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Zelle to Khachatryan Verzhine on 09/16 Ref # Wfct0Z92Vtqg\",\n          \"amount\": 530.0\n        },\n        {\n          \"date\": \"09-17-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Zelle to Razmik B on 09/16 Ref # Wfct0Z94Kbkq\",\n          \"amount\": 200.0\n        },\n        {\n          \"date\": \"09-17-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Zelle to Andys Auto Center on 09/17 Ref # Wfct0Z95CR49\",\n          \"amount\": 500.0\n        },\n        {\n          \"date\": \"09-17-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Zelle to H Artak on 09/17 Ref # Wfct0Z96C2Lg\",\n          \"amount\": 100.0\n        },\n        {\n          \"date\": \"09-17-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - Jpmorgan Chase Ext Trnsfr 250917 26235233895 Perfection Tours Inc\",\n          \"amount\": 1400.0\n        },\n        {\n          \"date\": \"09-18-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Zelle to Razmik B on 09/18 Ref # Wfct0Z994M62\",\n          \"amount\": 800.0\n        },\n        {\n          \"date\": \"09-19-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Zelle to Am Management on 09/19 Ref # Wfct0Z9Csbcq\",\n          \"amount\": 350.0\n        },\n        {\n          \"date\": \"09-22-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Zelle to Light House on 09/21 Ref # Wfct0Z9Mkkcy\",\n          \"amount\": 1000.0\n        },\n        {\n          \"date\": \"09-23-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Zelle to Am Management on 09/23 Ref # Wfct0Z9Rbrtq\",\n          \"amount\": 2000.0\n        },\n        {\n          \"date\": \"09-24-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Zelle to Hayrapetyan Karen on 09/24 Ref # Wfct0Z9Vw2V8\",\n          \"amount\": 150.0\n        },\n        {\n          \"date\": \"09-25-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Zelle to Tomas on 09/25 Ref # Wfct0Z9Xmt2Q\",\n          \"amount\": 320.0\n        },\n        {\n          \"date\": \"09-29-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Zelle to Zhora on 09/28 Ref # Wfct0Zb9Nrpx\",\n          \"amount\": 120.0\n        },\n        {\n          \"date\": \"09-29-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Zelle to Erik on 09/28 Ref # Wfct0Zb9P2N5\",\n          \"amount\": 125.0\n        },\n        {\n          \"date\": \"09-29-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Zelle to Gilbert on 09/29 Ref # Wfct0Zbffl3Q\",\n          \"amount\": 2000.0\n        }\n      ],\n      \"standard_deposit\": [\n        {\n          \"date\": \"09-08-2025\",\n          \"description\": \"eDeposit IN Branch 09/08/25 02:49:23 PM 250 E Olive Ave Burbank CA 3075\",\n          \"amount\": 31000.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"description\": \"eDeposit IN Branch 09/08/25 02:50:25 PM 250 E Olive Ave Burbank CA 3075\",\n          \"amount\": 6000.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-30-2025\",\n          \"description\": \"Interest Payment\",\n          \"amount\": 0.2,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        }\n      ],\n      \"standard_withdrawal\": [\n        {\n          \"date\": \"09-02-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 08/31 Starbucks Store 05 Los Angeles CA S465243591504913 Card 3075\",\n          \"amount\": 3.25\n        },\n        {\n          \"date\": \"09-02-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Check 1024\",\n          \"amount\": 2158.85\n        },\n        {\n          \"date\": \"09-02-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Check 1023\",\n          \"amount\": 923.0\n        },\n        {\n          \"date\": \"09-03-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Cashed Check 1025\",\n          \"amount\": 2457.37\n        },\n        {\n          \"date\": \"09-03-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"WT Seq208595 Capital Premium Financi /Bnf=Capital Premium Financing Inc Srf# Ow00006056026159 Trn#250903208595 Rfb# Ow00006056026159\",\n          \"amount\": 826.32\n        },\n        {\n          \"date\": \"09-03-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Truist Ln 001 Tel Pymt 250902 020345095251001 Arther Ayrapetyan\",\n          \"amount\": 1289.0\n        },\n        {\n          \"date\": \"09-04-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Discover E-Payment 250903 3234 Khachatryan Verzhine\",\n          \"amount\": 139.0\n        },\n        {\n          \"date\": \"09-04-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Chase Credit Crd Epay 250903 8693087966 Verzhine Khachatryan\",\n          \"amount\": 139.0\n        },\n        {\n          \"date\": \"09-04-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Newrez-Shellpoin Web Pmts 250902 0579056819 Ayrapetyan Arthur\",\n          \"amount\": 4456.11\n        },\n        {\n          \"date\": \"09-05-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Cashed Check 1026\",\n          \"amount\": 975.0\n        },\n        {\n          \"date\": \"09-05-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Synchrony Card Syf Paymnt SEP 05 524363120934135 Khachatryanverzhine\",\n          \"amount\": 139.0\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/05 76 - CF United LLC Los Angeles CA S305248754377141 Card 3075\",\n          \"amount\": 30.0\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/05 Tst* Pinos Sandwic Los Angeles CA S585249109912258 Card 3075\",\n          \"amount\": 36.51\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/06 Starbucks Store 05 Los Angeles CA S305249610686336 Card 3075\",\n          \"amount\": 4.25\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/06 Los Feliz Smoke Sh Los Angeles CA S385249648993712 Card 3075\",\n          \"amount\": 13.94\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/06 76 - Schafer Capit LA Canada CA S305249719519798 Card 3075\",\n          \"amount\": 80.01\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/06 818 Smoke Shop Glendale CA S385249824611072 Card 3075\",\n          \"amount\": 13.26\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/07 Chevron 0091410 Pasadena CA S585251125745806 Card 3075\",\n          \"amount\": 17.11\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/08 7-Eleven Los Angeles CA P000000280347095 Card 3075\",\n          \"amount\": 3.89\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - American Express ACH Pmt 250908 W3566 Verzhine Khachatryan\",\n          \"amount\": 100.0\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - American Express ACH Pmt 250908 M2008 Verzhine Khachatryan\",\n          \"amount\": 600.0\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - American Express ACH Pmt 250908 W6046 Verzhine Khachatryan\",\n          \"amount\": 3912.0\n        },\n        {\n          \"date\": \"09-09-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/08 Farmers Ins Billin 877-327-6392 CA S585251672446853 Card 3075\",\n          \"amount\": 155.99\n        },\n        {\n          \"date\": \"09-09-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Cashed Check 1030\",\n          \"amount\": 2585.0\n        },\n        {\n          \"date\": \"09-09-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"WT 250909-158508 Jpmorgan Chase Bank /Bnf=Poesche Financial Services Srf# 0003513252006811 Trn#250909158508 Rfb#\",\n          \"amount\": 3800.0\n        },\n        {\n          \"date\": \"09-09-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - American Express ACH Pmt 250909 W4366 Verzhine Khachatryan\",\n          \"amount\": 100.0\n        },\n        {\n          \"date\": \"09-10-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/08 Hollywood Shell Los Angeles CA S465251676243827 Card 3075\",\n          \"amount\": 60.0\n        },\n        {\n          \"date\": \"09-10-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/08 Aga Karinas Bakery Glendale CA S585252089279855 Card 3075\",\n          \"amount\": 35.0\n        },\n        {\n          \"date\": \"09-10-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Check 1028\",\n          \"amount\": 294.23\n        },\n        {\n          \"date\": \"09-10-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Discover E-Payment 250910 3234 Khachatryan Verzhine\",\n          \"amount\": 149.56\n        },\n        {\n          \"date\": \"09-11-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/10 Costco Whse #0130 Los Angeles CA S385253687204369 Card 3075\",\n          \"amount\": 74.53\n        },\n        {\n          \"date\": \"09-11-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/10 76 - Apro LLC 2651 Los Angeles CA S585253694196114 Card 3075\",\n          \"amount\": 33.12\n        },\n        {\n          \"date\": \"09-11-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Synchrony Card Syf Paymnt SEP 11 524363120934135 Khachatryanverzhine\",\n          \"amount\": 139.0\n        },\n        {\n          \"date\": \"09-11-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Chase Credit Crd Epay 250910 8709788833 Verzhine Khachatryan\",\n          \"amount\": 148.23\n        },\n        {\n          \"date\": \"09-11-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Bmwfinancial Svs Bmwfs Pymt 250910 xxxxx0359 Perfection T4004219835\",\n          \"amount\": 900.0\n        },\n        {\n          \"date\": \"09-12-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Cashed Check 1031\",\n          \"amount\": 1100.0\n        },\n        {\n          \"date\": \"09-12-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Socalgas Paid Scgc 250911 0177023701 301601474294963834\",\n          \"amount\": 42.52\n        },\n        {\n          \"date\": \"09-12-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Socalgas Paid Scgc 250911 0706218501 301601474294963833\",\n          \"amount\": 200.0\n        },\n        {\n          \"date\": \"09-12-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Check 1027\",\n          \"amount\": 2500.0\n        },\n        {\n          \"date\": \"09-12-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - American Express ACH Pmt 250912 W7566 Verzhine Khachatryan\",\n          \"amount\": 115.0\n        },\n        {\n          \"date\": \"09-12-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - American Express ACH Pmt 250912 W6008 Verzhine Khachatryan\",\n          \"amount\": 717.0\n        },\n        {\n          \"date\": \"09-12-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - American Express ACH Pmt 250912 W7760 Verzhine Khachatryan\",\n          \"amount\": 1788.89\n        },\n        {\n          \"date\": \"09-15-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Deposited OR Cashed Check 1033\",\n          \"amount\": 2228.45\n        },\n        {\n          \"date\": \"09-15-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Discover E-Payment 250913 9170 Ayrapetyan Arthur\",\n          \"amount\": 130.0\n        },\n        {\n          \"date\": \"09-15-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Check 1032\",\n          \"amount\": 2030.53\n        },\n        {\n          \"date\": \"09-15-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - Capital One Online Pmt CA0F7703DA975Df Arthur Ayrapetyan\",\n          \"amount\": 440.0\n        },\n        {\n          \"date\": \"09-16-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Cashed Check 1034\",\n          \"amount\": 2500.0\n        },\n        {\n          \"date\": \"09-16-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Home Depot Online Pmt 250915 631803640219465 Arthur Ayrapetyan\",\n          \"amount\": 30.0\n        },\n        {\n          \"date\": \"09-16-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Citi Card Online Payment 250915 431803642161507 Arthur Ayrapetyan\",\n          \"amount\": 190.25\n        },\n        {\n          \"date\": \"09-16-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Bank of America Payment 250915 17Cbwrza3 Ayrapetyan, Arthur\",\n          \"amount\": 1281.18\n        },\n        {\n          \"date\": \"09-16-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Truist Ln 001 Tel Pymt 250915 020345095251001 Arther Ayrapetyan\",\n          \"amount\": 1288.5\n        },\n        {\n          \"date\": \"09-16-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Bank of America Payment 250915 111Kt37Ty Ayrapetyan, Arthur\",\n          \"amount\": 1313.5\n        },\n        {\n          \"date\": \"09-17-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Deposited OR Cashed Check 1036\",\n          \"amount\": 500.0\n        },\n        {\n          \"date\": \"09-17-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Discover E-Payment 250917 3234 Khachatryan Verzhine\",\n          \"amount\": 139.0\n        },\n        {\n          \"date\": \"09-18-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Deposited OR Cashed Check 1035\",\n          \"amount\": 583.0\n        },\n        {\n          \"date\": \"09-18-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Deposited OR Cashed Check 1039\",\n          \"amount\": 880.0\n        },\n        {\n          \"date\": \"09-18-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Chase Credit Crd Epay 250916 8729013657 Verzhine Khachatryan\",\n          \"amount\": 139.0\n        },\n        {\n          \"date\": \"09-18-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Synchrony Card Syf Paymnt SEP 18 524363120934135 Khachatryanverzhine\",\n          \"amount\": 149.0\n        },\n        {\n          \"date\": \"09-18-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Check 1038\",\n          \"amount\": 700.0\n        },\n        {\n          \"date\": \"09-19-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/18 Chevron 0202019 Manhattan Bea CA S585262054001343 Card 3075\",\n          \"amount\": 14.46\n        },\n        {\n          \"date\": \"09-19-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Cashed Check 1040\",\n          \"amount\": 1283.0\n        },\n        {\n          \"date\": \"09-19-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Chase Credit Crd Epay 250918 8733498699 Lsls LLC\",\n          \"amount\": 487.0\n        },\n        {\n          \"date\": \"09-19-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Check 1037\",\n          \"amount\": 4040.57\n        },\n        {\n          \"date\": \"09-19-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - American Express ACH Pmt 250919 W9518 Verzhine Khachatryan\",\n          \"amount\": 294.0\n        },\n        {\n          \"date\": \"09-22-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/20 Gg Smoke Shop Glendale CA S305263759552478 Card 3075\",\n          \"amount\": 13.0\n        },\n        {\n          \"date\": \"09-22-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Deposited OR Cashed Check 1042\",\n          \"amount\": 2203.0\n        },\n        {\n          \"date\": \"09-22-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Affirm Inc Affirm Pay 250921 4361219 Arthur *Ayrapet\",\n          \"amount\": 927.36\n        },\n        {\n          \"date\": \"09-23-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/22 Ladot Parking Cita 866-561-9742 CA S465265655274893 Card 3075\",\n          \"amount\": 295.0\n        },\n        {\n          \"date\": \"09-23-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Cashed Check 1043\",\n          \"amount\": 2500.0\n        },\n        {\n          \"date\": \"09-23-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Discover E-Payment 250923 3234 Khachatryan Verzhine\",\n          \"amount\": 149.0\n        },\n        {\n          \"date\": \"09-23-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Discover E-Payment 250923 1764 Ayrapetyan Anthony\",\n          \"amount\": 153.0\n        },\n        {\n          \"date\": \"09-24-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/23 Sq *Eworld Enterta Los Angeles CA S585266666394056 Card 3075\",\n          \"amount\": 20.8\n        },\n        {\n          \"date\": \"09-24-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Chase Credit Crd Epay 250923 8745877895 Verzhine Khachatryan\",\n          \"amount\": 149.0\n        },\n        {\n          \"date\": \"09-24-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Gm Financial Gmf Pymt 250924 00211062451732 Null Lsls LLC\",\n          \"amount\": 903.5\n        },\n        {\n          \"date\": \"09-24-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Aci Kmf Kmfusa.Com 250923 20211006332936 Perfection Tours Inc\",\n          \"amount\": 10004.25\n        },\n        {\n          \"date\": \"09-25-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Affirm Inc Affirm Pay 250924 5531342 Arthur *Ayrapet\",\n          \"amount\": 134.23\n        },\n        {\n          \"date\": \"09-25-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - Equipment Financ Onlineinv 250924 Bggbk2003715678 Khachatryanverzhine\",\n          \"amount\": 940.0\n        },\n        {\n          \"date\": \"09-25-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - Equipment Financ Onlineinv 250924 Bggbk2003715680 Ayrapetyanarthur\",\n          \"amount\": 1036.0\n        },\n        {\n          \"date\": \"09-26-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/25 Los Feliz Smoke Sh Los Angeles CA S465268713358395 Card 3075\",\n          \"amount\": 27.88\n        },\n        {\n          \"date\": \"09-26-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Cashed Check 1046\",\n          \"amount\": 1460.0\n        },\n        {\n          \"date\": \"09-26-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Deposited OR Cashed Check 1049\",\n          \"amount\": 2146.0\n        },\n        {\n          \"date\": \"09-26-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/26 Dollar Tree Sun Valley CA P000000184118810 Card 3075\",\n          \"amount\": 26.9\n        },\n        {\n          \"date\": \"09-26-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Check 1029\",\n          \"amount\": 3300.0\n        },\n        {\n          \"date\": \"09-29-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/26 7-Eleven Los Angeles CA P000000089451267 Card 3075\",\n          \"amount\": 13.69\n        },\n        {\n          \"date\": \"09-29-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/27 Los Feliz Smoke Sh Los Angeles CA S385270820966600 Card 3075\",\n          \"amount\": 13.94\n        },\n        {\n          \"date\": \"09-29-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/27 Metro Smoke Shop Los Angeles CA S305271163192768 Card 3075\",\n          \"amount\": 13.71\n        },\n        {\n          \"date\": \"09-29-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Deposited OR Cashed Check 1051\",\n          \"amount\": 2038.0\n        },\n        {\n          \"date\": \"09-29-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Check 1050\",\n          \"amount\": 1838.0\n        },\n        {\n          \"date\": \"09-29-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Chase Credit Crd Autopay 250928 000000000017504 Khachatryan Verzhine\",\n          \"amount\": 67.4\n        },\n        {\n          \"date\": \"09-29-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Best Buy Payment 250928 621814869065374 Arthur Ayrapetyan\",\n          \"amount\": 480.0\n        },\n        {\n          \"date\": \"09-29-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Check 1045\",\n          \"amount\": 4292.0\n        },\n        {\n          \"date\": \"09-30-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/28 Domino's 8289 323-667-2323 CA S465272039972378 Card 3075\",\n          \"amount\": 36.79\n        },\n        {\n          \"date\": \"09-30-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Ford Motor CR Fordcredit 250929 691873 Ayrapetyan Arthur\",\n          \"amount\": 1800.0\n        },\n        {\n          \"date\": \"09-30-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Discover E-Payment 250930 3234 Khachatryan Verzhine\",\n          \"amount\": 149.0\n        }\n      ]\n    }\n  ]\n}\n```",
+    "token_count": {
+      "estimated_tokens": 2878
+    },
+    "failure_reason": null
+  }
+}

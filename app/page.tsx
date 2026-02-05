@@ -4,22 +4,45 @@ import { useState, useEffect } from "react";
 import { createPortal } from "react-dom";
 
 // Parsed account data from ADLS
+// Transaction interface for individual transactions
+interface Transaction {
+  date: string;
+  description: string;
+  amount: number;
+  type: 'Credit' | 'Debit';
+  category: string;
+  classification?: string; // For user classification (MCA/Not MCA)
+}
+
 interface AccountData {
   account_number: string;
   account_type: string;
-  beginning_balance: number;
-  ending_balance: number;
-  total_deposits: number;
-  total_withdrawals: number;
-  avg_daily_balance: string | number;
-  no_of_deposits: string | number;
-  no_of_withdrawals: string | number;
+  account_summary: {
+    beginning_balance: number;
+    ending_balance: number;
+    total_deposits: number;
+    total_withdrawals: number;
+    total_deposits_count: number;
+    total_withdrawals_count: number; 
+    avg_daily_balance: string | number | null;
+    overdraft_days?: number;
+  };
+  transactions?: Transaction[];
+  calculated_deposits_count?: number;
+  calculated_withdrawals_count?: number;
+  total_transactions?: number;
+  // Legacy fields for backward compatibility (may not exist in new structure)
+  beginning_balance?: number;
+  ending_balance?: number;
+  total_deposits?: number;
+  total_withdrawals?: number;
+  avg_daily_balance?: string | number;
+  no_of_deposits?: string | number;
+  no_of_withdrawals?: string | number;
   mca_withdrawals?: string | number;
   returned_items_count?: number;
   returned_items_days?: number;
   overdraft_days?: number;
-  calculated_deposits_count?: number;
-  calculated_withdrawals_count?: number;
   overdraft_count?: number;
 }
 
@@ -41,6 +64,7 @@ interface MappedAccount {
   calculated_deposits_count: number;
   calculated_withdrawals_count: number;
   overdraft_count: number;
+  transactions: Transaction[];
 }
 
 // Row with all accounts from one bank statement
@@ -54,6 +78,10 @@ interface ReconciliationRow {
   last_transaction_date: string;
   accounts: MappedAccount[];
   filename: string;
+  // Optional per-account enhanced metrics coming from local JSON (via fetch-cosmos)
+  bsi_enhanced_accounts?: {
+    [accountNumber: string]: BSIEnhancedDetail;
+  };
 }
 
 interface ADLSResponse {
@@ -62,13 +90,24 @@ interface ADLSResponse {
   start_time: string;
   end_time: string;
   parsed_json: {
-    bank_name: string;
-    statement_month: number;
-    statement_year: number;
+    bank_statement_information: {
+      bank_name: string;
+      account_holder?: string;
+      statement_start_date: string;
+      statement_end_date: string;
+      n_month: number[];
+      business_address?: string;
+    };
     accounts: AccountData[];
   };
   batch_id: string;
+  source_path?: string;
+  source_folder?: string;
   filename?: string;
+  // Optional per-account enhanced metrics coming from local JSON (via fetch-cosmos)
+  bsi_enhanced_accounts?: {
+    [accountNumber: string]: BSIEnhancedDetail;
+  };
 }
 
 // BSI Analysis data structure
@@ -102,6 +141,49 @@ interface FundingTransferAccount {
 
 interface FundingTransferResponse {
   accounts: FundingTransferAccount[];
+}
+
+// BSI Enhanced data structure from Cosmos DB
+interface BSIEnhancedDetail {
+  statement_month: number;
+  return_items: number;
+  account_holder_name: string;
+  ending_balance_negative_days: number;
+  monthly_number_of_deposits: number;
+  account_number: string;
+  average_balance: number;
+  closing_balance: number;
+  statement_start_date: string;
+  avg_daily_balance: number;
+  account_type: string;
+  currency: string;
+  source: string;
+  return_item_days: number;
+  statement_end_date: string;
+  statement_year: number;
+  monthly_average_withdrawals: number;
+  mca_withdrawal_count: number;
+  total_credit_transactions: number;
+  opening_balance: number;
+  mca_deposit_count: number;
+  overdraft_items_count: number;
+  overdraft_days: number;
+  total_debit_transactions: number;
+  monthly_deposits: number;
+  funding_or_transfer_deposits: number;
+  total_credits: number;
+  nsf_count: number;
+  no_of_withdrawals: number;
+  adjusted_monthly_deposits: number;
+  total_debits: number;
+  monthly_average_deposits: number;
+}
+
+interface BSIEnhancedResponse {
+  sfDocumentId: string;
+  bank_name: string;
+  account_type: string;
+  bsi_details: BSIEnhancedDetail[];
 }
 
 // Helper function to convert month number to month abbreviation
@@ -147,24 +229,60 @@ const safeParseInt = (value: string | number | undefined | null): number => {
 
 // Map account data to MappedAccount
 const mapAccountData = (account: AccountData): MappedAccount => {
+  // Support both new structure (account_summary) and legacy structure (direct fields)
+  const accountSummary = account.account_summary;
+  const hasNewStructure = !!accountSummary;
+  
+  // Map transactions with default classification based on type
+  const mappedTransactions: Transaction[] = (account.transactions || []).map((tx) => {
+    const txType = tx.type === 'Credit' ? 'Credit' : 'Debit';
+    const defaultClassification = txType === 'Credit' ? 'Other Deposit' : 'Other Withdrawal';
+    return {
+      date: tx.date || '',
+      description: tx.description || '',
+      amount: safeParseFloat(tx.amount),
+      type: txType,
+      category: tx.category || '',
+      classification: tx.classification || defaultClassification,
+    };
+  });
+  
   return {
     account_number: account.account_number || '',
     account_type: account.account_type || '',
-    starting_balance: safeParseFloat(account.beginning_balance),
-    ending_balance: safeParseFloat(account.ending_balance),
-    total_credits: safeParseFloat(account.total_deposits),
-    total_debits: Math.abs(safeParseFloat(account.total_withdrawals)), // Always ensure positive value
-    average_balance: safeParseFloat(account.avg_daily_balance),
-    no_of_deposits: safeParseInt(account.no_of_deposits),
-    no_of_withdrawals: safeParseInt(account.no_of_withdrawals),
+    starting_balance: safeParseFloat(hasNewStructure ? accountSummary?.beginning_balance : account.beginning_balance),
+    ending_balance: safeParseFloat(hasNewStructure ? accountSummary?.ending_balance : account.ending_balance),
+    total_credits: safeParseFloat(hasNewStructure ? accountSummary?.total_deposits : account.total_deposits),
+    total_debits: Math.abs(safeParseFloat(hasNewStructure ? accountSummary?.total_withdrawals : account.total_withdrawals)), // Always ensure positive value
+    average_balance: safeParseFloat(hasNewStructure ? accountSummary?.avg_daily_balance : account.avg_daily_balance),
+    no_of_deposits: safeParseInt(hasNewStructure ? accountSummary?.total_deposits_count : account.no_of_deposits),
+    no_of_withdrawals: safeParseInt(hasNewStructure ? accountSummary?.total_withdrawals_count : account.no_of_withdrawals),
     mca_withdrawals: safeParseFloat(account.mca_withdrawals),
     returned_items_count: safeParseInt(account.returned_items_count),
     returned_items_days: safeParseInt(account.returned_items_days),
-    overdraft_days: safeParseInt(account.overdraft_days),
+    overdraft_days: safeParseInt(hasNewStructure ? accountSummary?.overdraft_days : account.overdraft_days),
     calculated_deposits_count: safeParseInt(account.calculated_deposits_count),
     calculated_withdrawals_count: safeParseInt(account.calculated_withdrawals_count),
     overdraft_count: safeParseInt(account.overdraft_count),
+    transactions: mappedTransactions,
   };
+};
+
+// Helper function to parse date string (MM/DD/YYYY) and extract month/year
+const parseDateString = (dateStr: string): { month: number; year: number } => {
+  if (!dateStr) {
+    return { month: 1, year: 2025 };
+  }
+  
+  // Parse MM/DD/YYYY format
+  const parts = dateStr.split('/');
+  if (parts.length >= 2) {
+    const month = safeParseInt(parts[0]) || 1;
+    const year = safeParseInt(parts[2] || parts[parts.length - 1]) || 2025;
+    return { month, year };
+  }
+  
+  return { month: 1, year: 2025 };
 };
 
 // Map ADLS response to ReconciliationRow (one row per bank statement with all accounts)
@@ -174,36 +292,83 @@ const mapADLSToReconciliationRow = (adlsData: ADLSResponse): ReconciliationRow =
     throw new Error('Invalid ADLS data structure: missing parsed_json');
   }
 
-  const { parsed_json, batch_id, filename } = adlsData;
+  const { parsed_json, batch_id, filename, source_path, bsi_enhanced_accounts } = adlsData;
   
-  const monthYear = `${getMonthAbbreviation(parsed_json.statement_month || 1)} ${parsed_json.statement_year || 2025}`;
+  // Support both new structure (bank_statement_information) and legacy structure
+  const hasNewStructure = !!parsed_json.bank_statement_information;
+  const bankInfo = hasNewStructure ? parsed_json.bank_statement_information : null;
   
-  // Generate first and last transaction dates based on statement month/year
-  const month = safeParseInt(parsed_json.statement_month) || 1;
-  const year = safeParseInt(parsed_json.statement_year) || 2025;
-  const lastDay = new Date(year, month, 0).getDate(); // Get last day of the month
-  const firstTransactionDate = `${month}/1/${year}`;
-  const lastTransactionDate = `${month}/${lastDay}/${year}`;
+  // Extract month and year
+  let month = 1;
+  let year = 2025;
+  
+  if (hasNewStructure && bankInfo) {
+    // Try to get month from n_month array first
+    if (bankInfo.n_month && bankInfo.n_month.length > 0) {
+      month = safeParseInt(bankInfo.n_month[0]) || 1;
+    }
+    
+    // Extract year from statement_end_date or statement_start_date
+    if (bankInfo.statement_end_date) {
+      const dateInfo = parseDateString(bankInfo.statement_end_date);
+      month = dateInfo.month;
+      year = dateInfo.year;
+    } else if (bankInfo.statement_start_date) {
+      const dateInfo = parseDateString(bankInfo.statement_start_date);
+      month = dateInfo.month;
+      year = dateInfo.year;
+    }
+  } else {
+    // Legacy structure - these fields may not exist in new structure
+    const legacyParsedJson = parsed_json as any;
+    month = safeParseInt(legacyParsedJson.statement_month) || 1;
+    year = safeParseInt(legacyParsedJson.statement_year) || 2025;
+  }
+  
+  const monthYear = `${getMonthAbbreviation(month)} ${year}`;
+  
+  // Generate first and last transaction dates
+  let firstTransactionDate = `${month}/1/${year}`;
+  let lastTransactionDate = `${month}/${new Date(year, month, 0).getDate()}/${year}`;
+  
+  // Use actual dates from new structure if available
+  if (hasNewStructure && bankInfo) {
+    if (bankInfo.statement_start_date) {
+      firstTransactionDate = bankInfo.statement_start_date;
+    }
+    if (bankInfo.statement_end_date) {
+      lastTransactionDate = bankInfo.statement_end_date;
+    }
+  }
 
   // Map all accounts
   const mappedAccounts = (parsed_json.accounts || []).map((account) => mapAccountData(account));
 
-  // Extract filename without "_parsing_result.json" suffix
+  // Extract filename - prefer source_path, then filename, then extract from source_path
   let displayFilename = '';
-  if (filename) {
-    displayFilename = filename.replace(/_parsing_result\.json$/i, '');
+  if (source_path) {
+    // Extract filename from path (e.g., "base_parser/Case104.pdf" -> "Case104")
+    const pathParts = source_path.split('/');
+    const fileName = pathParts[pathParts.length - 1] || source_path;
+    displayFilename = fileName.replace(/\.(pdf|json)$/i, '').replace(/_parsing_result$/i, '');
+  } else if (filename) {
+    displayFilename = filename.replace(/_parsing_result\.json$/i, '').replace(/\.(pdf|json)$/i, '');
   }
+
+  // Get bank name
+  const bankName = hasNewStructure && bankInfo ? (bankInfo.bank_name || '') : ((parsed_json as any).bank_name || '');
 
   return {
     case_id: batch_id || `CASE-${Date.now()}`,
     document_name: `Statement_${monthYear.replace(" ", "_")}.pdf`,
     iso_email: "",
-    bank_name: parsed_json.bank_name || '',
+    bank_name: bankName,
     month_year: monthYear,
     first_transaction_date: firstTransactionDate,
     last_transaction_date: lastTransactionDate,
     accounts: mappedAccounts,
     filename: displayFilename,
+    bsi_enhanced_accounts,
   };
 };
 
@@ -216,6 +381,12 @@ function ReconciliationRowComponent({ data }: { data: ReconciliationRow }) {
   const [bsiLoading, setBsiLoading] = useState(false);
   const [bsiError, setBsiError] = useState<string | null>(null);
   const [fundingTransferAmount, setFundingTransferAmount] = useState<number | null>(null);
+  const [transactionClassifications, setTransactionClassifications] = useState<{ [key: string]: string }>({});
+  
+  // BSI Enhanced data derived from local JSON (via fetch-cosmos)
+  const [bsiEnhancedData, setBsiEnhancedData] = useState<BSIEnhancedDetail | null>(null);
+  const [bsiEnhancedLoading, setBsiEnhancedLoading] = useState(false);
+  const [bsiEnhancedError, setBsiEnhancedError] = useState<string | null>(null);
 
   // Get the currently selected account
   const selectedAccount = data.accounts[selectedAccountIndex] || data.accounts[0];
@@ -411,6 +582,34 @@ function ReconciliationRowComponent({ data }: { data: ReconciliationRow }) {
 
     fetchFundingTransferData();
   }, [isBSIModalOpen, data.filename, data.case_id, selectedAccount.account_number, selectedAccountIndex]);
+
+  // Load BSI Enhanced-style metrics from local JSON (precomputed in fetch-cosmos) when modal opens
+  useEffect(() => {
+    if (!isBSIModalOpen) {
+      return;
+    }
+
+    setBsiEnhancedLoading(true);
+    setBsiEnhancedError(null);
+
+    try {
+      const enhancedMap = data.bsi_enhanced_accounts || {};
+      const metrics = enhancedMap[selectedAccount.account_number];
+
+      if (metrics) {
+        setBsiEnhancedData(metrics);
+      } else {
+        setBsiEnhancedData(null);
+        setBsiEnhancedError('Not Available');
+      }
+    } catch (err) {
+      console.error('Error loading local BSI enhanced metrics:', err);
+      setBsiEnhancedData(null);
+      setBsiEnhancedError('Not Available');
+    } finally {
+      setBsiEnhancedLoading(false);
+    }
+  }, [isBSIModalOpen, data.bsi_enhanced_accounts, selectedAccount.account_number]);
 
   // Calculate difference for the selected account hii
   const calculateDifference = (account: MappedAccount): number => {
@@ -735,7 +934,7 @@ function ReconciliationRowComponent({ data }: { data: ReconciliationRow }) {
           
           {/* Modal Content */}
           <div 
-            className="relative bg-white rounded-2xl w-full max-w-4xl p-6 shadow-2xl mx-4 animate-slide-up"
+            className="relative bg-white rounded-2xl w-full max-w-6xl p-8 shadow-2xl mx-4 animate-slide-up max-h-[90vh] overflow-y-auto"
             onClick={(e) => e.stopPropagation()}
           >
             {/* Close Button */}
@@ -749,53 +948,53 @@ function ReconciliationRowComponent({ data }: { data: ReconciliationRow }) {
             </button>
 
             {/* Modal Header */}
-            <div className="text-center mb-6">
-              <h2 className="text-2xl font-bold text-gray-800">BSI ENHANCED</h2>
+            <div className="text-left mb-6">
+              <h2 className="text-2xl font-bold text-gray-800">Transaction Intelligence</h2>
               <p className="text-sm text-gray-500 mt-1">{selectedAccount?.account_number || ''}</p>
             </div>
 
             {/* Two Cards Container */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              {/* Information 1 Card - MCA Data from BSI Analysis */}
-              <div className={`relative bg-gradient-to-br from-gray-100 to-gray-200 rounded-xl p-5 border border-gray-300 shadow-sm ${bsiLoading || bsiError || !bsiData ? 'opacity-60' : 'opacity-100'}`}>
+              {/* Information 1 Card - MCA Data from BSI Enhanced Container */}
+              <div className={`relative bg-gradient-to-br from-gray-100 to-gray-200 rounded-xl p-5 border border-gray-300 shadow-sm ${bsiEnhancedLoading || bsiEnhancedError || !bsiEnhancedData ? 'opacity-60' : 'opacity-100'}`}>
                 {/* Status Banner */}
-                {bsiLoading && (
-                  <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-blue-500 text-white text-xs font-medium px-3 py-1 rounded-full whitespace-nowrap">
-                    Loading MCA data...
+                {bsiEnhancedLoading && (
+                  <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-blue-500 text-white text-xs font-medium px-3 py-1 rounded-full whitespace-nowrap max-w-[200px] text-center truncate">
+                    Loading data...
                   </div>
                 )}
-                {bsiError && (
-                  <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-red-500 text-white text-xs font-medium px-3 py-1 rounded-full whitespace-nowrap">
-                    {bsiError}
+                {bsiEnhancedError && (
+                  <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-red-500 text-white text-xs font-medium px-3 py-1 rounded-full whitespace-nowrap max-w-[200px] text-center truncate">
+                    Not Available
                   </div>
                 )}
-                {!bsiLoading && !bsiError && !bsiData && (
-                  <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-green-500 text-white text-xs font-medium px-3 py-1 rounded-full whitespace-nowrap">
-                    We are working on these numbers
+                {!bsiEnhancedLoading && !bsiEnhancedError && !bsiEnhancedData && (
+                  <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-yellow-500 text-white text-xs font-medium px-3 py-1 rounded-full whitespace-nowrap max-w-[200px] text-center truncate">
+                    Data Pending
                   </div>
                 )}
-                {!bsiLoading && !bsiError && bsiData && (
-                  <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-green-500 text-white text-xs font-medium px-3 py-1 rounded-full whitespace-nowrap">
-                    MCA Data Loaded
+                {!bsiEnhancedLoading && !bsiEnhancedError && bsiEnhancedData && (
+                  <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-green-500 text-white text-xs font-medium px-3 py-1 rounded-full whitespace-nowrap max-w-[200px] text-center truncate">
+                    Data Loaded
                   </div>
                 )}
-                <div className={`space-y-4 ${bsiData ? '' : 'pointer-events-none'}`}>
+                <div className={`space-y-4 ${bsiEnhancedData ? '' : 'pointer-events-none'}`}>
                   {/* Row 1: MCA Deposits + Funding Transfer Deposit */}
                   <div className="flex gap-4">
                     <div className="flex-1 flex flex-col">
-                      <span className={`text-xs uppercase tracking-wide ${bsiData ? 'text-gray-500' : 'text-gray-400'} font-medium`}>
+                      <span className={`text-xs uppercase tracking-wide ${bsiEnhancedData ? 'text-gray-500' : 'text-gray-400'} font-medium`}>
                         MCA Deposits
                       </span>
-                      <span className={`text-lg font-semibold ${bsiData ? 'text-gray-800' : 'text-gray-400'} mt-1`}>
-                        {bsiData ? bsiData.mca_deposit_count : 0}
+                      <span className={`text-lg font-semibold ${bsiEnhancedData ? 'text-gray-800' : 'text-gray-400'} mt-1`}>
+                        {bsiEnhancedData ? bsiEnhancedData.mca_deposit_count : 0}
                       </span>
                     </div>
                     <div className="flex-1 flex flex-col">
-                      <span className={`text-xs uppercase tracking-wide ${hasMultipleAccounts ? 'text-gray-400' : (fundingTransferAmount !== null ? 'text-gray-500' : 'text-gray-400')} font-medium`}>
+                      <span className={`text-xs uppercase tracking-wide ${bsiEnhancedData ? 'text-gray-500' : 'text-gray-400'} font-medium`}>
                         Funding Transfer Deposit
                       </span>
-                      <span className={`text-lg font-semibold ${hasMultipleAccounts ? 'text-gray-400' : (fundingTransferAmount !== null ? 'text-gray-800' : 'text-gray-400')} mt-1`}>
-                        {hasMultipleAccounts ? 'N/A' : formatCurrency(fundingTransferAmount !== null ? fundingTransferAmount : 0)}
+                      <span className={`text-lg font-semibold ${bsiEnhancedData ? 'text-gray-800' : 'text-gray-400'} mt-1`}>
+                        {bsiEnhancedData ? formatCurrency(bsiEnhancedData.funding_or_transfer_deposits) : formatCurrency(0)}
                       </span>
                     </div>
                   </div>
@@ -803,44 +1002,44 @@ function ReconciliationRowComponent({ data }: { data: ReconciliationRow }) {
                   {/* Row 2: MCA Withdrawals + Avg Daily Balance */}
                   <div className="flex gap-4">
                     <div className="flex-1 flex flex-col">
-                      <span className={`text-xs uppercase tracking-wide ${bsiData ? 'text-gray-500' : 'text-gray-400'} font-medium`}>
+                      <span className={`text-xs uppercase tracking-wide ${bsiEnhancedData ? 'text-gray-500' : 'text-gray-400'} font-medium`}>
                         MCA Withdrawals
                       </span>
-                      <span className={`text-lg font-semibold ${bsiData ? 'text-gray-800' : 'text-gray-400'} mt-1`}>
-                        {bsiData ? bsiData.mca_withdrawal_count : 0}
+                      <span className={`text-lg font-semibold ${bsiEnhancedData ? 'text-gray-800' : 'text-gray-400'} mt-1`}>
+                        {bsiEnhancedData ? bsiEnhancedData.mca_withdrawal_count : 0}
                       </span>
                     </div>
-                    <div className="flex-1 flex flex-col opacity-50 pointer-events-none">
-                      <span className="text-xs uppercase tracking-wide text-gray-400 font-medium">
+                    <div className="flex-1 flex flex-col">
+                      <span className={`text-xs uppercase tracking-wide ${bsiEnhancedData ? 'text-gray-500' : 'text-gray-400'} font-medium`}>
                         Avg Daily Balance (Calculated)
                       </span>
-                      <span className="text-lg font-semibold text-gray-400 mt-1">
-                        {formatCurrency(0)}
+                      <span className={`text-lg font-semibold ${bsiEnhancedData ? 'text-gray-800' : 'text-gray-400'} mt-1`}>
+                        {bsiEnhancedData ? formatCurrency(bsiEnhancedData.avg_daily_balance) : formatCurrency(0)}
                       </span>
                     </div>
                   </div>
                 </div>
               </div>
 
-              {/* Information 2 Card */}
-              <div className="bg-gradient-to-br from-emerald-50 to-emerald-100 rounded-xl p-5 border border-emerald-200 shadow-sm">
+              {/* Information 2 Card - Return/Overdraft Data from BSI Enhanced Container */}
+              <div className={`bg-gradient-to-br from-emerald-50 to-emerald-100 rounded-xl p-5 border border-emerald-200 shadow-sm ${bsiEnhancedLoading || bsiEnhancedError || !bsiEnhancedData ? 'opacity-60' : 'opacity-100'}`}>
                 <div className="space-y-4">
                   {/* Row 1: Return Item Count + Overdraft Count */}
                   <div className="flex gap-4">
                     <div className="flex-1 flex flex-col">
-                      <span className="text-xs uppercase tracking-wide text-gray-500 font-medium">
+                      <span className={`text-xs uppercase tracking-wide ${bsiEnhancedData ? 'text-gray-500' : 'text-gray-400'} font-medium`}>
                         Return Item Count
                       </span>
-                      <span className="text-lg font-semibold text-gray-800 mt-1">
-                        {selectedAccount?.returned_items_count || 0}
+                      <span className={`text-lg font-semibold ${bsiEnhancedData ? 'text-gray-800' : 'text-gray-400'} mt-1`}>
+                        {bsiEnhancedData ? bsiEnhancedData.return_items : 0}
                       </span>
                     </div>
                     <div className="flex-1 flex flex-col">
-                      <span className="text-xs uppercase tracking-wide text-gray-500 font-medium">
+                      <span className={`text-xs uppercase tracking-wide ${bsiEnhancedData ? 'text-gray-500' : 'text-gray-400'} font-medium`}>
                         Overdraft Count
                       </span>
-                      <span className="text-lg font-semibold text-gray-800 mt-1">
-                        {selectedAccount?.overdraft_count || 0}
+                      <span className={`text-lg font-semibold ${bsiEnhancedData ? 'text-gray-800' : 'text-gray-400'} mt-1`}>
+                        {bsiEnhancedData ? bsiEnhancedData.overdraft_items_count : 0}
                       </span>
                     </div>
                   </div>
@@ -848,49 +1047,150 @@ function ReconciliationRowComponent({ data }: { data: ReconciliationRow }) {
                   {/* Row 2: Return Item Days + Overdraft Days */}
                   <div className="flex gap-4">
                     <div className="flex-1 flex flex-col">
-                      <span className="text-xs uppercase tracking-wide text-gray-500 font-medium">
+                      <span className={`text-xs uppercase tracking-wide ${bsiEnhancedData ? 'text-gray-500' : 'text-gray-400'} font-medium`}>
                         Return Item Days
                       </span>
-                      <span className="text-lg font-semibold text-gray-800 mt-1">
-                        {selectedAccount?.returned_items_days || 0}
+                      <span className={`text-lg font-semibold ${bsiEnhancedData ? 'text-gray-800' : 'text-gray-400'} mt-1`}>
+                        {bsiEnhancedData ? bsiEnhancedData.return_item_days : 0}
                       </span>
                     </div>
                     <div className="flex-1 flex flex-col">
-                      <span className="text-xs uppercase tracking-wide text-gray-500 font-medium">
+                      <span className={`text-xs uppercase tracking-wide ${bsiEnhancedData ? 'text-gray-500' : 'text-gray-400'} font-medium`}>
                         Overdraft Days
                       </span>
-                      <span className="text-lg font-semibold text-gray-800 mt-1">
-                        {selectedAccount?.overdraft_days || 0}
+                      <span className={`text-lg font-semibold ${bsiEnhancedData ? 'text-gray-800' : 'text-gray-400'} mt-1`}>
+                        {bsiEnhancedData ? bsiEnhancedData.overdraft_days : 0}
                       </span>
                     </div>
                   </div>
                 </div>
               </div>
 
-              {/* Two boxes below blue box */}
-              <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl p-3 border border-blue-200 shadow-sm">
-                <div className="flex flex-col items-center justify-center">
-                  <span className="text-xs uppercase tracking-wide text-gray-500 font-medium">
-                    No. of Deposit(Calculated)
-                  </span>
-                  <span className="text-lg font-semibold text-gray-800 mt-0.5">
-                    {selectedAccount?.calculated_deposits_count || 0}
-                  </span>
-                </div>
-              </div>
+              {/* Two boxes below - calculated from transaction array (parsing_agent_result / parsed_json / account.transactions) */}
+              {(() => {
+                const transactions = selectedAccount?.transactions ?? [];
+                const calculatedDepositCount = transactions.filter((t) => t.type === 'Credit').length;
+                const calculatedWithdrawalCount = transactions.filter((t) => t.type === 'Debit').length;
+                const hasTransactions = transactions.length > 0;
+                return (
+                  <>
+                    <div className={`bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl p-3 border border-blue-200 shadow-sm ${!hasTransactions ? 'opacity-60' : 'opacity-100'}`}>
+                      <div className="flex flex-col items-center justify-center">
+                        <span className={`text-xs uppercase tracking-wide ${hasTransactions ? 'text-gray-500' : 'text-gray-400'} font-medium`}>
+                          No. of Deposit(Calculated)
+                        </span>
+                        <span className={`text-lg font-semibold ${hasTransactions ? 'text-gray-800' : 'text-gray-400'} mt-0.5`}>
+                          {calculatedDepositCount}
+                        </span>
+                      </div>
+                    </div>
 
-              <div className="bg-gradient-to-br from-emerald-50 to-emerald-100 rounded-xl p-3 border border-emerald-200 shadow-sm">
-                <div className="flex flex-col items-center justify-center">
-                  <span className="text-xs uppercase tracking-wide text-gray-500 font-medium">
-                    No. of Withdrawals(Calculated)
-                  </span>
-                  <span className="text-lg font-semibold text-gray-800 mt-0.5">
-                    {selectedAccount?.calculated_withdrawals_count || 0}
-                  </span>
-                </div>
-              </div>
+                    <div className={`bg-gradient-to-br from-emerald-50 to-emerald-100 rounded-xl p-3 border border-emerald-200 shadow-sm ${!hasTransactions ? 'opacity-60' : 'opacity-100'}`}>
+                      <div className="flex flex-col items-center justify-center">
+                        <span className={`text-xs uppercase tracking-wide ${hasTransactions ? 'text-gray-500' : 'text-gray-400'} font-medium`}>
+                          No. of Withdrawals(Calculated)
+                        </span>
+                        <span className={`text-lg font-semibold ${hasTransactions ? 'text-gray-800' : 'text-gray-400'} mt-0.5`}>
+                          {calculatedWithdrawalCount}
+                        </span>
+                      </div>
+                    </div>
+                  </>
+                );
+              })()}
 
             </div>
+
+            {/* Transaction Table */}
+            {selectedAccount?.transactions && selectedAccount.transactions.length > 0 && (
+              <div className="mt-6">
+                <div className="bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden">
+                  <div className="max-h-[400px] overflow-y-auto">
+                    <table className="w-full">
+                      <thead className="bg-gray-50 sticky top-0">
+                        <tr>
+                          <th className="px-4 py-3 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">Date</th>
+                          <th className="px-4 py-3 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">Description</th>
+                          <th className="px-4 py-3 text-center text-xs font-semibold text-gray-600 uppercase tracking-wider">Type</th>
+                          <th className="px-4 py-3 text-right text-xs font-semibold text-gray-600 uppercase tracking-wider">Amount</th>
+                          <th className="px-4 py-3 text-center text-xs font-semibold text-gray-600 uppercase tracking-wider">Classification</th>
+                          <th className="px-4 py-3 text-center text-xs font-semibold text-gray-600 uppercase tracking-wider">Actions</th>
+                        </tr>
+                      </thead>
+                      <tbody className="divide-y divide-gray-100">
+                        {selectedAccount.transactions.map((tx, txIndex) => {
+                          const txKey = `${selectedAccount.account_number}-${txIndex}`;
+                          const isCredit = tx.type === 'Credit';
+                          const defaultClassification = isCredit ? 'Other Deposit' : 'Other Withdrawal';
+                          const currentClassification = transactionClassifications[txKey] || tx.classification || defaultClassification;
+                          return (
+                            <tr key={txIndex} className="hover:bg-gray-50 transition-colors">
+                              <td className="px-4 py-3 text-sm text-gray-700 whitespace-nowrap">{tx.date}</td>
+                              <td className="px-4 py-3 text-sm text-gray-700">
+                                <div className="max-w-[300px] truncate" title={tx.description}>
+                                  {tx.description}
+                                </div>
+                              </td>
+                              <td className="px-4 py-3 text-center">
+                                <span className={`px-2 py-1 text-xs font-semibold rounded-full ${
+                                  isCredit 
+                                    ? 'bg-green-100 text-green-700' 
+                                    : 'bg-red-100 text-red-700'
+                                }`}>
+                                  {isCredit ? 'Credit' : 'Debit'}
+                                </span>
+                              </td>
+                              <td className="px-4 py-3 text-sm text-gray-800 text-right whitespace-nowrap font-medium">
+                                {formatCurrency(tx.amount)}
+                              </td>
+                              <td className="px-4 py-3 text-center">
+                                <select
+                                  value={currentClassification}
+                                  onChange={(e) => {
+                                    setTransactionClassifications(prev => ({
+                                      ...prev,
+                                      [txKey]: e.target.value
+                                    }));
+                                  }}
+                                  className="px-3 py-1.5 text-sm border border-gray-300 rounded-md bg-white text-gray-700 cursor-pointer focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                                >
+                                  {isCredit ? (
+                                    <>
+                                      <option value="MCA Deposit">MCA Deposit</option>
+                                      <option value="Funding Transfer">Funding Transfer</option>
+                                      <option value="Other Deposit">Other Deposit</option>
+                                    </>
+                                  ) : (
+                                    <>
+                                      <option value="MCA Withdrawal">MCA Withdrawal</option>
+                                      <option value="Other Withdrawal">Other Withdrawal</option>
+                                    </>
+                                  )}
+                                </select>
+                              </td>
+                              <td className="px-4 py-3 text-center">
+                                <button
+                                  onClick={() => {
+                                    // Save classification action
+                                    console.log(`Saving classification for ${txKey}: ${currentClassification}`);
+                                  }}
+                                  className="px-4 py-1.5 bg-blue-600 text-white text-sm font-medium rounded-md hover:bg-blue-700 transition-colors cursor-pointer flex items-center gap-1.5 mx-auto"
+                                >
+                                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7H5a2 2 0 00-2 2v9a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-3m-1 4l-3 3m0 0l-3-3m3 3V4" />
+                                  </svg>
+                                  Save
+                                </button>
+                              </td>
+                            </tr>
+                          );
+                        })}
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            )}
           </div>
         </div>,
         document.body
@@ -909,11 +1209,13 @@ export default function Home() {
       try {
         setLoading(true);
         setError(null);
-        const response = await fetch('/api/fetch-adls');
+        const response = await fetch('/api/fetch-cosmos');
         
         if (!response.ok) {
           const errorData = await response.json();
-          throw new Error(errorData.error || 'Failed to fetch data');
+          const errorMsg = errorData.error || 'Failed to fetch data';
+          const errorDetails = errorData.details ? ` (${errorData.details})` : '';
+          throw new Error(errorMsg + errorDetails);
         }
 
         const result = await response.json();
@@ -923,6 +1225,14 @@ export default function Home() {
         result.data.forEach((item: ADLSResponse) => {
           // Validate that parsed_json and accounts exist
           if (!item.parsed_json || !item.parsed_json.accounts || !Array.isArray(item.parsed_json.accounts)) {
+            return;
+          }
+          
+          // Validate new structure has bank_statement_information, or allow legacy structure
+          const hasNewStructure = !!item.parsed_json.bank_statement_information;
+          const hasLegacyStructure = !!(item.parsed_json as any).bank_name;
+          
+          if (!hasNewStructure && !hasLegacyStructure) {
             return;
           }
           

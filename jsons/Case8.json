@@ -1,0 +1,884 @@
+{
+  "document_name": "Case8.pdf",
+  "pipeline_status": "completed",
+  "processing_metadata": {
+    "start_time": "2026-02-04T15:00:50.743627",
+    "end_time": "2026-02-04T15:03:02.255745",
+    "parsing_time_seconds": 79.776531,
+    "bsi_time_seconds": 51.255228,
+    "total_time_seconds": 131.03175900000002
+  },
+  "parsing_agent_result": {
+    "agent_name": "parsing_agent",
+    "processing_status": "success",
+    "start_time": "2026-02-04T15:00:51.216876",
+    "end_time": "2026-02-04T15:02:10.993116",
+    "parsed_json": {
+      "bank_statement_information": {
+        "bank_name": "BANK OF AMERICA",
+        "account_holder": "ISSA VIBE HOOKAH AND LOUNGE, LLC",
+        "statement_start_date": "10/01/2025",
+        "statement_end_date": "10/31/2025",
+        "n_days": 31,
+        "n_month": [
+          10
+        ],
+        "business_address": "401 S MAIN ST CULPEPER, VA 22701-3117"
+      },
+      "accounts": [
+        {
+          "account_number": "4350 6113 6465",
+          "account_type": "Business Advantage Fundamentals Banking",
+          "account_summary": {
+            "beginning_balance": 3002.37,
+            "ending_balance": 1673.56,
+            "total_deposits": 14337.11,
+            "total_withdrawals": 15665.92,
+            "total_deposits_count": 23,
+            "total_withdrawals_count": 33,
+            "avg_daily_balance": 2628.93,
+            "overdraft_days": 0
+          },
+          "transactions": [
+            {
+              "date": "10/01/2025",
+              "description": "SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD",
+              "amount": 122.77,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "10/02/2025",
+              "description": "BKOFAMERICA BC 10/02 #000005271 WITHDRWL",
+              "amount": 2900.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/02/2025",
+              "description": "Shift4 DES:Shift4 ID:I25100181550 INDN:828618 ISSAVIBE CO ID:1465216257 CCD",
+              "amount": 75.51,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/02/2025",
+              "description": "SHIFT4 DES:FEES ID:068880022491769 INDN:ISSAVIBE CO ID:1731435739 CCD",
+              "amount": 16.0,
+              "type": "Debit",
+              "category": "Service Charges/Fees"
+            },
+            {
+              "date": "10/03/2025",
+              "description": "SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD",
+              "amount": 178.29,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "10/06/2025",
+              "description": "SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD",
+              "amount": 2003.06,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "10/06/2025",
+              "description": "SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD",
+              "amount": 779.83,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "10/06/2025",
+              "description": "SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD",
+              "amount": 243.19,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "10/07/2025",
+              "description": "SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD",
+              "amount": 966.69,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "10/08/2025",
+              "description": "SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD",
+              "amount": 7.42,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "10/10/2025",
+              "description": "BKOFAMERICA BC 10/10 #000006201 WITHDRWL",
+              "amount": 500.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/10/2025",
+              "description": "Check # 1002",
+              "amount": 184.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/10/2025",
+              "description": "Check # 1004",
+              "amount": 450.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/10/2025",
+              "description": "Check # 1006",
+              "amount": 255.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/14/2025",
+              "description": "SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD",
+              "amount": 2059.46,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "10/14/2025",
+              "description": "SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD",
+              "amount": 1125.25,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "10/14/2025",
+              "description": "SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD",
+              "amount": 453.96,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "10/14/2025",
+              "description": "SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD",
+              "amount": 204.11,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "10/14/2025",
+              "description": "Check # 1003",
+              "amount": 428.5,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/14/2025",
+              "description": "Check # 1008*",
+              "amount": 521.1,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/14/2025",
+              "description": "Check # 1009",
+              "amount": 245.42,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/15/2025",
+              "description": "SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD",
+              "amount": 157.38,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "10/15/2025",
+              "description": "BKOFAMERICA BC 10/15 #000005767 WITHDRWL",
+              "amount": 1100.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/16/2025",
+              "description": "Check # 1001",
+              "amount": 140.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/16/2025",
+              "description": "Check # 1005",
+              "amount": 554.1,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/17/2025",
+              "description": "BKOFAMERICA BC 10/17 #000004338 WITHDRWL",
+              "amount": 600.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/17/2025",
+              "description": "Check # 1010",
+              "amount": 255.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/17/2025",
+              "description": "Check # 1011",
+              "amount": 554.1,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/17/2025",
+              "description": "Check # 1012",
+              "amount": 400.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/17/2025",
+              "description": "Check # 1013",
+              "amount": 521.1,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/17/2025",
+              "description": "Check # 1015",
+              "amount": 332.4,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/20/2025",
+              "description": "SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD",
+              "amount": 1144.61,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "10/20/2025",
+              "description": "SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD",
+              "amount": 755.9,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "10/20/2025",
+              "description": "SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD",
+              "amount": 115.43,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "10/20/2025",
+              "description": "Check # 1014",
+              "amount": 413.74,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/21/2025",
+              "description": "SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD",
+              "amount": 1032.46,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "10/22/2025",
+              "description": "Check # 1016",
+              "amount": 521.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/23/2025",
+              "description": "Check # 1017",
+              "amount": 400.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/24/2025",
+              "description": "SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD",
+              "amount": 8.21,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "10/24/2025",
+              "description": "Check # 1020*",
+              "amount": 354.62,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/24/2025",
+              "description": "Check # 1021",
+              "amount": 356.96,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/24/2025",
+              "description": "Check # 1022",
+              "amount": 554.1,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/27/2025",
+              "description": "SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD",
+              "amount": 1377.78,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "10/27/2025",
+              "description": "SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD",
+              "amount": 1129.43,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "10/27/2025",
+              "description": "SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD",
+              "amount": 300.92,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "10/27/2025",
+              "description": "UNITEDHEALTH DES:INS PREM ID:BCN0003875453 INDN:DEVON MOSLEY ID:1376028756 PPD",
+              "amount": 15.02,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/27/2025",
+              "description": "Check # 1024*",
+              "amount": 1189.69,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/27/2025",
+              "description": "Check # 1025",
+              "amount": 337.4,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/28/2025",
+              "description": "SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD",
+              "amount": 83.52,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "10/29/2025",
+              "description": "SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD",
+              "amount": 49.78,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "10/30/2025",
+              "description": "DIRECTV WEB DES:DIRECTV ID:19550515 INDN:ISSA VIBE HOOKAH AND L CO ID:5221907811",
+              "amount": 339.53,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/30/2025",
+              "description": "MANHATTANLIFE DES:Premium ID: XXXXXXXXX INDN:MOSLEY, DEVON ID:XXXXXXXXXP PPD",
+              "amount": 114.09,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/30/2025",
+              "description": "UNITED OF OMAHA DES: INS PREM ID:CRNBR2OCT-25 INDN:DEVON M MOSLEY ID:1470322122 PPD",
+              "amount": 83.54,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/30/2025",
+              "description": "Check # 1029*",
+              "amount": 400.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/31/2025",
+              "description": "SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD",
+              "amount": 37.66,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "10/31/2025",
+              "description": "Check # 1032*",
+              "amount": 554.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            }
+          ]
+        }
+      ]
+    },
+    "raw_output": "```json\n{\n  \"bank_statement_information\": {\n    \"bank_name\": \"BANK OF AMERICA\",\n    \"account_holder\": \"ISSA VIBE HOOKAH AND LOUNGE, LLC\",\n    \"statement_start_date\": \"10/01/2025\",\n    \"statement_end_date\": \"10/31/2025\",\n    \"n_days\": 31,\n    \"n_month\": [\n      10\n    ],\n    \"business_address\": \"401 S MAIN ST CULPEPER, VA 22701-3117\"\n  },\n  \"accounts\": [\n    {\n      \"account_number\": \"4350 6113 6465\",\n      \"account_type\": \"Business Advantage Fundamentals Banking\",\n      \"account_summary\": {\n        \"beginning_balance\": 3002.37,\n        \"ending_balance\": 1673.56,\n        \"total_deposits\": 14337.11,\n        \"total_withdrawals\": 15665.92,\n        \"total_deposits_count\": 23,\n        \"total_withdrawals_count\": 33,\n        \"avg_daily_balance\": 2628.93,\n        \"overdraft_days\": 0\n      },\n      \"transactions\": [\n        {\n          \"date\": \"10/01/2025\",\n          \"description\": \"SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD\",\n          \"amount\": 122.77,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"10/02/2025\",\n          \"description\": \"BKOFAMERICA BC 10/02 #000005271 WITHDRWL\",\n          \"amount\": 2900.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/02/2025\",\n          \"description\": \"Shift4 DES:Shift4 ID:I25100181550 INDN:828618 ISSAVIBE CO ID:1465216257 CCD\",\n          \"amount\": 75.51,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/02/2025\",\n          \"description\": \"SHIFT4 DES:FEES ID:068880022491769 INDN:ISSAVIBE CO ID:1731435739 CCD\",\n          \"amount\": 16.0,\n          \"type\": \"Debit\",\n          \"category\": \"Service Charges/Fees\"\n        },\n        {\n          \"date\": \"10/03/2025\",\n          \"description\": \"SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD\",\n          \"amount\": 178.29,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD\",\n          \"amount\": 2003.06,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD\",\n          \"amount\": 779.83,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD\",\n          \"amount\": 243.19,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"10/07/2025\",\n          \"description\": \"SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD\",\n          \"amount\": 966.69,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"10/08/2025\",\n          \"description\": \"SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD\",\n          \"amount\": 7.42,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"10/10/2025\",\n          \"description\": \"BKOFAMERICA BC 10/10 #000006201 WITHDRWL\",\n          \"amount\": 500.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/10/2025\",\n          \"description\": \"Check # 1002\",\n          \"amount\": 184.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/10/2025\",\n          \"description\": \"Check # 1004\",\n          \"amount\": 450.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/10/2025\",\n          \"description\": \"Check # 1006\",\n          \"amount\": 255.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD\",\n          \"amount\": 2059.46,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD\",\n          \"amount\": 1125.25,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD\",\n          \"amount\": 453.96,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD\",\n          \"amount\": 204.11,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"Check # 1003\",\n          \"amount\": 428.5,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"Check # 1008*\",\n          \"amount\": 521.1,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"Check # 1009\",\n          \"amount\": 245.42,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/15/2025\",\n          \"description\": \"SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD\",\n          \"amount\": 157.38,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"10/15/2025\",\n          \"description\": \"BKOFAMERICA BC 10/15 #000005767 WITHDRWL\",\n          \"amount\": 1100.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/16/2025\",\n          \"description\": \"Check # 1001\",\n          \"amount\": 140.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/16/2025\",\n          \"description\": \"Check # 1005\",\n          \"amount\": 554.1,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"description\": \"BKOFAMERICA BC 10/17 #000004338 WITHDRWL\",\n          \"amount\": 600.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"description\": \"Check # 1010\",\n          \"amount\": 255.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"description\": \"Check # 1011\",\n          \"amount\": 554.1,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"description\": \"Check # 1012\",\n          \"amount\": 400.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"description\": \"Check # 1013\",\n          \"amount\": 521.1,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"description\": \"Check # 1015\",\n          \"amount\": 332.4,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/20/2025\",\n          \"description\": \"SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD\",\n          \"amount\": 1144.61,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"10/20/2025\",\n          \"description\": \"SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD\",\n          \"amount\": 755.9,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"10/20/2025\",\n          \"description\": \"SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD\",\n          \"amount\": 115.43,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"10/20/2025\",\n          \"description\": \"Check # 1014\",\n          \"amount\": 413.74,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/21/2025\",\n          \"description\": \"SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD\",\n          \"amount\": 1032.46,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"10/22/2025\",\n          \"description\": \"Check # 1016\",\n          \"amount\": 521.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/23/2025\",\n          \"description\": \"Check # 1017\",\n          \"amount\": 400.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/24/2025\",\n          \"description\": \"SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD\",\n          \"amount\": 8.21,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"10/24/2025\",\n          \"description\": \"Check # 1020*\",\n          \"amount\": 354.62,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/24/2025\",\n          \"description\": \"Check # 1021\",\n          \"amount\": 356.96,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/24/2025\",\n          \"description\": \"Check # 1022\",\n          \"amount\": 554.1,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"description\": \"SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD\",\n          \"amount\": 1377.78,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"description\": \"SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD\",\n          \"amount\": 1129.43,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"description\": \"SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD\",\n          \"amount\": 300.92,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"description\": \"UNITEDHEALTH DES:INS PREM ID:BCN0003875453 INDN:DEVON MOSLEY ID:1376028756 PPD\",\n          \"amount\": 15.02,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"description\": \"Check # 1024*\",\n          \"amount\": 1189.69,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"description\": \"Check # 1025\",\n          \"amount\": 337.4,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/28/2025\",\n          \"description\": \"SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD\",\n          \"amount\": 83.52,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"10/29/2025\",\n          \"description\": \"SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD\",\n          \"amount\": 49.78,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"10/30/2025\",\n          \"description\": \"DIRECTV WEB DES:DIRECTV ID:19550515 INDN:ISSA VIBE HOOKAH AND L CO ID:5221907811\",\n          \"amount\": 339.53,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/30/2025\",\n          \"description\": \"MANHATTANLIFE DES:Premium ID: XXXXXXXXX INDN:MOSLEY, DEVON ID:XXXXXXXXXP PPD\",\n          \"amount\": 114.09,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/30/2025\",\n          \"description\": \"UNITED OF OMAHA DES: INS PREM ID:CRNBR2OCT-25 INDN:DEVON M MOSLEY ID:1470322122 PPD\",\n          \"amount\": 83.54,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/30/2025\",\n          \"description\": \"Check # 1029*\",\n          \"amount\": 400.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/31/2025\",\n          \"description\": \"SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD\",\n          \"amount\": 37.66,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"10/31/2025\",\n          \"description\": \"Check # 1032*\",\n          \"amount\": 554.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        }\n      ]\n    }\n  ]\n}\n```",
+    "token_count": {
+      "estimated_tokens": 1117
+    },
+    "failure_reason": null
+  },
+  "bsi_analyzer_result": {
+    "agent_name": "v1_bsi_analyzer_agent",
+    "processing_status": "success",
+    "start_time": "2026-02-04T15:02:11.000220",
+    "end_time": "2026-02-04T15:03:02.255248",
+    "parsed_json": {
+      "accounts": [
+        {
+          "account_number": "4350 6113 6465",
+          "account_type": "Business Advantage Fundamentals Banking",
+          "mca_deposit": [],
+          "mca_withdrawal": [],
+          "returned_items": [],
+          "overdrafts": [],
+          "service_charges": [
+            {
+              "date": "10/02/2025",
+              "description": "SHIFT4 DES:FEES ID:068880022491769 INDN:ISSAVIBE CO ID:1731435739 CCD",
+              "amount": 16.0,
+              "type": "Debit"
+            }
+          ],
+          "atm_cash_withdrawal": [],
+          "internal_transfer_deposit": [],
+          "other_transfer_deposit": [
+            {
+              "date": "10/01/2025",
+              "description": "SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD",
+              "amount": 122.77,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/03/2025",
+              "description": "SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD",
+              "amount": 178.29,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/06/2025",
+              "description": "SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD",
+              "amount": 2003.06,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/06/2025",
+              "description": "SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD",
+              "amount": 779.83,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/06/2025",
+              "description": "SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD",
+              "amount": 243.19,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/07/2025",
+              "description": "SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD",
+              "amount": 966.69,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/08/2025",
+              "description": "SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD",
+              "amount": 7.42,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/14/2025",
+              "description": "SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD",
+              "amount": 2059.46,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/14/2025",
+              "description": "SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD",
+              "amount": 1125.25,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/14/2025",
+              "description": "SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD",
+              "amount": 453.96,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/14/2025",
+              "description": "SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD",
+              "amount": 204.11,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/15/2025",
+              "description": "SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD",
+              "amount": 157.38,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/20/2025",
+              "description": "SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD",
+              "amount": 1144.61,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/20/2025",
+              "description": "SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD",
+              "amount": 755.9,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/20/2025",
+              "description": "SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD",
+              "amount": 115.43,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/21/2025",
+              "description": "SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD",
+              "amount": 1032.46,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/24/2025",
+              "description": "SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD",
+              "amount": 8.21,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/27/2025",
+              "description": "SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD",
+              "amount": 1377.78,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/27/2025",
+              "description": "SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD",
+              "amount": 1129.43,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/27/2025",
+              "description": "SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD",
+              "amount": 300.92,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/28/2025",
+              "description": "SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD",
+              "amount": 83.52,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/29/2025",
+              "description": "SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD",
+              "amount": 49.78,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/31/2025",
+              "description": "SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD",
+              "amount": 37.66,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            }
+          ],
+          "internal_transfer_withdrawal": [],
+          "other_transfer_withdrawal": [],
+          "standard_deposit": [],
+          "standard_withdrawal": [
+            {
+              "date": "10/02/2025",
+              "description": "BKOFAMERICA BC 10/02 #000005271 WITHDRWL",
+              "amount": 2900.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/02/2025",
+              "description": "Shift4 DES:Shift4 ID:I25100181550 INDN:828618 ISSAVIBE CO ID:1465216257 CCD",
+              "amount": 75.51,
+              "type": "Debit"
+            },
+            {
+              "date": "10/10/2025",
+              "description": "BKOFAMERICA BC 10/10 #000006201 WITHDRWL",
+              "amount": 500.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/10/2025",
+              "description": "Check # 1002",
+              "amount": 184.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/10/2025",
+              "description": "Check # 1004",
+              "amount": 450.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/10/2025",
+              "description": "Check # 1006",
+              "amount": 255.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/14/2025",
+              "description": "Check # 1003",
+              "amount": 428.5,
+              "type": "Debit"
+            },
+            {
+              "date": "10/14/2025",
+              "description": "Check # 1008*",
+              "amount": 521.1,
+              "type": "Debit"
+            },
+            {
+              "date": "10/14/2025",
+              "description": "Check # 1009",
+              "amount": 245.42,
+              "type": "Debit"
+            },
+            {
+              "date": "10/15/2025",
+              "description": "BKOFAMERICA BC 10/15 #000005767 WITHDRWL",
+              "amount": 1100.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/16/2025",
+              "description": "Check # 1001",
+              "amount": 140.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/16/2025",
+              "description": "Check # 1005",
+              "amount": 554.1,
+              "type": "Debit"
+            },
+            {
+              "date": "10/17/2025",
+              "description": "BKOFAMERICA BC 10/17 #000004338 WITHDRWL",
+              "amount": 600.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/17/2025",
+              "description": "Check # 1010",
+              "amount": 255.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/17/2025",
+              "description": "Check # 1011",
+              "amount": 554.1,
+              "type": "Debit"
+            },
+            {
+              "date": "10/17/2025",
+              "description": "Check # 1012",
+              "amount": 400.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/17/2025",
+              "description": "Check # 1013",
+              "amount": 521.1,
+              "type": "Debit"
+            },
+            {
+              "date": "10/17/2025",
+              "description": "Check # 1015",
+              "amount": 332.4,
+              "type": "Debit"
+            },
+            {
+              "date": "10/20/2025",
+              "description": "Check # 1014",
+              "amount": 413.74,
+              "type": "Debit"
+            },
+            {
+              "date": "10/22/2025",
+              "description": "Check # 1016",
+              "amount": 521.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/23/2025",
+              "description": "Check # 1017",
+              "amount": 400.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/24/2025",
+              "description": "Check # 1020*",
+              "amount": 354.62,
+              "type": "Debit"
+            },
+            {
+              "date": "10/24/2025",
+              "description": "Check # 1021",
+              "amount": 356.96,
+              "type": "Debit"
+            },
+            {
+              "date": "10/24/2025",
+              "description": "Check # 1022",
+              "amount": 554.1,
+              "type": "Debit"
+            },
+            {
+              "date": "10/27/2025",
+              "description": "UNITEDHEALTH DES:INS PREM ID:BCN0003875453 INDN:DEVON MOSLEY ID:1376028756 PPD",
+              "amount": 15.02,
+              "type": "Debit"
+            },
+            {
+              "date": "10/27/2025",
+              "description": "Check # 1024*",
+              "amount": 1189.69,
+              "type": "Debit"
+            },
+            {
+              "date": "10/27/2025",
+              "description": "Check # 1025",
+              "amount": 337.4,
+              "type": "Debit"
+            },
+            {
+              "date": "10/30/2025",
+              "description": "DIRECTV WEB DES:DIRECTV ID:19550515 INDN:ISSA VIBE HOOKAH AND L CO ID:5221907811",
+              "amount": 339.53,
+              "type": "Debit"
+            },
+            {
+              "date": "10/30/2025",
+              "description": "MANHATTANLIFE DES:Premium ID: XXXXXXXXX INDN:MOSLEY, DEVON ID:XXXXXXXXXP PPD",
+              "amount": 114.09,
+              "type": "Debit"
+            },
+            {
+              "date": "10/30/2025",
+              "description": "UNITED OF OMAHA DES: INS PREM ID:CRNBR2OCT-25 INDN:DEVON M MOSLEY ID:1470322122 PPD",
+              "amount": 83.54,
+              "type": "Debit"
+            },
+            {
+              "date": "10/30/2025",
+              "description": "Check # 1029*",
+              "amount": 400.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/31/2025",
+              "description": "Check # 1032*",
+              "amount": 554.0,
+              "type": "Debit"
+            }
+          ]
+        }
+      ]
+    },
+    "raw_output": "```json\n{\n  \"accounts\": [\n    {\n      \"account_number\": \"4350 6113 6465\",\n      \"account_type\": \"Business Advantage Fundamentals Banking\",\n      \"mca_deposit\": [],\n      \"mca_withdrawal\": [],\n      \"returned_items\": [],\n      \"overdrafts\": [],\n      \"service_charges\": [\n        {\n          \"date\": \"10/02/2025\",\n          \"description\": \"SHIFT4 DES:FEES ID:068880022491769 INDN:ISSAVIBE CO ID:1731435739 CCD\",\n          \"amount\": 16.0,\n          \"type\": \"Debit\"\n        }\n      ],\n      \"atm_cash_withdrawal\": [],\n      \"internal_transfer_deposit\": [],\n      \"other_transfer_deposit\": [\n        {\n          \"date\": \"10/01/2025\",\n          \"description\": \"SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD\",\n          \"amount\": 122.77,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/03/2025\",\n          \"description\": \"SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD\",\n          \"amount\": 178.29,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD\",\n          \"amount\": 2003.06,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD\",\n          \"amount\": 779.83,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD\",\n          \"amount\": 243.19,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/07/2025\",\n          \"description\": \"SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD\",\n          \"amount\": 966.69,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/08/2025\",\n          \"description\": \"SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD\",\n          \"amount\": 7.42,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD\",\n          \"amount\": 2059.46,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD\",\n          \"amount\": 1125.25,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD\",\n          \"amount\": 453.96,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD\",\n          \"amount\": 204.11,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/15/2025\",\n          \"description\": \"SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD\",\n          \"amount\": 157.38,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/20/2025\",\n          \"description\": \"SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD\",\n          \"amount\": 1144.61,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/20/2025\",\n          \"description\": \"SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD\",\n          \"amount\": 755.9,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/20/2025\",\n          \"description\": \"SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD\",\n          \"amount\": 115.43,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/21/2025\",\n          \"description\": \"SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD\",\n          \"amount\": 1032.46,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/24/2025\",\n          \"description\": \"SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD\",\n          \"amount\": 8.21,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"description\": \"SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD\",\n          \"amount\": 1377.78,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"description\": \"SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD\",\n          \"amount\": 1129.43,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"description\": \"SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD\",\n          \"amount\": 300.92,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/28/2025\",\n          \"description\": \"SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD\",\n          \"amount\": 83.52,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/29/2025\",\n          \"description\": \"SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD\",\n          \"amount\": 49.78,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/31/2025\",\n          \"description\": \"SHIFT4 DES:PYMT PROC ID:068880022491769 INDN:ISSAVIBE ID:1731435739 CCD\",\n          \"amount\": 37.66,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        }\n      ],\n      \"internal_transfer_withdrawal\": [],\n      \"other_transfer_withdrawal\": [],\n      \"standard_deposit\": [],\n      \"standard_withdrawal\": [\n        {\n          \"date\": \"10/02/2025\",\n          \"description\": \"BKOFAMERICA BC 10/02 #000005271 WITHDRWL\",\n          \"amount\": 2900.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/02/2025\",\n          \"description\": \"Shift4 DES:Shift4 ID:I25100181550 INDN:828618 ISSAVIBE CO ID:1465216257 CCD\",\n          \"amount\": 75.51,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/10/2025\",\n          \"description\": \"BKOFAMERICA BC 10/10 #000006201 WITHDRWL\",\n          \"amount\": 500.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/10/2025\",\n          \"description\": \"Check # 1002\",\n          \"amount\": 184.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/10/2025\",\n          \"description\": \"Check # 1004\",\n          \"amount\": 450.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/10/2025\",\n          \"description\": \"Check # 1006\",\n          \"amount\": 255.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"Check # 1003\",\n          \"amount\": 428.5,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"Check # 1008*\",\n          \"amount\": 521.1,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"Check # 1009\",\n          \"amount\": 245.42,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/15/2025\",\n          \"description\": \"BKOFAMERICA BC 10/15 #000005767 WITHDRWL\",\n          \"amount\": 1100.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/16/2025\",\n          \"description\": \"Check # 1001\",\n          \"amount\": 140.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/16/2025\",\n          \"description\": \"Check # 1005\",\n          \"amount\": 554.1,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"description\": \"BKOFAMERICA BC 10/17 #000004338 WITHDRWL\",\n          \"amount\": 600.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"description\": \"Check # 1010\",\n          \"amount\": 255.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"description\": \"Check # 1011\",\n          \"amount\": 554.1,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"description\": \"Check # 1012\",\n          \"amount\": 400.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"description\": \"Check # 1013\",\n          \"amount\": 521.1,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"description\": \"Check # 1015\",\n          \"amount\": 332.4,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/20/2025\",\n          \"description\": \"Check # 1014\",\n          \"amount\": 413.74,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/22/2025\",\n          \"description\": \"Check # 1016\",\n          \"amount\": 521.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/23/2025\",\n          \"description\": \"Check # 1017\",\n          \"amount\": 400.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/24/2025\",\n          \"description\": \"Check # 1020*\",\n          \"amount\": 354.62,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/24/2025\",\n          \"description\": \"Check # 1021\",\n          \"amount\": 356.96,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/24/2025\",\n          \"description\": \"Check # 1022\",\n          \"amount\": 554.1,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"description\": \"UNITEDHEALTH DES:INS PREM ID:BCN0003875453 INDN:DEVON MOSLEY ID:1376028756 PPD\",\n          \"amount\": 15.02,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"description\": \"Check # 1024*\",\n          \"amount\": 1189.69,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"description\": \"Check # 1025\",\n          \"amount\": 337.4,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/30/2025\",\n          \"description\": \"DIRECTV WEB DES:DIRECTV ID:19550515 INDN:ISSA VIBE HOOKAH AND L CO ID:5221907811\",\n          \"amount\": 339.53,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/30/2025\",\n          \"description\": \"MANHATTANLIFE DES:Premium ID: XXXXXXXXX INDN:MOSLEY, DEVON ID:XXXXXXXXXP PPD\",\n          \"amount\": 114.09,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/30/2025\",\n          \"description\": \"UNITED OF OMAHA DES: INS PREM ID:CRNBR2OCT-25 INDN:DEVON M MOSLEY ID:1470322122 PPD\",\n          \"amount\": 83.54,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/30/2025\",\n          \"description\": \"Check # 1029*\",\n          \"amount\": 400.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/31/2025\",\n          \"description\": \"Check # 1032*\",\n          \"amount\": 554.0,\n          \"type\": \"Debit\"\n        }\n      ]\n    }\n  ]\n}\n```",
+    "token_count": {
+      "estimated_tokens": 945
+    },
+    "failure_reason": null
+  }
+}

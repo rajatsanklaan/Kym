@@ -1,0 +1,2129 @@
+{
+  "document_name": "Case5.pdf",
+  "pipeline_status": "completed",
+  "processing_metadata": {
+    "start_time": "2026-02-04T15:07:23.327152",
+    "end_time": "2026-02-04T15:10:53.787886",
+    "parsing_time_seconds": 126.853475,
+    "bsi_time_seconds": 83.582961,
+    "total_time_seconds": 210.43643600000001
+  },
+  "parsing_agent_result": {
+    "agent_name": "parsing_agent",
+    "processing_status": "success",
+    "start_time": "2026-02-04T15:07:23.342792",
+    "end_time": "2026-02-04T15:09:30.195904",
+    "parsed_json": {
+      "bank_statement_information": {
+        "bank_name": "Park NATIONAL BANK",
+        "account_holder": "SIEMON STABLES",
+        "statement_start_date": "10/01/2025",
+        "statement_end_date": "10/31/2025",
+        "n_days": 31,
+        "n_month": [
+          10
+        ],
+        "business_address": "9311 LOWER VALLEY PIKE NEW CARLISLE OH 45344-8904"
+      },
+      "accounts": [
+        {
+          "account_number": "XXXXXXXXXXX4359",
+          "account_type": "COMMERCIAL CHECKING PLUS",
+          "account_summary": {
+            "beginning_balance": 27800.0,
+            "ending_balance": 14795.89,
+            "total_deposits": 120254.5,
+            "total_withdrawals": 133258.61,
+            "total_deposits_count": 14,
+            "total_withdrawals_count": 141,
+            "avg_daily_balance": null,
+            "overdraft_days": 0
+          },
+          "transactions": [
+            {
+              "date": "10/01/2025",
+              "description": "IOU CENTRAL TRANSFER 2414437",
+              "amount": 458.88,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/01/2025",
+              "description": "xfer from 4359 to 8374",
+              "amount": 2000.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "10/02/2025",
+              "description": "DEPOSIT",
+              "amount": 1287.5,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "10/02/2025",
+              "description": "VERIZON WIRELESS PAYMENTS 084223966900001",
+              "amount": 217.03,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/02/2025",
+              "description": "CHUBB AGRI INS WITHDRAWAL 42 FO229577",
+              "amount": 300.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/02/2025",
+              "description": "Check Number 6697",
+              "amount": 200.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/02/2025",
+              "description": "Check Number 6698",
+              "amount": 1956.05,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/03/2025",
+              "description": "DEPOSIT",
+              "amount": 884.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "10/03/2025",
+              "description": "DEPOSIT",
+              "amount": 21684.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "10/03/2025",
+              "description": "GECU TRANSFER 80010445",
+              "amount": 600.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/04/2025",
+              "description": "xfer from 4359 to 0818",
+              "amount": 15000.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "DEPOSIT",
+              "amount": 1375.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "AAA LIFE INS PREM 4037360452 ALAN",
+              "amount": 32.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "FirstEnergy OPCO-ACH 110013707432",
+              "amount": 108.28,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "SPECTRUM SPECTRUM 9833428",
+              "amount": 221.16,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "CHUBB AGRI INS WITHDRAWAL 42 CA199614",
+              "amount": 300.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "FirstEnergy OPCO-ACH 110013707341",
+              "amount": 399.01,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "RUMPKE UTILITY 9185331",
+              "amount": 442.18,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "BK OF AMER VISA ONLINE PMT CKF313319975POS",
+              "amount": 750.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "Check Number 6666*",
+              "amount": 50.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "Check Number 6687*",
+              "amount": 40.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "Check Number 6688",
+              "amount": 300.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "Check Number 6701",
+              "amount": 534.1,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "Check Number 6703*",
+              "amount": 359.4,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "Check Number 6704",
+              "amount": 318.73,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/07/2025",
+              "description": "DEPOSIT",
+              "amount": 31400.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "10/07/2025",
+              "description": "AAA LIFE INS PREM 4027188053 ALAN",
+              "amount": 128.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/07/2025",
+              "description": "AAA LIFE INS PREM 4027188053 ALAN",
+              "amount": 128.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/07/2025",
+              "description": "PNC LENDING PAYMENT 436033111291388",
+              "amount": 150.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/07/2025",
+              "description": "CHUBB AGRI INS WITHDRAWAL 42 FO229577",
+              "amount": 300.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/07/2025",
+              "description": "FELLOWSHIP WEBPAYMENT",
+              "amount": 612.24,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/07/2025",
+              "description": "Check Number 672",
+              "amount": 534.1,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/07/2025",
+              "description": "Check Number 6651*",
+              "amount": 10.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/07/2025",
+              "description": "Check Number 6692*",
+              "amount": 87.84,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/07/2025",
+              "description": "Check Number 6693",
+              "amount": 123.34,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/07/2025",
+              "description": "Check Number 6700",
+              "amount": 40.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/07/2025",
+              "description": "Check Number 2192005*",
+              "amount": 113.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/08/2025",
+              "description": "DEPOSIT",
+              "amount": 600.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "10/08/2025",
+              "description": "IOU CENTRAL TRANSFER 2415740",
+              "amount": 458.88,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/08/2025",
+              "description": "xfer from 4359 to 0818",
+              "amount": 20000.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "10/08/2025",
+              "description": "Check Number 6682",
+              "amount": 2000.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/08/2025",
+              "description": "Check Number 6696*",
+              "amount": 3683.94,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/08/2025",
+              "description": "Check Number 6707",
+              "amount": 50.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/09/2025",
+              "description": "DEPOSIT",
+              "amount": 1497.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "10/09/2025",
+              "description": "SVCING SOLUTIONS BILLPAY SERVICINGSOLUTI",
+              "amount": 240.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/09/2025",
+              "description": "ALLY ALLY PAYMT 227970995015",
+              "amount": 700.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/09/2025",
+              "description": "xfer from 4359 to 8374",
+              "amount": 5000.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "10/09/2025",
+              "description": "Check Number 6681*",
+              "amount": 50.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/09/2025",
+              "description": "Check Number 6709",
+              "amount": 534.1,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/09/2025",
+              "description": "Check Number 6714",
+              "amount": 200.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/09/2025",
+              "description": "Check Number 6715",
+              "amount": 1956.05,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/10/2025",
+              "description": "DEPOSIT",
+              "amount": 12191.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "10/10/2025",
+              "description": "WIRE FROM GREGORY A PLATZ OR ELENA VILLANUEVA PLAYING WITH FIRE PURCHASE",
+              "amount": 10000.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 0
+            },
+            {
+              "date": "10/10/2025",
+              "description": "INCOMING WIRE FEE",
+              "amount": 15.0,
+              "type": "Debit",
+              "category": "Service Charges/Fees"
+            },
+            {
+              "date": "10/10/2025",
+              "description": "CHUBB AGRI INS WITHDRAWAL 42 CA199617",
+              "amount": 100.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/10/2025",
+              "description": "CHUBB AGRI INS WITHDRAWAL 42 CA199614",
+              "amount": 100.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/10/2025",
+              "description": "CHUBB AGRI INS WITHDRAWAL 42 FO199608",
+              "amount": 100.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/10/2025",
+              "description": "CHUBB AGRI INS WITHDRAWAL 42 FO229577",
+              "amount": 200.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/10/2025",
+              "description": "Service Charges September 2025",
+              "amount": 123.84,
+              "type": "Debit",
+              "category": "Service Charges/Fees"
+            },
+            {
+              "date": "10/10/2025",
+              "description": "Check Number 6708",
+              "amount": 290.68,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/10/2025",
+              "description": "Check Number 6711",
+              "amount": 534.1,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/10/2025",
+              "description": "Check Number 6712",
+              "amount": 534.1,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/10/2025",
+              "description": "Check Number 6716",
+              "amount": 534.1,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/11/2025",
+              "description": "xfer from 4359 to 8374",
+              "amount": 5000.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "10/14/2025",
+              "description": "DEPOSIT",
+              "amount": 2550.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "10/14/2025",
+              "description": "DEPOSIT",
+              "amount": 3560.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "10/14/2025",
+              "description": "DEPOSIT",
+              "amount": 14134.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "10/14/2025",
+              "description": "MONITRONICS ALARM MON 2395765",
+              "amount": 143.28,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/14/2025",
+              "description": "IRS USATAXPYMT 270568703348951",
+              "amount": 3476.78,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/14/2025",
+              "description": "xfer from 4359 to 8374",
+              "amount": 10000.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "10/14/2025",
+              "description": "Check Number 6706*",
+              "amount": 1078.2,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/14/2025",
+              "description": "Check Number 6718*",
+              "amount": 364.4,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/14/2025",
+              "description": "Check Number 6719",
+              "amount": 1078.2,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/15/2025",
+              "description": "DEPOSIT",
+              "amount": 7092.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "10/15/2025",
+              "description": "EDWARD JONES INVESTMENT 07222A382160941",
+              "amount": 100.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/15/2025",
+              "description": "IOU CENTRAL TRANSFER 2417012",
+              "amount": 458.88,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/15/2025",
+              "description": "GM Financial GMF Pymt 111096952475",
+              "amount": 1248.14,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/15/2025",
+              "description": "xfer from 4359 to 0818",
+              "amount": 2000.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "10/15/2025",
+              "description": "Check Number 6720",
+              "amount": 272.05,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/15/2025",
+              "description": "Check Number 2216114*",
+              "amount": 113.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/16/2025",
+              "description": "CHUBB AGRI INS WITHDRAWAL 42 FO199608",
+              "amount": 50.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/16/2025",
+              "description": "ST JUDE GIFT DONATIONS 8-14652047",
+              "amount": 70.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/16/2025",
+              "description": "CHUBB AGRI INS WITHDRAWAL 42 FO229577",
+              "amount": 100.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/16/2025",
+              "description": "CHUBB AGRI INS WITHDRAWAL 42 CA199617",
+              "amount": 217.16,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/16/2025",
+              "description": "VERIZON WIRELESS PAYMENTS 038867243900001",
+              "amount": 317.22,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/16/2025",
+              "description": "Check Number 6710",
+              "amount": 2500.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/17/2025",
+              "description": "PAYPAL INST XFER GOOGLE GRIMLAX",
+              "amount": 7.49,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/17/2025",
+              "description": "PAYPAL INST XFER GOOGLE TOP APPS",
+              "amount": 16.07,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/17/2025",
+              "description": "PAYPAL INST XFER GOOGLE INFINITY",
+              "amount": 16.07,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/17/2025",
+              "description": "SLMLOANPMT Sallie Mae Bank SLM LOAN PMT",
+              "amount": 50.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/17/2025",
+              "description": "VERIZON WIRELESS PAYMENTS 048718770200001",
+              "amount": 271.24,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/17/2025",
+              "description": "Deere Credit Ser PAYMENTS 7900006662922JF",
+              "amount": 382.13,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/17/2025",
+              "description": "FELLOWSHIP WEBPAYMENT",
+              "amount": 612.24,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/17/2025",
+              "description": "Check Number 6674*",
+              "amount": 1200.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/17/2025",
+              "description": "Check Number 6694",
+              "amount": 225.88,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/17/2025",
+              "description": "Check Number 6722",
+              "amount": 451.75,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/17/2025",
+              "description": "Check Number 6724*",
+              "amount": 272.05,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/17/2025",
+              "description": "Check Number 6725",
+              "amount": 1078.2,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/20/2025",
+              "description": "PAYPAL INST XFER APPLE.COM BILL",
+              "amount": 10.71,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/20/2025",
+              "description": "PAYPAL INST XFER APPLE.COM BILL",
+              "amount": 53.61,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/20/2025",
+              "description": "TOTALADBLOCK IAT PAYPAL 1045587683225",
+              "amount": 99.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/20/2025",
+              "description": "PAYPAL INST XFER AVG",
+              "amount": 107.24,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/21/2025",
+              "description": "PAYPAL INST XFER SHRINERSHOS SHR",
+              "amount": 19.38,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/21/2025",
+              "description": "CHUBB AGRI INS WITHDRAWAL 42 FO229577",
+              "amount": 100.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/21/2025",
+              "description": "GLOBE LIFE INS INS. PREM 006E60370E 1025",
+              "amount": 129.23,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/21/2025",
+              "description": "CHUBB AGRI INS WITHDRAWAL 42 CA199614",
+              "amount": 200.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/21/2025",
+              "description": "FELLOWSHIP WEBPAYMENT",
+              "amount": 612.24,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/21/2025",
+              "description": "WRIGHT PATT CRET TRANSFER 6681828",
+              "amount": 650.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/21/2025",
+              "description": "xfer from 4359 to 8374",
+              "amount": 5000.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "10/21/2025",
+              "description": "Check Number 6699",
+              "amount": 300.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/21/2025",
+              "description": "Check Number 6729*",
+              "amount": 364.4,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/22/2025",
+              "description": "IOU CENTRAL TRANSFER 2418263",
+              "amount": 458.88,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/22/2025",
+              "description": "Check Number 6713",
+              "amount": 100.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/22/2025",
+              "description": "Check Number 6721",
+              "amount": 2383.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/23/2025",
+              "description": "AMBETTERWELLCARE HEALTH INS P00000940085178",
+              "amount": 237.54,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/23/2025",
+              "description": "XWPCUX SV WEBXFR TRANSFER 15270991471",
+              "amount": 500.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/23/2025",
+              "description": "xfer from 4359 to 8374",
+              "amount": 2000.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "10/23/2025",
+              "description": "Check Number 6732*",
+              "amount": 272.05,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/24/2025",
+              "description": "Five Star Bank P2P PAYMNT DAVID KERN",
+              "amount": 12000.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "10/24/2025",
+              "description": "PAYPAL INST XFER GOOGLE GRIMLAX",
+              "amount": 7.49,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/24/2025",
+              "description": "PAYPAL INST XFER GOOGLE INFINITY",
+              "amount": 16.07,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/24/2025",
+              "description": "PAYPAL INST XFER GOOGLE TOP APPS",
+              "amount": 16.07,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/24/2025",
+              "description": "PAYPAL INST XFER SILLER T2T",
+              "amount": 20.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/24/2025",
+              "description": "CHUBB AGRI INS WITHDRAWAL 42 CA199614",
+              "amount": 203.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/24/2025",
+              "description": "Check Number 6733",
+              "amount": 272.05,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/25/2025",
+              "description": "xfer from 4359 to 8374",
+              "amount": 5000.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "10/27/2025",
+              "description": "TOTALAV IAT PAYPAL 1045758919336",
+              "amount": 11.99,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/27/2025",
+              "description": "TOTALAV IAT PAYPAL 1045737777176",
+              "amount": 14.99,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/27/2025",
+              "description": "XWPCUX SV WEBXFR TRANSFER 15294044071",
+              "amount": 500.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/27/2025",
+              "description": "Check Number 6726",
+              "amount": 40.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/27/2025",
+              "description": "Check Number 6727",
+              "amount": 466.84,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/27/2025",
+              "description": "Check Number 6734",
+              "amount": 1078.2,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/27/2025",
+              "description": "Check Number 6739*",
+              "amount": 364.4,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/28/2025",
+              "description": "FELLOWSHIP WEBPAYMENT",
+              "amount": 612.24,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/28/2025",
+              "description": "PAYMENT SBA EIDL LOAN 5555157904",
+              "amount": 731.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/28/2025",
+              "description": "Check Number 6730",
+              "amount": 451.75,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/28/2025",
+              "description": "Check Number 6742*",
+              "amount": 1700.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/28/2025",
+              "description": "Check Number 2270302*",
+              "amount": 113.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/29/2025",
+              "description": "CHUBB AGRI INS WITHDRAWAL 42 FO229577",
+              "amount": 300.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/29/2025",
+              "description": "Deere Credit Ser PAYMENTS 7900006877370JF",
+              "amount": 382.13,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/29/2025",
+              "description": "IOU CENTRAL TRANSFER 2419500",
+              "amount": 458.88,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/29/2025",
+              "description": "Check Number 6740",
+              "amount": 364.4,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/29/2025",
+              "description": "Check Number 6745*",
+              "amount": 272.05,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/30/2025",
+              "description": "Check Number 6750",
+              "amount": 200.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/30/2025",
+              "description": "Check Number 6751",
+              "amount": 1956.05,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/30/2025",
+              "description": "Check Number 6743",
+              "amount": 2129.86,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/31/2025",
+              "description": "PAYPAL INST XFER GOOGLE GRIMLAX",
+              "amount": 7.49,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/31/2025",
+              "description": "PAYPAL INST XFER GOOGLE INFINITY",
+              "amount": 16.07,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/31/2025",
+              "description": "PAYPAL INST XFER GOOGLE TOP APPS",
+              "amount": 16.07,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/31/2025",
+              "description": "PAYPAL INST XFER MAGAZINE",
+              "amount": 21.99,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/31/2025",
+              "description": "TOTALAV IAT PAYPAL 1045864478760",
+              "amount": 49.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/31/2025",
+              "description": "TOTALAV IAT PAYPAL 1045864503452",
+              "amount": 99.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/31/2025",
+              "description": "Check Number 6735",
+              "amount": 500.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/31/2025",
+              "description": "Check Number 6746",
+              "amount": 2129.86,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/31/2025",
+              "description": "Check Number 6749*",
+              "amount": 1750.83,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            }
+          ]
+        }
+      ]
+    },
+    "raw_output": "```json\n{\n  \"bank_statement_information\": {\n    \"bank_name\": \"Park NATIONAL BANK\",\n    \"account_holder\": \"SIEMON STABLES\",\n    \"statement_start_date\": \"10/01/2025\",\n    \"statement_end_date\": \"10/31/2025\",\n    \"n_days\": 31,\n    \"n_month\": [\n      10\n    ],\n    \"business_address\": \"9311 LOWER VALLEY PIKE NEW CARLISLE OH 45344-8904\"\n  },\n  \"accounts\": [\n    {\n      \"account_number\": \"XXXXXXXXXXX4359\",\n      \"account_type\": \"COMMERCIAL CHECKING PLUS\",\n      \"account_summary\": {\n        \"beginning_balance\": 27800.0,\n        \"ending_balance\": 14795.89,\n        \"total_deposits\": 120254.5,\n        \"total_withdrawals\": 133258.61,\n        \"total_deposits_count\": 14,\n        \"total_withdrawals_count\": 141,\n        \"avg_daily_balance\": null,\n        \"overdraft_days\": 0\n      },\n      \"transactions\": [\n        {\n          \"date\": \"10/01/2025\",\n          \"description\": \"IOU CENTRAL TRANSFER 2414437\",\n          \"amount\": 458.88,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/01/2025\",\n          \"description\": \"xfer from 4359 to 8374\",\n          \"amount\": 2000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/02/2025\",\n          \"description\": \"DEPOSIT\",\n          \"amount\": 1287.5,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"10/02/2025\",\n          \"description\": \"VERIZON WIRELESS PAYMENTS 084223966900001\",\n          \"amount\": 217.03,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/02/2025\",\n          \"description\": \"CHUBB AGRI INS WITHDRAWAL 42 FO229577\",\n          \"amount\": 300.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/02/2025\",\n          \"description\": \"Check Number 6697\",\n          \"amount\": 200.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/02/2025\",\n          \"description\": \"Check Number 6698\",\n          \"amount\": 1956.05,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/03/2025\",\n          \"description\": \"DEPOSIT\",\n          \"amount\": 884.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"10/03/2025\",\n          \"description\": \"DEPOSIT\",\n          \"amount\": 21684.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"10/03/2025\",\n          \"description\": \"GECU TRANSFER 80010445\",\n          \"amount\": 600.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/04/2025\",\n          \"description\": \"xfer from 4359 to 0818\",\n          \"amount\": 15000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"DEPOSIT\",\n          \"amount\": 1375.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"AAA LIFE INS PREM 4037360452 ALAN\",\n          \"amount\": 32.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"FirstEnergy OPCO-ACH 110013707432\",\n          \"amount\": 108.28,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"SPECTRUM SPECTRUM 9833428\",\n          \"amount\": 221.16,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"CHUBB AGRI INS WITHDRAWAL 42 CA199614\",\n          \"amount\": 300.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"FirstEnergy OPCO-ACH 110013707341\",\n          \"amount\": 399.01,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"RUMPKE UTILITY 9185331\",\n          \"amount\": 442.18,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"BK OF AMER VISA ONLINE PMT CKF313319975POS\",\n          \"amount\": 750.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"Check Number 6666*\",\n          \"amount\": 50.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"Check Number 6687*\",\n          \"amount\": 40.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"Check Number 6688\",\n          \"amount\": 300.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"Check Number 6701\",\n          \"amount\": 534.1,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"Check Number 6703*\",\n          \"amount\": 359.4,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"Check Number 6704\",\n          \"amount\": 318.73,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/07/2025\",\n          \"description\": \"DEPOSIT\",\n          \"amount\": 31400.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"10/07/2025\",\n          \"description\": \"AAA LIFE INS PREM 4027188053 ALAN\",\n          \"amount\": 128.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/07/2025\",\n          \"description\": \"AAA LIFE INS PREM 4027188053 ALAN\",\n          \"amount\": 128.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/07/2025\",\n          \"description\": \"PNC LENDING PAYMENT 436033111291388\",\n          \"amount\": 150.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/07/2025\",\n          \"description\": \"CHUBB AGRI INS WITHDRAWAL 42 FO229577\",\n          \"amount\": 300.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/07/2025\",\n          \"description\": \"FELLOWSHIP WEBPAYMENT\",\n          \"amount\": 612.24,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/07/2025\",\n          \"description\": \"Check Number 672\",\n          \"amount\": 534.1,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/07/2025\",\n          \"description\": \"Check Number 6651*\",\n          \"amount\": 10.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/07/2025\",\n          \"description\": \"Check Number 6692*\",\n          \"amount\": 87.84,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/07/2025\",\n          \"description\": \"Check Number 6693\",\n          \"amount\": 123.34,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/07/2025\",\n          \"description\": \"Check Number 6700\",\n          \"amount\": 40.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/07/2025\",\n          \"description\": \"Check Number 2192005*\",\n          \"amount\": 113.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/08/2025\",\n          \"description\": \"DEPOSIT\",\n          \"amount\": 600.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"10/08/2025\",\n          \"description\": \"IOU CENTRAL TRANSFER 2415740\",\n          \"amount\": 458.88,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/08/2025\",\n          \"description\": \"xfer from 4359 to 0818\",\n          \"amount\": 20000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/08/2025\",\n          \"description\": \"Check Number 6682\",\n          \"amount\": 2000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/08/2025\",\n          \"description\": \"Check Number 6696*\",\n          \"amount\": 3683.94,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/08/2025\",\n          \"description\": \"Check Number 6707\",\n          \"amount\": 50.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/09/2025\",\n          \"description\": \"DEPOSIT\",\n          \"amount\": 1497.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"10/09/2025\",\n          \"description\": \"SVCING SOLUTIONS BILLPAY SERVICINGSOLUTI\",\n          \"amount\": 240.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/09/2025\",\n          \"description\": \"ALLY ALLY PAYMT 227970995015\",\n          \"amount\": 700.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/09/2025\",\n          \"description\": \"xfer from 4359 to 8374\",\n          \"amount\": 5000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/09/2025\",\n          \"description\": \"Check Number 6681*\",\n          \"amount\": 50.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/09/2025\",\n          \"description\": \"Check Number 6709\",\n          \"amount\": 534.1,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/09/2025\",\n          \"description\": \"Check Number 6714\",\n          \"amount\": 200.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/09/2025\",\n          \"description\": \"Check Number 6715\",\n          \"amount\": 1956.05,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/10/2025\",\n          \"description\": \"DEPOSIT\",\n          \"amount\": 12191.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"10/10/2025\",\n          \"description\": \"WIRE FROM GREGORY A PLATZ OR ELENA VILLANUEVA PLAYING WITH FIRE PURCHASE\",\n          \"amount\": 10000.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 0\n        },\n        {\n          \"date\": \"10/10/2025\",\n          \"description\": \"INCOMING WIRE FEE\",\n          \"amount\": 15.0,\n          \"type\": \"Debit\",\n          \"category\": \"Service Charges/Fees\"\n        },\n        {\n          \"date\": \"10/10/2025\",\n          \"description\": \"CHUBB AGRI INS WITHDRAWAL 42 CA199617\",\n          \"amount\": 100.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/10/2025\",\n          \"description\": \"CHUBB AGRI INS WITHDRAWAL 42 CA199614\",\n          \"amount\": 100.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/10/2025\",\n          \"description\": \"CHUBB AGRI INS WITHDRAWAL 42 FO199608\",\n          \"amount\": 100.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/10/2025\",\n          \"description\": \"CHUBB AGRI INS WITHDRAWAL 42 FO229577\",\n          \"amount\": 200.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/10/2025\",\n          \"description\": \"Service Charges September 2025\",\n          \"amount\": 123.84,\n          \"type\": \"Debit\",\n          \"category\": \"Service Charges/Fees\"\n        },\n        {\n          \"date\": \"10/10/2025\",\n          \"description\": \"Check Number 6708\",\n          \"amount\": 290.68,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/10/2025\",\n          \"description\": \"Check Number 6711\",\n          \"amount\": 534.1,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/10/2025\",\n          \"description\": \"Check Number 6712\",\n          \"amount\": 534.1,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/10/2025\",\n          \"description\": \"Check Number 6716\",\n          \"amount\": 534.1,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/11/2025\",\n          \"description\": \"xfer from 4359 to 8374\",\n          \"amount\": 5000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"DEPOSIT\",\n          \"amount\": 2550.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"DEPOSIT\",\n          \"amount\": 3560.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"DEPOSIT\",\n          \"amount\": 14134.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"MONITRONICS ALARM MON 2395765\",\n          \"amount\": 143.28,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"IRS USATAXPYMT 270568703348951\",\n          \"amount\": 3476.78,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"xfer from 4359 to 8374\",\n          \"amount\": 10000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"Check Number 6706*\",\n          \"amount\": 1078.2,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"Check Number 6718*\",\n          \"amount\": 364.4,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"Check Number 6719\",\n          \"amount\": 1078.2,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/15/2025\",\n          \"description\": \"DEPOSIT\",\n          \"amount\": 7092.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"10/15/2025\",\n          \"description\": \"EDWARD JONES INVESTMENT 07222A382160941\",\n          \"amount\": 100.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/15/2025\",\n          \"description\": \"IOU CENTRAL TRANSFER 2417012\",\n          \"amount\": 458.88,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/15/2025\",\n          \"description\": \"GM Financial GMF Pymt 111096952475\",\n          \"amount\": 1248.14,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/15/2025\",\n          \"description\": \"xfer from 4359 to 0818\",\n          \"amount\": 2000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/15/2025\",\n          \"description\": \"Check Number 6720\",\n          \"amount\": 272.05,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/15/2025\",\n          \"description\": \"Check Number 2216114*\",\n          \"amount\": 113.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/16/2025\",\n          \"description\": \"CHUBB AGRI INS WITHDRAWAL 42 FO199608\",\n          \"amount\": 50.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/16/2025\",\n          \"description\": \"ST JUDE GIFT DONATIONS 8-14652047\",\n          \"amount\": 70.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/16/2025\",\n          \"description\": \"CHUBB AGRI INS WITHDRAWAL 42 FO229577\",\n          \"amount\": 100.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/16/2025\",\n          \"description\": \"CHUBB AGRI INS WITHDRAWAL 42 CA199617\",\n          \"amount\": 217.16,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/16/2025\",\n          \"description\": \"VERIZON WIRELESS PAYMENTS 038867243900001\",\n          \"amount\": 317.22,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/16/2025\",\n          \"description\": \"Check Number 6710\",\n          \"amount\": 2500.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"description\": \"PAYPAL INST XFER GOOGLE GRIMLAX\",\n          \"amount\": 7.49,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"description\": \"PAYPAL INST XFER GOOGLE TOP APPS\",\n          \"amount\": 16.07,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"description\": \"PAYPAL INST XFER GOOGLE INFINITY\",\n          \"amount\": 16.07,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"description\": \"SLMLOANPMT Sallie Mae Bank SLM LOAN PMT\",\n          \"amount\": 50.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"description\": \"VERIZON WIRELESS PAYMENTS 048718770200001\",\n          \"amount\": 271.24,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"description\": \"Deere Credit Ser PAYMENTS 7900006662922JF\",\n          \"amount\": 382.13,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"description\": \"FELLOWSHIP WEBPAYMENT\",\n          \"amount\": 612.24,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"description\": \"Check Number 6674*\",\n          \"amount\": 1200.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"description\": \"Check Number 6694\",\n          \"amount\": 225.88,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"description\": \"Check Number 6722\",\n          \"amount\": 451.75,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"description\": \"Check Number 6724*\",\n          \"amount\": 272.05,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"description\": \"Check Number 6725\",\n          \"amount\": 1078.2,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/20/2025\",\n          \"description\": \"PAYPAL INST XFER APPLE.COM BILL\",\n          \"amount\": 10.71,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/20/2025\",\n          \"description\": \"PAYPAL INST XFER APPLE.COM BILL\",\n          \"amount\": 53.61,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/20/2025\",\n          \"description\": \"TOTALADBLOCK IAT PAYPAL 1045587683225\",\n          \"amount\": 99.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/20/2025\",\n          \"description\": \"PAYPAL INST XFER AVG\",\n          \"amount\": 107.24,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/21/2025\",\n          \"description\": \"PAYPAL INST XFER SHRINERSHOS SHR\",\n          \"amount\": 19.38,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/21/2025\",\n          \"description\": \"CHUBB AGRI INS WITHDRAWAL 42 FO229577\",\n          \"amount\": 100.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/21/2025\",\n          \"description\": \"GLOBE LIFE INS INS. PREM 006E60370E 1025\",\n          \"amount\": 129.23,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/21/2025\",\n          \"description\": \"CHUBB AGRI INS WITHDRAWAL 42 CA199614\",\n          \"amount\": 200.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/21/2025\",\n          \"description\": \"FELLOWSHIP WEBPAYMENT\",\n          \"amount\": 612.24,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/21/2025\",\n          \"description\": \"WRIGHT PATT CRET TRANSFER 6681828\",\n          \"amount\": 650.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/21/2025\",\n          \"description\": \"xfer from 4359 to 8374\",\n          \"amount\": 5000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/21/2025\",\n          \"description\": \"Check Number 6699\",\n          \"amount\": 300.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/21/2025\",\n          \"description\": \"Check Number 6729*\",\n          \"amount\": 364.4,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/22/2025\",\n          \"description\": \"IOU CENTRAL TRANSFER 2418263\",\n          \"amount\": 458.88,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/22/2025\",\n          \"description\": \"Check Number 6713\",\n          \"amount\": 100.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/22/2025\",\n          \"description\": \"Check Number 6721\",\n          \"amount\": 2383.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/23/2025\",\n          \"description\": \"AMBETTERWELLCARE HEALTH INS P00000940085178\",\n          \"amount\": 237.54,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/23/2025\",\n          \"description\": \"XWPCUX SV WEBXFR TRANSFER 15270991471\",\n          \"amount\": 500.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/23/2025\",\n          \"description\": \"xfer from 4359 to 8374\",\n          \"amount\": 2000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/23/2025\",\n          \"description\": \"Check Number 6732*\",\n          \"amount\": 272.05,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/24/2025\",\n          \"description\": \"Five Star Bank P2P PAYMNT DAVID KERN\",\n          \"amount\": 12000.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"10/24/2025\",\n          \"description\": \"PAYPAL INST XFER GOOGLE GRIMLAX\",\n          \"amount\": 7.49,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/24/2025\",\n          \"description\": \"PAYPAL INST XFER GOOGLE INFINITY\",\n          \"amount\": 16.07,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/24/2025\",\n          \"description\": \"PAYPAL INST XFER GOOGLE TOP APPS\",\n          \"amount\": 16.07,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/24/2025\",\n          \"description\": \"PAYPAL INST XFER SILLER T2T\",\n          \"amount\": 20.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/24/2025\",\n          \"description\": \"CHUBB AGRI INS WITHDRAWAL 42 CA199614\",\n          \"amount\": 203.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/24/2025\",\n          \"description\": \"Check Number 6733\",\n          \"amount\": 272.05,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/25/2025\",\n          \"description\": \"xfer from 4359 to 8374\",\n          \"amount\": 5000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"description\": \"TOTALAV IAT PAYPAL 1045758919336\",\n          \"amount\": 11.99,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"description\": \"TOTALAV IAT PAYPAL 1045737777176\",\n          \"amount\": 14.99,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"description\": \"XWPCUX SV WEBXFR TRANSFER 15294044071\",\n          \"amount\": 500.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"description\": \"Check Number 6726\",\n          \"amount\": 40.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"description\": \"Check Number 6727\",\n          \"amount\": 466.84,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"description\": \"Check Number 6734\",\n          \"amount\": 1078.2,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"description\": \"Check Number 6739*\",\n          \"amount\": 364.4,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/28/2025\",\n          \"description\": \"FELLOWSHIP WEBPAYMENT\",\n          \"amount\": 612.24,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/28/2025\",\n          \"description\": \"PAYMENT SBA EIDL LOAN 5555157904\",\n          \"amount\": 731.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/28/2025\",\n          \"description\": \"Check Number 6730\",\n          \"amount\": 451.75,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/28/2025\",\n          \"description\": \"Check Number 6742*\",\n          \"amount\": 1700.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/28/2025\",\n          \"description\": \"Check Number 2270302*\",\n          \"amount\": 113.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/29/2025\",\n          \"description\": \"CHUBB AGRI INS WITHDRAWAL 42 FO229577\",\n          \"amount\": 300.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/29/2025\",\n          \"description\": \"Deere Credit Ser PAYMENTS 7900006877370JF\",\n          \"amount\": 382.13,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/29/2025\",\n          \"description\": \"IOU CENTRAL TRANSFER 2419500\",\n          \"amount\": 458.88,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/29/2025\",\n          \"description\": \"Check Number 6740\",\n          \"amount\": 364.4,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/29/2025\",\n          \"description\": \"Check Number 6745*\",\n          \"amount\": 272.05,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/30/2025\",\n          \"description\": \"Check Number 6750\",\n          \"amount\": 200.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/30/2025\",\n          \"description\": \"Check Number 6751\",\n          \"amount\": 1956.05,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/30/2025\",\n          \"description\": \"Check Number 6743\",\n          \"amount\": 2129.86,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/31/2025\",\n          \"description\": \"PAYPAL INST XFER GOOGLE GRIMLAX\",\n          \"amount\": 7.49,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/31/2025\",\n          \"description\": \"PAYPAL INST XFER GOOGLE INFINITY\",\n          \"amount\": 16.07,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/31/2025\",\n          \"description\": \"PAYPAL INST XFER GOOGLE TOP APPS\",\n          \"amount\": 16.07,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/31/2025\",\n          \"description\": \"PAYPAL INST XFER MAGAZINE\",\n          \"amount\": 21.99,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/31/2025\",\n          \"description\": \"TOTALAV IAT PAYPAL 1045864478760\",\n          \"amount\": 49.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/31/2025\",\n          \"description\": \"TOTALAV IAT PAYPAL 1045864503452\",\n          \"amount\": 99.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/31/2025\",\n          \"description\": \"Check Number 6735\",\n          \"amount\": 500.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/31/2025\",\n          \"description\": \"Check Number 6746\",\n          \"amount\": 2129.86,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/31/2025\",\n          \"description\": \"Check Number 6749*\",\n          \"amount\": 1750.83,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        }\n      ]\n    }\n  ]\n}\n```",
+    "token_count": {
+      "estimated_tokens": 2562
+    },
+    "failure_reason": null
+  },
+  "bsi_analyzer_result": {
+    "agent_name": "v1_bsi_analyzer_agent",
+    "processing_status": "success",
+    "start_time": "2026-02-04T15:09:30.204163",
+    "end_time": "2026-02-04T15:10:53.786780",
+    "parsed_json": {
+      "accounts": [
+        {
+          "account_number": "XXXXXXXXXXX4359",
+          "account_type": "COMMERCIAL CHECKING PLUS",
+          "mca_deposit": [],
+          "mca_withdrawal": [
+            {
+              "mca_name": "IOU Central",
+              "date": "10/01/2025",
+              "type": "Debit",
+              "description": "IOU CENTRAL TRANSFER 2414437",
+              "amount": 458.88
+            },
+            {
+              "mca_name": "IOU Central",
+              "date": "10/08/2025",
+              "type": "Debit",
+              "description": "IOU CENTRAL TRANSFER 2415740",
+              "amount": 458.88
+            },
+            {
+              "mca_name": "IOU Central",
+              "date": "10/15/2025",
+              "type": "Debit",
+              "description": "IOU CENTRAL TRANSFER 2417012",
+              "amount": 458.88
+            },
+            {
+              "mca_name": "IOU Central",
+              "date": "10/22/2025",
+              "type": "Debit",
+              "description": "IOU CENTRAL TRANSFER 2418263",
+              "amount": 458.88
+            },
+            {
+              "mca_name": "IOU Central",
+              "date": "10/29/2025",
+              "type": "Debit",
+              "description": "IOU CENTRAL TRANSFER 2419500",
+              "amount": 458.88
+            }
+          ],
+          "returned_items": [],
+          "overdrafts": [],
+          "service_charges": [
+            {
+              "date": "10/10/2025",
+              "description": "INCOMING WIRE FEE",
+              "amount": 15.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/10/2025",
+              "description": "Service Charges September 2025",
+              "amount": 123.84,
+              "type": "Debit"
+            }
+          ],
+          "atm_cash_withdrawal": [],
+          "internal_transfer_deposit": [],
+          "other_transfer_deposit": [
+            {
+              "date": "10/10/2025",
+              "description": "WIRE FROM GREGORY A PLATZ OR ELENA VILLANUEVA PLAYING WITH FIRE PURCHASE",
+              "amount": 10000.0,
+              "type": "Credit",
+              "is_payment_processor": 0,
+              "non_true_revenue": 1
+            },
+            {
+              "date": "10/24/2025",
+              "description": "Five Star Bank P2P PAYMNT DAVID KERN",
+              "amount": 12000.0,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            }
+          ],
+          "internal_transfer_withdrawal": [
+            {
+              "date": "10/01/2025",
+              "description": "xfer from 4359 to 8374",
+              "amount": 2000.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/04/2025",
+              "description": "xfer from 4359 to 0818",
+              "amount": 15000.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/08/2025",
+              "description": "xfer from 4359 to 0818",
+              "amount": 20000.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/09/2025",
+              "description": "xfer from 4359 to 8374",
+              "amount": 5000.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/11/2025",
+              "description": "xfer from 4359 to 8374",
+              "amount": 5000.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/14/2025",
+              "description": "xfer from 4359 to 8374",
+              "amount": 10000.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/15/2025",
+              "description": "xfer from 4359 to 0818",
+              "amount": 2000.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/21/2025",
+              "description": "xfer from 4359 to 8374",
+              "amount": 5000.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/23/2025",
+              "description": "xfer from 4359 to 8374",
+              "amount": 2000.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/25/2025",
+              "description": "xfer from 4359 to 8374",
+              "amount": 5000.0,
+              "type": "Debit"
+            }
+          ],
+          "other_transfer_withdrawal": [
+            {
+              "date": "10/03/2025",
+              "description": "GECU TRANSFER 80010445",
+              "amount": 600.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/17/2025",
+              "description": "PAYPAL INST XFER GOOGLE GRIMLAX",
+              "amount": 7.49,
+              "type": "Debit"
+            },
+            {
+              "date": "10/17/2025",
+              "description": "PAYPAL INST XFER GOOGLE TOP APPS",
+              "amount": 16.07,
+              "type": "Debit"
+            },
+            {
+              "date": "10/17/2025",
+              "description": "PAYPAL INST XFER GOOGLE INFINITY",
+              "amount": 16.07,
+              "type": "Debit"
+            },
+            {
+              "date": "10/20/2025",
+              "description": "PAYPAL INST XFER AVG",
+              "amount": 107.24,
+              "type": "Debit"
+            },
+            {
+              "date": "10/21/2025",
+              "description": "WRIGHT PATT CRET TRANSFER 6681828",
+              "amount": 650.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/23/2025",
+              "description": "XWPCUX SV WEBXFR TRANSFER 15270991471",
+              "amount": 500.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/24/2025",
+              "description": "PAYPAL INST XFER GOOGLE GRIMLAX",
+              "amount": 7.49,
+              "type": "Debit"
+            },
+            {
+              "date": "10/24/2025",
+              "description": "PAYPAL INST XFER GOOGLE INFINITY",
+              "amount": 16.07,
+              "type": "Debit"
+            },
+            {
+              "date": "10/24/2025",
+              "description": "PAYPAL INST XFER GOOGLE TOP APPS",
+              "amount": 16.07,
+              "type": "Debit"
+            },
+            {
+              "date": "10/24/2025",
+              "description": "PAYPAL INST XFER SILLER T2T",
+              "amount": 20.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/27/2025",
+              "description": "XWPCUX SV WEBXFR TRANSFER 15294044071",
+              "amount": 500.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/31/2025",
+              "description": "PAYPAL INST XFER GOOGLE GRIMLAX",
+              "amount": 7.49,
+              "type": "Debit"
+            },
+            {
+              "date": "10/31/2025",
+              "description": "PAYPAL INST XFER GOOGLE INFINITY",
+              "amount": 16.07,
+              "type": "Debit"
+            },
+            {
+              "date": "10/31/2025",
+              "description": "PAYPAL INST XFER GOOGLE TOP APPS",
+              "amount": 16.07,
+              "type": "Debit"
+            }
+          ],
+          "standard_deposit": [
+            {
+              "date": "10/02/2025",
+              "description": "DEPOSIT",
+              "amount": 1287.5,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/03/2025",
+              "description": "DEPOSIT",
+              "amount": 884.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/03/2025",
+              "description": "DEPOSIT",
+              "amount": 21684.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/06/2025",
+              "description": "DEPOSIT",
+              "amount": 1375.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/07/2025",
+              "description": "DEPOSIT",
+              "amount": 31400.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/08/2025",
+              "description": "DEPOSIT",
+              "amount": 600.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/09/2025",
+              "description": "DEPOSIT",
+              "amount": 1497.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/10/2025",
+              "description": "DEPOSIT",
+              "amount": 12191.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/14/2025",
+              "description": "DEPOSIT",
+              "amount": 2550.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/14/2025",
+              "description": "DEPOSIT",
+              "amount": 3560.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/14/2025",
+              "description": "DEPOSIT",
+              "amount": 14134.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/15/2025",
+              "description": "DEPOSIT",
+              "amount": 7092.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            }
+          ],
+          "standard_withdrawal": [
+            {
+              "date": "10/02/2025",
+              "description": "VERIZON WIRELESS PAYMENTS 084223966900001",
+              "amount": 217.03,
+              "type": "Debit"
+            },
+            {
+              "date": "10/02/2025",
+              "description": "CHUBB AGRI INS WITHDRAWAL 42 FO229577",
+              "amount": 300.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/02/2025",
+              "description": "Check Number 6697",
+              "amount": 200.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/02/2025",
+              "description": "Check Number 6698",
+              "amount": 1956.05,
+              "type": "Debit"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "AAA LIFE INS PREM 4037360452 ALAN",
+              "amount": 32.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "FirstEnergy OPCO-ACH 110013707432",
+              "amount": 108.28,
+              "type": "Debit"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "SPECTRUM SPECTRUM 9833428",
+              "amount": 221.16,
+              "type": "Debit"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "CHUBB AGRI INS WITHDRAWAL 42 CA199614",
+              "amount": 300.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "FirstEnergy OPCO-ACH 110013707341",
+              "amount": 399.01,
+              "type": "Debit"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "RUMPKE UTILITY 9185331",
+              "amount": 442.18,
+              "type": "Debit"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "BK OF AMER VISA ONLINE PMT CKF313319975POS",
+              "amount": 750.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "Check Number 6666*",
+              "amount": 50.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "Check Number 6687*",
+              "amount": 40.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "Check Number 6688",
+              "amount": 300.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "Check Number 6701",
+              "amount": 534.1,
+              "type": "Debit"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "Check Number 6703*",
+              "amount": 359.4,
+              "type": "Debit"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "Check Number 6704",
+              "amount": 318.73,
+              "type": "Debit"
+            },
+            {
+              "date": "10/07/2025",
+              "description": "AAA LIFE INS PREM 4027188053 ALAN",
+              "amount": 128.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/07/2025",
+              "description": "AAA LIFE INS PREM 4027188053 ALAN",
+              "amount": 128.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/07/2025",
+              "description": "PNC LENDING PAYMENT 436033111291388",
+              "amount": 150.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/07/2025",
+              "description": "CHUBB AGRI INS WITHDRAWAL 42 FO229577",
+              "amount": 300.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/07/2025",
+              "description": "FELLOWSHIP WEBPAYMENT",
+              "amount": 612.24,
+              "type": "Debit"
+            },
+            {
+              "date": "10/07/2025",
+              "description": "Check Number 672",
+              "amount": 534.1,
+              "type": "Debit"
+            },
+            {
+              "date": "10/07/2025",
+              "description": "Check Number 6651*",
+              "amount": 10.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/07/2025",
+              "description": "Check Number 6692*",
+              "amount": 87.84,
+              "type": "Debit"
+            },
+            {
+              "date": "10/07/2025",
+              "description": "Check Number 6693",
+              "amount": 123.34,
+              "type": "Debit"
+            },
+            {
+              "date": "10/07/2025",
+              "description": "Check Number 6700",
+              "amount": 40.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/07/2025",
+              "description": "Check Number 2192005*",
+              "amount": 113.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/08/2025",
+              "description": "Check Number 6682",
+              "amount": 2000.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/08/2025",
+              "description": "Check Number 6696*",
+              "amount": 3683.94,
+              "type": "Debit"
+            },
+            {
+              "date": "10/08/2025",
+              "description": "Check Number 6707",
+              "amount": 50.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/09/2025",
+              "description": "SVCING SOLUTIONS BILLPAY SERVICINGSOLUTI",
+              "amount": 240.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/09/2025",
+              "description": "ALLY ALLY PAYMT 227970995015",
+              "amount": 700.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/09/2025",
+              "description": "Check Number 6681*",
+              "amount": 50.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/09/2025",
+              "description": "Check Number 6709",
+              "amount": 534.1,
+              "type": "Debit"
+            },
+            {
+              "date": "10/09/2025",
+              "description": "Check Number 6714",
+              "amount": 200.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/09/2025",
+              "description": "Check Number 6715",
+              "amount": 1956.05,
+              "type": "Debit"
+            },
+            {
+              "date": "10/10/2025",
+              "description": "CHUBB AGRI INS WITHDRAWAL 42 CA199617",
+              "amount": 100.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/10/2025",
+              "description": "CHUBB AGRI INS WITHDRAWAL 42 CA199614",
+              "amount": 100.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/10/2025",
+              "description": "CHUBB AGRI INS WITHDRAWAL 42 FO199608",
+              "amount": 100.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/10/2025",
+              "description": "CHUBB AGRI INS WITHDRAWAL 42 FO229577",
+              "amount": 200.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/10/2025",
+              "description": "Check Number 6708",
+              "amount": 290.68,
+              "type": "Debit"
+            },
+            {
+              "date": "10/10/2025",
+              "description": "Check Number 6711",
+              "amount": 534.1,
+              "type": "Debit"
+            },
+            {
+              "date": "10/10/2025",
+              "description": "Check Number 6712",
+              "amount": 534.1,
+              "type": "Debit"
+            },
+            {
+              "date": "10/10/2025",
+              "description": "Check Number 6716",
+              "amount": 534.1,
+              "type": "Debit"
+            },
+            {
+              "date": "10/14/2025",
+              "description": "MONITRONICS ALARM MON 2395765",
+              "amount": 143.28,
+              "type": "Debit"
+            },
+            {
+              "date": "10/14/2025",
+              "description": "IRS USATAXPYMT 270568703348951",
+              "amount": 3476.78,
+              "type": "Debit"
+            },
+            {
+              "date": "10/14/2025",
+              "description": "Check Number 6706*",
+              "amount": 1078.2,
+              "type": "Debit"
+            },
+            {
+              "date": "10/14/2025",
+              "description": "Check Number 6718*",
+              "amount": 364.4,
+              "type": "Debit"
+            },
+            {
+              "date": "10/14/2025",
+              "description": "Check Number 6719",
+              "amount": 1078.2,
+              "type": "Debit"
+            },
+            {
+              "date": "10/15/2025",
+              "description": "EDWARD JONES INVESTMENT 07222A382160941",
+              "amount": 100.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/15/2025",
+              "description": "GM Financial GMF Pymt 111096952475",
+              "amount": 1248.14,
+              "type": "Debit"
+            },
+            {
+              "date": "10/15/2025",
+              "description": "Check Number 6720",
+              "amount": 272.05,
+              "type": "Debit"
+            },
+            {
+              "date": "10/15/2025",
+              "description": "Check Number 2216114*",
+              "amount": 113.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/16/2025",
+              "description": "CHUBB AGRI INS WITHDRAWAL 42 FO199608",
+              "amount": 50.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/16/2025",
+              "description": "ST JUDE GIFT DONATIONS 8-14652047",
+              "amount": 70.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/16/2025",
+              "description": "CHUBB AGRI INS WITHDRAWAL 42 FO229577",
+              "amount": 100.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/16/2025",
+              "description": "CHUBB AGRI INS WITHDRAWAL 42 CA199617",
+              "amount": 217.16,
+              "type": "Debit"
+            },
+            {
+              "date": "10/16/2025",
+              "description": "VERIZON WIRELESS PAYMENTS 038867243900001",
+              "amount": 317.22,
+              "type": "Debit"
+            },
+            {
+              "date": "10/16/2025",
+              "description": "Check Number 6710",
+              "amount": 2500.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/17/2025",
+              "description": "SLMLOANPMT Sallie Mae Bank SLM LOAN PMT",
+              "amount": 50.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/17/2025",
+              "description": "VERIZON WIRELESS PAYMENTS 048718770200001",
+              "amount": 271.24,
+              "type": "Debit"
+            },
+            {
+              "date": "10/17/2025",
+              "description": "Deere Credit Ser PAYMENTS 7900006662922JF",
+              "amount": 382.13,
+              "type": "Debit"
+            },
+            {
+              "date": "10/17/2025",
+              "description": "FELLOWSHIP WEBPAYMENT",
+              "amount": 612.24,
+              "type": "Debit"
+            },
+            {
+              "date": "10/17/2025",
+              "description": "Check Number 6674*",
+              "amount": 1200.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/17/2025",
+              "description": "Check Number 6694",
+              "amount": 225.88,
+              "type": "Debit"
+            },
+            {
+              "date": "10/17/2025",
+              "description": "Check Number 6722",
+              "amount": 451.75,
+              "type": "Debit"
+            },
+            {
+              "date": "10/17/2025",
+              "description": "Check Number 6724*",
+              "amount": 272.05,
+              "type": "Debit"
+            },
+            {
+              "date": "10/17/2025",
+              "description": "Check Number 6725",
+              "amount": 1078.2,
+              "type": "Debit"
+            },
+            {
+              "date": "10/20/2025",
+              "description": "PAYPAL INST XFER APPLE.COM BILL",
+              "amount": 10.71,
+              "type": "Debit"
+            },
+            {
+              "date": "10/20/2025",
+              "description": "PAYPAL INST XFER APPLE.COM BILL",
+              "amount": 53.61,
+              "type": "Debit"
+            },
+            {
+              "date": "10/20/2025",
+              "description": "TOTALADBLOCK IAT PAYPAL 1045587683225",
+              "amount": 99.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/21/2025",
+              "description": "PAYPAL INST XFER SHRINERSHOS SHR",
+              "amount": 19.38,
+              "type": "Debit"
+            },
+            {
+              "date": "10/21/2025",
+              "description": "CHUBB AGRI INS WITHDRAWAL 42 FO229577",
+              "amount": 100.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/21/2025",
+              "description": "GLOBE LIFE INS INS. PREM 006E60370E 1025",
+              "amount": 129.23,
+              "type": "Debit"
+            },
+            {
+              "date": "10/21/2025",
+              "description": "CHUBB AGRI INS WITHDRAWAL 42 CA199614",
+              "amount": 200.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/21/2025",
+              "description": "FELLOWSHIP WEBPAYMENT",
+              "amount": 612.24,
+              "type": "Debit"
+            },
+            {
+              "date": "10/21/2025",
+              "description": "Check Number 6699",
+              "amount": 300.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/21/2025",
+              "description": "Check Number 6729*",
+              "amount": 364.4,
+              "type": "Debit"
+            },
+            {
+              "date": "10/22/2025",
+              "description": "Check Number 6713",
+              "amount": 100.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/22/2025",
+              "description": "Check Number 6721",
+              "amount": 2383.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/23/2025",
+              "description": "AMBETTERWELLCARE HEALTH INS P00000940085178",
+              "amount": 237.54,
+              "type": "Debit"
+            },
+            {
+              "date": "10/23/2025",
+              "description": "Check Number 6732*",
+              "amount": 272.05,
+              "type": "Debit"
+            },
+            {
+              "date": "10/24/2025",
+              "description": "CHUBB AGRI INS WITHDRAWAL 42 CA199614",
+              "amount": 203.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/24/2025",
+              "description": "Check Number 6733",
+              "amount": 272.05,
+              "type": "Debit"
+            },
+            {
+              "date": "10/27/2025",
+              "description": "TOTALAV IAT PAYPAL 1045758919336",
+              "amount": 11.99,
+              "type": "Debit"
+            },
+            {
+              "date": "10/27/2025",
+              "description": "TOTALAV IAT PAYPAL 1045737777176",
+              "amount": 14.99,
+              "type": "Debit"
+            },
+            {
+              "date": "10/27/2025",
+              "description": "Check Number 6726",
+              "amount": 40.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/27/2025",
+              "description": "Check Number 6727",
+              "amount": 466.84,
+              "type": "Debit"
+            },
+            {
+              "date": "10/27/2025",
+              "description": "Check Number 6734",
+              "amount": 1078.2,
+              "type": "Debit"
+            },
+            {
+              "date": "10/27/2025",
+              "description": "Check Number 6739*",
+              "amount": 364.4,
+              "type": "Debit"
+            },
+            {
+              "date": "10/28/2025",
+              "description": "FELLOWSHIP WEBPAYMENT",
+              "amount": 612.24,
+              "type": "Debit"
+            },
+            {
+              "date": "10/28/2025",
+              "description": "PAYMENT SBA EIDL LOAN 5555157904",
+              "amount": 731.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/28/2025",
+              "description": "Check Number 6730",
+              "amount": 451.75,
+              "type": "Debit"
+            },
+            {
+              "date": "10/28/2025",
+              "description": "Check Number 6742*",
+              "amount": 1700.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/28/2025",
+              "description": "Check Number 2270302*",
+              "amount": 113.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/29/2025",
+              "description": "CHUBB AGRI INS WITHDRAWAL 42 FO229577",
+              "amount": 300.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/29/2025",
+              "description": "Deere Credit Ser PAYMENTS 7900006877370JF",
+              "amount": 382.13,
+              "type": "Debit"
+            },
+            {
+              "date": "10/29/2025",
+              "description": "Check Number 6740",
+              "amount": 364.4,
+              "type": "Debit"
+            },
+            {
+              "date": "10/29/2025",
+              "description": "Check Number 6745*",
+              "amount": 272.05,
+              "type": "Debit"
+            },
+            {
+              "date": "10/30/2025",
+              "description": "Check Number 6750",
+              "amount": 200.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/30/2025",
+              "description": "Check Number 6751",
+              "amount": 1956.05,
+              "type": "Debit"
+            },
+            {
+              "date": "10/30/2025",
+              "description": "Check Number 6743",
+              "amount": 2129.86,
+              "type": "Debit"
+            },
+            {
+              "date": "10/31/2025",
+              "description": "PAYPAL INST XFER MAGAZINE",
+              "amount": 21.99,
+              "type": "Debit"
+            },
+            {
+              "date": "10/31/2025",
+              "description": "TOTALAV IAT PAYPAL 1045864478760",
+              "amount": 49.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/31/2025",
+              "description": "TOTALAV IAT PAYPAL 1045864503452",
+              "amount": 99.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/31/2025",
+              "description": "Check Number 6735",
+              "amount": 500.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/31/2025",
+              "description": "Check Number 6746",
+              "amount": 2129.86,
+              "type": "Debit"
+            },
+            {
+              "date": "10/31/2025",
+              "description": "Check Number 6749*",
+              "amount": 1750.83,
+              "type": "Debit"
+            }
+          ]
+        }
+      ]
+    },
+    "raw_output": "```json\n{\n  \"accounts\": [\n    {\n      \"account_number\": \"XXXXXXXXXXX4359\",\n      \"account_type\": \"COMMERCIAL CHECKING PLUS\",\n      \"mca_deposit\": [],\n      \"mca_withdrawal\": [\n        {\n          \"mca_name\": \"IOU Central\",\n          \"date\": \"10/01/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"IOU CENTRAL TRANSFER 2414437\",\n          \"amount\": 458.88\n        },\n        {\n          \"mca_name\": \"IOU Central\",\n          \"date\": \"10/08/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"IOU CENTRAL TRANSFER 2415740\",\n          \"amount\": 458.88\n        },\n        {\n          \"mca_name\": \"IOU Central\",\n          \"date\": \"10/15/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"IOU CENTRAL TRANSFER 2417012\",\n          \"amount\": 458.88\n        },\n        {\n          \"mca_name\": \"IOU Central\",\n          \"date\": \"10/22/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"IOU CENTRAL TRANSFER 2418263\",\n          \"amount\": 458.88\n        },\n        {\n          \"mca_name\": \"IOU Central\",\n          \"date\": \"10/29/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"IOU CENTRAL TRANSFER 2419500\",\n          \"amount\": 458.88\n        }\n      ],\n      \"returned_items\": [],\n      \"overdrafts\": [],\n      \"service_charges\": [\n        {\n          \"date\": \"10/10/2025\",\n          \"description\": \"INCOMING WIRE FEE\",\n          \"amount\": 15.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/10/2025\",\n          \"description\": \"Service Charges September 2025\",\n          \"amount\": 123.84,\n          \"type\": \"Debit\"\n        }\n      ],\n      \"atm_cash_withdrawal\": [],\n      \"internal_transfer_deposit\": [],\n      \"other_transfer_deposit\": [\n        {\n          \"date\": \"10/10/2025\",\n          \"description\": \"WIRE FROM GREGORY A PLATZ OR ELENA VILLANUEVA PLAYING WITH FIRE PURCHASE\",\n          \"amount\": 10000.0,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 0,\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"10/24/2025\",\n          \"description\": \"Five Star Bank P2P PAYMNT DAVID KERN\",\n          \"amount\": 12000.0,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        }\n      ],\n      \"internal_transfer_withdrawal\": [\n        {\n          \"date\": \"10/01/2025\",\n          \"description\": \"xfer from 4359 to 8374\",\n          \"amount\": 2000.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/04/2025\",\n          \"description\": \"xfer from 4359 to 0818\",\n          \"amount\": 15000.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/08/2025\",\n          \"description\": \"xfer from 4359 to 0818\",\n          \"amount\": 20000.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/09/2025\",\n          \"description\": \"xfer from 4359 to 8374\",\n          \"amount\": 5000.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/11/2025\",\n          \"description\": \"xfer from 4359 to 8374\",\n          \"amount\": 5000.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"xfer from 4359 to 8374\",\n          \"amount\": 10000.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/15/2025\",\n          \"description\": \"xfer from 4359 to 0818\",\n          \"amount\": 2000.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/21/2025\",\n          \"description\": \"xfer from 4359 to 8374\",\n          \"amount\": 5000.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/23/2025\",\n          \"description\": \"xfer from 4359 to 8374\",\n          \"amount\": 2000.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/25/2025\",\n          \"description\": \"xfer from 4359 to 8374\",\n          \"amount\": 5000.0,\n          \"type\": \"Debit\"\n        }\n      ],\n      \"other_transfer_withdrawal\": [\n        {\n          \"date\": \"10/03/2025\",\n          \"description\": \"GECU TRANSFER 80010445\",\n          \"amount\": 600.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"description\": \"PAYPAL INST XFER GOOGLE GRIMLAX\",\n          \"amount\": 7.49,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"description\": \"PAYPAL INST XFER GOOGLE TOP APPS\",\n          \"amount\": 16.07,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"description\": \"PAYPAL INST XFER GOOGLE INFINITY\",\n          \"amount\": 16.07,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/20/2025\",\n          \"description\": \"PAYPAL INST XFER AVG\",\n          \"amount\": 107.24,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/21/2025\",\n          \"description\": \"WRIGHT PATT CRET TRANSFER 6681828\",\n          \"amount\": 650.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/23/2025\",\n          \"description\": \"XWPCUX SV WEBXFR TRANSFER 15270991471\",\n          \"amount\": 500.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/24/2025\",\n          \"description\": \"PAYPAL INST XFER GOOGLE GRIMLAX\",\n          \"amount\": 7.49,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/24/2025\",\n          \"description\": \"PAYPAL INST XFER GOOGLE INFINITY\",\n          \"amount\": 16.07,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/24/2025\",\n          \"description\": \"PAYPAL INST XFER GOOGLE TOP APPS\",\n          \"amount\": 16.07,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/24/2025\",\n          \"description\": \"PAYPAL INST XFER SILLER T2T\",\n          \"amount\": 20.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"description\": \"XWPCUX SV WEBXFR TRANSFER 15294044071\",\n          \"amount\": 500.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/31/2025\",\n          \"description\": \"PAYPAL INST XFER GOOGLE GRIMLAX\",\n          \"amount\": 7.49,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/31/2025\",\n          \"description\": \"PAYPAL INST XFER GOOGLE INFINITY\",\n          \"amount\": 16.07,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/31/2025\",\n          \"description\": \"PAYPAL INST XFER GOOGLE TOP APPS\",\n          \"amount\": 16.07,\n          \"type\": \"Debit\"\n        }\n      ],\n      \"standard_deposit\": [\n        {\n          \"date\": \"10/02/2025\",\n          \"description\": \"DEPOSIT\",\n          \"amount\": 1287.5,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/03/2025\",\n          \"description\": \"DEPOSIT\",\n          \"amount\": 884.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/03/2025\",\n          \"description\": \"DEPOSIT\",\n          \"amount\": 21684.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"DEPOSIT\",\n          \"amount\": 1375.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/07/2025\",\n          \"description\": \"DEPOSIT\",\n          \"amount\": 31400.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/08/2025\",\n          \"description\": \"DEPOSIT\",\n          \"amount\": 600.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/09/2025\",\n          \"description\": \"DEPOSIT\",\n          \"amount\": 1497.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/10/2025\",\n          \"description\": \"DEPOSIT\",\n          \"amount\": 12191.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"DEPOSIT\",\n          \"amount\": 2550.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"DEPOSIT\",\n          \"amount\": 3560.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"DEPOSIT\",\n          \"amount\": 14134.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/15/2025\",\n          \"description\": \"DEPOSIT\",\n          \"amount\": 7092.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        }\n      ],\n      \"standard_withdrawal\": [\n        {\n          \"date\": \"10/02/2025\",\n          \"description\": \"VERIZON WIRELESS PAYMENTS 084223966900001\",\n          \"amount\": 217.03,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/02/2025\",\n          \"description\": \"CHUBB AGRI INS WITHDRAWAL 42 FO229577\",\n          \"amount\": 300.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/02/2025\",\n          \"description\": \"Check Number 6697\",\n          \"amount\": 200.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/02/2025\",\n          \"description\": \"Check Number 6698\",\n          \"amount\": 1956.05,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"AAA LIFE INS PREM 4037360452 ALAN\",\n          \"amount\": 32.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"FirstEnergy OPCO-ACH 110013707432\",\n          \"amount\": 108.28,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"SPECTRUM SPECTRUM 9833428\",\n          \"amount\": 221.16,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"CHUBB AGRI INS WITHDRAWAL 42 CA199614\",\n          \"amount\": 300.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"FirstEnergy OPCO-ACH 110013707341\",\n          \"amount\": 399.01,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"RUMPKE UTILITY 9185331\",\n          \"amount\": 442.18,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"BK OF AMER VISA ONLINE PMT CKF313319975POS\",\n          \"amount\": 750.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"Check Number 6666*\",\n          \"amount\": 50.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"Check Number 6687*\",\n          \"amount\": 40.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"Check Number 6688\",\n          \"amount\": 300.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"Check Number 6701\",\n          \"amount\": 534.1,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"Check Number 6703*\",\n          \"amount\": 359.4,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"Check Number 6704\",\n          \"amount\": 318.73,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/07/2025\",\n          \"description\": \"AAA LIFE INS PREM 4027188053 ALAN\",\n          \"amount\": 128.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/07/2025\",\n          \"description\": \"AAA LIFE INS PREM 4027188053 ALAN\",\n          \"amount\": 128.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/07/2025\",\n          \"description\": \"PNC LENDING PAYMENT 436033111291388\",\n          \"amount\": 150.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/07/2025\",\n          \"description\": \"CHUBB AGRI INS WITHDRAWAL 42 FO229577\",\n          \"amount\": 300.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/07/2025\",\n          \"description\": \"FELLOWSHIP WEBPAYMENT\",\n          \"amount\": 612.24,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/07/2025\",\n          \"description\": \"Check Number 672\",\n          \"amount\": 534.1,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/07/2025\",\n          \"description\": \"Check Number 6651*\",\n          \"amount\": 10.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/07/2025\",\n          \"description\": \"Check Number 6692*\",\n          \"amount\": 87.84,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/07/2025\",\n          \"description\": \"Check Number 6693\",\n          \"amount\": 123.34,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/07/2025\",\n          \"description\": \"Check Number 6700\",\n          \"amount\": 40.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/07/2025\",\n          \"description\": \"Check Number 2192005*\",\n          \"amount\": 113.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/08/2025\",\n          \"description\": \"Check Number 6682\",\n          \"amount\": 2000.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/08/2025\",\n          \"description\": \"Check Number 6696*\",\n          \"amount\": 3683.94,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/08/2025\",\n          \"description\": \"Check Number 6707\",\n          \"amount\": 50.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/09/2025\",\n          \"description\": \"SVCING SOLUTIONS BILLPAY SERVICINGSOLUTI\",\n          \"amount\": 240.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/09/2025\",\n          \"description\": \"ALLY ALLY PAYMT 227970995015\",\n          \"amount\": 700.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/09/2025\",\n          \"description\": \"Check Number 6681*\",\n          \"amount\": 50.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/09/2025\",\n          \"description\": \"Check Number 6709\",\n          \"amount\": 534.1,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/09/2025\",\n          \"description\": \"Check Number 6714\",\n          \"amount\": 200.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/09/2025\",\n          \"description\": \"Check Number 6715\",\n          \"amount\": 1956.05,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/10/2025\",\n          \"description\": \"CHUBB AGRI INS WITHDRAWAL 42 CA199617\",\n          \"amount\": 100.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/10/2025\",\n          \"description\": \"CHUBB AGRI INS WITHDRAWAL 42 CA199614\",\n          \"amount\": 100.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/10/2025\",\n          \"description\": \"CHUBB AGRI INS WITHDRAWAL 42 FO199608\",\n          \"amount\": 100.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/10/2025\",\n          \"description\": \"CHUBB AGRI INS WITHDRAWAL 42 FO229577\",\n          \"amount\": 200.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/10/2025\",\n          \"description\": \"Check Number 6708\",\n          \"amount\": 290.68,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/10/2025\",\n          \"description\": \"Check Number 6711\",\n          \"amount\": 534.1,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/10/2025\",\n          \"description\": \"Check Number 6712\",\n          \"amount\": 534.1,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/10/2025\",\n          \"description\": \"Check Number 6716\",\n          \"amount\": 534.1,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"MONITRONICS ALARM MON 2395765\",\n          \"amount\": 143.28,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"IRS USATAXPYMT 270568703348951\",\n          \"amount\": 3476.78,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"Check Number 6706*\",\n          \"amount\": 1078.2,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"Check Number 6718*\",\n          \"amount\": 364.4,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"Check Number 6719\",\n          \"amount\": 1078.2,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/15/2025\",\n          \"description\": \"EDWARD JONES INVESTMENT 07222A382160941\",\n          \"amount\": 100.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/15/2025\",\n          \"description\": \"GM Financial GMF Pymt 111096952475\",\n          \"amount\": 1248.14,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/15/2025\",\n          \"description\": \"Check Number 6720\",\n          \"amount\": 272.05,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/15/2025\",\n          \"description\": \"Check Number 2216114*\",\n          \"amount\": 113.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/16/2025\",\n          \"description\": \"CHUBB AGRI INS WITHDRAWAL 42 FO199608\",\n          \"amount\": 50.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/16/2025\",\n          \"description\": \"ST JUDE GIFT DONATIONS 8-14652047\",\n          \"amount\": 70.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/16/2025\",\n          \"description\": \"CHUBB AGRI INS WITHDRAWAL 42 FO229577\",\n          \"amount\": 100.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/16/2025\",\n          \"description\": \"CHUBB AGRI INS WITHDRAWAL 42 CA199617\",\n          \"amount\": 217.16,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/16/2025\",\n          \"description\": \"VERIZON WIRELESS PAYMENTS 038867243900001\",\n          \"amount\": 317.22,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/16/2025\",\n          \"description\": \"Check Number 6710\",\n          \"amount\": 2500.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"description\": \"SLMLOANPMT Sallie Mae Bank SLM LOAN PMT\",\n          \"amount\": 50.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"description\": \"VERIZON WIRELESS PAYMENTS 048718770200001\",\n          \"amount\": 271.24,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"description\": \"Deere Credit Ser PAYMENTS 7900006662922JF\",\n          \"amount\": 382.13,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"description\": \"FELLOWSHIP WEBPAYMENT\",\n          \"amount\": 612.24,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"description\": \"Check Number 6674*\",\n          \"amount\": 1200.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"description\": \"Check Number 6694\",\n          \"amount\": 225.88,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"description\": \"Check Number 6722\",\n          \"amount\": 451.75,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"description\": \"Check Number 6724*\",\n          \"amount\": 272.05,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"description\": \"Check Number 6725\",\n          \"amount\": 1078.2,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/20/2025\",\n          \"description\": \"PAYPAL INST XFER APPLE.COM BILL\",\n          \"amount\": 10.71,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/20/2025\",\n          \"description\": \"PAYPAL INST XFER APPLE.COM BILL\",\n          \"amount\": 53.61,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/20/2025\",\n          \"description\": \"TOTALADBLOCK IAT PAYPAL 1045587683225\",\n          \"amount\": 99.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/21/2025\",\n          \"description\": \"PAYPAL INST XFER SHRINERSHOS SHR\",\n          \"amount\": 19.38,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/21/2025\",\n          \"description\": \"CHUBB AGRI INS WITHDRAWAL 42 FO229577\",\n          \"amount\": 100.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/21/2025\",\n          \"description\": \"GLOBE LIFE INS INS. PREM 006E60370E 1025\",\n          \"amount\": 129.23,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/21/2025\",\n          \"description\": \"CHUBB AGRI INS WITHDRAWAL 42 CA199614\",\n          \"amount\": 200.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/21/2025\",\n          \"description\": \"FELLOWSHIP WEBPAYMENT\",\n          \"amount\": 612.24,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/21/2025\",\n          \"description\": \"Check Number 6699\",\n          \"amount\": 300.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/21/2025\",\n          \"description\": \"Check Number 6729*\",\n          \"amount\": 364.4,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/22/2025\",\n          \"description\": \"Check Number 6713\",\n          \"amount\": 100.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/22/2025\",\n          \"description\": \"Check Number 6721\",\n          \"amount\": 2383.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/23/2025\",\n          \"description\": \"AMBETTERWELLCARE HEALTH INS P00000940085178\",\n          \"amount\": 237.54,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/23/2025\",\n          \"description\": \"Check Number 6732*\",\n          \"amount\": 272.05,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/24/2025\",\n          \"description\": \"CHUBB AGRI INS WITHDRAWAL 42 CA199614\",\n          \"amount\": 203.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/24/2025\",\n          \"description\": \"Check Number 6733\",\n          \"amount\": 272.05,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"description\": \"TOTALAV IAT PAYPAL 1045758919336\",\n          \"amount\": 11.99,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"description\": \"TOTALAV IAT PAYPAL 1045737777176\",\n          \"amount\": 14.99,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"description\": \"Check Number 6726\",\n          \"amount\": 40.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"description\": \"Check Number 6727\",\n          \"amount\": 466.84,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"description\": \"Check Number 6734\",\n          \"amount\": 1078.2,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"description\": \"Check Number 6739*\",\n          \"amount\": 364.4,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/28/2025\",\n          \"description\": \"FELLOWSHIP WEBPAYMENT\",\n          \"amount\": 612.24,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/28/2025\",\n          \"description\": \"PAYMENT SBA EIDL LOAN 5555157904\",\n          \"amount\": 731.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/28/2025\",\n          \"description\": \"Check Number 6730\",\n          \"amount\": 451.75,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/28/2025\",\n          \"description\": \"Check Number 6742*\",\n          \"amount\": 1700.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/28/2025\",\n          \"description\": \"Check Number 2270302*\",\n          \"amount\": 113.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/29/2025\",\n          \"description\": \"CHUBB AGRI INS WITHDRAWAL 42 FO229577\",\n          \"amount\": 300.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/29/2025\",\n          \"description\": \"Deere Credit Ser PAYMENTS 7900006877370JF\",\n          \"amount\": 382.13,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/29/2025\",\n          \"description\": \"Check Number 6740\",\n          \"amount\": 364.4,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/29/2025\",\n          \"description\": \"Check Number 6745*\",\n          \"amount\": 272.05,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/30/2025\",\n          \"description\": \"Check Number 6750\",\n          \"amount\": 200.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/30/2025\",\n          \"description\": \"Check Number 6751\",\n          \"amount\": 1956.05,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/30/2025\",\n          \"description\": \"Check Number 6743\",\n          \"amount\": 2129.86,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/31/2025\",\n          \"description\": \"PAYPAL INST XFER MAGAZINE\",\n          \"amount\": 21.99,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/31/2025\",\n          \"description\": \"TOTALAV IAT PAYPAL 1045864478760\",\n          \"amount\": 49.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/31/2025\",\n          \"description\": \"TOTALAV IAT PAYPAL 1045864503452\",\n          \"amount\": 99.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/31/2025\",\n          \"description\": \"Check Number 6735\",\n          \"amount\": 500.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/31/2025\",\n          \"description\": \"Check Number 6746\",\n          \"amount\": 2129.86,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/31/2025\",\n          \"description\": \"Check Number 6749*\",\n          \"amount\": 1750.83,\n          \"type\": \"Debit\"\n        }\n      ]\n    }\n  ]\n}\n```",
+    "token_count": {
+      "estimated_tokens": 2088
+    },
+    "failure_reason": null
+  }
+}

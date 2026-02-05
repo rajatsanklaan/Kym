@@ -1,0 +1,543 @@
+{
+  "document_name": "Case9.pdf",
+  "pipeline_status": "completed",
+  "processing_metadata": {
+    "start_time": "2026-02-04T15:00:31.306566",
+    "end_time": "2026-02-04T15:02:49.358476",
+    "parsing_time_seconds": 88.50487,
+    "bsi_time_seconds": 49.305699,
+    "total_time_seconds": 137.810569
+  },
+  "parsing_agent_result": {
+    "agent_name": "parsing_agent",
+    "processing_status": "success",
+    "start_time": "2026-02-04T15:00:31.535568",
+    "end_time": "2026-02-04T15:02:00.039282",
+    "parsed_json": {
+      "bank_statement_information": {
+        "bank_name": "BANK OF AMERICA",
+        "account_holder": "CLAVER GONZALEZSEVILLA SOLE PROP DBA LA FONDITA STEAK AND CHEESE",
+        "statement_start_date": "10/01/2025",
+        "statement_end_date": "10/31/2025",
+        "n_days": 31,
+        "n_month": [
+          10
+        ],
+        "business_address": "1916 BRIAR ROSE LN APT 202 WOODBRIDGE, VA 22192-6972"
+      },
+      "accounts": [
+        {
+          "account_number": "4350 6155 0627",
+          "account_type": "Business Advantage Fundamentals Banking",
+          "account_summary": {
+            "beginning_balance": -117.12,
+            "ending_balance": -93.97,
+            "total_deposits": 1318.15,
+            "total_withdrawals": 1295.0,
+            "total_deposits_count": 11,
+            "total_withdrawals_count": 22,
+            "avg_daily_balance": -181.3,
+            "overdraft_days": 11
+          },
+          "transactions": [
+            {
+              "date": "10/03/2025",
+              "description": "Online Banking transfer from CHK 8246 Confirmation# 7953077121",
+              "amount": 204.12,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "10/03/2025",
+              "description": "MCA SERVICING DES:8003243863 ID:PAY100225178637 INDN: CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD",
+              "amount": 87.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "Online Banking transfer from CHK 8246 Confirmation# 7254979872",
+              "amount": 1.32,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "MCA SERVICING DES:8003243863 ID:PAY100325178688 INDN:CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD",
+              "amount": 87.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "OVERDRAFT ITEM FEE FOR ACTIVITY OF 10-06",
+              "amount": 10.0,
+              "type": "Debit",
+              "category": "Overdraft"
+            },
+            {
+              "date": "10/07/2025",
+              "description": "MCA SERVICING DES:8003243863 ID:PAY100625178741 INDN:CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD",
+              "amount": 87.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/07/2025",
+              "description": "OVERDRAFT ITEM FEE FOR ACTIVITY OF 10-07",
+              "amount": 10.0,
+              "type": "Debit",
+              "category": "Overdraft"
+            },
+            {
+              "date": "10/08/2025",
+              "description": "MCA SERVICING DES:8003243863 ID:PAY100725178793 INDN:CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD",
+              "amount": 87.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/08/2025",
+              "description": "OVERDRAFT ITEM FEE FOR ACTIVITY OF 10-08",
+              "amount": 10.0,
+              "type": "Debit",
+              "category": "Overdraft"
+            },
+            {
+              "date": "10/09/2025",
+              "description": "MCA SERVICING DES:8003243863 ID:PAY100825178839 INDN:CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD",
+              "amount": 87.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/09/2025",
+              "description": "MCA Servicing DES:8003243863 ID:XXXXXXXXX INDN:CLAVER GONZALEZ SEVILL CO ID:9843488861 CCD",
+              "amount": 49.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/09/2025",
+              "description": "CHECKCARD 1008 COASTAL COMMUNITY BANK EVERETT WA 24435655282124896560656 CKCD 6012 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 45.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/09/2025",
+              "description": "OVERDRAFT ITEM FEE FOR ACTIVITY OF 10-09",
+              "amount": 10.0,
+              "type": "Debit",
+              "category": "Overdraft"
+            },
+            {
+              "date": "10/09/2025",
+              "description": "OVERDRAFT ITEM FEE FOR ACTIVITY OF 10-09",
+              "amount": 10.0,
+              "type": "Debit",
+              "category": "Overdraft"
+            },
+            {
+              "date": "10/10/2025",
+              "description": "MCA SERVICING DES:8003243863 ID:PAY100925178887 INDN:CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD",
+              "amount": 87.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/10/2025",
+              "description": "OVERDRAFT ITEM FEE FOR ACTIVITY OF 10-10",
+              "amount": 10.0,
+              "type": "Debit",
+              "category": "Overdraft"
+            },
+            {
+              "date": "10/14/2025",
+              "description": "Online Banking transfer from CHK 8246 Confirmation# 7822242540",
+              "amount": 130.0,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "10/14/2025",
+              "description": "MCA SERVICING DES:8003243863 ID:PAY101025178934 INDN:CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD",
+              "amount": 87.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/15/2025",
+              "description": "RETURN OF POSTED CHECK / ITEM (RECEIVED ON 10-14)",
+              "amount": 87.0,
+              "type": "Credit",
+              "category": "Returned Item"
+            },
+            {
+              "date": "10/15/2025",
+              "description": "Online Banking transfer from CHK 8246 Confirmation# 7152638441",
+              "amount": 400.0,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "10/15/2025",
+              "description": "Online Banking transfer from CHK 8246 Confirmation# 7956126951",
+              "amount": 146.0,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "10/15/2025",
+              "description": "MCA SERVICING DES:8003243863 ID:PAY101425179024 INDN:CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD",
+              "amount": 87.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/16/2025",
+              "description": "MCA SERVICING DES:8003243863 ID:PAY101525179070 INDN:CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD",
+              "amount": 87.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/16/2025",
+              "description": "OVERDRAFT ITEM FEE FOR ACTIVITY OF 10-16",
+              "amount": 10.0,
+              "type": "Debit",
+              "category": "Overdraft"
+            },
+            {
+              "date": "10/20/2025",
+              "description": "Online Banking transfer from CHK 8246 Confirmation# 8390496006",
+              "amount": 1.71,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "10/21/2025",
+              "description": "MCA SERVICING 80 DES:8006226585 ID:251020152752UBI INDN:CLAVER GONZALEZ SEVILL CO ID:1016207445 CCD PMT INFO:PAY10202517922818631772",
+              "amount": 87.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/22/2025",
+              "description": "RETURN OF POSTED CHECK / ITEM (RECEIVED ON 10-21)",
+              "amount": 87.0,
+              "type": "Credit",
+              "category": "Returned Item"
+            },
+            {
+              "date": "10/22/2025",
+              "description": "MCA SERVICING 80 DES:8006226585 ID:251021161537590 INDN:CLAVER GONZALEZ SEVILL CO ID:1016207445 CCD PMT INFO:PAY10212517928110861471",
+              "amount": 87.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/23/2025",
+              "description": "RETURN OF POSTED CHECK / ITEM (RECEIVED ON 10-22)",
+              "amount": 87.0,
+              "type": "Credit",
+              "category": "Returned Item"
+            },
+            {
+              "date": "10/23/2025",
+              "description": "MCA SERVICING 80 DES:8006226585 ID:251022154001UUO INDN:CLAVER GONZALEZ SEVILL CO ID:1016207445 CCD PMT INFO:PAY10222517933486041615",
+              "amount": 87.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/24/2025",
+              "description": "RETURN OF POSTED CHECK / ITEM (RECEIVED ON 10-23)",
+              "amount": 87.0,
+              "type": "Credit",
+              "category": "Returned Item"
+            },
+            {
+              "date": "10/24/2025",
+              "description": "MCA SERVICING DES:8003243863 ID:PAY102325179396 INDN:CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD",
+              "amount": 87.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/27/2025",
+              "description": "RETURN OF POSTED CHECK / ITEM (RECEIVED ON 10-24)",
+              "amount": 87.0,
+              "type": "Credit",
+              "category": "Returned Item"
+            }
+          ]
+        }
+      ]
+    },
+    "raw_output": "```json\n{\n  \"bank_statement_information\": {\n    \"bank_name\": \"BANK OF AMERICA\",\n    \"account_holder\": \"CLAVER GONZALEZSEVILLA SOLE PROP DBA LA FONDITA STEAK AND CHEESE\",\n    \"statement_start_date\": \"10/01/2025\",\n    \"statement_end_date\": \"10/31/2025\",\n    \"n_days\": 31,\n    \"n_month\": [\n      10\n    ],\n    \"business_address\": \"1916 BRIAR ROSE LN APT 202 WOODBRIDGE, VA 22192-6972\"\n  },\n  \"accounts\": [\n    {\n      \"account_number\": \"4350 6155 0627\",\n      \"account_type\": \"Business Advantage Fundamentals Banking\",\n      \"account_summary\": {\n        \"beginning_balance\": -117.12,\n        \"ending_balance\": -93.97,\n        \"total_deposits\": 1318.15,\n        \"total_withdrawals\": 1295.0,\n        \"total_deposits_count\": 11,\n        \"total_withdrawals_count\": 22,\n        \"avg_daily_balance\": -181.3,\n        \"overdraft_days\": 11\n      },\n      \"transactions\": [\n        {\n          \"date\": \"10/03/2025\",\n          \"description\": \"Online Banking transfer from CHK 8246 Confirmation# 7953077121\",\n          \"amount\": 204.12,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"10/03/2025\",\n          \"description\": \"MCA SERVICING DES:8003243863 ID:PAY100225178637 INDN: CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD\",\n          \"amount\": 87.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"Online Banking transfer from CHK 8246 Confirmation# 7254979872\",\n          \"amount\": 1.32,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"MCA SERVICING DES:8003243863 ID:PAY100325178688 INDN:CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD\",\n          \"amount\": 87.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"OVERDRAFT ITEM FEE FOR ACTIVITY OF 10-06\",\n          \"amount\": 10.0,\n          \"type\": \"Debit\",\n          \"category\": \"Overdraft\"\n        },\n        {\n          \"date\": \"10/07/2025\",\n          \"description\": \"MCA SERVICING DES:8003243863 ID:PAY100625178741 INDN:CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD\",\n          \"amount\": 87.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/07/2025\",\n          \"description\": \"OVERDRAFT ITEM FEE FOR ACTIVITY OF 10-07\",\n          \"amount\": 10.0,\n          \"type\": \"Debit\",\n          \"category\": \"Overdraft\"\n        },\n        {\n          \"date\": \"10/08/2025\",\n          \"description\": \"MCA SERVICING DES:8003243863 ID:PAY100725178793 INDN:CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD\",\n          \"amount\": 87.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/08/2025\",\n          \"description\": \"OVERDRAFT ITEM FEE FOR ACTIVITY OF 10-08\",\n          \"amount\": 10.0,\n          \"type\": \"Debit\",\n          \"category\": \"Overdraft\"\n        },\n        {\n          \"date\": \"10/09/2025\",\n          \"description\": \"MCA SERVICING DES:8003243863 ID:PAY100825178839 INDN:CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD\",\n          \"amount\": 87.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/09/2025\",\n          \"description\": \"MCA Servicing DES:8003243863 ID:XXXXXXXXX INDN:CLAVER GONZALEZ SEVILL CO ID:9843488861 CCD\",\n          \"amount\": 49.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/09/2025\",\n          \"description\": \"CHECKCARD 1008 COASTAL COMMUNITY BANK EVERETT WA 24435655282124896560656 CKCD 6012 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 45.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/09/2025\",\n          \"description\": \"OVERDRAFT ITEM FEE FOR ACTIVITY OF 10-09\",\n          \"amount\": 10.0,\n          \"type\": \"Debit\",\n          \"category\": \"Overdraft\"\n        },\n        {\n          \"date\": \"10/09/2025\",\n          \"description\": \"OVERDRAFT ITEM FEE FOR ACTIVITY OF 10-09\",\n          \"amount\": 10.0,\n          \"type\": \"Debit\",\n          \"category\": \"Overdraft\"\n        },\n        {\n          \"date\": \"10/10/2025\",\n          \"description\": \"MCA SERVICING DES:8003243863 ID:PAY100925178887 INDN:CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD\",\n          \"amount\": 87.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/10/2025\",\n          \"description\": \"OVERDRAFT ITEM FEE FOR ACTIVITY OF 10-10\",\n          \"amount\": 10.0,\n          \"type\": \"Debit\",\n          \"category\": \"Overdraft\"\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"Online Banking transfer from CHK 8246 Confirmation# 7822242540\",\n          \"amount\": 130.0,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"MCA SERVICING DES:8003243863 ID:PAY101025178934 INDN:CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD\",\n          \"amount\": 87.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/15/2025\",\n          \"description\": \"RETURN OF POSTED CHECK / ITEM (RECEIVED ON 10-14)\",\n          \"amount\": 87.0,\n          \"type\": \"Credit\",\n          \"category\": \"Returned Item\"\n        },\n        {\n          \"date\": \"10/15/2025\",\n          \"description\": \"Online Banking transfer from CHK 8246 Confirmation# 7152638441\",\n          \"amount\": 400.0,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"10/15/2025\",\n          \"description\": \"Online Banking transfer from CHK 8246 Confirmation# 7956126951\",\n          \"amount\": 146.0,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"10/15/2025\",\n          \"description\": \"MCA SERVICING DES:8003243863 ID:PAY101425179024 INDN:CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD\",\n          \"amount\": 87.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/16/2025\",\n          \"description\": \"MCA SERVICING DES:8003243863 ID:PAY101525179070 INDN:CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD\",\n          \"amount\": 87.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/16/2025\",\n          \"description\": \"OVERDRAFT ITEM FEE FOR ACTIVITY OF 10-16\",\n          \"amount\": 10.0,\n          \"type\": \"Debit\",\n          \"category\": \"Overdraft\"\n        },\n        {\n          \"date\": \"10/20/2025\",\n          \"description\": \"Online Banking transfer from CHK 8246 Confirmation# 8390496006\",\n          \"amount\": 1.71,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"10/21/2025\",\n          \"description\": \"MCA SERVICING 80 DES:8006226585 ID:251020152752UBI INDN:CLAVER GONZALEZ SEVILL CO ID:1016207445 CCD PMT INFO:PAY10202517922818631772\",\n          \"amount\": 87.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/22/2025\",\n          \"description\": \"RETURN OF POSTED CHECK / ITEM (RECEIVED ON 10-21)\",\n          \"amount\": 87.0,\n          \"type\": \"Credit\",\n          \"category\": \"Returned Item\"\n        },\n        {\n          \"date\": \"10/22/2025\",\n          \"description\": \"MCA SERVICING 80 DES:8006226585 ID:251021161537590 INDN:CLAVER GONZALEZ SEVILL CO ID:1016207445 CCD PMT INFO:PAY10212517928110861471\",\n          \"amount\": 87.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/23/2025\",\n          \"description\": \"RETURN OF POSTED CHECK / ITEM (RECEIVED ON 10-22)\",\n          \"amount\": 87.0,\n          \"type\": \"Credit\",\n          \"category\": \"Returned Item\"\n        },\n        {\n          \"date\": \"10/23/2025\",\n          \"description\": \"MCA SERVICING 80 DES:8006226585 ID:251022154001UUO INDN:CLAVER GONZALEZ SEVILL CO ID:1016207445 CCD PMT INFO:PAY10222517933486041615\",\n          \"amount\": 87.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/24/2025\",\n          \"description\": \"RETURN OF POSTED CHECK / ITEM (RECEIVED ON 10-23)\",\n          \"amount\": 87.0,\n          \"type\": \"Credit\",\n          \"category\": \"Returned Item\"\n        },\n        {\n          \"date\": \"10/24/2025\",\n          \"description\": \"MCA SERVICING DES:8003243863 ID:PAY102325179396 INDN:CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD\",\n          \"amount\": 87.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"description\": \"RETURN OF POSTED CHECK / ITEM (RECEIVED ON 10-24)\",\n          \"amount\": 87.0,\n          \"type\": \"Credit\",\n          \"category\": \"Returned Item\"\n        }\n      ]\n    }\n  ]\n}\n```",
+    "token_count": {
+      "estimated_tokens": 780
+    },
+    "failure_reason": null
+  },
+  "bsi_analyzer_result": {
+    "agent_name": "v1_bsi_analyzer_agent",
+    "processing_status": "success",
+    "start_time": "2026-02-04T15:02:00.052125",
+    "end_time": "2026-02-04T15:02:49.357520",
+    "parsed_json": {
+      "accounts": [
+        {
+          "account_number": "4350 6155 0627",
+          "account_type": "Business Advantage Fundamentals Banking",
+          "mca_deposit": [],
+          "mca_withdrawal": [
+            {
+              "mca_name": "MCA Servicing",
+              "date": "10/03/2025",
+              "type": "Debit",
+              "description": "MCA SERVICING DES:8003243863 ID:PAY100225178637 INDN: CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD",
+              "amount": 87.0
+            },
+            {
+              "mca_name": "MCA Servicing",
+              "date": "10/06/2025",
+              "type": "Debit",
+              "description": "MCA SERVICING DES:8003243863 ID:PAY100325178688 INDN:CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD",
+              "amount": 87.0
+            },
+            {
+              "mca_name": "MCA Servicing",
+              "date": "10/07/2025",
+              "type": "Debit",
+              "description": "MCA SERVICING DES:8003243863 ID:PAY100625178741 INDN:CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD",
+              "amount": 87.0
+            },
+            {
+              "mca_name": "MCA Servicing",
+              "date": "10/08/2025",
+              "type": "Debit",
+              "description": "MCA SERVICING DES:8003243863 ID:PAY100725178793 INDN:CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD",
+              "amount": 87.0
+            },
+            {
+              "mca_name": "MCA Servicing",
+              "date": "10/09/2025",
+              "type": "Debit",
+              "description": "MCA SERVICING DES:8003243863 ID:PAY100825178839 INDN:CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD",
+              "amount": 87.0
+            },
+            {
+              "mca_name": "MCA Servicing",
+              "date": "10/09/2025",
+              "type": "Debit",
+              "description": "MCA Servicing DES:8003243863 ID:XXXXXXXXX INDN:CLAVER GONZALEZ SEVILL CO ID:9843488861 CCD",
+              "amount": 49.0
+            },
+            {
+              "mca_name": "MCA Servicing",
+              "date": "10/10/2025",
+              "type": "Debit",
+              "description": "MCA SERVICING DES:8003243863 ID:PAY100925178887 INDN:CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD",
+              "amount": 87.0
+            },
+            {
+              "mca_name": "MCA Servicing",
+              "date": "10/14/2025",
+              "type": "Debit",
+              "description": "MCA SERVICING DES:8003243863 ID:PAY101025178934 INDN:CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD",
+              "amount": 87.0
+            },
+            {
+              "mca_name": "MCA Servicing",
+              "date": "10/15/2025",
+              "type": "Debit",
+              "description": "MCA SERVICING DES:8003243863 ID:PAY101425179024 INDN:CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD",
+              "amount": 87.0
+            },
+            {
+              "mca_name": "MCA Servicing",
+              "date": "10/16/2025",
+              "type": "Debit",
+              "description": "MCA SERVICING DES:8003243863 ID:PAY101525179070 INDN:CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD",
+              "amount": 87.0
+            },
+            {
+              "mca_name": "MCA Servicing",
+              "date": "10/21/2025",
+              "type": "Debit",
+              "description": "MCA SERVICING 80 DES:8006226585 ID:251020152752UBI INDN:CLAVER GONZALEZ SEVILL CO ID:1016207445 CCD PMT INFO:PAY10202517922818631772",
+              "amount": 87.0
+            },
+            {
+              "mca_name": "MCA Servicing",
+              "date": "10/22/2025",
+              "type": "Debit",
+              "description": "MCA SERVICING 80 DES:8006226585 ID:251021161537590 INDN:CLAVER GONZALEZ SEVILL CO ID:1016207445 CCD PMT INFO:PAY10212517928110861471",
+              "amount": 87.0
+            },
+            {
+              "mca_name": "MCA Servicing",
+              "date": "10/23/2025",
+              "type": "Debit",
+              "description": "MCA SERVICING 80 DES:8006226585 ID:251022154001UUO INDN:CLAVER GONZALEZ SEVILL CO ID:1016207445 CCD PMT INFO:PAY10222517933486041615",
+              "amount": 87.0
+            },
+            {
+              "mca_name": "MCA Servicing",
+              "date": "10/24/2025",
+              "type": "Debit",
+              "description": "MCA SERVICING DES:8003243863 ID:PAY102325179396 INDN:CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD",
+              "amount": 87.0
+            }
+          ],
+          "returned_items": [
+            {
+              "date": "10/15/2025",
+              "type": "Credit",
+              "description": "RETURN OF POSTED CHECK / ITEM (RECEIVED ON 10-14)",
+              "amount": 87.0,
+              "non_true_revenue": 1
+            },
+            {
+              "date": "10/22/2025",
+              "type": "Credit",
+              "description": "RETURN OF POSTED CHECK / ITEM (RECEIVED ON 10-21)",
+              "amount": 87.0,
+              "non_true_revenue": 1
+            },
+            {
+              "date": "10/23/2025",
+              "type": "Credit",
+              "description": "RETURN OF POSTED CHECK / ITEM (RECEIVED ON 10-22)",
+              "amount": 87.0,
+              "non_true_revenue": 1
+            },
+            {
+              "date": "10/24/2025",
+              "type": "Credit",
+              "description": "RETURN OF POSTED CHECK / ITEM (RECEIVED ON 10-23)",
+              "amount": 87.0,
+              "non_true_revenue": 1
+            },
+            {
+              "date": "10/27/2025",
+              "type": "Credit",
+              "description": "RETURN OF POSTED CHECK / ITEM (RECEIVED ON 10-24)",
+              "amount": 87.0,
+              "non_true_revenue": 1
+            }
+          ],
+          "overdrafts": [
+            {
+              "date": "10/06/2025",
+              "type": "Debit",
+              "description": "OVERDRAFT ITEM FEE FOR ACTIVITY OF 10-06",
+              "amount": 10.0
+            },
+            {
+              "date": "10/07/2025",
+              "type": "Debit",
+              "description": "OVERDRAFT ITEM FEE FOR ACTIVITY OF 10-07",
+              "amount": 10.0
+            },
+            {
+              "date": "10/08/2025",
+              "type": "Debit",
+              "description": "OVERDRAFT ITEM FEE FOR ACTIVITY OF 10-08",
+              "amount": 10.0
+            },
+            {
+              "date": "10/09/2025",
+              "type": "Debit",
+              "description": "OVERDRAFT ITEM FEE FOR ACTIVITY OF 10-09",
+              "amount": 10.0
+            },
+            {
+              "date": "10/09/2025",
+              "type": "Debit",
+              "description": "OVERDRAFT ITEM FEE FOR ACTIVITY OF 10-09",
+              "amount": 10.0
+            },
+            {
+              "date": "10/10/2025",
+              "type": "Debit",
+              "description": "OVERDRAFT ITEM FEE FOR ACTIVITY OF 10-10",
+              "amount": 10.0
+            },
+            {
+              "date": "10/16/2025",
+              "type": "Debit",
+              "description": "OVERDRAFT ITEM FEE FOR ACTIVITY OF 10-16",
+              "amount": 10.0
+            }
+          ],
+          "service_charges": [],
+          "atm_cash_withdrawal": [],
+          "internal_transfer_deposit": [
+            {
+              "date": "10/03/2025",
+              "type": "Credit",
+              "description": "Online Banking transfer from CHK 8246 Confirmation# 7953077121",
+              "amount": 204.12,
+              "non_true_revenue": 1
+            },
+            {
+              "date": "10/06/2025",
+              "type": "Credit",
+              "description": "Online Banking transfer from CHK 8246 Confirmation# 7254979872",
+              "amount": 1.32,
+              "non_true_revenue": 1
+            },
+            {
+              "date": "10/14/2025",
+              "type": "Credit",
+              "description": "Online Banking transfer from CHK 8246 Confirmation# 7822242540",
+              "amount": 130.0,
+              "non_true_revenue": 1
+            },
+            {
+              "date": "10/15/2025",
+              "type": "Credit",
+              "description": "Online Banking transfer from CHK 8246 Confirmation# 7152638441",
+              "amount": 400.0,
+              "non_true_revenue": 1
+            },
+            {
+              "date": "10/15/2025",
+              "type": "Credit",
+              "description": "Online Banking transfer from CHK 8246 Confirmation# 7956126951",
+              "amount": 146.0,
+              "non_true_revenue": 1
+            },
+            {
+              "date": "10/20/2025",
+              "type": "Credit",
+              "description": "Online Banking transfer from CHK 8246 Confirmation# 8390496006",
+              "amount": 1.71,
+              "non_true_revenue": 1
+            }
+          ],
+          "other_transfer_deposit": [],
+          "internal_transfer_withdrawal": [],
+          "other_transfer_withdrawal": [],
+          "standard_deposit": [],
+          "standard_withdrawal": [
+            {
+              "date": "10/09/2025",
+              "type": "Debit",
+              "description": "CHECKCARD 1008 COASTAL COMMUNITY BANK EVERETT WA 24435655282124896560656 CKCD 6012 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 45.0
+            }
+          ]
+        }
+      ]
+    },
+    "raw_output": "```json\n{\n  \"accounts\": [\n    {\n      \"account_number\": \"4350 6155 0627\",\n      \"account_type\": \"Business Advantage Fundamentals Banking\",\n      \"mca_deposit\": [],\n      \"mca_withdrawal\": [\n        {\n          \"mca_name\": \"MCA Servicing\",\n          \"date\": \"10/03/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"MCA SERVICING DES:8003243863 ID:PAY100225178637 INDN: CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD\",\n          \"amount\": 87.0\n        },\n        {\n          \"mca_name\": \"MCA Servicing\",\n          \"date\": \"10/06/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"MCA SERVICING DES:8003243863 ID:PAY100325178688 INDN:CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD\",\n          \"amount\": 87.0\n        },\n        {\n          \"mca_name\": \"MCA Servicing\",\n          \"date\": \"10/07/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"MCA SERVICING DES:8003243863 ID:PAY100625178741 INDN:CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD\",\n          \"amount\": 87.0\n        },\n        {\n          \"mca_name\": \"MCA Servicing\",\n          \"date\": \"10/08/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"MCA SERVICING DES:8003243863 ID:PAY100725178793 INDN:CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD\",\n          \"amount\": 87.0\n        },\n        {\n          \"mca_name\": \"MCA Servicing\",\n          \"date\": \"10/09/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"MCA SERVICING DES:8003243863 ID:PAY100825178839 INDN:CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD\",\n          \"amount\": 87.0\n        },\n        {\n          \"mca_name\": \"MCA Servicing\",\n          \"date\": \"10/09/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"MCA Servicing DES:8003243863 ID:XXXXXXXXX INDN:CLAVER GONZALEZ SEVILL CO ID:9843488861 CCD\",\n          \"amount\": 49.0\n        },\n        {\n          \"mca_name\": \"MCA Servicing\",\n          \"date\": \"10/10/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"MCA SERVICING DES:8003243863 ID:PAY100925178887 INDN:CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD\",\n          \"amount\": 87.0\n        },\n        {\n          \"mca_name\": \"MCA Servicing\",\n          \"date\": \"10/14/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"MCA SERVICING DES:8003243863 ID:PAY101025178934 INDN:CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD\",\n          \"amount\": 87.0\n        },\n        {\n          \"mca_name\": \"MCA Servicing\",\n          \"date\": \"10/15/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"MCA SERVICING DES:8003243863 ID:PAY101425179024 INDN:CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD\",\n          \"amount\": 87.0\n        },\n        {\n          \"mca_name\": \"MCA Servicing\",\n          \"date\": \"10/16/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"MCA SERVICING DES:8003243863 ID:PAY101525179070 INDN:CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD\",\n          \"amount\": 87.0\n        },\n        {\n          \"mca_name\": \"MCA Servicing\",\n          \"date\": \"10/21/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"MCA SERVICING 80 DES:8006226585 ID:251020152752UBI INDN:CLAVER GONZALEZ SEVILL CO ID:1016207445 CCD PMT INFO:PAY10202517922818631772\",\n          \"amount\": 87.0\n        },\n        {\n          \"mca_name\": \"MCA Servicing\",\n          \"date\": \"10/22/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"MCA SERVICING 80 DES:8006226585 ID:251021161537590 INDN:CLAVER GONZALEZ SEVILL CO ID:1016207445 CCD PMT INFO:PAY10212517928110861471\",\n          \"amount\": 87.0\n        },\n        {\n          \"mca_name\": \"MCA Servicing\",\n          \"date\": \"10/23/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"MCA SERVICING 80 DES:8006226585 ID:251022154001UUO INDN:CLAVER GONZALEZ SEVILL CO ID:1016207445 CCD PMT INFO:PAY10222517933486041615\",\n          \"amount\": 87.0\n        },\n        {\n          \"mca_name\": \"MCA Servicing\",\n          \"date\": \"10/24/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"MCA SERVICING DES:8003243863 ID:PAY102325179396 INDN:CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD\",\n          \"amount\": 87.0\n        }\n      ],\n      \"returned_items\": [\n        {\n          \"date\": \"10/15/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"RETURN OF POSTED CHECK / ITEM (RECEIVED ON 10-14)\",\n          \"amount\": 87.0,\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"10/22/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"RETURN OF POSTED CHECK / ITEM (RECEIVED ON 10-21)\",\n          \"amount\": 87.0,\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"10/23/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"RETURN OF POSTED CHECK / ITEM (RECEIVED ON 10-22)\",\n          \"amount\": 87.0,\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"10/24/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"RETURN OF POSTED CHECK / ITEM (RECEIVED ON 10-23)\",\n          \"amount\": 87.0,\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"RETURN OF POSTED CHECK / ITEM (RECEIVED ON 10-24)\",\n          \"amount\": 87.0,\n          \"non_true_revenue\": 1\n        }\n      ],\n      \"overdrafts\": [\n        {\n          \"date\": \"10/06/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"OVERDRAFT ITEM FEE FOR ACTIVITY OF 10-06\",\n          \"amount\": 10.0\n        },\n        {\n          \"date\": \"10/07/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"OVERDRAFT ITEM FEE FOR ACTIVITY OF 10-07\",\n          \"amount\": 10.0\n        },\n        {\n          \"date\": \"10/08/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"OVERDRAFT ITEM FEE FOR ACTIVITY OF 10-08\",\n          \"amount\": 10.0\n        },\n        {\n          \"date\": \"10/09/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"OVERDRAFT ITEM FEE FOR ACTIVITY OF 10-09\",\n          \"amount\": 10.0\n        },\n        {\n          \"date\": \"10/09/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"OVERDRAFT ITEM FEE FOR ACTIVITY OF 10-09\",\n          \"amount\": 10.0\n        },\n        {\n          \"date\": \"10/10/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"OVERDRAFT ITEM FEE FOR ACTIVITY OF 10-10\",\n          \"amount\": 10.0\n        },\n        {\n          \"date\": \"10/16/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"OVERDRAFT ITEM FEE FOR ACTIVITY OF 10-16\",\n          \"amount\": 10.0\n        }\n      ],\n      \"service_charges\": [],\n      \"atm_cash_withdrawal\": [],\n      \"internal_transfer_deposit\": [\n        {\n          \"date\": \"10/03/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Online Banking transfer from CHK 8246 Confirmation# 7953077121\",\n          \"amount\": 204.12,\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Online Banking transfer from CHK 8246 Confirmation# 7254979872\",\n          \"amount\": 1.32,\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Online Banking transfer from CHK 8246 Confirmation# 7822242540\",\n          \"amount\": 130.0,\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"10/15/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Online Banking transfer from CHK 8246 Confirmation# 7152638441\",\n          \"amount\": 400.0,\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"10/15/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Online Banking transfer from CHK 8246 Confirmation# 7956126951\",\n          \"amount\": 146.0,\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"10/20/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Online Banking transfer from CHK 8246 Confirmation# 8390496006\",\n          \"amount\": 1.71,\n          \"non_true_revenue\": 1\n        }\n      ],\n      \"other_transfer_deposit\": [],\n      \"internal_transfer_withdrawal\": [],\n      \"other_transfer_withdrawal\": [],\n      \"standard_deposit\": [],\n      \"standard_withdrawal\": [\n        {\n          \"date\": \"10/09/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"CHECKCARD 1008 COASTAL COMMUNITY BANK EVERETT WA 24435655282124896560656 CKCD 6012 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 45.0\n        }\n      ]\n    }\n  ]\n}\n```",
+    "token_count": {
+      "estimated_tokens": 715
+    },
+    "failure_reason": null
+  }
+}
