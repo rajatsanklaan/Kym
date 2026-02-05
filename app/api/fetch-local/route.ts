@@ -110,8 +110,10 @@ interface BSIAnalyzerAccount {
   account_type?: string;
   mca_deposit?: Array<{ date?: string; description?: string; amount?: number; type?: string; non_true_revenue?: number }>;
   mca_withdrawal?: Array<{ date?: string; description?: string; amount?: number; type?: string }>;
-  returned_items?: Array<{ date?: string; description?: string; amount?: number; type?: string }>;
+  returned_items?: Array<{ date?: string; description?: string; amount?: number; type?: string; non_true_revenue?: number }>;
   overdrafts?: Array<{ date?: string; description?: string; amount?: number; type?: string }>;
+  service_charges?: Array<{ date?: string; description?: string; amount?: number; type?: string; non_true_revenue?: number }>;
+  atm_cash_withdrawal?: Array<{ date?: string; description?: string; amount?: number; type?: string }>;
   internal_transfer_deposit?: Array<{ date?: string; amount?: number; non_true_revenue?: number }>;
   other_transfer_deposit?: Array<{ date?: string; amount?: number; non_true_revenue?: number }>;
   standard_deposit?: Array<{ date?: string; amount?: number; non_true_revenue?: number }>;
@@ -313,6 +315,24 @@ function transformLocalCaseFile(data: LocalCaseFile, filename: string): LocalSta
         );
         addBsiEntries(
           bsiAcc.overdrafts as Array<{ date?: string; amount?: number; type?: string }>,
+          otherLabel,
+          'Debit'
+        );
+        // service_charges can be Credit (refunds) or Debit; use actual type from data
+        if (bsiAcc.service_charges) {
+          for (const t of bsiAcc.service_charges) {
+            const type = t.type === 'Credit' || t.type === 'Debit' ? t.type : 'Debit';
+            const label = t.non_true_revenue === 1 ? fundingLabel : otherLabel;
+            bsiEntries.push({
+              date: t.date ?? '',
+              amount: t.amount ?? 0,
+              type,
+              classification: label,
+            });
+          }
+        }
+        addBsiEntries(
+          bsiAcc.atm_cash_withdrawal as Array<{ date?: string; amount?: number; type?: string }>,
           otherLabel,
           'Debit'
         );
