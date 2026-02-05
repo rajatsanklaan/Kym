@@ -388,6 +388,7 @@ function ReconciliationRowComponent({ data }: { data: ReconciliationRow }) {
   const [bsiEnhancedData, setBsiEnhancedData] = useState<BSIEnhancedDetail | null>(null);
   const [bsiEnhancedLoading, setBsiEnhancedLoading] = useState(false);
   const [bsiEnhancedError, setBsiEnhancedError] = useState<string | null>(null);
+  const [transactionTypeFilter, setTransactionTypeFilter] = useState<'all' | 'Credit' | 'Debit'>('all');
 
   // Get the currently selected account
   const selectedAccount = data.accounts[selectedAccountIndex] || data.accounts[0];
@@ -1112,20 +1113,36 @@ function ReconciliationRowComponent({ data }: { data: ReconciliationRow }) {
                         <tr>
                           <th className="px-4 py-3 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">Date</th>
                           <th className="px-4 py-3 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">Description</th>
-                          <th className="px-4 py-3 text-center text-xs font-semibold text-gray-600 uppercase tracking-wider">Type</th>
+                          <th className="px-4 py-3 text-center text-xs font-semibold text-gray-600 uppercase tracking-wider">
+                            <div className="flex flex-col items-center gap-1">
+                              <span>Type</span>
+                              <select
+                                value={transactionTypeFilter}
+                                onChange={(e) => setTransactionTypeFilter(e.target.value as 'all' | 'Credit' | 'Debit')}
+                                className="px-2 py-1 text-xs border border-gray-300 rounded-md bg-white text-gray-700 cursor-pointer focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 min-w-[100px]"
+                              >
+                                <option value="all">All</option>
+                                <option value="Credit">Credit</option>
+                                <option value="Debit">Debit</option>
+                              </select>
+                            </div>
+                          </th>
                           <th className="px-4 py-3 text-right text-xs font-semibold text-gray-600 uppercase tracking-wider">Amount</th>
                           <th className="px-4 py-3 text-center text-xs font-semibold text-gray-600 uppercase tracking-wider">Classification</th>
                           <th className="px-4 py-3 text-center text-xs font-semibold text-gray-600 uppercase tracking-wider">Actions</th>
                         </tr>
                       </thead>
                       <tbody className="divide-y divide-gray-100">
-                        {selectedAccount.transactions.map((tx, txIndex) => {
-                          const txKey = `${selectedAccount.account_number}-${txIndex}`;
+                        {selectedAccount.transactions
+                          .map((tx, originalIndex) => ({ tx, originalIndex }))
+                          .filter(({ tx }) => transactionTypeFilter === 'all' || tx.type === transactionTypeFilter)
+                          .map(({ tx, originalIndex }) => {
+                          const txKey = `${selectedAccount.account_number}-${originalIndex}`;
                           const isCredit = tx.type === 'Credit';
                           const defaultClassification = isCredit ? 'Other Deposit' : 'Other Withdrawal';
                           const currentClassification = transactionClassifications[txKey] || tx.classification || defaultClassification;
                           return (
-                            <tr key={txIndex} className="hover:bg-gray-50 transition-colors">
+                            <tr key={originalIndex} className="hover:bg-gray-50 transition-colors">
                               <td className="px-4 py-3 text-sm text-gray-700 whitespace-nowrap">{tx.date}</td>
                               <td className="px-4 py-3 text-sm text-gray-700">
                                 <div className="max-w-[300px] truncate" title={tx.description}>
