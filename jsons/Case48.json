@@ -1,0 +1,569 @@
+{
+  "document_name": "Case48.pdf",
+  "pipeline_status": "completed",
+  "processing_metadata": {
+    "start_time": "2026-02-04T15:06:58.132973",
+    "end_time": "2026-02-04T15:08:33.761612",
+    "parsing_time_seconds": 56.335115,
+    "bsi_time_seconds": 39.275735,
+    "total_time_seconds": 95.61085
+  },
+  "parsing_agent_result": {
+    "agent_name": "parsing_agent",
+    "processing_status": "success",
+    "start_time": "2026-02-04T15:06:58.137671",
+    "end_time": "2026-02-04T15:07:54.472439",
+    "parsed_json": {
+      "bank_statement_information": {
+        "bank_name": "BANK OF AMERICA",
+        "account_holder": "ACEVEDO BOSA CARGO & TRANSPORT LLC",
+        "statement_start_date": "09-01-2025",
+        "statement_end_date": "09-30-2025",
+        "n_days": 30,
+        "n_month": [
+          9
+        ],
+        "business_address": "4605 N LOIS AVE APT 5 TAMPA, FL 33614-7070"
+      },
+      "accounts": [
+        {
+          "account_number": "8981 6108 4973",
+          "account_type": "Business Advantage Fundamentals™ Banking",
+          "account_summary": {
+            "beginning_balance": 34.16,
+            "ending_balance": 11.6,
+            "total_deposits": 2508.36,
+            "total_withdrawals": 2530.92,
+            "total_deposits_count": 11,
+            "total_withdrawals_count": 25,
+            "avg_daily_balance": 58.55,
+            "overdraft_days": 2
+          },
+          "transactions": [
+            {
+              "date": "09-02-2025",
+              "description": "Online Banking transfer from CHK 7685 Confirmation# 7185072839",
+              "amount": 50.0,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "09-02-2025",
+              "description": "Online Banking transfer from SAV 3262 Confirmation# 7656612369",
+              "amount": 40.0,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "09-02-2025",
+              "description": "PLANET FITNESS B DES:IClub Fees ID:PR2524100366803 INDN:Maria Acevedo CO ID:GXXXXXXXXX PPD PMT INFO:3526007701",
+              "amount": 52.19,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-02-2025",
+              "description": "PURCHASE 0831 TikTok Shop TikTo 6505840896 CA",
+              "amount": 26.56,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-02-2025",
+              "description": "PURCHASE 0831 TIKTOK SHOP 6505840896 CA",
+              "amount": 23.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-02-2025",
+              "description": "PURCHASE 0901 TIKTOK SHOP 6505840896 CA",
+              "amount": 11.7,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-03-2025",
+              "description": "PURCHASE 0902 TIKTOK SHOP 6505840896 CA",
+              "amount": 8.51,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-05-2025",
+              "description": "Online Banking transfer from CHK 7685 Confirmation# 7706123152",
+              "amount": 140.0,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "09-05-2025",
+              "description": "Zelle payment to Silaidy Conf# yh2m094tu",
+              "amount": 20.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-08-2025",
+              "description": "PURCHASE 0906 TIKTOK SHOP 6505840896 CA",
+              "amount": 14.44,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-08-2025",
+              "description": "PURCHASE 0906 TIKTOK SHOP 6505840896 CA",
+              "amount": 57.09,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-08-2025",
+              "description": "PURCHASE 0908 TikTok Shop TikTo 6505840896 CA",
+              "amount": 20.21,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-08-2025",
+              "description": "CHECKCARD 0907 MURPHY6845ATWA BROOKSVILLE FL CKCD 5542 XXXXXXXXXXXX6053 XXXX XXXX XXXX 6053",
+              "amount": 33.98,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-09-2025",
+              "description": "Online Banking transfer from CHK 7685 Confirmation# 7344951860",
+              "amount": 40.0,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "09-09-2025",
+              "description": "FAMILY DOLLAR 09/09 #000010585 PURCHASE 10620 NORTHCLIFFE SPRING HILL FL",
+              "amount": 24.22,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-12-2025",
+              "description": "Online Banking transfer from CHK 7685 Confirmation# 8367944906",
+              "amount": 150.0,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "09-15-2025",
+              "description": "Zelle payment to Alejandro Esposo Conf# xjr912cl9",
+              "amount": 50.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-15-2025",
+              "description": "Zelle payment to YORDAN FRIAS Conf# xjdmsrupa",
+              "amount": 60.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-15-2025",
+              "description": "PURCHASE 0915 TIKTOK SHOP 6505840896 CA",
+              "amount": 39.99,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-17-2025",
+              "description": "PLANET FITNESS B DES: IClub Fees ID:PR2525903805313 INDN:Maria Acevedo CO ID:GXXXXXXXXX PPD PMT INFO:3526007701",
+              "amount": 26.68,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-18-2025",
+              "description": "RETURN OF POSTED CHECK / ITEM (RECEIVED ON 09-17)",
+              "amount": 26.68,
+              "type": "Credit",
+              "category": "Returned Item"
+            },
+            {
+              "date": "09-23-2025",
+              "description": "Online Banking transfer from CHK 7685 Confirmation# 7962757671",
+              "amount": 900.0,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "09-23-2025",
+              "description": "Online Banking transfer from CHK 7685 Confirmation# 7563649192",
+              "amount": 880.0,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "09-23-2025",
+              "description": "Online Banking transfer to CHK 7685 Confirmation# 8163882467",
+              "amount": 1550.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "09-24-2025",
+              "description": "CHECKCARD 0924 CIRCLE K 07484 SPRING HILL FL CKCD 5542 XXXXXXXXXXXX6053 XXXX XXXX XXXX 6053",
+              "amount": 40.86,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-25-2025",
+              "description": "CHECKCARD 0924 AV DESTINATIONS 4075692208 FL 82701595267900012530588 CKCD 4722 XXXXXXXXXXXX6053 XXXX XXXX XXXX 6053",
+              "amount": 150.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-26-2025",
+              "description": "PLANET FITNESS B DES:RETRY PYMT ID:PR2526800088473 INDN: Maria Acevedo CO ID:GXXXXXXXXX PPD PMT INFO:3526007701",
+              "amount": 26.68,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-26-2025",
+              "description": "PLANET FITNESS B DES:RETURN FEE ID:PR2526800088472 INDN:Maria Acevedo CO ID:GXXXXXXXXX PPD PMT INFO:3526007701",
+              "amount": 15.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-29-2025",
+              "description": "BKOFAMERICA ATM 09/27 #000006039 DEPOSIT MARINER VILLAGE SPRING HILL FL",
+              "amount": 240.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "09-29-2025",
+              "description": "RETURN OF POSTED CHECK / ITEM (RECEIVED ON 09-26)",
+              "amount": 26.68,
+              "type": "Credit",
+              "category": "Returned Item"
+            },
+            {
+              "date": "09-29-2025",
+              "description": "RETURN OF POSTED CHECK / ITEM (RECEIVED ON 09-26)",
+              "amount": 15.0,
+              "type": "Credit",
+              "category": "Returned Item"
+            },
+            {
+              "date": "09-29-2025",
+              "description": "PURCHASE 0927 TikTok Shop TikTo 6505840896 CA",
+              "amount": 43.82,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-29-2025",
+              "description": "CHECKCARD 0927 AV DESTINATIONS 4075692208 FL 82701595270900012832906 CKCD 4722 XXXXXXXXXXXX6053 XXXX XXXX XXXX 6053",
+              "amount": 150.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-29-2025",
+              "description": "PURCHASE 0927 TIKTOK SHOP 6505840896 CA",
+              "amount": 35.99,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-30-2025",
+              "description": "Online Banking transfer to CHK 7685 Confirmation# 8123689580",
+              "amount": 30.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "09-30-2025",
+              "description": "Online Banking transfer to CHK 7685 Confirmation# 7224876951",
+              "amount": 20.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            }
+          ]
+        }
+      ]
+    },
+    "raw_output": "```json\n{\n  \"bank_statement_information\": {\n    \"bank_name\": \"BANK OF AMERICA\",\n    \"account_holder\": \"ACEVEDO BOSA CARGO & TRANSPORT LLC\",\n    \"statement_start_date\": \"09-01-2025\",\n    \"statement_end_date\": \"09-30-2025\",\n    \"n_days\": 30,\n    \"n_month\": [\n      9\n    ],\n    \"business_address\": \"4605 N LOIS AVE APT 5 TAMPA, FL 33614-7070\"\n  },\n  \"accounts\": [\n    {\n      \"account_number\": \"8981 6108 4973\",\n      \"account_type\": \"Business Advantage Fundamentals™ Banking\",\n      \"account_summary\": {\n        \"beginning_balance\": 34.16,\n        \"ending_balance\": 11.60,\n        \"total_deposits\": 2508.36,\n        \"total_withdrawals\": 2530.92,\n        \"total_deposits_count\": 11,\n        \"total_withdrawals_count\": 25,\n        \"avg_daily_balance\": 58.55,\n        \"overdraft_days\": 2\n      },\n      \"transactions\": [\n        {\n          \"date\": \"09-02-2025\",\n          \"description\": \"Online Banking transfer from CHK 7685 Confirmation# 7185072839\",\n          \"amount\": 50.00,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"09-02-2025\",\n          \"description\": \"Online Banking transfer from SAV 3262 Confirmation# 7656612369\",\n          \"amount\": 40.00,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"09-02-2025\",\n          \"description\": \"PLANET FITNESS B DES:IClub Fees ID:PR2524100366803 INDN:Maria Acevedo CO ID:GXXXXXXXXX PPD PMT INFO:3526007701\",\n          \"amount\": 52.19,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-02-2025\",\n          \"description\": \"PURCHASE 0831 TikTok Shop TikTo 6505840896 CA\",\n          \"amount\": 26.56,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-02-2025\",\n          \"description\": \"PURCHASE 0831 TIKTOK SHOP 6505840896 CA\",\n          \"amount\": 23.00,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-02-2025\",\n          \"description\": \"PURCHASE 0901 TIKTOK SHOP 6505840896 CA\",\n          \"amount\": 11.70,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-03-2025\",\n          \"description\": \"PURCHASE 0902 TIKTOK SHOP 6505840896 CA\",\n          \"amount\": 8.51,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-05-2025\",\n          \"description\": \"Online Banking transfer from CHK 7685 Confirmation# 7706123152\",\n          \"amount\": 140.00,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"09-05-2025\",\n          \"description\": \"Zelle payment to Silaidy Conf# yh2m094tu\",\n          \"amount\": 20.00,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"description\": \"PURCHASE 0906 TIKTOK SHOP 6505840896 CA\",\n          \"amount\": 14.44,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"description\": \"PURCHASE 0906 TIKTOK SHOP 6505840896 CA\",\n          \"amount\": 57.09,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"description\": \"PURCHASE 0908 TikTok Shop TikTo 6505840896 CA\",\n          \"amount\": 20.21,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"description\": \"CHECKCARD 0907 MURPHY6845ATWA BROOKSVILLE FL CKCD 5542 XXXXXXXXXXXX6053 XXXX XXXX XXXX 6053\",\n          \"amount\": 33.98,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-09-2025\",\n          \"description\": \"Online Banking transfer from CHK 7685 Confirmation# 7344951860\",\n          \"amount\": 40.00,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"09-09-2025\",\n          \"description\": \"FAMILY DOLLAR 09/09 #000010585 PURCHASE 10620 NORTHCLIFFE SPRING HILL FL\",\n          \"amount\": 24.22,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-12-2025\",\n          \"description\": \"Online Banking transfer from CHK 7685 Confirmation# 8367944906\",\n          \"amount\": 150.00,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"09-15-2025\",\n          \"description\": \"Zelle payment to Alejandro Esposo Conf# xjr912cl9\",\n          \"amount\": 50.00,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-15-2025\",\n          \"description\": \"Zelle payment to YORDAN FRIAS Conf# xjdmsrupa\",\n          \"amount\": 60.00,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-15-2025\",\n          \"description\": \"PURCHASE 0915 TIKTOK SHOP 6505840896 CA\",\n          \"amount\": 39.99,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-17-2025\",\n          \"description\": \"PLANET FITNESS B DES: IClub Fees ID:PR2525903805313 INDN:Maria Acevedo CO ID:GXXXXXXXXX PPD PMT INFO:3526007701\",\n          \"amount\": 26.68,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-18-2025\",\n          \"description\": \"RETURN OF POSTED CHECK / ITEM (RECEIVED ON 09-17)\",\n          \"amount\": 26.68,\n          \"type\": \"Credit\",\n          \"category\": \"Returned Item\"\n        },\n        {\n          \"date\": \"09-23-2025\",\n          \"description\": \"Online Banking transfer from CHK 7685 Confirmation# 7962757671\",\n          \"amount\": 900.00,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"09-23-2025\",\n          \"description\": \"Online Banking transfer from CHK 7685 Confirmation# 7563649192\",\n          \"amount\": 880.00,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"09-23-2025\",\n          \"description\": \"Online Banking transfer to CHK 7685 Confirmation# 8163882467\",\n          \"amount\": 1550.00,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-24-2025\",\n          \"description\": \"CHECKCARD 0924 CIRCLE K 07484 SPRING HILL FL CKCD 5542 XXXXXXXXXXXX6053 XXXX XXXX XXXX 6053\",\n          \"amount\": 40.86,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-25-2025\",\n          \"description\": \"CHECKCARD 0924 AV DESTINATIONS 4075692208 FL 82701595267900012530588 CKCD 4722 XXXXXXXXXXXX6053 XXXX XXXX XXXX 6053\",\n          \"amount\": 150.00,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-26-2025\",\n          \"description\": \"PLANET FITNESS B DES:RETRY PYMT ID:PR2526800088473 INDN: Maria Acevedo CO ID:GXXXXXXXXX PPD PMT INFO:3526007701\",\n          \"amount\": 26.68,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-26-2025\",\n          \"description\": \"PLANET FITNESS B DES:RETURN FEE ID:PR2526800088472 INDN:Maria Acevedo CO ID:GXXXXXXXXX PPD PMT INFO:3526007701\",\n          \"amount\": 15.00,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-29-2025\",\n          \"description\": \"BKOFAMERICA ATM 09/27 #000006039 DEPOSIT MARINER VILLAGE SPRING HILL FL\",\n          \"amount\": 240.00,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"09-29-2025\",\n          \"description\": \"RETURN OF POSTED CHECK / ITEM (RECEIVED ON 09-26)\",\n          \"amount\": 26.68,\n          \"type\": \"Credit\",\n          \"category\": \"Returned Item\"\n        },\n        {\n          \"date\": \"09-29-2025\",\n          \"description\": \"RETURN OF POSTED CHECK / ITEM (RECEIVED ON 09-26)\",\n          \"amount\": 15.00,\n          \"type\": \"Credit\",\n          \"category\": \"Returned Item\"\n        },\n        {\n          \"date\": \"09-29-2025\",\n          \"description\": \"PURCHASE 0927 TikTok Shop TikTo 6505840896 CA\",\n          \"amount\": 43.82,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-29-2025\",\n          \"description\": \"CHECKCARD 0927 AV DESTINATIONS 4075692208 FL 82701595270900012832906 CKCD 4722 XXXXXXXXXXXX6053 XXXX XXXX XXXX 6053\",\n          \"amount\": 150.00,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-29-2025\",\n          \"description\": \"PURCHASE 0927 TIKTOK SHOP 6505840896 CA\",\n          \"amount\": 35.99,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-30-2025\",\n          \"description\": \"Online Banking transfer to CHK 7685 Confirmation# 8123689580\",\n          \"amount\": 30.00,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-30-2025\",\n          \"description\": \"Online Banking transfer to CHK 7685 Confirmation# 7224876951\",\n          \"amount\": 20.00,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        }\n      ]\n    }\n  ]\n}\n```",
+    "token_count": {
+      "estimated_tokens": 838
+    },
+    "failure_reason": null
+  },
+  "bsi_analyzer_result": {
+    "agent_name": "v1_bsi_analyzer_agent",
+    "processing_status": "success",
+    "start_time": "2026-02-04T15:07:54.485363",
+    "end_time": "2026-02-04T15:08:33.760861",
+    "parsed_json": {
+      "accounts": [
+        {
+          "account_number": "8981 6108 4973",
+          "account_type": "Business Advantage Fundamentals™ Banking",
+          "mca_deposit": [],
+          "mca_withdrawal": [],
+          "returned_items": [
+            {
+              "date": "09-18-2025",
+              "description": "RETURN OF POSTED CHECK / ITEM (RECEIVED ON 09-17)",
+              "amount": 26.68,
+              "type": "Credit",
+              "non_true_revenue": 1
+            },
+            {
+              "date": "09-29-2025",
+              "description": "RETURN OF POSTED CHECK / ITEM (RECEIVED ON 09-26)",
+              "amount": 26.68,
+              "type": "Credit",
+              "non_true_revenue": 1
+            },
+            {
+              "date": "09-29-2025",
+              "description": "RETURN OF POSTED CHECK / ITEM (RECEIVED ON 09-26)",
+              "amount": 15.0,
+              "type": "Credit",
+              "non_true_revenue": 1
+            }
+          ],
+          "overdrafts": [],
+          "service_charges": [],
+          "atm_cash_withdrawal": [],
+          "internal_transfer_deposit": [
+            {
+              "date": "09-02-2025",
+              "description": "Online Banking transfer from CHK 7685 Confirmation# 7185072839",
+              "amount": 50.0,
+              "type": "Credit",
+              "non_true_revenue": 1
+            },
+            {
+              "date": "09-02-2025",
+              "description": "Online Banking transfer from SAV 3262 Confirmation# 7656612369",
+              "amount": 40.0,
+              "type": "Credit",
+              "non_true_revenue": 1
+            },
+            {
+              "date": "09-05-2025",
+              "description": "Online Banking transfer from CHK 7685 Confirmation# 7706123152",
+              "amount": 140.0,
+              "type": "Credit",
+              "non_true_revenue": 1
+            },
+            {
+              "date": "09-09-2025",
+              "description": "Online Banking transfer from CHK 7685 Confirmation# 7344951860",
+              "amount": 40.0,
+              "type": "Credit",
+              "non_true_revenue": 1
+            },
+            {
+              "date": "09-12-2025",
+              "description": "Online Banking transfer from CHK 7685 Confirmation# 8367944906",
+              "amount": 150.0,
+              "type": "Credit",
+              "non_true_revenue": 1
+            },
+            {
+              "date": "09-23-2025",
+              "description": "Online Banking transfer from CHK 7685 Confirmation# 7962757671",
+              "amount": 900.0,
+              "type": "Credit",
+              "non_true_revenue": 1
+            },
+            {
+              "date": "09-23-2025",
+              "description": "Online Banking transfer from CHK 7685 Confirmation# 7563649192",
+              "amount": 880.0,
+              "type": "Credit",
+              "non_true_revenue": 1
+            }
+          ],
+          "other_transfer_deposit": [],
+          "internal_transfer_withdrawal": [
+            {
+              "date": "09-23-2025",
+              "description": "Online Banking transfer to CHK 7685 Confirmation# 8163882467",
+              "amount": 1550.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09-30-2025",
+              "description": "Online Banking transfer to CHK 7685 Confirmation# 8123689580",
+              "amount": 30.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09-30-2025",
+              "description": "Online Banking transfer to CHK 7685 Confirmation# 7224876951",
+              "amount": 20.0,
+              "type": "Debit"
+            }
+          ],
+          "other_transfer_withdrawal": [
+            {
+              "date": "09-05-2025",
+              "description": "Zelle payment to Silaidy Conf# yh2m094tu",
+              "amount": 20.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09-15-2025",
+              "description": "Zelle payment to Alejandro Esposo Conf# xjr912cl9",
+              "amount": 50.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09-15-2025",
+              "description": "Zelle payment to YORDAN FRIAS Conf# xjdmsrupa",
+              "amount": 60.0,
+              "type": "Debit"
+            }
+          ],
+          "standard_deposit": [
+            {
+              "date": "09-29-2025",
+              "description": "BKOFAMERICA ATM 09/27 #000006039 DEPOSIT MARINER VILLAGE SPRING HILL FL",
+              "amount": 240.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            }
+          ],
+          "standard_withdrawal": [
+            {
+              "date": "09-02-2025",
+              "description": "PLANET FITNESS B DES:IClub Fees ID:PR2524100366803 INDN:Maria Acevedo CO ID:GXXXXXXXXX PPD PMT INFO:3526007701",
+              "amount": 52.19,
+              "type": "Debit"
+            },
+            {
+              "date": "09-02-2025",
+              "description": "PURCHASE 0831 TikTok Shop TikTo 6505840896 CA",
+              "amount": 26.56,
+              "type": "Debit"
+            },
+            {
+              "date": "09-02-2025",
+              "description": "PURCHASE 0831 TIKTOK SHOP 6505840896 CA",
+              "amount": 23.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09-02-2025",
+              "description": "PURCHASE 0901 TIKTOK SHOP 6505840896 CA",
+              "amount": 11.7,
+              "type": "Debit"
+            },
+            {
+              "date": "09-03-2025",
+              "description": "PURCHASE 0902 TIKTOK SHOP 6505840896 CA",
+              "amount": 8.51,
+              "type": "Debit"
+            },
+            {
+              "date": "09-08-2025",
+              "description": "PURCHASE 0906 TIKTOK SHOP 6505840896 CA",
+              "amount": 14.44,
+              "type": "Debit"
+            },
+            {
+              "date": "09-08-2025",
+              "description": "PURCHASE 0906 TIKTOK SHOP 6505840896 CA",
+              "amount": 57.09,
+              "type": "Debit"
+            },
+            {
+              "date": "09-08-2025",
+              "description": "PURCHASE 0908 TikTok Shop TikTo 6505840896 CA",
+              "amount": 20.21,
+              "type": "Debit"
+            },
+            {
+              "date": "09-08-2025",
+              "description": "CHECKCARD 0907 MURPHY6845ATWA BROOKSVILLE FL CKCD 5542 XXXXXXXXXXXX6053 XXXX XXXX XXXX 6053",
+              "amount": 33.98,
+              "type": "Debit"
+            },
+            {
+              "date": "09-09-2025",
+              "description": "FAMILY DOLLAR 09/09 #000010585 PURCHASE 10620 NORTHCLIFFE SPRING HILL FL",
+              "amount": 24.22,
+              "type": "Debit"
+            },
+            {
+              "date": "09-15-2025",
+              "description": "PURCHASE 0915 TIKTOK SHOP 6505840896 CA",
+              "amount": 39.99,
+              "type": "Debit"
+            },
+            {
+              "date": "09-17-2025",
+              "description": "PLANET FITNESS B DES: IClub Fees ID:PR2525903805313 INDN:Maria Acevedo CO ID:GXXXXXXXXX PPD PMT INFO:3526007701",
+              "amount": 26.68,
+              "type": "Debit"
+            },
+            {
+              "date": "09-24-2025",
+              "description": "CHECKCARD 0924 CIRCLE K 07484 SPRING HILL FL CKCD 5542 XXXXXXXXXXXX6053 XXXX XXXX XXXX 6053",
+              "amount": 40.86,
+              "type": "Debit"
+            },
+            {
+              "date": "09-25-2025",
+              "description": "CHECKCARD 0924 AV DESTINATIONS 4075692208 FL 82701595267900012530588 CKCD 4722 XXXXXXXXXXXX6053 XXXX XXXX XXXX 6053",
+              "amount": 150.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09-26-2025",
+              "description": "PLANET FITNESS B DES:RETRY PYMT ID:PR2526800088473 INDN: Maria Acevedo CO ID:GXXXXXXXXX PPD PMT INFO:3526007701",
+              "amount": 26.68,
+              "type": "Debit"
+            },
+            {
+              "date": "09-26-2025",
+              "description": "PLANET FITNESS B DES:RETURN FEE ID:PR2526800088472 INDN:Maria Acevedo CO ID:GXXXXXXXXX PPD PMT INFO:3526007701",
+              "amount": 15.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09-29-2025",
+              "description": "PURCHASE 0927 TikTok Shop TikTo 6505840896 CA",
+              "amount": 43.82,
+              "type": "Debit"
+            },
+            {
+              "date": "09-29-2025",
+              "description": "CHECKCARD 0927 AV DESTINATIONS 4075692208 FL 82701595270900012832906 CKCD 4722 XXXXXXXXXXXX6053 XXXX XXXX XXXX 6053",
+              "amount": 150.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09-29-2025",
+              "description": "PURCHASE 0927 TIKTOK SHOP 6505840896 CA",
+              "amount": 35.99,
+              "type": "Debit"
+            }
+          ]
+        }
+      ]
+    },
+    "raw_output": "```json\n{\n  \"accounts\": [\n    {\n      \"account_number\": \"8981 6108 4973\",\n      \"account_type\": \"Business Advantage Fundamentals\\u2122 Banking\",\n      \"mca_deposit\": [],\n      \"mca_withdrawal\": [],\n      \"returned_items\": [\n        {\n          \"date\": \"09-18-2025\",\n          \"description\": \"RETURN OF POSTED CHECK / ITEM (RECEIVED ON 09-17)\",\n          \"amount\": 26.68,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"09-29-2025\",\n          \"description\": \"RETURN OF POSTED CHECK / ITEM (RECEIVED ON 09-26)\",\n          \"amount\": 26.68,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"09-29-2025\",\n          \"description\": \"RETURN OF POSTED CHECK / ITEM (RECEIVED ON 09-26)\",\n          \"amount\": 15.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        }\n      ],\n      \"overdrafts\": [],\n      \"service_charges\": [],\n      \"atm_cash_withdrawal\": [],\n      \"internal_transfer_deposit\": [\n        {\n          \"date\": \"09-02-2025\",\n          \"description\": \"Online Banking transfer from CHK 7685 Confirmation# 7185072839\",\n          \"amount\": 50.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"09-02-2025\",\n          \"description\": \"Online Banking transfer from SAV 3262 Confirmation# 7656612369\",\n          \"amount\": 40.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"09-05-2025\",\n          \"description\": \"Online Banking transfer from CHK 7685 Confirmation# 7706123152\",\n          \"amount\": 140.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"09-09-2025\",\n          \"description\": \"Online Banking transfer from CHK 7685 Confirmation# 7344951860\",\n          \"amount\": 40.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"09-12-2025\",\n          \"description\": \"Online Banking transfer from CHK 7685 Confirmation# 8367944906\",\n          \"amount\": 150.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"09-23-2025\",\n          \"description\": \"Online Banking transfer from CHK 7685 Confirmation# 7962757671\",\n          \"amount\": 900.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"09-23-2025\",\n          \"description\": \"Online Banking transfer from CHK 7685 Confirmation# 7563649192\",\n          \"amount\": 880.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        }\n      ],\n      \"other_transfer_deposit\": [],\n      \"internal_transfer_withdrawal\": [\n        {\n          \"date\": \"09-23-2025\",\n          \"description\": \"Online Banking transfer to CHK 7685 Confirmation# 8163882467\",\n          \"amount\": 1550.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09-30-2025\",\n          \"description\": \"Online Banking transfer to CHK 7685 Confirmation# 8123689580\",\n          \"amount\": 30.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09-30-2025\",\n          \"description\": \"Online Banking transfer to CHK 7685 Confirmation# 7224876951\",\n          \"amount\": 20.0,\n          \"type\": \"Debit\"\n        }\n      ],\n      \"other_transfer_withdrawal\": [\n        {\n          \"date\": \"09-05-2025\",\n          \"description\": \"Zelle payment to Silaidy Conf# yh2m094tu\",\n          \"amount\": 20.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09-15-2025\",\n          \"description\": \"Zelle payment to Alejandro Esposo Conf# xjr912cl9\",\n          \"amount\": 50.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09-15-2025\",\n          \"description\": \"Zelle payment to YORDAN FRIAS Conf# xjdmsrupa\",\n          \"amount\": 60.0,\n          \"type\": \"Debit\"\n        }\n      ],\n      \"standard_deposit\": [\n        {\n          \"date\": \"09-29-2025\",\n          \"description\": \"BKOFAMERICA ATM 09/27 #000006039 DEPOSIT MARINER VILLAGE SPRING HILL FL\",\n          \"amount\": 240.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        }\n      ],\n      \"standard_withdrawal\": [\n        {\n          \"date\": \"09-02-2025\",\n          \"description\": \"PLANET FITNESS B DES:IClub Fees ID:PR2524100366803 INDN:Maria Acevedo CO ID:GXXXXXXXXX PPD PMT INFO:3526007701\",\n          \"amount\": 52.19,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09-02-2025\",\n          \"description\": \"PURCHASE 0831 TikTok Shop TikTo 6505840896 CA\",\n          \"amount\": 26.56,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09-02-2025\",\n          \"description\": \"PURCHASE 0831 TIKTOK SHOP 6505840896 CA\",\n          \"amount\": 23.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09-02-2025\",\n          \"description\": \"PURCHASE 0901 TIKTOK SHOP 6505840896 CA\",\n          \"amount\": 11.7,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09-03-2025\",\n          \"description\": \"PURCHASE 0902 TIKTOK SHOP 6505840896 CA\",\n          \"amount\": 8.51,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"description\": \"PURCHASE 0906 TIKTOK SHOP 6505840896 CA\",\n          \"amount\": 14.44,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"description\": \"PURCHASE 0906 TIKTOK SHOP 6505840896 CA\",\n          \"amount\": 57.09,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"description\": \"PURCHASE 0908 TikTok Shop TikTo 6505840896 CA\",\n          \"amount\": 20.21,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"description\": \"CHECKCARD 0907 MURPHY6845ATWA BROOKSVILLE FL CKCD 5542 XXXXXXXXXXXX6053 XXXX XXXX XXXX 6053\",\n          \"amount\": 33.98,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09-09-2025\",\n          \"description\": \"FAMILY DOLLAR 09/09 #000010585 PURCHASE 10620 NORTHCLIFFE SPRING HILL FL\",\n          \"amount\": 24.22,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09-15-2025\",\n          \"description\": \"PURCHASE 0915 TIKTOK SHOP 6505840896 CA\",\n          \"amount\": 39.99,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09-17-2025\",\n          \"description\": \"PLANET FITNESS B DES: IClub Fees ID:PR2525903805313 INDN:Maria Acevedo CO ID:GXXXXXXXXX PPD PMT INFO:3526007701\",\n          \"amount\": 26.68,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09-24-2025\",\n          \"description\": \"CHECKCARD 0924 CIRCLE K 07484 SPRING HILL FL CKCD 5542 XXXXXXXXXXXX6053 XXXX XXXX XXXX 6053\",\n          \"amount\": 40.86,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09-25-2025\",\n          \"description\": \"CHECKCARD 0924 AV DESTINATIONS 4075692208 FL 82701595267900012530588 CKCD 4722 XXXXXXXXXXXX6053 XXXX XXXX XXXX 6053\",\n          \"amount\": 150.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09-26-2025\",\n          \"description\": \"PLANET FITNESS B DES:RETRY PYMT ID:PR2526800088473 INDN: Maria Acevedo CO ID:GXXXXXXXXX PPD PMT INFO:3526007701\",\n          \"amount\": 26.68,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09-26-2025\",\n          \"description\": \"PLANET FITNESS B DES:RETURN FEE ID:PR2526800088472 INDN:Maria Acevedo CO ID:GXXXXXXXXX PPD PMT INFO:3526007701\",\n          \"amount\": 15.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09-29-2025\",\n          \"description\": \"PURCHASE 0927 TikTok Shop TikTo 6505840896 CA\",\n          \"amount\": 43.82,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09-29-2025\",\n          \"description\": \"CHECKCARD 0927 AV DESTINATIONS 4075692208 FL 82701595270900012832906 CKCD 4722 XXXXXXXXXXXX6053 XXXX XXXX XXXX 6053\",\n          \"amount\": 150.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09-29-2025\",\n          \"description\": \"PURCHASE 0927 TIKTOK SHOP 6505840896 CA\",\n          \"amount\": 35.99,\n          \"type\": \"Debit\"\n        }\n      ]\n    }\n  ]\n}\n```",
+    "token_count": {
+      "estimated_tokens": 713
+    },
+    "failure_reason": null
+  }
+}

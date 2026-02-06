@@ -1,0 +1,1198 @@
+{
+  "document_name": "Case39.pdf",
+  "pipeline_status": "completed",
+  "processing_metadata": {
+    "start_time": "2026-02-04T15:05:39.881232",
+    "end_time": "2026-02-04T15:08:45.113823",
+    "parsing_time_seconds": 107.551972,
+    "bsi_time_seconds": 77.665544,
+    "total_time_seconds": 185.217516
+  },
+  "parsing_agent_result": {
+    "agent_name": "parsing_agent",
+    "processing_status": "success",
+    "start_time": "2026-02-04T15:05:39.886292",
+    "end_time": "2026-02-04T15:07:27.437901",
+    "parsed_json": {
+      "bank_statement_information": {
+        "bank_name": "JPMorgan Chase Bank, N.A.",
+        "account_holder": "BACKWOODS BBQ AND EATS LLC",
+        "statement_start_date": "11-01-2025",
+        "statement_end_date": "11-28-2025",
+        "n_days": 28,
+        "n_month": [
+          11
+        ],
+        "business_address": "803 GEORGE ST TRAVERSE CITY MI 49686-4820"
+      },
+      "accounts": [
+        {
+          "account_number": "000000702036875",
+          "account_type": "Chase Business Complete Checking",
+          "account_summary": {
+            "beginning_balance": 107.64,
+            "ending_balance": 75.53,
+            "total_deposits": 7019.43,
+            "total_withdrawals": 7051.54,
+            "total_deposits_count": null,
+            "total_withdrawals_count": null,
+            "avg_daily_balance": null,
+            "overdraft_days": 1
+          },
+          "transactions": [
+            {
+              "date": "11/03/2025",
+              "description": "Real Time Transfer Recd From Aba/Contr Bnk-021000021 From: Square Ref: T36B5X7B7Jfx4th Info: Text- lid: 20251101021000021P1Brjpc07770015403 Recd: 17:10:28 Trn: 1860042305Gd Bref: 2B62F37B-05Cf-4F1A-8Fd1-8E544B7D8BC",
+              "amount": 413.26,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "11/03/2025",
+              "description": "Card Purchase With Pin 11/01 Olesons 608 Traverse City MI Card 7450",
+              "amount": 31.82,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "Card Purchase 11/01 Meijer Store #236 Williamsburg MI Card 7443",
+              "amount": 24.31,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "Card Purchase 11/01 Meijer Store #236 Williamsburg MI Card 7443",
+              "amount": 10.59,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "Card Purchase 11/01 Jets Pizza - MI-094 Traverse City MI Card 7450",
+              "amount": 30.97,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "Card Purchase 11/03 Walmart.Com 800-925-6278 AR Card 7450",
+              "amount": 41.94,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "Card Purchase With Pin 11/03 Gfs Store #0919 1781 Traverse City MI Card 7450",
+              "amount": 374.67,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/05/2025",
+              "description": "Card Purchase 11/04 Meijer.Com #236 877-363-4537 MI Card 7450",
+              "amount": 53.86,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/06/2025",
+              "description": "Real Time Transfer Recd From Aba/Contr Bnk-021000021 From: Square Ref: T38Athpbzfy8Y0Q Info: Text- lid: 20251106021000021P1Brjpc05070019106 Recd: 18:00:22 Trn: 1976792310Gd Bref: 78B2038F-D325-4104-8276-849F05E8218",
+              "amount": 474.03,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "11/06/2025",
+              "description": "Card Purchase With Pin 11/06 Meijer Store #23 4900 Williamsburg MI Card 7450",
+              "amount": 221.21,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/07/2025",
+              "description": "Real Time Transfer Recd From Aba/Contr Bnk-021000021 From: Square Ref: T30Nmckkyr0Vtkm Info: Text- lid: 20251107021000021P1Brjpc05880022093 Recd: 18:15:34 Trn: 2271072311Gb Bref: A9D27Baa-Db98-4Cbe-A280-E81Ffa701D6",
+              "amount": 536.53,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "11/07/2025",
+              "description": "Card Purchase With Pin 11/07 Olesons 608 Traverse City MI Card 7450",
+              "amount": 60.59,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/07/2025",
+              "description": "Card Purchase With Pin 11/07 Speedway 44432 Traverse City MI Card 7450",
+              "amount": 25.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Orig CO Name:Square Inc Descr:Sq251110 Sec:CCD ID:T336T1Vph7Kzhr1 T2191240 Trn: 3144171861Tc Orig ID:9424300002 Desc Date:251110 CO Entry Trace#:021000024171861 Eed:251110 Ind Ind Name:Tracy Smith",
+              "amount": 552.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Card Purchase 11/06 Gfs Store #0919 Traverse City MI Card 7443",
+              "amount": 85.29,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Card Purchase 11/08 Straighttalk*Airtime 877-430-2355 FL Card 7450",
+              "amount": 37.67,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Card Purchase 11/08 Dte Energy 800-4774747 MI Card 7450",
+              "amount": 45.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Card Purchase 11/09 Straighttalk*Airtime 877-430-2355 FL Card 7450",
+              "amount": 37.67,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Card Purchase 11/08 Meijer Store #236 Williamsburg MI Card 7450",
+              "amount": 304.09,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Card Purchase 11/09 Amazon Mktpl*Bt1lu86 Amzn.Com/Bill WA Card 7450",
+              "amount": 80.4,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Card Purchase 11/09 Amazon Mktpl*Bt8Ko2D Amzn.Com/Bill WA Card 7450",
+              "amount": 21.19,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Card Purchase With Pin 11/10 Gfs Store #0919 1781 Traverse City MI Card 7450",
+              "amount": 288.92,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Card Purchase 11/10 Amazon Mktpl*Bt0Fm0W Amzn.Com/Bill WA Card 7450",
+              "amount": 18.01,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Card Purchase 11/10 Iti*MI Sos Kiosk MI1 Traverse City MI Card 7450",
+              "amount": 174.17,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Card Purchase 11/11 L. Jiang'S Inc. Traverse City MI Card 7443",
+              "amount": 54.17,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Card Purchase 11/10 Olesons 608 Traverse City MI Card 7443",
+              "amount": 9.18,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Card Purchase 11/11 Olesons 608 Traverse City MI Card 7443",
+              "amount": 25.57,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/13/2025",
+              "description": "Orig CO Name:Square Inc Descr:Sq251113 Sec:CCD ID:T3Vvrxq1F9Av7Gh T2191772 Trn: 3175931861Tc Orig ID:9424300002 Desc Date:251113 CO Entry Trace#:021000025931861 Eed:251113 Ind Ind Name:Tracy Smith",
+              "amount": 359.78,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "11/13/2025",
+              "description": "Card Purchase 11/13 Walmart.Com 800-925-6278 AR Card 7450",
+              "amount": 16.45,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/13/2025",
+              "description": "Card Purchase 11/13 Straighttalk*Airtime 877-430-2355 FL Card 7450",
+              "amount": 86.07,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/13/2025",
+              "description": "Card Purchase With Pin 11/13 Meijer Store #23 4900 Williamsburg MI Card 7450",
+              "amount": 246.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/14/2025",
+              "description": "Real Time Transfer Recd From Aba/Contr Bnk-021000021 From: Square Ref: T3Rm1G9Vd8Byxj4 Info: Text- lid: 20251114021000021P1Brjpc08190025641 Recd: 17:52:23 Trn: 2227392318GA Bref: Dfd4Cc25-C811-4073-B289-E9Db51F938E",
+              "amount": 596.09,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "11/14/2025",
+              "description": "Orig CO Name:Square Inc Descr:Sq251114 Sec:CCD ID:T36Ht0Phhj6449X T2191940 Trn: 3183992227Tc Orig ID:9424300002 Desc Date:251114 CO Entry Trace#:021000023992227 Eed:251114 Ind Ind Name:Tracy Smith",
+              "amount": 302.64,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "11/14/2025",
+              "description": "11/14 Online Transfer 26957828066 To Johnk ##1453 Transaction #: 26957828066",
+              "amount": 110.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "Orig CO Name:Square Inc Descr:Sq251117 Sec:CCD ID:T3Dkmsh3Cb53N29 T2192238 Trn: 3211582483Tc Orig ID:9424300002 Desc Date:251117 CO Entry Trace#:021000021582483 Eed:251117 Ind Ind Name:Tracy Smith",
+              "amount": 641.11,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "11/17/2025",
+              "description": "Card Purchase 11/14 The Webstaurant Store 717-392-7472 PA Card 7450",
+              "amount": 37.7,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "Card Purchase 11/14 Meijer Store #236 Williamsburg MI Card 7450",
+              "amount": 137.85,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "Card Purchase 11/14 Ace Hdwe Acme MI Card 7450",
+              "amount": 10.99,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "Card Purchase 11/15 Meijer Store #236 Williamsburg MI Card 7443",
+              "amount": 23.56,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "Card Purchase With Pin 11/17 Shell Service Station Acme MI Card 7450",
+              "amount": 25.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/18/2025",
+              "description": "Orig CO Name:Square Inc Descr:Sq251118 Sec:CCD ID:T33Qd57J23Np9Mx T2192411 Trn: 3220212914Tc Orig ID:9424300002 Desc Date:251118 CO Entry Trace#:021000020212914 Eed:251118 Ind Ind Name:Tracy Smith",
+              "amount": 184.35,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "11/18/2025",
+              "description": "Card Purchase 11/17 Amazon Mktpl*B05Xn8F Amzn.Com/Bill WA Card 7450",
+              "amount": 9.99,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/19/2025",
+              "description": "Card Purchase With Pin 11/19 Gfs Store #0919 Traverse City MI Card 7450",
+              "amount": 75.03,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/20/2025",
+              "description": "ATM Cash Deposit 11/20 995 W South Airport Rd Traverse City MI Card 7450",
+              "amount": 520.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/20/2025",
+              "description": "Orig CO Name:Square Inc Descr:Sq251120 Sec:CCD ID:T3Rrhse4Vwd7Vtv T2192793 Trn: 3244153231Tc Orig ID:9424300002 Desc Date:251120 CO Entry Trace#:021000024153231 Eed:251120 Ind Ind Name:Tracy Smith",
+              "amount": 572.98,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "11/20/2025",
+              "description": "Card Purchase 11/18 Gjs Pizza & Market Traverse City MI Card 7443",
+              "amount": 8.01,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/20/2025",
+              "description": "Card Purchase 11/20 Amazon Mktpl*B06Jw01 Amzn.Com/Bill WA Card 7450",
+              "amount": 42.39,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/20/2025",
+              "description": "Card Purchase 11/19 Shell Oil 10011684007 Williamsburg MI Card 7443",
+              "amount": 43.13,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/20/2025",
+              "description": "Card Purchase With Pin 11/20 Meijer Store #23 4900 Williamsburg MI Card 7450",
+              "amount": 66.3,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/20/2025",
+              "description": "11/20 Online Realtime Transfer To Tkay 8535 Transaction#: 27026735151 Reference#: 9026735151Rx",
+              "amount": 1800.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "11/21/2025",
+              "description": "Orig CO Name:Square Inc Descr:Sq251121 Sec:CCD ID:T3D4Ckty3Sg5591 T2193006 Trn: 3257448690Tc Orig ID:9424300002 Desc Date:251121 CO Entry Trace#:021000027448690 Eed:251121 Ind Ind Name:Tracy Smith",
+              "amount": 559.78,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "11/21/2025",
+              "description": "Card Purchase 11/20 Jets Pizza - MI-094 E 859-689-9800 MI Card 7450",
+              "amount": 42.41,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/21/2025",
+              "description": "Card Purchase With Pin 11/21 Olesons 608 Traverse City MI Card 7450",
+              "amount": 32.05,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/21/2025",
+              "description": "Card Purchase With Pin 11/20 Bathandbodyworks.Com Columbus OH Card 7450",
+              "amount": 53.05,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Orig CO Name:Square Inc Descr:Sq251124 Sec:CCD ID:T3K9M7Mjrdhzenq T2193298 Trn: 3281611006Tc Orig ID:9424300002 Desc Date:251124 CO Entry Trace#:021000021611006 Eed:251124 Ind Ind Name:Tracy Smith",
+              "amount": 570.38,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Orig CO Name:Square Inc Descr:Sq251124 Sec:CCD ID:T3Cwqex9Y10Gkva T2193298 Trn: 3281611251Tc Orig ID:9424300002 Desc Date:251124 CO Entry Trace#:021000021611251 Eed:251124 Ind Ind Name:Tracy Smith",
+              "amount": 540.8,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Recurring Card Purchase 11/21 Smart Start 586-9543289 MI Card 7450",
+              "amount": 265.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Card Purchase 11/21 Amazon Mktpl*B07Yr2Q Amzn.Com/Bill WA Card 7450",
+              "amount": 54.38,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Card Purchase 11/23 Amazon Mktpl*B213X2L Amzn.Com/Bill WA Card 7450",
+              "amount": 19.51,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Card Purchase 11/22 Amazon Mktpl*B091C9I Amzn.Com/Bill WA Card 7450",
+              "amount": 126.9,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Card Purchase 11/21 Cherryland Electric Cecelec.Smart MI Card 7450",
+              "amount": 131.41,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Card Purchase With Pin 11/22 Lowe's #1609 Traverse City MI Card 7450",
+              "amount": 93.72,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Card Purchase With Pin 11/22 Meijer Store #03 395 Traverse City MI Card 7450",
+              "amount": 154.53,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Card Purchase With Pin 11/22 Meijer Store #03 395 Traverse City MI Card 7450",
+              "amount": 3.17,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Recurring Card Purchase 11/22 Netflix.Com Netflix.Com CA Card 7450",
+              "amount": 24.99,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Card Purchase 11/23 Amazon Mktpl*B07793U Amzn.Com/Bill WA Card 7450",
+              "amount": 50.87,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Card Purchase 11/24 Amazon Mktpl*B21X13A Amzn.Com/Bill WA Card 7450",
+              "amount": 32.85,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Card Purchase With Pin 11/24 Meijer Store #23 4900 Williamsburg MI Card 7450",
+              "amount": 495.7,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "11/24 Online Transfer 27072949118 To Johnk ##1453 Transaction #: 27072949118",
+              "amount": 110.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "11/25/2025",
+              "description": "Card Purchase 11/24 Amazon Mktpl*B29Li20 Amzn.Com/Bill WA Card 7450",
+              "amount": 16.7,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/25/2025",
+              "description": "Card Purchase 11/24 Amazon Mktpl*B23Zz1L Amzn.Com/Bill WA Card 7450",
+              "amount": 20.58,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/25/2025",
+              "description": "Card Purchase 11/24 Amazon Mktpl*B247R80 Amzn.Com/Bill WA Card 7450",
+              "amount": 34.23,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/25/2025",
+              "description": "Card Purchase 11/24 Shell Oil 10011684007 Williamsburg MI Card 7450",
+              "amount": 50.95,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/26/2025",
+              "description": "Real Time Transfer Recd From Aba/Contr Bnk-021000021 From: Square Ref: T3Zj4Bbtcqgct9Y Info: Text- lid: 20251126021000021P1Brjpc07980014554 Recd: 17:06:10 Trn: 1738592330Ge Bref: 938E109F-6F2E-434C-867D-A5Bedd98B43",
+              "amount": 195.7,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "11/26/2025",
+              "description": "Card Purchase 11/25 Dte Energy 800-4774747 MI Card 7450",
+              "amount": 49.57,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/26/2025",
+              "description": "Card Purchase 11/25 Olesons 608 Traverse City MI Card 7443",
+              "amount": 88.21,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/26/2025",
+              "description": "Card Purchase With Pin 11/26 Olesons 608 Traverse City MI Card 7450",
+              "amount": 119.75,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/28/2025",
+              "description": "Card Purchase 11/26 Sp Gruntstyle Gruntstyle.CO TX Card 7450",
+              "amount": 94.1,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/28/2025",
+              "description": "Card Purchase 11/26 Paypal *Quoc Du 4029357733 Card 7450",
+              "amount": 28.29,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/28/2025",
+              "description": "Card Purchase 11/26 Amazon Mktpl*B24109U Amzn.Com/Bill WA Card 7450",
+              "amount": 28.61,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/28/2025",
+              "description": "Card Purchase With Pin 11/28 Olesons 608 Traverse City MI Card 7450",
+              "amount": 20.25,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/28/2025",
+              "description": "Monthly Service Fee",
+              "amount": 15.0,
+              "type": "Debit",
+              "category": "Service Charges/Fees"
+            }
+          ]
+        }
+      ]
+    },
+    "raw_output": "```json\n{\n  \"bank_statement_information\": {\n    \"bank_name\": \"JPMorgan Chase Bank, N.A.\",\n    \"account_holder\": \"BACKWOODS BBQ AND EATS LLC\",\n    \"statement_start_date\": \"11-01-2025\",\n    \"statement_end_date\": \"11-28-2025\",\n    \"n_days\": 28,\n    \"n_month\": [\n      11\n    ],\n    \"business_address\": \"803 GEORGE ST TRAVERSE CITY MI 49686-4820\"\n  },\n  \"accounts\": [\n    {\n      \"account_number\": \"000000702036875\",\n      \"account_type\": \"Chase Business Complete Checking\",\n      \"account_summary\": {\n        \"beginning_balance\": 107.64,\n        \"ending_balance\": 75.53,\n        \"total_deposits\": 7019.43,\n        \"total_withdrawals\": 7051.54,\n        \"total_deposits_count\": null,\n        \"total_withdrawals_count\": null,\n        \"avg_daily_balance\": null,\n        \"overdraft_days\": 1\n      },\n      \"transactions\": [\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"Real Time Transfer Recd From Aba/Contr Bnk-021000021 From: Square Ref: T36B5X7B7Jfx4th Info: Text- lid: 20251101021000021P1Brjpc07770015403 Recd: 17:10:28 Trn: 1860042305Gd Bref: 2B62F37B-05Cf-4F1A-8Fd1-8E544B7D8BC\",\n          \"amount\": 413.26,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"Card Purchase With Pin 11/01 Olesons 608 Traverse City MI Card 7450\",\n          \"amount\": 31.82,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"Card Purchase 11/01 Meijer Store #236 Williamsburg MI Card 7443\",\n          \"amount\": 24.31,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"Card Purchase 11/01 Meijer Store #236 Williamsburg MI Card 7443\",\n          \"amount\": 10.59,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"Card Purchase 11/01 Jets Pizza - MI-094 Traverse City MI Card 7450\",\n          \"amount\": 30.97,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"Card Purchase 11/03 Walmart.Com 800-925-6278 AR Card 7450\",\n          \"amount\": 41.94,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"Card Purchase With Pin 11/03 Gfs Store #0919 1781 Traverse City MI Card 7450\",\n          \"amount\": 374.67,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/05/2025\",\n          \"description\": \"Card Purchase 11/04 Meijer.Com #236 877-363-4537 MI Card 7450\",\n          \"amount\": 53.86,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/06/2025\",\n          \"description\": \"Real Time Transfer Recd From Aba/Contr Bnk-021000021 From: Square Ref: T38Athpbzfy8Y0Q Info: Text- lid: 20251106021000021P1Brjpc05070019106 Recd: 18:00:22 Trn: 1976792310Gd Bref: 78B2038F-D325-4104-8276-849F05E8218\",\n          \"amount\": 474.03,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"11/06/2025\",\n          \"description\": \"Card Purchase With Pin 11/06 Meijer Store #23 4900 Williamsburg MI Card 7450\",\n          \"amount\": 221.21,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"description\": \"Real Time Transfer Recd From Aba/Contr Bnk-021000021 From: Square Ref: T30Nmckkyr0Vtkm Info: Text- lid: 20251107021000021P1Brjpc05880022093 Recd: 18:15:34 Trn: 2271072311Gb Bref: A9D27Baa-Db98-4Cbe-A280-E81Ffa701D6\",\n          \"amount\": 536.53,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"description\": \"Card Purchase With Pin 11/07 Olesons 608 Traverse City MI Card 7450\",\n          \"amount\": 60.59,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"description\": \"Card Purchase With Pin 11/07 Speedway 44432 Traverse City MI Card 7450\",\n          \"amount\": 25.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Orig CO Name:Square Inc Descr:Sq251110 Sec:CCD ID:T336T1Vph7Kzhr1 T2191240 Trn: 3144171861Tc Orig ID:9424300002 Desc Date:251110 CO Entry Trace#:021000024171861 Eed:251110 Ind Ind Name:Tracy Smith\",\n          \"amount\": 552.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Card Purchase 11/06 Gfs Store #0919 Traverse City MI Card 7443\",\n          \"amount\": 85.29,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Card Purchase 11/08 Straighttalk*Airtime 877-430-2355 FL Card 7450\",\n          \"amount\": 37.67,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Card Purchase 11/08 Dte Energy 800-4774747 MI Card 7450\",\n          \"amount\": 45.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Card Purchase 11/09 Straighttalk*Airtime 877-430-2355 FL Card 7450\",\n          \"amount\": 37.67,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Card Purchase 11/08 Meijer Store #236 Williamsburg MI Card 7450\",\n          \"amount\": 304.09,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Card Purchase 11/09 Amazon Mktpl*Bt1lu86 Amzn.Com/Bill WA Card 7450\",\n          \"amount\": 80.4,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Card Purchase 11/09 Amazon Mktpl*Bt8Ko2D Amzn.Com/Bill WA Card 7450\",\n          \"amount\": 21.19,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Card Purchase With Pin 11/10 Gfs Store #0919 1781 Traverse City MI Card 7450\",\n          \"amount\": 288.92,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Card Purchase 11/10 Amazon Mktpl*Bt0Fm0W Amzn.Com/Bill WA Card 7450\",\n          \"amount\": 18.01,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Card Purchase 11/10 Iti*MI Sos Kiosk MI1 Traverse City MI Card 7450\",\n          \"amount\": 174.17,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Card Purchase 11/11 L. Jiang'S Inc. Traverse City MI Card 7443\",\n          \"amount\": 54.17,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Card Purchase 11/10 Olesons 608 Traverse City MI Card 7443\",\n          \"amount\": 9.18,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Card Purchase 11/11 Olesons 608 Traverse City MI Card 7443\",\n          \"amount\": 25.57,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/13/2025\",\n          \"description\": \"Orig CO Name:Square Inc Descr:Sq251113 Sec:CCD ID:T3Vvrxq1F9Av7Gh T2191772 Trn: 3175931861Tc Orig ID:9424300002 Desc Date:251113 CO Entry Trace#:021000025931861 Eed:251113 Ind Ind Name:Tracy Smith\",\n          \"amount\": 359.78,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"11/13/2025\",\n          \"description\": \"Card Purchase 11/13 Walmart.Com 800-925-6278 AR Card 7450\",\n          \"amount\": 16.45,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/13/2025\",\n          \"description\": \"Card Purchase 11/13 Straighttalk*Airtime 877-430-2355 FL Card 7450\",\n          \"amount\": 86.07,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/13/2025\",\n          \"description\": \"Card Purchase With Pin 11/13 Meijer Store #23 4900 Williamsburg MI Card 7450\",\n          \"amount\": 246.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/14/2025\",\n          \"description\": \"Real Time Transfer Recd From Aba/Contr Bnk-021000021 From: Square Ref: T3Rm1G9Vd8Byxj4 Info: Text- lid: 20251114021000021P1Brjpc08190025641 Recd: 17:52:23 Trn: 2227392318GA Bref: Dfd4Cc25-C811-4073-B289-E9Db51F938E\",\n          \"amount\": 596.09,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"11/14/2025\",\n          \"description\": \"Orig CO Name:Square Inc Descr:Sq251114 Sec:CCD ID:T36Ht0Phhj6449X T2191940 Trn: 3183992227Tc Orig ID:9424300002 Desc Date:251114 CO Entry Trace#:021000023992227 Eed:251114 Ind Ind Name:Tracy Smith\",\n          \"amount\": 302.64,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"11/14/2025\",\n          \"description\": \"11/14 Online Transfer 26957828066 To Johnk ##1453 Transaction #: 26957828066\",\n          \"amount\": 110.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"Orig CO Name:Square Inc Descr:Sq251117 Sec:CCD ID:T3Dkmsh3Cb53N29 T2192238 Trn: 3211582483Tc Orig ID:9424300002 Desc Date:251117 CO Entry Trace#:021000021582483 Eed:251117 Ind Ind Name:Tracy Smith\",\n          \"amount\": 641.11,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"Card Purchase 11/14 The Webstaurant Store 717-392-7472 PA Card 7450\",\n          \"amount\": 37.7,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"Card Purchase 11/14 Meijer Store #236 Williamsburg MI Card 7450\",\n          \"amount\": 137.85,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"Card Purchase 11/14 Ace Hdwe Acme MI Card 7450\",\n          \"amount\": 10.99,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"Card Purchase 11/15 Meijer Store #236 Williamsburg MI Card 7443\",\n          \"amount\": 23.56,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"Card Purchase With Pin 11/17 Shell Service Station Acme MI Card 7450\",\n          \"amount\": 25.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"description\": \"Orig CO Name:Square Inc Descr:Sq251118 Sec:CCD ID:T33Qd57J23Np9Mx T2192411 Trn: 3220212914Tc Orig ID:9424300002 Desc Date:251118 CO Entry Trace#:021000020212914 Eed:251118 Ind Ind Name:Tracy Smith\",\n          \"amount\": 184.35,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"description\": \"Card Purchase 11/17 Amazon Mktpl*B05Xn8F Amzn.Com/Bill WA Card 7450\",\n          \"amount\": 9.99,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/19/2025\",\n          \"description\": \"Card Purchase With Pin 11/19 Gfs Store #0919 Traverse City MI Card 7450\",\n          \"amount\": 75.03,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"description\": \"ATM Cash Deposit 11/20 995 W South Airport Rd Traverse City MI Card 7450\",\n          \"amount\": 520.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"description\": \"Orig CO Name:Square Inc Descr:Sq251120 Sec:CCD ID:T3Rrhse4Vwd7Vtv T2192793 Trn: 3244153231Tc Orig ID:9424300002 Desc Date:251120 CO Entry Trace#:021000024153231 Eed:251120 Ind Ind Name:Tracy Smith\",\n          \"amount\": 572.98,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"description\": \"Card Purchase 11/18 Gjs Pizza & Market Traverse City MI Card 7443\",\n          \"amount\": 8.01,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"description\": \"Card Purchase 11/20 Amazon Mktpl*B06Jw01 Amzn.Com/Bill WA Card 7450\",\n          \"amount\": 42.39,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"description\": \"Card Purchase 11/19 Shell Oil 10011684007 Williamsburg MI Card 7443\",\n          \"amount\": 43.13,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"description\": \"Card Purchase With Pin 11/20 Meijer Store #23 4900 Williamsburg MI Card 7450\",\n          \"amount\": 66.3,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"description\": \"11/20 Online Realtime Transfer To Tkay 8535 Transaction#: 27026735151 Reference#: 9026735151Rx\",\n          \"amount\": 1800.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"description\": \"Orig CO Name:Square Inc Descr:Sq251121 Sec:CCD ID:T3D4Ckty3Sg5591 T2193006 Trn: 3257448690Tc Orig ID:9424300002 Desc Date:251121 CO Entry Trace#:021000027448690 Eed:251121 Ind Ind Name:Tracy Smith\",\n          \"amount\": 559.78,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"description\": \"Card Purchase 11/20 Jets Pizza - MI-094 E 859-689-9800 MI Card 7450\",\n          \"amount\": 42.41,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"description\": \"Card Purchase With Pin 11/21 Olesons 608 Traverse City MI Card 7450\",\n          \"amount\": 32.05,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"description\": \"Card Purchase With Pin 11/20 Bathandbodyworks.Com Columbus OH Card 7450\",\n          \"amount\": 53.05,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Orig CO Name:Square Inc Descr:Sq251124 Sec:CCD ID:T3K9M7Mjrdhzenq T2193298 Trn: 3281611006Tc Orig ID:9424300002 Desc Date:251124 CO Entry Trace#:021000021611006 Eed:251124 Ind Ind Name:Tracy Smith\",\n          \"amount\": 570.38,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Orig CO Name:Square Inc Descr:Sq251124 Sec:CCD ID:T3Cwqex9Y10Gkva T2193298 Trn: 3281611251Tc Orig ID:9424300002 Desc Date:251124 CO Entry Trace#:021000021611251 Eed:251124 Ind Ind Name:Tracy Smith\",\n          \"amount\": 540.8,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Recurring Card Purchase 11/21 Smart Start 586-9543289 MI Card 7450\",\n          \"amount\": 265.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Card Purchase 11/21 Amazon Mktpl*B07Yr2Q Amzn.Com/Bill WA Card 7450\",\n          \"amount\": 54.38,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Card Purchase 11/23 Amazon Mktpl*B213X2L Amzn.Com/Bill WA Card 7450\",\n          \"amount\": 19.51,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Card Purchase 11/22 Amazon Mktpl*B091C9I Amzn.Com/Bill WA Card 7450\",\n          \"amount\": 126.9,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Card Purchase 11/21 Cherryland Electric Cecelec.Smart MI Card 7450\",\n          \"amount\": 131.41,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Card Purchase With Pin 11/22 Lowe's #1609 Traverse City MI Card 7450\",\n          \"amount\": 93.72,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Card Purchase With Pin 11/22 Meijer Store #03 395 Traverse City MI Card 7450\",\n          \"amount\": 154.53,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Card Purchase With Pin 11/22 Meijer Store #03 395 Traverse City MI Card 7450\",\n          \"amount\": 3.17,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Recurring Card Purchase 11/22 Netflix.Com Netflix.Com CA Card 7450\",\n          \"amount\": 24.99,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Card Purchase 11/23 Amazon Mktpl*B07793U Amzn.Com/Bill WA Card 7450\",\n          \"amount\": 50.87,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Card Purchase 11/24 Amazon Mktpl*B21X13A Amzn.Com/Bill WA Card 7450\",\n          \"amount\": 32.85,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Card Purchase With Pin 11/24 Meijer Store #23 4900 Williamsburg MI Card 7450\",\n          \"amount\": 495.7,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"11/24 Online Transfer 27072949118 To Johnk ##1453 Transaction #: 27072949118\",\n          \"amount\": 110.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/25/2025\",\n          \"description\": \"Card Purchase 11/24 Amazon Mktpl*B29Li20 Amzn.Com/Bill WA Card 7450\",\n          \"amount\": 16.7,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/25/2025\",\n          \"description\": \"Card Purchase 11/24 Amazon Mktpl*B23Zz1L Amzn.Com/Bill WA Card 7450\",\n          \"amount\": 20.58,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/25/2025\",\n          \"description\": \"Card Purchase 11/24 Amazon Mktpl*B247R80 Amzn.Com/Bill WA Card 7450\",\n          \"amount\": 34.23,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/25/2025\",\n          \"description\": \"Card Purchase 11/24 Shell Oil 10011684007 Williamsburg MI Card 7450\",\n          \"amount\": 50.95,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/26/2025\",\n          \"description\": \"Real Time Transfer Recd From Aba/Contr Bnk-021000021 From: Square Ref: T3Zj4Bbtcqgct9Y Info: Text- lid: 20251126021000021P1Brjpc07980014554 Recd: 17:06:10 Trn: 1738592330Ge Bref: 938E109F-6F2E-434C-867D-A5Bedd98B43\",\n          \"amount\": 195.7,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"11/26/2025\",\n          \"description\": \"Card Purchase 11/25 Dte Energy 800-4774747 MI Card 7450\",\n          \"amount\": 49.57,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/26/2025\",\n          \"description\": \"Card Purchase 11/25 Olesons 608 Traverse City MI Card 7443\",\n          \"amount\": 88.21,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/26/2025\",\n          \"description\": \"Card Purchase With Pin 11/26 Olesons 608 Traverse City MI Card 7450\",\n          \"amount\": 119.75,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/28/2025\",\n          \"description\": \"Card Purchase 11/26 Sp Gruntstyle Gruntstyle.CO TX Card 7450\",\n          \"amount\": 94.1,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/28/2025\",\n          \"description\": \"Card Purchase 11/26 Paypal *Quoc Du 4029357733 Card 7450\",\n          \"amount\": 28.29,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/28/2025\",\n          \"description\": \"Card Purchase 11/26 Amazon Mktpl*B24109U Amzn.Com/Bill WA Card 7450\",\n          \"amount\": 28.61,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/28/2025\",\n          \"description\": \"Card Purchase With Pin 11/28 Olesons 608 Traverse City MI Card 7450\",\n          \"amount\": 20.25,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/28/2025\",\n          \"description\": \"Monthly Service Fee\",\n          \"amount\": 15.0,\n          \"type\": \"Debit\",\n          \"category\": \"Service Charges/Fees\"\n        }\n      ]\n    }\n  ]\n}\n```",
+    "token_count": {
+      "estimated_tokens": 2105
+    },
+    "failure_reason": null
+  },
+  "bsi_analyzer_result": {
+    "agent_name": "v1_bsi_analyzer_agent",
+    "processing_status": "success",
+    "start_time": "2026-02-04T15:07:27.447820",
+    "end_time": "2026-02-04T15:08:45.113082",
+    "parsed_json": {
+      "accounts": [
+        {
+          "account_number": "000000702036875",
+          "account_type": "Chase Business Complete Checking",
+          "mca_deposit": [],
+          "mca_withdrawal": [],
+          "returned_items": [],
+          "overdrafts": [],
+          "service_charges": [
+            {
+              "date": "11/28/2025",
+              "description": "Monthly Service Fee",
+              "amount": 15.0,
+              "type": "Debit"
+            }
+          ],
+          "atm_cash_withdrawal": [],
+          "internal_transfer_deposit": [],
+          "other_transfer_deposit": [
+            {
+              "date": "11/03/2025",
+              "description": "Real Time Transfer Recd From Aba/Contr Bnk-021000021 From: Square Ref: T36B5X7B7Jfx4th Info: Text- lid: 20251101021000021P1Brjpc07770015403 Recd: 17:10:28 Trn: 1860042305Gd Bref: 2B62F37B-05Cf-4F1A-8Fd1-8E544B7D8BC",
+              "amount": 413.26,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/06/2025",
+              "description": "Real Time Transfer Recd From Aba/Contr Bnk-021000021 From: Square Ref: T38Athpbzfy8Y0Q Info: Text- lid: 20251106021000021P1Brjpc05070019106 Recd: 18:00:22 Trn: 1976792310Gd Bref: 78B2038F-D325-4104-8276-849F05E8218",
+              "amount": 474.03,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/07/2025",
+              "description": "Real Time Transfer Recd From Aba/Contr Bnk-021000021 From: Square Ref: T30Nmckkyr0Vtkm Info: Text- lid: 20251107021000021P1Brjpc05880022093 Recd: 18:15:34 Trn: 2271072311Gb Bref: A9D27Baa-Db98-4Cbe-A280-E81Ffa701D6",
+              "amount": 536.53,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Orig CO Name:Square Inc Descr:Sq251110 Sec:CCD ID:T336T1Vph7Kzhr1 T2191240 Trn: 3144171861Tc Orig ID:9424300002 Desc Date:251110 CO Entry Trace#:021000024171861 Eed:251110 Ind Ind Name:Tracy Smith",
+              "amount": 552.0,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/13/2025",
+              "description": "Orig CO Name:Square Inc Descr:Sq251113 Sec:CCD ID:T3Vvrxq1F9Av7Gh T2191772 Trn: 3175931861Tc Orig ID:9424300002 Desc Date:251113 CO Entry Trace#:021000025931861 Eed:251113 Ind Ind Name:Tracy Smith",
+              "amount": 359.78,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/14/2025",
+              "description": "Real Time Transfer Recd From Aba/Contr Bnk-021000021 From: Square Ref: T3Rm1G9Vd8Byxj4 Info: Text- lid: 20251114021000021P1Brjpc08190025641 Recd: 17:52:23 Trn: 2227392318GA Bref: Dfd4Cc25-C811-4073-B289-E9Db51F938E",
+              "amount": 596.09,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/14/2025",
+              "description": "Orig CO Name:Square Inc Descr:Sq251114 Sec:CCD ID:T36Ht0Phhj6449X T2191940 Trn: 3183992227Tc Orig ID:9424300002 Desc Date:251114 CO Entry Trace#:021000023992227 Eed:251114 Ind Ind Name:Tracy Smith",
+              "amount": 302.64,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/17/2025",
+              "description": "Orig CO Name:Square Inc Descr:Sq251117 Sec:CCD ID:T3Dkmsh3Cb53N29 T2192238 Trn: 3211582483Tc Orig ID:9424300002 Desc Date:251117 CO Entry Trace#:021000021582483 Eed:251117 Ind Ind Name:Tracy Smith",
+              "amount": 641.11,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/18/2025",
+              "description": "Orig CO Name:Square Inc Descr:Sq251118 Sec:CCD ID:T33Qd57J23Np9Mx T2192411 Trn: 3220212914Tc Orig ID:9424300002 Desc Date:251118 CO Entry Trace#:021000020212914 Eed:251118 Ind Ind Name:Tracy Smith",
+              "amount": 184.35,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/20/2025",
+              "description": "Orig CO Name:Square Inc Descr:Sq251120 Sec:CCD ID:T3Rrhse4Vwd7Vtv T2192793 Trn: 3244153231Tc Orig ID:9424300002 Desc Date:251120 CO Entry Trace#:021000024153231 Eed:251120 Ind Ind Name:Tracy Smith",
+              "amount": 572.98,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/21/2025",
+              "description": "Orig CO Name:Square Inc Descr:Sq251121 Sec:CCD ID:T3D4Ckty3Sg5591 T2193006 Trn: 3257448690Tc Orig ID:9424300002 Desc Date:251121 CO Entry Trace#:021000027448690 Eed:251121 Ind Ind Name:Tracy Smith",
+              "amount": 559.78,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Orig CO Name:Square Inc Descr:Sq251124 Sec:CCD ID:T3K9M7Mjrdhzenq T2193298 Trn: 3281611006Tc Orig ID:9424300002 Desc Date:251124 CO Entry Trace#:021000021611006 Eed:251124 Ind Ind Name:Tracy Smith",
+              "amount": 570.38,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Orig CO Name:Square Inc Descr:Sq251124 Sec:CCD ID:T3Cwqex9Y10Gkva T2193298 Trn: 3281611251Tc Orig ID:9424300002 Desc Date:251124 CO Entry Trace#:021000021611251 Eed:251124 Ind Ind Name:Tracy Smith",
+              "amount": 540.8,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/26/2025",
+              "description": "Real Time Transfer Recd From Aba/Contr Bnk-021000021 From: Square Ref: T3Zj4Bbtcqgct9Y Info: Text- lid: 20251126021000021P1Brjpc07980014554 Recd: 17:06:10 Trn: 1738592330Ge Bref: 938E109F-6F2E-434C-867D-A5Bedd98B43",
+              "amount": 195.7,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            }
+          ],
+          "internal_transfer_withdrawal": [
+            {
+              "date": "11/14/2025",
+              "description": "11/14 Online Transfer 26957828066 To Johnk ##1453 Transaction #: 26957828066",
+              "amount": 110.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/20/2025",
+              "description": "11/20 Online Realtime Transfer To Tkay 8535 Transaction#: 27026735151 Reference#: 9026735151Rx",
+              "amount": 1800.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "11/24 Online Transfer 27072949118 To Johnk ##1453 Transaction #: 27072949118",
+              "amount": 110.0,
+              "type": "Debit"
+            }
+          ],
+          "other_transfer_withdrawal": [],
+          "standard_deposit": [
+            {
+              "date": "11/20/2025",
+              "description": "ATM Cash Deposit 11/20 995 W South Airport Rd Traverse City MI Card 7450",
+              "amount": 520.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            }
+          ],
+          "standard_withdrawal": [
+            {
+              "date": "11/03/2025",
+              "description": "Card Purchase With Pin 11/01 Olesons 608 Traverse City MI Card 7450",
+              "amount": 31.82,
+              "type": "Debit"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "Card Purchase 11/01 Meijer Store #236 Williamsburg MI Card 7443",
+              "amount": 24.31,
+              "type": "Debit"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "Card Purchase 11/01 Meijer Store #236 Williamsburg MI Card 7443",
+              "amount": 10.59,
+              "type": "Debit"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "Card Purchase 11/01 Jets Pizza - MI-094 Traverse City MI Card 7450",
+              "amount": 30.97,
+              "type": "Debit"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "Card Purchase 11/03 Walmart.Com 800-925-6278 AR Card 7450",
+              "amount": 41.94,
+              "type": "Debit"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "Card Purchase With Pin 11/03 Gfs Store #0919 1781 Traverse City MI Card 7450",
+              "amount": 374.67,
+              "type": "Debit"
+            },
+            {
+              "date": "11/05/2025",
+              "description": "Card Purchase 11/04 Meijer.Com #236 877-363-4537 MI Card 7450",
+              "amount": 53.86,
+              "type": "Debit"
+            },
+            {
+              "date": "11/06/2025",
+              "description": "Card Purchase With Pin 11/06 Meijer Store #23 4900 Williamsburg MI Card 7450",
+              "amount": 221.21,
+              "type": "Debit"
+            },
+            {
+              "date": "11/07/2025",
+              "description": "Card Purchase With Pin 11/07 Olesons 608 Traverse City MI Card 7450",
+              "amount": 60.59,
+              "type": "Debit"
+            },
+            {
+              "date": "11/07/2025",
+              "description": "Card Purchase With Pin 11/07 Speedway 44432 Traverse City MI Card 7450",
+              "amount": 25.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Card Purchase 11/06 Gfs Store #0919 Traverse City MI Card 7443",
+              "amount": 85.29,
+              "type": "Debit"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Card Purchase 11/08 Straighttalk*Airtime 877-430-2355 FL Card 7450",
+              "amount": 37.67,
+              "type": "Debit"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Card Purchase 11/08 Dte Energy 800-4774747 MI Card 7450",
+              "amount": 45.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Card Purchase 11/09 Straighttalk*Airtime 877-430-2355 FL Card 7450",
+              "amount": 37.67,
+              "type": "Debit"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Card Purchase 11/08 Meijer Store #236 Williamsburg MI Card 7450",
+              "amount": 304.09,
+              "type": "Debit"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Card Purchase 11/09 Amazon Mktpl*Bt1lu86 Amzn.Com/Bill WA Card 7450",
+              "amount": 80.4,
+              "type": "Debit"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Card Purchase 11/09 Amazon Mktpl*Bt8Ko2D Amzn.Com/Bill WA Card 7450",
+              "amount": 21.19,
+              "type": "Debit"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Card Purchase With Pin 11/10 Gfs Store #0919 1781 Traverse City MI Card 7450",
+              "amount": 288.92,
+              "type": "Debit"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Card Purchase 11/10 Amazon Mktpl*Bt0Fm0W Amzn.Com/Bill WA Card 7450",
+              "amount": 18.01,
+              "type": "Debit"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Card Purchase 11/10 Iti*MI Sos Kiosk MI1 Traverse City MI Card 7450",
+              "amount": 174.17,
+              "type": "Debit"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Card Purchase 11/11 L. Jiang'S Inc. Traverse City MI Card 7443",
+              "amount": 54.17,
+              "type": "Debit"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Card Purchase 11/10 Olesons 608 Traverse City MI Card 7443",
+              "amount": 9.18,
+              "type": "Debit"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Card Purchase 11/11 Olesons 608 Traverse City MI Card 7443",
+              "amount": 25.57,
+              "type": "Debit"
+            },
+            {
+              "date": "11/13/2025",
+              "description": "Card Purchase 11/13 Walmart.Com 800-925-6278 AR Card 7450",
+              "amount": 16.45,
+              "type": "Debit"
+            },
+            {
+              "date": "11/13/2025",
+              "description": "Card Purchase 11/13 Straighttalk*Airtime 877-430-2355 FL Card 7450",
+              "amount": 86.07,
+              "type": "Debit"
+            },
+            {
+              "date": "11/13/2025",
+              "description": "Card Purchase With Pin 11/13 Meijer Store #23 4900 Williamsburg MI Card 7450",
+              "amount": 246.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "Card Purchase 11/14 The Webstaurant Store 717-392-7472 PA Card 7450",
+              "amount": 37.7,
+              "type": "Debit"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "Card Purchase 11/14 Meijer Store #236 Williamsburg MI Card 7450",
+              "amount": 137.85,
+              "type": "Debit"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "Card Purchase 11/14 Ace Hdwe Acme MI Card 7450",
+              "amount": 10.99,
+              "type": "Debit"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "Card Purchase 11/15 Meijer Store #236 Williamsburg MI Card 7443",
+              "amount": 23.56,
+              "type": "Debit"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "Card Purchase With Pin 11/17 Shell Service Station Acme MI Card 7450",
+              "amount": 25.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/18/2025",
+              "description": "Card Purchase 11/17 Amazon Mktpl*B05Xn8F Amzn.Com/Bill WA Card 7450",
+              "amount": 9.99,
+              "type": "Debit"
+            },
+            {
+              "date": "11/19/2025",
+              "description": "Card Purchase With Pin 11/19 Gfs Store #0919 Traverse City MI Card 7450",
+              "amount": 75.03,
+              "type": "Debit"
+            },
+            {
+              "date": "11/20/2025",
+              "description": "Card Purchase 11/18 Gjs Pizza & Market Traverse City MI Card 7443",
+              "amount": 8.01,
+              "type": "Debit"
+            },
+            {
+              "date": "11/20/2025",
+              "description": "Card Purchase 11/20 Amazon Mktpl*B06Jw01 Amzn.Com/Bill WA Card 7450",
+              "amount": 42.39,
+              "type": "Debit"
+            },
+            {
+              "date": "11/20/2025",
+              "description": "Card Purchase 11/19 Shell Oil 10011684007 Williamsburg MI Card 7443",
+              "amount": 43.13,
+              "type": "Debit"
+            },
+            {
+              "date": "11/20/2025",
+              "description": "Card Purchase With Pin 11/20 Meijer Store #23 4900 Williamsburg MI Card 7450",
+              "amount": 66.3,
+              "type": "Debit"
+            },
+            {
+              "date": "11/21/2025",
+              "description": "Card Purchase 11/20 Jets Pizza - MI-094 E 859-689-9800 MI Card 7450",
+              "amount": 42.41,
+              "type": "Debit"
+            },
+            {
+              "date": "11/21/2025",
+              "description": "Card Purchase With Pin 11/21 Olesons 608 Traverse City MI Card 7450",
+              "amount": 32.05,
+              "type": "Debit"
+            },
+            {
+              "date": "11/21/2025",
+              "description": "Card Purchase With Pin 11/20 Bathandbodyworks.Com Columbus OH Card 7450",
+              "amount": 53.05,
+              "type": "Debit"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Recurring Card Purchase 11/21 Smart Start 586-9543289 MI Card 7450",
+              "amount": 265.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Card Purchase 11/21 Amazon Mktpl*B07Yr2Q Amzn.Com/Bill WA Card 7450",
+              "amount": 54.38,
+              "type": "Debit"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Card Purchase 11/23 Amazon Mktpl*B213X2L Amzn.Com/Bill WA Card 7450",
+              "amount": 19.51,
+              "type": "Debit"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Card Purchase 11/22 Amazon Mktpl*B091C9I Amzn.Com/Bill WA Card 7450",
+              "amount": 126.9,
+              "type": "Debit"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Card Purchase 11/21 Cherryland Electric Cecelec.Smart MI Card 7450",
+              "amount": 131.41,
+              "type": "Debit"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Card Purchase With Pin 11/22 Lowe's #1609 Traverse City MI Card 7450",
+              "amount": 93.72,
+              "type": "Debit"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Card Purchase With Pin 11/22 Meijer Store #03 395 Traverse City MI Card 7450",
+              "amount": 154.53,
+              "type": "Debit"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Card Purchase With Pin 11/22 Meijer Store #03 395 Traverse City MI Card 7450",
+              "amount": 3.17,
+              "type": "Debit"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Recurring Card Purchase 11/22 Netflix.Com Netflix.Com CA Card 7450",
+              "amount": 24.99,
+              "type": "Debit"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Card Purchase 11/23 Amazon Mktpl*B07793U Amzn.Com/Bill WA Card 7450",
+              "amount": 50.87,
+              "type": "Debit"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Card Purchase 11/24 Amazon Mktpl*B21X13A Amzn.Com/Bill WA Card 7450",
+              "amount": 32.85,
+              "type": "Debit"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Card Purchase With Pin 11/24 Meijer Store #23 4900 Williamsburg MI Card 7450",
+              "amount": 495.7,
+              "type": "Debit"
+            },
+            {
+              "date": "11/25/2025",
+              "description": "Card Purchase 11/24 Amazon Mktpl*B29Li20 Amzn.Com/Bill WA Card 7450",
+              "amount": 16.7,
+              "type": "Debit"
+            },
+            {
+              "date": "11/25/2025",
+              "description": "Card Purchase 11/24 Amazon Mktpl*B23Zz1L Amzn.Com/Bill WA Card 7450",
+              "amount": 20.58,
+              "type": "Debit"
+            },
+            {
+              "date": "11/25/2025",
+              "description": "Card Purchase 11/24 Amazon Mktpl*B247R80 Amzn.Com/Bill WA Card 7450",
+              "amount": 34.23,
+              "type": "Debit"
+            },
+            {
+              "date": "11/25/2025",
+              "description": "Card Purchase 11/24 Shell Oil 10011684007 Williamsburg MI Card 7450",
+              "amount": 50.95,
+              "type": "Debit"
+            },
+            {
+              "date": "11/26/2025",
+              "description": "Card Purchase 11/25 Dte Energy 800-4774747 MI Card 7450",
+              "amount": 49.57,
+              "type": "Debit"
+            },
+            {
+              "date": "11/26/2025",
+              "description": "Card Purchase 11/25 Olesons 608 Traverse City MI Card 7443",
+              "amount": 88.21,
+              "type": "Debit"
+            },
+            {
+              "date": "11/26/2025",
+              "description": "Card Purchase With Pin 11/26 Olesons 608 Traverse City MI Card 7450",
+              "amount": 119.75,
+              "type": "Debit"
+            },
+            {
+              "date": "11/28/2025",
+              "description": "Card Purchase 11/26 Sp Gruntstyle Gruntstyle.CO TX Card 7450",
+              "amount": 94.1,
+              "type": "Debit"
+            },
+            {
+              "date": "11/28/2025",
+              "description": "Card Purchase 11/26 Paypal *Quoc Du 4029357733 Card 7450",
+              "amount": 28.29,
+              "type": "Debit"
+            },
+            {
+              "date": "11/28/2025",
+              "description": "Card Purchase 11/26 Amazon Mktpl*B24109U Amzn.Com/Bill WA Card 7450",
+              "amount": 28.61,
+              "type": "Debit"
+            },
+            {
+              "date": "11/28/2025",
+              "description": "Card Purchase With Pin 11/28 Olesons 608 Traverse City MI Card 7450",
+              "amount": 20.25,
+              "type": "Debit"
+            }
+          ]
+        }
+      ]
+    },
+    "raw_output": "```json\n{\n  \"accounts\": [\n    {\n      \"account_number\": \"000000702036875\",\n      \"account_type\": \"Chase Business Complete Checking\",\n      \"mca_deposit\": [],\n      \"mca_withdrawal\": [],\n      \"returned_items\": [],\n      \"overdrafts\": [],\n      \"service_charges\": [\n        {\n          \"date\": \"11/28/2025\",\n          \"description\": \"Monthly Service Fee\",\n          \"amount\": 15.0,\n          \"type\": \"Debit\"\n        }\n      ],\n      \"atm_cash_withdrawal\": [],\n      \"internal_transfer_deposit\": [],\n      \"other_transfer_deposit\": [\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"Real Time Transfer Recd From Aba/Contr Bnk-021000021 From: Square Ref: T36B5X7B7Jfx4th Info: Text- lid: 20251101021000021P1Brjpc07770015403 Recd: 17:10:28 Trn: 1860042305Gd Bref: 2B62F37B-05Cf-4F1A-8Fd1-8E544B7D8BC\",\n          \"amount\": 413.26,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/06/2025\",\n          \"description\": \"Real Time Transfer Recd From Aba/Contr Bnk-021000021 From: Square Ref: T38Athpbzfy8Y0Q Info: Text- lid: 20251106021000021P1Brjpc05070019106 Recd: 18:00:22 Trn: 1976792310Gd Bref: 78B2038F-D325-4104-8276-849F05E8218\",\n          \"amount\": 474.03,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"description\": \"Real Time Transfer Recd From Aba/Contr Bnk-021000021 From: Square Ref: T30Nmckkyr0Vtkm Info: Text- lid: 20251107021000021P1Brjpc05880022093 Recd: 18:15:34 Trn: 2271072311Gb Bref: A9D27Baa-Db98-4Cbe-A280-E81Ffa701D6\",\n          \"amount\": 536.53,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Orig CO Name:Square Inc Descr:Sq251110 Sec:CCD ID:T336T1Vph7Kzhr1 T2191240 Trn: 3144171861Tc Orig ID:9424300002 Desc Date:251110 CO Entry Trace#:021000024171861 Eed:251110 Ind Ind Name:Tracy Smith\",\n          \"amount\": 552.0,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/13/2025\",\n          \"description\": \"Orig CO Name:Square Inc Descr:Sq251113 Sec:CCD ID:T3Vvrxq1F9Av7Gh T2191772 Trn: 3175931861Tc Orig ID:9424300002 Desc Date:251113 CO Entry Trace#:021000025931861 Eed:251113 Ind Ind Name:Tracy Smith\",\n          \"amount\": 359.78,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/14/2025\",\n          \"description\": \"Real Time Transfer Recd From Aba/Contr Bnk-021000021 From: Square Ref: T3Rm1G9Vd8Byxj4 Info: Text- lid: 20251114021000021P1Brjpc08190025641 Recd: 17:52:23 Trn: 2227392318GA Bref: Dfd4Cc25-C811-4073-B289-E9Db51F938E\",\n          \"amount\": 596.09,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/14/2025\",\n          \"description\": \"Orig CO Name:Square Inc Descr:Sq251114 Sec:CCD ID:T36Ht0Phhj6449X T2191940 Trn: 3183992227Tc Orig ID:9424300002 Desc Date:251114 CO Entry Trace#:021000023992227 Eed:251114 Ind Ind Name:Tracy Smith\",\n          \"amount\": 302.64,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"Orig CO Name:Square Inc Descr:Sq251117 Sec:CCD ID:T3Dkmsh3Cb53N29 T2192238 Trn: 3211582483Tc Orig ID:9424300002 Desc Date:251117 CO Entry Trace#:021000021582483 Eed:251117 Ind Ind Name:Tracy Smith\",\n          \"amount\": 641.11,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"description\": \"Orig CO Name:Square Inc Descr:Sq251118 Sec:CCD ID:T33Qd57J23Np9Mx T2192411 Trn: 3220212914Tc Orig ID:9424300002 Desc Date:251118 CO Entry Trace#:021000020212914 Eed:251118 Ind Ind Name:Tracy Smith\",\n          \"amount\": 184.35,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"description\": \"Orig CO Name:Square Inc Descr:Sq251120 Sec:CCD ID:T3Rrhse4Vwd7Vtv T2192793 Trn: 3244153231Tc Orig ID:9424300002 Desc Date:251120 CO Entry Trace#:021000024153231 Eed:251120 Ind Ind Name:Tracy Smith\",\n          \"amount\": 572.98,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"description\": \"Orig CO Name:Square Inc Descr:Sq251121 Sec:CCD ID:T3D4Ckty3Sg5591 T2193006 Trn: 3257448690Tc Orig ID:9424300002 Desc Date:251121 CO Entry Trace#:021000027448690 Eed:251121 Ind Ind Name:Tracy Smith\",\n          \"amount\": 559.78,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Orig CO Name:Square Inc Descr:Sq251124 Sec:CCD ID:T3K9M7Mjrdhzenq T2193298 Trn: 3281611006Tc Orig ID:9424300002 Desc Date:251124 CO Entry Trace#:021000021611006 Eed:251124 Ind Ind Name:Tracy Smith\",\n          \"amount\": 570.38,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Orig CO Name:Square Inc Descr:Sq251124 Sec:CCD ID:T3Cwqex9Y10Gkva T2193298 Trn: 3281611251Tc Orig ID:9424300002 Desc Date:251124 CO Entry Trace#:021000021611251 Eed:251124 Ind Ind Name:Tracy Smith\",\n          \"amount\": 540.8,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/26/2025\",\n          \"description\": \"Real Time Transfer Recd From Aba/Contr Bnk-021000021 From: Square Ref: T3Zj4Bbtcqgct9Y Info: Text- lid: 20251126021000021P1Brjpc07980014554 Recd: 17:06:10 Trn: 1738592330Ge Bref: 938E109F-6F2E-434C-867D-A5Bedd98B43\",\n          \"amount\": 195.7,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        }\n      ],\n      \"internal_transfer_withdrawal\": [\n        {\n          \"date\": \"11/14/2025\",\n          \"description\": \"11/14 Online Transfer 26957828066 To Johnk ##1453 Transaction #: 26957828066\",\n          \"amount\": 110.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"description\": \"11/20 Online Realtime Transfer To Tkay 8535 Transaction#: 27026735151 Reference#: 9026735151Rx\",\n          \"amount\": 1800.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"11/24 Online Transfer 27072949118 To Johnk ##1453 Transaction #: 27072949118\",\n          \"amount\": 110.0,\n          \"type\": \"Debit\"\n        }\n      ],\n      \"other_transfer_withdrawal\": [],\n      \"standard_deposit\": [\n        {\n          \"date\": \"11/20/2025\",\n          \"description\": \"ATM Cash Deposit 11/20 995 W South Airport Rd Traverse City MI Card 7450\",\n          \"amount\": 520.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        }\n      ],\n      \"standard_withdrawal\": [\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"Card Purchase With Pin 11/01 Olesons 608 Traverse City MI Card 7450\",\n          \"amount\": 31.82,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"Card Purchase 11/01 Meijer Store #236 Williamsburg MI Card 7443\",\n          \"amount\": 24.31,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"Card Purchase 11/01 Meijer Store #236 Williamsburg MI Card 7443\",\n          \"amount\": 10.59,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"Card Purchase 11/01 Jets Pizza - MI-094 Traverse City MI Card 7450\",\n          \"amount\": 30.97,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"Card Purchase 11/03 Walmart.Com 800-925-6278 AR Card 7450\",\n          \"amount\": 41.94,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"Card Purchase With Pin 11/03 Gfs Store #0919 1781 Traverse City MI Card 7450\",\n          \"amount\": 374.67,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/05/2025\",\n          \"description\": \"Card Purchase 11/04 Meijer.Com #236 877-363-4537 MI Card 7450\",\n          \"amount\": 53.86,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/06/2025\",\n          \"description\": \"Card Purchase With Pin 11/06 Meijer Store #23 4900 Williamsburg MI Card 7450\",\n          \"amount\": 221.21,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"description\": \"Card Purchase With Pin 11/07 Olesons 608 Traverse City MI Card 7450\",\n          \"amount\": 60.59,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"description\": \"Card Purchase With Pin 11/07 Speedway 44432 Traverse City MI Card 7450\",\n          \"amount\": 25.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Card Purchase 11/06 Gfs Store #0919 Traverse City MI Card 7443\",\n          \"amount\": 85.29,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Card Purchase 11/08 Straighttalk*Airtime 877-430-2355 FL Card 7450\",\n          \"amount\": 37.67,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Card Purchase 11/08 Dte Energy 800-4774747 MI Card 7450\",\n          \"amount\": 45.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Card Purchase 11/09 Straighttalk*Airtime 877-430-2355 FL Card 7450\",\n          \"amount\": 37.67,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Card Purchase 11/08 Meijer Store #236 Williamsburg MI Card 7450\",\n          \"amount\": 304.09,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Card Purchase 11/09 Amazon Mktpl*Bt1lu86 Amzn.Com/Bill WA Card 7450\",\n          \"amount\": 80.4,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Card Purchase 11/09 Amazon Mktpl*Bt8Ko2D Amzn.Com/Bill WA Card 7450\",\n          \"amount\": 21.19,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Card Purchase With Pin 11/10 Gfs Store #0919 1781 Traverse City MI Card 7450\",\n          \"amount\": 288.92,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Card Purchase 11/10 Amazon Mktpl*Bt0Fm0W Amzn.Com/Bill WA Card 7450\",\n          \"amount\": 18.01,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Card Purchase 11/10 Iti*MI Sos Kiosk MI1 Traverse City MI Card 7450\",\n          \"amount\": 174.17,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Card Purchase 11/11 L. Jiang'S Inc. Traverse City MI Card 7443\",\n          \"amount\": 54.17,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Card Purchase 11/10 Olesons 608 Traverse City MI Card 7443\",\n          \"amount\": 9.18,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Card Purchase 11/11 Olesons 608 Traverse City MI Card 7443\",\n          \"amount\": 25.57,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/13/2025\",\n          \"description\": \"Card Purchase 11/13 Walmart.Com 800-925-6278 AR Card 7450\",\n          \"amount\": 16.45,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/13/2025\",\n          \"description\": \"Card Purchase 11/13 Straighttalk*Airtime 877-430-2355 FL Card 7450\",\n          \"amount\": 86.07,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/13/2025\",\n          \"description\": \"Card Purchase With Pin 11/13 Meijer Store #23 4900 Williamsburg MI Card 7450\",\n          \"amount\": 246.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"Card Purchase 11/14 The Webstaurant Store 717-392-7472 PA Card 7450\",\n          \"amount\": 37.7,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"Card Purchase 11/14 Meijer Store #236 Williamsburg MI Card 7450\",\n          \"amount\": 137.85,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"Card Purchase 11/14 Ace Hdwe Acme MI Card 7450\",\n          \"amount\": 10.99,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"Card Purchase 11/15 Meijer Store #236 Williamsburg MI Card 7443\",\n          \"amount\": 23.56,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"Card Purchase With Pin 11/17 Shell Service Station Acme MI Card 7450\",\n          \"amount\": 25.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"description\": \"Card Purchase 11/17 Amazon Mktpl*B05Xn8F Amzn.Com/Bill WA Card 7450\",\n          \"amount\": 9.99,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/19/2025\",\n          \"description\": \"Card Purchase With Pin 11/19 Gfs Store #0919 Traverse City MI Card 7450\",\n          \"amount\": 75.03,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"description\": \"Card Purchase 11/18 Gjs Pizza & Market Traverse City MI Card 7443\",\n          \"amount\": 8.01,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"description\": \"Card Purchase 11/20 Amazon Mktpl*B06Jw01 Amzn.Com/Bill WA Card 7450\",\n          \"amount\": 42.39,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"description\": \"Card Purchase 11/19 Shell Oil 10011684007 Williamsburg MI Card 7443\",\n          \"amount\": 43.13,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"description\": \"Card Purchase With Pin 11/20 Meijer Store #23 4900 Williamsburg MI Card 7450\",\n          \"amount\": 66.3,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"description\": \"Card Purchase 11/20 Jets Pizza - MI-094 E 859-689-9800 MI Card 7450\",\n          \"amount\": 42.41,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"description\": \"Card Purchase With Pin 11/21 Olesons 608 Traverse City MI Card 7450\",\n          \"amount\": 32.05,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"description\": \"Card Purchase With Pin 11/20 Bathandbodyworks.Com Columbus OH Card 7450\",\n          \"amount\": 53.05,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Recurring Card Purchase 11/21 Smart Start 586-9543289 MI Card 7450\",\n          \"amount\": 265.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Card Purchase 11/21 Amazon Mktpl*B07Yr2Q Amzn.Com/Bill WA Card 7450\",\n          \"amount\": 54.38,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Card Purchase 11/23 Amazon Mktpl*B213X2L Amzn.Com/Bill WA Card 7450\",\n          \"amount\": 19.51,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Card Purchase 11/22 Amazon Mktpl*B091C9I Amzn.Com/Bill WA Card 7450\",\n          \"amount\": 126.9,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Card Purchase 11/21 Cherryland Electric Cecelec.Smart MI Card 7450\",\n          \"amount\": 131.41,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Card Purchase With Pin 11/22 Lowe's #1609 Traverse City MI Card 7450\",\n          \"amount\": 93.72,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Card Purchase With Pin 11/22 Meijer Store #03 395 Traverse City MI Card 7450\",\n          \"amount\": 154.53,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Card Purchase With Pin 11/22 Meijer Store #03 395 Traverse City MI Card 7450\",\n          \"amount\": 3.17,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Recurring Card Purchase 11/22 Netflix.Com Netflix.Com CA Card 7450\",\n          \"amount\": 24.99,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Card Purchase 11/23 Amazon Mktpl*B07793U Amzn.Com/Bill WA Card 7450\",\n          \"amount\": 50.87,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Card Purchase 11/24 Amazon Mktpl*B21X13A Amzn.Com/Bill WA Card 7450\",\n          \"amount\": 32.85,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Card Purchase With Pin 11/24 Meijer Store #23 4900 Williamsburg MI Card 7450\",\n          \"amount\": 495.7,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/25/2025\",\n          \"description\": \"Card Purchase 11/24 Amazon Mktpl*B29Li20 Amzn.Com/Bill WA Card 7450\",\n          \"amount\": 16.7,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/25/2025\",\n          \"description\": \"Card Purchase 11/24 Amazon Mktpl*B23Zz1L Amzn.Com/Bill WA Card 7450\",\n          \"amount\": 20.58,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/25/2025\",\n          \"description\": \"Card Purchase 11/24 Amazon Mktpl*B247R80 Amzn.Com/Bill WA Card 7450\",\n          \"amount\": 34.23,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/25/2025\",\n          \"description\": \"Card Purchase 11/24 Shell Oil 10011684007 Williamsburg MI Card 7450\",\n          \"amount\": 50.95,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/26/2025\",\n          \"description\": \"Card Purchase 11/25 Dte Energy 800-4774747 MI Card 7450\",\n          \"amount\": 49.57,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/26/2025\",\n          \"description\": \"Card Purchase 11/25 Olesons 608 Traverse City MI Card 7443\",\n          \"amount\": 88.21,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/26/2025\",\n          \"description\": \"Card Purchase With Pin 11/26 Olesons 608 Traverse City MI Card 7450\",\n          \"amount\": 119.75,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/28/2025\",\n          \"description\": \"Card Purchase 11/26 Sp Gruntstyle Gruntstyle.CO TX Card 7450\",\n          \"amount\": 94.1,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/28/2025\",\n          \"description\": \"Card Purchase 11/26 Paypal *Quoc Du 4029357733 Card 7450\",\n          \"amount\": 28.29,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/28/2025\",\n          \"description\": \"Card Purchase 11/26 Amazon Mktpl*B24109U Amzn.Com/Bill WA Card 7450\",\n          \"amount\": 28.61,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/28/2025\",\n          \"description\": \"Card Purchase With Pin 11/28 Olesons 608 Traverse City MI Card 7450\",\n          \"amount\": 20.25,\n          \"type\": \"Debit\"\n        }\n      ]\n    }\n  ]\n}\n```",
+    "token_count": {
+      "estimated_tokens": 1847
+    },
+    "failure_reason": null
+  }
+}

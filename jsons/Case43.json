@@ -1,0 +1,671 @@
+{
+  "document_name": "Case43.pdf",
+  "pipeline_status": "completed",
+  "processing_metadata": {
+    "start_time": "2026-02-04T15:00:52.323091",
+    "end_time": "2026-02-04T15:02:46.189306",
+    "parsing_time_seconds": 62.491965,
+    "bsi_time_seconds": 51.184732,
+    "total_time_seconds": 113.67669699999999
+  },
+  "parsing_agent_result": {
+    "agent_name": "parsing_agent",
+    "processing_status": "success",
+    "start_time": "2026-02-04T15:00:52.500802",
+    "end_time": "2026-02-04T15:01:54.992544",
+    "parsed_json": {
+      "bank_statement_information": {
+        "bank_name": "WELLS FARGO",
+        "account_holder": "FLIPPING THE SCRIPT LLC",
+        "statement_start_date": "11/01/2025",
+        "statement_end_date": "11/30/2025",
+        "n_days": 30,
+        "n_month": [
+          11
+        ],
+        "business_address": "20 MIRAMAR DR PENNSVILLE NJ 08070-2408"
+      },
+      "accounts": [
+        {
+          "account_number": "1450932494",
+          "account_type": "Initiate Business Checking",
+          "account_summary": {
+            "beginning_balance": 8943.48,
+            "ending_balance": 11289.17,
+            "total_deposits": 28186.62,
+            "total_withdrawals": 25840.93,
+            "total_deposits_count": null,
+            "total_withdrawals_count": null,
+            "avg_daily_balance": 8743.0,
+            "overdraft_days": 0
+          },
+          "transactions": [
+            {
+              "date": "11/03/2025",
+              "description": "Deposit Made In A Branch/Store",
+              "amount": 2368.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "Tele-Transfer Fr xxxxxx8282 Reference #TFOVjt5Fgr",
+              "amount": 3000.0,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "Tele-Transfer Fr xxxxxx6339 Reference #TFOVjt5Wxg",
+              "amount": 2000.0,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "Deposit Made In A Branch/Store",
+              "amount": 2100.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "Purchase authorized on 11/01 Uber Technologies, Inc Wilmington DE P000000682281763 Card 3911",
+              "amount": 40.27,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "Purchase authorized on 11/02 Uber * Eats Pending San Francisco CA P000000680614722 Card 3911",
+              "amount": 27.73,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "Purchase authorized on 11/03 Uber * Eats Pending San Francisco CA P000000685315682 Card 3911",
+              "amount": 26.33,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "Sallie Mae Bank Slmloanpmt 251031 5548760879 Pamela Stewart",
+              "amount": 222.63,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "Pine Bluff Cable Internet 251031 043000098054506 Stuart Pamela",
+              "amount": 77.75,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/04/2025",
+              "description": "Transfer IN Branch - From Pamela Stuart-Highland DDA Xxxxxx8282 3215 Old Capitol Trail Wilmington DE",
+              "amount": 6000.0,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "11/04/2025",
+              "description": "eDeposit IN Branch 11/04/25 11:34:20 Am 1250 Broadway Hewlett NY",
+              "amount": 3000.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/04/2025",
+              "description": "Deposit Made In A Branch/Store",
+              "amount": 1500.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/04/2025",
+              "description": "Purchase authorized on 11/03 Uber * Eats Pending San Francisco CA P000000589567585 Card 3911",
+              "amount": 40.39,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/04/2025",
+              "description": "Purchase authorized on 11/04 Uber Technologies, Inc Wilmington DE P000000287781228 Card 3911",
+              "amount": 23.37,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/05/2025",
+              "description": "Purchase authorized on 11/05 Uber Technologies, Inc Wilmington DE P000000986746969 Card 3911",
+              "amount": 23.96,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/05/2025",
+              "description": "Purchase authorized on 11/05 Uber * Eats Pending San Francisco CA P000000686719454 Card 3911",
+              "amount": 38.94,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/05/2025",
+              "description": "Business to Business ACH Debit - Blue Horizon 2 Loan Pmt. 251105 1058 Flipping The Script",
+              "amount": 8645.84,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/05/2025",
+              "description": "Lakeview Ln Srv Mtg Pymt 110425 0065593204 Pamela Stuart",
+              "amount": 6200.02,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/06/2025",
+              "description": "Purchase authorized on 11/05 Uber *Wawa8332418 San Francisco CA P000000589044210 Card 3911",
+              "amount": 15.46,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/06/2025",
+              "description": "Purchase authorized on 11/06 Uber * Eats Pending San Francisco CA P000000886770560 Card 3911",
+              "amount": 18.79,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/06/2025",
+              "description": "Purchase authorized on 11/06 Uber Technologies, Inc Wilmington DE P000000184940182 Card 3911",
+              "amount": 28.33,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/07/2025",
+              "description": "Purchase authorized on 11/07 Uber * Eats Pending San Francisco CA P000000789854658 Card 3911",
+              "amount": 20.61,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Purchase authorized on 11/07 Uber Technologies, Inc Wilmington DE P000000482083975 Card 3911",
+              "amount": 29.86,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Purchase authorized on 11/08 Uber Technologies, Inc Wilmington DE P000000883119328 Card 3911",
+              "amount": 19.86,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Purchase authorized on 11/08 Res* Hamptonin2 Hotelplanner. FL S305312622141330 Card 3911",
+              "amount": 241.32,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "ATM Withdrawal authorized on 11/08 3215 Old Capitol Trail Wilmington DE 0000330 ATM ID 2039K Card 3911",
+              "amount": 1000.0,
+              "type": "Debit",
+              "category": "ATM/Cash Withdrawal"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Purchase authorized on 11/09 Hampton Inns Albany NY 5385313090154901 Card 3911",
+              "amount": 43.2,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Carrington Mortgage 251108 4001314887 Vaughn Highland",
+              "amount": 5330.46,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Purchase authorized on 11/09 Hampton Inns Albany NY 5585313476853505 Card 3911",
+              "amount": 152.71,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Purchase authorized on 11/11 Uber Technologies, Inc Wilmington DE P000000083061783 Card 3911",
+              "amount": 24.73,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Purchase authorized on 11/11 Uber Eats Pending San Francisco CA P000000182272772 Card 3911",
+              "amount": 40.55,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Purchase authorized on 11/11 Uber Technologies, Inc Wilmington DE P000000685008533 Card 3911",
+              "amount": 17.87,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/14/2025",
+              "description": "ATM Withdrawal authorized on 11/14 3215 Old Capitol Trail Wilmington DE 0000067 ATM ID 2039V Card 3911",
+              "amount": 1000.0,
+              "type": "Debit",
+              "category": "ATM/Cash Withdrawal"
+            },
+            {
+              "date": "11/18/2025",
+              "description": "Purchase authorized on 11/16 Hampton Inns 518-4327000 NY S345320642559846 Card 3911",
+              "amount": 318.17,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/19/2025",
+              "description": "Purchase authorized on 11/17 Amazon Mktpl*B07V4 Amzn.Com/Bill WA S345321794442400 Card 3911",
+              "amount": 26.65,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/21/2025",
+              "description": "Purchase authorized on 11/20 Seanas Orlando FL 5345324846746446 Card 3911",
+              "amount": 161.71,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/21/2025",
+              "description": "Purchase authorized on 11/21 Rack Room Shoes 0189 Kissimmee FL P345325536600026 Card 3911",
+              "amount": 119.3,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Purchase authorized on 11/19 Conserve 585-4211028 NY S345323480427040 Card 3911",
+              "amount": 400.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Purchase authorized on 11/20 Alamo Rent-A-Car Orlando FL 5385324546112202 Card 3911",
+              "amount": 372.12,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Tele-Transfer to xxxxxx8282 Reference #TFOVsc9Ld2",
+              "amount": 100.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Tele-Transfer to xxxxxx8282 Reference #TFOVsqrfqd",
+              "amount": 800.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "11/25/2025",
+              "description": "Purchase authorized on 11/23 Philadelphia Parki Philadelphia PA S355327619678056 Card 3911",
+              "amount": 192.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/26/2025",
+              "description": "Deposit Made In A Branch/Store",
+              "amount": 2368.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/28/2025",
+              "description": "eDeposit IN Branch 11/28/25 03:43:28 PM 100 W 10th St Wilmington DE 3911",
+              "amount": 5850.62,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            }
+          ]
+        }
+      ]
+    },
+    "raw_output": "```json\n{\n  \"bank_statement_information\": {\n    \"bank_name\": \"WELLS FARGO\",\n    \"account_holder\": \"FLIPPING THE SCRIPT LLC\",\n    \"statement_start_date\": \"11/01/2025\",\n    \"statement_end_date\": \"11/30/2025\",\n    \"n_days\": 30,\n    \"n_month\": [\n      11\n    ],\n    \"business_address\": \"20 MIRAMAR DR PENNSVILLE NJ 08070-2408\"\n  },\n  \"accounts\": [\n    {\n      \"account_number\": \"1450932494\",\n      \"account_type\": \"Initiate Business Checking\",\n      \"account_summary\": {\n        \"beginning_balance\": 8943.48,\n        \"ending_balance\": 11289.17,\n        \"total_deposits\": 28186.62,\n        \"total_withdrawals\": 25840.93,\n        \"total_deposits_count\": null,\n        \"total_withdrawals_count\": null,\n        \"avg_daily_balance\": 8743.00,\n        \"overdraft_days\": 0\n      },\n      \"transactions\": [\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"Deposit Made In A Branch/Store\",\n          \"amount\": 2368.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"Tele-Transfer Fr xxxxxx8282 Reference #TFOVjt5Fgr\",\n          \"amount\": 3000.0,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"Tele-Transfer Fr xxxxxx6339 Reference #TFOVjt5Wxg\",\n          \"amount\": 2000.0,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"Deposit Made In A Branch/Store\",\n          \"amount\": 2100.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"Purchase authorized on 11/01 Uber Technologies, Inc Wilmington DE P000000682281763 Card 3911\",\n          \"amount\": 40.27,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"Purchase authorized on 11/02 Uber * Eats Pending San Francisco CA P000000680614722 Card 3911\",\n          \"amount\": 27.73,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"Purchase authorized on 11/03 Uber * Eats Pending San Francisco CA P000000685315682 Card 3911\",\n          \"amount\": 26.33,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"Sallie Mae Bank Slmloanpmt 251031 5548760879 Pamela Stewart\",\n          \"amount\": 222.63,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"Pine Bluff Cable Internet 251031 043000098054506 Stuart Pamela\",\n          \"amount\": 77.75,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/04/2025\",\n          \"description\": \"Transfer IN Branch - From Pamela Stuart-Highland DDA Xxxxxx8282 3215 Old Capitol Trail Wilmington DE\",\n          \"amount\": 6000.0,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"11/04/2025\",\n          \"description\": \"eDeposit IN Branch 11/04/25 11:34:20 Am 1250 Broadway Hewlett NY\",\n          \"amount\": 3000.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/04/2025\",\n          \"description\": \"Deposit Made In A Branch/Store\",\n          \"amount\": 1500.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/04/2025\",\n          \"description\": \"Purchase authorized on 11/03 Uber * Eats Pending San Francisco CA P000000589567585 Card 3911\",\n          \"amount\": 40.39,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/04/2025\",\n          \"description\": \"Purchase authorized on 11/04 Uber Technologies, Inc Wilmington DE P000000287781228 Card 3911\",\n          \"amount\": 23.37,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/05/2025\",\n          \"description\": \"Purchase authorized on 11/05 Uber Technologies, Inc Wilmington DE P000000986746969 Card 3911\",\n          \"amount\": 23.96,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/05/2025\",\n          \"description\": \"Purchase authorized on 11/05 Uber * Eats Pending San Francisco CA P000000686719454 Card 3911\",\n          \"amount\": 38.94,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/05/2025\",\n          \"description\": \"Business to Business ACH Debit - Blue Horizon 2 Loan Pmt. 251105 1058 Flipping The Script\",\n          \"amount\": 8645.84,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/05/2025\",\n          \"description\": \"Lakeview Ln Srv Mtg Pymt 110425 0065593204 Pamela Stuart\",\n          \"amount\": 6200.02,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/06/2025\",\n          \"description\": \"Purchase authorized on 11/05 Uber *Wawa8332418 San Francisco CA P000000589044210 Card 3911\",\n          \"amount\": 15.46,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/06/2025\",\n          \"description\": \"Purchase authorized on 11/06 Uber * Eats Pending San Francisco CA P000000886770560 Card 3911\",\n          \"amount\": 18.79,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/06/2025\",\n          \"description\": \"Purchase authorized on 11/06 Uber Technologies, Inc Wilmington DE P000000184940182 Card 3911\",\n          \"amount\": 28.33,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"description\": \"Purchase authorized on 11/07 Uber * Eats Pending San Francisco CA P000000789854658 Card 3911\",\n          \"amount\": 20.61,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Purchase authorized on 11/07 Uber Technologies, Inc Wilmington DE P000000482083975 Card 3911\",\n          \"amount\": 29.86,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Purchase authorized on 11/08 Uber Technologies, Inc Wilmington DE P000000883119328 Card 3911\",\n          \"amount\": 19.86,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Purchase authorized on 11/08 Res* Hamptonin2 Hotelplanner. FL S305312622141330 Card 3911\",\n          \"amount\": 241.32,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"ATM Withdrawal authorized on 11/08 3215 Old Capitol Trail Wilmington DE 0000330 ATM ID 2039K Card 3911\",\n          \"amount\": 1000.0,\n          \"type\": \"Debit\",\n          \"category\": \"ATM/Cash Withdrawal\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Purchase authorized on 11/09 Hampton Inns Albany NY 5385313090154901 Card 3911\",\n          \"amount\": 43.2,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Carrington Mortgage 251108 4001314887 Vaughn Highland\",\n          \"amount\": 5330.46,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Purchase authorized on 11/09 Hampton Inns Albany NY 5585313476853505 Card 3911\",\n          \"amount\": 152.71,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Purchase authorized on 11/11 Uber Technologies, Inc Wilmington DE P000000083061783 Card 3911\",\n          \"amount\": 24.73,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Purchase authorized on 11/11 Uber Eats Pending San Francisco CA P000000182272772 Card 3911\",\n          \"amount\": 40.55,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Purchase authorized on 11/11 Uber Technologies, Inc Wilmington DE P000000685008533 Card 3911\",\n          \"amount\": 17.87,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/14/2025\",\n          \"description\": \"ATM Withdrawal authorized on 11/14 3215 Old Capitol Trail Wilmington DE 0000067 ATM ID 2039V Card 3911\",\n          \"amount\": 1000.0,\n          \"type\": \"Debit\",\n          \"category\": \"ATM/Cash Withdrawal\"\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"description\": \"Purchase authorized on 11/16 Hampton Inns 518-4327000 NY S345320642559846 Card 3911\",\n          \"amount\": 318.17,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/19/2025\",\n          \"description\": \"Purchase authorized on 11/17 Amazon Mktpl*B07V4 Amzn.Com/Bill WA S345321794442400 Card 3911\",\n          \"amount\": 26.65,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"description\": \"Purchase authorized on 11/20 Seanas Orlando FL 5345324846746446 Card 3911\",\n          \"amount\": 161.71,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"description\": \"Purchase authorized on 11/21 Rack Room Shoes 0189 Kissimmee FL P345325536600026 Card 3911\",\n          \"amount\": 119.3,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Purchase authorized on 11/19 Conserve 585-4211028 NY S345323480427040 Card 3911\",\n          \"amount\": 400.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Purchase authorized on 11/20 Alamo Rent-A-Car Orlando FL 5385324546112202 Card 3911\",\n          \"amount\": 372.12,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Tele-Transfer to xxxxxx8282 Reference #TFOVsc9Ld2\",\n          \"amount\": 100.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Tele-Transfer to xxxxxx8282 Reference #TFOVsqrfqd\",\n          \"amount\": 800.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/25/2025\",\n          \"description\": \"Purchase authorized on 11/23 Philadelphia Parki Philadelphia PA S355327619678056 Card 3911\",\n          \"amount\": 192.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/26/2025\",\n          \"description\": \"Deposit Made In A Branch/Store\",\n          \"amount\": 2368.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/28/2025\",\n          \"description\": \"eDeposit IN Branch 11/28/25 03:43:28 PM 100 W 10th St Wilmington DE 3911\",\n          \"amount\": 5850.62,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        }\n      ]\n    }\n  ]\n}\n```",
+    "token_count": {
+      "estimated_tokens": 1073
+    },
+    "failure_reason": null
+  },
+  "bsi_analyzer_result": {
+    "agent_name": "v1_bsi_analyzer_agent",
+    "processing_status": "success",
+    "start_time": "2026-02-04T15:01:55.003631",
+    "end_time": "2026-02-04T15:02:46.187730",
+    "parsed_json": {
+      "accounts": [
+        {
+          "account_number": "1450932494",
+          "account_type": "Initiate Business Checking",
+          "mca_deposit": [],
+          "mca_withdrawal": [],
+          "returned_items": [],
+          "overdrafts": [],
+          "service_charges": [],
+          "atm_cash_withdrawal": [
+            {
+              "date": "11/10/2025",
+              "type": "Debit",
+              "description": "ATM Withdrawal authorized on 11/08 3215 Old Capitol Trail Wilmington DE 0000330 ATM ID 2039K Card 3911",
+              "amount": 1000.0
+            },
+            {
+              "date": "11/14/2025",
+              "type": "Debit",
+              "description": "ATM Withdrawal authorized on 11/14 3215 Old Capitol Trail Wilmington DE 0000067 ATM ID 2039V Card 3911",
+              "amount": 1000.0
+            }
+          ],
+          "internal_transfer_deposit": [
+            {
+              "date": "11/03/2025",
+              "type": "Credit",
+              "description": "Tele-Transfer Fr xxxxxx8282 Reference #TFOVjt5Fgr",
+              "amount": 3000.0,
+              "non_true_revenue": 1
+            },
+            {
+              "date": "11/03/2025",
+              "type": "Credit",
+              "description": "Tele-Transfer Fr xxxxxx6339 Reference #TFOVjt5Wxg",
+              "amount": 2000.0,
+              "non_true_revenue": 1
+            },
+            {
+              "date": "11/04/2025",
+              "type": "Credit",
+              "description": "Transfer IN Branch - From Pamela Stuart-Highland DDA Xxxxxx8282 3215 Old Capitol Trail Wilmington DE",
+              "amount": 6000.0,
+              "non_true_revenue": 1
+            }
+          ],
+          "other_transfer_deposit": [],
+          "internal_transfer_withdrawal": [
+            {
+              "date": "11/24/2025",
+              "type": "Debit",
+              "description": "Tele-Transfer to xxxxxx8282 Reference #TFOVsc9Ld2",
+              "amount": 100.0
+            },
+            {
+              "date": "11/24/2025",
+              "type": "Debit",
+              "description": "Tele-Transfer to xxxxxx8282 Reference #TFOVsqrfqd",
+              "amount": 800.0
+            }
+          ],
+          "other_transfer_withdrawal": [
+            {
+              "date": "11/05/2025",
+              "type": "Debit",
+              "description": "Business to Business ACH Debit - Blue Horizon 2 Loan Pmt. 251105 1058 Flipping The Script",
+              "amount": 8645.84
+            }
+          ],
+          "standard_deposit": [
+            {
+              "date": "11/03/2025",
+              "type": "Credit",
+              "description": "Deposit Made In A Branch/Store",
+              "amount": 2368.0,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/03/2025",
+              "type": "Credit",
+              "description": "Deposit Made In A Branch/Store",
+              "amount": 2100.0,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/04/2025",
+              "type": "Credit",
+              "description": "eDeposit IN Branch 11/04/25 11:34:20 Am 1250 Broadway Hewlett NY",
+              "amount": 3000.0,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/04/2025",
+              "type": "Credit",
+              "description": "Deposit Made In A Branch/Store",
+              "amount": 1500.0,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/26/2025",
+              "type": "Credit",
+              "description": "Deposit Made In A Branch/Store",
+              "amount": 2368.0,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/28/2025",
+              "type": "Credit",
+              "description": "eDeposit IN Branch 11/28/25 03:43:28 PM 100 W 10th St Wilmington DE 3911",
+              "amount": 5850.62,
+              "non_true_revenue": 0
+            }
+          ],
+          "standard_withdrawal": [
+            {
+              "date": "11/03/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 11/01 Uber Technologies, Inc Wilmington DE P000000682281763 Card 3911",
+              "amount": 40.27
+            },
+            {
+              "date": "11/03/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 11/02 Uber * Eats Pending San Francisco CA P000000680614722 Card 3911",
+              "amount": 27.73
+            },
+            {
+              "date": "11/03/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 11/03 Uber * Eats Pending San Francisco CA P000000685315682 Card 3911",
+              "amount": 26.33
+            },
+            {
+              "date": "11/03/2025",
+              "type": "Debit",
+              "description": "Sallie Mae Bank Slmloanpmt 251031 5548760879 Pamela Stewart",
+              "amount": 222.63
+            },
+            {
+              "date": "11/03/2025",
+              "type": "Debit",
+              "description": "Pine Bluff Cable Internet 251031 043000098054506 Stuart Pamela",
+              "amount": 77.75
+            },
+            {
+              "date": "11/04/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 11/03 Uber * Eats Pending San Francisco CA P000000589567585 Card 3911",
+              "amount": 40.39
+            },
+            {
+              "date": "11/04/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 11/04 Uber Technologies, Inc Wilmington DE P000000287781228 Card 3911",
+              "amount": 23.37
+            },
+            {
+              "date": "11/05/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 11/05 Uber Technologies, Inc Wilmington DE P000000986746969 Card 3911",
+              "amount": 23.96
+            },
+            {
+              "date": "11/05/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 11/05 Uber * Eats Pending San Francisco CA P000000686719454 Card 3911",
+              "amount": 38.94
+            },
+            {
+              "date": "11/05/2025",
+              "type": "Debit",
+              "description": "Lakeview Ln Srv Mtg Pymt 110425 0065593204 Pamela Stuart",
+              "amount": 6200.02
+            },
+            {
+              "date": "11/06/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 11/05 Uber *Wawa8332418 San Francisco CA P000000589044210 Card 3911",
+              "amount": 15.46
+            },
+            {
+              "date": "11/06/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 11/06 Uber * Eats Pending San Francisco CA P000000886770560 Card 3911",
+              "amount": 18.79
+            },
+            {
+              "date": "11/06/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 11/06 Uber Technologies, Inc Wilmington DE P000000184940182 Card 3911",
+              "amount": 28.33
+            },
+            {
+              "date": "11/07/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 11/07 Uber * Eats Pending San Francisco CA P000000789854658 Card 3911",
+              "amount": 20.61
+            },
+            {
+              "date": "11/10/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 11/07 Uber Technologies, Inc Wilmington DE P000000482083975 Card 3911",
+              "amount": 29.86
+            },
+            {
+              "date": "11/10/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 11/08 Uber Technologies, Inc Wilmington DE P000000883119328 Card 3911",
+              "amount": 19.86
+            },
+            {
+              "date": "11/10/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 11/08 Res* Hamptonin2 Hotelplanner. FL S305312622141330 Card 3911",
+              "amount": 241.32
+            },
+            {
+              "date": "11/10/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 11/09 Hampton Inns Albany NY 5385313090154901 Card 3911",
+              "amount": 43.2
+            },
+            {
+              "date": "11/10/2025",
+              "type": "Debit",
+              "description": "Carrington Mortgage 251108 4001314887 Vaughn Highland",
+              "amount": 5330.46
+            },
+            {
+              "date": "11/12/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 11/09 Hampton Inns Albany NY 5585313476853505 Card 3911",
+              "amount": 152.71
+            },
+            {
+              "date": "11/12/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 11/11 Uber Technologies, Inc Wilmington DE P000000083061783 Card 3911",
+              "amount": 24.73
+            },
+            {
+              "date": "11/12/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 11/11 Uber Eats Pending San Francisco CA P000000182272772 Card 3911",
+              "amount": 40.55
+            },
+            {
+              "date": "11/12/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 11/11 Uber Technologies, Inc Wilmington DE P000000685008533 Card 3911",
+              "amount": 17.87
+            },
+            {
+              "date": "11/18/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 11/16 Hampton Inns 518-4327000 NY S345320642559846 Card 3911",
+              "amount": 318.17
+            },
+            {
+              "date": "11/19/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 11/17 Amazon Mktpl*B07V4 Amzn.Com/Bill WA S345321794442400 Card 3911",
+              "amount": 26.65
+            },
+            {
+              "date": "11/21/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 11/20 Seanas Orlando FL 5345324846746446 Card 3911",
+              "amount": 161.71
+            },
+            {
+              "date": "11/21/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 11/21 Rack Room Shoes 0189 Kissimmee FL P345325536600026 Card 3911",
+              "amount": 119.3
+            },
+            {
+              "date": "11/24/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 11/19 Conserve 585-4211028 NY S345323480427040 Card 3911",
+              "amount": 400.0
+            },
+            {
+              "date": "11/24/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 11/20 Alamo Rent-A-Car Orlando FL 5385324546112202 Card 3911",
+              "amount": 372.12
+            },
+            {
+              "date": "11/25/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 11/23 Philadelphia Parki Philadelphia PA S355327619678056 Card 3911",
+              "amount": 192.0
+            }
+          ]
+        }
+      ]
+    },
+    "raw_output": "```json\n{\n  \"accounts\": [\n    {\n      \"account_number\": \"1450932494\",\n      \"account_type\": \"Initiate Business Checking\",\n      \"mca_deposit\": [],\n      \"mca_withdrawal\": [],\n      \"returned_items\": [],\n      \"overdrafts\": [],\n      \"service_charges\": [],\n      \"atm_cash_withdrawal\": [\n        {\n          \"date\": \"11/10/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"ATM Withdrawal authorized on 11/08 3215 Old Capitol Trail Wilmington DE 0000330 ATM ID 2039K Card 3911\",\n          \"amount\": 1000.0\n        },\n        {\n          \"date\": \"11/14/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"ATM Withdrawal authorized on 11/14 3215 Old Capitol Trail Wilmington DE 0000067 ATM ID 2039V Card 3911\",\n          \"amount\": 1000.0\n        }\n      ],\n      \"internal_transfer_deposit\": [\n        {\n          \"date\": \"11/03/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Tele-Transfer Fr xxxxxx8282 Reference #TFOVjt5Fgr\",\n          \"amount\": 3000.0,\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Tele-Transfer Fr xxxxxx6339 Reference #TFOVjt5Wxg\",\n          \"amount\": 2000.0,\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"11/04/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Transfer IN Branch - From Pamela Stuart-Highland DDA Xxxxxx8282 3215 Old Capitol Trail Wilmington DE\",\n          \"amount\": 6000.0,\n          \"non_true_revenue\": 1\n        }\n      ],\n      \"other_transfer_deposit\": [],\n      \"internal_transfer_withdrawal\": [\n        {\n          \"date\": \"11/24/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Tele-Transfer to xxxxxx8282 Reference #TFOVsc9Ld2\",\n          \"amount\": 100.0\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Tele-Transfer to xxxxxx8282 Reference #TFOVsqrfqd\",\n          \"amount\": 800.0\n        }\n      ],\n      \"other_transfer_withdrawal\": [\n        {\n          \"date\": \"11/05/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Business to Business ACH Debit - Blue Horizon 2 Loan Pmt. 251105 1058 Flipping The Script\",\n          \"amount\": 8645.84\n        }\n      ],\n      \"standard_deposit\": [\n        {\n          \"date\": \"11/03/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Deposit Made In A Branch/Store\",\n          \"amount\": 2368.0,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Deposit Made In A Branch/Store\",\n          \"amount\": 2100.0,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/04/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"eDeposit IN Branch 11/04/25 11:34:20 Am 1250 Broadway Hewlett NY\",\n          \"amount\": 3000.0,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/04/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Deposit Made In A Branch/Store\",\n          \"amount\": 1500.0,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/26/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Deposit Made In A Branch/Store\",\n          \"amount\": 2368.0,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/28/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"eDeposit IN Branch 11/28/25 03:43:28 PM 100 W 10th St Wilmington DE 3911\",\n          \"amount\": 5850.62,\n          \"non_true_revenue\": 0\n        }\n      ],\n      \"standard_withdrawal\": [\n        {\n          \"date\": \"11/03/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 11/01 Uber Technologies, Inc Wilmington DE P000000682281763 Card 3911\",\n          \"amount\": 40.27\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 11/02 Uber * Eats Pending San Francisco CA P000000680614722 Card 3911\",\n          \"amount\": 27.73\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 11/03 Uber * Eats Pending San Francisco CA P000000685315682 Card 3911\",\n          \"amount\": 26.33\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Sallie Mae Bank Slmloanpmt 251031 5548760879 Pamela Stewart\",\n          \"amount\": 222.63\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Pine Bluff Cable Internet 251031 043000098054506 Stuart Pamela\",\n          \"amount\": 77.75\n        },\n        {\n          \"date\": \"11/04/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 11/03 Uber * Eats Pending San Francisco CA P000000589567585 Card 3911\",\n          \"amount\": 40.39\n        },\n        {\n          \"date\": \"11/04/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 11/04 Uber Technologies, Inc Wilmington DE P000000287781228 Card 3911\",\n          \"amount\": 23.37\n        },\n        {\n          \"date\": \"11/05/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 11/05 Uber Technologies, Inc Wilmington DE P000000986746969 Card 3911\",\n          \"amount\": 23.96\n        },\n        {\n          \"date\": \"11/05/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 11/05 Uber * Eats Pending San Francisco CA P000000686719454 Card 3911\",\n          \"amount\": 38.94\n        },\n        {\n          \"date\": \"11/05/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Lakeview Ln Srv Mtg Pymt 110425 0065593204 Pamela Stuart\",\n          \"amount\": 6200.02\n        },\n        {\n          \"date\": \"11/06/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 11/05 Uber *Wawa8332418 San Francisco CA P000000589044210 Card 3911\",\n          \"amount\": 15.46\n        },\n        {\n          \"date\": \"11/06/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 11/06 Uber * Eats Pending San Francisco CA P000000886770560 Card 3911\",\n          \"amount\": 18.79\n        },\n        {\n          \"date\": \"11/06/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 11/06 Uber Technologies, Inc Wilmington DE P000000184940182 Card 3911\",\n          \"amount\": 28.33\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 11/07 Uber * Eats Pending San Francisco CA P000000789854658 Card 3911\",\n          \"amount\": 20.61\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 11/07 Uber Technologies, Inc Wilmington DE P000000482083975 Card 3911\",\n          \"amount\": 29.86\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 11/08 Uber Technologies, Inc Wilmington DE P000000883119328 Card 3911\",\n          \"amount\": 19.86\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 11/08 Res* Hamptonin2 Hotelplanner. FL S305312622141330 Card 3911\",\n          \"amount\": 241.32\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 11/09 Hampton Inns Albany NY 5385313090154901 Card 3911\",\n          \"amount\": 43.2\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Carrington Mortgage 251108 4001314887 Vaughn Highland\",\n          \"amount\": 5330.46\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 11/09 Hampton Inns Albany NY 5585313476853505 Card 3911\",\n          \"amount\": 152.71\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 11/11 Uber Technologies, Inc Wilmington DE P000000083061783 Card 3911\",\n          \"amount\": 24.73\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 11/11 Uber Eats Pending San Francisco CA P000000182272772 Card 3911\",\n          \"amount\": 40.55\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 11/11 Uber Technologies, Inc Wilmington DE P000000685008533 Card 3911\",\n          \"amount\": 17.87\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 11/16 Hampton Inns 518-4327000 NY S345320642559846 Card 3911\",\n          \"amount\": 318.17\n        },\n        {\n          \"date\": \"11/19/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 11/17 Amazon Mktpl*B07V4 Amzn.Com/Bill WA S345321794442400 Card 3911\",\n          \"amount\": 26.65\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 11/20 Seanas Orlando FL 5345324846746446 Card 3911\",\n          \"amount\": 161.71\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 11/21 Rack Room Shoes 0189 Kissimmee FL P345325536600026 Card 3911\",\n          \"amount\": 119.3\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 11/19 Conserve 585-4211028 NY S345323480427040 Card 3911\",\n          \"amount\": 400.0\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 11/20 Alamo Rent-A-Car Orlando FL 5385324546112202 Card 3911\",\n          \"amount\": 372.12\n        },\n        {\n          \"date\": \"11/25/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 11/23 Philadelphia Parki Philadelphia PA S355327619678056 Card 3911\",\n          \"amount\": 192.0\n        }\n      ]\n    }\n  ]\n}\n```",
+    "token_count": {
+      "estimated_tokens": 933
+    },
+    "failure_reason": null
+  }
+}

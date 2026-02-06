@@ -1,0 +1,710 @@
+{
+  "document_name": "Case30.pdf",
+  "pipeline_status": "completed",
+  "processing_metadata": {
+    "start_time": "2026-02-04T15:02:55.477122",
+    "end_time": "2026-02-04T15:05:24.223962",
+    "parsing_time_seconds": 90.486306,
+    "bsi_time_seconds": 58.243419,
+    "total_time_seconds": 148.729725
+  },
+  "parsing_agent_result": {
+    "agent_name": "parsing_agent",
+    "processing_status": "success",
+    "start_time": "2026-02-04T15:02:55.480327",
+    "end_time": "2026-02-04T15:04:25.966132",
+    "parsed_json": {
+      "bank_statement_information": {
+        "bank_name": "JPMorgan Chase Bank, N.A.",
+        "account_holder": "NU ATTITUDES ACCESSORIES UNLIMITED LLC",
+        "statement_start_date": "08-30-2025",
+        "statement_end_date": "09-30-2025",
+        "n_days": 32,
+        "n_month": [
+          8,
+          9
+        ],
+        "business_address": "259 SPRINGFIELD AVE # 3568 NEWARK NJ 07103-2955"
+      },
+      "accounts": [
+        {
+          "account_number": "000000926059525",
+          "account_type": "Chase Business Complete Checking",
+          "account_summary": {
+            "beginning_balance": -14.53,
+            "ending_balance": -3.4,
+            "total_deposits": 1516.72,
+            "total_withdrawals": 1505.59,
+            "total_deposits_count": 14,
+            "total_withdrawals_count": null,
+            "avg_daily_balance": null,
+            "overdraft_days": 3
+          },
+          "transactions": [
+            {
+              "date": "09-02-2025",
+              "description": "Orig CO Name:Bankcard Orig ID:6895422369 Desc Date:250902 CO Entry Descr:Mtot Dep Sec:CCD Trace#:043000093864736 Eed:250902 Ind ID:422369928608571 Ind Name:Mr Tee Unisex Salon Trn: 2453864736Tc",
+              "amount": 243.78,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "09-02-2025",
+              "description": "Online Transfer From Chk ...4922 Transaction#: 26049602056",
+              "amount": 30.0,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "09-02-2025",
+              "description": "Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408447237592 Eed:250902 Ind ID:5309995 Ind Name: Nu Attitudes Beauty Sa Fppbatch6586 Trn: 2457237592Tc",
+              "amount": 9.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-02-2025",
+              "description": "Orig CO Name:Bankcard Orig ID:6895422369 Desc Date:250902 CO Entry Descr:Mtot Disc Sec:CCD Trace#:043000093864312 Eed:250902 Ind ID:422369928608571 Ind Name: Mr Tee Unisex Salon Trn: 2453864312Tc",
+              "amount": 43.98,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-02-2025",
+              "description": "Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#:091408447054706 Eed:250902 Ind ID:5311982 Ind Name: Nu Attitudes Beauty Sa Fppbatch6592 Trn: 2457054706Tc",
+              "amount": 9.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-02-2025",
+              "description": "Online Transfer To Chk ...4922 Transaction#: 26079739689",
+              "amount": 180.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "09-03-2025",
+              "description": "Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408441692519 Eed:250903 Ind ID:5312033 Ind Name: Nu Attitudes Beauty Sa Fppbatch6644 Trn: 2461692519Tc",
+              "amount": 9.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-04-2025",
+              "description": "Orig CO Name:Bankcard Orig ID:6895422369 Desc Date:250904 CO Entry Descr:Mtot Dep Sec:CCD Trace#:043000097764023 Eed:250904 Ind ID:422369928608571 Ind Name:Mr Tee Unisex Salon Trn: 2477764023Tc",
+              "amount": 47.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "09-04-2025",
+              "description": "Zelle Payment From Zaree Neal Cofuhfvg11le",
+              "amount": 42.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "09-04-2025",
+              "description": "Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408447682635 Eed:250904 Ind ID:5313714 Ind Name: Nu Attitudes Beauty Sa Fppbatch6693 Trn: 2477682635Tc",
+              "amount": 9.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-05-2025",
+              "description": "Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408449689792 Eed:250905 Ind ID:5315473 Ind Name: Nu Attitudes Beauty Sa Fppbatch6769 Trn: 2489689792Tc",
+              "amount": 9.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-05-2025",
+              "description": "Online Transfer To Chk ...4922 Transaction#: 26113549803",
+              "amount": 60.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "09-08-2025",
+              "description": "Orig CO Name:Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408447578829 Eed:250908 Ind ID:5317582 Ind Name:Nu Attitudes Beauty Sa Fppbatch6822 Trn: 2517578829Tc",
+              "amount": 9.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-09-2025",
+              "description": "Orig CO Name:Bankcard Orig ID:6895422369 Desc Date:250909 CO Entry Descr:Mtot Dep Sec:CCD Trace#:043000092773619 Eed:250909 Ind ID:422369928608571 Ind Name:Mr Tee Unisex Salon Trn: 2522773619Tc",
+              "amount": 24.94,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "09-09-2025",
+              "description": "Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408442335790 Eed:250909 Ind ID:5321102 Ind Name: Nu Attitudes Beauty Sa Fppbatch6908 Trn: 2522335790Tc",
+              "amount": 9.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-10-2025",
+              "description": "Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408440915849 Eed:250910 Ind ID:5323026 Ind Name: Nu Attitudes Beauty Sa Fppbatch6964 Trn: 2530915849Tc",
+              "amount": 9.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-11-2025",
+              "description": "Orig CO Name:Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408448080945 Eed:250911 Ind ID:5324756 Ind Name: Nu Attitudes Beauty Sa Fppbatch7010 Trn: 2548080945Tc",
+              "amount": 9.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-12-2025",
+              "description": "Orig CO Name:Bankcard Orig ID:6895422369 Desc Date:250912 CO Entry Descr:Mtot Dep Sec:CCD Trace#:043000099108956 Eed:250912 Ind ID:422369928608571 Ind Name:Mr Tee Unisex Salon Trn: 2559108956Tc",
+              "amount": 52.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "09-12-2025",
+              "description": "Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408448716533 Eed:250912 Ind ID:5326520 Ind Name: Nu Attitudes Beauty Sa Fppbatch7036 Trn: 2558716533Tc",
+              "amount": 9.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-15-2025",
+              "description": "Orig CO Name: Primerica Life Orig ID:1041590590 Desc Date:SEP,25 CO Entry Descr:Ins. Prem Sec:PPD Trace#: 031100201069509 Eed:250915 Ind ID: Ind Name: Thomas Allen Trn: 2581069509Tc",
+              "amount": 95.61,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-15-2025",
+              "description": "Orig CO Name:Primerica01 Orig ID:0000735612 Desc Date:091125 CO Entry Descr:ACH Deposisec: PPD Trace#:011001239144218 Eed:250915 Ind ID: Ind Name:Allen Jr. th Trn: 2589144218Tc",
+              "amount": 50.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-15-2025",
+              "description": "Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408449299001 Eed:250915 Ind ID:5329431 Ind Name: Nu Attitudes Beauty Sa Fppbatch7112 Trn: 2589299001Tc",
+              "amount": 9.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-16-2025",
+              "description": "Online Transfer From Chk ...4922 Transaction#: 26249993076",
+              "amount": 125.0,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "09-16-2025",
+              "description": "Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408447990996 Eed:250916 Ind ID:5332119 Ind Name: Nu Attitudes Beauty Sa Fppbatch7197 Trn: 2597990996Tc",
+              "amount": 9.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-17-2025",
+              "description": "Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408441117511 Eed:250917 Ind ID:5334080 Ind Name:Nu Attitudes Beauty Sa Fppbatch7246 Trn: 2601117511Tc",
+              "amount": 9.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-18-2025",
+              "description": "Online Transfer From Chk ...4922 Transaction#: 26273611533",
+              "amount": 15.0,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "09-18-2025",
+              "description": "Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408440241115 Eed:250918 Ind ID:5335823 Ind Name: Nu Attitudes Beauty Sa Fppbatch7298 Trn: 2610241115Tc",
+              "amount": 9.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-19-2025",
+              "description": "Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408447229407 Eed:250919 Ind ID:5337619 Ind Name:Nu Attitudes Beauty Sa Fppbatch7353 Trn: 2627229407Tc",
+              "amount": 9.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-22-2025",
+              "description": "Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#:091408449335903 Eed:250922 Ind ID:5339780 Ind Name: Nu Attitudes Beauty Sa Fppbatch7407 Trn: 2659335903Tc",
+              "amount": 9.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-23-2025",
+              "description": "Online Transfer From Chk ...4922 Transaction#: 26321051814",
+              "amount": 27.0,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "09-23-2025",
+              "description": "Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#:091408449761095 Eed:250923 Ind ID:5343501 Ind Name: Nu Attitudes Beauty Sa Fppbatch7486 Trn: 2669761095Tc",
+              "amount": 9.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-24-2025",
+              "description": "Online Transfer From Chk ...4922 Transaction#: 26341606152",
+              "amount": 20.0,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "09-24-2025",
+              "description": "Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408445718338 Eed:250924 Ind ID:5345471 Ind Name: Nu Attitudes Beauty Sa Fppbatch7536 Trn: 2675718338Tc",
+              "amount": 9.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-25-2025",
+              "description": "Zelle Payment From Tony Johnson 3B00Jhwf98Gg",
+              "amount": 50.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "09-25-2025",
+              "description": "Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408441040249 Eed:250925 Ind ID:5347246 Ind Name: Nu Attitudes Beauty Sa Fppbatch7581 Trn: 2681040249Tc",
+              "amount": 9.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-26-2025",
+              "description": "Zelle Payment From Semy Saintflorant 0Pe06BC118Nf",
+              "amount": 40.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "09-26-2025",
+              "description": "Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408441137655 Eed:250926 Ind ID:5349096 Ind Name: Nu Attitudes Beauty Sa Fppbatch7632 Trn: 2691137655Tc",
+              "amount": 9.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-29-2025",
+              "description": "Zelle Payment From Coretta Tiller Wfct0Zbc8D35",
+              "amount": 500.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "09-29-2025",
+              "description": "Zelle Payment From Coretta Tiller Wfct0Zbc98Jz",
+              "amount": 300.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "09-29-2025",
+              "description": "Orig CO Name:Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408448730686 Eed:250929 Ind ID:5352164 Ind Name: Nu Attitudes Beauty Sa Fppbatch7683 Trn: 2728730686Tc",
+              "amount": 9.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-29-2025",
+              "description": "09/29 Withdrawal",
+              "amount": 660.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-30-2025",
+              "description": "Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408441036710 Eed:250930 Ind ID:5354939 Ind Name: Nu Attitudes Beauty Sa Fppbatch7762 Trn: 2731036710Tc",
+              "amount": 9.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-30-2025",
+              "description": "09/30 Online Transfer To Chk ...4922 Transaction#: 26412662976",
+              "amount": 203.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "09-30-2025",
+              "description": "Monthly Service Fee",
+              "amount": 15.0,
+              "type": "Debit",
+              "category": "Service Charges/Fees"
+            }
+          ]
+        }
+      ]
+    },
+    "raw_output": "```json\n{\n  \"bank_statement_information\": {\n    \"bank_name\": \"JPMorgan Chase Bank, N.A.\",\n    \"account_holder\": \"NU ATTITUDES ACCESSORIES UNLIMITED LLC\",\n    \"statement_start_date\": \"08-30-2025\",\n    \"statement_end_date\": \"09-30-2025\",\n    \"n_days\": 32,\n    \"n_month\": [\n      8,\n      9\n    ],\n    \"business_address\": \"259 SPRINGFIELD AVE # 3568 NEWARK NJ 07103-2955\"\n  },\n  \"accounts\": [\n    {\n      \"account_number\": \"000000926059525\",\n      \"account_type\": \"Chase Business Complete Checking\",\n      \"account_summary\": {\n        \"beginning_balance\": -14.53,\n        \"ending_balance\": -3.4,\n        \"total_deposits\": 1516.72,\n        \"total_withdrawals\": 1505.59,\n        \"total_deposits_count\": 14,\n        \"total_withdrawals_count\": null,\n        \"avg_daily_balance\": null,\n        \"overdraft_days\": 3\n      },\n      \"transactions\": [\n        {\n          \"date\": \"09-02-2025\",\n          \"description\": \"Orig CO Name:Bankcard Orig ID:6895422369 Desc Date:250902 CO Entry Descr:Mtot Dep Sec:CCD Trace#:043000093864736 Eed:250902 Ind ID:422369928608571 Ind Name:Mr Tee Unisex Salon Trn: 2453864736Tc\",\n          \"amount\": 243.78,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"09-02-2025\",\n          \"description\": \"Online Transfer From Chk ...4922 Transaction#: 26049602056\",\n          \"amount\": 30.0,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"09-02-2025\",\n          \"description\": \"Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408447237592 Eed:250902 Ind ID:5309995 Ind Name: Nu Attitudes Beauty Sa Fppbatch6586 Trn: 2457237592Tc\",\n          \"amount\": 9.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-02-2025\",\n          \"description\": \"Orig CO Name:Bankcard Orig ID:6895422369 Desc Date:250902 CO Entry Descr:Mtot Disc Sec:CCD Trace#:043000093864312 Eed:250902 Ind ID:422369928608571 Ind Name: Mr Tee Unisex Salon Trn: 2453864312Tc\",\n          \"amount\": 43.98,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-02-2025\",\n          \"description\": \"Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#:091408447054706 Eed:250902 Ind ID:5311982 Ind Name: Nu Attitudes Beauty Sa Fppbatch6592 Trn: 2457054706Tc\",\n          \"amount\": 9.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-02-2025\",\n          \"description\": \"Online Transfer To Chk ...4922 Transaction#: 26079739689\",\n          \"amount\": 180.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-03-2025\",\n          \"description\": \"Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408441692519 Eed:250903 Ind ID:5312033 Ind Name: Nu Attitudes Beauty Sa Fppbatch6644 Trn: 2461692519Tc\",\n          \"amount\": 9.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-04-2025\",\n          \"description\": \"Orig CO Name:Bankcard Orig ID:6895422369 Desc Date:250904 CO Entry Descr:Mtot Dep Sec:CCD Trace#:043000097764023 Eed:250904 Ind ID:422369928608571 Ind Name:Mr Tee Unisex Salon Trn: 2477764023Tc\",\n          \"amount\": 47.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"09-04-2025\",\n          \"description\": \"Zelle Payment From Zaree Neal Cofuhfvg11le\",\n          \"amount\": 42.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"09-04-2025\",\n          \"description\": \"Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408447682635 Eed:250904 Ind ID:5313714 Ind Name: Nu Attitudes Beauty Sa Fppbatch6693 Trn: 2477682635Tc\",\n          \"amount\": 9.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-05-2025\",\n          \"description\": \"Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408449689792 Eed:250905 Ind ID:5315473 Ind Name: Nu Attitudes Beauty Sa Fppbatch6769 Trn: 2489689792Tc\",\n          \"amount\": 9.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-05-2025\",\n          \"description\": \"Online Transfer To Chk ...4922 Transaction#: 26113549803\",\n          \"amount\": 60.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"description\": \"Orig CO Name:Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408447578829 Eed:250908 Ind ID:5317582 Ind Name:Nu Attitudes Beauty Sa Fppbatch6822 Trn: 2517578829Tc\",\n          \"amount\": 9.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-09-2025\",\n          \"description\": \"Orig CO Name:Bankcard Orig ID:6895422369 Desc Date:250909 CO Entry Descr:Mtot Dep Sec:CCD Trace#:043000092773619 Eed:250909 Ind ID:422369928608571 Ind Name:Mr Tee Unisex Salon Trn: 2522773619Tc\",\n          \"amount\": 24.94,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"09-09-2025\",\n          \"description\": \"Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408442335790 Eed:250909 Ind ID:5321102 Ind Name: Nu Attitudes Beauty Sa Fppbatch6908 Trn: 2522335790Tc\",\n          \"amount\": 9.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-10-2025\",\n          \"description\": \"Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408440915849 Eed:250910 Ind ID:5323026 Ind Name: Nu Attitudes Beauty Sa Fppbatch6964 Trn: 2530915849Tc\",\n          \"amount\": 9.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-11-2025\",\n          \"description\": \"Orig CO Name:Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408448080945 Eed:250911 Ind ID:5324756 Ind Name: Nu Attitudes Beauty Sa Fppbatch7010 Trn: 2548080945Tc\",\n          \"amount\": 9.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-12-2025\",\n          \"description\": \"Orig CO Name:Bankcard Orig ID:6895422369 Desc Date:250912 CO Entry Descr:Mtot Dep Sec:CCD Trace#:043000099108956 Eed:250912 Ind ID:422369928608571 Ind Name:Mr Tee Unisex Salon Trn: 2559108956Tc\",\n          \"amount\": 52.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"09-12-2025\",\n          \"description\": \"Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408448716533 Eed:250912 Ind ID:5326520 Ind Name: Nu Attitudes Beauty Sa Fppbatch7036 Trn: 2558716533Tc\",\n          \"amount\": 9.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-15-2025\",\n          \"description\": \"Orig CO Name: Primerica Life Orig ID:1041590590 Desc Date:SEP,25 CO Entry Descr:Ins. Prem Sec:PPD Trace#: 031100201069509 Eed:250915 Ind ID: Ind Name: Thomas Allen Trn: 2581069509Tc\",\n          \"amount\": 95.61,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-15-2025\",\n          \"description\": \"Orig CO Name:Primerica01 Orig ID:0000735612 Desc Date:091125 CO Entry Descr:ACH Deposisec: PPD Trace#:011001239144218 Eed:250915 Ind ID: Ind Name:Allen Jr. th Trn: 2589144218Tc\",\n          \"amount\": 50.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-15-2025\",\n          \"description\": \"Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408449299001 Eed:250915 Ind ID:5329431 Ind Name: Nu Attitudes Beauty Sa Fppbatch7112 Trn: 2589299001Tc\",\n          \"amount\": 9.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-16-2025\",\n          \"description\": \"Online Transfer From Chk ...4922 Transaction#: 26249993076\",\n          \"amount\": 125.0,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"09-16-2025\",\n          \"description\": \"Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408447990996 Eed:250916 Ind ID:5332119 Ind Name: Nu Attitudes Beauty Sa Fppbatch7197 Trn: 2597990996Tc\",\n          \"amount\": 9.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-17-2025\",\n          \"description\": \"Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408441117511 Eed:250917 Ind ID:5334080 Ind Name:Nu Attitudes Beauty Sa Fppbatch7246 Trn: 2601117511Tc\",\n          \"amount\": 9.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-18-2025\",\n          \"description\": \"Online Transfer From Chk ...4922 Transaction#: 26273611533\",\n          \"amount\": 15.0,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"09-18-2025\",\n          \"description\": \"Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408440241115 Eed:250918 Ind ID:5335823 Ind Name: Nu Attitudes Beauty Sa Fppbatch7298 Trn: 2610241115Tc\",\n          \"amount\": 9.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-19-2025\",\n          \"description\": \"Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408447229407 Eed:250919 Ind ID:5337619 Ind Name:Nu Attitudes Beauty Sa Fppbatch7353 Trn: 2627229407Tc\",\n          \"amount\": 9.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-22-2025\",\n          \"description\": \"Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#:091408449335903 Eed:250922 Ind ID:5339780 Ind Name: Nu Attitudes Beauty Sa Fppbatch7407 Trn: 2659335903Tc\",\n          \"amount\": 9.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-23-2025\",\n          \"description\": \"Online Transfer From Chk ...4922 Transaction#: 26321051814\",\n          \"amount\": 27.0,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"09-23-2025\",\n          \"description\": \"Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#:091408449761095 Eed:250923 Ind ID:5343501 Ind Name: Nu Attitudes Beauty Sa Fppbatch7486 Trn: 2669761095Tc\",\n          \"amount\": 9.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-24-2025\",\n          \"description\": \"Online Transfer From Chk ...4922 Transaction#: 26341606152\",\n          \"amount\": 20.0,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"09-24-2025\",\n          \"description\": \"Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408445718338 Eed:250924 Ind ID:5345471 Ind Name: Nu Attitudes Beauty Sa Fppbatch7536 Trn: 2675718338Tc\",\n          \"amount\": 9.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-25-2025\",\n          \"description\": \"Zelle Payment From Tony Johnson 3B00Jhwf98Gg\",\n          \"amount\": 50.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"09-25-2025\",\n          \"description\": \"Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408441040249 Eed:250925 Ind ID:5347246 Ind Name: Nu Attitudes Beauty Sa Fppbatch7581 Trn: 2681040249Tc\",\n          \"amount\": 9.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-26-2025\",\n          \"description\": \"Zelle Payment From Semy Saintflorant 0Pe06BC118Nf\",\n          \"amount\": 40.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"09-26-2025\",\n          \"description\": \"Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408441137655 Eed:250926 Ind ID:5349096 Ind Name: Nu Attitudes Beauty Sa Fppbatch7632 Trn: 2691137655Tc\",\n          \"amount\": 9.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-29-2025\",\n          \"description\": \"Zelle Payment From Coretta Tiller Wfct0Zbc8D35\",\n          \"amount\": 500.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"09-29-2025\",\n          \"description\": \"Zelle Payment From Coretta Tiller Wfct0Zbc98Jz\",\n          \"amount\": 300.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"09-29-2025\",\n          \"description\": \"Orig CO Name:Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408448730686 Eed:250929 Ind ID:5352164 Ind Name: Nu Attitudes Beauty Sa Fppbatch7683 Trn: 2728730686Tc\",\n          \"amount\": 9.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-29-2025\",\n          \"description\": \"09/29 Withdrawal\",\n          \"amount\": 660.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-30-2025\",\n          \"description\": \"Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408441036710 Eed:250930 Ind ID:5354939 Ind Name: Nu Attitudes Beauty Sa Fppbatch7762 Trn: 2731036710Tc\",\n          \"amount\": 9.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-30-2025\",\n          \"description\": \"09/30 Online Transfer To Chk ...4922 Transaction#: 26412662976\",\n          \"amount\": 203.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-30-2025\",\n          \"description\": \"Monthly Service Fee\",\n          \"amount\": 15.0,\n          \"type\": \"Debit\",\n          \"category\": \"Service Charges/Fees\"\n        }\n      ]\n    }\n  ]\n}\n```",
+    "token_count": {
+      "estimated_tokens": 1485
+    },
+    "failure_reason": null
+  },
+  "bsi_analyzer_result": {
+    "agent_name": "v1_bsi_analyzer_agent",
+    "processing_status": "success",
+    "start_time": "2026-02-04T15:04:25.978911",
+    "end_time": "2026-02-04T15:05:24.222080",
+    "parsed_json": {
+      "accounts": [
+        {
+          "account_number": "000000926059525",
+          "account_type": "Chase Business Complete Checking",
+          "mca_deposit": [],
+          "mca_withdrawal": [
+            {
+              "mca_name": "Expansion Capital",
+              "date": "09-02-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408447237592 Eed:250902 Ind ID:5309995 Ind Name: Nu Attitudes Beauty Sa Fppbatch6586 Trn: 2457237592Tc",
+              "amount": 9.0
+            },
+            {
+              "mca_name": "Expansion Capital",
+              "date": "09-02-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#:091408447054706 Eed:250902 Ind ID:5311982 Ind Name: Nu Attitudes Beauty Sa Fppbatch6592 Trn: 2457054706Tc",
+              "amount": 9.0
+            },
+            {
+              "mca_name": "Expansion Capital",
+              "date": "09-03-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408441692519 Eed:250903 Ind ID:5312033 Ind Name: Nu Attitudes Beauty Sa Fppbatch6644 Trn: 2461692519Tc",
+              "amount": 9.0
+            },
+            {
+              "mca_name": "Expansion Capital",
+              "date": "09-04-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408447682635 Eed:250904 Ind ID:5313714 Ind Name: Nu Attitudes Beauty Sa Fppbatch6693 Trn: 2477682635Tc",
+              "amount": 9.0
+            },
+            {
+              "mca_name": "Expansion Capital",
+              "date": "09-05-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408449689792 Eed:250905 Ind ID:5315473 Ind Name: Nu Attitudes Beauty Sa Fppbatch6769 Trn: 2489689792Tc",
+              "amount": 9.0
+            },
+            {
+              "mca_name": "Expansion Capital",
+              "date": "09-08-2025",
+              "type": "Debit",
+              "description": "Orig CO Name:Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408447578829 Eed:250908 Ind ID:5317582 Ind Name:Nu Attitudes Beauty Sa Fppbatch6822 Trn: 2517578829Tc",
+              "amount": 9.0
+            },
+            {
+              "mca_name": "Expansion Capital",
+              "date": "09-09-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408442335790 Eed:250909 Ind ID:5321102 Ind Name: Nu Attitudes Beauty Sa Fppbatch6908 Trn: 2522335790Tc",
+              "amount": 9.0
+            },
+            {
+              "mca_name": "Expansion Capital",
+              "date": "09-10-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408440915849 Eed:250910 Ind ID:5323026 Ind Name: Nu Attitudes Beauty Sa Fppbatch6964 Trn: 2530915849Tc",
+              "amount": 9.0
+            },
+            {
+              "mca_name": "Expansion Capital",
+              "date": "09-11-2025",
+              "type": "Debit",
+              "description": "Orig CO Name:Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408448080945 Eed:250911 Ind ID:5324756 Ind Name: Nu Attitudes Beauty Sa Fppbatch7010 Trn: 2548080945Tc",
+              "amount": 9.0
+            },
+            {
+              "mca_name": "Expansion Capital",
+              "date": "09-12-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408448716533 Eed:250912 Ind ID:5326520 Ind Name: Nu Attitudes Beauty Sa Fppbatch7036 Trn: 2558716533Tc",
+              "amount": 9.0
+            },
+            {
+              "mca_name": "Expansion Capital",
+              "date": "09-15-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408449299001 Eed:250915 Ind ID:5329431 Ind Name: Nu Attitudes Beauty Sa Fppbatch7112 Trn: 2589299001Tc",
+              "amount": 9.0
+            },
+            {
+              "mca_name": "Expansion Capital",
+              "date": "09-16-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408447990996 Eed:250916 Ind ID:5332119 Ind Name: Nu Attitudes Beauty Sa Fppbatch7197 Trn: 2597990996Tc",
+              "amount": 9.0
+            },
+            {
+              "mca_name": "Expansion Capital",
+              "date": "09-17-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408441117511 Eed:250917 Ind ID:5334080 Ind Name:Nu Attitudes Beauty Sa Fppbatch7246 Trn: 2601117511Tc",
+              "amount": 9.0
+            },
+            {
+              "mca_name": "Expansion Capital",
+              "date": "09-18-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408440241115 Eed:250918 Ind ID:5335823 Ind Name: Nu Attitudes Beauty Sa Fppbatch7298 Trn: 2610241115Tc",
+              "amount": 9.0
+            },
+            {
+              "mca_name": "Expansion Capital",
+              "date": "09-19-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408447229407 Eed:250919 Ind ID:5337619 Ind Name:Nu Attitudes Beauty Sa Fppbatch7353 Trn: 2627229407Tc",
+              "amount": 9.0
+            },
+            {
+              "mca_name": "Expansion Capital",
+              "date": "09-22-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#:091408449335903 Eed:250922 Ind ID:5339780 Ind Name: Nu Attitudes Beauty Sa Fppbatch7407 Trn: 2659335903Tc",
+              "amount": 9.0
+            },
+            {
+              "mca_name": "Expansion Capital",
+              "date": "09-23-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#:091408449761095 Eed:250923 Ind ID:5343501 Ind Name: Nu Attitudes Beauty Sa Fppbatch7486 Trn: 2669761095Tc",
+              "amount": 9.0
+            },
+            {
+              "mca_name": "Expansion Capital",
+              "date": "09-24-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408445718338 Eed:250924 Ind ID:5345471 Ind Name: Nu Attitudes Beauty Sa Fppbatch7536 Trn: 2675718338Tc",
+              "amount": 9.0
+            },
+            {
+              "mca_name": "Expansion Capital",
+              "date": "09-25-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408441040249 Eed:250925 Ind ID:5347246 Ind Name: Nu Attitudes Beauty Sa Fppbatch7581 Trn: 2681040249Tc",
+              "amount": 9.0
+            },
+            {
+              "mca_name": "Expansion Capital",
+              "date": "09-26-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408441137655 Eed:250926 Ind ID:5349096 Ind Name: Nu Attitudes Beauty Sa Fppbatch7632 Trn: 2691137655Tc",
+              "amount": 9.0
+            },
+            {
+              "mca_name": "Expansion Capital",
+              "date": "09-29-2025",
+              "type": "Debit",
+              "description": "Orig CO Name:Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408448730686 Eed:250929 Ind ID:5352164 Ind Name: Nu Attitudes Beauty Sa Fppbatch7683 Trn: 2728730686Tc",
+              "amount": 9.0
+            },
+            {
+              "mca_name": "Expansion Capital",
+              "date": "09-30-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408441036710 Eed:250930 Ind ID:5354939 Ind Name: Nu Attitudes Beauty Sa Fppbatch7762 Trn: 2731036710Tc",
+              "amount": 9.0
+            }
+          ],
+          "returned_items": [],
+          "overdrafts": [],
+          "service_charges": [
+            {
+              "date": "09-30-2025",
+              "description": "Monthly Service Fee",
+              "amount": 15.0,
+              "type": "Debit"
+            }
+          ],
+          "atm_cash_withdrawal": [],
+          "internal_transfer_deposit": [
+            {
+              "date": "09-02-2025",
+              "description": "Online Transfer From Chk ...4922 Transaction#: 26049602056",
+              "amount": 30.0,
+              "type": "Credit",
+              "non_true_revenue": 1
+            },
+            {
+              "date": "09-16-2025",
+              "description": "Online Transfer From Chk ...4922 Transaction#: 26249993076",
+              "amount": 125.0,
+              "type": "Credit",
+              "non_true_revenue": 1
+            },
+            {
+              "date": "09-18-2025",
+              "description": "Online Transfer From Chk ...4922 Transaction#: 26273611533",
+              "amount": 15.0,
+              "type": "Credit",
+              "non_true_revenue": 1
+            },
+            {
+              "date": "09-23-2025",
+              "description": "Online Transfer From Chk ...4922 Transaction#: 26321051814",
+              "amount": 27.0,
+              "type": "Credit",
+              "non_true_revenue": 1
+            },
+            {
+              "date": "09-24-2025",
+              "description": "Online Transfer From Chk ...4922 Transaction#: 26341606152",
+              "amount": 20.0,
+              "type": "Credit",
+              "non_true_revenue": 1
+            }
+          ],
+          "other_transfer_deposit": [
+            {
+              "date": "09-04-2025",
+              "description": "Zelle Payment From Zaree Neal Cofuhfvg11le",
+              "amount": 42.0,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-25-2025",
+              "description": "Zelle Payment From Tony Johnson 3B00Jhwf98Gg",
+              "amount": 50.0,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-26-2025",
+              "description": "Zelle Payment From Semy Saintflorant 0Pe06BC118Nf",
+              "amount": 40.0,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-29-2025",
+              "description": "Zelle Payment From Coretta Tiller Wfct0Zbc8D35",
+              "amount": 500.0,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-29-2025",
+              "description": "Zelle Payment From Coretta Tiller Wfct0Zbc98Jz",
+              "amount": 300.0,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            }
+          ],
+          "internal_transfer_withdrawal": [
+            {
+              "date": "09-02-2025",
+              "description": "Online Transfer To Chk ...4922 Transaction#: 26079739689",
+              "amount": 180.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09-05-2025",
+              "description": "Online Transfer To Chk ...4922 Transaction#: 26113549803",
+              "amount": 60.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09-30-2025",
+              "description": "09/30 Online Transfer To Chk ...4922 Transaction#: 26412662976",
+              "amount": 203.0,
+              "type": "Debit"
+            }
+          ],
+          "other_transfer_withdrawal": [],
+          "standard_deposit": [
+            {
+              "date": "09-02-2025",
+              "description": "Orig CO Name:Bankcard Orig ID:6895422369 Desc Date:250902 CO Entry Descr:Mtot Dep Sec:CCD Trace#:043000093864736 Eed:250902 Ind ID:422369928608571 Ind Name:Mr Tee Unisex Salon Trn: 2453864736Tc",
+              "amount": 243.78,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-04-2025",
+              "description": "Orig CO Name:Bankcard Orig ID:6895422369 Desc Date:250904 CO Entry Descr:Mtot Dep Sec:CCD Trace#:043000097764023 Eed:250904 Ind ID:422369928608571 Ind Name:Mr Tee Unisex Salon Trn: 2477764023Tc",
+              "amount": 47.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-09-2025",
+              "description": "Orig CO Name:Bankcard Orig ID:6895422369 Desc Date:250909 CO Entry Descr:Mtot Dep Sec:CCD Trace#:043000092773619 Eed:250909 Ind ID:422369928608571 Ind Name:Mr Tee Unisex Salon Trn: 2522773619Tc",
+              "amount": 24.94,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-12-2025",
+              "description": "Orig CO Name:Bankcard Orig ID:6895422369 Desc Date:250912 CO Entry Descr:Mtot Dep Sec:CCD Trace#:043000099108956 Eed:250912 Ind ID:422369928608571 Ind Name:Mr Tee Unisex Salon Trn: 2559108956Tc",
+              "amount": 52.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            }
+          ],
+          "standard_withdrawal": [
+            {
+              "date": "09-02-2025",
+              "description": "Orig CO Name:Bankcard Orig ID:6895422369 Desc Date:250902 CO Entry Descr:Mtot Disc Sec:CCD Trace#:043000093864312 Eed:250902 Ind ID:422369928608571 Ind Name: Mr Tee Unisex Salon Trn: 2453864312Tc",
+              "amount": 43.98,
+              "type": "Debit"
+            },
+            {
+              "date": "09-15-2025",
+              "description": "Orig CO Name: Primerica Life Orig ID:1041590590 Desc Date:SEP,25 CO Entry Descr:Ins. Prem Sec:PPD Trace#: 031100201069509 Eed:250915 Ind ID: Ind Name: Thomas Allen Trn: 2581069509Tc",
+              "amount": 95.61,
+              "type": "Debit"
+            },
+            {
+              "date": "09-15-2025",
+              "description": "Orig CO Name:Primerica01 Orig ID:0000735612 Desc Date:091125 CO Entry Descr:ACH Deposisec: PPD Trace#:011001239144218 Eed:250915 Ind ID: Ind Name:Allen Jr. th Trn: 2589144218Tc",
+              "amount": 50.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09-29-2025",
+              "description": "09/29 Withdrawal",
+              "amount": 660.0,
+              "type": "Debit"
+            }
+          ]
+        }
+      ]
+    },
+    "raw_output": "```json\n{\n  \"accounts\": [\n    {\n      \"account_number\": \"000000926059525\",\n      \"account_type\": \"Chase Business Complete Checking\",\n      \"mca_deposit\": [],\n      \"mca_withdrawal\": [\n        {\n          \"mca_name\": \"Expansion Capital\",\n          \"date\": \"09-02-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408447237592 Eed:250902 Ind ID:5309995 Ind Name: Nu Attitudes Beauty Sa Fppbatch6586 Trn: 2457237592Tc\",\n          \"amount\": 9.0\n        },\n        {\n          \"mca_name\": \"Expansion Capital\",\n          \"date\": \"09-02-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#:091408447054706 Eed:250902 Ind ID:5311982 Ind Name: Nu Attitudes Beauty Sa Fppbatch6592 Trn: 2457054706Tc\",\n          \"amount\": 9.0\n        },\n        {\n          \"mca_name\": \"Expansion Capital\",\n          \"date\": \"09-03-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408441692519 Eed:250903 Ind ID:5312033 Ind Name: Nu Attitudes Beauty Sa Fppbatch6644 Trn: 2461692519Tc\",\n          \"amount\": 9.0\n        },\n        {\n          \"mca_name\": \"Expansion Capital\",\n          \"date\": \"09-04-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408447682635 Eed:250904 Ind ID:5313714 Ind Name: Nu Attitudes Beauty Sa Fppbatch6693 Trn: 2477682635Tc\",\n          \"amount\": 9.0\n        },\n        {\n          \"mca_name\": \"Expansion Capital\",\n          \"date\": \"09-05-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408449689792 Eed:250905 Ind ID:5315473 Ind Name: Nu Attitudes Beauty Sa Fppbatch6769 Trn: 2489689792Tc\",\n          \"amount\": 9.0\n        },\n        {\n          \"mca_name\": \"Expansion Capital\",\n          \"date\": \"09-08-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name:Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408447578829 Eed:250908 Ind ID:5317582 Ind Name:Nu Attitudes Beauty Sa Fppbatch6822 Trn: 2517578829Tc\",\n          \"amount\": 9.0\n        },\n        {\n          \"mca_name\": \"Expansion Capital\",\n          \"date\": \"09-09-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408442335790 Eed:250909 Ind ID:5321102 Ind Name: Nu Attitudes Beauty Sa Fppbatch6908 Trn: 2522335790Tc\",\n          \"amount\": 9.0\n        },\n        {\n          \"mca_name\": \"Expansion Capital\",\n          \"date\": \"09-10-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408440915849 Eed:250910 Ind ID:5323026 Ind Name: Nu Attitudes Beauty Sa Fppbatch6964 Trn: 2530915849Tc\",\n          \"amount\": 9.0\n        },\n        {\n          \"mca_name\": \"Expansion Capital\",\n          \"date\": \"09-11-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name:Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408448080945 Eed:250911 Ind ID:5324756 Ind Name: Nu Attitudes Beauty Sa Fppbatch7010 Trn: 2548080945Tc\",\n          \"amount\": 9.0\n        },\n        {\n          \"mca_name\": \"Expansion Capital\",\n          \"date\": \"09-12-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408448716533 Eed:250912 Ind ID:5326520 Ind Name: Nu Attitudes Beauty Sa Fppbatch7036 Trn: 2558716533Tc\",\n          \"amount\": 9.0\n        },\n        {\n          \"mca_name\": \"Expansion Capital\",\n          \"date\": \"09-15-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408449299001 Eed:250915 Ind ID:5329431 Ind Name: Nu Attitudes Beauty Sa Fppbatch7112 Trn: 2589299001Tc\",\n          \"amount\": 9.0\n        },\n        {\n          \"mca_name\": \"Expansion Capital\",\n          \"date\": \"09-16-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408447990996 Eed:250916 Ind ID:5332119 Ind Name: Nu Attitudes Beauty Sa Fppbatch7197 Trn: 2597990996Tc\",\n          \"amount\": 9.0\n        },\n        {\n          \"mca_name\": \"Expansion Capital\",\n          \"date\": \"09-17-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408441117511 Eed:250917 Ind ID:5334080 Ind Name:Nu Attitudes Beauty Sa Fppbatch7246 Trn: 2601117511Tc\",\n          \"amount\": 9.0\n        },\n        {\n          \"mca_name\": \"Expansion Capital\",\n          \"date\": \"09-18-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408440241115 Eed:250918 Ind ID:5335823 Ind Name: Nu Attitudes Beauty Sa Fppbatch7298 Trn: 2610241115Tc\",\n          \"amount\": 9.0\n        },\n        {\n          \"mca_name\": \"Expansion Capital\",\n          \"date\": \"09-19-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408447229407 Eed:250919 Ind ID:5337619 Ind Name:Nu Attitudes Beauty Sa Fppbatch7353 Trn: 2627229407Tc\",\n          \"amount\": 9.0\n        },\n        {\n          \"mca_name\": \"Expansion Capital\",\n          \"date\": \"09-22-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#:091408449335903 Eed:250922 Ind ID:5339780 Ind Name: Nu Attitudes Beauty Sa Fppbatch7407 Trn: 2659335903Tc\",\n          \"amount\": 9.0\n        },\n        {\n          \"mca_name\": \"Expansion Capital\",\n          \"date\": \"09-23-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#:091408449761095 Eed:250923 Ind ID:5343501 Ind Name: Nu Attitudes Beauty Sa Fppbatch7486 Trn: 2669761095Tc\",\n          \"amount\": 9.0\n        },\n        {\n          \"mca_name\": \"Expansion Capital\",\n          \"date\": \"09-24-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408445718338 Eed:250924 Ind ID:5345471 Ind Name: Nu Attitudes Beauty Sa Fppbatch7536 Trn: 2675718338Tc\",\n          \"amount\": 9.0\n        },\n        {\n          \"mca_name\": \"Expansion Capital\",\n          \"date\": \"09-25-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408441040249 Eed:250925 Ind ID:5347246 Ind Name: Nu Attitudes Beauty Sa Fppbatch7581 Trn: 2681040249Tc\",\n          \"amount\": 9.0\n        },\n        {\n          \"mca_name\": \"Expansion Capital\",\n          \"date\": \"09-26-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408441137655 Eed:250926 Ind ID:5349096 Ind Name: Nu Attitudes Beauty Sa Fppbatch7632 Trn: 2691137655Tc\",\n          \"amount\": 9.0\n        },\n        {\n          \"mca_name\": \"Expansion Capital\",\n          \"date\": \"09-29-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name:Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408448730686 Eed:250929 Ind ID:5352164 Ind Name: Nu Attitudes Beauty Sa Fppbatch7683 Trn: 2728730686Tc\",\n          \"amount\": 9.0\n        },\n        {\n          \"mca_name\": \"Expansion Capital\",\n          \"date\": \"09-30-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Expansion Capita Orig ID:1463411381 Desc Date: CO Entry Descr:Pmts Sec:CCD Trace#: 091408441036710 Eed:250930 Ind ID:5354939 Ind Name: Nu Attitudes Beauty Sa Fppbatch7762 Trn: 2731036710Tc\",\n          \"amount\": 9.0\n        }\n      ],\n      \"returned_items\": [],\n      \"overdrafts\": [],\n      \"service_charges\": [\n        {\n          \"date\": \"09-30-2025\",\n          \"description\": \"Monthly Service Fee\",\n          \"amount\": 15.0,\n          \"type\": \"Debit\"\n        }\n      ],\n      \"atm_cash_withdrawal\": [],\n      \"internal_transfer_deposit\": [\n        {\n          \"date\": \"09-02-2025\",\n          \"description\": \"Online Transfer From Chk ...4922 Transaction#: 26049602056\",\n          \"amount\": 30.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"09-16-2025\",\n          \"description\": \"Online Transfer From Chk ...4922 Transaction#: 26249993076\",\n          \"amount\": 125.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"09-18-2025\",\n          \"description\": \"Online Transfer From Chk ...4922 Transaction#: 26273611533\",\n          \"amount\": 15.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"09-23-2025\",\n          \"description\": \"Online Transfer From Chk ...4922 Transaction#: 26321051814\",\n          \"amount\": 27.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"09-24-2025\",\n          \"description\": \"Online Transfer From Chk ...4922 Transaction#: 26341606152\",\n          \"amount\": 20.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        }\n      ],\n      \"other_transfer_deposit\": [\n        {\n          \"date\": \"09-04-2025\",\n          \"description\": \"Zelle Payment From Zaree Neal Cofuhfvg11le\",\n          \"amount\": 42.0,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-25-2025\",\n          \"description\": \"Zelle Payment From Tony Johnson 3B00Jhwf98Gg\",\n          \"amount\": 50.0,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-26-2025\",\n          \"description\": \"Zelle Payment From Semy Saintflorant 0Pe06BC118Nf\",\n          \"amount\": 40.0,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-29-2025\",\n          \"description\": \"Zelle Payment From Coretta Tiller Wfct0Zbc8D35\",\n          \"amount\": 500.0,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-29-2025\",\n          \"description\": \"Zelle Payment From Coretta Tiller Wfct0Zbc98Jz\",\n          \"amount\": 300.0,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        }\n      ],\n      \"internal_transfer_withdrawal\": [\n        {\n          \"date\": \"09-02-2025\",\n          \"description\": \"Online Transfer To Chk ...4922 Transaction#: 26079739689\",\n          \"amount\": 180.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09-05-2025\",\n          \"description\": \"Online Transfer To Chk ...4922 Transaction#: 26113549803\",\n          \"amount\": 60.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09-30-2025\",\n          \"description\": \"09/30 Online Transfer To Chk ...4922 Transaction#: 26412662976\",\n          \"amount\": 203.0,\n          \"type\": \"Debit\"\n        }\n      ],\n      \"other_transfer_withdrawal\": [],\n      \"standard_deposit\": [\n        {\n          \"date\": \"09-02-2025\",\n          \"description\": \"Orig CO Name:Bankcard Orig ID:6895422369 Desc Date:250902 CO Entry Descr:Mtot Dep Sec:CCD Trace#:043000093864736 Eed:250902 Ind ID:422369928608571 Ind Name:Mr Tee Unisex Salon Trn: 2453864736Tc\",\n          \"amount\": 243.78,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-04-2025\",\n          \"description\": \"Orig CO Name:Bankcard Orig ID:6895422369 Desc Date:250904 CO Entry Descr:Mtot Dep Sec:CCD Trace#:043000097764023 Eed:250904 Ind ID:422369928608571 Ind Name:Mr Tee Unisex Salon Trn: 2477764023Tc\",\n          \"amount\": 47.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-09-2025\",\n          \"description\": \"Orig CO Name:Bankcard Orig ID:6895422369 Desc Date:250909 CO Entry Descr:Mtot Dep Sec:CCD Trace#:043000092773619 Eed:250909 Ind ID:422369928608571 Ind Name:Mr Tee Unisex Salon Trn: 2522773619Tc\",\n          \"amount\": 24.94,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-12-2025\",\n          \"description\": \"Orig CO Name:Bankcard Orig ID:6895422369 Desc Date:250912 CO Entry Descr:Mtot Dep Sec:CCD Trace#:043000099108956 Eed:250912 Ind ID:422369928608571 Ind Name:Mr Tee Unisex Salon Trn: 2559108956Tc\",\n          \"amount\": 52.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        }\n      ],\n      \"standard_withdrawal\": [\n        {\n          \"date\": \"09-02-2025\",\n          \"description\": \"Orig CO Name:Bankcard Orig ID:6895422369 Desc Date:250902 CO Entry Descr:Mtot Disc Sec:CCD Trace#:043000093864312 Eed:250902 Ind ID:422369928608571 Ind Name: Mr Tee Unisex Salon Trn: 2453864312Tc\",\n          \"amount\": 43.98,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09-15-2025\",\n          \"description\": \"Orig CO Name: Primerica Life Orig ID:1041590590 Desc Date:SEP,25 CO Entry Descr:Ins. Prem Sec:PPD Trace#: 031100201069509 Eed:250915 Ind ID: Ind Name: Thomas Allen Trn: 2581069509Tc\",\n          \"amount\": 95.61,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09-15-2025\",\n          \"description\": \"Orig CO Name:Primerica01 Orig ID:0000735612 Desc Date:091125 CO Entry Descr:ACH Deposisec: PPD Trace#:011001239144218 Eed:250915 Ind ID: Ind Name:Allen Jr. th Trn: 2589144218Tc\",\n          \"amount\": 50.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09-29-2025\",\n          \"description\": \"09/29 Withdrawal\",\n          \"amount\": 660.0,\n          \"type\": \"Debit\"\n        }\n      ]\n    }\n  ]\n}\n```",
+    "token_count": {
+      "estimated_tokens": 1387
+    },
+    "failure_reason": null
+  }
+}

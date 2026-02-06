@@ -1,0 +1,1416 @@
+{
+  "document_name": "Case51.pdf",
+  "pipeline_status": "completed",
+  "processing_metadata": {
+    "start_time": "2026-02-04T15:00:52.048936",
+    "end_time": "2026-02-04T15:04:13.143368",
+    "parsing_time_seconds": 132.239479,
+    "bsi_time_seconds": 68.662033,
+    "total_time_seconds": 200.90151199999997
+  },
+  "parsing_agent_result": {
+    "agent_name": "parsing_agent",
+    "processing_status": "success",
+    "start_time": "2026-02-04T15:00:52.235572",
+    "end_time": "2026-02-04T15:03:04.474855",
+    "parsed_json": {
+      "bank_statement_information": {
+        "bank_name": "westbury bank",
+        "account_holder": "BNC ENTERPRISES LLC",
+        "statement_start_date": "08/30/2025",
+        "statement_end_date": "09/30/2025",
+        "n_days": 32,
+        "n_month": [
+          8,
+          9
+        ],
+        "business_address": "1614 HARRISON ST WEST BEND WI 53090-1536"
+      },
+      "accounts": [
+        {
+          "account_number": "xxxxxx9776",
+          "account_type": "WB Community Business",
+          "account_summary": {
+            "beginning_balance": 4982.16,
+            "ending_balance": 376.84,
+            "total_deposits": 4252.0,
+            "total_withdrawals": 8857.32,
+            "total_deposits_count": 2,
+            "total_withdrawals_count": 100,
+            "avg_daily_balance": null,
+            "overdraft_days": 0
+          },
+          "transactions": [
+            {
+              "date": "08/30/2025",
+              "description": "MNRD-WEST 575 WE POS WEST BEND WI US 329187 ************7445 35314910",
+              "amount": 21.64,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/30/2025",
+              "description": "DAVISON - VAR - POS PITTSBURGH PA US 717087 ************7445 85097558",
+              "amount": 100.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/30/2025",
+              "description": "MNRD-WEST 575 WE POS WEST BEND WI US 622087 ************7445 35314910",
+              "amount": 19.12,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/02/2025",
+              "description": "WESTBURY BANK WE ATM WEST BEND WI US 008210 ************7445 L462107",
+              "amount": 300.0,
+              "type": "Debit",
+              "category": "ATM/Cash Withdrawal"
+            },
+            {
+              "date": "09/02/2025",
+              "description": "WESTBURY BANK WE ATM WEST BEND WI US 008320 ************7445 L462107",
+              "amount": 500.0,
+              "type": "Debit",
+              "category": "ATM/Cash Withdrawal"
+            },
+            {
+              "date": "09/02/2025",
+              "description": "DOORDASH* 08/30-2 POS SAN FRANCISCO CA US 413379 ************7445 61345233",
+              "amount": 81.32,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/02/2025",
+              "description": "SECURITY-FINANCE POS SPARTANBURG SC US 785804 ************7445 71699304",
+              "amount": 130.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/02/2025",
+              "description": "REPAY SECURITY-F POS Atlanta GA US 828005 ************7445 72000114",
+              "amount": 2.95,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/02/2025",
+              "description": "WM SUPERCENTER # POS WEST BEND WI US 557801 ************7445 26580014",
+              "amount": 82.12,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/02/2025",
+              "description": "MNRD-WEST 575 WE POS WEST BEND WI US 826559 ************7445 35314910",
+              "amount": 23.67,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/02/2025",
+              "description": "WM SUPERCENTER # POS WEST BEND WI US 495917 ************7445 26580021",
+              "amount": 274.56,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/02/2025",
+              "description": "PY * DENCO PROPER POS GERMANTOWN WI US 043065 ************7445 70861082",
+              "amount": 229.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/02/2025",
+              "description": "AMAZON PRIME* N58 POS Amzn.com/bill WA US 269267 ************7445 55751209",
+              "amount": 15.05,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/02/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI",
+              "amount": 5.25,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/02/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1082 WEST BEND WI",
+              "amount": 6.23,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/02/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI",
+              "amount": 6.52,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/02/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI",
+              "amount": 32.22,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/02/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI",
+              "amount": 35.5,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/02/2025",
+              "description": "Bridgecrest DT RETAIL 250830 PPD",
+              "amount": 498.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/03/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI",
+              "amount": 15.91,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/03/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SP KWIK TRIP #1062 WEST BEND WI",
+              "amount": 27.5,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/03/2025",
+              "description": "InstaMed FROEDTERT WEB",
+              "amount": 109.44,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/04/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI",
+              "amount": 34.34,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/05/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI",
+              "amount": 4.52,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/05/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI",
+              "amount": 25.1,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/08/2025",
+              "description": "DD * DOORDASH ARB POS SAN FRANCISCO CA US 567870 ************7445 39726431",
+              "amount": 44.77,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/08/2025",
+              "description": "DD * DOORDASH ARB POS SAN FRANCISCO CA US 038793 ************7445 32105245",
+              "amount": 55.54,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/08/2025",
+              "description": "KIKOFF* CL2TXIT7 POS RENO NV US 955071 ************7445 56298918",
+              "amount": 35.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/08/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1062 WEST BEND WI",
+              "amount": 4.52,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/08/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1062 WEST BEND WI",
+              "amount": 4.52,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/08/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI",
+              "amount": 8.6,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/08/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI",
+              "amount": 28.68,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/08/2025",
+              "description": "CHECK NUMBER 2160",
+              "amount": 1750.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/09/2025",
+              "description": "MNRD-WEST BEND POS WEST BEND WI US 052228 ************7445 35314905",
+              "amount": 61.4,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/09/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1082 WEST BEND WI",
+              "amount": 10.42,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/09/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SP KWIK TRIP #655 HARTFORD WI",
+              "amount": 25.85,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/10/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI",
+              "amount": 29.03,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/11/2025",
+              "description": "SCRUB-A-DUB WEST POS WEST BEND WI US 780069 ************7445 01620859",
+              "amount": 26.36,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/11/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI",
+              "amount": 4.52,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/11/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1062 WEST BEND WI",
+              "amount": 14.63,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/11/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1062 WEST BEND WI",
+              "amount": 14.8,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/12/2025",
+              "description": "AMAZON.COM* 3G8FU POS SEATTLE WA US 000405 ************7445 00000101",
+              "amount": 32.65,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/12/2025",
+              "description": "AMAZON.COM* UI5VD POS SEATTLE WA US 036882 ************7445 00000101",
+              "amount": 24.25,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/12/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI",
+              "amount": 4.52,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/12/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1062 WEST BEND WI",
+              "amount": 6.01,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/15/2025",
+              "description": "DD * DOORDASH DUN POS SAN FRANCISCO CA US 859214 ************7445 58020040",
+              "amount": 17.92,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/15/2025",
+              "description": "DD * DOORDASH DUN POS SAN FRANCISCO CA US 693500 ************7445 61556666",
+              "amount": 25.42,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/15/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI",
+              "amount": 8.04,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/15/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI",
+              "amount": 10.23,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/15/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI",
+              "amount": 12.84,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/15/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI",
+              "amount": 22.06,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/15/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SP KWIK TRIP #1002 WEST BEND WI",
+              "amount": 31.3,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/16/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1082 WEST BEND WI",
+              "amount": 3.31,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/16/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #655 HARTFORD WI",
+              "amount": 5.47,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/16/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI",
+              "amount": 7.37,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/16/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SP KWIK TRIP #655 HARTFORD WI",
+              "amount": 19.49,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/17/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI",
+              "amount": 18.92,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/17/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1062 WEST BEND WI",
+              "amount": 26.27,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/18/2025",
+              "description": "DEPOSIT WEST BEND DOWNT",
+              "amount": 120.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "09/18/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI",
+              "amount": 4.52,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/18/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1082 WEST BEND WI",
+              "amount": 19.21,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/18/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1062 WEST BEND WI",
+              "amount": 19.51,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/19/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1062 WEST BEND WI",
+              "amount": 21.83,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/19/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1062 WEST BEND WI",
+              "amount": 22.83,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/20/2025",
+              "description": "DEPOSIT WEST BEND WEST",
+              "amount": 4132.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "09/22/2025",
+              "description": "WESTBURY BANK WE ATM WEST BEND WI US 009108 ************7445 L462108",
+              "amount": 500.0,
+              "type": "Debit",
+              "category": "ATM/Cash Withdrawal"
+            },
+            {
+              "date": "09/22/2025",
+              "description": "DD * DOORDASH MCD POS SAN FRANCISCO CA US 647783 ************7445 60263654",
+              "amount": 35.78,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/22/2025",
+              "description": "DD * DOORDASH ARB POS SAN FRANCISCO CA US 247790 ************7445 21007462",
+              "amount": 84.12,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/22/2025",
+              "description": "PIZZA HUT 042548 POS WEST BEND WI US 003835 ************7445 04002384",
+              "amount": 83.86,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/22/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI",
+              "amount": 4.52,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/22/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1082 WEST BEND WI",
+              "amount": 7.02,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/22/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1062 WEST BEND WI",
+              "amount": 12.24,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/22/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1082 WEST BEND WI",
+              "amount": 22.64,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/22/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI",
+              "amount": 24.24,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/22/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SP KWIK TRIP #976 OAK CREEK WI",
+              "amount": 26.5,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/22/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1062 WEST BEND WI",
+              "amount": 27.57,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/22/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SP KWIK TRIP #1062 WEST BEND WI",
+              "amount": 30.45,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/23/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1082 WEST BEND WI",
+              "amount": 4.52,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/23/2025",
+              "description": "CHECK NUMBER 2161",
+              "amount": 200.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/24/2025",
+              "description": "MED* FROEDTERT HE POS MILWAUKEE WI US 565090 ************2758 17338035",
+              "amount": 50.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/24/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1062 WEST BEND WI",
+              "amount": 15.66,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/24/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI",
+              "amount": 17.43,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/24/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI",
+              "amount": 19.29,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/25/2025",
+              "description": "WITHDRAWAL WEST BEND DOWNT",
+              "amount": 2000.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/25/2025",
+              "description": "SHERWIN-WILLIAMS POS WEST BEND WI US 193151 ************7445 28910096",
+              "amount": 20.3,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/25/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1082 WEST BEND WI",
+              "amount": 2.8,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/25/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI",
+              "amount": 17.35,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/25/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI",
+              "amount": 24.45,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/25/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SP KWIK TRIP #1002 WEST BEND WI",
+              "amount": 26.4,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/25/2025",
+              "description": "MARINER FINANCE TRANS PMT 250924 PPD",
+              "amount": 70.31,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/26/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI",
+              "amount": 7.72,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/26/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1062 WEST BEND WI",
+              "amount": 12.07,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/26/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI",
+              "amount": 13.07,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/29/2025",
+              "description": "USCC CALL CENTER POS CHICAGO IL US 604047 ************7445 41005615",
+              "amount": 312.88,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/29/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #136 WEST BEND WI",
+              "amount": 4.02,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/29/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #396 WAUKESHA WI",
+              "amount": 8.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/29/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI",
+              "amount": 10.86,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/29/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1082 WEST BEND WI",
+              "amount": 11.03,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/29/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI",
+              "amount": 15.09,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/29/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI",
+              "amount": 22.16,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/29/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SP KWIK TRIP #1002 WEST BEND WI",
+              "amount": 22.55,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/30/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SP KWIK TRIP #1002 WEST BEND WI",
+              "amount": 27.85,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            }
+          ]
+        }
+      ]
+    },
+    "raw_output": "```json\n{\n  \"bank_statement_information\": {\n    \"bank_name\": \"westbury bank\",\n    \"account_holder\": \"BNC ENTERPRISES LLC\",\n    \"statement_start_date\": \"08/30/2025\",\n    \"statement_end_date\": \"09/30/2025\",\n    \"n_days\": 32,\n    \"n_month\": [\n      8,\n      9\n    ],\n    \"business_address\": \"1614 HARRISON ST WEST BEND WI 53090-1536\"\n  },\n  \"accounts\": [\n    {\n      \"account_number\": \"xxxxxx9776\",\n      \"account_type\": \"WB Community Business\",\n      \"account_summary\": {\n        \"beginning_balance\": 4982.16,\n        \"ending_balance\": 376.84,\n        \"total_deposits\": 4252.0,\n        \"total_withdrawals\": 8857.32,\n        \"total_deposits_count\": 2,\n        \"total_withdrawals_count\": 100,\n        \"avg_daily_balance\": null,\n        \"overdraft_days\": 0\n      },\n      \"transactions\": [\n        {\n          \"date\": \"08/30/2025\",\n          \"description\": \"MNRD-WEST 575 WE POS WEST BEND WI US 329187 ************7445 35314910\",\n          \"amount\": 21.64,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/30/2025\",\n          \"description\": \"DAVISON - VAR - POS PITTSBURGH PA US 717087 ************7445 85097558\",\n          \"amount\": 100.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/30/2025\",\n          \"description\": \"MNRD-WEST 575 WE POS WEST BEND WI US 622087 ************7445 35314910\",\n          \"amount\": 19.12,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/02/2025\",\n          \"description\": \"WESTBURY BANK WE ATM WEST BEND WI US 008210 ************7445 L462107\",\n          \"amount\": 300.0,\n          \"type\": \"Debit\",\n          \"category\": \"ATM/Cash Withdrawal\"\n        },\n        {\n          \"date\": \"09/02/2025\",\n          \"description\": \"WESTBURY BANK WE ATM WEST BEND WI US 008320 ************7445 L462107\",\n          \"amount\": 500.0,\n          \"type\": \"Debit\",\n          \"category\": \"ATM/Cash Withdrawal\"\n        },\n        {\n          \"date\": \"09/02/2025\",\n          \"description\": \"DOORDASH* 08/30-2 POS SAN FRANCISCO CA US 413379 ************7445 61345233\",\n          \"amount\": 81.32,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/02/2025\",\n          \"description\": \"SECURITY-FINANCE POS SPARTANBURG SC US 785804 ************7445 71699304\",\n          \"amount\": 130.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/02/2025\",\n          \"description\": \"REPAY SECURITY-F POS Atlanta GA US 828005 ************7445 72000114\",\n          \"amount\": 2.95,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/02/2025\",\n          \"description\": \"WM SUPERCENTER # POS WEST BEND WI US 557801 ************7445 26580014\",\n          \"amount\": 82.12,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/02/2025\",\n          \"description\": \"MNRD-WEST 575 WE POS WEST BEND WI US 826559 ************7445 35314910\",\n          \"amount\": 23.67,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/02/2025\",\n          \"description\": \"WM SUPERCENTER # POS WEST BEND WI US 495917 ************7445 26580021\",\n          \"amount\": 274.56,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/02/2025\",\n          \"description\": \"PY * DENCO PROPER POS GERMANTOWN WI US 043065 ************7445 70861082\",\n          \"amount\": 229.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/02/2025\",\n          \"description\": \"AMAZON PRIME* N58 POS Amzn.com/bill WA US 269267 ************7445 55751209\",\n          \"amount\": 15.05,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/02/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI\",\n          \"amount\": 5.25,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/02/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1082 WEST BEND WI\",\n          \"amount\": 6.23,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/02/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI\",\n          \"amount\": 6.52,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/02/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI\",\n          \"amount\": 32.22,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/02/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI\",\n          \"amount\": 35.5,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/02/2025\",\n          \"description\": \"Bridgecrest DT RETAIL 250830 PPD\",\n          \"amount\": 498.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/03/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI\",\n          \"amount\": 15.91,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/03/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SP KWIK TRIP #1062 WEST BEND WI\",\n          \"amount\": 27.5,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/03/2025\",\n          \"description\": \"InstaMed FROEDTERT WEB\",\n          \"amount\": 109.44,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/04/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI\",\n          \"amount\": 34.34,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/05/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI\",\n          \"amount\": 4.52,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/05/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI\",\n          \"amount\": 25.1,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/08/2025\",\n          \"description\": \"DD * DOORDASH ARB POS SAN FRANCISCO CA US 567870 ************7445 39726431\",\n          \"amount\": 44.77,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/08/2025\",\n          \"description\": \"DD * DOORDASH ARB POS SAN FRANCISCO CA US 038793 ************7445 32105245\",\n          \"amount\": 55.54,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/08/2025\",\n          \"description\": \"KIKOFF* CL2TXIT7 POS RENO NV US 955071 ************7445 56298918\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/08/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1062 WEST BEND WI\",\n          \"amount\": 4.52,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/08/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1062 WEST BEND WI\",\n          \"amount\": 4.52,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/08/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI\",\n          \"amount\": 8.6,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/08/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI\",\n          \"amount\": 28.68,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/08/2025\",\n          \"description\": \"CHECK NUMBER 2160\",\n          \"amount\": 1750.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/09/2025\",\n          \"description\": \"MNRD-WEST BEND POS WEST BEND WI US 052228 ************7445 35314905\",\n          \"amount\": 61.4,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/09/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1082 WEST BEND WI\",\n          \"amount\": 10.42,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/09/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SP KWIK TRIP #655 HARTFORD WI\",\n          \"amount\": 25.85,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/10/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI\",\n          \"amount\": 29.03,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/11/2025\",\n          \"description\": \"SCRUB-A-DUB WEST POS WEST BEND WI US 780069 ************7445 01620859\",\n          \"amount\": 26.36,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/11/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI\",\n          \"amount\": 4.52,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/11/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1062 WEST BEND WI\",\n          \"amount\": 14.63,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/11/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1062 WEST BEND WI\",\n          \"amount\": 14.8,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/12/2025\",\n          \"description\": \"AMAZON.COM* 3G8FU POS SEATTLE WA US 000405 ************7445 00000101\",\n          \"amount\": 32.65,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/12/2025\",\n          \"description\": \"AMAZON.COM* UI5VD POS SEATTLE WA US 036882 ************7445 00000101\",\n          \"amount\": 24.25,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/12/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI\",\n          \"amount\": 4.52,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/12/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1062 WEST BEND WI\",\n          \"amount\": 6.01,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"description\": \"DD * DOORDASH DUN POS SAN FRANCISCO CA US 859214 ************7445 58020040\",\n          \"amount\": 17.92,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"description\": \"DD * DOORDASH DUN POS SAN FRANCISCO CA US 693500 ************7445 61556666\",\n          \"amount\": 25.42,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI\",\n          \"amount\": 8.04,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI\",\n          \"amount\": 10.23,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI\",\n          \"amount\": 12.84,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI\",\n          \"amount\": 22.06,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SP KWIK TRIP #1002 WEST BEND WI\",\n          \"amount\": 31.3,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/16/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1082 WEST BEND WI\",\n          \"amount\": 3.31,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/16/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #655 HARTFORD WI\",\n          \"amount\": 5.47,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/16/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI\",\n          \"amount\": 7.37,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/16/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SP KWIK TRIP #655 HARTFORD WI\",\n          \"amount\": 19.49,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/17/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI\",\n          \"amount\": 18.92,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/17/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1062 WEST BEND WI\",\n          \"amount\": 26.27,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/18/2025\",\n          \"description\": \"DEPOSIT WEST BEND DOWNT\",\n          \"amount\": 120.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"09/18/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI\",\n          \"amount\": 4.52,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/18/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1082 WEST BEND WI\",\n          \"amount\": 19.21,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/18/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1062 WEST BEND WI\",\n          \"amount\": 19.51,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/19/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1062 WEST BEND WI\",\n          \"amount\": 21.83,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/19/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1062 WEST BEND WI\",\n          \"amount\": 22.83,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/20/2025\",\n          \"description\": \"DEPOSIT WEST BEND WEST\",\n          \"amount\": 4132.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"09/22/2025\",\n          \"description\": \"WESTBURY BANK WE ATM WEST BEND WI US 009108 ************7445 L462108\",\n          \"amount\": 500.0,\n          \"type\": \"Debit\",\n          \"category\": \"ATM/Cash Withdrawal\"\n        },\n        {\n          \"date\": \"09/22/2025\",\n          \"description\": \"DD * DOORDASH MCD POS SAN FRANCISCO CA US 647783 ************7445 60263654\",\n          \"amount\": 35.78,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/22/2025\",\n          \"description\": \"DD * DOORDASH ARB POS SAN FRANCISCO CA US 247790 ************7445 21007462\",\n          \"amount\": 84.12,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/22/2025\",\n          \"description\": \"PIZZA HUT 042548 POS WEST BEND WI US 003835 ************7445 04002384\",\n          \"amount\": 83.86,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/22/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI\",\n          \"amount\": 4.52,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/22/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1082 WEST BEND WI\",\n          \"amount\": 7.02,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/22/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1062 WEST BEND WI\",\n          \"amount\": 12.24,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/22/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1082 WEST BEND WI\",\n          \"amount\": 22.64,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/22/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI\",\n          \"amount\": 24.24,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/22/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SP KWIK TRIP #976 OAK CREEK WI\",\n          \"amount\": 26.5,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/22/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1062 WEST BEND WI\",\n          \"amount\": 27.57,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/22/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SP KWIK TRIP #1062 WEST BEND WI\",\n          \"amount\": 30.45,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/23/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1082 WEST BEND WI\",\n          \"amount\": 4.52,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/23/2025\",\n          \"description\": \"CHECK NUMBER 2161\",\n          \"amount\": 200.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/24/2025\",\n          \"description\": \"MED* FROEDTERT HE POS MILWAUKEE WI US 565090 ************2758 17338035\",\n          \"amount\": 50.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/24/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1062 WEST BEND WI\",\n          \"amount\": 15.66,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/24/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI\",\n          \"amount\": 17.43,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/24/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI\",\n          \"amount\": 19.29,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/25/2025\",\n          \"description\": \"WITHDRAWAL WEST BEND DOWNT\",\n          \"amount\": 2000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/25/2025\",\n          \"description\": \"SHERWIN-WILLIAMS POS WEST BEND WI US 193151 ************7445 28910096\",\n          \"amount\": 20.3,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/25/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1082 WEST BEND WI\",\n          \"amount\": 2.8,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/25/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI\",\n          \"amount\": 17.35,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/25/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI\",\n          \"amount\": 24.45,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/25/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SP KWIK TRIP #1002 WEST BEND WI\",\n          \"amount\": 26.4,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/25/2025\",\n          \"description\": \"MARINER FINANCE TRANS PMT 250924 PPD\",\n          \"amount\": 70.31,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/26/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI\",\n          \"amount\": 7.72,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/26/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1062 WEST BEND WI\",\n          \"amount\": 12.07,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/26/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI\",\n          \"amount\": 13.07,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/29/2025\",\n          \"description\": \"USCC CALL CENTER POS CHICAGO IL US 604047 ************7445 41005615\",\n          \"amount\": 312.88,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/29/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #136 WEST BEND WI\",\n          \"amount\": 4.02,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/29/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #396 WAUKESHA WI\",\n          \"amount\": 8.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/29/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI\",\n          \"amount\": 10.86,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/29/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1082 WEST BEND WI\",\n          \"amount\": 11.03,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/29/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI\",\n          \"amount\": 15.09,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/29/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI\",\n          \"amount\": 22.16,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/29/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SP KWIK TRIP #1002 WEST BEND WI\",\n          \"amount\": 22.55,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/30/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SP KWIK TRIP #1002 WEST BEND WI\",\n          \"amount\": 27.85,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        }\n      ]\n    }\n  ]\n}\n```",
+    "token_count": {
+      "estimated_tokens": 2469
+    },
+    "failure_reason": null
+  },
+  "bsi_analyzer_result": {
+    "agent_name": "v1_bsi_analyzer_agent",
+    "processing_status": "success",
+    "start_time": "2026-02-04T15:03:04.479400",
+    "end_time": "2026-02-04T15:04:13.140159",
+    "parsed_json": {
+      "accounts": [
+        {
+          "account_number": "xxxxxx9776",
+          "account_type": "WB Community Business",
+          "mca_deposit": [],
+          "mca_withdrawal": [],
+          "returned_items": [],
+          "overdrafts": [],
+          "service_charges": [],
+          "atm_cash_withdrawal": [
+            {
+              "date": "09/02/2025",
+              "description": "WESTBURY BANK WE ATM WEST BEND WI US 008210 ************7445 L462107",
+              "amount": 300.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09/02/2025",
+              "description": "WESTBURY BANK WE ATM WEST BEND WI US 008320 ************7445 L462107",
+              "amount": 500.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09/22/2025",
+              "description": "WESTBURY BANK WE ATM WEST BEND WI US 009108 ************7445 L462108",
+              "amount": 500.0,
+              "type": "Debit"
+            }
+          ],
+          "internal_transfer_deposit": [],
+          "other_transfer_deposit": [],
+          "internal_transfer_withdrawal": [],
+          "other_transfer_withdrawal": [],
+          "standard_deposit": [
+            {
+              "date": "09/18/2025",
+              "description": "DEPOSIT WEST BEND DOWNT",
+              "amount": 120.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09/20/2025",
+              "description": "DEPOSIT WEST BEND WEST",
+              "amount": 4132.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            }
+          ],
+          "standard_withdrawal": [
+            {
+              "date": "08/30/2025",
+              "description": "MNRD-WEST 575 WE POS WEST BEND WI US 329187 ************7445 35314910",
+              "amount": 21.64,
+              "type": "Debit"
+            },
+            {
+              "date": "08/30/2025",
+              "description": "DAVISON - VAR - POS PITTSBURGH PA US 717087 ************7445 85097558",
+              "amount": 100.0,
+              "type": "Debit"
+            },
+            {
+              "date": "08/30/2025",
+              "description": "MNRD-WEST 575 WE POS WEST BEND WI US 622087 ************7445 35314910",
+              "amount": 19.12,
+              "type": "Debit"
+            },
+            {
+              "date": "09/02/2025",
+              "description": "DOORDASH* 08/30-2 POS SAN FRANCISCO CA US 413379 ************7445 61345233",
+              "amount": 81.32,
+              "type": "Debit"
+            },
+            {
+              "date": "09/02/2025",
+              "description": "SECURITY-FINANCE POS SPARTANBURG SC US 785804 ************7445 71699304",
+              "amount": 130.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09/02/2025",
+              "description": "REPAY SECURITY-F POS Atlanta GA US 828005 ************7445 72000114",
+              "amount": 2.95,
+              "type": "Debit"
+            },
+            {
+              "date": "09/02/2025",
+              "description": "WM SUPERCENTER # POS WEST BEND WI US 557801 ************7445 26580014",
+              "amount": 82.12,
+              "type": "Debit"
+            },
+            {
+              "date": "09/02/2025",
+              "description": "MNRD-WEST 575 WE POS WEST BEND WI US 826559 ************7445 35314910",
+              "amount": 23.67,
+              "type": "Debit"
+            },
+            {
+              "date": "09/02/2025",
+              "description": "WM SUPERCENTER # POS WEST BEND WI US 495917 ************7445 26580021",
+              "amount": 274.56,
+              "type": "Debit"
+            },
+            {
+              "date": "09/02/2025",
+              "description": "PY * DENCO PROPER POS GERMANTOWN WI US 043065 ************7445 70861082",
+              "amount": 229.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09/02/2025",
+              "description": "AMAZON PRIME* N58 POS Amzn.com/bill WA US 269267 ************7445 55751209",
+              "amount": 15.05,
+              "type": "Debit"
+            },
+            {
+              "date": "09/02/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI",
+              "amount": 5.25,
+              "type": "Debit"
+            },
+            {
+              "date": "09/02/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1082 WEST BEND WI",
+              "amount": 6.23,
+              "type": "Debit"
+            },
+            {
+              "date": "09/02/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI",
+              "amount": 6.52,
+              "type": "Debit"
+            },
+            {
+              "date": "09/02/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI",
+              "amount": 32.22,
+              "type": "Debit"
+            },
+            {
+              "date": "09/02/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI",
+              "amount": 35.5,
+              "type": "Debit"
+            },
+            {
+              "date": "09/02/2025",
+              "description": "Bridgecrest DT RETAIL 250830 PPD",
+              "amount": 498.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09/03/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI",
+              "amount": 15.91,
+              "type": "Debit"
+            },
+            {
+              "date": "09/03/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SP KWIK TRIP #1062 WEST BEND WI",
+              "amount": 27.5,
+              "type": "Debit"
+            },
+            {
+              "date": "09/03/2025",
+              "description": "InstaMed FROEDTERT WEB",
+              "amount": 109.44,
+              "type": "Debit"
+            },
+            {
+              "date": "09/04/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI",
+              "amount": 34.34,
+              "type": "Debit"
+            },
+            {
+              "date": "09/05/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI",
+              "amount": 4.52,
+              "type": "Debit"
+            },
+            {
+              "date": "09/05/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI",
+              "amount": 25.1,
+              "type": "Debit"
+            },
+            {
+              "date": "09/08/2025",
+              "description": "DD * DOORDASH ARB POS SAN FRANCISCO CA US 567870 ************7445 39726431",
+              "amount": 44.77,
+              "type": "Debit"
+            },
+            {
+              "date": "09/08/2025",
+              "description": "DD * DOORDASH ARB POS SAN FRANCISCO CA US 038793 ************7445 32105245",
+              "amount": 55.54,
+              "type": "Debit"
+            },
+            {
+              "date": "09/08/2025",
+              "description": "KIKOFF* CL2TXIT7 POS RENO NV US 955071 ************7445 56298918",
+              "amount": 35.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09/08/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1062 WEST BEND WI",
+              "amount": 4.52,
+              "type": "Debit"
+            },
+            {
+              "date": "09/08/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1062 WEST BEND WI",
+              "amount": 4.52,
+              "type": "Debit"
+            },
+            {
+              "date": "09/08/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI",
+              "amount": 8.6,
+              "type": "Debit"
+            },
+            {
+              "date": "09/08/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI",
+              "amount": 28.68,
+              "type": "Debit"
+            },
+            {
+              "date": "09/08/2025",
+              "description": "CHECK NUMBER 2160",
+              "amount": 1750.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09/09/2025",
+              "description": "MNRD-WEST BEND POS WEST BEND WI US 052228 ************7445 35314905",
+              "amount": 61.4,
+              "type": "Debit"
+            },
+            {
+              "date": "09/09/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1082 WEST BEND WI",
+              "amount": 10.42,
+              "type": "Debit"
+            },
+            {
+              "date": "09/09/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SP KWIK TRIP #655 HARTFORD WI",
+              "amount": 25.85,
+              "type": "Debit"
+            },
+            {
+              "date": "09/10/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI",
+              "amount": 29.03,
+              "type": "Debit"
+            },
+            {
+              "date": "09/11/2025",
+              "description": "SCRUB-A-DUB WEST POS WEST BEND WI US 780069 ************7445 01620859",
+              "amount": 26.36,
+              "type": "Debit"
+            },
+            {
+              "date": "09/11/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI",
+              "amount": 4.52,
+              "type": "Debit"
+            },
+            {
+              "date": "09/11/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1062 WEST BEND WI",
+              "amount": 14.63,
+              "type": "Debit"
+            },
+            {
+              "date": "09/11/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1062 WEST BEND WI",
+              "amount": 14.8,
+              "type": "Debit"
+            },
+            {
+              "date": "09/12/2025",
+              "description": "AMAZON.COM* 3G8FU POS SEATTLE WA US 000405 ************7445 00000101",
+              "amount": 32.65,
+              "type": "Debit"
+            },
+            {
+              "date": "09/12/2025",
+              "description": "AMAZON.COM* UI5VD POS SEATTLE WA US 036882 ************7445 00000101",
+              "amount": 24.25,
+              "type": "Debit"
+            },
+            {
+              "date": "09/12/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI",
+              "amount": 4.52,
+              "type": "Debit"
+            },
+            {
+              "date": "09/12/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1062 WEST BEND WI",
+              "amount": 6.01,
+              "type": "Debit"
+            },
+            {
+              "date": "09/15/2025",
+              "description": "DD * DOORDASH DUN POS SAN FRANCISCO CA US 859214 ************7445 58020040",
+              "amount": 17.92,
+              "type": "Debit"
+            },
+            {
+              "date": "09/15/2025",
+              "description": "DD * DOORDASH DUN POS SAN FRANCISCO CA US 693500 ************7445 61556666",
+              "amount": 25.42,
+              "type": "Debit"
+            },
+            {
+              "date": "09/15/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI",
+              "amount": 8.04,
+              "type": "Debit"
+            },
+            {
+              "date": "09/15/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI",
+              "amount": 10.23,
+              "type": "Debit"
+            },
+            {
+              "date": "09/15/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI",
+              "amount": 12.84,
+              "type": "Debit"
+            },
+            {
+              "date": "09/15/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI",
+              "amount": 22.06,
+              "type": "Debit"
+            },
+            {
+              "date": "09/15/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SP KWIK TRIP #1002 WEST BEND WI",
+              "amount": 31.3,
+              "type": "Debit"
+            },
+            {
+              "date": "09/16/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1082 WEST BEND WI",
+              "amount": 3.31,
+              "type": "Debit"
+            },
+            {
+              "date": "09/16/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #655 HARTFORD WI",
+              "amount": 5.47,
+              "type": "Debit"
+            },
+            {
+              "date": "09/16/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI",
+              "amount": 7.37,
+              "type": "Debit"
+            },
+            {
+              "date": "09/16/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SP KWIK TRIP #655 HARTFORD WI",
+              "amount": 19.49,
+              "type": "Debit"
+            },
+            {
+              "date": "09/17/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI",
+              "amount": 18.92,
+              "type": "Debit"
+            },
+            {
+              "date": "09/17/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1062 WEST BEND WI",
+              "amount": 26.27,
+              "type": "Debit"
+            },
+            {
+              "date": "09/18/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI",
+              "amount": 4.52,
+              "type": "Debit"
+            },
+            {
+              "date": "09/18/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1082 WEST BEND WI",
+              "amount": 19.21,
+              "type": "Debit"
+            },
+            {
+              "date": "09/18/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1062 WEST BEND WI",
+              "amount": 19.51,
+              "type": "Debit"
+            },
+            {
+              "date": "09/19/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1062 WEST BEND WI",
+              "amount": 21.83,
+              "type": "Debit"
+            },
+            {
+              "date": "09/19/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1062 WEST BEND WI",
+              "amount": 22.83,
+              "type": "Debit"
+            },
+            {
+              "date": "09/22/2025",
+              "description": "DD * DOORDASH MCD POS SAN FRANCISCO CA US 647783 ************7445 60263654",
+              "amount": 35.78,
+              "type": "Debit"
+            },
+            {
+              "date": "09/22/2025",
+              "description": "DD * DOORDASH ARB POS SAN FRANCISCO CA US 247790 ************7445 21007462",
+              "amount": 84.12,
+              "type": "Debit"
+            },
+            {
+              "date": "09/22/2025",
+              "description": "PIZZA HUT 042548 POS WEST BEND WI US 003835 ************7445 04002384",
+              "amount": 83.86,
+              "type": "Debit"
+            },
+            {
+              "date": "09/22/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI",
+              "amount": 4.52,
+              "type": "Debit"
+            },
+            {
+              "date": "09/22/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1082 WEST BEND WI",
+              "amount": 7.02,
+              "type": "Debit"
+            },
+            {
+              "date": "09/22/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1062 WEST BEND WI",
+              "amount": 12.24,
+              "type": "Debit"
+            },
+            {
+              "date": "09/22/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1082 WEST BEND WI",
+              "amount": 22.64,
+              "type": "Debit"
+            },
+            {
+              "date": "09/22/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI",
+              "amount": 24.24,
+              "type": "Debit"
+            },
+            {
+              "date": "09/22/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SP KWIK TRIP #976 OAK CREEK WI",
+              "amount": 26.5,
+              "type": "Debit"
+            },
+            {
+              "date": "09/22/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1062 WEST BEND WI",
+              "amount": 27.57,
+              "type": "Debit"
+            },
+            {
+              "date": "09/22/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SP KWIK TRIP #1062 WEST BEND WI",
+              "amount": 30.45,
+              "type": "Debit"
+            },
+            {
+              "date": "09/23/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1082 WEST BEND WI",
+              "amount": 4.52,
+              "type": "Debit"
+            },
+            {
+              "date": "09/23/2025",
+              "description": "CHECK NUMBER 2161",
+              "amount": 200.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09/24/2025",
+              "description": "MED* FROEDTERT HE POS MILWAUKEE WI US 565090 ************2758 17338035",
+              "amount": 50.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09/24/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1062 WEST BEND WI",
+              "amount": 15.66,
+              "type": "Debit"
+            },
+            {
+              "date": "09/24/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI",
+              "amount": 17.43,
+              "type": "Debit"
+            },
+            {
+              "date": "09/24/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI",
+              "amount": 19.29,
+              "type": "Debit"
+            },
+            {
+              "date": "09/25/2025",
+              "description": "WITHDRAWAL WEST BEND DOWNT",
+              "amount": 2000.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09/25/2025",
+              "description": "SHERWIN-WILLIAMS POS WEST BEND WI US 193151 ************7445 28910096",
+              "amount": 20.3,
+              "type": "Debit"
+            },
+            {
+              "date": "09/25/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1082 WEST BEND WI",
+              "amount": 2.8,
+              "type": "Debit"
+            },
+            {
+              "date": "09/25/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI",
+              "amount": 17.35,
+              "type": "Debit"
+            },
+            {
+              "date": "09/25/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI",
+              "amount": 24.45,
+              "type": "Debit"
+            },
+            {
+              "date": "09/25/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SP KWIK TRIP #1002 WEST BEND WI",
+              "amount": 26.4,
+              "type": "Debit"
+            },
+            {
+              "date": "09/25/2025",
+              "description": "MARINER FINANCE TRANS PMT 250924 PPD",
+              "amount": 70.31,
+              "type": "Debit"
+            },
+            {
+              "date": "09/26/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI",
+              "amount": 7.72,
+              "type": "Debit"
+            },
+            {
+              "date": "09/26/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1062 WEST BEND WI",
+              "amount": 12.07,
+              "type": "Debit"
+            },
+            {
+              "date": "09/26/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI",
+              "amount": 13.07,
+              "type": "Debit"
+            },
+            {
+              "date": "09/29/2025",
+              "description": "USCC CALL CENTER POS CHICAGO IL US 604047 ************7445 41005615",
+              "amount": 312.88,
+              "type": "Debit"
+            },
+            {
+              "date": "09/29/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #136 WEST BEND WI",
+              "amount": 4.02,
+              "type": "Debit"
+            },
+            {
+              "date": "09/29/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #396 WAUKESHA WI",
+              "amount": 8.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09/29/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI",
+              "amount": 10.86,
+              "type": "Debit"
+            },
+            {
+              "date": "09/29/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1082 WEST BEND WI",
+              "amount": 11.03,
+              "type": "Debit"
+            },
+            {
+              "date": "09/29/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI",
+              "amount": 15.09,
+              "type": "Debit"
+            },
+            {
+              "date": "09/29/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI",
+              "amount": 22.16,
+              "type": "Debit"
+            },
+            {
+              "date": "09/29/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SP KWIK TRIP #1002 WEST BEND WI",
+              "amount": 22.55,
+              "type": "Debit"
+            },
+            {
+              "date": "09/30/2025",
+              "description": "KWIK TRIP INC PAYMENT 000000 POS SP KWIK TRIP #1002 WEST BEND WI",
+              "amount": 27.85,
+              "type": "Debit"
+            }
+          ]
+        }
+      ]
+    },
+    "raw_output": "```json\n{\n  \"accounts\": [\n    {\n      \"account_number\": \"xxxxxx9776\",\n      \"account_type\": \"WB Community Business\",\n      \"mca_deposit\": [],\n      \"mca_withdrawal\": [],\n      \"returned_items\": [],\n      \"overdrafts\": [],\n      \"service_charges\": [],\n      \"atm_cash_withdrawal\": [\n        {\n          \"date\": \"09/02/2025\",\n          \"description\": \"WESTBURY BANK WE ATM WEST BEND WI US 008210 ************7445 L462107\",\n          \"amount\": 300.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/02/2025\",\n          \"description\": \"WESTBURY BANK WE ATM WEST BEND WI US 008320 ************7445 L462107\",\n          \"amount\": 500.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/22/2025\",\n          \"description\": \"WESTBURY BANK WE ATM WEST BEND WI US 009108 ************7445 L462108\",\n          \"amount\": 500.0,\n          \"type\": \"Debit\"\n        }\n      ],\n      \"internal_transfer_deposit\": [],\n      \"other_transfer_deposit\": [],\n      \"internal_transfer_withdrawal\": [],\n      \"other_transfer_withdrawal\": [],\n      \"standard_deposit\": [\n        {\n          \"date\": \"09/18/2025\",\n          \"description\": \"DEPOSIT WEST BEND DOWNT\",\n          \"amount\": 120.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09/20/2025\",\n          \"description\": \"DEPOSIT WEST BEND WEST\",\n          \"amount\": 4132.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        }\n      ],\n      \"standard_withdrawal\": [\n        {\n          \"date\": \"08/30/2025\",\n          \"description\": \"MNRD-WEST 575 WE POS WEST BEND WI US 329187 ************7445 35314910\",\n          \"amount\": 21.64,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/30/2025\",\n          \"description\": \"DAVISON - VAR - POS PITTSBURGH PA US 717087 ************7445 85097558\",\n          \"amount\": 100.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/30/2025\",\n          \"description\": \"MNRD-WEST 575 WE POS WEST BEND WI US 622087 ************7445 35314910\",\n          \"amount\": 19.12,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/02/2025\",\n          \"description\": \"DOORDASH* 08/30-2 POS SAN FRANCISCO CA US 413379 ************7445 61345233\",\n          \"amount\": 81.32,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/02/2025\",\n          \"description\": \"SECURITY-FINANCE POS SPARTANBURG SC US 785804 ************7445 71699304\",\n          \"amount\": 130.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/02/2025\",\n          \"description\": \"REPAY SECURITY-F POS Atlanta GA US 828005 ************7445 72000114\",\n          \"amount\": 2.95,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/02/2025\",\n          \"description\": \"WM SUPERCENTER # POS WEST BEND WI US 557801 ************7445 26580014\",\n          \"amount\": 82.12,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/02/2025\",\n          \"description\": \"MNRD-WEST 575 WE POS WEST BEND WI US 826559 ************7445 35314910\",\n          \"amount\": 23.67,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/02/2025\",\n          \"description\": \"WM SUPERCENTER # POS WEST BEND WI US 495917 ************7445 26580021\",\n          \"amount\": 274.56,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/02/2025\",\n          \"description\": \"PY * DENCO PROPER POS GERMANTOWN WI US 043065 ************7445 70861082\",\n          \"amount\": 229.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/02/2025\",\n          \"description\": \"AMAZON PRIME* N58 POS Amzn.com/bill WA US 269267 ************7445 55751209\",\n          \"amount\": 15.05,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/02/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI\",\n          \"amount\": 5.25,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/02/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1082 WEST BEND WI\",\n          \"amount\": 6.23,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/02/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI\",\n          \"amount\": 6.52,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/02/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI\",\n          \"amount\": 32.22,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/02/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI\",\n          \"amount\": 35.5,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/02/2025\",\n          \"description\": \"Bridgecrest DT RETAIL 250830 PPD\",\n          \"amount\": 498.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/03/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI\",\n          \"amount\": 15.91,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/03/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SP KWIK TRIP #1062 WEST BEND WI\",\n          \"amount\": 27.5,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/03/2025\",\n          \"description\": \"InstaMed FROEDTERT WEB\",\n          \"amount\": 109.44,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/04/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI\",\n          \"amount\": 34.34,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/05/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI\",\n          \"amount\": 4.52,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/05/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI\",\n          \"amount\": 25.1,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/08/2025\",\n          \"description\": \"DD * DOORDASH ARB POS SAN FRANCISCO CA US 567870 ************7445 39726431\",\n          \"amount\": 44.77,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/08/2025\",\n          \"description\": \"DD * DOORDASH ARB POS SAN FRANCISCO CA US 038793 ************7445 32105245\",\n          \"amount\": 55.54,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/08/2025\",\n          \"description\": \"KIKOFF* CL2TXIT7 POS RENO NV US 955071 ************7445 56298918\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/08/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1062 WEST BEND WI\",\n          \"amount\": 4.52,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/08/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1062 WEST BEND WI\",\n          \"amount\": 4.52,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/08/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI\",\n          \"amount\": 8.6,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/08/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI\",\n          \"amount\": 28.68,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/08/2025\",\n          \"description\": \"CHECK NUMBER 2160\",\n          \"amount\": 1750.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/09/2025\",\n          \"description\": \"MNRD-WEST BEND POS WEST BEND WI US 052228 ************7445 35314905\",\n          \"amount\": 61.4,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/09/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1082 WEST BEND WI\",\n          \"amount\": 10.42,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/09/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SP KWIK TRIP #655 HARTFORD WI\",\n          \"amount\": 25.85,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/10/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI\",\n          \"amount\": 29.03,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/11/2025\",\n          \"description\": \"SCRUB-A-DUB WEST POS WEST BEND WI US 780069 ************7445 01620859\",\n          \"amount\": 26.36,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/11/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI\",\n          \"amount\": 4.52,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/11/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1062 WEST BEND WI\",\n          \"amount\": 14.63,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/11/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1062 WEST BEND WI\",\n          \"amount\": 14.8,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/12/2025\",\n          \"description\": \"AMAZON.COM* 3G8FU POS SEATTLE WA US 000405 ************7445 00000101\",\n          \"amount\": 32.65,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/12/2025\",\n          \"description\": \"AMAZON.COM* UI5VD POS SEATTLE WA US 036882 ************7445 00000101\",\n          \"amount\": 24.25,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/12/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI\",\n          \"amount\": 4.52,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/12/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1062 WEST BEND WI\",\n          \"amount\": 6.01,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"description\": \"DD * DOORDASH DUN POS SAN FRANCISCO CA US 859214 ************7445 58020040\",\n          \"amount\": 17.92,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"description\": \"DD * DOORDASH DUN POS SAN FRANCISCO CA US 693500 ************7445 61556666\",\n          \"amount\": 25.42,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI\",\n          \"amount\": 8.04,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI\",\n          \"amount\": 10.23,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI\",\n          \"amount\": 12.84,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI\",\n          \"amount\": 22.06,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SP KWIK TRIP #1002 WEST BEND WI\",\n          \"amount\": 31.3,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/16/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1082 WEST BEND WI\",\n          \"amount\": 3.31,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/16/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #655 HARTFORD WI\",\n          \"amount\": 5.47,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/16/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI\",\n          \"amount\": 7.37,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/16/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SP KWIK TRIP #655 HARTFORD WI\",\n          \"amount\": 19.49,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/17/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI\",\n          \"amount\": 18.92,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/17/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1062 WEST BEND WI\",\n          \"amount\": 26.27,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/18/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI\",\n          \"amount\": 4.52,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/18/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1082 WEST BEND WI\",\n          \"amount\": 19.21,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/18/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1062 WEST BEND WI\",\n          \"amount\": 19.51,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/19/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1062 WEST BEND WI\",\n          \"amount\": 21.83,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/19/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1062 WEST BEND WI\",\n          \"amount\": 22.83,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/22/2025\",\n          \"description\": \"DD * DOORDASH MCD POS SAN FRANCISCO CA US 647783 ************7445 60263654\",\n          \"amount\": 35.78,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/22/2025\",\n          \"description\": \"DD * DOORDASH ARB POS SAN FRANCISCO CA US 247790 ************7445 21007462\",\n          \"amount\": 84.12,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/22/2025\",\n          \"description\": \"PIZZA HUT 042548 POS WEST BEND WI US 003835 ************7445 04002384\",\n          \"amount\": 83.86,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/22/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI\",\n          \"amount\": 4.52,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/22/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1082 WEST BEND WI\",\n          \"amount\": 7.02,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/22/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1062 WEST BEND WI\",\n          \"amount\": 12.24,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/22/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1082 WEST BEND WI\",\n          \"amount\": 22.64,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/22/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI\",\n          \"amount\": 24.24,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/22/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SP KWIK TRIP #976 OAK CREEK WI\",\n          \"amount\": 26.5,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/22/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1062 WEST BEND WI\",\n          \"amount\": 27.57,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/22/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SP KWIK TRIP #1062 WEST BEND WI\",\n          \"amount\": 30.45,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/23/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1082 WEST BEND WI\",\n          \"amount\": 4.52,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/23/2025\",\n          \"description\": \"CHECK NUMBER 2161\",\n          \"amount\": 200.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/24/2025\",\n          \"description\": \"MED* FROEDTERT HE POS MILWAUKEE WI US 565090 ************2758 17338035\",\n          \"amount\": 50.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/24/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1062 WEST BEND WI\",\n          \"amount\": 15.66,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/24/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI\",\n          \"amount\": 17.43,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/24/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI\",\n          \"amount\": 19.29,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/25/2025\",\n          \"description\": \"WITHDRAWAL WEST BEND DOWNT\",\n          \"amount\": 2000.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/25/2025\",\n          \"description\": \"SHERWIN-WILLIAMS POS WEST BEND WI US 193151 ************7445 28910096\",\n          \"amount\": 20.3,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/25/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1082 WEST BEND WI\",\n          \"amount\": 2.8,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/25/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI\",\n          \"amount\": 17.35,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/25/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI\",\n          \"amount\": 24.45,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/25/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SP KWIK TRIP #1002 WEST BEND WI\",\n          \"amount\": 26.4,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/25/2025\",\n          \"description\": \"MARINER FINANCE TRANS PMT 250924 PPD\",\n          \"amount\": 70.31,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/26/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI\",\n          \"amount\": 7.72,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/26/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1062 WEST BEND WI\",\n          \"amount\": 12.07,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/26/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI\",\n          \"amount\": 13.07,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/29/2025\",\n          \"description\": \"USCC CALL CENTER POS CHICAGO IL US 604047 ************7445 41005615\",\n          \"amount\": 312.88,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/29/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #136 WEST BEND WI\",\n          \"amount\": 4.02,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/29/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #396 WAUKESHA WI\",\n          \"amount\": 8.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/29/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI\",\n          \"amount\": 10.86,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/29/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1082 WEST BEND WI\",\n          \"amount\": 11.03,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/29/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI\",\n          \"amount\": 15.09,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/29/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SS KWIK TRIP #1002 WEST BEND WI\",\n          \"amount\": 22.16,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/29/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SP KWIK TRIP #1002 WEST BEND WI\",\n          \"amount\": 22.55,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/30/2025\",\n          \"description\": \"KWIK TRIP INC PAYMENT 000000 POS SP KWIK TRIP #1002 WEST BEND WI\",\n          \"amount\": 27.85,\n          \"type\": \"Debit\"\n        }\n      ]\n    }\n  ]\n}\n```",
+    "token_count": {
+      "estimated_tokens": 2143
+    },
+    "failure_reason": null
+  }
+}

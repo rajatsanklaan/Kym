@@ -1,0 +1,1664 @@
+{
+  "document_name": "Case53.pdf",
+  "pipeline_status": "completed",
+  "processing_metadata": {
+    "start_time": "2026-02-04T15:00:52.507819",
+    "end_time": "2026-02-04T15:04:34.293536",
+    "parsing_time_seconds": 131.002893,
+    "bsi_time_seconds": 90.636699,
+    "total_time_seconds": 221.639592
+  },
+  "parsing_agent_result": {
+    "agent_name": "parsing_agent",
+    "processing_status": "success",
+    "start_time": "2026-02-04T15:00:52.641276",
+    "end_time": "2026-02-04T15:03:03.643390",
+    "parsed_json": {
+      "bank_statement_information": {
+        "bank_name": "BANK OF AMERICA",
+        "account_holder": "CLAVER GONZALEZSEVILLA SOLE PROP DBA LA FONDITA STEAK AND CHEESE",
+        "statement_start_date": "09-01-2025",
+        "statement_end_date": "09-30-2025",
+        "n_days": 30,
+        "n_month": [
+          9
+        ],
+        "business_address": "1916 BRIAR ROSE LN APT 202 WOODBRIDGE, VA 22192-6972"
+      },
+      "accounts": [
+        {
+          "account_number": "4350 6155 0627",
+          "account_type": "Business Advantage Fundamentals™ Banking",
+          "account_summary": {
+            "beginning_balance": 1566.8,
+            "ending_balance": -117.12,
+            "total_deposits": 3368.01,
+            "total_withdrawals": 5051.93,
+            "total_deposits_count": 29,
+            "total_withdrawals_count": 86,
+            "avg_daily_balance": 190.98,
+            "overdraft_days": 7
+          },
+          "transactions": [
+            {
+              "date": "09-02-2025",
+              "description": "Online Banking transfer from CHK 8246 Confirmation# 7360092822",
+              "amount": 208.15,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "09-02-2025",
+              "description": "Online Banking transfer from CHK 8246 Confirmation# 7366748679",
+              "amount": 98.75,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "09-02-2025",
+              "description": "Zelle payment to Chris Liberator Liberator Conf# zzwfoxwp7",
+              "amount": 75.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-02-2025",
+              "description": "Online Banking transfer to CHK 8246 Confirmation# 8681056518",
+              "amount": 27.97,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "09-02-2025",
+              "description": "MCA SERVICING DES:8003243863 ID:PAY082925176829 INDN: CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD",
+              "amount": 87.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-02-2025",
+              "description": "CHECKCARD 0830 TOBACCO KING WOODBRIDGE VA 24000975243338700977816 CKCD 5993 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 3.17,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-02-2025",
+              "description": "CHECKCARD 0830 CVS/PHARMACY # WOODBRIDGE VA CKCD 5912 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 25.23,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-02-2025",
+              "description": "CHECKCARD 0831 OLD BRIDGE COASTAL WOODBRIDGE VA 24607945244463434030051 CKCD 5542 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 20.51,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-02-2025",
+              "description": "CHECKCARD 0831 TOBACCO KING WOODBRIDGE VA 24000975243344201029891 CKCD 5993 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 3.17,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-02-2025",
+              "description": "WAL-MART #1852 08/31 #000832400 PURCHASE 14000 WORTH AVE WOODBRIDGE VA",
+              "amount": 76.34,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-02-2025",
+              "description": "CHECKCARD 0831 DOLLAR TREE WOODBRIDGE VA CKCD 5331 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 11.69,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-02-2025",
+              "description": "CHECKCARD 0831 DOMINO'S 4368 WOODBRIDGE VA 24445005244000928975869 CKCD 5814 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 10.99,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-02-2025",
+              "description": "CHECKCARD 0901 DC *GOV'T PAYMENT 202-442-5955 DC 24692165244105545769280 CKCD 9399 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 35.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-02-2025",
+              "description": "CHECKCARD 0901 USCIS ELIS 1765 800-375-5283 DC 24240985245600221965415 CKCD 9399 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 745.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-02-2025",
+              "description": "CHECKCARD 0901 OLD BRIDGE COASTAL WOODBRIDGE VA 24607945245464549856710 CKCD 5542 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 25.09,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-02-2025",
+              "description": "CHECKCARD 0902 SUNOCO 0650475 WOODBRIDGE VA CKCD 5542 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 25.04,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-03-2025",
+              "description": "MCA SERVICING DES:8003243863 ID:PAY090225177493 INDN: CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD",
+              "amount": 87.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-03-2025",
+              "description": "CHECKCARD 0902 VA DMV WOODBRIDGE CSC WOODBRIDGE VA 24755425246732467109730 CKCD 9399 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 166.25,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-03-2025",
+              "description": "CHECKCARD 0902 TOBACCO KING WOODBRIDGE VA 24000975245355901550067 CKCD 5993 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 3.17,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-03-2025",
+              "description": "CHECKCARD 0903 SUNOCO 0650475 WOODBRIDGE VA CKCD 5542 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 25.09,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-03-2025",
+              "description": "CHECKCARD 0903 CVS/PHARMACY # WOODBRIDGE VA CKCD 5912XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 14.13,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-04-2025",
+              "description": "Online Banking transfer from CHK 8246 Confirmation# 8602791350",
+              "amount": 671.84,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "09-04-2025",
+              "description": "Online Banking transfer to CHK 8246 Confirmation# 8198683732",
+              "amount": 54.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "09-04-2025",
+              "description": "Online Banking transfer to CHK 8246 Confirmation# 8198709097",
+              "amount": 10.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "09-04-2025",
+              "description": "Online Banking transfer to CHK 8246 Confirmation# 7598754097",
+              "amount": 2.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "09-04-2025",
+              "description": "Zelle payment to NAYRA Conf# wrqe95d84",
+              "amount": 50.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-04-2025",
+              "description": "Online Banking transfer to CHK 8246 Confirmation# 7299115929",
+              "amount": 50.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "09-04-2025",
+              "description": "MCA SERVICING DES:8003243863 ID:PAY090325177534 INDN:CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD",
+              "amount": 87.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-04-2025",
+              "description": "CHECKCARD 0902 SHELL OIL 57525763108 BALTIMORE MD 24316055246465958683619 CKCD 5542 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 14.9,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-04-2025",
+              "description": "CHECKCARD 0902 SAFEWAY 1331 WOODBRIDGE VA 24231685246466071403584 CKCD 5411 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 23.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-04-2025",
+              "description": "CHECKCARD 0903 TOBACCO KING WOODBRIDGE VA 24000975246361501046273 CKCD 5993 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 3.17,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-05-2025",
+              "description": "Online Banking transfer from CHK 8246 Confirmation# 7607466111",
+              "amount": 275.0,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "09-05-2025",
+              "description": "Online Banking transfer from CHK 8246 Confirmation# 7411595382",
+              "amount": 56.24,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "09-05-2025",
+              "description": "MCA SERVICING DES:8003243863 ID:PAY090425177581 INDN: CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD",
+              "amount": 87.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-05-2025",
+              "description": "CHECKCARD 0904 OLD BRIDGE COASTAL WOODBRIDGE VA 24607945248468067412399 CKCD 5542 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 24.07,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-05-2025",
+              "description": "CHECKCARD 0904 DOLLAR TREE WOODBRIDGE WV 24445005248000999028198 CKCD 5331 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 8.96,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-05-2025",
+              "description": "WM SUPERCENTER 09/05 #000456432 PURCHASE 14000 WORTH AVE WOODBRIDGE VA",
+              "amount": 71.75,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-08-2025",
+              "description": "Transfer SQUARE",
+              "amount": 176.27,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "09-08-2025",
+              "description": "Online Banking transfer from CHK 8246 Confirmation# 7120191086",
+              "amount": 134.91,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "09-08-2025",
+              "description": "Online Banking transfer from CHK 8246 Confirmation# 7337492594",
+              "amount": 4.0,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "09-08-2025",
+              "description": "Online Banking transfer to CHK 8246 Confirmation# 8333976191",
+              "amount": 250.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "09-08-2025",
+              "description": "Zelle payment to SALEM Conf# trdtvo7zl",
+              "amount": 560.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-08-2025",
+              "description": "MCA SERVICING DES:8003243863 ID:PAY090525177625 INDN: CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD",
+              "amount": 87.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-08-2025",
+              "description": "CHECKCARD 0905 OLD BRIDGE COASTAL WOODBRIDGE VA 24607945249469268104297 CKCD 5542 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 24.04,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-08-2025",
+              "description": "CHECKCARD 0906 OLD BRIDGE COASTAL WOODBRIDGE VA 24607945250470418386186 CKCD 5542 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 25.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-08-2025",
+              "description": "CHECKCARD 0906 DOLLAR TREE WOODBRIDGE WV 24445005250000972264765 CKCD 5331 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 6.31,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-08-2025",
+              "description": "CHECKCARD 0906 TOBACCO KING WOODBRIDGE VA 24000975250378401409115 CKCD 5993 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 6.34,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-08-2025",
+              "description": "CHECKCARD 0907 DOLLAR TREE WOODBRIDGE WV 24445005251000888066584 CKCD 5331 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 20.09,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-08-2025",
+              "description": "CHECKCARD 0907 DOMINO'S 4368 WOODBRIDGE VA 24445005251000888066667 CKCD 5814 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 10.99,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-08-2025",
+              "description": "CHECKCARD 0908 STRINGER'S INC WOODBRIDGE VA CKCD 5542 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 18.29,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-09-2025",
+              "description": "Transfer SQUARE",
+              "amount": 114.48,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "09-09-2025",
+              "description": "MCA SERVICING DES:8003243863 ID:PAY090825177681 INDN: CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD",
+              "amount": 87.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-09-2025",
+              "description": "MCA Servicing DES:8003243863 ID:XXXXXXXXX INDN:CLAVER GONZALEZ SEVILL CO ID:9843488861 CCD",
+              "amount": 49.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-09-2025",
+              "description": "CHECKCARD 0908 RESTAURANT DEPOT ALEXANDRIA VA 24435655252115833114090 CKCD 5411 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 40.45,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-10-2025",
+              "description": "Transfer SQUARE",
+              "amount": 140.51,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "09-10-2025",
+              "description": "Online Banking transfer from CHK 8246 Confirmation# 7855245673",
+              "amount": 30.78,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "09-10-2025",
+              "description": "MCA SERVICING DES:8003243863 ID:PAY090925177727 INDN: CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD",
+              "amount": 87.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-10-2025",
+              "description": "POSSIBLE FINANCE DES:PAYMENT ID:4e66e669f31a4a8 INDN:Claver Gonzalez CO ID:1823273909 WEB",
+              "amount": 45.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-10-2025",
+              "description": "CHECKCARD 0908 SAFEWAY 1331 WOODBRIDGE VA 24231685252473032028527 CKCD 5411 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 76.83,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-10-2025",
+              "description": "WAL WAL-MART # 09/10 #000012070 PURCHASE 14000 WORTH AVE WOODBRIDGE VA",
+              "amount": 66.73,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-11-2025",
+              "description": "Transfer SQUARE",
+              "amount": 121.78,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "09-11-2025",
+              "description": "MCA SERVICING DES:8003243863 ID:PAY091025177778 INDN: CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD",
+              "amount": 87.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-11-2025",
+              "description": "CHECKCARD 0910 CTLP*BLUE RHINO PROPA 8443808846 MO 24116415254474784231467 CKCD 5983 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 21.12,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-12-2025",
+              "description": "Transfer SQUARE",
+              "amount": 120.98,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "09-12-2025",
+              "description": "Online Banking transfer to CHK 8246 Confirmation# 8571873400",
+              "amount": 112.61,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "09-12-2025",
+              "description": "MCA SERVICING DES:8003243863 ID:PAY091125177829 INDN: CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD",
+              "amount": 87.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-15-2025",
+              "description": "Transfer SQUARE",
+              "amount": 178.83,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "09-15-2025",
+              "description": "Transfer SQUARE",
+              "amount": 81.84,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "09-15-2025",
+              "description": "Online Banking transfer from CHK 8246 Confirmation# 7388490039",
+              "amount": 17.42,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "09-15-2025",
+              "description": "Online Banking transfer from CHK 8246 Confirmation# 8080982040",
+              "amount": 12.03,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "09-15-2025",
+              "description": "Zelle payment to NAYRA Conf# x7q0llhdj",
+              "amount": 50.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-15-2025",
+              "description": "Online Banking transfer to CHK 8246 Confirmation# 7988229995",
+              "amount": 17.42,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "09-15-2025",
+              "description": "MCA SERVICING DES:8003243863 ID:PAY091225177875 INDN:CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD",
+              "amount": 87.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-15-2025",
+              "description": "CHECKCARD 0914 OLD BRIDGE COASTAL WOODBRIDGE VA 24607945258479765855034 CKCD 5542 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 5.35,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-15-2025",
+              "description": "CHECKCARD 0914 CTLP*BLUE RHINO PROPA 8443808846 MO 24116415258479536803279 CKCD 5983 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 21.12,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-15-2025",
+              "description": "CHECKCARD 0914 RESTAURANT DEPOT ALEXANDRIA VA 24435655258117632077225 CKCD 5411 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 5.11,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-15-2025",
+              "description": "CHECKCARD 0914 DOMINO'S 4368 WOODBRIDGE VA 24445005258000892221608 CKCD 5814 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 10.99,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-15-2025",
+              "description": "CHECKCARD 0914 OLD BRIDGE COASTAL WOODBRIDGE VA 24607945258479765855042 CKCD 5542 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 17.03,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-16-2025",
+              "description": "Transfer SQUARE",
+              "amount": 84.77,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "09-16-2025",
+              "description": "Online Banking transfer to CHK 8246 Confirmation# 8506812231",
+              "amount": 16.14,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "09-16-2025",
+              "description": "MCA SERVICING DES:8003243863 ID:PAY091525177932 INDN:CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD",
+              "amount": 87.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-16-2025",
+              "description": "CHECKCARD 0915 TOBACCO KING WOODBRIDGE VA 24000975258429804337403 CKCD 5993 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 7.4,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-16-2025",
+              "description": "CHECKCARD 0915 DOLLAR TREE WOODBRIDGE WV 24445005259000950230995 CKCD 5331 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 21.23,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-16-2025",
+              "description": "CHECKCARD 0915 CTLP*BLUE RHINO PROPΑ 8443808846 MO 24116415259480681025964 CKCD 5983 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 21.12,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-16-2025",
+              "description": "OVERDRAFT ITEM FEE FOR ACTIVITY OF 09-16",
+              "amount": 10.0,
+              "type": "Debit",
+              "category": "Overdraft"
+            },
+            {
+              "date": "09-17-2025",
+              "description": "Transfer SQUARE",
+              "amount": 98.86,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "09-17-2025",
+              "description": "Online Banking transfer from CHK 8246 Confirmation# 7715874831",
+              "amount": 14.26,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "09-17-2025",
+              "description": "MCA SERVICING DES:8003243863 ID:PAY091625177979 INDN: CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD",
+              "amount": 87.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-17-2025",
+              "description": "CHECKCARD 0915 SAFEWAY 1331 WOODBRIDGE VA 24231685259481268191508 CKCD 5411 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 24.1,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-18-2025",
+              "description": "Transfer SQUARE",
+              "amount": 106.57,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "09-18-2025",
+              "description": "Online Banking transfer to CHK 8246 Confirmation# 7324623660",
+              "amount": 19.5,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "09-18-2025",
+              "description": "MCA SERVICING DES:8003243863 ID:PAY091725178028 INDN:CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD",
+              "amount": 87.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-19-2025",
+              "description": "Transfer SQUARE",
+              "amount": 67.47,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "09-19-2025",
+              "description": "MCA SERVICING DES:8003243863 ID:PAY091825178079 INDN:CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD",
+              "amount": 87.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-19-2025",
+              "description": "OVERDRAFT ITEM FEE FOR ACTIVITY OF 09-19",
+              "amount": 10.0,
+              "type": "Debit",
+              "category": "Overdraft"
+            },
+            {
+              "date": "09-22-2025",
+              "description": "Transfer SQUARE",
+              "amount": 87.57,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "09-22-2025",
+              "description": "Transfer SQUARE",
+              "amount": 82.32,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "09-22-2025",
+              "description": "Zelle payment to Chris Liberator Liberator Conf# vyrf72sxb",
+              "amount": 25.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-22-2025",
+              "description": "Online Banking transfer to CHK 8246 Confirmation# 8048442726",
+              "amount": 3.6,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "09-22-2025",
+              "description": "Zelle payment to NAYRA Conf# t8pnc7m44",
+              "amount": 50.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-22-2025",
+              "description": "Online Banking transfer to CHK 8246 Confirmation# 7248542282",
+              "amount": 58.16,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "09-22-2025",
+              "description": "MCA SERVICING DES:8003243863 ID:PAY091925178125 INDN:CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD",
+              "amount": 87.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-22-2025",
+              "description": "CHECKCARD 0920 TOBACCO KING WOODBRIDGE VA 24000975264458000745582 CKCD 5993 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 3.17,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-22-2025",
+              "description": "OVERDRAFT ITEM FEE FOR ACTIVITY OF 09-22",
+              "amount": 10.0,
+              "type": "Debit",
+              "category": "Overdraft"
+            },
+            {
+              "date": "09-23-2025",
+              "description": "Transfer SQUARE",
+              "amount": 76.38,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "09-23-2025",
+              "description": "MCA SERVICING DES:8003243863 ID:PAY092225178186 INDN: CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD",
+              "amount": 87.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-23-2025",
+              "description": "OVERDRAFT ITEM FEE FOR ACTIVITY OF 09-23",
+              "amount": 10.0,
+              "type": "Debit",
+              "category": "Overdraft"
+            },
+            {
+              "date": "09-24-2025",
+              "description": "MCA SERVICING DES:8003243863 ID:PAY092325178238 INDN: CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD",
+              "amount": 87.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-24-2025",
+              "description": "POSSIBLE FINANCE DES:PAYMENT ID:c45f3e3bb6664f4 INDN:Claver Gonzalez CO ID:1823273909 WEB",
+              "amount": 45.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-25-2025",
+              "description": "RETURN OF POSTED CHECK / ITEM (RECEIVED ON 09-24)",
+              "amount": 87.0,
+              "type": "Credit",
+              "category": "Returned Item"
+            },
+            {
+              "date": "09-25-2025",
+              "description": "RETURN OF POSTED CHECK / ITEM (RECEIVED ON 09-24)",
+              "amount": 45.0,
+              "type": "Credit",
+              "category": "Returned Item"
+            },
+            {
+              "date": "09-25-2025",
+              "description": "MCA SERVICING DES:8003243863 ID:PAY092425178288 INDN: CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD",
+              "amount": 87.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-26-2025",
+              "description": "RETURN OF POSTED CHECK / ITEM (RECEIVED ON 09-25)",
+              "amount": 87.0,
+              "type": "Credit",
+              "category": "Returned Item"
+            },
+            {
+              "date": "09-26-2025",
+              "description": "MCA SERVICING DES:8003243863 ID:PAY092525178341 INDN:CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD",
+              "amount": 87.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-29-2025",
+              "description": "RETURN OF POSTED CHECK / ITEM (RECEIVED ON 09-26)",
+              "amount": 87.0,
+              "type": "Credit",
+              "category": "Returned Item"
+            }
+          ]
+        }
+      ]
+    },
+    "raw_output": "```json\n{\n  \"bank_statement_information\": {\n    \"bank_name\": \"BANK OF AMERICA\",\n    \"account_holder\": \"CLAVER GONZALEZSEVILLA SOLE PROP DBA LA FONDITA STEAK AND CHEESE\",\n    \"statement_start_date\": \"09-01-2025\",\n    \"statement_end_date\": \"09-30-2025\",\n    \"n_days\": 30,\n    \"n_month\": [\n      9\n    ],\n    \"business_address\": \"1916 BRIAR ROSE LN APT 202 WOODBRIDGE, VA 22192-6972\"\n  },\n  \"accounts\": [\n    {\n      \"account_number\": \"4350 6155 0627\",\n      \"account_type\": \"Business Advantage Fundamentals™ Banking\",\n      \"account_summary\": {\n        \"beginning_balance\": 1566.8,\n        \"ending_balance\": -117.12,\n        \"total_deposits\": 3368.01,\n        \"total_withdrawals\": 5051.93,\n        \"total_deposits_count\": 29,\n        \"total_withdrawals_count\": 86,\n        \"avg_daily_balance\": 190.98,\n        \"overdraft_days\": 7\n      },\n      \"transactions\": [\n        {\n          \"date\": \"09-02-2025\",\n          \"description\": \"Online Banking transfer from CHK 8246 Confirmation# 7360092822\",\n          \"amount\": 208.15,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"09-02-2025\",\n          \"description\": \"Online Banking transfer from CHK 8246 Confirmation# 7366748679\",\n          \"amount\": 98.75,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"09-02-2025\",\n          \"description\": \"Zelle payment to Chris Liberator Liberator Conf# zzwfoxwp7\",\n          \"amount\": 75.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-02-2025\",\n          \"description\": \"Online Banking transfer to CHK 8246 Confirmation# 8681056518\",\n          \"amount\": 27.97,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-02-2025\",\n          \"description\": \"MCA SERVICING DES:8003243863 ID:PAY082925176829 INDN: CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD\",\n          \"amount\": 87.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-02-2025\",\n          \"description\": \"CHECKCARD 0830 TOBACCO KING WOODBRIDGE VA 24000975243338700977816 CKCD 5993 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 3.17,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-02-2025\",\n          \"description\": \"CHECKCARD 0830 CVS/PHARMACY # WOODBRIDGE VA CKCD 5912 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 25.23,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-02-2025\",\n          \"description\": \"CHECKCARD 0831 OLD BRIDGE COASTAL WOODBRIDGE VA 24607945244463434030051 CKCD 5542 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 20.51,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-02-2025\",\n          \"description\": \"CHECKCARD 0831 TOBACCO KING WOODBRIDGE VA 24000975243344201029891 CKCD 5993 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 3.17,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-02-2025\",\n          \"description\": \"WAL-MART #1852 08/31 #000832400 PURCHASE 14000 WORTH AVE WOODBRIDGE VA\",\n          \"amount\": 76.34,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-02-2025\",\n          \"description\": \"CHECKCARD 0831 DOLLAR TREE WOODBRIDGE VA CKCD 5331 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 11.69,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-02-2025\",\n          \"description\": \"CHECKCARD 0831 DOMINO'S 4368 WOODBRIDGE VA 24445005244000928975869 CKCD 5814 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 10.99,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-02-2025\",\n          \"description\": \"CHECKCARD 0901 DC *GOV'T PAYMENT 202-442-5955 DC 24692165244105545769280 CKCD 9399 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-02-2025\",\n          \"description\": \"CHECKCARD 0901 USCIS ELIS 1765 800-375-5283 DC 24240985245600221965415 CKCD 9399 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 745.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-02-2025\",\n          \"description\": \"CHECKCARD 0901 OLD BRIDGE COASTAL WOODBRIDGE VA 24607945245464549856710 CKCD 5542 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 25.09,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-02-2025\",\n          \"description\": \"CHECKCARD 0902 SUNOCO 0650475 WOODBRIDGE VA CKCD 5542 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 25.04,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-03-2025\",\n          \"description\": \"MCA SERVICING DES:8003243863 ID:PAY090225177493 INDN: CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD\",\n          \"amount\": 87.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-03-2025\",\n          \"description\": \"CHECKCARD 0902 VA DMV WOODBRIDGE CSC WOODBRIDGE VA 24755425246732467109730 CKCD 9399 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 166.25,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-03-2025\",\n          \"description\": \"CHECKCARD 0902 TOBACCO KING WOODBRIDGE VA 24000975245355901550067 CKCD 5993 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 3.17,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-03-2025\",\n          \"description\": \"CHECKCARD 0903 SUNOCO 0650475 WOODBRIDGE VA CKCD 5542 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 25.09,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-03-2025\",\n          \"description\": \"CHECKCARD 0903 CVS/PHARMACY # WOODBRIDGE VA CKCD 5912XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 14.13,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-04-2025\",\n          \"description\": \"Online Banking transfer from CHK 8246 Confirmation# 8602791350\",\n          \"amount\": 671.84,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"09-04-2025\",\n          \"description\": \"Online Banking transfer to CHK 8246 Confirmation# 8198683732\",\n          \"amount\": 54.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-04-2025\",\n          \"description\": \"Online Banking transfer to CHK 8246 Confirmation# 8198709097\",\n          \"amount\": 10.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-04-2025\",\n          \"description\": \"Online Banking transfer to CHK 8246 Confirmation# 7598754097\",\n          \"amount\": 2.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-04-2025\",\n          \"description\": \"Zelle payment to NAYRA Conf# wrqe95d84\",\n          \"amount\": 50.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-04-2025\",\n          \"description\": \"Online Banking transfer to CHK 8246 Confirmation# 7299115929\",\n          \"amount\": 50.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-04-2025\",\n          \"description\": \"MCA SERVICING DES:8003243863 ID:PAY090325177534 INDN:CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD\",\n          \"amount\": 87.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-04-2025\",\n          \"description\": \"CHECKCARD 0902 SHELL OIL 57525763108 BALTIMORE MD 24316055246465958683619 CKCD 5542 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 14.9,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-04-2025\",\n          \"description\": \"CHECKCARD 0902 SAFEWAY 1331 WOODBRIDGE VA 24231685246466071403584 CKCD 5411 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 23.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-04-2025\",\n          \"description\": \"CHECKCARD 0903 TOBACCO KING WOODBRIDGE VA 24000975246361501046273 CKCD 5993 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 3.17,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-05-2025\",\n          \"description\": \"Online Banking transfer from CHK 8246 Confirmation# 7607466111\",\n          \"amount\": 275.0,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"09-05-2025\",\n          \"description\": \"Online Banking transfer from CHK 8246 Confirmation# 7411595382\",\n          \"amount\": 56.24,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"09-05-2025\",\n          \"description\": \"MCA SERVICING DES:8003243863 ID:PAY090425177581 INDN: CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD\",\n          \"amount\": 87.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-05-2025\",\n          \"description\": \"CHECKCARD 0904 OLD BRIDGE COASTAL WOODBRIDGE VA 24607945248468067412399 CKCD 5542 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 24.07,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-05-2025\",\n          \"description\": \"CHECKCARD 0904 DOLLAR TREE WOODBRIDGE WV 24445005248000999028198 CKCD 5331 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 8.96,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-05-2025\",\n          \"description\": \"WM SUPERCENTER 09/05 #000456432 PURCHASE 14000 WORTH AVE WOODBRIDGE VA\",\n          \"amount\": 71.75,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"description\": \"Transfer SQUARE\",\n          \"amount\": 176.27,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"description\": \"Online Banking transfer from CHK 8246 Confirmation# 7120191086\",\n          \"amount\": 134.91,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"description\": \"Online Banking transfer from CHK 8246 Confirmation# 7337492594\",\n          \"amount\": 4.0,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"description\": \"Online Banking transfer to CHK 8246 Confirmation# 8333976191\",\n          \"amount\": 250.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"description\": \"Zelle payment to SALEM Conf# trdtvo7zl\",\n          \"amount\": 560.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"description\": \"MCA SERVICING DES:8003243863 ID:PAY090525177625 INDN: CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD\",\n          \"amount\": 87.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"description\": \"CHECKCARD 0905 OLD BRIDGE COASTAL WOODBRIDGE VA 24607945249469268104297 CKCD 5542 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 24.04,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"description\": \"CHECKCARD 0906 OLD BRIDGE COASTAL WOODBRIDGE VA 24607945250470418386186 CKCD 5542 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 25.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"description\": \"CHECKCARD 0906 DOLLAR TREE WOODBRIDGE WV 24445005250000972264765 CKCD 5331 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 6.31,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"description\": \"CHECKCARD 0906 TOBACCO KING WOODBRIDGE VA 24000975250378401409115 CKCD 5993 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 6.34,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"description\": \"CHECKCARD 0907 DOLLAR TREE WOODBRIDGE WV 24445005251000888066584 CKCD 5331 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 20.09,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"description\": \"CHECKCARD 0907 DOMINO'S 4368 WOODBRIDGE VA 24445005251000888066667 CKCD 5814 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 10.99,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"description\": \"CHECKCARD 0908 STRINGER'S INC WOODBRIDGE VA CKCD 5542 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 18.29,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-09-2025\",\n          \"description\": \"Transfer SQUARE\",\n          \"amount\": 114.48,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"09-09-2025\",\n          \"description\": \"MCA SERVICING DES:8003243863 ID:PAY090825177681 INDN: CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD\",\n          \"amount\": 87.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-09-2025\",\n          \"description\": \"MCA Servicing DES:8003243863 ID:XXXXXXXXX INDN:CLAVER GONZALEZ SEVILL CO ID:9843488861 CCD\",\n          \"amount\": 49.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-09-2025\",\n          \"description\": \"CHECKCARD 0908 RESTAURANT DEPOT ALEXANDRIA VA 24435655252115833114090 CKCD 5411 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 40.45,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-10-2025\",\n          \"description\": \"Transfer SQUARE\",\n          \"amount\": 140.51,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"09-10-2025\",\n          \"description\": \"Online Banking transfer from CHK 8246 Confirmation# 7855245673\",\n          \"amount\": 30.78,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"09-10-2025\",\n          \"description\": \"MCA SERVICING DES:8003243863 ID:PAY090925177727 INDN: CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD\",\n          \"amount\": 87.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-10-2025\",\n          \"description\": \"POSSIBLE FINANCE DES:PAYMENT ID:4e66e669f31a4a8 INDN:Claver Gonzalez CO ID:1823273909 WEB\",\n          \"amount\": 45.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-10-2025\",\n          \"description\": \"CHECKCARD 0908 SAFEWAY 1331 WOODBRIDGE VA 24231685252473032028527 CKCD 5411 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 76.83,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-10-2025\",\n          \"description\": \"WAL WAL-MART # 09/10 #000012070 PURCHASE 14000 WORTH AVE WOODBRIDGE VA\",\n          \"amount\": 66.73,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-11-2025\",\n          \"description\": \"Transfer SQUARE\",\n          \"amount\": 121.78,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"09-11-2025\",\n          \"description\": \"MCA SERVICING DES:8003243863 ID:PAY091025177778 INDN: CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD\",\n          \"amount\": 87.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-11-2025\",\n          \"description\": \"CHECKCARD 0910 CTLP*BLUE RHINO PROPA 8443808846 MO 24116415254474784231467 CKCD 5983 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 21.12,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-12-2025\",\n          \"description\": \"Transfer SQUARE\",\n          \"amount\": 120.98,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"09-12-2025\",\n          \"description\": \"Online Banking transfer to CHK 8246 Confirmation# 8571873400\",\n          \"amount\": 112.61,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-12-2025\",\n          \"description\": \"MCA SERVICING DES:8003243863 ID:PAY091125177829 INDN: CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD\",\n          \"amount\": 87.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-15-2025\",\n          \"description\": \"Transfer SQUARE\",\n          \"amount\": 178.83,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"09-15-2025\",\n          \"description\": \"Transfer SQUARE\",\n          \"amount\": 81.84,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"09-15-2025\",\n          \"description\": \"Online Banking transfer from CHK 8246 Confirmation# 7388490039\",\n          \"amount\": 17.42,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"09-15-2025\",\n          \"description\": \"Online Banking transfer from CHK 8246 Confirmation# 8080982040\",\n          \"amount\": 12.03,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"09-15-2025\",\n          \"description\": \"Zelle payment to NAYRA Conf# x7q0llhdj\",\n          \"amount\": 50.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-15-2025\",\n          \"description\": \"Online Banking transfer to CHK 8246 Confirmation# 7988229995\",\n          \"amount\": 17.42,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-15-2025\",\n          \"description\": \"MCA SERVICING DES:8003243863 ID:PAY091225177875 INDN:CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD\",\n          \"amount\": 87.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-15-2025\",\n          \"description\": \"CHECKCARD 0914 OLD BRIDGE COASTAL WOODBRIDGE VA 24607945258479765855034 CKCD 5542 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 5.35,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-15-2025\",\n          \"description\": \"CHECKCARD 0914 CTLP*BLUE RHINO PROPA 8443808846 MO 24116415258479536803279 CKCD 5983 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 21.12,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-15-2025\",\n          \"description\": \"CHECKCARD 0914 RESTAURANT DEPOT ALEXANDRIA VA 24435655258117632077225 CKCD 5411 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 5.11,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-15-2025\",\n          \"description\": \"CHECKCARD 0914 DOMINO'S 4368 WOODBRIDGE VA 24445005258000892221608 CKCD 5814 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 10.99,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-15-2025\",\n          \"description\": \"CHECKCARD 0914 OLD BRIDGE COASTAL WOODBRIDGE VA 24607945258479765855042 CKCD 5542 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 17.03,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-16-2025\",\n          \"description\": \"Transfer SQUARE\",\n          \"amount\": 84.77,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"09-16-2025\",\n          \"description\": \"Online Banking transfer to CHK 8246 Confirmation# 8506812231\",\n          \"amount\": 16.14,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-16-2025\",\n          \"description\": \"MCA SERVICING DES:8003243863 ID:PAY091525177932 INDN:CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD\",\n          \"amount\": 87.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-16-2025\",\n          \"description\": \"CHECKCARD 0915 TOBACCO KING WOODBRIDGE VA 24000975258429804337403 CKCD 5993 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 7.4,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-16-2025\",\n          \"description\": \"CHECKCARD 0915 DOLLAR TREE WOODBRIDGE WV 24445005259000950230995 CKCD 5331 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 21.23,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-16-2025\",\n          \"description\": \"CHECKCARD 0915 CTLP*BLUE RHINO PROPΑ 8443808846 MO 24116415259480681025964 CKCD 5983 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 21.12,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-16-2025\",\n          \"description\": \"OVERDRAFT ITEM FEE FOR ACTIVITY OF 09-16\",\n          \"amount\": 10.0,\n          \"type\": \"Debit\",\n          \"category\": \"Overdraft\"\n        },\n        {\n          \"date\": \"09-17-2025\",\n          \"description\": \"Transfer SQUARE\",\n          \"amount\": 98.86,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"09-17-2025\",\n          \"description\": \"Online Banking transfer from CHK 8246 Confirmation# 7715874831\",\n          \"amount\": 14.26,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"09-17-2025\",\n          \"description\": \"MCA SERVICING DES:8003243863 ID:PAY091625177979 INDN: CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD\",\n          \"amount\": 87.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-17-2025\",\n          \"description\": \"CHECKCARD 0915 SAFEWAY 1331 WOODBRIDGE VA 24231685259481268191508 CKCD 5411 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 24.1,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-18-2025\",\n          \"description\": \"Transfer SQUARE\",\n          \"amount\": 106.57,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"09-18-2025\",\n          \"description\": \"Online Banking transfer to CHK 8246 Confirmation# 7324623660\",\n          \"amount\": 19.5,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-18-2025\",\n          \"description\": \"MCA SERVICING DES:8003243863 ID:PAY091725178028 INDN:CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD\",\n          \"amount\": 87.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-19-2025\",\n          \"description\": \"Transfer SQUARE\",\n          \"amount\": 67.47,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"09-19-2025\",\n          \"description\": \"MCA SERVICING DES:8003243863 ID:PAY091825178079 INDN:CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD\",\n          \"amount\": 87.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-19-2025\",\n          \"description\": \"OVERDRAFT ITEM FEE FOR ACTIVITY OF 09-19\",\n          \"amount\": 10.0,\n          \"type\": \"Debit\",\n          \"category\": \"Overdraft\"\n        },\n        {\n          \"date\": \"09-22-2025\",\n          \"description\": \"Transfer SQUARE\",\n          \"amount\": 87.57,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"09-22-2025\",\n          \"description\": \"Transfer SQUARE\",\n          \"amount\": 82.32,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"09-22-2025\",\n          \"description\": \"Zelle payment to Chris Liberator Liberator Conf# vyrf72sxb\",\n          \"amount\": 25.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-22-2025\",\n          \"description\": \"Online Banking transfer to CHK 8246 Confirmation# 8048442726\",\n          \"amount\": 3.6,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-22-2025\",\n          \"description\": \"Zelle payment to NAYRA Conf# t8pnc7m44\",\n          \"amount\": 50.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-22-2025\",\n          \"description\": \"Online Banking transfer to CHK 8246 Confirmation# 7248542282\",\n          \"amount\": 58.16,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-22-2025\",\n          \"description\": \"MCA SERVICING DES:8003243863 ID:PAY091925178125 INDN:CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD\",\n          \"amount\": 87.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-22-2025\",\n          \"description\": \"CHECKCARD 0920 TOBACCO KING WOODBRIDGE VA 24000975264458000745582 CKCD 5993 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 3.17,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-22-2025\",\n          \"description\": \"OVERDRAFT ITEM FEE FOR ACTIVITY OF 09-22\",\n          \"amount\": 10.0,\n          \"type\": \"Debit\",\n          \"category\": \"Overdraft\"\n        },\n        {\n          \"date\": \"09-23-2025\",\n          \"description\": \"Transfer SQUARE\",\n          \"amount\": 76.38,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"09-23-2025\",\n          \"description\": \"MCA SERVICING DES:8003243863 ID:PAY092225178186 INDN: CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD\",\n          \"amount\": 87.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-23-2025\",\n          \"description\": \"OVERDRAFT ITEM FEE FOR ACTIVITY OF 09-23\",\n          \"amount\": 10.0,\n          \"type\": \"Debit\",\n          \"category\": \"Overdraft\"\n        },\n        {\n          \"date\": \"09-24-2025\",\n          \"description\": \"MCA SERVICING DES:8003243863 ID:PAY092325178238 INDN: CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD\",\n          \"amount\": 87.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-24-2025\",\n          \"description\": \"POSSIBLE FINANCE DES:PAYMENT ID:c45f3e3bb6664f4 INDN:Claver Gonzalez CO ID:1823273909 WEB\",\n          \"amount\": 45.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-25-2025\",\n          \"description\": \"RETURN OF POSTED CHECK / ITEM (RECEIVED ON 09-24)\",\n          \"amount\": 87.0,\n          \"type\": \"Credit\",\n          \"category\": \"Returned Item\"\n        },\n        {\n          \"date\": \"09-25-2025\",\n          \"description\": \"RETURN OF POSTED CHECK / ITEM (RECEIVED ON 09-24)\",\n          \"amount\": 45.0,\n          \"type\": \"Credit\",\n          \"category\": \"Returned Item\"\n        },\n        {\n          \"date\": \"09-25-2025\",\n          \"description\": \"MCA SERVICING DES:8003243863 ID:PAY092425178288 INDN: CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD\",\n          \"amount\": 87.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-26-2025\",\n          \"description\": \"RETURN OF POSTED CHECK / ITEM (RECEIVED ON 09-25)\",\n          \"amount\": 87.0,\n          \"type\": \"Credit\",\n          \"category\": \"Returned Item\"\n        },\n        {\n          \"date\": \"09-26-2025\",\n          \"description\": \"MCA SERVICING DES:8003243863 ID:PAY092525178341 INDN:CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD\",\n          \"amount\": 87.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-29-2025\",\n          \"description\": \"RETURN OF POSTED CHECK / ITEM (RECEIVED ON 09-26)\",\n          \"amount\": 87.0,\n          \"type\": \"Credit\",\n          \"category\": \"Returned Item\"\n        }\n      ]\n    }\n  ]\n}\n```",
+    "token_count": {
+      "estimated_tokens": 2656
+    },
+    "failure_reason": null
+  },
+  "bsi_analyzer_result": {
+    "agent_name": "v1_bsi_analyzer_agent",
+    "processing_status": "success",
+    "start_time": "2026-02-04T15:03:03.653964",
+    "end_time": "2026-02-04T15:04:34.290054",
+    "parsed_json": {
+      "accounts": [
+        {
+          "account_number": "4350 6155 0627",
+          "account_type": "Business Advantage Fundamentals™ Banking",
+          "mca_deposit": [],
+          "mca_withdrawal": [
+            {
+              "mca_name": "MCA Servicing",
+              "date": "09-02-2025",
+              "type": "Debit",
+              "description": "MCA SERVICING DES:8003243863 ID:PAY082925176829 INDN: CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD",
+              "amount": 87.0
+            },
+            {
+              "mca_name": "MCA Servicing",
+              "date": "09-03-2025",
+              "type": "Debit",
+              "description": "MCA SERVICING DES:8003243863 ID:PAY090225177493 INDN: CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD",
+              "amount": 87.0
+            },
+            {
+              "mca_name": "MCA Servicing",
+              "date": "09-04-2025",
+              "type": "Debit",
+              "description": "MCA SERVICING DES:8003243863 ID:PAY090325177534 INDN:CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD",
+              "amount": 87.0
+            },
+            {
+              "mca_name": "MCA Servicing",
+              "date": "09-05-2025",
+              "type": "Debit",
+              "description": "MCA SERVICING DES:8003243863 ID:PAY090425177581 INDN: CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD",
+              "amount": 87.0
+            },
+            {
+              "mca_name": "MCA Servicing",
+              "date": "09-08-2025",
+              "type": "Debit",
+              "description": "MCA SERVICING DES:8003243863 ID:PAY090525177625 INDN: CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD",
+              "amount": 87.0
+            },
+            {
+              "mca_name": "MCA Servicing",
+              "date": "09-09-2025",
+              "type": "Debit",
+              "description": "MCA SERVICING DES:8003243863 ID:PAY090825177681 INDN: CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD",
+              "amount": 87.0
+            },
+            {
+              "mca_name": "MCA Servicing",
+              "date": "09-09-2025",
+              "type": "Debit",
+              "description": "MCA Servicing DES:8003243863 ID:XXXXXXXXX INDN:CLAVER GONZALEZ SEVILL CO ID:9843488861 CCD",
+              "amount": 49.0
+            },
+            {
+              "mca_name": "MCA Servicing",
+              "date": "09-10-2025",
+              "type": "Debit",
+              "description": "MCA SERVICING DES:8003243863 ID:PAY090925177727 INDN: CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD",
+              "amount": 87.0
+            },
+            {
+              "mca_name": "MCA Servicing",
+              "date": "09-11-2025",
+              "type": "Debit",
+              "description": "MCA SERVICING DES:8003243863 ID:PAY091025177778 INDN: CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD",
+              "amount": 87.0
+            },
+            {
+              "mca_name": "MCA Servicing",
+              "date": "09-12-2025",
+              "type": "Debit",
+              "description": "MCA SERVICING DES:8003243863 ID:PAY091125177829 INDN: CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD",
+              "amount": 87.0
+            },
+            {
+              "mca_name": "MCA Servicing",
+              "date": "09-15-2025",
+              "type": "Debit",
+              "description": "MCA SERVICING DES:8003243863 ID:PAY091225177875 INDN:CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD",
+              "amount": 87.0
+            },
+            {
+              "mca_name": "MCA Servicing",
+              "date": "09-16-2025",
+              "type": "Debit",
+              "description": "MCA SERVICING DES:8003243863 ID:PAY091525177932 INDN:CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD",
+              "amount": 87.0
+            },
+            {
+              "mca_name": "MCA Servicing",
+              "date": "09-17-2025",
+              "type": "Debit",
+              "description": "MCA SERVICING DES:8003243863 ID:PAY091625177979 INDN: CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD",
+              "amount": 87.0
+            },
+            {
+              "mca_name": "MCA Servicing",
+              "date": "09-18-2025",
+              "type": "Debit",
+              "description": "MCA SERVICING DES:8003243863 ID:PAY091725178028 INDN:CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD",
+              "amount": 87.0
+            },
+            {
+              "mca_name": "MCA Servicing",
+              "date": "09-19-2025",
+              "type": "Debit",
+              "description": "MCA SERVICING DES:8003243863 ID:PAY091825178079 INDN:CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD",
+              "amount": 87.0
+            },
+            {
+              "mca_name": "MCA Servicing",
+              "date": "09-22-2025",
+              "type": "Debit",
+              "description": "MCA SERVICING DES:8003243863 ID:PAY091925178125 INDN:CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD",
+              "amount": 87.0
+            },
+            {
+              "mca_name": "MCA Servicing",
+              "date": "09-23-2025",
+              "type": "Debit",
+              "description": "MCA SERVICING DES:8003243863 ID:PAY092225178186 INDN: CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD",
+              "amount": 87.0
+            },
+            {
+              "mca_name": "MCA Servicing",
+              "date": "09-24-2025",
+              "type": "Debit",
+              "description": "MCA SERVICING DES:8003243863 ID:PAY092325178238 INDN: CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD",
+              "amount": 87.0
+            },
+            {
+              "mca_name": "MCA Servicing",
+              "date": "09-25-2025",
+              "type": "Debit",
+              "description": "MCA SERVICING DES:8003243863 ID:PAY092425178288 INDN: CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD",
+              "amount": 87.0
+            },
+            {
+              "mca_name": "MCA Servicing",
+              "date": "09-26-2025",
+              "type": "Debit",
+              "description": "MCA SERVICING DES:8003243863 ID:PAY092525178341 INDN:CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD",
+              "amount": 87.0
+            }
+          ],
+          "returned_items": [
+            {
+              "date": "09-25-2025",
+              "type": "Credit",
+              "description": "RETURN OF POSTED CHECK / ITEM (RECEIVED ON 09-24)",
+              "amount": 87.0,
+              "non_true_revenue": 1
+            },
+            {
+              "date": "09-25-2025",
+              "type": "Credit",
+              "description": "RETURN OF POSTED CHECK / ITEM (RECEIVED ON 09-24)",
+              "amount": 45.0,
+              "non_true_revenue": 1
+            },
+            {
+              "date": "09-26-2025",
+              "type": "Credit",
+              "description": "RETURN OF POSTED CHECK / ITEM (RECEIVED ON 09-25)",
+              "amount": 87.0,
+              "non_true_revenue": 1
+            },
+            {
+              "date": "09-29-2025",
+              "type": "Credit",
+              "description": "RETURN OF POSTED CHECK / ITEM (RECEIVED ON 09-26)",
+              "amount": 87.0,
+              "non_true_revenue": 1
+            }
+          ],
+          "overdrafts": [
+            {
+              "date": "09-16-2025",
+              "type": "Debit",
+              "description": "OVERDRAFT ITEM FEE FOR ACTIVITY OF 09-16",
+              "amount": 10.0
+            },
+            {
+              "date": "09-19-2025",
+              "type": "Debit",
+              "description": "OVERDRAFT ITEM FEE FOR ACTIVITY OF 09-19",
+              "amount": 10.0
+            },
+            {
+              "date": "09-22-2025",
+              "type": "Debit",
+              "description": "OVERDRAFT ITEM FEE FOR ACTIVITY OF 09-22",
+              "amount": 10.0
+            },
+            {
+              "date": "09-23-2025",
+              "type": "Debit",
+              "description": "OVERDRAFT ITEM FEE FOR ACTIVITY OF 09-23",
+              "amount": 10.0
+            }
+          ],
+          "service_charges": [],
+          "atm_cash_withdrawal": [],
+          "internal_transfer_deposit": [
+            {
+              "date": "09-02-2025",
+              "type": "Credit",
+              "description": "Online Banking transfer from CHK 8246 Confirmation# 7360092822",
+              "amount": 208.15,
+              "non_true_revenue": 1
+            },
+            {
+              "date": "09-02-2025",
+              "type": "Credit",
+              "description": "Online Banking transfer from CHK 8246 Confirmation# 7366748679",
+              "amount": 98.75,
+              "non_true_revenue": 1
+            },
+            {
+              "date": "09-04-2025",
+              "type": "Credit",
+              "description": "Online Banking transfer from CHK 8246 Confirmation# 8602791350",
+              "amount": 671.84,
+              "non_true_revenue": 1
+            },
+            {
+              "date": "09-05-2025",
+              "type": "Credit",
+              "description": "Online Banking transfer from CHK 8246 Confirmation# 7607466111",
+              "amount": 275.0,
+              "non_true_revenue": 1
+            },
+            {
+              "date": "09-05-2025",
+              "type": "Credit",
+              "description": "Online Banking transfer from CHK 8246 Confirmation# 7411595382",
+              "amount": 56.24,
+              "non_true_revenue": 1
+            },
+            {
+              "date": "09-08-2025",
+              "type": "Credit",
+              "description": "Online Banking transfer from CHK 8246 Confirmation# 7120191086",
+              "amount": 134.91,
+              "non_true_revenue": 1
+            },
+            {
+              "date": "09-08-2025",
+              "type": "Credit",
+              "description": "Online Banking transfer from CHK 8246 Confirmation# 7337492594",
+              "amount": 4.0,
+              "non_true_revenue": 1
+            },
+            {
+              "date": "09-10-2025",
+              "type": "Credit",
+              "description": "Online Banking transfer from CHK 8246 Confirmation# 7855245673",
+              "amount": 30.78,
+              "non_true_revenue": 1
+            },
+            {
+              "date": "09-15-2025",
+              "type": "Credit",
+              "description": "Online Banking transfer from CHK 8246 Confirmation# 7388490039",
+              "amount": 17.42,
+              "non_true_revenue": 1
+            },
+            {
+              "date": "09-15-2025",
+              "type": "Credit",
+              "description": "Online Banking transfer from CHK 8246 Confirmation# 8080982040",
+              "amount": 12.03,
+              "non_true_revenue": 1
+            },
+            {
+              "date": "09-17-2025",
+              "type": "Credit",
+              "description": "Online Banking transfer from CHK 8246 Confirmation# 7715874831",
+              "amount": 14.26,
+              "non_true_revenue": 1
+            }
+          ],
+          "other_transfer_deposit": [
+            {
+              "date": "09-08-2025",
+              "type": "Credit",
+              "description": "Transfer SQUARE",
+              "amount": 176.27,
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-09-2025",
+              "type": "Credit",
+              "description": "Transfer SQUARE",
+              "amount": 114.48,
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-10-2025",
+              "type": "Credit",
+              "description": "Transfer SQUARE",
+              "amount": 140.51,
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-11-2025",
+              "type": "Credit",
+              "description": "Transfer SQUARE",
+              "amount": 121.78,
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-12-2025",
+              "type": "Credit",
+              "description": "Transfer SQUARE",
+              "amount": 120.98,
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-15-2025",
+              "type": "Credit",
+              "description": "Transfer SQUARE",
+              "amount": 178.83,
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-15-2025",
+              "type": "Credit",
+              "description": "Transfer SQUARE",
+              "amount": 81.84,
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-16-2025",
+              "type": "Credit",
+              "description": "Transfer SQUARE",
+              "amount": 84.77,
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-17-2025",
+              "type": "Credit",
+              "description": "Transfer SQUARE",
+              "amount": 98.86,
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-18-2025",
+              "type": "Credit",
+              "description": "Transfer SQUARE",
+              "amount": 106.57,
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-19-2025",
+              "type": "Credit",
+              "description": "Transfer SQUARE",
+              "amount": 67.47,
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-22-2025",
+              "type": "Credit",
+              "description": "Transfer SQUARE",
+              "amount": 87.57,
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-22-2025",
+              "type": "Credit",
+              "description": "Transfer SQUARE",
+              "amount": 82.32,
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-23-2025",
+              "type": "Credit",
+              "description": "Transfer SQUARE",
+              "amount": 76.38,
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            }
+          ],
+          "internal_transfer_withdrawal": [
+            {
+              "date": "09-02-2025",
+              "type": "Debit",
+              "description": "Online Banking transfer to CHK 8246 Confirmation# 8681056518",
+              "amount": 27.97
+            },
+            {
+              "date": "09-04-2025",
+              "type": "Debit",
+              "description": "Online Banking transfer to CHK 8246 Confirmation# 8198683732",
+              "amount": 54.0
+            },
+            {
+              "date": "09-04-2025",
+              "type": "Debit",
+              "description": "Online Banking transfer to CHK 8246 Confirmation# 8198709097",
+              "amount": 10.0
+            },
+            {
+              "date": "09-04-2025",
+              "type": "Debit",
+              "description": "Online Banking transfer to CHK 8246 Confirmation# 7598754097",
+              "amount": 2.0
+            },
+            {
+              "date": "09-04-2025",
+              "type": "Debit",
+              "description": "Online Banking transfer to CHK 8246 Confirmation# 7299115929",
+              "amount": 50.0
+            },
+            {
+              "date": "09-08-2025",
+              "type": "Debit",
+              "description": "Online Banking transfer to CHK 8246 Confirmation# 8333976191",
+              "amount": 250.0
+            },
+            {
+              "date": "09-12-2025",
+              "type": "Debit",
+              "description": "Online Banking transfer to CHK 8246 Confirmation# 8571873400",
+              "amount": 112.61
+            },
+            {
+              "date": "09-15-2025",
+              "type": "Debit",
+              "description": "Online Banking transfer to CHK 8246 Confirmation# 7988229995",
+              "amount": 17.42
+            },
+            {
+              "date": "09-16-2025",
+              "type": "Debit",
+              "description": "Online Banking transfer to CHK 8246 Confirmation# 8506812231",
+              "amount": 16.14
+            },
+            {
+              "date": "09-18-2025",
+              "type": "Debit",
+              "description": "Online Banking transfer to CHK 8246 Confirmation# 7324623660",
+              "amount": 19.5
+            },
+            {
+              "date": "09-22-2025",
+              "type": "Debit",
+              "description": "Online Banking transfer to CHK 8246 Confirmation# 8048442726",
+              "amount": 3.6
+            },
+            {
+              "date": "09-22-2025",
+              "type": "Debit",
+              "description": "Online Banking transfer to CHK 8246 Confirmation# 7248542282",
+              "amount": 58.16
+            }
+          ],
+          "other_transfer_withdrawal": [
+            {
+              "date": "09-02-2025",
+              "type": "Debit",
+              "description": "Zelle payment to Chris Liberator Liberator Conf# zzwfoxwp7",
+              "amount": 75.0
+            },
+            {
+              "date": "09-04-2025",
+              "type": "Debit",
+              "description": "Zelle payment to NAYRA Conf# wrqe95d84",
+              "amount": 50.0
+            },
+            {
+              "date": "09-08-2025",
+              "type": "Debit",
+              "description": "Zelle payment to SALEM Conf# trdtvo7zl",
+              "amount": 560.0
+            },
+            {
+              "date": "09-15-2025",
+              "type": "Debit",
+              "description": "Zelle payment to NAYRA Conf# x7q0llhdj",
+              "amount": 50.0
+            },
+            {
+              "date": "09-22-2025",
+              "type": "Debit",
+              "description": "Zelle payment to Chris Liberator Liberator Conf# vyrf72sxb",
+              "amount": 25.0
+            },
+            {
+              "date": "09-22-2025",
+              "type": "Debit",
+              "description": "Zelle payment to NAYRA Conf# t8pnc7m44",
+              "amount": 50.0
+            }
+          ],
+          "standard_deposit": [],
+          "standard_withdrawal": [
+            {
+              "date": "09-02-2025",
+              "type": "Debit",
+              "description": "CHECKCARD 0830 TOBACCO KING WOODBRIDGE VA 24000975243338700977816 CKCD 5993 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 3.17
+            },
+            {
+              "date": "09-02-2025",
+              "type": "Debit",
+              "description": "CHECKCARD 0830 CVS/PHARMACY # WOODBRIDGE VA CKCD 5912 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 25.23
+            },
+            {
+              "date": "09-02-2025",
+              "type": "Debit",
+              "description": "CHECKCARD 0831 OLD BRIDGE COASTAL WOODBRIDGE VA 24607945244463434030051 CKCD 5542 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 20.51
+            },
+            {
+              "date": "09-02-2025",
+              "type": "Debit",
+              "description": "CHECKCARD 0831 TOBACCO KING WOODBRIDGE VA 24000975243344201029891 CKCD 5993 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 3.17
+            },
+            {
+              "date": "09-02-2025",
+              "type": "Debit",
+              "description": "WAL-MART #1852 08/31 #000832400 PURCHASE 14000 WORTH AVE WOODBRIDGE VA",
+              "amount": 76.34
+            },
+            {
+              "date": "09-02-2025",
+              "type": "Debit",
+              "description": "CHECKCARD 0831 DOLLAR TREE WOODBRIDGE VA CKCD 5331 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 11.69
+            },
+            {
+              "date": "09-02-2025",
+              "type": "Debit",
+              "description": "CHECKCARD 0831 DOMINO'S 4368 WOODBRIDGE VA 24445005244000928975869 CKCD 5814 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 10.99
+            },
+            {
+              "date": "09-02-2025",
+              "type": "Debit",
+              "description": "CHECKCARD 0901 DC *GOV'T PAYMENT 202-442-5955 DC 24692165244105545769280 CKCD 9399 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 35.0
+            },
+            {
+              "date": "09-02-2025",
+              "type": "Debit",
+              "description": "CHECKCARD 0901 USCIS ELIS 1765 800-375-5283 DC 24240985245600221965415 CKCD 9399 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 745.0
+            },
+            {
+              "date": "09-02-2025",
+              "type": "Debit",
+              "description": "CHECKCARD 0901 OLD BRIDGE COASTAL WOODBRIDGE VA 24607945245464549856710 CKCD 5542 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 25.09
+            },
+            {
+              "date": "09-02-2025",
+              "type": "Debit",
+              "description": "CHECKCARD 0902 SUNOCO 0650475 WOODBRIDGE VA CKCD 5542 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 25.04
+            },
+            {
+              "date": "09-03-2025",
+              "type": "Debit",
+              "description": "CHECKCARD 0902 VA DMV WOODBRIDGE CSC WOODBRIDGE VA 24755425246732467109730 CKCD 9399 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 166.25
+            },
+            {
+              "date": "09-03-2025",
+              "type": "Debit",
+              "description": "CHECKCARD 0902 TOBACCO KING WOODBRIDGE VA 24000975245355901550067 CKCD 5993 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 3.17
+            },
+            {
+              "date": "09-03-2025",
+              "type": "Debit",
+              "description": "CHECKCARD 0903 SUNOCO 0650475 WOODBRIDGE VA CKCD 5542 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 25.09
+            },
+            {
+              "date": "09-03-2025",
+              "type": "Debit",
+              "description": "CHECKCARD 0903 CVS/PHARMACY # WOODBRIDGE VA CKCD 5912XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 14.13
+            },
+            {
+              "date": "09-04-2025",
+              "type": "Debit",
+              "description": "CHECKCARD 0902 SHELL OIL 57525763108 BALTIMORE MD 24316055246465958683619 CKCD 5542 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 14.9
+            },
+            {
+              "date": "09-04-2025",
+              "type": "Debit",
+              "description": "CHECKCARD 0902 SAFEWAY 1331 WOODBRIDGE VA 24231685246466071403584 CKCD 5411 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 23.0
+            },
+            {
+              "date": "09-04-2025",
+              "type": "Debit",
+              "description": "CHECKCARD 0903 TOBACCO KING WOODBRIDGE VA 24000975246361501046273 CKCD 5993 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 3.17
+            },
+            {
+              "date": "09-05-2025",
+              "type": "Debit",
+              "description": "CHECKCARD 0904 OLD BRIDGE COASTAL WOODBRIDGE VA 24607945248468067412399 CKCD 5542 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 24.07
+            },
+            {
+              "date": "09-05-2025",
+              "type": "Debit",
+              "description": "CHECKCARD 0904 DOLLAR TREE WOODBRIDGE WV 24445005248000999028198 CKCD 5331 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 8.96
+            },
+            {
+              "date": "09-05-2025",
+              "type": "Debit",
+              "description": "WM SUPERCENTER 09/05 #000456432 PURCHASE 14000 WORTH AVE WOODBRIDGE VA",
+              "amount": 71.75
+            },
+            {
+              "date": "09-08-2025",
+              "type": "Debit",
+              "description": "CHECKCARD 0905 OLD BRIDGE COASTAL WOODBRIDGE VA 24607945249469268104297 CKCD 5542 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 24.04
+            },
+            {
+              "date": "09-08-2025",
+              "type": "Debit",
+              "description": "CHECKCARD 0906 OLD BRIDGE COASTAL WOODBRIDGE VA 24607945250470418386186 CKCD 5542 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 25.0
+            },
+            {
+              "date": "09-08-2025",
+              "type": "Debit",
+              "description": "CHECKCARD 0906 DOLLAR TREE WOODBRIDGE WV 24445005250000972264765 CKCD 5331 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 6.31
+            },
+            {
+              "date": "09-08-2025",
+              "type": "Debit",
+              "description": "CHECKCARD 0906 TOBACCO KING WOODBRIDGE VA 24000975250378401409115 CKCD 5993 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 6.34
+            },
+            {
+              "date": "09-08-2025",
+              "type": "Debit",
+              "description": "CHECKCARD 0907 DOLLAR TREE WOODBRIDGE WV 24445005251000888066584 CKCD 5331 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 20.09
+            },
+            {
+              "date": "09-08-2025",
+              "type": "Debit",
+              "description": "CHECKCARD 0907 DOMINO'S 4368 WOODBRIDGE VA 24445005251000888066667 CKCD 5814 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 10.99
+            },
+            {
+              "date": "09-08-2025",
+              "type": "Debit",
+              "description": "CHECKCARD 0908 STRINGER'S INC WOODBRIDGE VA CKCD 5542 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 18.29
+            },
+            {
+              "date": "09-09-2025",
+              "type": "Debit",
+              "description": "CHECKCARD 0908 RESTAURANT DEPOT ALEXANDRIA VA 24435655252115833114090 CKCD 5411 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 40.45
+            },
+            {
+              "date": "09-10-2025",
+              "type": "Debit",
+              "description": "POSSIBLE FINANCE DES:PAYMENT ID:4e66e669f31a4a8 INDN:Claver Gonzalez CO ID:1823273909 WEB",
+              "amount": 45.0
+            },
+            {
+              "date": "09-10-2025",
+              "type": "Debit",
+              "description": "CHECKCARD 0908 SAFEWAY 1331 WOODBRIDGE VA 24231685252473032028527 CKCD 5411 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 76.83
+            },
+            {
+              "date": "09-10-2025",
+              "type": "Debit",
+              "description": "WAL WAL-MART # 09/10 #000012070 PURCHASE 14000 WORTH AVE WOODBRIDGE VA",
+              "amount": 66.73
+            },
+            {
+              "date": "09-11-2025",
+              "type": "Debit",
+              "description": "CHECKCARD 0910 CTLP*BLUE RHINO PROPA 8443808846 MO 24116415254474784231467 CKCD 5983 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 21.12
+            },
+            {
+              "date": "09-15-2025",
+              "type": "Debit",
+              "description": "CHECKCARD 0914 OLD BRIDGE COASTAL WOODBRIDGE VA 24607945258479765855034 CKCD 5542 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 5.35
+            },
+            {
+              "date": "09-15-2025",
+              "type": "Debit",
+              "description": "CHECKCARD 0914 CTLP*BLUE RHINO PROPA 8443808846 MO 24116415258479536803279 CKCD 5983 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 21.12
+            },
+            {
+              "date": "09-15-2025",
+              "type": "Debit",
+              "description": "CHECKCARD 0914 RESTAURANT DEPOT ALEXANDRIA VA 24435655258117632077225 CKCD 5411 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 5.11
+            },
+            {
+              "date": "09-15-2025",
+              "type": "Debit",
+              "description": "CHECKCARD 0914 DOMINO'S 4368 WOODBRIDGE VA 24445005258000892221608 CKCD 5814 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 10.99
+            },
+            {
+              "date": "09-15-2025",
+              "type": "Debit",
+              "description": "CHECKCARD 0914 OLD BRIDGE COASTAL WOODBRIDGE VA 24607945258479765855042 CKCD 5542 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 17.03
+            },
+            {
+              "date": "09-16-2025",
+              "type": "Debit",
+              "description": "CHECKCARD 0915 TOBACCO KING WOODBRIDGE VA 24000975258429804337403 CKCD 5993 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 7.4
+            },
+            {
+              "date": "09-16-2025",
+              "type": "Debit",
+              "description": "CHECKCARD 0915 DOLLAR TREE WOODBRIDGE WV 24445005259000950230995 CKCD 5331 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 21.23
+            },
+            {
+              "date": "09-16-2025",
+              "type": "Debit",
+              "description": "CHECKCARD 0915 CTLP*BLUE RHINO PROPΑ 8443808846 MO 24116415259480681025964 CKCD 5983 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 21.12
+            },
+            {
+              "date": "09-17-2025",
+              "type": "Debit",
+              "description": "CHECKCARD 0915 SAFEWAY 1331 WOODBRIDGE VA 24231685259481268191508 CKCD 5411 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 24.1
+            },
+            {
+              "date": "09-22-2025",
+              "type": "Debit",
+              "description": "CHECKCARD 0920 TOBACCO KING WOODBRIDGE VA 24000975264458000745582 CKCD 5993 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384",
+              "amount": 3.17
+            },
+            {
+              "date": "09-24-2025",
+              "type": "Debit",
+              "description": "POSSIBLE FINANCE DES:PAYMENT ID:c45f3e3bb6664f4 INDN:Claver Gonzalez CO ID:1823273909 WEB",
+              "amount": 45.0
+            }
+          ]
+        }
+      ]
+    },
+    "raw_output": "```json\n{\n  \"accounts\": [\n    {\n      \"account_number\": \"4350 6155 0627\",\n      \"account_type\": \"Business Advantage Fundamentals\\u2122 Banking\",\n      \"mca_deposit\": [],\n      \"mca_withdrawal\": [\n        {\n          \"mca_name\": \"MCA Servicing\",\n          \"date\": \"09-02-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"MCA SERVICING DES:8003243863 ID:PAY082925176829 INDN: CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD\",\n          \"amount\": 87.0\n        },\n        {\n          \"mca_name\": \"MCA Servicing\",\n          \"date\": \"09-03-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"MCA SERVICING DES:8003243863 ID:PAY090225177493 INDN: CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD\",\n          \"amount\": 87.0\n        },\n        {\n          \"mca_name\": \"MCA Servicing\",\n          \"date\": \"09-04-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"MCA SERVICING DES:8003243863 ID:PAY090325177534 INDN:CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD\",\n          \"amount\": 87.0\n        },\n        {\n          \"mca_name\": \"MCA Servicing\",\n          \"date\": \"09-05-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"MCA SERVICING DES:8003243863 ID:PAY090425177581 INDN: CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD\",\n          \"amount\": 87.0\n        },\n        {\n          \"mca_name\": \"MCA Servicing\",\n          \"date\": \"09-08-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"MCA SERVICING DES:8003243863 ID:PAY090525177625 INDN: CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD\",\n          \"amount\": 87.0\n        },\n        {\n          \"mca_name\": \"MCA Servicing\",\n          \"date\": \"09-09-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"MCA SERVICING DES:8003243863 ID:PAY090825177681 INDN: CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD\",\n          \"amount\": 87.0\n        },\n        {\n          \"mca_name\": \"MCA Servicing\",\n          \"date\": \"09-09-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"MCA Servicing DES:8003243863 ID:XXXXXXXXX INDN:CLAVER GONZALEZ SEVILL CO ID:9843488861 CCD\",\n          \"amount\": 49.0\n        },\n        {\n          \"mca_name\": \"MCA Servicing\",\n          \"date\": \"09-10-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"MCA SERVICING DES:8003243863 ID:PAY090925177727 INDN: CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD\",\n          \"amount\": 87.0\n        },\n        {\n          \"mca_name\": \"MCA Servicing\",\n          \"date\": \"09-11-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"MCA SERVICING DES:8003243863 ID:PAY091025177778 INDN: CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD\",\n          \"amount\": 87.0\n        },\n        {\n          \"mca_name\": \"MCA Servicing\",\n          \"date\": \"09-12-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"MCA SERVICING DES:8003243863 ID:PAY091125177829 INDN: CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD\",\n          \"amount\": 87.0\n        },\n        {\n          \"mca_name\": \"MCA Servicing\",\n          \"date\": \"09-15-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"MCA SERVICING DES:8003243863 ID:PAY091225177875 INDN:CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD\",\n          \"amount\": 87.0\n        },\n        {\n          \"mca_name\": \"MCA Servicing\",\n          \"date\": \"09-16-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"MCA SERVICING DES:8003243863 ID:PAY091525177932 INDN:CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD\",\n          \"amount\": 87.0\n        },\n        {\n          \"mca_name\": \"MCA Servicing\",\n          \"date\": \"09-17-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"MCA SERVICING DES:8003243863 ID:PAY091625177979 INDN: CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD\",\n          \"amount\": 87.0\n        },\n        {\n          \"mca_name\": \"MCA Servicing\",\n          \"date\": \"09-18-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"MCA SERVICING DES:8003243863 ID:PAY091725178028 INDN:CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD\",\n          \"amount\": 87.0\n        },\n        {\n          \"mca_name\": \"MCA Servicing\",\n          \"date\": \"09-19-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"MCA SERVICING DES:8003243863 ID:PAY091825178079 INDN:CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD\",\n          \"amount\": 87.0\n        },\n        {\n          \"mca_name\": \"MCA Servicing\",\n          \"date\": \"09-22-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"MCA SERVICING DES:8003243863 ID:PAY091925178125 INDN:CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD\",\n          \"amount\": 87.0\n        },\n        {\n          \"mca_name\": \"MCA Servicing\",\n          \"date\": \"09-23-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"MCA SERVICING DES:8003243863 ID:PAY092225178186 INDN: CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD\",\n          \"amount\": 87.0\n        },\n        {\n          \"mca_name\": \"MCA Servicing\",\n          \"date\": \"09-24-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"MCA SERVICING DES:8003243863 ID:PAY092325178238 INDN: CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD\",\n          \"amount\": 87.0\n        },\n        {\n          \"mca_name\": \"MCA Servicing\",\n          \"date\": \"09-25-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"MCA SERVICING DES:8003243863 ID:PAY092425178288 INDN: CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD\",\n          \"amount\": 87.0\n        },\n        {\n          \"mca_name\": \"MCA Servicing\",\n          \"date\": \"09-26-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"MCA SERVICING DES:8003243863 ID:PAY092525178341 INDN:CLAVER GONZALEZ SEVILL CO ID:8800012757 CCD\",\n          \"amount\": 87.0\n        }\n      ],\n      \"returned_items\": [\n        {\n          \"date\": \"09-25-2025\",\n          \"type\": \"Credit\",\n          \"description\": \"RETURN OF POSTED CHECK / ITEM (RECEIVED ON 09-24)\",\n          \"amount\": 87.0,\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"09-25-2025\",\n          \"type\": \"Credit\",\n          \"description\": \"RETURN OF POSTED CHECK / ITEM (RECEIVED ON 09-24)\",\n          \"amount\": 45.0,\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"09-26-2025\",\n          \"type\": \"Credit\",\n          \"description\": \"RETURN OF POSTED CHECK / ITEM (RECEIVED ON 09-25)\",\n          \"amount\": 87.0,\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"09-29-2025\",\n          \"type\": \"Credit\",\n          \"description\": \"RETURN OF POSTED CHECK / ITEM (RECEIVED ON 09-26)\",\n          \"amount\": 87.0,\n          \"non_true_revenue\": 1\n        }\n      ],\n      \"overdrafts\": [\n        {\n          \"date\": \"09-16-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"OVERDRAFT ITEM FEE FOR ACTIVITY OF 09-16\",\n          \"amount\": 10.0\n        },\n        {\n          \"date\": \"09-19-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"OVERDRAFT ITEM FEE FOR ACTIVITY OF 09-19\",\n          \"amount\": 10.0\n        },\n        {\n          \"date\": \"09-22-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"OVERDRAFT ITEM FEE FOR ACTIVITY OF 09-22\",\n          \"amount\": 10.0\n        },\n        {\n          \"date\": \"09-23-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"OVERDRAFT ITEM FEE FOR ACTIVITY OF 09-23\",\n          \"amount\": 10.0\n        }\n      ],\n      \"service_charges\": [],\n      \"atm_cash_withdrawal\": [],\n      \"internal_transfer_deposit\": [\n        {\n          \"date\": \"09-02-2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Online Banking transfer from CHK 8246 Confirmation# 7360092822\",\n          \"amount\": 208.15,\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"09-02-2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Online Banking transfer from CHK 8246 Confirmation# 7366748679\",\n          \"amount\": 98.75,\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"09-04-2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Online Banking transfer from CHK 8246 Confirmation# 8602791350\",\n          \"amount\": 671.84,\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"09-05-2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Online Banking transfer from CHK 8246 Confirmation# 7607466111\",\n          \"amount\": 275.0,\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"09-05-2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Online Banking transfer from CHK 8246 Confirmation# 7411595382\",\n          \"amount\": 56.24,\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Online Banking transfer from CHK 8246 Confirmation# 7120191086\",\n          \"amount\": 134.91,\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Online Banking transfer from CHK 8246 Confirmation# 7337492594\",\n          \"amount\": 4.0,\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"09-10-2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Online Banking transfer from CHK 8246 Confirmation# 7855245673\",\n          \"amount\": 30.78,\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"09-15-2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Online Banking transfer from CHK 8246 Confirmation# 7388490039\",\n          \"amount\": 17.42,\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"09-15-2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Online Banking transfer from CHK 8246 Confirmation# 8080982040\",\n          \"amount\": 12.03,\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"09-17-2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Online Banking transfer from CHK 8246 Confirmation# 7715874831\",\n          \"amount\": 14.26,\n          \"non_true_revenue\": 1\n        }\n      ],\n      \"other_transfer_deposit\": [\n        {\n          \"date\": \"09-08-2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Transfer SQUARE\",\n          \"amount\": 176.27,\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-09-2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Transfer SQUARE\",\n          \"amount\": 114.48,\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-10-2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Transfer SQUARE\",\n          \"amount\": 140.51,\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-11-2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Transfer SQUARE\",\n          \"amount\": 121.78,\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-12-2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Transfer SQUARE\",\n          \"amount\": 120.98,\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-15-2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Transfer SQUARE\",\n          \"amount\": 178.83,\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-15-2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Transfer SQUARE\",\n          \"amount\": 81.84,\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-16-2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Transfer SQUARE\",\n          \"amount\": 84.77,\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-17-2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Transfer SQUARE\",\n          \"amount\": 98.86,\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-18-2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Transfer SQUARE\",\n          \"amount\": 106.57,\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-19-2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Transfer SQUARE\",\n          \"amount\": 67.47,\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-22-2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Transfer SQUARE\",\n          \"amount\": 87.57,\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-22-2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Transfer SQUARE\",\n          \"amount\": 82.32,\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-23-2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Transfer SQUARE\",\n          \"amount\": 76.38,\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        }\n      ],\n      \"internal_transfer_withdrawal\": [\n        {\n          \"date\": \"09-02-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Online Banking transfer to CHK 8246 Confirmation# 8681056518\",\n          \"amount\": 27.97\n        },\n        {\n          \"date\": \"09-04-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Online Banking transfer to CHK 8246 Confirmation# 8198683732\",\n          \"amount\": 54.0\n        },\n        {\n          \"date\": \"09-04-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Online Banking transfer to CHK 8246 Confirmation# 8198709097\",\n          \"amount\": 10.0\n        },\n        {\n          \"date\": \"09-04-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Online Banking transfer to CHK 8246 Confirmation# 7598754097\",\n          \"amount\": 2.0\n        },\n        {\n          \"date\": \"09-04-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Online Banking transfer to CHK 8246 Confirmation# 7299115929\",\n          \"amount\": 50.0\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Online Banking transfer to CHK 8246 Confirmation# 8333976191\",\n          \"amount\": 250.0\n        },\n        {\n          \"date\": \"09-12-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Online Banking transfer to CHK 8246 Confirmation# 8571873400\",\n          \"amount\": 112.61\n        },\n        {\n          \"date\": \"09-15-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Online Banking transfer to CHK 8246 Confirmation# 7988229995\",\n          \"amount\": 17.42\n        },\n        {\n          \"date\": \"09-16-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Online Banking transfer to CHK 8246 Confirmation# 8506812231\",\n          \"amount\": 16.14\n        },\n        {\n          \"date\": \"09-18-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Online Banking transfer to CHK 8246 Confirmation# 7324623660\",\n          \"amount\": 19.5\n        },\n        {\n          \"date\": \"09-22-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Online Banking transfer to CHK 8246 Confirmation# 8048442726\",\n          \"amount\": 3.6\n        },\n        {\n          \"date\": \"09-22-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Online Banking transfer to CHK 8246 Confirmation# 7248542282\",\n          \"amount\": 58.16\n        }\n      ],\n      \"other_transfer_withdrawal\": [\n        {\n          \"date\": \"09-02-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Zelle payment to Chris Liberator Liberator Conf# zzwfoxwp7\",\n          \"amount\": 75.0\n        },\n        {\n          \"date\": \"09-04-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Zelle payment to NAYRA Conf# wrqe95d84\",\n          \"amount\": 50.0\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Zelle payment to SALEM Conf# trdtvo7zl\",\n          \"amount\": 560.0\n        },\n        {\n          \"date\": \"09-15-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Zelle payment to NAYRA Conf# x7q0llhdj\",\n          \"amount\": 50.0\n        },\n        {\n          \"date\": \"09-22-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Zelle payment to Chris Liberator Liberator Conf# vyrf72sxb\",\n          \"amount\": 25.0\n        },\n        {\n          \"date\": \"09-22-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Zelle payment to NAYRA Conf# t8pnc7m44\",\n          \"amount\": 50.0\n        }\n      ],\n      \"standard_deposit\": [],\n      \"standard_withdrawal\": [\n        {\n          \"date\": \"09-02-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"CHECKCARD 0830 TOBACCO KING WOODBRIDGE VA 24000975243338700977816 CKCD 5993 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 3.17\n        },\n        {\n          \"date\": \"09-02-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"CHECKCARD 0830 CVS/PHARMACY # WOODBRIDGE VA CKCD 5912 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 25.23\n        },\n        {\n          \"date\": \"09-02-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"CHECKCARD 0831 OLD BRIDGE COASTAL WOODBRIDGE VA 24607945244463434030051 CKCD 5542 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 20.51\n        },\n        {\n          \"date\": \"09-02-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"CHECKCARD 0831 TOBACCO KING WOODBRIDGE VA 24000975243344201029891 CKCD 5993 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 3.17\n        },\n        {\n          \"date\": \"09-02-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"WAL-MART #1852 08/31 #000832400 PURCHASE 14000 WORTH AVE WOODBRIDGE VA\",\n          \"amount\": 76.34\n        },\n        {\n          \"date\": \"09-02-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"CHECKCARD 0831 DOLLAR TREE WOODBRIDGE VA CKCD 5331 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 11.69\n        },\n        {\n          \"date\": \"09-02-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"CHECKCARD 0831 DOMINO'S 4368 WOODBRIDGE VA 24445005244000928975869 CKCD 5814 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 10.99\n        },\n        {\n          \"date\": \"09-02-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"CHECKCARD 0901 DC *GOV'T PAYMENT 202-442-5955 DC 24692165244105545769280 CKCD 9399 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 35.0\n        },\n        {\n          \"date\": \"09-02-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"CHECKCARD 0901 USCIS ELIS 1765 800-375-5283 DC 24240985245600221965415 CKCD 9399 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 745.0\n        },\n        {\n          \"date\": \"09-02-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"CHECKCARD 0901 OLD BRIDGE COASTAL WOODBRIDGE VA 24607945245464549856710 CKCD 5542 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 25.09\n        },\n        {\n          \"date\": \"09-02-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"CHECKCARD 0902 SUNOCO 0650475 WOODBRIDGE VA CKCD 5542 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 25.04\n        },\n        {\n          \"date\": \"09-03-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"CHECKCARD 0902 VA DMV WOODBRIDGE CSC WOODBRIDGE VA 24755425246732467109730 CKCD 9399 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 166.25\n        },\n        {\n          \"date\": \"09-03-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"CHECKCARD 0902 TOBACCO KING WOODBRIDGE VA 24000975245355901550067 CKCD 5993 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 3.17\n        },\n        {\n          \"date\": \"09-03-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"CHECKCARD 0903 SUNOCO 0650475 WOODBRIDGE VA CKCD 5542 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 25.09\n        },\n        {\n          \"date\": \"09-03-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"CHECKCARD 0903 CVS/PHARMACY # WOODBRIDGE VA CKCD 5912XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 14.13\n        },\n        {\n          \"date\": \"09-04-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"CHECKCARD 0902 SHELL OIL 57525763108 BALTIMORE MD 24316055246465958683619 CKCD 5542 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 14.9\n        },\n        {\n          \"date\": \"09-04-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"CHECKCARD 0902 SAFEWAY 1331 WOODBRIDGE VA 24231685246466071403584 CKCD 5411 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 23.0\n        },\n        {\n          \"date\": \"09-04-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"CHECKCARD 0903 TOBACCO KING WOODBRIDGE VA 24000975246361501046273 CKCD 5993 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 3.17\n        },\n        {\n          \"date\": \"09-05-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"CHECKCARD 0904 OLD BRIDGE COASTAL WOODBRIDGE VA 24607945248468067412399 CKCD 5542 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 24.07\n        },\n        {\n          \"date\": \"09-05-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"CHECKCARD 0904 DOLLAR TREE WOODBRIDGE WV 24445005248000999028198 CKCD 5331 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 8.96\n        },\n        {\n          \"date\": \"09-05-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"WM SUPERCENTER 09/05 #000456432 PURCHASE 14000 WORTH AVE WOODBRIDGE VA\",\n          \"amount\": 71.75\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"CHECKCARD 0905 OLD BRIDGE COASTAL WOODBRIDGE VA 24607945249469268104297 CKCD 5542 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 24.04\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"CHECKCARD 0906 OLD BRIDGE COASTAL WOODBRIDGE VA 24607945250470418386186 CKCD 5542 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 25.0\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"CHECKCARD 0906 DOLLAR TREE WOODBRIDGE WV 24445005250000972264765 CKCD 5331 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 6.31\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"CHECKCARD 0906 TOBACCO KING WOODBRIDGE VA 24000975250378401409115 CKCD 5993 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 6.34\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"CHECKCARD 0907 DOLLAR TREE WOODBRIDGE WV 24445005251000888066584 CKCD 5331 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 20.09\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"CHECKCARD 0907 DOMINO'S 4368 WOODBRIDGE VA 24445005251000888066667 CKCD 5814 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 10.99\n        },\n        {\n          \"date\": \"09-08-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"CHECKCARD 0908 STRINGER'S INC WOODBRIDGE VA CKCD 5542 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 18.29\n        },\n        {\n          \"date\": \"09-09-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"CHECKCARD 0908 RESTAURANT DEPOT ALEXANDRIA VA 24435655252115833114090 CKCD 5411 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 40.45\n        },\n        {\n          \"date\": \"09-10-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"POSSIBLE FINANCE DES:PAYMENT ID:4e66e669f31a4a8 INDN:Claver Gonzalez CO ID:1823273909 WEB\",\n          \"amount\": 45.0\n        },\n        {\n          \"date\": \"09-10-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"CHECKCARD 0908 SAFEWAY 1331 WOODBRIDGE VA 24231685252473032028527 CKCD 5411 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 76.83\n        },\n        {\n          \"date\": \"09-10-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"WAL WAL-MART # 09/10 #000012070 PURCHASE 14000 WORTH AVE WOODBRIDGE VA\",\n          \"amount\": 66.73\n        },\n        {\n          \"date\": \"09-11-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"CHECKCARD 0910 CTLP*BLUE RHINO PROPA 8443808846 MO 24116415254474784231467 CKCD 5983 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 21.12\n        },\n        {\n          \"date\": \"09-15-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"CHECKCARD 0914 OLD BRIDGE COASTAL WOODBRIDGE VA 24607945258479765855034 CKCD 5542 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 5.35\n        },\n        {\n          \"date\": \"09-15-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"CHECKCARD 0914 CTLP*BLUE RHINO PROPA 8443808846 MO 24116415258479536803279 CKCD 5983 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 21.12\n        },\n        {\n          \"date\": \"09-15-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"CHECKCARD 0914 RESTAURANT DEPOT ALEXANDRIA VA 24435655258117632077225 CKCD 5411 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 5.11\n        },\n        {\n          \"date\": \"09-15-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"CHECKCARD 0914 DOMINO'S 4368 WOODBRIDGE VA 24445005258000892221608 CKCD 5814 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 10.99\n        },\n        {\n          \"date\": \"09-15-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"CHECKCARD 0914 OLD BRIDGE COASTAL WOODBRIDGE VA 24607945258479765855042 CKCD 5542 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 17.03\n        },\n        {\n          \"date\": \"09-16-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"CHECKCARD 0915 TOBACCO KING WOODBRIDGE VA 24000975258429804337403 CKCD 5993 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 7.4\n        },\n        {\n          \"date\": \"09-16-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"CHECKCARD 0915 DOLLAR TREE WOODBRIDGE WV 24445005259000950230995 CKCD 5331 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 21.23\n        },\n        {\n          \"date\": \"09-16-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"CHECKCARD 0915 CTLP*BLUE RHINO PROP\\u0391 8443808846 MO 24116415259480681025964 CKCD 5983 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 21.12\n        },\n        {\n          \"date\": \"09-17-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"CHECKCARD 0915 SAFEWAY 1331 WOODBRIDGE VA 24231685259481268191508 CKCD 5411 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 24.1\n        },\n        {\n          \"date\": \"09-22-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"CHECKCARD 0920 TOBACCO KING WOODBRIDGE VA 24000975264458000745582 CKCD 5993 XXXXXXXXXXXX2384 XXXX XXXX XXXX 2384\",\n          \"amount\": 3.17\n        },\n        {\n          \"date\": \"09-24-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"POSSIBLE FINANCE DES:PAYMENT ID:c45f3e3bb6664f4 INDN:Claver Gonzalez CO ID:1823273909 WEB\",\n          \"amount\": 45.0\n        }\n      ]\n    }\n  ]\n}\n```",
+    "token_count": {
+      "estimated_tokens": 2362
+    },
+    "failure_reason": null
+  }
+}

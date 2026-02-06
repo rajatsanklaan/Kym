@@ -1,0 +1,1873 @@
+{
+  "document_name": "Case42.pdf",
+  "pipeline_status": "completed",
+  "processing_metadata": {
+    "start_time": "2026-02-04T15:00:51.477375",
+    "end_time": "2026-02-04T15:04:24.077155",
+    "parsing_time_seconds": 118.304251,
+    "bsi_time_seconds": 94.002618,
+    "total_time_seconds": 212.306869
+  },
+  "parsing_agent_result": {
+    "agent_name": "parsing_agent",
+    "processing_status": "success",
+    "start_time": "2026-02-04T15:00:51.762520",
+    "end_time": "2026-02-04T15:02:50.066453",
+    "parsed_json": {
+      "bank_statement_information": {
+        "bank_name": "BMO",
+        "account_holder": "HAR SERVICES LLC",
+        "statement_start_date": "11/01/2025",
+        "statement_end_date": "11/30/2025",
+        "n_days": 30,
+        "n_month": [
+          11
+        ],
+        "business_address": "4503 MANNING ROAD INDIANAPOLIS IN 46228"
+      },
+      "accounts": [
+        {
+          "account_number": "4803905185",
+          "account_type": "BMO PREMIUM BUSINESS CKG",
+          "account_summary": {
+            "beginning_balance": 116.92,
+            "ending_balance": 747.47,
+            "total_deposits": 8817.67,
+            "total_withdrawals": 8187.12,
+            "total_deposits_count": 14,
+            "total_withdrawals_count": 120,
+            "avg_daily_balance": null,
+            "overdraft_days": 0
+          },
+          "transactions": [
+            {
+              "date": "11/03/2025",
+              "description": "TRANSFER IN RECORD NO. POE00E ZELLE FROM PAUL O MCKANNEY",
+              "amount": 700.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "11/03/2025",
+              "description": "ONLINE DEPOSIT MOBILE DEPOSIT - CREDIT",
+              "amount": 1350.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "NON-BMO ATM WITHDRAWAL RECORD NO. 010480 CARD NO. 1272 CHASE INDIANAPOLIS IN",
+              "amount": 264.0,
+              "type": "Debit",
+              "category": "ATM/Cash Withdrawal"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "POS PURCHASE RECORD NO. 208426 CARD NO. 1272 LYFT RIDE FRI 7AM SAN FRANCISC CA",
+              "amount": 14.86,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "POS PURCHASE RECORD NO. 254717 CARD NO. 1272 LYFT RIDE FRI 4PM SAN FRANCISC CA",
+              "amount": 15.84,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 537512 CARD NO. 1272 CASH APP KENNETH THOMP OAKLAND CA",
+              "amount": 100.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 307474 CARD NO. 1272 GOOGLE GOOGLE ONE MOUNTAIN VIEW CA",
+              "amount": 1.99,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "POS PURCHASE RECORD NO. 898405 CARD NO. 1272 HARRISON VILLAGE COM INDIANAPOLIS IN",
+              "amount": 214.83,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "POS PURCHASE RECORD NO. 356743 CARD NO. 1272 LYFT CANCEL FEE SAN FRANCISC CA",
+              "amount": 5.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "ACH DEBIT CCD SUPERIOR CAPITAL 1111113081",
+              "amount": 98.67,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "ACH DEBIT CCD THE HARTFORD INSPMTCL",
+              "amount": 365.28,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "NON-BMO ATM FEE",
+              "amount": 3.0,
+              "type": "Debit",
+              "category": "Service Charges/Fees"
+            },
+            {
+              "date": "11/04/2025",
+              "description": "ONLINE DEPOSIT MOBILE DEPOSIT - CREDIT",
+              "amount": 2470.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/04/2025",
+              "description": "PC TRANSFER DEBIT",
+              "amount": 20.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/04/2025",
+              "description": "POS PURCHASE RECORD NO. 674000 CARD NO. 1272 LYFT RIDE SUN 7PM SAN FRANCISC CA",
+              "amount": 16.99,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/04/2025",
+              "description": "ACH DEBIT CCD SUPERIOR CAPITAL 1111113081",
+              "amount": 98.67,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/05/2025",
+              "description": "POS PURCHASE RECORD NO. 911214 CARD NO. 1272 LYFT RIDE MON 4PM SAN FRANCISC CA",
+              "amount": 16.65,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/05/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 000000 CARD NO. 1272 AMAZON COM BT1MX4LS0 SEATTLE WA",
+              "amount": 13.57,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/05/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 000000 CARD NO. 1272 AMAZON COM NK7IN8M32 SEATTLE WA",
+              "amount": 9.48,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/05/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 000003 CARD NO. 1272 AMAZON COM NK4BF2Y41 SEATTLE WA",
+              "amount": 24.26,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/05/2025",
+              "description": "ACH DEBIT CCD SUPERIOR CAPITAL 1111113081",
+              "amount": 98.67,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/06/2025",
+              "description": "POS PURCHASE RECORD NO. 405943 CARD NO. 1272 AMAZON DIGIT BT46H5N31 SEATTLE WA",
+              "amount": 13.9,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/06/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 443567 CARD NO. 1272 CASH APP SAM CRAWFORD OAKLAND CA",
+              "amount": 75.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/06/2025",
+              "description": "ACH DEBIT CCD SUPERIOR CAPITAL 1111113081",
+              "amount": 98.67,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/07/2025",
+              "description": "ACH DEPOSIT PPD DFAS-CLEVELAND FED SALARY",
+              "amount": 971.09,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/07/2025",
+              "description": "POS PURCHASE RECORD NO. 928401 CARD NO. 1272 ATT BILL PAYMENT DALLAS TX",
+              "amount": 160.08,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/07/2025",
+              "description": "POS PURCHASE RECORD NO. 774773 CARD NO. 1272 LYFT RIDE THU 2PM SAN FRANCISC CA",
+              "amount": 22.7,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/07/2025",
+              "description": "POS PURCHASE RECORD NO. 913821 CARD NO. 1272 LYFT RIDE THU 4PM SAN FRANCISC CA",
+              "amount": 21.87,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/07/2025",
+              "description": "POS PURCHASE RECORD NO. 159289 CARD NO. 1272 LYFT RIDE THU 8PM SAN FRANCISC CA",
+              "amount": 6.99,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/07/2025",
+              "description": "ACH DEBIT CCD SUPERIOR CAPITAL 1111113081",
+              "amount": 98.67,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "NON-BMO ATM WITHDRAWAL RECORD NO. 014078 CARD NO. 1272 CHASE INDIANAPOLIS IN",
+              "amount": 264.0,
+              "type": "Debit",
+              "category": "ATM/Cash Withdrawal"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "NON-BMO ATM WITHDRAWAL RECORD NO. 016122 CARD NO. 1272 CHASE INDIANAPOLIS IN",
+              "amount": 104.0,
+              "type": "Debit",
+              "category": "ATM/Cash Withdrawal"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "POS PURCHASE RECORD NO. 004723 CARD NO. 1272 RCI DINING SERVICES IN HENDERSON NV",
+              "amount": 93.42,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "POS PURCHASE RECORD NO. 004715 CARD NO. 1272 RCI DINING SERVICES IN HENDERSON NV",
+              "amount": 45.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "POS PURCHASE RECORD NO. 434296 CARD NO. 1272 LYFT RIDE FRI 5AM SAN FRANCISC CA",
+              "amount": 13.16,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "POS PURCHASE RECORD NO. 002432 CARD NO. 1272 LYFT RIDE FRI 2PM SAN FRANCISC CA",
+              "amount": 12.99,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 277114 CARD NO. 1272 CASH APP ANTONIO A STO OAKLAND CA",
+              "amount": 250.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "POS PURCHASE RECORD NO. 000274 CARD NO. 1272 RCI DINING SERVICES IN HENDERSON NV",
+              "amount": 140.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "POS PURCHASE RECORD NO. 052066 CARD NO. 1272 FISHER N GO FISH AND INDIANAPOLIS IN",
+              "amount": 26.13,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "POS PURCHASE RECORD NO. 052074 CARD NO. 1272 FISHER N GO FISH AND INDIANAPOLIS IN",
+              "amount": 8.71,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "ACH DEBIT CCD SUPERIOR CAPITAL 1111113081",
+              "amount": 98.67,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Check 1196",
+              "amount": 500.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "NON-BMO ATM FEE",
+              "amount": 3.0,
+              "type": "Debit",
+              "category": "Service Charges/Fees"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "NON-BMO ATM FEE",
+              "amount": 3.0,
+              "type": "Debit",
+              "category": "Service Charges/Fees"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "POS PURCHASE RECORD NO. 197921 CARD NO. 1272 LYFT RIDE MON 7AM SAN FRANCISC CA",
+              "amount": 27.54,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 493299 CARD NO. 1272 CASH APP ARSHONDA EWEL OAKLAND CA",
+              "amount": 50.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "POS PURCHASE RECORD NO. 820237 CARD NO. 1272 LYFT MEMB NOV SAN FRANCISC CA",
+              "amount": 9.99,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "ACH DEBIT CCD SUPERIOR CAPITAL 1111113081",
+              "amount": 98.67,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "ACH DEBIT WEB Deere Credit Ser PAYMENTS",
+              "amount": 346.78,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/13/2025",
+              "description": "ACH DEBIT CCD SUPERIOR CAPITAL 1111113081",
+              "amount": 98.67,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/14/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 040878 CARD NO. 1272 GOOGLE GOOGLE ONE MOUNTAIN VIEW CA",
+              "amount": 1.99,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/14/2025",
+              "description": "POS PURCHASE RECORD NO. 887071 CARD NO. 1272 ILML3 PONTIAC MI",
+              "amount": 26.99,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/14/2025",
+              "description": "POS PURCHASE RECORD NO. 232144 CARD NO. 1272 LYFT RIDE THU 4PM SAN FRANCISC CA",
+              "amount": 11.99,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/14/2025",
+              "description": "ACH DEBIT CCD SUPERIOR CAPITAL 1111113081",
+              "amount": 98.67,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "POS PURCHASE RECORD NO. 507404 CARD NO. 1272 LYFT RIDE FRI 6AM SAN FRANCISC CA",
+              "amount": 12.79,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "POS PURCHASE RECORD NO. 488686 CARD NO. 1272 LYFT RIDE FRI 4PM SAN FRANCISC CA",
+              "amount": 17.86,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 085792 CARD NO. 1272 CASH APP SAM CRAWFORD OAKLAND CA",
+              "amount": 50.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "POS PURCHASE RECORD NO. 164502 CARD NO. 1272 IIQ MYSCOREIQ COM HENDERSON NV",
+              "amount": 34.99,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 475902 CARD NO. 1272 SPEEDWAY 43762 INDIANAPOLIS IN",
+              "amount": 94.7,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 357596 CARD NO. 1272 SPEEDWAY 43762 INDIANAPOLIS IN",
+              "amount": 8.93,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 414800 CARD NO. 1272 MCDONALD S F11652 INDIANAPOLIS IN",
+              "amount": 18.5,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 244270 CARD NO. 1272 CASH APP SAM CRAWFORD OAKLAND CA",
+              "amount": 50.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "POS PURCHASE RECORD NO. 000175 CARD NO. 1272 RCI DINING SERVICES IN HENDERSON NV",
+              "amount": 82.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 482999 CARD NO. 1272 CASH APP LEXY DINERO OAKLAND CA",
+              "amount": 70.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 474599 CARD NO. 1272 CASH APP STEVEN MCKENZ OAKLAND CA",
+              "amount": 35.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "POS PURCHASE RECORD NO. 885781 CARD NO. 1272 HARDEES 1504226 INDIANAPOLIS IN",
+              "amount": 27.84,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 756107 CARD NO. 1272 SPEEDWAY 43763 LAWRENCE IN",
+              "amount": 29.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 999205 CARD NO. 1272 SPEEDWAY 43737 INDIANAPOLIS IN",
+              "amount": 10.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 141522 CARD NO. 1272 CASH APP ANTONIO A STO OAKLAND CA",
+              "amount": 150.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 170549 CARD NO. 1272 CASH APP SAM CRAWFORD OAKLAND CA",
+              "amount": 20.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "ACH DEBIT CCD SUPERIOR CAPITAL 1111113081",
+              "amount": 98.67,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "ACH DEBIT WEB USAA P&C PAYMENT",
+              "amount": 165.29,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/18/2025",
+              "description": "ONLINE DEPOSIT MOBILE DEPOSIT - CREDIT",
+              "amount": 40.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/18/2025",
+              "description": "ONLINE DEPOSIT MOBILE DEPOSIT - CREDIT",
+              "amount": 50.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/18/2025",
+              "description": "ONLINE DEPOSIT MOBILE DEPOSIT - CREDIT",
+              "amount": 116.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/18/2025",
+              "description": "ONLINE DEPOSIT MOBILE DEPOSIT - CREDIT",
+              "amount": 200.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/18/2025",
+              "description": "ONLINE DEPOSIT MOBILE DEPOSIT - CREDIT",
+              "amount": 250.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/18/2025",
+              "description": "FUNDSNOW CHK CR FUNDSNOW CHK CR",
+              "amount": 525.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "11/18/2025",
+              "description": "ONLINE DEPOSIT MOBILE DEPOSIT - CREDIT",
+              "amount": 1000.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/18/2025",
+              "description": "POS PURCHASE RECORD NO. 000166 CARD NO. 1272 RCI DINING SERVICES IN HENDERSON NV",
+              "amount": 117.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/18/2025",
+              "description": "POS PURCHASE RECORD NO. 000174 CARD NO. 1272 RCI DINING SERVICES IN HENDERSON NV",
+              "amount": 72.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/18/2025",
+              "description": "POS PURCHASE RECORD NO. 000182 CARD NO. 1272 RCI DINING SERVICES IN HENDERSON NV",
+              "amount": 48.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/18/2025",
+              "description": "POS PURCHASE RECORD NO. 000190 CARD NO. 1272 RCI DINING SERVICES IN HENDERSON NV",
+              "amount": 54.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/18/2025",
+              "description": "POS PURCHASE RECORD NO. 159539 CARD NO. 1272 LYFT RIDE MON 7AM SAN FRANCISC CA",
+              "amount": 12.99,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/18/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 400921 CARD NO. 1272 CASH APP SAM CRAWFORD OAKLAND CA",
+              "amount": 25.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/18/2025",
+              "description": "POS PURCHASE RECORD NO. 022358 CARD NO. 1272 LYFT RIDE TUE 6AM SAN FRANCISC CA",
+              "amount": 20.86,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/18/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 216578 CARD NO. 1272 CASH APP SAM CRAWFORD OAKLAND CA",
+              "amount": 75.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/18/2025",
+              "description": "ACH DEBIT WEB ATT PAYMENT",
+              "amount": 85.21,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/18/2025",
+              "description": "ACH DEBIT CCD SUPERIOR CAPITAL 1111113081",
+              "amount": 98.67,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/18/2025",
+              "description": "FUNDSNOW FEE DB FUNDSNOW FEE DB",
+              "amount": 10.5,
+              "type": "Debit",
+              "category": "Service Charges/Fees"
+            },
+            {
+              "date": "11/19/2025",
+              "description": "POS PURCHASE RECORD NO. 084199 CARD NO. 1272 PARAMOUNT WEST HOLLYWO CA",
+              "amount": 12.99,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/19/2025",
+              "description": "POS PURCHASE RECORD NO. 000959 CARD NO. 1272 RCI DINING SERVICES IN HENDERSON NV",
+              "amount": 90.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/19/2025",
+              "description": "POS PURCHASE RECORD NO. 408807 CARD NO. 1272 LYFT RIDE TUE 4PM SAN FRANCISC CA",
+              "amount": 11.75,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/19/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 028479 CARD NO. 1272 CASH APP STEVEN MCKENZ OAKLAND CA",
+              "amount": 45.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/19/2025",
+              "description": "POS PURCHASE RECORD NO. 330992 CARD NO. 1272 LYFT RIDE TUE 9PM SAN FRANCISC CA",
+              "amount": 10.38,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/19/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 109720 CARD NO. 1272 CASH APP LEXY DINERO OAKLAND CA",
+              "amount": 50.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/19/2025",
+              "description": "ACH DEBIT CCD SUPERIOR CAPITAL 1111113081",
+              "amount": 98.67,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/20/2025",
+              "description": "POS PURCHASE RECORD NO. 000123 CARD NO. 1272 RCI DINING SERVICES IN HENDERSON NV",
+              "amount": 50.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/20/2025",
+              "description": "POS PURCHASE RECORD NO. 214866 CARD NO. 1272 LYFT RIDE WED 6AM SAN FRANCISC CA",
+              "amount": 15.99,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/20/2025",
+              "description": "POS PURCHASE RECORD NO. 984129 CARD NO. 1272 LYFT RIDE WED 4PM SAN FRANCISC CA",
+              "amount": 16.84,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/20/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 584029 CARD NO. 1272 AES INDIANA EZ PAY INDIANAPOLIS IN",
+              "amount": 301.95,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/20/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 466444 CARD NO. 1272 O REILLY 1467 INDIANAPOLIS IN",
+              "amount": 94.81,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/20/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 806019 CARD NO. 1272 SPEEDWAY 43762 INDIANAPOLIS IN",
+              "amount": 50.62,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/20/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 000852 CARD NO. 1272 CRACKER BARREL 49 IND INDIANAPOLIS IN",
+              "amount": 63.8,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/20/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 056714 CARD NO. 1272 NNT BATTERIES PLUS 002 INDIANAPOLIS IN",
+              "amount": 21.39,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/20/2025",
+              "description": "ACH DEBIT CCD SUPERIOR CAPITAL 1111113081",
+              "amount": 98.67,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/21/2025",
+              "description": "TRANSFER IN RECORD NO. POIODP ZELLE FROM ROBERT PELS",
+              "amount": 60.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "11/21/2025",
+              "description": "ACH DEPOSIT PPD DFAS-CLEVELAND FED SALARY",
+              "amount": 1006.38,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/21/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 384560 CARD NO. 1272 CASH APP SAM CRAWFORD OAKLAND CA",
+              "amount": 20.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/21/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 386032 CARD NO. 1272 CASH APP DANIELLE JOHN OAKLAND CA",
+              "amount": 75.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/21/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 477718 CARD NO. 1272 CASH APP TAEYA SIMONE OAKLAND CA",
+              "amount": 50.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/21/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 396203 CARD NO. 1272 SPEEDWAY 43737 INDIANAPOLIS IN",
+              "amount": 11.59,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/21/2025",
+              "description": "ACH DEBIT CCD SUPERIOR CAPITAL 1111113081",
+              "amount": 98.67,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "POS PURCHASE RECORD NO. 583298 CARD NO. 1272 LYFT RIDE THU 4PM SAN FRANCISC CA",
+              "amount": 24.68,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 105624 CARD NO. 1272 GOOGLE DROPBOX SECURE MOUNTAIN VIEW CA",
+              "amount": 12.83,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "POS PURCHASE RECORD NO. 743150 CARD NO. 1272 LYFT RIDE FRI 7PM SAN FRANCISC CA",
+              "amount": 10.8,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "POS PURCHASE RECORD NO. 000120 CARD NO. 1272 RCI DINING SERVICES IN HENDERSON NV",
+              "amount": 72.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "POS PURCHASE RECORD NO. 000138 CARD NO. 1272 RCI DINING SERVICES IN HENDERSON NV",
+              "amount": 36.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 314585 CARD NO. 1272 CASH APP STEVEN MCKENZ OAKLAND CA",
+              "amount": 75.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "POS PURCHASE RECORD NO. 820182 CARD NO. 1272 LYFT RIDE FRI 9PM SAN FRANCISC CA",
+              "amount": 16.06,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 539488 CARD NO. 1272 MIDLAND 104 INDIANAPOLIS IN",
+              "amount": 20.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "POS PURCHASE RECORD NO. 588997 CARD NO. 1272 IHOP 3371 INDIANAPOLIS IN",
+              "amount": 50.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "POS PURCHASE RECORD NO. 076254 CARD NO. 1272 LYFT RIDE FRI 11PM SAN FRANCISC CA",
+              "amount": 9.87,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 472911 CARD NO. 1272 CASH APP SAM CRAWFORD OAKLAND CA",
+              "amount": 10.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 040297 CARD NO. 1272 CASH APP KENNETH THOMP OAKLAND CA",
+              "amount": 40.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "ACH DEBIT CCD SUPERIOR CAPITAL 1111113081",
+              "amount": 98.67,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/25/2025",
+              "description": "REAL TIME CREDIT RTP CREDIT MELIO INC. NEAR NORTH DEVELOP INST",
+              "amount": 79.2,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "11/25/2025",
+              "description": "POS PURCHASE RECORD NO. 579086 CARD NO. 1272 TST KING RIBS BAR B Q INDIANAPOLIS IN",
+              "amount": 37.14,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/25/2025",
+              "description": "ACH DEBIT CCD SUPERIOR CAPITAL 1111113081",
+              "amount": 98.67,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/26/2025",
+              "description": "POS PURCHASE RECORD NO. 254097 CARD NO. 1272 UBER TRIP HELP UBER C 8005928996 CA",
+              "amount": 8.77,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/26/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 474161 CARD NO. 1272 CASH APP ANTONIO A STO OAKLAND CA",
+              "amount": 250.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/26/2025",
+              "description": "ACH DEBIT CCD SUPERIOR CAPITAL 1111113081",
+              "amount": 98.67,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/28/2025",
+              "description": "POS PURCHASE RECORD NO. 094660 CARD NO. 1272 STARBUCKS STORE 13618 INDIANAPOLIS IN",
+              "amount": 23.36,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/28/2025",
+              "description": "ACH DEBIT CCD SUPERIOR CAPITAL 1111113081",
+              "amount": 98.67,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            }
+          ]
+        }
+      ]
+    },
+    "raw_output": "```json\n{\n  \"bank_statement_information\": {\n    \"bank_name\": \"BMO\",\n    \"account_holder\": \"HAR SERVICES LLC\",\n    \"statement_start_date\": \"11/01/2025\",\n    \"statement_end_date\": \"11/30/2025\",\n    \"n_days\": 30,\n    \"n_month\": [\n      11\n    ],\n    \"business_address\": \"4503 MANNING ROAD INDIANAPOLIS IN 46228\"\n  },\n  \"accounts\": [\n    {\n      \"account_number\": \"4803905185\",\n      \"account_type\": \"BMO PREMIUM BUSINESS CKG\",\n      \"account_summary\": {\n        \"beginning_balance\": 116.92,\n        \"ending_balance\": 747.47,\n        \"total_deposits\": 8817.67,\n        \"total_withdrawals\": 8187.12,\n        \"total_deposits_count\": 14,\n        \"total_withdrawals_count\": 120,\n        \"avg_daily_balance\": null,\n        \"overdraft_days\": 0\n      },\n      \"transactions\": [\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"TRANSFER IN RECORD NO. POE00E ZELLE FROM PAUL O MCKANNEY\",\n          \"amount\": 700.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"ONLINE DEPOSIT MOBILE DEPOSIT - CREDIT\",\n          \"amount\": 1350.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"NON-BMO ATM WITHDRAWAL RECORD NO. 010480 CARD NO. 1272 CHASE INDIANAPOLIS IN\",\n          \"amount\": 264.0,\n          \"type\": \"Debit\",\n          \"category\": \"ATM/Cash Withdrawal\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 208426 CARD NO. 1272 LYFT RIDE FRI 7AM SAN FRANCISC CA\",\n          \"amount\": 14.86,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 254717 CARD NO. 1272 LYFT RIDE FRI 4PM SAN FRANCISC CA\",\n          \"amount\": 15.84,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 537512 CARD NO. 1272 CASH APP KENNETH THOMP OAKLAND CA\",\n          \"amount\": 100.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 307474 CARD NO. 1272 GOOGLE GOOGLE ONE MOUNTAIN VIEW CA\",\n          \"amount\": 1.99,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 898405 CARD NO. 1272 HARRISON VILLAGE COM INDIANAPOLIS IN\",\n          \"amount\": 214.83,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 356743 CARD NO. 1272 LYFT CANCEL FEE SAN FRANCISC CA\",\n          \"amount\": 5.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"ACH DEBIT CCD SUPERIOR CAPITAL 1111113081\",\n          \"amount\": 98.67,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"ACH DEBIT CCD THE HARTFORD INSPMTCL\",\n          \"amount\": 365.28,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"NON-BMO ATM FEE\",\n          \"amount\": 3.0,\n          \"type\": \"Debit\",\n          \"category\": \"Service Charges/Fees\"\n        },\n        {\n          \"date\": \"11/04/2025\",\n          \"description\": \"ONLINE DEPOSIT MOBILE DEPOSIT - CREDIT\",\n          \"amount\": 2470.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/04/2025\",\n          \"description\": \"PC TRANSFER DEBIT\",\n          \"amount\": 20.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/04/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 674000 CARD NO. 1272 LYFT RIDE SUN 7PM SAN FRANCISC CA\",\n          \"amount\": 16.99,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/04/2025\",\n          \"description\": \"ACH DEBIT CCD SUPERIOR CAPITAL 1111113081\",\n          \"amount\": 98.67,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/05/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 911214 CARD NO. 1272 LYFT RIDE MON 4PM SAN FRANCISC CA\",\n          \"amount\": 16.65,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/05/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 000000 CARD NO. 1272 AMAZON COM BT1MX4LS0 SEATTLE WA\",\n          \"amount\": 13.57,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/05/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 000000 CARD NO. 1272 AMAZON COM NK7IN8M32 SEATTLE WA\",\n          \"amount\": 9.48,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/05/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 000003 CARD NO. 1272 AMAZON COM NK4BF2Y41 SEATTLE WA\",\n          \"amount\": 24.26,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/05/2025\",\n          \"description\": \"ACH DEBIT CCD SUPERIOR CAPITAL 1111113081\",\n          \"amount\": 98.67,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/06/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 405943 CARD NO. 1272 AMAZON DIGIT BT46H5N31 SEATTLE WA\",\n          \"amount\": 13.9,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/06/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 443567 CARD NO. 1272 CASH APP SAM CRAWFORD OAKLAND CA\",\n          \"amount\": 75.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/06/2025\",\n          \"description\": \"ACH DEBIT CCD SUPERIOR CAPITAL 1111113081\",\n          \"amount\": 98.67,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"description\": \"ACH DEPOSIT PPD DFAS-CLEVELAND FED SALARY\",\n          \"amount\": 971.09,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 928401 CARD NO. 1272 ATT BILL PAYMENT DALLAS TX\",\n          \"amount\": 160.08,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 774773 CARD NO. 1272 LYFT RIDE THU 2PM SAN FRANCISC CA\",\n          \"amount\": 22.7,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 913821 CARD NO. 1272 LYFT RIDE THU 4PM SAN FRANCISC CA\",\n          \"amount\": 21.87,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 159289 CARD NO. 1272 LYFT RIDE THU 8PM SAN FRANCISC CA\",\n          \"amount\": 6.99,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"description\": \"ACH DEBIT CCD SUPERIOR CAPITAL 1111113081\",\n          \"amount\": 98.67,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"NON-BMO ATM WITHDRAWAL RECORD NO. 014078 CARD NO. 1272 CHASE INDIANAPOLIS IN\",\n          \"amount\": 264.0,\n          \"type\": \"Debit\",\n          \"category\": \"ATM/Cash Withdrawal\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"NON-BMO ATM WITHDRAWAL RECORD NO. 016122 CARD NO. 1272 CHASE INDIANAPOLIS IN\",\n          \"amount\": 104.0,\n          \"type\": \"Debit\",\n          \"category\": \"ATM/Cash Withdrawal\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 004723 CARD NO. 1272 RCI DINING SERVICES IN HENDERSON NV\",\n          \"amount\": 93.42,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 004715 CARD NO. 1272 RCI DINING SERVICES IN HENDERSON NV\",\n          \"amount\": 45.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 434296 CARD NO. 1272 LYFT RIDE FRI 5AM SAN FRANCISC CA\",\n          \"amount\": 13.16,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 002432 CARD NO. 1272 LYFT RIDE FRI 2PM SAN FRANCISC CA\",\n          \"amount\": 12.99,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 277114 CARD NO. 1272 CASH APP ANTONIO A STO OAKLAND CA\",\n          \"amount\": 250.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 000274 CARD NO. 1272 RCI DINING SERVICES IN HENDERSON NV\",\n          \"amount\": 140.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 052066 CARD NO. 1272 FISHER N GO FISH AND INDIANAPOLIS IN\",\n          \"amount\": 26.13,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 052074 CARD NO. 1272 FISHER N GO FISH AND INDIANAPOLIS IN\",\n          \"amount\": 8.71,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"ACH DEBIT CCD SUPERIOR CAPITAL 1111113081\",\n          \"amount\": 98.67,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Check 1196\",\n          \"amount\": 500.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"NON-BMO ATM FEE\",\n          \"amount\": 3.0,\n          \"type\": \"Debit\",\n          \"category\": \"Service Charges/Fees\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"NON-BMO ATM FEE\",\n          \"amount\": 3.0,\n          \"type\": \"Debit\",\n          \"category\": \"Service Charges/Fees\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 197921 CARD NO. 1272 LYFT RIDE MON 7AM SAN FRANCISC CA\",\n          \"amount\": 27.54,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 493299 CARD NO. 1272 CASH APP ARSHONDA EWEL OAKLAND CA\",\n          \"amount\": 50.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 820237 CARD NO. 1272 LYFT MEMB NOV SAN FRANCISC CA\",\n          \"amount\": 9.99,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"ACH DEBIT CCD SUPERIOR CAPITAL 1111113081\",\n          \"amount\": 98.67,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"ACH DEBIT WEB Deere Credit Ser PAYMENTS\",\n          \"amount\": 346.78,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/13/2025\",\n          \"description\": \"ACH DEBIT CCD SUPERIOR CAPITAL 1111113081\",\n          \"amount\": 98.67,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/14/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 040878 CARD NO. 1272 GOOGLE GOOGLE ONE MOUNTAIN VIEW CA\",\n          \"amount\": 1.99,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/14/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 887071 CARD NO. 1272 ILML3 PONTIAC MI\",\n          \"amount\": 26.99,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/14/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 232144 CARD NO. 1272 LYFT RIDE THU 4PM SAN FRANCISC CA\",\n          \"amount\": 11.99,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/14/2025\",\n          \"description\": \"ACH DEBIT CCD SUPERIOR CAPITAL 1111113081\",\n          \"amount\": 98.67,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 507404 CARD NO. 1272 LYFT RIDE FRI 6AM SAN FRANCISC CA\",\n          \"amount\": 12.79,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 488686 CARD NO. 1272 LYFT RIDE FRI 4PM SAN FRANCISC CA\",\n          \"amount\": 17.86,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 085792 CARD NO. 1272 CASH APP SAM CRAWFORD OAKLAND CA\",\n          \"amount\": 50.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 164502 CARD NO. 1272 IIQ MYSCOREIQ COM HENDERSON NV\",\n          \"amount\": 34.99,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 475902 CARD NO. 1272 SPEEDWAY 43762 INDIANAPOLIS IN\",\n          \"amount\": 94.7,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 357596 CARD NO. 1272 SPEEDWAY 43762 INDIANAPOLIS IN\",\n          \"amount\": 8.93,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 414800 CARD NO. 1272 MCDONALD S F11652 INDIANAPOLIS IN\",\n          \"amount\": 18.5,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 244270 CARD NO. 1272 CASH APP SAM CRAWFORD OAKLAND CA\",\n          \"amount\": 50.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 000175 CARD NO. 1272 RCI DINING SERVICES IN HENDERSON NV\",\n          \"amount\": 82.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 482999 CARD NO. 1272 CASH APP LEXY DINERO OAKLAND CA\",\n          \"amount\": 70.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 474599 CARD NO. 1272 CASH APP STEVEN MCKENZ OAKLAND CA\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 885781 CARD NO. 1272 HARDEES 1504226 INDIANAPOLIS IN\",\n          \"amount\": 27.84,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 756107 CARD NO. 1272 SPEEDWAY 43763 LAWRENCE IN\",\n          \"amount\": 29.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 999205 CARD NO. 1272 SPEEDWAY 43737 INDIANAPOLIS IN\",\n          \"amount\": 10.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 141522 CARD NO. 1272 CASH APP ANTONIO A STO OAKLAND CA\",\n          \"amount\": 150.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 170549 CARD NO. 1272 CASH APP SAM CRAWFORD OAKLAND CA\",\n          \"amount\": 20.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"ACH DEBIT CCD SUPERIOR CAPITAL 1111113081\",\n          \"amount\": 98.67,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"ACH DEBIT WEB USAA P&C PAYMENT\",\n          \"amount\": 165.29,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"description\": \"ONLINE DEPOSIT MOBILE DEPOSIT - CREDIT\",\n          \"amount\": 40.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"description\": \"ONLINE DEPOSIT MOBILE DEPOSIT - CREDIT\",\n          \"amount\": 50.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"description\": \"ONLINE DEPOSIT MOBILE DEPOSIT - CREDIT\",\n          \"amount\": 116.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"description\": \"ONLINE DEPOSIT MOBILE DEPOSIT - CREDIT\",\n          \"amount\": 200.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"description\": \"ONLINE DEPOSIT MOBILE DEPOSIT - CREDIT\",\n          \"amount\": 250.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"description\": \"FUNDSNOW CHK CR FUNDSNOW CHK CR\",\n          \"amount\": 525.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"description\": \"ONLINE DEPOSIT MOBILE DEPOSIT - CREDIT\",\n          \"amount\": 1000.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 000166 CARD NO. 1272 RCI DINING SERVICES IN HENDERSON NV\",\n          \"amount\": 117.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 000174 CARD NO. 1272 RCI DINING SERVICES IN HENDERSON NV\",\n          \"amount\": 72.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 000182 CARD NO. 1272 RCI DINING SERVICES IN HENDERSON NV\",\n          \"amount\": 48.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 000190 CARD NO. 1272 RCI DINING SERVICES IN HENDERSON NV\",\n          \"amount\": 54.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 159539 CARD NO. 1272 LYFT RIDE MON 7AM SAN FRANCISC CA\",\n          \"amount\": 12.99,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 400921 CARD NO. 1272 CASH APP SAM CRAWFORD OAKLAND CA\",\n          \"amount\": 25.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 022358 CARD NO. 1272 LYFT RIDE TUE 6AM SAN FRANCISC CA\",\n          \"amount\": 20.86,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 216578 CARD NO. 1272 CASH APP SAM CRAWFORD OAKLAND CA\",\n          \"amount\": 75.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"description\": \"ACH DEBIT WEB ATT PAYMENT\",\n          \"amount\": 85.21,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"description\": \"ACH DEBIT CCD SUPERIOR CAPITAL 1111113081\",\n          \"amount\": 98.67,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"description\": \"FUNDSNOW FEE DB FUNDSNOW FEE DB\",\n          \"amount\": 10.5,\n          \"type\": \"Debit\",\n          \"category\": \"Service Charges/Fees\"\n        },\n        {\n          \"date\": \"11/19/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 084199 CARD NO. 1272 PARAMOUNT WEST HOLLYWO CA\",\n          \"amount\": 12.99,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/19/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 000959 CARD NO. 1272 RCI DINING SERVICES IN HENDERSON NV\",\n          \"amount\": 90.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/19/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 408807 CARD NO. 1272 LYFT RIDE TUE 4PM SAN FRANCISC CA\",\n          \"amount\": 11.75,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/19/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 028479 CARD NO. 1272 CASH APP STEVEN MCKENZ OAKLAND CA\",\n          \"amount\": 45.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/19/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 330992 CARD NO. 1272 LYFT RIDE TUE 9PM SAN FRANCISC CA\",\n          \"amount\": 10.38,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/19/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 109720 CARD NO. 1272 CASH APP LEXY DINERO OAKLAND CA\",\n          \"amount\": 50.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/19/2025\",\n          \"description\": \"ACH DEBIT CCD SUPERIOR CAPITAL 1111113081\",\n          \"amount\": 98.67,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 000123 CARD NO. 1272 RCI DINING SERVICES IN HENDERSON NV\",\n          \"amount\": 50.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 214866 CARD NO. 1272 LYFT RIDE WED 6AM SAN FRANCISC CA\",\n          \"amount\": 15.99,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 984129 CARD NO. 1272 LYFT RIDE WED 4PM SAN FRANCISC CA\",\n          \"amount\": 16.84,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 584029 CARD NO. 1272 AES INDIANA EZ PAY INDIANAPOLIS IN\",\n          \"amount\": 301.95,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 466444 CARD NO. 1272 O REILLY 1467 INDIANAPOLIS IN\",\n          \"amount\": 94.81,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 806019 CARD NO. 1272 SPEEDWAY 43762 INDIANAPOLIS IN\",\n          \"amount\": 50.62,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 000852 CARD NO. 1272 CRACKER BARREL 49 IND INDIANAPOLIS IN\",\n          \"amount\": 63.8,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 056714 CARD NO. 1272 NNT BATTERIES PLUS 002 INDIANAPOLIS IN\",\n          \"amount\": 21.39,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"description\": \"ACH DEBIT CCD SUPERIOR CAPITAL 1111113081\",\n          \"amount\": 98.67,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"description\": \"TRANSFER IN RECORD NO. POIODP ZELLE FROM ROBERT PELS\",\n          \"amount\": 60.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"description\": \"ACH DEPOSIT PPD DFAS-CLEVELAND FED SALARY\",\n          \"amount\": 1006.38,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 384560 CARD NO. 1272 CASH APP SAM CRAWFORD OAKLAND CA\",\n          \"amount\": 20.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 386032 CARD NO. 1272 CASH APP DANIELLE JOHN OAKLAND CA\",\n          \"amount\": 75.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 477718 CARD NO. 1272 CASH APP TAEYA SIMONE OAKLAND CA\",\n          \"amount\": 50.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 396203 CARD NO. 1272 SPEEDWAY 43737 INDIANAPOLIS IN\",\n          \"amount\": 11.59,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"description\": \"ACH DEBIT CCD SUPERIOR CAPITAL 1111113081\",\n          \"amount\": 98.67,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 583298 CARD NO. 1272 LYFT RIDE THU 4PM SAN FRANCISC CA\",\n          \"amount\": 24.68,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 105624 CARD NO. 1272 GOOGLE DROPBOX SECURE MOUNTAIN VIEW CA\",\n          \"amount\": 12.83,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 743150 CARD NO. 1272 LYFT RIDE FRI 7PM SAN FRANCISC CA\",\n          \"amount\": 10.8,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 000120 CARD NO. 1272 RCI DINING SERVICES IN HENDERSON NV\",\n          \"amount\": 72.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 000138 CARD NO. 1272 RCI DINING SERVICES IN HENDERSON NV\",\n          \"amount\": 36.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 314585 CARD NO. 1272 CASH APP STEVEN MCKENZ OAKLAND CA\",\n          \"amount\": 75.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 820182 CARD NO. 1272 LYFT RIDE FRI 9PM SAN FRANCISC CA\",\n          \"amount\": 16.06,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 539488 CARD NO. 1272 MIDLAND 104 INDIANAPOLIS IN\",\n          \"amount\": 20.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 588997 CARD NO. 1272 IHOP 3371 INDIANAPOLIS IN\",\n          \"amount\": 50.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 076254 CARD NO. 1272 LYFT RIDE FRI 11PM SAN FRANCISC CA\",\n          \"amount\": 9.87,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 472911 CARD NO. 1272 CASH APP SAM CRAWFORD OAKLAND CA\",\n          \"amount\": 10.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 040297 CARD NO. 1272 CASH APP KENNETH THOMP OAKLAND CA\",\n          \"amount\": 40.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"ACH DEBIT CCD SUPERIOR CAPITAL 1111113081\",\n          \"amount\": 98.67,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/25/2025\",\n          \"description\": \"REAL TIME CREDIT RTP CREDIT MELIO INC. NEAR NORTH DEVELOP INST\",\n          \"amount\": 79.2,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"11/25/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 579086 CARD NO. 1272 TST KING RIBS BAR B Q INDIANAPOLIS IN\",\n          \"amount\": 37.14,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/25/2025\",\n          \"description\": \"ACH DEBIT CCD SUPERIOR CAPITAL 1111113081\",\n          \"amount\": 98.67,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/26/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 254097 CARD NO. 1272 UBER TRIP HELP UBER C 8005928996 CA\",\n          \"amount\": 8.77,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/26/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 474161 CARD NO. 1272 CASH APP ANTONIO A STO OAKLAND CA\",\n          \"amount\": 250.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/26/2025\",\n          \"description\": \"ACH DEBIT CCD SUPERIOR CAPITAL 1111113081\",\n          \"amount\": 98.67,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/28/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 094660 CARD NO. 1272 STARBUCKS STORE 13618 INDIANAPOLIS IN\",\n          \"amount\": 23.36,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/28/2025\",\n          \"description\": \"ACH DEBIT CCD SUPERIOR CAPITAL 1111113081\",\n          \"amount\": 98.67,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        }\n      ]\n    }\n  ]\n}\n```",
+    "token_count": {
+      "estimated_tokens": 3295
+    },
+    "failure_reason": null
+  },
+  "bsi_analyzer_result": {
+    "agent_name": "v1_bsi_analyzer_agent",
+    "processing_status": "success",
+    "start_time": "2026-02-04T15:02:50.074017",
+    "end_time": "2026-02-04T15:04:24.076121",
+    "parsed_json": {
+      "accounts": [
+        {
+          "account_number": "4803905185",
+          "account_type": "BMO PREMIUM BUSINESS CKG",
+          "mca_deposit": [],
+          "mca_withdrawal": [
+            {
+              "mca_name": "Superior Capital",
+              "date": "11/03/2025",
+              "type": "Debit",
+              "description": "ACH DEBIT CCD SUPERIOR CAPITAL 1111113081",
+              "amount": 98.67
+            },
+            {
+              "mca_name": "Superior Capital",
+              "date": "11/04/2025",
+              "type": "Debit",
+              "description": "ACH DEBIT CCD SUPERIOR CAPITAL 1111113081",
+              "amount": 98.67
+            },
+            {
+              "mca_name": "Superior Capital",
+              "date": "11/05/2025",
+              "type": "Debit",
+              "description": "ACH DEBIT CCD SUPERIOR CAPITAL 1111113081",
+              "amount": 98.67
+            },
+            {
+              "mca_name": "Superior Capital",
+              "date": "11/06/2025",
+              "type": "Debit",
+              "description": "ACH DEBIT CCD SUPERIOR CAPITAL 1111113081",
+              "amount": 98.67
+            },
+            {
+              "mca_name": "Superior Capital",
+              "date": "11/07/2025",
+              "type": "Debit",
+              "description": "ACH DEBIT CCD SUPERIOR CAPITAL 1111113081",
+              "amount": 98.67
+            },
+            {
+              "mca_name": "Superior Capital",
+              "date": "11/10/2025",
+              "type": "Debit",
+              "description": "ACH DEBIT CCD SUPERIOR CAPITAL 1111113081",
+              "amount": 98.67
+            },
+            {
+              "mca_name": "Superior Capital",
+              "date": "11/12/2025",
+              "type": "Debit",
+              "description": "ACH DEBIT CCD SUPERIOR CAPITAL 1111113081",
+              "amount": 98.67
+            },
+            {
+              "mca_name": "Superior Capital",
+              "date": "11/13/2025",
+              "type": "Debit",
+              "description": "ACH DEBIT CCD SUPERIOR CAPITAL 1111113081",
+              "amount": 98.67
+            },
+            {
+              "mca_name": "Superior Capital",
+              "date": "11/14/2025",
+              "type": "Debit",
+              "description": "ACH DEBIT CCD SUPERIOR CAPITAL 1111113081",
+              "amount": 98.67
+            },
+            {
+              "mca_name": "Superior Capital",
+              "date": "11/17/2025",
+              "type": "Debit",
+              "description": "ACH DEBIT CCD SUPERIOR CAPITAL 1111113081",
+              "amount": 98.67
+            },
+            {
+              "mca_name": "Superior Capital",
+              "date": "11/18/2025",
+              "type": "Debit",
+              "description": "ACH DEBIT CCD SUPERIOR CAPITAL 1111113081",
+              "amount": 98.67
+            },
+            {
+              "mca_name": "Superior Capital",
+              "date": "11/19/2025",
+              "type": "Debit",
+              "description": "ACH DEBIT CCD SUPERIOR CAPITAL 1111113081",
+              "amount": 98.67
+            },
+            {
+              "mca_name": "Superior Capital",
+              "date": "11/20/2025",
+              "type": "Debit",
+              "description": "ACH DEBIT CCD SUPERIOR CAPITAL 1111113081",
+              "amount": 98.67
+            },
+            {
+              "mca_name": "Superior Capital",
+              "date": "11/21/2025",
+              "type": "Debit",
+              "description": "ACH DEBIT CCD SUPERIOR CAPITAL 1111113081",
+              "amount": 98.67
+            },
+            {
+              "mca_name": "Superior Capital",
+              "date": "11/24/2025",
+              "type": "Debit",
+              "description": "ACH DEBIT CCD SUPERIOR CAPITAL 1111113081",
+              "amount": 98.67
+            },
+            {
+              "mca_name": "Superior Capital",
+              "date": "11/25/2025",
+              "type": "Debit",
+              "description": "ACH DEBIT CCD SUPERIOR CAPITAL 1111113081",
+              "amount": 98.67
+            },
+            {
+              "mca_name": "Superior Capital",
+              "date": "11/26/2025",
+              "type": "Debit",
+              "description": "ACH DEBIT CCD SUPERIOR CAPITAL 1111113081",
+              "amount": 98.67
+            },
+            {
+              "mca_name": "Superior Capital",
+              "date": "11/28/2025",
+              "type": "Debit",
+              "description": "ACH DEBIT CCD SUPERIOR CAPITAL 1111113081",
+              "amount": 98.67
+            }
+          ],
+          "returned_items": [],
+          "overdrafts": [],
+          "service_charges": [
+            {
+              "date": "11/03/2025",
+              "type": "Debit",
+              "description": "NON-BMO ATM FEE",
+              "amount": 3.0
+            },
+            {
+              "date": "11/10/2025",
+              "type": "Debit",
+              "description": "NON-BMO ATM FEE",
+              "amount": 3.0
+            },
+            {
+              "date": "11/10/2025",
+              "type": "Debit",
+              "description": "NON-BMO ATM FEE",
+              "amount": 3.0
+            },
+            {
+              "date": "11/18/2025",
+              "type": "Debit",
+              "description": "FUNDSNOW FEE DB FUNDSNOW FEE DB",
+              "amount": 10.5
+            }
+          ],
+          "atm_cash_withdrawal": [
+            {
+              "date": "11/03/2025",
+              "type": "Debit",
+              "description": "NON-BMO ATM WITHDRAWAL RECORD NO. 010480 CARD NO. 1272 CHASE INDIANAPOLIS IN",
+              "amount": 264.0
+            },
+            {
+              "date": "11/10/2025",
+              "type": "Debit",
+              "description": "NON-BMO ATM WITHDRAWAL RECORD NO. 014078 CARD NO. 1272 CHASE INDIANAPOLIS IN",
+              "amount": 264.0
+            },
+            {
+              "date": "11/10/2025",
+              "type": "Debit",
+              "description": "NON-BMO ATM WITHDRAWAL RECORD NO. 016122 CARD NO. 1272 CHASE INDIANAPOLIS IN",
+              "amount": 104.0
+            }
+          ],
+          "internal_transfer_deposit": [],
+          "other_transfer_deposit": [
+            {
+              "date": "11/03/2025",
+              "description": "TRANSFER IN RECORD NO. POE00E ZELLE FROM PAUL O MCKANNEY",
+              "amount": 700.0,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/18/2025",
+              "description": "FUNDSNOW CHK CR FUNDSNOW CHK CR",
+              "amount": 525.0,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/21/2025",
+              "description": "TRANSFER IN RECORD NO. POIODP ZELLE FROM ROBERT PELS",
+              "amount": 60.0,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/25/2025",
+              "description": "REAL TIME CREDIT RTP CREDIT MELIO INC. NEAR NORTH DEVELOP INST",
+              "amount": 79.2,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            }
+          ],
+          "internal_transfer_withdrawal": [],
+          "other_transfer_withdrawal": [
+            {
+              "date": "11/03/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 537512 CARD NO. 1272 CASH APP KENNETH THOMP OAKLAND CA",
+              "amount": 100.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "ACH DEBIT CCD THE HARTFORD INSPMTCL",
+              "amount": 365.28,
+              "type": "Debit"
+            },
+            {
+              "date": "11/04/2025",
+              "description": "PC TRANSFER DEBIT",
+              "amount": 20.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/06/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 443567 CARD NO. 1272 CASH APP SAM CRAWFORD OAKLAND CA",
+              "amount": 75.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 277114 CARD NO. 1272 CASH APP ANTONIO A STO OAKLAND CA",
+              "amount": 250.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 493299 CARD NO. 1272 CASH APP ARSHONDA EWEL OAKLAND CA",
+              "amount": 50.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "ACH DEBIT WEB Deere Credit Ser PAYMENTS",
+              "amount": 346.78,
+              "type": "Debit"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 085792 CARD NO. 1272 CASH APP SAM CRAWFORD OAKLAND CA",
+              "amount": 50.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 244270 CARD NO. 1272 CASH APP SAM CRAWFORD OAKLAND CA",
+              "amount": 50.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 482999 CARD NO. 1272 CASH APP LEXY DINERO OAKLAND CA",
+              "amount": 70.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 474599 CARD NO. 1272 CASH APP STEVEN MCKENZ OAKLAND CA",
+              "amount": 35.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 141522 CARD NO. 1272 CASH APP ANTONIO A STO OAKLAND CA",
+              "amount": 150.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 170549 CARD NO. 1272 CASH APP SAM CRAWFORD OAKLAND CA",
+              "amount": 20.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "ACH DEBIT WEB USAA P&C PAYMENT",
+              "amount": 165.29,
+              "type": "Debit"
+            },
+            {
+              "date": "11/18/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 400921 CARD NO. 1272 CASH APP SAM CRAWFORD OAKLAND CA",
+              "amount": 25.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/18/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 216578 CARD NO. 1272 CASH APP SAM CRAWFORD OAKLAND CA",
+              "amount": 75.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/18/2025",
+              "description": "ACH DEBIT WEB ATT PAYMENT",
+              "amount": 85.21,
+              "type": "Debit"
+            },
+            {
+              "date": "11/19/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 028479 CARD NO. 1272 CASH APP STEVEN MCKENZ OAKLAND CA",
+              "amount": 45.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/19/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 109720 CARD NO. 1272 CASH APP LEXY DINERO OAKLAND CA",
+              "amount": 50.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/21/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 384560 CARD NO. 1272 CASH APP SAM CRAWFORD OAKLAND CA",
+              "amount": 20.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/21/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 386032 CARD NO. 1272 CASH APP DANIELLE JOHN OAKLAND CA",
+              "amount": 75.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/21/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 477718 CARD NO. 1272 CASH APP TAEYA SIMONE OAKLAND CA",
+              "amount": 50.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 314585 CARD NO. 1272 CASH APP STEVEN MCKENZ OAKLAND CA",
+              "amount": 75.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 472911 CARD NO. 1272 CASH APP SAM CRAWFORD OAKLAND CA",
+              "amount": 10.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 040297 CARD NO. 1272 CASH APP KENNETH THOMP OAKLAND CA",
+              "amount": 40.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/26/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 474161 CARD NO. 1272 CASH APP ANTONIO A STO OAKLAND CA",
+              "amount": 250.0,
+              "type": "Debit"
+            }
+          ],
+          "standard_deposit": [
+            {
+              "date": "11/03/2025",
+              "description": "ONLINE DEPOSIT MOBILE DEPOSIT - CREDIT",
+              "amount": 1350.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/04/2025",
+              "description": "ONLINE DEPOSIT MOBILE DEPOSIT - CREDIT",
+              "amount": 2470.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/07/2025",
+              "description": "ACH DEPOSIT PPD DFAS-CLEVELAND FED SALARY",
+              "amount": 971.09,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/18/2025",
+              "description": "ONLINE DEPOSIT MOBILE DEPOSIT - CREDIT",
+              "amount": 40.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/18/2025",
+              "description": "ONLINE DEPOSIT MOBILE DEPOSIT - CREDIT",
+              "amount": 50.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/18/2025",
+              "description": "ONLINE DEPOSIT MOBILE DEPOSIT - CREDIT",
+              "amount": 116.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/18/2025",
+              "description": "ONLINE DEPOSIT MOBILE DEPOSIT - CREDIT",
+              "amount": 200.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/18/2025",
+              "description": "ONLINE DEPOSIT MOBILE DEPOSIT - CREDIT",
+              "amount": 250.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/18/2025",
+              "description": "ONLINE DEPOSIT MOBILE DEPOSIT - CREDIT",
+              "amount": 1000.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/21/2025",
+              "description": "ACH DEPOSIT PPD DFAS-CLEVELAND FED SALARY",
+              "amount": 1006.38,
+              "type": "Credit",
+              "non_true_revenue": 0
+            }
+          ],
+          "standard_withdrawal": [
+            {
+              "date": "11/03/2025",
+              "description": "POS PURCHASE RECORD NO. 208426 CARD NO. 1272 LYFT RIDE FRI 7AM SAN FRANCISC CA",
+              "amount": 14.86,
+              "type": "Debit"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "POS PURCHASE RECORD NO. 254717 CARD NO. 1272 LYFT RIDE FRI 4PM SAN FRANCISC CA",
+              "amount": 15.84,
+              "type": "Debit"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 307474 CARD NO. 1272 GOOGLE GOOGLE ONE MOUNTAIN VIEW CA",
+              "amount": 1.99,
+              "type": "Debit"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "POS PURCHASE RECORD NO. 898405 CARD NO. 1272 HARRISON VILLAGE COM INDIANAPOLIS IN",
+              "amount": 214.83,
+              "type": "Debit"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "POS PURCHASE RECORD NO. 356743 CARD NO. 1272 LYFT CANCEL FEE SAN FRANCISC CA",
+              "amount": 5.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/04/2025",
+              "description": "POS PURCHASE RECORD NO. 674000 CARD NO. 1272 LYFT RIDE SUN 7PM SAN FRANCISC CA",
+              "amount": 16.99,
+              "type": "Debit"
+            },
+            {
+              "date": "11/05/2025",
+              "description": "POS PURCHASE RECORD NO. 911214 CARD NO. 1272 LYFT RIDE MON 4PM SAN FRANCISC CA",
+              "amount": 16.65,
+              "type": "Debit"
+            },
+            {
+              "date": "11/05/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 000000 CARD NO. 1272 AMAZON COM BT1MX4LS0 SEATTLE WA",
+              "amount": 13.57,
+              "type": "Debit"
+            },
+            {
+              "date": "11/05/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 000000 CARD NO. 1272 AMAZON COM NK7IN8M32 SEATTLE WA",
+              "amount": 9.48,
+              "type": "Debit"
+            },
+            {
+              "date": "11/05/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 000003 CARD NO. 1272 AMAZON COM NK4BF2Y41 SEATTLE WA",
+              "amount": 24.26,
+              "type": "Debit"
+            },
+            {
+              "date": "11/06/2025",
+              "description": "POS PURCHASE RECORD NO. 405943 CARD NO. 1272 AMAZON DIGIT BT46H5N31 SEATTLE WA",
+              "amount": 13.9,
+              "type": "Debit"
+            },
+            {
+              "date": "11/07/2025",
+              "description": "POS PURCHASE RECORD NO. 928401 CARD NO. 1272 ATT BILL PAYMENT DALLAS TX",
+              "amount": 160.08,
+              "type": "Debit"
+            },
+            {
+              "date": "11/07/2025",
+              "description": "POS PURCHASE RECORD NO. 774773 CARD NO. 1272 LYFT RIDE THU 2PM SAN FRANCISC CA",
+              "amount": 22.7,
+              "type": "Debit"
+            },
+            {
+              "date": "11/07/2025",
+              "description": "POS PURCHASE RECORD NO. 913821 CARD NO. 1272 LYFT RIDE THU 4PM SAN FRANCISC CA",
+              "amount": 21.87,
+              "type": "Debit"
+            },
+            {
+              "date": "11/07/2025",
+              "description": "POS PURCHASE RECORD NO. 159289 CARD NO. 1272 LYFT RIDE THU 8PM SAN FRANCISC CA",
+              "amount": 6.99,
+              "type": "Debit"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "POS PURCHASE RECORD NO. 004723 CARD NO. 1272 RCI DINING SERVICES IN HENDERSON NV",
+              "amount": 93.42,
+              "type": "Debit"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "POS PURCHASE RECORD NO. 004715 CARD NO. 1272 RCI DINING SERVICES IN HENDERSON NV",
+              "amount": 45.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "POS PURCHASE RECORD NO. 434296 CARD NO. 1272 LYFT RIDE FRI 5AM SAN FRANCISC CA",
+              "amount": 13.16,
+              "type": "Debit"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "POS PURCHASE RECORD NO. 002432 CARD NO. 1272 LYFT RIDE FRI 2PM SAN FRANCISC CA",
+              "amount": 12.99,
+              "type": "Debit"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "POS PURCHASE RECORD NO. 000274 CARD NO. 1272 RCI DINING SERVICES IN HENDERSON NV",
+              "amount": 140.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "POS PURCHASE RECORD NO. 052066 CARD NO. 1272 FISHER N GO FISH AND INDIANAPOLIS IN",
+              "amount": 26.13,
+              "type": "Debit"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "POS PURCHASE RECORD NO. 052074 CARD NO. 1272 FISHER N GO FISH AND INDIANAPOLIS IN",
+              "amount": 8.71,
+              "type": "Debit"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Check 1196",
+              "amount": 500.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "POS PURCHASE RECORD NO. 197921 CARD NO. 1272 LYFT RIDE MON 7AM SAN FRANCISC CA",
+              "amount": 27.54,
+              "type": "Debit"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "POS PURCHASE RECORD NO. 820237 CARD NO. 1272 LYFT MEMB NOV SAN FRANCISC CA",
+              "amount": 9.99,
+              "type": "Debit"
+            },
+            {
+              "date": "11/14/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 040878 CARD NO. 1272 GOOGLE GOOGLE ONE MOUNTAIN VIEW CA",
+              "amount": 1.99,
+              "type": "Debit"
+            },
+            {
+              "date": "11/14/2025",
+              "description": "POS PURCHASE RECORD NO. 887071 CARD NO. 1272 ILML3 PONTIAC MI",
+              "amount": 26.99,
+              "type": "Debit"
+            },
+            {
+              "date": "11/14/2025",
+              "description": "POS PURCHASE RECORD NO. 232144 CARD NO. 1272 LYFT RIDE THU 4PM SAN FRANCISC CA",
+              "amount": 11.99,
+              "type": "Debit"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "POS PURCHASE RECORD NO. 507404 CARD NO. 1272 LYFT RIDE FRI 6AM SAN FRANCISC CA",
+              "amount": 12.79,
+              "type": "Debit"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "POS PURCHASE RECORD NO. 488686 CARD NO. 1272 LYFT RIDE FRI 4PM SAN FRANCISC CA",
+              "amount": 17.86,
+              "type": "Debit"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "POS PURCHASE RECORD NO. 164502 CARD NO. 1272 IIQ MYSCOREIQ COM HENDERSON NV",
+              "amount": 34.99,
+              "type": "Debit"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 475902 CARD NO. 1272 SPEEDWAY 43762 INDIANAPOLIS IN",
+              "amount": 94.7,
+              "type": "Debit"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 357596 CARD NO. 1272 SPEEDWAY 43762 INDIANAPOLIS IN",
+              "amount": 8.93,
+              "type": "Debit"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 414800 CARD NO. 1272 MCDONALD S F11652 INDIANAPOLIS IN",
+              "amount": 18.5,
+              "type": "Debit"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "POS PURCHASE RECORD NO. 000175 CARD NO. 1272 RCI DINING SERVICES IN HENDERSON NV",
+              "amount": 82.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "POS PURCHASE RECORD NO. 885781 CARD NO. 1272 HARDEES 1504226 INDIANAPOLIS IN",
+              "amount": 27.84,
+              "type": "Debit"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 756107 CARD NO. 1272 SPEEDWAY 43763 LAWRENCE IN",
+              "amount": 29.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 999205 CARD NO. 1272 SPEEDWAY 43737 INDIANAPOLIS IN",
+              "amount": 10.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/18/2025",
+              "description": "POS PURCHASE RECORD NO. 000166 CARD NO. 1272 RCI DINING SERVICES IN HENDERSON NV",
+              "amount": 117.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/18/2025",
+              "description": "POS PURCHASE RECORD NO. 000174 CARD NO. 1272 RCI DINING SERVICES IN HENDERSON NV",
+              "amount": 72.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/18/2025",
+              "description": "POS PURCHASE RECORD NO. 000182 CARD NO. 1272 RCI DINING SERVICES IN HENDERSON NV",
+              "amount": 48.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/18/2025",
+              "description": "POS PURCHASE RECORD NO. 000190 CARD NO. 1272 RCI DINING SERVICES IN HENDERSON NV",
+              "amount": 54.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/18/2025",
+              "description": "POS PURCHASE RECORD NO. 159539 CARD NO. 1272 LYFT RIDE MON 7AM SAN FRANCISC CA",
+              "amount": 12.99,
+              "type": "Debit"
+            },
+            {
+              "date": "11/18/2025",
+              "description": "POS PURCHASE RECORD NO. 022358 CARD NO. 1272 LYFT RIDE TUE 6AM SAN FRANCISC CA",
+              "amount": 20.86,
+              "type": "Debit"
+            },
+            {
+              "date": "11/19/2025",
+              "description": "POS PURCHASE RECORD NO. 084199 CARD NO. 1272 PARAMOUNT WEST HOLLYWO CA",
+              "amount": 12.99,
+              "type": "Debit"
+            },
+            {
+              "date": "11/19/2025",
+              "description": "POS PURCHASE RECORD NO. 000959 CARD NO. 1272 RCI DINING SERVICES IN HENDERSON NV",
+              "amount": 90.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/19/2025",
+              "description": "POS PURCHASE RECORD NO. 408807 CARD NO. 1272 LYFT RIDE TUE 4PM SAN FRANCISC CA",
+              "amount": 11.75,
+              "type": "Debit"
+            },
+            {
+              "date": "11/19/2025",
+              "description": "POS PURCHASE RECORD NO. 330992 CARD NO. 1272 LYFT RIDE TUE 9PM SAN FRANCISC CA",
+              "amount": 10.38,
+              "type": "Debit"
+            },
+            {
+              "date": "11/20/2025",
+              "description": "POS PURCHASE RECORD NO. 000123 CARD NO. 1272 RCI DINING SERVICES IN HENDERSON NV",
+              "amount": 50.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/20/2025",
+              "description": "POS PURCHASE RECORD NO. 214866 CARD NO. 1272 LYFT RIDE WED 6AM SAN FRANCISC CA",
+              "amount": 15.99,
+              "type": "Debit"
+            },
+            {
+              "date": "11/20/2025",
+              "description": "POS PURCHASE RECORD NO. 984129 CARD NO. 1272 LYFT RIDE WED 4PM SAN FRANCISC CA",
+              "amount": 16.84,
+              "type": "Debit"
+            },
+            {
+              "date": "11/20/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 584029 CARD NO. 1272 AES INDIANA EZ PAY INDIANAPOLIS IN",
+              "amount": 301.95,
+              "type": "Debit"
+            },
+            {
+              "date": "11/20/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 466444 CARD NO. 1272 O REILLY 1467 INDIANAPOLIS IN",
+              "amount": 94.81,
+              "type": "Debit"
+            },
+            {
+              "date": "11/20/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 806019 CARD NO. 1272 SPEEDWAY 43762 INDIANAPOLIS IN",
+              "amount": 50.62,
+              "type": "Debit"
+            },
+            {
+              "date": "11/20/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 000852 CARD NO. 1272 CRACKER BARREL 49 IND INDIANAPOLIS IN",
+              "amount": 63.8,
+              "type": "Debit"
+            },
+            {
+              "date": "11/20/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 056714 CARD NO. 1272 NNT BATTERIES PLUS 002 INDIANAPOLIS IN",
+              "amount": 21.39,
+              "type": "Debit"
+            },
+            {
+              "date": "11/21/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 396203 CARD NO. 1272 SPEEDWAY 43737 INDIANAPOLIS IN",
+              "amount": 11.59,
+              "type": "Debit"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "POS PURCHASE RECORD NO. 583298 CARD NO. 1272 LYFT RIDE THU 4PM SAN FRANCISC CA",
+              "amount": 24.68,
+              "type": "Debit"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 105624 CARD NO. 1272 GOOGLE DROPBOX SECURE MOUNTAIN VIEW CA",
+              "amount": 12.83,
+              "type": "Debit"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "POS PURCHASE RECORD NO. 743150 CARD NO. 1272 LYFT RIDE FRI 7PM SAN FRANCISC CA",
+              "amount": 10.8,
+              "type": "Debit"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "POS PURCHASE RECORD NO. 000120 CARD NO. 1272 RCI DINING SERVICES IN HENDERSON NV",
+              "amount": 72.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "POS PURCHASE RECORD NO. 000138 CARD NO. 1272 RCI DINING SERVICES IN HENDERSON NV",
+              "amount": 36.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "POS PURCHASE RECORD NO. 820182 CARD NO. 1272 LYFT RIDE FRI 9PM SAN FRANCISC CA",
+              "amount": 16.06,
+              "type": "Debit"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "POS PURCHASE W/PIN RECORD NO. 539488 CARD NO. 1272 MIDLAND 104 INDIANAPOLIS IN",
+              "amount": 20.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "POS PURCHASE RECORD NO. 588997 CARD NO. 1272 IHOP 3371 INDIANAPOLIS IN",
+              "amount": 50.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "POS PURCHASE RECORD NO. 076254 CARD NO. 1272 LYFT RIDE FRI 11PM SAN FRANCISC CA",
+              "amount": 9.87,
+              "type": "Debit"
+            },
+            {
+              "date": "11/25/2025",
+              "description": "POS PURCHASE RECORD NO. 579086 CARD NO. 1272 TST KING RIBS BAR B Q INDIANAPOLIS IN",
+              "amount": 37.14,
+              "type": "Debit"
+            },
+            {
+              "date": "11/26/2025",
+              "description": "POS PURCHASE RECORD NO. 254097 CARD NO. 1272 UBER TRIP HELP UBER C 8005928996 CA",
+              "amount": 8.77,
+              "type": "Debit"
+            },
+            {
+              "date": "11/28/2025",
+              "description": "POS PURCHASE RECORD NO. 094660 CARD NO. 1272 STARBUCKS STORE 13618 INDIANAPOLIS IN",
+              "amount": 23.36,
+              "type": "Debit"
+            }
+          ]
+        }
+      ]
+    },
+    "raw_output": "```json\n{\n  \"accounts\": [\n    {\n      \"account_number\": \"4803905185\",\n      \"account_type\": \"BMO PREMIUM BUSINESS CKG\",\n      \"mca_deposit\": [],\n      \"mca_withdrawal\": [\n        {\n          \"mca_name\": \"Superior Capital\",\n          \"date\": \"11/03/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"ACH DEBIT CCD SUPERIOR CAPITAL 1111113081\",\n          \"amount\": 98.67\n        },\n        {\n          \"mca_name\": \"Superior Capital\",\n          \"date\": \"11/04/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"ACH DEBIT CCD SUPERIOR CAPITAL 1111113081\",\n          \"amount\": 98.67\n        },\n        {\n          \"mca_name\": \"Superior Capital\",\n          \"date\": \"11/05/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"ACH DEBIT CCD SUPERIOR CAPITAL 1111113081\",\n          \"amount\": 98.67\n        },\n        {\n          \"mca_name\": \"Superior Capital\",\n          \"date\": \"11/06/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"ACH DEBIT CCD SUPERIOR CAPITAL 1111113081\",\n          \"amount\": 98.67\n        },\n        {\n          \"mca_name\": \"Superior Capital\",\n          \"date\": \"11/07/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"ACH DEBIT CCD SUPERIOR CAPITAL 1111113081\",\n          \"amount\": 98.67\n        },\n        {\n          \"mca_name\": \"Superior Capital\",\n          \"date\": \"11/10/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"ACH DEBIT CCD SUPERIOR CAPITAL 1111113081\",\n          \"amount\": 98.67\n        },\n        {\n          \"mca_name\": \"Superior Capital\",\n          \"date\": \"11/12/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"ACH DEBIT CCD SUPERIOR CAPITAL 1111113081\",\n          \"amount\": 98.67\n        },\n        {\n          \"mca_name\": \"Superior Capital\",\n          \"date\": \"11/13/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"ACH DEBIT CCD SUPERIOR CAPITAL 1111113081\",\n          \"amount\": 98.67\n        },\n        {\n          \"mca_name\": \"Superior Capital\",\n          \"date\": \"11/14/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"ACH DEBIT CCD SUPERIOR CAPITAL 1111113081\",\n          \"amount\": 98.67\n        },\n        {\n          \"mca_name\": \"Superior Capital\",\n          \"date\": \"11/17/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"ACH DEBIT CCD SUPERIOR CAPITAL 1111113081\",\n          \"amount\": 98.67\n        },\n        {\n          \"mca_name\": \"Superior Capital\",\n          \"date\": \"11/18/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"ACH DEBIT CCD SUPERIOR CAPITAL 1111113081\",\n          \"amount\": 98.67\n        },\n        {\n          \"mca_name\": \"Superior Capital\",\n          \"date\": \"11/19/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"ACH DEBIT CCD SUPERIOR CAPITAL 1111113081\",\n          \"amount\": 98.67\n        },\n        {\n          \"mca_name\": \"Superior Capital\",\n          \"date\": \"11/20/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"ACH DEBIT CCD SUPERIOR CAPITAL 1111113081\",\n          \"amount\": 98.67\n        },\n        {\n          \"mca_name\": \"Superior Capital\",\n          \"date\": \"11/21/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"ACH DEBIT CCD SUPERIOR CAPITAL 1111113081\",\n          \"amount\": 98.67\n        },\n        {\n          \"mca_name\": \"Superior Capital\",\n          \"date\": \"11/24/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"ACH DEBIT CCD SUPERIOR CAPITAL 1111113081\",\n          \"amount\": 98.67\n        },\n        {\n          \"mca_name\": \"Superior Capital\",\n          \"date\": \"11/25/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"ACH DEBIT CCD SUPERIOR CAPITAL 1111113081\",\n          \"amount\": 98.67\n        },\n        {\n          \"mca_name\": \"Superior Capital\",\n          \"date\": \"11/26/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"ACH DEBIT CCD SUPERIOR CAPITAL 1111113081\",\n          \"amount\": 98.67\n        },\n        {\n          \"mca_name\": \"Superior Capital\",\n          \"date\": \"11/28/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"ACH DEBIT CCD SUPERIOR CAPITAL 1111113081\",\n          \"amount\": 98.67\n        }\n      ],\n      \"returned_items\": [],\n      \"overdrafts\": [],\n      \"service_charges\": [\n        {\n          \"date\": \"11/03/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"NON-BMO ATM FEE\",\n          \"amount\": 3.0\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"NON-BMO ATM FEE\",\n          \"amount\": 3.0\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"NON-BMO ATM FEE\",\n          \"amount\": 3.0\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"FUNDSNOW FEE DB FUNDSNOW FEE DB\",\n          \"amount\": 10.5\n        }\n      ],\n      \"atm_cash_withdrawal\": [\n        {\n          \"date\": \"11/03/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"NON-BMO ATM WITHDRAWAL RECORD NO. 010480 CARD NO. 1272 CHASE INDIANAPOLIS IN\",\n          \"amount\": 264.0\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"NON-BMO ATM WITHDRAWAL RECORD NO. 014078 CARD NO. 1272 CHASE INDIANAPOLIS IN\",\n          \"amount\": 264.0\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"NON-BMO ATM WITHDRAWAL RECORD NO. 016122 CARD NO. 1272 CHASE INDIANAPOLIS IN\",\n          \"amount\": 104.0\n        }\n      ],\n      \"internal_transfer_deposit\": [],\n      \"other_transfer_deposit\": [\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"TRANSFER IN RECORD NO. POE00E ZELLE FROM PAUL O MCKANNEY\",\n          \"amount\": 700.0,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"description\": \"FUNDSNOW CHK CR FUNDSNOW CHK CR\",\n          \"amount\": 525.0,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"description\": \"TRANSFER IN RECORD NO. POIODP ZELLE FROM ROBERT PELS\",\n          \"amount\": 60.0,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/25/2025\",\n          \"description\": \"REAL TIME CREDIT RTP CREDIT MELIO INC. NEAR NORTH DEVELOP INST\",\n          \"amount\": 79.2,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        }\n      ],\n      \"internal_transfer_withdrawal\": [],\n      \"other_transfer_withdrawal\": [\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 537512 CARD NO. 1272 CASH APP KENNETH THOMP OAKLAND CA\",\n          \"amount\": 100.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"ACH DEBIT CCD THE HARTFORD INSPMTCL\",\n          \"amount\": 365.28,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/04/2025\",\n          \"description\": \"PC TRANSFER DEBIT\",\n          \"amount\": 20.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/06/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 443567 CARD NO. 1272 CASH APP SAM CRAWFORD OAKLAND CA\",\n          \"amount\": 75.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 277114 CARD NO. 1272 CASH APP ANTONIO A STO OAKLAND CA\",\n          \"amount\": 250.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 493299 CARD NO. 1272 CASH APP ARSHONDA EWEL OAKLAND CA\",\n          \"amount\": 50.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"ACH DEBIT WEB Deere Credit Ser PAYMENTS\",\n          \"amount\": 346.78,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 085792 CARD NO. 1272 CASH APP SAM CRAWFORD OAKLAND CA\",\n          \"amount\": 50.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 244270 CARD NO. 1272 CASH APP SAM CRAWFORD OAKLAND CA\",\n          \"amount\": 50.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 482999 CARD NO. 1272 CASH APP LEXY DINERO OAKLAND CA\",\n          \"amount\": 70.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 474599 CARD NO. 1272 CASH APP STEVEN MCKENZ OAKLAND CA\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 141522 CARD NO. 1272 CASH APP ANTONIO A STO OAKLAND CA\",\n          \"amount\": 150.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 170549 CARD NO. 1272 CASH APP SAM CRAWFORD OAKLAND CA\",\n          \"amount\": 20.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"ACH DEBIT WEB USAA P&C PAYMENT\",\n          \"amount\": 165.29,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 400921 CARD NO. 1272 CASH APP SAM CRAWFORD OAKLAND CA\",\n          \"amount\": 25.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 216578 CARD NO. 1272 CASH APP SAM CRAWFORD OAKLAND CA\",\n          \"amount\": 75.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"description\": \"ACH DEBIT WEB ATT PAYMENT\",\n          \"amount\": 85.21,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/19/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 028479 CARD NO. 1272 CASH APP STEVEN MCKENZ OAKLAND CA\",\n          \"amount\": 45.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/19/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 109720 CARD NO. 1272 CASH APP LEXY DINERO OAKLAND CA\",\n          \"amount\": 50.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 384560 CARD NO. 1272 CASH APP SAM CRAWFORD OAKLAND CA\",\n          \"amount\": 20.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 386032 CARD NO. 1272 CASH APP DANIELLE JOHN OAKLAND CA\",\n          \"amount\": 75.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 477718 CARD NO. 1272 CASH APP TAEYA SIMONE OAKLAND CA\",\n          \"amount\": 50.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 314585 CARD NO. 1272 CASH APP STEVEN MCKENZ OAKLAND CA\",\n          \"amount\": 75.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 472911 CARD NO. 1272 CASH APP SAM CRAWFORD OAKLAND CA\",\n          \"amount\": 10.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 040297 CARD NO. 1272 CASH APP KENNETH THOMP OAKLAND CA\",\n          \"amount\": 40.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/26/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 474161 CARD NO. 1272 CASH APP ANTONIO A STO OAKLAND CA\",\n          \"amount\": 250.0,\n          \"type\": \"Debit\"\n        }\n      ],\n      \"standard_deposit\": [\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"ONLINE DEPOSIT MOBILE DEPOSIT - CREDIT\",\n          \"amount\": 1350.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/04/2025\",\n          \"description\": \"ONLINE DEPOSIT MOBILE DEPOSIT - CREDIT\",\n          \"amount\": 2470.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"description\": \"ACH DEPOSIT PPD DFAS-CLEVELAND FED SALARY\",\n          \"amount\": 971.09,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"description\": \"ONLINE DEPOSIT MOBILE DEPOSIT - CREDIT\",\n          \"amount\": 40.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"description\": \"ONLINE DEPOSIT MOBILE DEPOSIT - CREDIT\",\n          \"amount\": 50.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"description\": \"ONLINE DEPOSIT MOBILE DEPOSIT - CREDIT\",\n          \"amount\": 116.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"description\": \"ONLINE DEPOSIT MOBILE DEPOSIT - CREDIT\",\n          \"amount\": 200.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"description\": \"ONLINE DEPOSIT MOBILE DEPOSIT - CREDIT\",\n          \"amount\": 250.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"description\": \"ONLINE DEPOSIT MOBILE DEPOSIT - CREDIT\",\n          \"amount\": 1000.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"description\": \"ACH DEPOSIT PPD DFAS-CLEVELAND FED SALARY\",\n          \"amount\": 1006.38,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        }\n      ],\n      \"standard_withdrawal\": [\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 208426 CARD NO. 1272 LYFT RIDE FRI 7AM SAN FRANCISC CA\",\n          \"amount\": 14.86,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 254717 CARD NO. 1272 LYFT RIDE FRI 4PM SAN FRANCISC CA\",\n          \"amount\": 15.84,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 307474 CARD NO. 1272 GOOGLE GOOGLE ONE MOUNTAIN VIEW CA\",\n          \"amount\": 1.99,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 898405 CARD NO. 1272 HARRISON VILLAGE COM INDIANAPOLIS IN\",\n          \"amount\": 214.83,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 356743 CARD NO. 1272 LYFT CANCEL FEE SAN FRANCISC CA\",\n          \"amount\": 5.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/04/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 674000 CARD NO. 1272 LYFT RIDE SUN 7PM SAN FRANCISC CA\",\n          \"amount\": 16.99,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/05/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 911214 CARD NO. 1272 LYFT RIDE MON 4PM SAN FRANCISC CA\",\n          \"amount\": 16.65,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/05/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 000000 CARD NO. 1272 AMAZON COM BT1MX4LS0 SEATTLE WA\",\n          \"amount\": 13.57,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/05/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 000000 CARD NO. 1272 AMAZON COM NK7IN8M32 SEATTLE WA\",\n          \"amount\": 9.48,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/05/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 000003 CARD NO. 1272 AMAZON COM NK4BF2Y41 SEATTLE WA\",\n          \"amount\": 24.26,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/06/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 405943 CARD NO. 1272 AMAZON DIGIT BT46H5N31 SEATTLE WA\",\n          \"amount\": 13.9,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 928401 CARD NO. 1272 ATT BILL PAYMENT DALLAS TX\",\n          \"amount\": 160.08,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 774773 CARD NO. 1272 LYFT RIDE THU 2PM SAN FRANCISC CA\",\n          \"amount\": 22.7,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 913821 CARD NO. 1272 LYFT RIDE THU 4PM SAN FRANCISC CA\",\n          \"amount\": 21.87,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 159289 CARD NO. 1272 LYFT RIDE THU 8PM SAN FRANCISC CA\",\n          \"amount\": 6.99,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 004723 CARD NO. 1272 RCI DINING SERVICES IN HENDERSON NV\",\n          \"amount\": 93.42,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 004715 CARD NO. 1272 RCI DINING SERVICES IN HENDERSON NV\",\n          \"amount\": 45.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 434296 CARD NO. 1272 LYFT RIDE FRI 5AM SAN FRANCISC CA\",\n          \"amount\": 13.16,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 002432 CARD NO. 1272 LYFT RIDE FRI 2PM SAN FRANCISC CA\",\n          \"amount\": 12.99,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 000274 CARD NO. 1272 RCI DINING SERVICES IN HENDERSON NV\",\n          \"amount\": 140.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 052066 CARD NO. 1272 FISHER N GO FISH AND INDIANAPOLIS IN\",\n          \"amount\": 26.13,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 052074 CARD NO. 1272 FISHER N GO FISH AND INDIANAPOLIS IN\",\n          \"amount\": 8.71,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Check 1196\",\n          \"amount\": 500.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 197921 CARD NO. 1272 LYFT RIDE MON 7AM SAN FRANCISC CA\",\n          \"amount\": 27.54,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 820237 CARD NO. 1272 LYFT MEMB NOV SAN FRANCISC CA\",\n          \"amount\": 9.99,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/14/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 040878 CARD NO. 1272 GOOGLE GOOGLE ONE MOUNTAIN VIEW CA\",\n          \"amount\": 1.99,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/14/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 887071 CARD NO. 1272 ILML3 PONTIAC MI\",\n          \"amount\": 26.99,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/14/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 232144 CARD NO. 1272 LYFT RIDE THU 4PM SAN FRANCISC CA\",\n          \"amount\": 11.99,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 507404 CARD NO. 1272 LYFT RIDE FRI 6AM SAN FRANCISC CA\",\n          \"amount\": 12.79,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 488686 CARD NO. 1272 LYFT RIDE FRI 4PM SAN FRANCISC CA\",\n          \"amount\": 17.86,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 164502 CARD NO. 1272 IIQ MYSCOREIQ COM HENDERSON NV\",\n          \"amount\": 34.99,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 475902 CARD NO. 1272 SPEEDWAY 43762 INDIANAPOLIS IN\",\n          \"amount\": 94.7,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 357596 CARD NO. 1272 SPEEDWAY 43762 INDIANAPOLIS IN\",\n          \"amount\": 8.93,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 414800 CARD NO. 1272 MCDONALD S F11652 INDIANAPOLIS IN\",\n          \"amount\": 18.5,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 000175 CARD NO. 1272 RCI DINING SERVICES IN HENDERSON NV\",\n          \"amount\": 82.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 885781 CARD NO. 1272 HARDEES 1504226 INDIANAPOLIS IN\",\n          \"amount\": 27.84,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 756107 CARD NO. 1272 SPEEDWAY 43763 LAWRENCE IN\",\n          \"amount\": 29.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 999205 CARD NO. 1272 SPEEDWAY 43737 INDIANAPOLIS IN\",\n          \"amount\": 10.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 000166 CARD NO. 1272 RCI DINING SERVICES IN HENDERSON NV\",\n          \"amount\": 117.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 000174 CARD NO. 1272 RCI DINING SERVICES IN HENDERSON NV\",\n          \"amount\": 72.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 000182 CARD NO. 1272 RCI DINING SERVICES IN HENDERSON NV\",\n          \"amount\": 48.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 000190 CARD NO. 1272 RCI DINING SERVICES IN HENDERSON NV\",\n          \"amount\": 54.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 159539 CARD NO. 1272 LYFT RIDE MON 7AM SAN FRANCISC CA\",\n          \"amount\": 12.99,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 022358 CARD NO. 1272 LYFT RIDE TUE 6AM SAN FRANCISC CA\",\n          \"amount\": 20.86,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/19/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 084199 CARD NO. 1272 PARAMOUNT WEST HOLLYWO CA\",\n          \"amount\": 12.99,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/19/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 000959 CARD NO. 1272 RCI DINING SERVICES IN HENDERSON NV\",\n          \"amount\": 90.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/19/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 408807 CARD NO. 1272 LYFT RIDE TUE 4PM SAN FRANCISC CA\",\n          \"amount\": 11.75,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/19/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 330992 CARD NO. 1272 LYFT RIDE TUE 9PM SAN FRANCISC CA\",\n          \"amount\": 10.38,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 000123 CARD NO. 1272 RCI DINING SERVICES IN HENDERSON NV\",\n          \"amount\": 50.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 214866 CARD NO. 1272 LYFT RIDE WED 6AM SAN FRANCISC CA\",\n          \"amount\": 15.99,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 984129 CARD NO. 1272 LYFT RIDE WED 4PM SAN FRANCISC CA\",\n          \"amount\": 16.84,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 584029 CARD NO. 1272 AES INDIANA EZ PAY INDIANAPOLIS IN\",\n          \"amount\": 301.95,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 466444 CARD NO. 1272 O REILLY 1467 INDIANAPOLIS IN\",\n          \"amount\": 94.81,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 806019 CARD NO. 1272 SPEEDWAY 43762 INDIANAPOLIS IN\",\n          \"amount\": 50.62,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 000852 CARD NO. 1272 CRACKER BARREL 49 IND INDIANAPOLIS IN\",\n          \"amount\": 63.8,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 056714 CARD NO. 1272 NNT BATTERIES PLUS 002 INDIANAPOLIS IN\",\n          \"amount\": 21.39,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 396203 CARD NO. 1272 SPEEDWAY 43737 INDIANAPOLIS IN\",\n          \"amount\": 11.59,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 583298 CARD NO. 1272 LYFT RIDE THU 4PM SAN FRANCISC CA\",\n          \"amount\": 24.68,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 105624 CARD NO. 1272 GOOGLE DROPBOX SECURE MOUNTAIN VIEW CA\",\n          \"amount\": 12.83,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 743150 CARD NO. 1272 LYFT RIDE FRI 7PM SAN FRANCISC CA\",\n          \"amount\": 10.8,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 000120 CARD NO. 1272 RCI DINING SERVICES IN HENDERSON NV\",\n          \"amount\": 72.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 000138 CARD NO. 1272 RCI DINING SERVICES IN HENDERSON NV\",\n          \"amount\": 36.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 820182 CARD NO. 1272 LYFT RIDE FRI 9PM SAN FRANCISC CA\",\n          \"amount\": 16.06,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"POS PURCHASE W/PIN RECORD NO. 539488 CARD NO. 1272 MIDLAND 104 INDIANAPOLIS IN\",\n          \"amount\": 20.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 588997 CARD NO. 1272 IHOP 3371 INDIANAPOLIS IN\",\n          \"amount\": 50.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 076254 CARD NO. 1272 LYFT RIDE FRI 11PM SAN FRANCISC CA\",\n          \"amount\": 9.87,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/25/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 579086 CARD NO. 1272 TST KING RIBS BAR B Q INDIANAPOLIS IN\",\n          \"amount\": 37.14,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/26/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 254097 CARD NO. 1272 UBER TRIP HELP UBER C 8005928996 CA\",\n          \"amount\": 8.77,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/28/2025\",\n          \"description\": \"POS PURCHASE RECORD NO. 094660 CARD NO. 1272 STARBUCKS STORE 13618 INDIANAPOLIS IN\",\n          \"amount\": 23.36,\n          \"type\": \"Debit\"\n        }\n      ]\n    }\n  ]\n}\n```",
+    "token_count": {
+      "estimated_tokens": 2910
+    },
+    "failure_reason": null
+  }
+}

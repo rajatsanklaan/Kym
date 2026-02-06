@@ -1,0 +1,2476 @@
+{
+  "document_name": "Case47.pdf",
+  "pipeline_status": "completed",
+  "processing_metadata": {
+    "start_time": "2026-02-04T15:00:51.337426",
+    "end_time": "2026-02-04T15:06:26.426831",
+    "parsing_time_seconds": 193.987985,
+    "bsi_time_seconds": 140.903554,
+    "total_time_seconds": 334.891539
+  },
+  "parsing_agent_result": {
+    "agent_name": "parsing_agent",
+    "processing_status": "success",
+    "start_time": "2026-02-04T15:00:51.522690",
+    "end_time": "2026-02-04T15:04:05.510291",
+    "parsed_json": {
+      "bank_statement_information": {
+        "bank_name": "BANK OF AMERICA",
+        "account_holder": "VOLKANO PAINTING ENTERPRISES LLC",
+        "statement_start_date": "11-01-2025",
+        "statement_end_date": "11-30-2025",
+        "n_days": 30,
+        "n_month": [
+          11
+        ],
+        "business_address": "657 CLIFTON AVE TOMS RIVER, NJ 08753-5516"
+      },
+      "accounts": [
+        {
+          "account_number": "381063622979",
+          "account_type": "Business Advantage Fundamentals Banking",
+          "account_summary": {
+            "beginning_balance": 3305.24,
+            "ending_balance": 89.35,
+            "total_deposits": 62367.26,
+            "total_withdrawals": 65583.15,
+            "total_deposits_count": 18,
+            "total_withdrawals_count": 164,
+            "avg_daily_balance": 5245.77,
+            "overdraft_days": 0
+          },
+          "transactions": [
+            {
+              "date": "11-03-2025",
+              "description": "Bank of America DES:CASHREWARD ID:PAINTING INDN:0000000011893669000000 CO ID:2002290310 PPD",
+              "amount": 26.32,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11-03-2025",
+              "description": "EZPASS8882886865 DES:AUTO REPL ID:5P-XXXXXXXXX INDN:DENIZ CELTIK ID:8131996647 PPD",
+              "amount": 140.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-03-2025",
+              "description": "BKOFAMERICA ATM 11/01 #000006465 WITHDRWL TOMS RIVER - ROUTE TOMS RIVER NJ",
+              "amount": 400.0,
+              "type": "Debit",
+              "category": "ATM/Cash Withdrawal"
+            },
+            {
+              "date": "11-03-2025",
+              "description": "PURCHASE 1031 SHERWIN-WILLIAMS705153 160-9597779 NJ",
+              "amount": 214.53,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-03-2025",
+              "description": "CHECKCARD 1031 KRAUSZERS FOOD STORE TOMS RIVER NJ 24055225305534155107359 CKCD 5499 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392",
+              "amount": 32.93,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-03-2025",
+              "description": "PURCHASE 1101 SHERWIN-WILLIAMS705153 160-9597779 NJ",
+              "amount": 457.14,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-03-2025",
+              "description": "BKOFAMERICA ATM 11/01 #000006464 WITHDRWL TOMS RIVER - ROUTE TOMS RIVER NJ",
+              "amount": 1500.0,
+              "type": "Debit",
+              "category": "ATM/Cash Withdrawal"
+            },
+            {
+              "date": "11-03-2025",
+              "description": "Ocean Resort C 10/31 #000412245 WITHDRWL Ocean Resort C ATLANTIC CITY NJ",
+              "amount": 507.99,
+              "type": "Debit",
+              "category": "ATM/Cash Withdrawal"
+            },
+            {
+              "date": "11-03-2025",
+              "description": "PURCHASE 1101 AMAZON MKTPL*N45MW3Y62 Amzn.com/billWA",
+              "amount": 24.5,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-03-2025",
+              "description": "Ocean Resort C 10/31 #000412245 WITHDRWL Ocean Resort C ATLANTIC CITY NJ FEE CKCD XXXXXXXXXXXX0661",
+              "amount": 2.5,
+              "type": "Debit",
+              "category": "Service Charges/Fees"
+            },
+            {
+              "date": "11-04-2025",
+              "description": "BKOFAMERICA MOBILE 11/04 3648123271 DEPOSIT",
+              "amount": 9560.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11-04-2025",
+              "description": "ALLY DES:ALLY PAYMT ID:228053584854 INDN:Deniz Celtik CO ID:9833122002 CCD",
+              "amount": 500.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11-05-2025",
+              "description": "Zelle payment to Domingo Vicente ortiz martinez Conf# cm55g3yo1",
+              "amount": 1450.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11-05-2025",
+              "description": "Zelle payment to Deniz Celtik Conf# c930w8yjj",
+              "amount": 800.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11-05-2025",
+              "description": "PURCHASE 1104 SHERWIN-WILLIAMS703458 190-8431010 NJ",
+              "amount": 91.2,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-05-2025",
+              "description": "BKOFAMERICA ATM 11/05 #000008653 WITHDRWL TOMS RIVER - ROUTE TOMS RIVER NJ",
+              "amount": 1500.0,
+              "type": "Debit",
+              "category": "ATM/Cash Withdrawal"
+            },
+            {
+              "date": "11-06-2025",
+              "description": "BKOFAMERICA MOBILE 11/06 3860923138 DEPOSIT",
+              "amount": 1800.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11-06-2025",
+              "description": "Zelle payment to Deniz Celtik Conf# c2eedsnwk",
+              "amount": 200.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11-06-2025",
+              "description": "Zelle payment to TURGAY TOKGOZ Conf# giwfwlnxf",
+              "amount": 800.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11-06-2025",
+              "description": "New Jersey Natural Gas Bill Payment",
+              "amount": 200.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-06-2025",
+              "description": "Veolia Water Bill Payment",
+              "amount": 100.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-06-2025",
+              "description": "PURCHASE 1105 SHERWIN-WILLIAMS705153 160-9597779 NJ",
+              "amount": 228.53,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-06-2025",
+              "description": "PNC BANK 11/06 #000009886 WITHDRWL PNC BANK TOMS RIVER NJ",
+              "amount": 200.0,
+              "type": "Debit",
+              "category": "ATM/Cash Withdrawal"
+            },
+            {
+              "date": "11-06-2025",
+              "description": "CHECKCARD 1105 THE TOWNSHIP OF TOMS RI TOMS RIVER NJ 24055225310539708596506 CKCD 7523 XXXXXXXXXXXX0661 XXXX XXXX XXXX 0661",
+              "amount": 0.75,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-06-2025",
+              "description": "ALDI 60051 11/06 #000642000 PURCHASE 740 ROUTE 37 WEST TOMS RIVER NJ",
+              "amount": 187.47,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-06-2025",
+              "description": "STOP & SHOP 08 11/06 #000642830 PURCHASE STOP & SHOP 0811 TOMS RIVER NJ",
+              "amount": 45.03,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-06-2025",
+              "description": "PNC BANK 11/06 #000009886 WITHDRWL PNC BANK TOMS RIVER NJ FEE CKCD XXXXXXXXXXXX0392",
+              "amount": 2.5,
+              "type": "Debit",
+              "category": "Service Charges/Fees"
+            },
+            {
+              "date": "11-07-2025",
+              "description": "1-800-690-1803 DES:UptempoMkt ID:260156 INDN:DENIZ CELTIK CO ID:XXXXXXXXX PPD",
+              "amount": 428.56,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-07-2025",
+              "description": "7ELEVEN-FCTI 11/07 #000850751 WITHDRWL 7ELEVEN-FCTI WALL TOWNSHIP NJ",
+              "amount": 203.95,
+              "type": "Debit",
+              "category": "ATM/Cash Withdrawal"
+            },
+            {
+              "date": "11-07-2025",
+              "description": "CHECKCARD 1106 APPLE.COM/BILL 866-712-7753 CA 24692165310100648795695 RECURRING CKCD 5818 XXXXXXXXXXXX0661 XXXX XXXX XXXX 0661",
+              "amount": 5.32,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-07-2025",
+              "description": "CHECKCARD 1106 APPLE COM BILL CUPERTINO CA 00000000000000000152084 RECURRING CKCD 4899 XXXXXXXXXXXX0661 XXXX XXXX XXXX 0661",
+              "amount": 20.25,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-07-2025",
+              "description": "STOP & SHOP 08 11/07 #000187359 PURCHASE STOP & SHOP 0811 TOMS RIVER NJ",
+              "amount": 19.38,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-07-2025",
+              "description": "7ELEVEN-FCTI 11/07 #000850751 WITHDRWL 7ELEVEN-FCTI WALL TOWNSHIP NJ FEE CKCD XXXXXXXXXXXX0392",
+              "amount": 2.5,
+              "type": "Debit",
+              "category": "Service Charges/Fees"
+            },
+            {
+              "date": "11-10-2025",
+              "description": "Counter Credit",
+              "amount": 16010.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11-10-2025",
+              "description": "BKOFAMERICA MOBILE 11/10 3651632012 DEPOSIT",
+              "amount": 1200.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11-10-2025",
+              "description": "Zelle payment to Madelin Boyaci Conf# ak4fnqynk",
+              "amount": 950.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11-10-2025",
+              "description": "Zelle payment to Madelin Boyaci Conf# h8k1o5rjo",
+              "amount": 540.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11-10-2025",
+              "description": "Zelle payment to TURGAY TOKGOZ Conf# g7k8btxdi",
+              "amount": 800.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11-10-2025",
+              "description": "AMERICAN EXPRESS DES:ACH PMT ID:A0388 INDN:DENIZ CELTIK CO ID:3133133497 CCD",
+              "amount": 129.2,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-10-2025",
+              "description": "CHECKCARD 1106 SHELL OIL 57546228503 TOMS RIVER NJ 24316055311541159414549 CKCD 5542 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392",
+              "amount": 41.08,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-10-2025",
+              "description": "PURCHASE 1107 SHERWIN-WILLIAMS705378 173-2752123 NJ",
+              "amount": 88.61,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-10-2025",
+              "description": "PNC BANK 11/08 #000004030 WITHDRWL PNC BANK MANAHAWKIN NJ",
+              "amount": 400.0,
+              "type": "Debit",
+              "category": "ATM/Cash Withdrawal"
+            },
+            {
+              "date": "11-10-2025",
+              "description": "CHECKCARD 1108 WAWA 953 TOMS RIVER NJ 24055245313543226737688 CKCD 5542 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392",
+              "amount": 34.64,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-10-2025",
+              "description": "THE HOME DEPOT 11/08 #000729378 PURCHASE THE HOME DEPOT #0 LAKEWOOD NJ",
+              "amount": 350.19,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-10-2025",
+              "description": "BKOFAMERICA ATM 11/10 #000009033 WITHDRWL TOMS RIVER - ROUTE TOMS RIVER NJ",
+              "amount": 550.0,
+              "type": "Debit",
+              "category": "ATM/Cash Withdrawal"
+            },
+            {
+              "date": "11-10-2025",
+              "description": "CHECKCARD 1107 Dicks Sporting Goods Brick NJ 24204295311001411210224 CKCD 5941 XXXXXXXXXXXX0661 XXXX XXXX XXXX 0661",
+              "amount": 168.27,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-10-2025",
+              "description": "PURCHASE 1108 AMAZON MKTPL*BT3NN4LX2 Amzn.com/billWA",
+              "amount": 9.27,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-10-2025",
+              "description": "CHECKCARD 1108 TMOBILE AUTO P BELLEVUE WA 00000000000000000432579 RECURRING CKCD 4814 XXXXXXXXXXXX0661 XXXX XXXX XXXX 0661",
+              "amount": 307.35,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-10-2025",
+              "description": "PURCHASE 1110 AMAZON MKTPL*BT3TG1791 Amzn.com/billWA",
+              "amount": 31.98,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-10-2025",
+              "description": "PURCHASE 1110 AMAZON MKTPL*BT5T137A0 Amzn.com/billWA",
+              "amount": 25.18,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-10-2025",
+              "description": "PNC BANK 11/08 #000004030 WITHDRWL PNC BANK MANAHAWKIN NJ FEE CKCD XXXXXXXXXXXX0392",
+              "amount": 2.5,
+              "type": "Debit",
+              "category": "Service Charges/Fees"
+            },
+            {
+              "date": "11-12-2025",
+              "description": "BKOFAMERICA MOBILE 11/11 3652170607 DEPOSIT",
+              "amount": 3400.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11-12-2025",
+              "description": "BKOFAMERICA MOBILE 11/11 3863623450 DEPOSIT",
+              "amount": 2550.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11-12-2025",
+              "description": "Zelle payment to Domingo Vicente ortiz martinez Conf# cmi0vx7zj",
+              "amount": 10000.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11-12-2025",
+              "description": "Zelle payment to Domingo Vicente ortiz martinez Conf# lbpp12oyk",
+              "amount": 3000.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11-12-2025",
+              "description": "Zelle payment to Deniz Celtik Conf# hhrh1qz5n",
+              "amount": 400.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11-12-2025",
+              "description": "Zelle payment to Daniely Dos Santos Conf# cr9i0zdv5",
+              "amount": 230.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11-12-2025",
+              "description": "BKOFAMERICA ATM 11/11 #000009141 WITHDRWL TOMS RIVER - ROUTE TOMS RIVER NJ",
+              "amount": 600.0,
+              "type": "Debit",
+              "category": "ATM/Cash Withdrawal"
+            },
+            {
+              "date": "11-12-2025",
+              "description": "PURCHASE 1111 SHERWIN-WILLIAMS701886 160-9339206 NJ",
+              "amount": 25.54,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-12-2025",
+              "description": "CHECKCARD 1111 WAWA 935 MANAHAWKIN NJ 24055245316546369445032 CKCD 5542 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392",
+              "amount": 42.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-12-2025",
+              "description": "PNC BANK 11/11 #000000225 WITHDRWL PNC BANK FORKED RIVER NJ",
+              "amount": 200.0,
+              "type": "Debit",
+              "category": "ATM/Cash Withdrawal"
+            },
+            {
+              "date": "11-12-2025",
+              "description": "PNC BANK 11/11 #000005224 WITHDRWL PNC BANK FORKED RIVER NJ",
+              "amount": 200.0,
+              "type": "Debit",
+              "category": "ATM/Cash Withdrawal"
+            },
+            {
+              "date": "11-12-2025",
+              "description": "SUNOCO CO-OP-U 11/11 #000558284 WITHDRWL SUNOCO CO-OP-U560 SOUTH AMBOY NJ",
+              "amount": 103.5,
+              "type": "Debit",
+              "category": "ATM/Cash Withdrawal"
+            },
+            {
+              "date": "11-12-2025",
+              "description": "STOP & SHOP 08 11/11 #000017147 PURCHASE STOP & SHOP 0811 TOMS RIVER NJ",
+              "amount": 52.52,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-12-2025",
+              "description": "BKOFAMERICA ATM 11/12 #000009434 WITHDRWL TOMS RIVER - ROUTE TOMS RIVER NJ",
+              "amount": 1300.0,
+              "type": "Debit",
+              "category": "ATM/Cash Withdrawal"
+            },
+            {
+              "date": "11-12-2025",
+              "description": "WELSH FARMS -7 11/12 #000817002 WITHDRWL WELSH FARMS -7155 LAKE COMO NJ",
+              "amount": 81.6,
+              "type": "Debit",
+              "category": "ATM/Cash Withdrawal"
+            },
+            {
+              "date": "11-12-2025",
+              "description": "SHOPRITE OF RO 11/12 #000772433 PURCHASE SHOPRITE OF ROUTE TOMS RIVER NJ",
+              "amount": 143.44,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-12-2025",
+              "description": "CHECKCARD 1111 EUROPEAN FOOD MARKET TOMS RIVER NJ 24116415315545821038937 CKCD 5411 XXXXXXXXXXXX0661 XXXX XXXX XXXX 0661",
+              "amount": 163.77,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-12-2025",
+              "description": "TARGET T-1154 11/12 #000050825 PURCHASE TARGET T-1154 Toms River NJ",
+              "amount": 56.12,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-12-2025",
+              "description": "CHECKCARD 1112 APPLE COM BILL CUPERTINO CA 00000000000000000198726 RECURRING CKCD 4899 XXXXXXXXXXXX0661 XXXX XXXX XXXX 0661",
+              "amount": 58.62,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-12-2025",
+              "description": "PNC BANK 11/11 #000000225 WITHDRWL PNC BANK FORKED RIVER NJ FEE CKCD XXXXXXXXXXXX0392",
+              "amount": 2.5,
+              "type": "Debit",
+              "category": "Service Charges/Fees"
+            },
+            {
+              "date": "11-12-2025",
+              "description": "PNC BANK 11/11 #000005224 WITHDRWL PNC BANK FORKED RIVER NJ FEE CKCD XXXXXXXXXXXX0392",
+              "amount": 2.5,
+              "type": "Debit",
+              "category": "Service Charges/Fees"
+            },
+            {
+              "date": "11-12-2025",
+              "description": "WELSH FARMS -7 11/12 #000817002 WITHDRWL WELSH FARMS -7155 LAKE COMO NJ FEE CKCD XXXXXXXXXXXX0392",
+              "amount": 2.5,
+              "type": "Debit",
+              "category": "Service Charges/Fees"
+            },
+            {
+              "date": "11-12-2025",
+              "description": "SUNOCO CO-OP-U 11/11 #000558284 WITHDRWL SUNOCO CO-OP-U560 SOUTH AMBOY NJ FEE CKCD XXXXXXXXXXXX0392",
+              "amount": 2.5,
+              "type": "Debit",
+              "category": "Service Charges/Fees"
+            },
+            {
+              "date": "11-13-2025",
+              "description": "DISCOVER DES:E-PAYMENT ID:8184 INDN:CELTIK DENIZ CO ID:3510020270 WEB",
+              "amount": 113.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-13-2025",
+              "description": "PURCHASE 1112 SHERWIN-WILLIAMS705153 160-9597779 NJ",
+              "amount": 103.91,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-13-2025",
+              "description": "BKOFAMERICA ATM 11/13 #000009663 WITHDRWL TOMS RIVER - ROUTE TOMS RIVER NJ",
+              "amount": 1500.0,
+              "type": "Debit",
+              "category": "ATM/Cash Withdrawal"
+            },
+            {
+              "date": "11-13-2025",
+              "description": "STOP & SHOP 08 11/13 #000602138 PURCHASE STOP & SHOP 0811 TOMS RIVER NJ",
+              "amount": 22.99,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-14-2025",
+              "description": "BKOFAMERICA MOBILE 11/14 3653698532 DEPOSIT",
+              "amount": 2500.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11-14-2025",
+              "description": "BKOFAMERICA MOBILE 11/14 3653695963 DEPOSIT",
+              "amount": 2200.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11-14-2025",
+              "description": "BKOFAMERICA ATM 11/14 #000003133 DEPOSIT TOMS RIVER - ROUTE TOMS RIVER NJ",
+              "amount": 1650.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11-14-2025",
+              "description": "Zelle payment to Heater Man Max Lopes Conf# fteq4qacd",
+              "amount": 150.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11-14-2025",
+              "description": "Zelle payment to Laura Flores Conf# f908raff9",
+              "amount": 600.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11-14-2025",
+              "description": "CAPITAL ONE DES:CRCARDPMT ID:CA07D6C02365E06 INDN:Volkan Celtik CO ID:9541719318 CCD",
+              "amount": 50.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-14-2025",
+              "description": "CHECKCARD 1113 SPEEDWAY 44765 TOMS RIVER NJ 24137465318001265480646 CKCD 5542 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392",
+              "amount": 41.5,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-14-2025",
+              "description": "7-ELEVEN 11/14 #000102173 PURCHASE 7-ELEVEN Wall Township NJ",
+              "amount": 39.15,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-14-2025",
+              "description": "KRAUSZERS - -1 11/14 #000786105 WITHDRWL KRAUSZERS - -1237 TOMS RIVER NJ",
+              "amount": 203.0,
+              "type": "Debit",
+              "category": "ATM/Cash Withdrawal"
+            },
+            {
+              "date": "11-14-2025",
+              "description": "BKOFAMERICA ATM 11/14 #000001204 WITHDRWL TOMS RIVER - ROUTE TOMS RIVER NJ",
+              "amount": 1000.0,
+              "type": "Debit",
+              "category": "ATM/Cash Withdrawal"
+            },
+            {
+              "date": "11-14-2025",
+              "description": "KRAUSZERS - -1 11/14 #000786105 WITHDRWL KRAUSZERS - -1237 TOMS RIVER NJ FEE CKCD XXXXXXXXXXXX0392",
+              "amount": 2.5,
+              "type": "Debit",
+              "category": "Service Charges/Fees"
+            },
+            {
+              "date": "11-17-2025",
+              "description": "BKOFAMERICA MOBILE 11/17 3655388486 DEPOSIT",
+              "amount": 16750.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11-17-2025",
+              "description": "Zelle payment from Conf# awtar6wg9",
+              "amount": 1600.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "11-17-2025",
+              "description": "THE HOME DEPOT 11/16 #000633382 REFUND THE HOME DEPOT #0 TOMS RIVER NJ",
+              "amount": 92.94,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11-17-2025",
+              "description": "Zelle payment to Domingo Vicente ortiz martinez Conf# ew23ispit",
+              "amount": 1500.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11-17-2025",
+              "description": "Zelle payment to Osito Oropeza Conf# fautsnjai",
+              "amount": 800.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11-17-2025",
+              "description": "Zelle payment to Madelin Boyaci Conf# ftxk71tvd",
+              "amount": 1270.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11-17-2025",
+              "description": "Zelle payment to TURGAY TOKGOZ Conf# iefqrjhxu",
+              "amount": 350.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11-17-2025",
+              "description": "FAY SERVICING DES:ACH PMTS ID:0050100326 INDN:DENIZ CELTIK CO ID:9412277737 PPD",
+              "amount": 4738.91,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-17-2025",
+              "description": "EZPASS8882886865 DES:AUTO REPL ID:5P-XXXXXXXXX INDN:DENIZ CELTIK CO ID:8131996647 PPD",
+              "amount": 140.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-17-2025",
+              "description": "BKOFAMERICA ATM 11/15 #000001381 WITHDRWL TOMS RIVER - ROUTE TOMS RIVER NJ",
+              "amount": 1500.0,
+              "type": "Debit",
+              "category": "ATM/Cash Withdrawal"
+            },
+            {
+              "date": "11-17-2025",
+              "description": "CHECKCARD 1115 SCHOOLCAFE 855-7292328 TX 24335505319807117350908 CKCD 8999 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392",
+              "amount": 101.95,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-17-2025",
+              "description": "CHECKCARD 1114 WAWA 995 TOMS RIVER NJ 24055245319549770647367 CKCD 5542 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392",
+              "amount": 40.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-17-2025",
+              "description": "Ocean Resort C 11/14 #000156768 WITHDRWL Ocean Resort C ATLANTIC CITY NJ",
+              "amount": 207.99,
+              "type": "Debit",
+              "category": "ATM/Cash Withdrawal"
+            },
+            {
+              "date": "11-17-2025",
+              "description": "OCEAN RESORTS 11/14 #000249957 PURCHASE OCEAN RESORTS CA ATLANTIC CITY NJ",
+              "amount": 520.45,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-17-2025",
+              "description": "OCEAN RESORTS 11/14 #000497204 PURCHASE OCEAN RESORTS CA ATLANTIC CITY NJ",
+              "amount": 520.45,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-17-2025",
+              "description": "OCEAN RESORTS 11/14 #000729846 PURCHASE OCEAN RESORTS CA ATLANTIC CITY NJ",
+              "amount": 520.45,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-17-2025",
+              "description": "OCEAN RESORTS 11/14 #000488830 PURCHASE OCEAN RESORTS CA ATLANTIC CITY NJ",
+              "amount": 313.45,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-17-2025",
+              "description": "CHECKCARD 1116 SPEEDWAY 44765 TOMS RIVER NJ 24137465321001136501542 CKCD 5542 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392",
+              "amount": 43.33,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-17-2025",
+              "description": "CHECKCARD 1116 TMOBILE AUTO P BELLEVUE WA 00000000000000000523691 RECURRING CKCD 4814 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392",
+              "amount": 87.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-17-2025",
+              "description": "CHECKCARD 1116 SHOPRITE OF ROUTE37 S1 TOMS RIVER NJ 24692165321100206926390 CKCD 5411 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392",
+              "amount": 12.99,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-17-2025",
+              "description": "BKOFAMERICA ATM 11/15 #000003550 WITHDRWL TOMS RIVER - ROUTE TOMS RIVER NJ",
+              "amount": 1500.0,
+              "type": "Debit",
+              "category": "ATM/Cash Withdrawal"
+            },
+            {
+              "date": "11-17-2025",
+              "description": "PURCHASE 1114 AMAZON MKTPL*B87KO7BJO Amzn.com/billWA",
+              "amount": 39.22,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-17-2025",
+              "description": "PURCHASE 1116 AMAZON MKTPL*B86TCOQI2 Amzn.com/billWA",
+              "amount": 29.84,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-17-2025",
+              "description": "PURCHASE 1117 AMAZON MKTPL*B80XU8100 Amzn.com/billWA",
+              "amount": 57.57,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-17-2025",
+              "description": "PURCHASE 1117 AMAZON MKTPL*B83EZ6WN1 Amzn.com/billWA",
+              "amount": 33.04,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-17-2025",
+              "description": "Ocean Resort C 11/14 #000156768 WITHDRWL Ocean Resort C ATLANTIC CITY NJ FEE CKCD XXXXXXXXXXXX0392",
+              "amount": 2.5,
+              "type": "Debit",
+              "category": "Service Charges/Fees"
+            },
+            {
+              "date": "11-18-2025",
+              "description": "Zelle payment to Domingo Vicente ortiz martinez Conf# dn3mjq243",
+              "amount": 300.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11-18-2025",
+              "description": "Zelle payment to Osito Oropeza Conf# bkk0q1ede",
+              "amount": 200.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11-18-2025",
+              "description": "Zelle payment to TURGAY TOKGOZ Conf# blgkljap4",
+              "amount": 2200.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11-18-2025",
+              "description": "Zelle payment to Sezgin Conf# bmbh1cvs1",
+              "amount": 2.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11-18-2025",
+              "description": "TRACTOR SUPPLY 11/18 #000938978 PURCHASE TRACTOR SUPPLY # Toms River NJ",
+              "amount": 96.02,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-18-2025",
+              "description": "ALDI 60051 11/18 #000277000 PURCHASE 740 ROUTE 37 WEST TOMS RIVER NJ",
+              "amount": 182.22,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-18-2025",
+              "description": "STOP & SHOP 08 11/18 #000106623 PURCHASE STOP & SHOP 0811 TOMS RIVER NJ",
+              "amount": 144.58,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-19-2025",
+              "description": "Zelle payment to Kasim Abi Conf# bx2wniqwx",
+              "amount": 800.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11-19-2025",
+              "description": "Zelle payment to Carlos Villabon Sanchez Conf# c2mwx6yg3",
+              "amount": 2500.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11-19-2025",
+              "description": "PURCHASE 1118 AMAZON MKTPL*B07QP3LH0 Amzn.com/billWA",
+              "amount": 33.04,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-19-2025",
+              "description": "CHECKCARD 1118 SINGIN TOMS RIVER NJ 24055225323553969556351 CKCD 5499 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392",
+              "amount": 18.64,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-19-2025",
+              "description": "PURCHASE 1118 AMAZON MKTPL*B09GK3Z30 Amzn.com/billWA",
+              "amount": 26.65,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-19-2025",
+              "description": "CHECKCARD 1118 WAWA 700 SHIPBOTTOM NJ 24055245323554053683653 CKCD 5499 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392",
+              "amount": 16.19,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-19-2025",
+              "description": "PURCHASE 1118 SHERWIN-WILLIAMS705153 160-9597779 NJ",
+              "amount": 78.9,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-19-2025",
+              "description": "CHECKCARD 1118 WAWA 429 MANCHESTER TONJ 24055245323554040150550 CKCD 5499 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392",
+              "amount": 13.43,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-19-2025",
+              "description": "CHECKCARD 1119 TIKTOK SHOP TIKTOK.COM CA 24036295323742254510911 CKCD 5399 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392",
+              "amount": 208.62,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-19-2025",
+              "description": "PNC BANK 11/19 #000002391 WITHDRWL PNC BANK TOMS RIVER NJ",
+              "amount": 200.0,
+              "type": "Debit",
+              "category": "ATM/Cash Withdrawal"
+            },
+            {
+              "date": "11-19-2025",
+              "description": "CHECKCARD 1118 TUCKERTOWN LUMBER COMPA SURF CITY NJ 24801975322553638464399 CKCD 5211 XXXXXXXXXXXX0661 XXXX XXXX XXXX 0661",
+              "amount": 1300.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-19-2025",
+              "description": "CHECKCARD 1118 EUROPEAN FOOD MARKET TOMS RIVER NJ 24116415322553486036726 CKCD 5411 XXXXXXXXXXXX0661 XXXX XXXX XXXX 0661",
+              "amount": 47.84,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-19-2025",
+              "description": "PNC BANK 11/19 #000002391 WITHDRWL PNC BANK TOMS RIVER NJ FEE CKCD XXXXXXXXXXXX0392",
+              "amount": 2.5,
+              "type": "Debit",
+              "category": "Service Charges/Fees"
+            },
+            {
+              "date": "11-20-2025",
+              "description": "CHECKCARD 1119 SINGIN TOMS RIVER NJ 24055225324555075613678 CKCD 5499 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392",
+              "amount": 15.45,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-20-2025",
+              "description": "CHECKCARD 1119 WAWA 371 TUCKERTON NJ 24055245324555138433963 CKCD 5542 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392",
+              "amount": 37.3,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-20-2025",
+              "description": "CHECKCARD 1119 WAWA 700 SHIPBOTTOM NJ 24055245324555153344301 CKCD 5499 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392",
+              "amount": 16.19,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-20-2025",
+              "description": "CHECKCARD 1119 TURKISH AIRLINES/WEB ISTANBUL 74779595324031419725590 CKCD 3047 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392",
+              "amount": 330.56,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-20-2025",
+              "description": "THE HOME DEPOT 11/20 #000635973 PURCHASE THE HOME DEPOT #0 TOMS RIVER NJ",
+              "amount": 47.9,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-20-2025",
+              "description": "PURCHASE 1119 STATE FARM INSURANCE 800-956-6310 IL",
+              "amount": 503.44,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-20-2025",
+              "description": "CHECKCARD 1119 TURKISH AIRLINES/WEB ISTANBUL 74779595324031419725590 CKCD 3047 XXXXXXXXXXXX0392 INTERNATIONAL TRANSACTION FEE",
+              "amount": 9.92,
+              "type": "Debit",
+              "category": "Service Charges/Fees"
+            },
+            {
+              "date": "11-21-2025",
+              "description": "BKOFAMERICA MOBILE 11/21 3869496610 DEPOSIT",
+              "amount": 1600.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11-21-2025",
+              "description": "1-800-690-1803 DES:UptempoMkt ID:260156 INDN:DENIZ CELTIK CO ID:XXXXXXXXX PPD",
+              "amount": 428.56,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-21-2025",
+              "description": "Credit One Bank DES:Payment ID:58026167 INDN:CELTIK,DENIZ CO ID:WEB000004 WEB",
+              "amount": 61.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-21-2025",
+              "description": "PURCHASE 1120 AMAZON MKTPL*B006H6X32 Amzn.com/billWA",
+              "amount": 120.54,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-21-2025",
+              "description": "PURCHASE 1120 AMAZON MKTPL*B02G68HX1 Amzn.com/billWA",
+              "amount": 47.34,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-21-2025",
+              "description": "PURCHASE 1120 SHERWIN-WILLIAMS705026 173-2506070 NJ",
+              "amount": 172.28,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-21-2025",
+              "description": "CHECKCARD 1120 SINGIN TOMS RIVER NJ 24055225325556195694399 CKCD 5499 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392",
+              "amount": 15.45,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-21-2025",
+              "description": "PURCHASE 1120 SHERWIN-WILLIAMS701886 160-9339206 NJ",
+              "amount": 81.94,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-21-2025",
+              "description": "CHECKCARD 1120 WAWA 988 FORKED RIVER NJ 24055245325556292686890 CKCD 5541 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392",
+              "amount": 40.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-21-2025",
+              "description": "CHECKCARD 1120 WAWA 994 MANAHAWKIN NJ 24055245325556292783127 CKCD 5541 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392",
+              "amount": 16.82,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-21-2025",
+              "description": "PNC BANK 11/21 #000006031 WITHDRWL PNC BANK FORKED RIVER NJ",
+              "amount": 200.0,
+              "type": "Debit",
+              "category": "ATM/Cash Withdrawal"
+            },
+            {
+              "date": "11-21-2025",
+              "description": "CHECKCARD 1120 APPLE.COM/BILL 866-712-7753 CA 24692165324103272170262 RECURRING CKCD 5818 XXXXXXXXXXXX0661 XXXX XXXX XXXX 0661",
+              "amount": 2.99,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-21-2025",
+              "description": "CHECKCARD 1120 APPLE.COM/BILL 866-712-7753 CA 24692165324103439525218 RECURRING CKCD 5818 XXXXXXXXXXXX0661 XXXX XXXX XXXX 0661",
+              "amount": 5.32,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-21-2025",
+              "description": "WAL-MART #1844 11/21 #000260508 PURCHASE 950 ROUTE 37 W TOMS RIVER NJ",
+              "amount": 150.45,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-21-2025",
+              "description": "PNC BANK 11/21 #000006031 WITHDRWL PNC BANK FORKED RIVER NJ FEE CKCD XXXXXXXXXXXX0392",
+              "amount": 2.5,
+              "type": "Debit",
+              "category": "Service Charges/Fees"
+            },
+            {
+              "date": "11-24-2025",
+              "description": "BKOFAMERICA ATM 11/22 #000003407 DEPOSIT TOMS RIVER - ROUTE TOMS RIVER NJ",
+              "amount": 750.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11-24-2025",
+              "description": "Zelle payment to Domingo Vicente ortiz martinez Conf# d6dh7i8y6",
+              "amount": 1970.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11-24-2025",
+              "description": "Zelle payment to Osito Oropeza Conf# d0ldag6g0",
+              "amount": 1000.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11-24-2025",
+              "description": "Zelle payment to Madelin Boyaci Conf# hdmeccgqe",
+              "amount": 650.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11-24-2025",
+              "description": "PURCHASE 1121 AMAZON MKTPL*B01KU3DN2 Amzn.com/billWA",
+              "amount": 193.95,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-24-2025",
+              "description": "CHECKCARD 1121 SINGIN TOMS RIVER NJ 24055225326557356077704 CKCD 5499 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392",
+              "amount": 15.45,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-24-2025",
+              "description": "CHECKCARD 1121 SHERWIN-WILLIAMS705026 TOMS RIVER NJ 24793385325002513225094 CKCD 5231 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392",
+              "amount": 48.01,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-24-2025",
+              "description": "CHECKCARD 1121 WAWA 8433 PISCATAWAY NJ 24055245326557471206814 CKCD 5542 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392",
+              "amount": 31.13,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-24-2025",
+              "description": "CHECKCARD 1121 WAWA 8433 PISCATAWAY NJ 24055245326557471206806 CKCD 5541 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392",
+              "amount": 22.47,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-24-2025",
+              "description": "PURCHASE 1122 SHERWIN-WILLIAMS705153 160-9597779 NJ",
+              "amount": 268.16,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-24-2025",
+              "description": "BP GAS INDIA-1 11/22 #000315163 WITHDRWL BP GAS INDIA-1629 MANAHAWKIN NJ",
+              "amount": 202.0,
+              "type": "Debit",
+              "category": "ATM/Cash Withdrawal"
+            },
+            {
+              "date": "11-24-2025",
+              "description": "PNC BANK 11/22 #000003039 WITHDRWL PNC BANK TOMS RIVER NJ",
+              "amount": 200.0,
+              "type": "Debit",
+              "category": "ATM/Cash Withdrawal"
+            },
+            {
+              "date": "11-24-2025",
+              "description": "PURCHASE 1123 DD *DDDOORDASHDOMINOS DOORDASH.COM CA",
+              "amount": 34.17,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-24-2025",
+              "description": "CHECKCARD 1122 EFES HALAL FOOD MARKET DELRAN NJ 24435655327136837417967 CKCD 5411 XXXXXXXXXXXX0661 XXXX XXXX XXXX 0661",
+              "amount": 80.96,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-24-2025",
+              "description": "PNC BANK 11/22 #000003039 WITHDRWL PNC BANK TOMS RIVER NJ FEE CKCD XXXXXXXXXXXX0392",
+              "amount": 2.5,
+              "type": "Debit",
+              "category": "Service Charges/Fees"
+            },
+            {
+              "date": "11-24-2025",
+              "description": "BP GAS INDIA-1 11/22 #000315163 WITHDRWL BP GAS INDIA-1629 MANAHAWKIN NJ FEE CKCD XXXXXXXXXXXX0392",
+              "amount": 2.5,
+              "type": "Debit",
+              "category": "Service Charges/Fees"
+            },
+            {
+              "date": "11-26-2025",
+              "description": "BKOFAMERICA MOBILE 11/26 3600489474 DEPOSIT",
+              "amount": 400.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11-28-2025",
+              "description": "BKOFAMERICA ATM 11/27 #000006127 DEPOSIT TOMS RIVER - ROUTE TOMS RIVER NJ",
+              "amount": 75.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11-28-2025",
+              "description": "BKOFAMERICA ATM 11/27 #000006132 DEPOSIT TOMS RIVER - ROUTE TOMS RIVER NJ",
+              "amount": 203.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11-28-2025",
+              "description": "Zelle payment to Daniely Dos Santos Conf# ca5hnd8ba",
+              "amount": 230.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11-28-2025",
+              "description": "CAPITAL ONE DES:CRCARDPMT ID:CA07F76B21F302F INDN:Volkan Celtik CO ID:9541719318 CCD",
+              "amount": 55.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-28-2025",
+              "description": "PURCHASE 1126 AMAZON RETA* B20RJ37P1 WWW.AMAZON.COWA",
+              "amount": 22.36,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-28-2025",
+              "description": "PURCHASE 1126 AMAZON MKTPL*B25E23U02 Amzn.com/billWA",
+              "amount": 6.99,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-28-2025",
+              "description": "BKOFAMERICA ATM 11/27 #000006133 WITHDRWL TOMS RIVER - ROUTE TOMS RIVER NJ",
+              "amount": 350.0,
+              "type": "Debit",
+              "category": "ATM/Cash Withdrawal"
+            },
+            {
+              "date": "11-28-2025",
+              "description": "CHECKCARD 1127 APPLE.COM/BILL 866-712-7753 CA 24692165331100337995452 RECURRING CKCD 5818 XXXXXXXXXXXX0661 XXXX XXXX XXXX 0661",
+              "amount": 5.32,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            }
+          ]
+        }
+      ]
+    },
+    "raw_output": "```json\n{\n  \"bank_statement_information\": {\n    \"bank_name\": \"BANK OF AMERICA\",\n    \"account_holder\": \"VOLKANO PAINTING ENTERPRISES LLC\",\n    \"statement_start_date\": \"11-01-2025\",\n    \"statement_end_date\": \"11-30-2025\",\n    \"n_days\": 30,\n    \"n_month\": [\n      11\n    ],\n    \"business_address\": \"657 CLIFTON AVE TOMS RIVER, NJ 08753-5516\"\n  },\n  \"accounts\": [\n    {\n      \"account_number\": \"381063622979\",\n      \"account_type\": \"Business Advantage Fundamentals Banking\",\n      \"account_summary\": {\n        \"beginning_balance\": 3305.24,\n        \"ending_balance\": 89.35,\n        \"total_deposits\": 62367.26,\n        \"total_withdrawals\": 65583.15,\n        \"total_deposits_count\": 18,\n        \"total_withdrawals_count\": 164,\n        \"avg_daily_balance\": 5245.77,\n        \"overdraft_days\": 0\n      },\n      \"transactions\": [\n        {\n          \"date\": \"11-03-2025\",\n          \"description\": \"Bank of America DES:CASHREWARD ID:PAINTING INDN:0000000011893669000000 CO ID:2002290310 PPD\",\n          \"amount\": 26.32,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11-03-2025\",\n          \"description\": \"EZPASS8882886865 DES:AUTO REPL ID:5P-XXXXXXXXX INDN:DENIZ CELTIK ID:8131996647 PPD\",\n          \"amount\": 140.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-03-2025\",\n          \"description\": \"BKOFAMERICA ATM 11/01 #000006465 WITHDRWL TOMS RIVER - ROUTE TOMS RIVER NJ\",\n          \"amount\": 400.0,\n          \"type\": \"Debit\",\n          \"category\": \"ATM/Cash Withdrawal\"\n        },\n        {\n          \"date\": \"11-03-2025\",\n          \"description\": \"PURCHASE 1031 SHERWIN-WILLIAMS705153 160-9597779 NJ\",\n          \"amount\": 214.53,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-03-2025\",\n          \"description\": \"CHECKCARD 1031 KRAUSZERS FOOD STORE TOMS RIVER NJ 24055225305534155107359 CKCD 5499 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392\",\n          \"amount\": 32.93,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-03-2025\",\n          \"description\": \"PURCHASE 1101 SHERWIN-WILLIAMS705153 160-9597779 NJ\",\n          \"amount\": 457.14,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-03-2025\",\n          \"description\": \"BKOFAMERICA ATM 11/01 #000006464 WITHDRWL TOMS RIVER - ROUTE TOMS RIVER NJ\",\n          \"amount\": 1500.0,\n          \"type\": \"Debit\",\n          \"category\": \"ATM/Cash Withdrawal\"\n        },\n        {\n          \"date\": \"11-03-2025\",\n          \"description\": \"Ocean Resort C 10/31 #000412245 WITHDRWL Ocean Resort C ATLANTIC CITY NJ\",\n          \"amount\": 507.99,\n          \"type\": \"Debit\",\n          \"category\": \"ATM/Cash Withdrawal\"\n        },\n        {\n          \"date\": \"11-03-2025\",\n          \"description\": \"PURCHASE 1101 AMAZON MKTPL*N45MW3Y62 Amzn.com/billWA\",\n          \"amount\": 24.5,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-03-2025\",\n          \"description\": \"Ocean Resort C 10/31 #000412245 WITHDRWL Ocean Resort C ATLANTIC CITY NJ FEE CKCD XXXXXXXXXXXX0661\",\n          \"amount\": 2.5,\n          \"type\": \"Debit\",\n          \"category\": \"Service Charges/Fees\"\n        },\n        {\n          \"date\": \"11-04-2025\",\n          \"description\": \"BKOFAMERICA MOBILE 11/04 3648123271 DEPOSIT\",\n          \"amount\": 9560.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11-04-2025\",\n          \"description\": \"ALLY DES:ALLY PAYMT ID:228053584854 INDN:Deniz Celtik CO ID:9833122002 CCD\",\n          \"amount\": 500.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11-05-2025\",\n          \"description\": \"Zelle payment to Domingo Vicente ortiz martinez Conf# cm55g3yo1\",\n          \"amount\": 1450.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11-05-2025\",\n          \"description\": \"Zelle payment to Deniz Celtik Conf# c930w8yjj\",\n          \"amount\": 800.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11-05-2025\",\n          \"description\": \"PURCHASE 1104 SHERWIN-WILLIAMS703458 190-8431010 NJ\",\n          \"amount\": 91.2,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-05-2025\",\n          \"description\": \"BKOFAMERICA ATM 11/05 #000008653 WITHDRWL TOMS RIVER - ROUTE TOMS RIVER NJ\",\n          \"amount\": 1500.0,\n          \"type\": \"Debit\",\n          \"category\": \"ATM/Cash Withdrawal\"\n        },\n        {\n          \"date\": \"11-06-2025\",\n          \"description\": \"BKOFAMERICA MOBILE 11/06 3860923138 DEPOSIT\",\n          \"amount\": 1800.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11-06-2025\",\n          \"description\": \"Zelle payment to Deniz Celtik Conf# c2eedsnwk\",\n          \"amount\": 200.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11-06-2025\",\n          \"description\": \"Zelle payment to TURGAY TOKGOZ Conf# giwfwlnxf\",\n          \"amount\": 800.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11-06-2025\",\n          \"description\": \"New Jersey Natural Gas Bill Payment\",\n          \"amount\": 200.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-06-2025\",\n          \"description\": \"Veolia Water Bill Payment\",\n          \"amount\": 100.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-06-2025\",\n          \"description\": \"PURCHASE 1105 SHERWIN-WILLIAMS705153 160-9597779 NJ\",\n          \"amount\": 228.53,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-06-2025\",\n          \"description\": \"PNC BANK 11/06 #000009886 WITHDRWL PNC BANK TOMS RIVER NJ\",\n          \"amount\": 200.0,\n          \"type\": \"Debit\",\n          \"category\": \"ATM/Cash Withdrawal\"\n        },\n        {\n          \"date\": \"11-06-2025\",\n          \"description\": \"CHECKCARD 1105 THE TOWNSHIP OF TOMS RI TOMS RIVER NJ 24055225310539708596506 CKCD 7523 XXXXXXXXXXXX0661 XXXX XXXX XXXX 0661\",\n          \"amount\": 0.75,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-06-2025\",\n          \"description\": \"ALDI 60051 11/06 #000642000 PURCHASE 740 ROUTE 37 WEST TOMS RIVER NJ\",\n          \"amount\": 187.47,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-06-2025\",\n          \"description\": \"STOP & SHOP 08 11/06 #000642830 PURCHASE STOP & SHOP 0811 TOMS RIVER NJ\",\n          \"amount\": 45.03,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-06-2025\",\n          \"description\": \"PNC BANK 11/06 #000009886 WITHDRWL PNC BANK TOMS RIVER NJ FEE CKCD XXXXXXXXXXXX0392\",\n          \"amount\": 2.5,\n          \"type\": \"Debit\",\n          \"category\": \"Service Charges/Fees\"\n        },\n        {\n          \"date\": \"11-07-2025\",\n          \"description\": \"1-800-690-1803 DES:UptempoMkt ID:260156 INDN:DENIZ CELTIK CO ID:XXXXXXXXX PPD\",\n          \"amount\": 428.56,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-07-2025\",\n          \"description\": \"7ELEVEN-FCTI 11/07 #000850751 WITHDRWL 7ELEVEN-FCTI WALL TOWNSHIP NJ\",\n          \"amount\": 203.95,\n          \"type\": \"Debit\",\n          \"category\": \"ATM/Cash Withdrawal\"\n        },\n        {\n          \"date\": \"11-07-2025\",\n          \"description\": \"CHECKCARD 1106 APPLE.COM/BILL 866-712-7753 CA 24692165310100648795695 RECURRING CKCD 5818 XXXXXXXXXXXX0661 XXXX XXXX XXXX 0661\",\n          \"amount\": 5.32,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-07-2025\",\n          \"description\": \"CHECKCARD 1106 APPLE COM BILL CUPERTINO CA 00000000000000000152084 RECURRING CKCD 4899 XXXXXXXXXXXX0661 XXXX XXXX XXXX 0661\",\n          \"amount\": 20.25,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-07-2025\",\n          \"description\": \"STOP & SHOP 08 11/07 #000187359 PURCHASE STOP & SHOP 0811 TOMS RIVER NJ\",\n          \"amount\": 19.38,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-07-2025\",\n          \"description\": \"7ELEVEN-FCTI 11/07 #000850751 WITHDRWL 7ELEVEN-FCTI WALL TOWNSHIP NJ FEE CKCD XXXXXXXXXXXX0392\",\n          \"amount\": 2.5,\n          \"type\": \"Debit\",\n          \"category\": \"Service Charges/Fees\"\n        },\n        {\n          \"date\": \"11-10-2025\",\n          \"description\": \"Counter Credit\",\n          \"amount\": 16010.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11-10-2025\",\n          \"description\": \"BKOFAMERICA MOBILE 11/10 3651632012 DEPOSIT\",\n          \"amount\": 1200.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11-10-2025\",\n          \"description\": \"Zelle payment to Madelin Boyaci Conf# ak4fnqynk\",\n          \"amount\": 950.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11-10-2025\",\n          \"description\": \"Zelle payment to Madelin Boyaci Conf# h8k1o5rjo\",\n          \"amount\": 540.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11-10-2025\",\n          \"description\": \"Zelle payment to TURGAY TOKGOZ Conf# g7k8btxdi\",\n          \"amount\": 800.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11-10-2025\",\n          \"description\": \"AMERICAN EXPRESS DES:ACH PMT ID:A0388 INDN:DENIZ CELTIK CO ID:3133133497 CCD\",\n          \"amount\": 129.2,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-10-2025\",\n          \"description\": \"CHECKCARD 1106 SHELL OIL 57546228503 TOMS RIVER NJ 24316055311541159414549 CKCD 5542 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392\",\n          \"amount\": 41.08,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-10-2025\",\n          \"description\": \"PURCHASE 1107 SHERWIN-WILLIAMS705378 173-2752123 NJ\",\n          \"amount\": 88.61,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-10-2025\",\n          \"description\": \"PNC BANK 11/08 #000004030 WITHDRWL PNC BANK MANAHAWKIN NJ\",\n          \"amount\": 400.0,\n          \"type\": \"Debit\",\n          \"category\": \"ATM/Cash Withdrawal\"\n        },\n        {\n          \"date\": \"11-10-2025\",\n          \"description\": \"CHECKCARD 1108 WAWA 953 TOMS RIVER NJ 24055245313543226737688 CKCD 5542 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392\",\n          \"amount\": 34.64,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-10-2025\",\n          \"description\": \"THE HOME DEPOT 11/08 #000729378 PURCHASE THE HOME DEPOT #0 LAKEWOOD NJ\",\n          \"amount\": 350.19,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-10-2025\",\n          \"description\": \"BKOFAMERICA ATM 11/10 #000009033 WITHDRWL TOMS RIVER - ROUTE TOMS RIVER NJ\",\n          \"amount\": 550.0,\n          \"type\": \"Debit\",\n          \"category\": \"ATM/Cash Withdrawal\"\n        },\n        {\n          \"date\": \"11-10-2025\",\n          \"description\": \"CHECKCARD 1107 Dicks Sporting Goods Brick NJ 24204295311001411210224 CKCD 5941 XXXXXXXXXXXX0661 XXXX XXXX XXXX 0661\",\n          \"amount\": 168.27,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-10-2025\",\n          \"description\": \"PURCHASE 1108 AMAZON MKTPL*BT3NN4LX2 Amzn.com/billWA\",\n          \"amount\": 9.27,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-10-2025\",\n          \"description\": \"CHECKCARD 1108 TMOBILE AUTO P BELLEVUE WA 00000000000000000432579 RECURRING CKCD 4814 XXXXXXXXXXXX0661 XXXX XXXX XXXX 0661\",\n          \"amount\": 307.35,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-10-2025\",\n          \"description\": \"PURCHASE 1110 AMAZON MKTPL*BT3TG1791 Amzn.com/billWA\",\n          \"amount\": 31.98,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-10-2025\",\n          \"description\": \"PURCHASE 1110 AMAZON MKTPL*BT5T137A0 Amzn.com/billWA\",\n          \"amount\": 25.18,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-10-2025\",\n          \"description\": \"PNC BANK 11/08 #000004030 WITHDRWL PNC BANK MANAHAWKIN NJ FEE CKCD XXXXXXXXXXXX0392\",\n          \"amount\": 2.5,\n          \"type\": \"Debit\",\n          \"category\": \"Service Charges/Fees\"\n        },\n        {\n          \"date\": \"11-12-2025\",\n          \"description\": \"BKOFAMERICA MOBILE 11/11 3652170607 DEPOSIT\",\n          \"amount\": 3400.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11-12-2025\",\n          \"description\": \"BKOFAMERICA MOBILE 11/11 3863623450 DEPOSIT\",\n          \"amount\": 2550.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11-12-2025\",\n          \"description\": \"Zelle payment to Domingo Vicente ortiz martinez Conf# cmi0vx7zj\",\n          \"amount\": 10000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11-12-2025\",\n          \"description\": \"Zelle payment to Domingo Vicente ortiz martinez Conf# lbpp12oyk\",\n          \"amount\": 3000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11-12-2025\",\n          \"description\": \"Zelle payment to Deniz Celtik Conf# hhrh1qz5n\",\n          \"amount\": 400.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11-12-2025\",\n          \"description\": \"Zelle payment to Daniely Dos Santos Conf# cr9i0zdv5\",\n          \"amount\": 230.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11-12-2025\",\n          \"description\": \"BKOFAMERICA ATM 11/11 #000009141 WITHDRWL TOMS RIVER - ROUTE TOMS RIVER NJ\",\n          \"amount\": 600.0,\n          \"type\": \"Debit\",\n          \"category\": \"ATM/Cash Withdrawal\"\n        },\n        {\n          \"date\": \"11-12-2025\",\n          \"description\": \"PURCHASE 1111 SHERWIN-WILLIAMS701886 160-9339206 NJ\",\n          \"amount\": 25.54,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-12-2025\",\n          \"description\": \"CHECKCARD 1111 WAWA 935 MANAHAWKIN NJ 24055245316546369445032 CKCD 5542 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392\",\n          \"amount\": 42.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-12-2025\",\n          \"description\": \"PNC BANK 11/11 #000000225 WITHDRWL PNC BANK FORKED RIVER NJ\",\n          \"amount\": 200.0,\n          \"type\": \"Debit\",\n          \"category\": \"ATM/Cash Withdrawal\"\n        },\n        {\n          \"date\": \"11-12-2025\",\n          \"description\": \"PNC BANK 11/11 #000005224 WITHDRWL PNC BANK FORKED RIVER NJ\",\n          \"amount\": 200.0,\n          \"type\": \"Debit\",\n          \"category\": \"ATM/Cash Withdrawal\"\n        },\n        {\n          \"date\": \"11-12-2025\",\n          \"description\": \"SUNOCO CO-OP-U 11/11 #000558284 WITHDRWL SUNOCO CO-OP-U560 SOUTH AMBOY NJ\",\n          \"amount\": 103.5,\n          \"type\": \"Debit\",\n          \"category\": \"ATM/Cash Withdrawal\"\n        },\n        {\n          \"date\": \"11-12-2025\",\n          \"description\": \"STOP & SHOP 08 11/11 #000017147 PURCHASE STOP & SHOP 0811 TOMS RIVER NJ\",\n          \"amount\": 52.52,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-12-2025\",\n          \"description\": \"BKOFAMERICA ATM 11/12 #000009434 WITHDRWL TOMS RIVER - ROUTE TOMS RIVER NJ\",\n          \"amount\": 1300.0,\n          \"type\": \"Debit\",\n          \"category\": \"ATM/Cash Withdrawal\"\n        },\n        {\n          \"date\": \"11-12-2025\",\n          \"description\": \"WELSH FARMS -7 11/12 #000817002 WITHDRWL WELSH FARMS -7155 LAKE COMO NJ\",\n          \"amount\": 81.6,\n          \"type\": \"Debit\",\n          \"category\": \"ATM/Cash Withdrawal\"\n        },\n        {\n          \"date\": \"11-12-2025\",\n          \"description\": \"SHOPRITE OF RO 11/12 #000772433 PURCHASE SHOPRITE OF ROUTE TOMS RIVER NJ\",\n          \"amount\": 143.44,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-12-2025\",\n          \"description\": \"CHECKCARD 1111 EUROPEAN FOOD MARKET TOMS RIVER NJ 24116415315545821038937 CKCD 5411 XXXXXXXXXXXX0661 XXXX XXXX XXXX 0661\",\n          \"amount\": 163.77,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-12-2025\",\n          \"description\": \"TARGET T-1154 11/12 #000050825 PURCHASE TARGET T-1154 Toms River NJ\",\n          \"amount\": 56.12,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-12-2025\",\n          \"description\": \"CHECKCARD 1112 APPLE COM BILL CUPERTINO CA 00000000000000000198726 RECURRING CKCD 4899 XXXXXXXXXXXX0661 XXXX XXXX XXXX 0661\",\n          \"amount\": 58.62,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-12-2025\",\n          \"description\": \"PNC BANK 11/11 #000000225 WITHDRWL PNC BANK FORKED RIVER NJ FEE CKCD XXXXXXXXXXXX0392\",\n          \"amount\": 2.5,\n          \"type\": \"Debit\",\n          \"category\": \"Service Charges/Fees\"\n        },\n        {\n          \"date\": \"11-12-2025\",\n          \"description\": \"PNC BANK 11/11 #000005224 WITHDRWL PNC BANK FORKED RIVER NJ FEE CKCD XXXXXXXXXXXX0392\",\n          \"amount\": 2.5,\n          \"type\": \"Debit\",\n          \"category\": \"Service Charges/Fees\"\n        },\n        {\n          \"date\": \"11-12-2025\",\n          \"description\": \"WELSH FARMS -7 11/12 #000817002 WITHDRWL WELSH FARMS -7155 LAKE COMO NJ FEE CKCD XXXXXXXXXXXX0392\",\n          \"amount\": 2.5,\n          \"type\": \"Debit\",\n          \"category\": \"Service Charges/Fees\"\n        },\n        {\n          \"date\": \"11-12-2025\",\n          \"description\": \"SUNOCO CO-OP-U 11/11 #000558284 WITHDRWL SUNOCO CO-OP-U560 SOUTH AMBOY NJ FEE CKCD XXXXXXXXXXXX0392\",\n          \"amount\": 2.5,\n          \"type\": \"Debit\",\n          \"category\": \"Service Charges/Fees\"\n        },\n        {\n          \"date\": \"11-13-2025\",\n          \"description\": \"DISCOVER DES:E-PAYMENT ID:8184 INDN:CELTIK DENIZ CO ID:3510020270 WEB\",\n          \"amount\": 113.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-13-2025\",\n          \"description\": \"PURCHASE 1112 SHERWIN-WILLIAMS705153 160-9597779 NJ\",\n          \"amount\": 103.91,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-13-2025\",\n          \"description\": \"BKOFAMERICA ATM 11/13 #000009663 WITHDRWL TOMS RIVER - ROUTE TOMS RIVER NJ\",\n          \"amount\": 1500.0,\n          \"type\": \"Debit\",\n          \"category\": \"ATM/Cash Withdrawal\"\n        },\n        {\n          \"date\": \"11-13-2025\",\n          \"description\": \"STOP & SHOP 08 11/13 #000602138 PURCHASE STOP & SHOP 0811 TOMS RIVER NJ\",\n          \"amount\": 22.99,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-14-2025\",\n          \"description\": \"BKOFAMERICA MOBILE 11/14 3653698532 DEPOSIT\",\n          \"amount\": 2500.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11-14-2025\",\n          \"description\": \"BKOFAMERICA MOBILE 11/14 3653695963 DEPOSIT\",\n          \"amount\": 2200.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11-14-2025\",\n          \"description\": \"BKOFAMERICA ATM 11/14 #000003133 DEPOSIT TOMS RIVER - ROUTE TOMS RIVER NJ\",\n          \"amount\": 1650.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11-14-2025\",\n          \"description\": \"Zelle payment to Heater Man Max Lopes Conf# fteq4qacd\",\n          \"amount\": 150.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11-14-2025\",\n          \"description\": \"Zelle payment to Laura Flores Conf# f908raff9\",\n          \"amount\": 600.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11-14-2025\",\n          \"description\": \"CAPITAL ONE DES:CRCARDPMT ID:CA07D6C02365E06 INDN:Volkan Celtik CO ID:9541719318 CCD\",\n          \"amount\": 50.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-14-2025\",\n          \"description\": \"CHECKCARD 1113 SPEEDWAY 44765 TOMS RIVER NJ 24137465318001265480646 CKCD 5542 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392\",\n          \"amount\": 41.5,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-14-2025\",\n          \"description\": \"7-ELEVEN 11/14 #000102173 PURCHASE 7-ELEVEN Wall Township NJ\",\n          \"amount\": 39.15,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-14-2025\",\n          \"description\": \"KRAUSZERS - -1 11/14 #000786105 WITHDRWL KRAUSZERS - -1237 TOMS RIVER NJ\",\n          \"amount\": 203.0,\n          \"type\": \"Debit\",\n          \"category\": \"ATM/Cash Withdrawal\"\n        },\n        {\n          \"date\": \"11-14-2025\",\n          \"description\": \"BKOFAMERICA ATM 11/14 #000001204 WITHDRWL TOMS RIVER - ROUTE TOMS RIVER NJ\",\n          \"amount\": 1000.0,\n          \"type\": \"Debit\",\n          \"category\": \"ATM/Cash Withdrawal\"\n        },\n        {\n          \"date\": \"11-14-2025\",\n          \"description\": \"KRAUSZERS - -1 11/14 #000786105 WITHDRWL KRAUSZERS - -1237 TOMS RIVER NJ FEE CKCD XXXXXXXXXXXX0392\",\n          \"amount\": 2.5,\n          \"type\": \"Debit\",\n          \"category\": \"Service Charges/Fees\"\n        },\n        {\n          \"date\": \"11-17-2025\",\n          \"description\": \"BKOFAMERICA MOBILE 11/17 3655388486 DEPOSIT\",\n          \"amount\": 16750.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11-17-2025\",\n          \"description\": \"Zelle payment from Conf# awtar6wg9\",\n          \"amount\": 1600.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"11-17-2025\",\n          \"description\": \"THE HOME DEPOT 11/16 #000633382 REFUND THE HOME DEPOT #0 TOMS RIVER NJ\",\n          \"amount\": 92.94,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11-17-2025\",\n          \"description\": \"Zelle payment to Domingo Vicente ortiz martinez Conf# ew23ispit\",\n          \"amount\": 1500.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11-17-2025\",\n          \"description\": \"Zelle payment to Osito Oropeza Conf# fautsnjai\",\n          \"amount\": 800.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11-17-2025\",\n          \"description\": \"Zelle payment to Madelin Boyaci Conf# ftxk71tvd\",\n          \"amount\": 1270.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11-17-2025\",\n          \"description\": \"Zelle payment to TURGAY TOKGOZ Conf# iefqrjhxu\",\n          \"amount\": 350.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11-17-2025\",\n          \"description\": \"FAY SERVICING DES:ACH PMTS ID:0050100326 INDN:DENIZ CELTIK CO ID:9412277737 PPD\",\n          \"amount\": 4738.91,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-17-2025\",\n          \"description\": \"EZPASS8882886865 DES:AUTO REPL ID:5P-XXXXXXXXX INDN:DENIZ CELTIK CO ID:8131996647 PPD\",\n          \"amount\": 140.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-17-2025\",\n          \"description\": \"BKOFAMERICA ATM 11/15 #000001381 WITHDRWL TOMS RIVER - ROUTE TOMS RIVER NJ\",\n          \"amount\": 1500.0,\n          \"type\": \"Debit\",\n          \"category\": \"ATM/Cash Withdrawal\"\n        },\n        {\n          \"date\": \"11-17-2025\",\n          \"description\": \"CHECKCARD 1115 SCHOOLCAFE 855-7292328 TX 24335505319807117350908 CKCD 8999 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392\",\n          \"amount\": 101.95,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-17-2025\",\n          \"description\": \"CHECKCARD 1114 WAWA 995 TOMS RIVER NJ 24055245319549770647367 CKCD 5542 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392\",\n          \"amount\": 40.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-17-2025\",\n          \"description\": \"Ocean Resort C 11/14 #000156768 WITHDRWL Ocean Resort C ATLANTIC CITY NJ\",\n          \"amount\": 207.99,\n          \"type\": \"Debit\",\n          \"category\": \"ATM/Cash Withdrawal\"\n        },\n        {\n          \"date\": \"11-17-2025\",\n          \"description\": \"OCEAN RESORTS 11/14 #000249957 PURCHASE OCEAN RESORTS CA ATLANTIC CITY NJ\",\n          \"amount\": 520.45,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-17-2025\",\n          \"description\": \"OCEAN RESORTS 11/14 #000497204 PURCHASE OCEAN RESORTS CA ATLANTIC CITY NJ\",\n          \"amount\": 520.45,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-17-2025\",\n          \"description\": \"OCEAN RESORTS 11/14 #000729846 PURCHASE OCEAN RESORTS CA ATLANTIC CITY NJ\",\n          \"amount\": 520.45,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-17-2025\",\n          \"description\": \"OCEAN RESORTS 11/14 #000488830 PURCHASE OCEAN RESORTS CA ATLANTIC CITY NJ\",\n          \"amount\": 313.45,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-17-2025\",\n          \"description\": \"CHECKCARD 1116 SPEEDWAY 44765 TOMS RIVER NJ 24137465321001136501542 CKCD 5542 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392\",\n          \"amount\": 43.33,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-17-2025\",\n          \"description\": \"CHECKCARD 1116 TMOBILE AUTO P BELLEVUE WA 00000000000000000523691 RECURRING CKCD 4814 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392\",\n          \"amount\": 87.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-17-2025\",\n          \"description\": \"CHECKCARD 1116 SHOPRITE OF ROUTE37 S1 TOMS RIVER NJ 24692165321100206926390 CKCD 5411 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392\",\n          \"amount\": 12.99,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-17-2025\",\n          \"description\": \"BKOFAMERICA ATM 11/15 #000003550 WITHDRWL TOMS RIVER - ROUTE TOMS RIVER NJ\",\n          \"amount\": 1500.0,\n          \"type\": \"Debit\",\n          \"category\": \"ATM/Cash Withdrawal\"\n        },\n        {\n          \"date\": \"11-17-2025\",\n          \"description\": \"PURCHASE 1114 AMAZON MKTPL*B87KO7BJO Amzn.com/billWA\",\n          \"amount\": 39.22,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-17-2025\",\n          \"description\": \"PURCHASE 1116 AMAZON MKTPL*B86TCOQI2 Amzn.com/billWA\",\n          \"amount\": 29.84,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-17-2025\",\n          \"description\": \"PURCHASE 1117 AMAZON MKTPL*B80XU8100 Amzn.com/billWA\",\n          \"amount\": 57.57,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-17-2025\",\n          \"description\": \"PURCHASE 1117 AMAZON MKTPL*B83EZ6WN1 Amzn.com/billWA\",\n          \"amount\": 33.04,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-17-2025\",\n          \"description\": \"Ocean Resort C 11/14 #000156768 WITHDRWL Ocean Resort C ATLANTIC CITY NJ FEE CKCD XXXXXXXXXXXX0392\",\n          \"amount\": 2.5,\n          \"type\": \"Debit\",\n          \"category\": \"Service Charges/Fees\"\n        },\n        {\n          \"date\": \"11-18-2025\",\n          \"description\": \"Zelle payment to Domingo Vicente ortiz martinez Conf# dn3mjq243\",\n          \"amount\": 300.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11-18-2025\",\n          \"description\": \"Zelle payment to Osito Oropeza Conf# bkk0q1ede\",\n          \"amount\": 200.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11-18-2025\",\n          \"description\": \"Zelle payment to TURGAY TOKGOZ Conf# blgkljap4\",\n          \"amount\": 2200.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11-18-2025\",\n          \"description\": \"Zelle payment to Sezgin Conf# bmbh1cvs1\",\n          \"amount\": 2.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11-18-2025\",\n          \"description\": \"TRACTOR SUPPLY 11/18 #000938978 PURCHASE TRACTOR SUPPLY # Toms River NJ\",\n          \"amount\": 96.02,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-18-2025\",\n          \"description\": \"ALDI 60051 11/18 #000277000 PURCHASE 740 ROUTE 37 WEST TOMS RIVER NJ\",\n          \"amount\": 182.22,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-18-2025\",\n          \"description\": \"STOP & SHOP 08 11/18 #000106623 PURCHASE STOP & SHOP 0811 TOMS RIVER NJ\",\n          \"amount\": 144.58,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-19-2025\",\n          \"description\": \"Zelle payment to Kasim Abi Conf# bx2wniqwx\",\n          \"amount\": 800.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11-19-2025\",\n          \"description\": \"Zelle payment to Carlos Villabon Sanchez Conf# c2mwx6yg3\",\n          \"amount\": 2500.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11-19-2025\",\n          \"description\": \"PURCHASE 1118 AMAZON MKTPL*B07QP3LH0 Amzn.com/billWA\",\n          \"amount\": 33.04,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-19-2025\",\n          \"description\": \"CHECKCARD 1118 SINGIN TOMS RIVER NJ 24055225323553969556351 CKCD 5499 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392\",\n          \"amount\": 18.64,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-19-2025\",\n          \"description\": \"PURCHASE 1118 AMAZON MKTPL*B09GK3Z30 Amzn.com/billWA\",\n          \"amount\": 26.65,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-19-2025\",\n          \"description\": \"CHECKCARD 1118 WAWA 700 SHIPBOTTOM NJ 24055245323554053683653 CKCD 5499 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392\",\n          \"amount\": 16.19,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-19-2025\",\n          \"description\": \"PURCHASE 1118 SHERWIN-WILLIAMS705153 160-9597779 NJ\",\n          \"amount\": 78.9,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-19-2025\",\n          \"description\": \"CHECKCARD 1118 WAWA 429 MANCHESTER TONJ 24055245323554040150550 CKCD 5499 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392\",\n          \"amount\": 13.43,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-19-2025\",\n          \"description\": \"CHECKCARD 1119 TIKTOK SHOP TIKTOK.COM CA 24036295323742254510911 CKCD 5399 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392\",\n          \"amount\": 208.62,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-19-2025\",\n          \"description\": \"PNC BANK 11/19 #000002391 WITHDRWL PNC BANK TOMS RIVER NJ\",\n          \"amount\": 200.0,\n          \"type\": \"Debit\",\n          \"category\": \"ATM/Cash Withdrawal\"\n        },\n        {\n          \"date\": \"11-19-2025\",\n          \"description\": \"CHECKCARD 1118 TUCKERTOWN LUMBER COMPA SURF CITY NJ 24801975322553638464399 CKCD 5211 XXXXXXXXXXXX0661 XXXX XXXX XXXX 0661\",\n          \"amount\": 1300.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-19-2025\",\n          \"description\": \"CHECKCARD 1118 EUROPEAN FOOD MARKET TOMS RIVER NJ 24116415322553486036726 CKCD 5411 XXXXXXXXXXXX0661 XXXX XXXX XXXX 0661\",\n          \"amount\": 47.84,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-19-2025\",\n          \"description\": \"PNC BANK 11/19 #000002391 WITHDRWL PNC BANK TOMS RIVER NJ FEE CKCD XXXXXXXXXXXX0392\",\n          \"amount\": 2.5,\n          \"type\": \"Debit\",\n          \"category\": \"Service Charges/Fees\"\n        },\n        {\n          \"date\": \"11-20-2025\",\n          \"description\": \"CHECKCARD 1119 SINGIN TOMS RIVER NJ 24055225324555075613678 CKCD 5499 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392\",\n          \"amount\": 15.45,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-20-2025\",\n          \"description\": \"CHECKCARD 1119 WAWA 371 TUCKERTON NJ 24055245324555138433963 CKCD 5542 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392\",\n          \"amount\": 37.3,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-20-2025\",\n          \"description\": \"CHECKCARD 1119 WAWA 700 SHIPBOTTOM NJ 24055245324555153344301 CKCD 5499 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392\",\n          \"amount\": 16.19,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-20-2025\",\n          \"description\": \"CHECKCARD 1119 TURKISH AIRLINES/WEB ISTANBUL 74779595324031419725590 CKCD 3047 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392\",\n          \"amount\": 330.56,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-20-2025\",\n          \"description\": \"THE HOME DEPOT 11/20 #000635973 PURCHASE THE HOME DEPOT #0 TOMS RIVER NJ\",\n          \"amount\": 47.9,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-20-2025\",\n          \"description\": \"PURCHASE 1119 STATE FARM INSURANCE 800-956-6310 IL\",\n          \"amount\": 503.44,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-20-2025\",\n          \"description\": \"CHECKCARD 1119 TURKISH AIRLINES/WEB ISTANBUL 74779595324031419725590 CKCD 3047 XXXXXXXXXXXX0392 INTERNATIONAL TRANSACTION FEE\",\n          \"amount\": 9.92,\n          \"type\": \"Debit\",\n          \"category\": \"Service Charges/Fees\"\n        },\n        {\n          \"date\": \"11-21-2025\",\n          \"description\": \"BKOFAMERICA MOBILE 11/21 3869496610 DEPOSIT\",\n          \"amount\": 1600.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11-21-2025\",\n          \"description\": \"1-800-690-1803 DES:UptempoMkt ID:260156 INDN:DENIZ CELTIK CO ID:XXXXXXXXX PPD\",\n          \"amount\": 428.56,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-21-2025\",\n          \"description\": \"Credit One Bank DES:Payment ID:58026167 INDN:CELTIK,DENIZ CO ID:WEB000004 WEB\",\n          \"amount\": 61.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-21-2025\",\n          \"description\": \"PURCHASE 1120 AMAZON MKTPL*B006H6X32 Amzn.com/billWA\",\n          \"amount\": 120.54,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-21-2025\",\n          \"description\": \"PURCHASE 1120 AMAZON MKTPL*B02G68HX1 Amzn.com/billWA\",\n          \"amount\": 47.34,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-21-2025\",\n          \"description\": \"PURCHASE 1120 SHERWIN-WILLIAMS705026 173-2506070 NJ\",\n          \"amount\": 172.28,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-21-2025\",\n          \"description\": \"CHECKCARD 1120 SINGIN TOMS RIVER NJ 24055225325556195694399 CKCD 5499 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392\",\n          \"amount\": 15.45,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-21-2025\",\n          \"description\": \"PURCHASE 1120 SHERWIN-WILLIAMS701886 160-9339206 NJ\",\n          \"amount\": 81.94,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-21-2025\",\n          \"description\": \"CHECKCARD 1120 WAWA 988 FORKED RIVER NJ 24055245325556292686890 CKCD 5541 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392\",\n          \"amount\": 40.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-21-2025\",\n          \"description\": \"CHECKCARD 1120 WAWA 994 MANAHAWKIN NJ 24055245325556292783127 CKCD 5541 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392\",\n          \"amount\": 16.82,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-21-2025\",\n          \"description\": \"PNC BANK 11/21 #000006031 WITHDRWL PNC BANK FORKED RIVER NJ\",\n          \"amount\": 200.0,\n          \"type\": \"Debit\",\n          \"category\": \"ATM/Cash Withdrawal\"\n        },\n        {\n          \"date\": \"11-21-2025\",\n          \"description\": \"CHECKCARD 1120 APPLE.COM/BILL 866-712-7753 CA 24692165324103272170262 RECURRING CKCD 5818 XXXXXXXXXXXX0661 XXXX XXXX XXXX 0661\",\n          \"amount\": 2.99,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-21-2025\",\n          \"description\": \"CHECKCARD 1120 APPLE.COM/BILL 866-712-7753 CA 24692165324103439525218 RECURRING CKCD 5818 XXXXXXXXXXXX0661 XXXX XXXX XXXX 0661\",\n          \"amount\": 5.32,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-21-2025\",\n          \"description\": \"WAL-MART #1844 11/21 #000260508 PURCHASE 950 ROUTE 37 W TOMS RIVER NJ\",\n          \"amount\": 150.45,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-21-2025\",\n          \"description\": \"PNC BANK 11/21 #000006031 WITHDRWL PNC BANK FORKED RIVER NJ FEE CKCD XXXXXXXXXXXX0392\",\n          \"amount\": 2.5,\n          \"type\": \"Debit\",\n          \"category\": \"Service Charges/Fees\"\n        },\n        {\n          \"date\": \"11-24-2025\",\n          \"description\": \"BKOFAMERICA ATM 11/22 #000003407 DEPOSIT TOMS RIVER - ROUTE TOMS RIVER NJ\",\n          \"amount\": 750.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11-24-2025\",\n          \"description\": \"Zelle payment to Domingo Vicente ortiz martinez Conf# d6dh7i8y6\",\n          \"amount\": 1970.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11-24-2025\",\n          \"description\": \"Zelle payment to Osito Oropeza Conf# d0ldag6g0\",\n          \"amount\": 1000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11-24-2025\",\n          \"description\": \"Zelle payment to Madelin Boyaci Conf# hdmeccgqe\",\n          \"amount\": 650.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11-24-2025\",\n          \"description\": \"PURCHASE 1121 AMAZON MKTPL*B01KU3DN2 Amzn.com/billWA\",\n          \"amount\": 193.95,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-24-2025\",\n          \"description\": \"CHECKCARD 1121 SINGIN TOMS RIVER NJ 24055225326557356077704 CKCD 5499 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392\",\n          \"amount\": 15.45,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-24-2025\",\n          \"description\": \"CHECKCARD 1121 SHERWIN-WILLIAMS705026 TOMS RIVER NJ 24793385325002513225094 CKCD 5231 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392\",\n          \"amount\": 48.01,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-24-2025\",\n          \"description\": \"CHECKCARD 1121 WAWA 8433 PISCATAWAY NJ 24055245326557471206814 CKCD 5542 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392\",\n          \"amount\": 31.13,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-24-2025\",\n          \"description\": \"CHECKCARD 1121 WAWA 8433 PISCATAWAY NJ 24055245326557471206806 CKCD 5541 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392\",\n          \"amount\": 22.47,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-24-2025\",\n          \"description\": \"PURCHASE 1122 SHERWIN-WILLIAMS705153 160-9597779 NJ\",\n          \"amount\": 268.16,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-24-2025\",\n          \"description\": \"BP GAS INDIA-1 11/22 #000315163 WITHDRWL BP GAS INDIA-1629 MANAHAWKIN NJ\",\n          \"amount\": 202.0,\n          \"type\": \"Debit\",\n          \"category\": \"ATM/Cash Withdrawal\"\n        },\n        {\n          \"date\": \"11-24-2025\",\n          \"description\": \"PNC BANK 11/22 #000003039 WITHDRWL PNC BANK TOMS RIVER NJ\",\n          \"amount\": 200.0,\n          \"type\": \"Debit\",\n          \"category\": \"ATM/Cash Withdrawal\"\n        },\n        {\n          \"date\": \"11-24-2025\",\n          \"description\": \"PURCHASE 1123 DD *DDDOORDASHDOMINOS DOORDASH.COM CA\",\n          \"amount\": 34.17,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-24-2025\",\n          \"description\": \"CHECKCARD 1122 EFES HALAL FOOD MARKET DELRAN NJ 24435655327136837417967 CKCD 5411 XXXXXXXXXXXX0661 XXXX XXXX XXXX 0661\",\n          \"amount\": 80.96,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-24-2025\",\n          \"description\": \"PNC BANK 11/22 #000003039 WITHDRWL PNC BANK TOMS RIVER NJ FEE CKCD XXXXXXXXXXXX0392\",\n          \"amount\": 2.5,\n          \"type\": \"Debit\",\n          \"category\": \"Service Charges/Fees\"\n        },\n        {\n          \"date\": \"11-24-2025\",\n          \"description\": \"BP GAS INDIA-1 11/22 #000315163 WITHDRWL BP GAS INDIA-1629 MANAHAWKIN NJ FEE CKCD XXXXXXXXXXXX0392\",\n          \"amount\": 2.5,\n          \"type\": \"Debit\",\n          \"category\": \"Service Charges/Fees\"\n        },\n        {\n          \"date\": \"11-26-2025\",\n          \"description\": \"BKOFAMERICA MOBILE 11/26 3600489474 DEPOSIT\",\n          \"amount\": 400.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11-28-2025\",\n          \"description\": \"BKOFAMERICA ATM 11/27 #000006127 DEPOSIT TOMS RIVER - ROUTE TOMS RIVER NJ\",\n          \"amount\": 75.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11-28-2025\",\n          \"description\": \"BKOFAMERICA ATM 11/27 #000006132 DEPOSIT TOMS RIVER - ROUTE TOMS RIVER NJ\",\n          \"amount\": 203.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11-28-2025\",\n          \"description\": \"Zelle payment to Daniely Dos Santos Conf# ca5hnd8ba\",\n          \"amount\": 230.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11-28-2025\",\n          \"description\": \"CAPITAL ONE DES:CRCARDPMT ID:CA07F76B21F302F INDN:Volkan Celtik CO ID:9541719318 CCD\",\n          \"amount\": 55.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-28-2025\",\n          \"description\": \"PURCHASE 1126 AMAZON RETA* B20RJ37P1 WWW.AMAZON.COWA\",\n          \"amount\": 22.36,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-28-2025\",\n          \"description\": \"PURCHASE 1126 AMAZON MKTPL*B25E23U02 Amzn.com/billWA\",\n          \"amount\": 6.99,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-28-2025\",\n          \"description\": \"BKOFAMERICA ATM 11/27 #000006133 WITHDRWL TOMS RIVER - ROUTE TOMS RIVER NJ\",\n          \"amount\": 350.0,\n          \"type\": \"Debit\",\n          \"category\": \"ATM/Cash Withdrawal\"\n        },\n        {\n          \"date\": \"11-28-2025\",\n          \"description\": \"CHECKCARD 1127 APPLE.COM/BILL 866-712-7753 CA 24692165331100337995452 RECURRING CKCD 5818 XXXXXXXXXXXX0661 XXXX XXXX XXXX 0661\",\n          \"amount\": 5.32,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        }\n      ]\n    }\n  ]\n}\n```",
+    "token_count": {
+      "estimated_tokens": 4123
+    },
+    "failure_reason": null
+  },
+  "bsi_analyzer_result": {
+    "agent_name": "v1_bsi_analyzer_agent",
+    "processing_status": "success",
+    "start_time": "2026-02-04T15:04:05.520889",
+    "end_time": "2026-02-04T15:06:26.423509",
+    "parsed_json": {
+      "accounts": [
+        {
+          "account_number": "381063622979",
+          "account_type": "Business Advantage Fundamentals Banking",
+          "mca_deposit": [],
+          "mca_withdrawal": [],
+          "returned_items": [],
+          "overdrafts": [],
+          "service_charges": [
+            {
+              "date": "11-03-2025",
+              "description": "Ocean Resort C 10/31 #000412245 WITHDRWL Ocean Resort C ATLANTIC CITY NJ FEE CKCD XXXXXXXXXXXX0661",
+              "amount": 2.5,
+              "type": "Debit"
+            },
+            {
+              "date": "11-06-2025",
+              "description": "PNC BANK 11/06 #000009886 WITHDRWL PNC BANK TOMS RIVER NJ FEE CKCD XXXXXXXXXXXX0392",
+              "amount": 2.5,
+              "type": "Debit"
+            },
+            {
+              "date": "11-07-2025",
+              "description": "7ELEVEN-FCTI 11/07 #000850751 WITHDRWL 7ELEVEN-FCTI WALL TOWNSHIP NJ FEE CKCD XXXXXXXXXXXX0392",
+              "amount": 2.5,
+              "type": "Debit"
+            },
+            {
+              "date": "11-10-2025",
+              "description": "PNC BANK 11/08 #000004030 WITHDRWL PNC BANK MANAHAWKIN NJ FEE CKCD XXXXXXXXXXXX0392",
+              "amount": 2.5,
+              "type": "Debit"
+            },
+            {
+              "date": "11-12-2025",
+              "description": "PNC BANK 11/11 #000000225 WITHDRWL PNC BANK FORKED RIVER NJ FEE CKCD XXXXXXXXXXXX0392",
+              "amount": 2.5,
+              "type": "Debit"
+            },
+            {
+              "date": "11-12-2025",
+              "description": "PNC BANK 11/11 #000005224 WITHDRWL PNC BANK FORKED RIVER NJ FEE CKCD XXXXXXXXXXXX0392",
+              "amount": 2.5,
+              "type": "Debit"
+            },
+            {
+              "date": "11-12-2025",
+              "description": "WELSH FARMS -7 11/12 #000817002 WITHDRWL WELSH FARMS -7155 LAKE COMO NJ FEE CKCD XXXXXXXXXXXX0392",
+              "amount": 2.5,
+              "type": "Debit"
+            },
+            {
+              "date": "11-12-2025",
+              "description": "SUNOCO CO-OP-U 11/11 #000558284 WITHDRWL SUNOCO CO-OP-U560 SOUTH AMBOY NJ FEE CKCD XXXXXXXXXXXX0392",
+              "amount": 2.5,
+              "type": "Debit"
+            },
+            {
+              "date": "11-14-2025",
+              "description": "KRAUSZERS - -1 11/14 #000786105 WITHDRWL KRAUSZERS - -1237 TOMS RIVER NJ FEE CKCD XXXXXXXXXXXX0392",
+              "amount": 2.5,
+              "type": "Debit"
+            },
+            {
+              "date": "11-17-2025",
+              "description": "Ocean Resort C 11/14 #000156768 WITHDRWL Ocean Resort C ATLANTIC CITY NJ FEE CKCD XXXXXXXXXXXX0392",
+              "amount": 2.5,
+              "type": "Debit"
+            },
+            {
+              "date": "11-19-2025",
+              "description": "PNC BANK 11/19 #000002391 WITHDRWL PNC BANK TOMS RIVER NJ FEE CKCD XXXXXXXXXXXX0392",
+              "amount": 2.5,
+              "type": "Debit"
+            },
+            {
+              "date": "11-20-2025",
+              "description": "CHECKCARD 1119 TURKISH AIRLINES/WEB ISTANBUL 74779595324031419725590 CKCD 3047 XXXXXXXXXXXX0392 INTERNATIONAL TRANSACTION FEE",
+              "amount": 9.92,
+              "type": "Debit"
+            },
+            {
+              "date": "11-21-2025",
+              "description": "PNC BANK 11/21 #000006031 WITHDRWL PNC BANK FORKED RIVER NJ FEE CKCD XXXXXXXXXXXX0392",
+              "amount": 2.5,
+              "type": "Debit"
+            },
+            {
+              "date": "11-24-2025",
+              "description": "PNC BANK 11/22 #000003039 WITHDRWL PNC BANK TOMS RIVER NJ FEE CKCD XXXXXXXXXXXX0392",
+              "amount": 2.5,
+              "type": "Debit"
+            },
+            {
+              "date": "11-24-2025",
+              "description": "BP GAS INDIA-1 11/22 #000315163 WITHDRWL BP GAS INDIA-1629 MANAHAWKIN NJ FEE CKCD XXXXXXXXXXXX0392",
+              "amount": 2.5,
+              "type": "Debit"
+            }
+          ],
+          "atm_cash_withdrawal": [
+            {
+              "date": "11-03-2025",
+              "description": "BKOFAMERICA ATM 11/01 #000006465 WITHDRWL TOMS RIVER - ROUTE TOMS RIVER NJ",
+              "amount": 400.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11-03-2025",
+              "description": "BKOFAMERICA ATM 11/01 #000006464 WITHDRWL TOMS RIVER - ROUTE TOMS RIVER NJ",
+              "amount": 1500.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11-03-2025",
+              "description": "Ocean Resort C 10/31 #000412245 WITHDRWL Ocean Resort C ATLANTIC CITY NJ",
+              "amount": 507.99,
+              "type": "Debit"
+            },
+            {
+              "date": "11-05-2025",
+              "description": "BKOFAMERICA ATM 11/05 #000008653 WITHDRWL TOMS RIVER - ROUTE TOMS RIVER NJ",
+              "amount": 1500.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11-06-2025",
+              "description": "PNC BANK 11/06 #000009886 WITHDRWL PNC BANK TOMS RIVER NJ",
+              "amount": 200.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11-07-2025",
+              "description": "7ELEVEN-FCTI 11/07 #000850751 WITHDRWL 7ELEVEN-FCTI WALL TOWNSHIP NJ",
+              "amount": 203.95,
+              "type": "Debit"
+            },
+            {
+              "date": "11-10-2025",
+              "description": "PNC BANK 11/08 #000004030 WITHDRWL PNC BANK MANAHAWKIN NJ",
+              "amount": 400.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11-10-2025",
+              "description": "BKOFAMERICA ATM 11/10 #000009033 WITHDRWL TOMS RIVER - ROUTE TOMS RIVER NJ",
+              "amount": 550.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11-12-2025",
+              "description": "BKOFAMERICA ATM 11/11 #000009141 WITHDRWL TOMS RIVER - ROUTE TOMS RIVER NJ",
+              "amount": 600.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11-12-2025",
+              "description": "PNC BANK 11/11 #000000225 WITHDRWL PNC BANK FORKED RIVER NJ",
+              "amount": 200.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11-12-2025",
+              "description": "PNC BANK 11/11 #000005224 WITHDRWL PNC BANK FORKED RIVER NJ",
+              "amount": 200.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11-12-2025",
+              "description": "SUNOCO CO-OP-U 11/11 #000558284 WITHDRWL SUNOCO CO-OP-U560 SOUTH AMBOY NJ",
+              "amount": 103.5,
+              "type": "Debit"
+            },
+            {
+              "date": "11-12-2025",
+              "description": "BKOFAMERICA ATM 11/12 #000009434 WITHDRWL TOMS RIVER - ROUTE TOMS RIVER NJ",
+              "amount": 1300.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11-12-2025",
+              "description": "WELSH FARMS -7 11/12 #000817002 WITHDRWL WELSH FARMS -7155 LAKE COMO NJ",
+              "amount": 81.6,
+              "type": "Debit"
+            },
+            {
+              "date": "11-13-2025",
+              "description": "BKOFAMERICA ATM 11/13 #000009663 WITHDRWL TOMS RIVER - ROUTE TOMS RIVER NJ",
+              "amount": 1500.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11-14-2025",
+              "description": "KRAUSZERS - -1 11/14 #000786105 WITHDRWL KRAUSZERS - -1237 TOMS RIVER NJ",
+              "amount": 203.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11-14-2025",
+              "description": "BKOFAMERICA ATM 11/14 #000001204 WITHDRWL TOMS RIVER - ROUTE TOMS RIVER NJ",
+              "amount": 1000.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11-17-2025",
+              "description": "BKOFAMERICA ATM 11/15 #000001381 WITHDRWL TOMS RIVER - ROUTE TOMS RIVER NJ",
+              "amount": 1500.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11-17-2025",
+              "description": "Ocean Resort C 11/14 #000156768 WITHDRWL Ocean Resort C ATLANTIC CITY NJ",
+              "amount": 207.99,
+              "type": "Debit"
+            },
+            {
+              "date": "11-17-2025",
+              "description": "BKOFAMERICA ATM 11/15 #000003550 WITHDRWL TOMS RIVER - ROUTE TOMS RIVER NJ",
+              "amount": 1500.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11-19-2025",
+              "description": "PNC BANK 11/19 #000002391 WITHDRWL PNC BANK TOMS RIVER NJ",
+              "amount": 200.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11-21-2025",
+              "description": "PNC BANK 11/21 #000006031 WITHDRWL PNC BANK FORKED RIVER NJ",
+              "amount": 200.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11-24-2025",
+              "description": "BP GAS INDIA-1 11/22 #000315163 WITHDRWL BP GAS INDIA-1629 MANAHAWKIN NJ",
+              "amount": 202.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11-24-2025",
+              "description": "PNC BANK 11/22 #000003039 WITHDRWL PNC BANK TOMS RIVER NJ",
+              "amount": 200.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11-28-2025",
+              "description": "BKOFAMERICA ATM 11/27 #000006133 WITHDRWL TOMS RIVER - ROUTE TOMS RIVER NJ",
+              "amount": 350.0,
+              "type": "Debit"
+            }
+          ],
+          "internal_transfer_deposit": [],
+          "other_transfer_deposit": [
+            {
+              "date": "11-17-2025",
+              "description": "Zelle payment from Conf# awtar6wg9",
+              "amount": 1600.0,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            }
+          ],
+          "internal_transfer_withdrawal": [],
+          "other_transfer_withdrawal": [
+            {
+              "date": "11-04-2025",
+              "description": "ALLY DES:ALLY PAYMT ID:228053584854 INDN:Deniz Celtik CO ID:9833122002 CCD",
+              "amount": 500.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11-05-2025",
+              "description": "Zelle payment to Domingo Vicente ortiz martinez Conf# cm55g3yo1",
+              "amount": 1450.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11-05-2025",
+              "description": "Zelle payment to Deniz Celtik Conf# c930w8yjj",
+              "amount": 800.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11-06-2025",
+              "description": "Zelle payment to Deniz Celtik Conf# c2eedsnwk",
+              "amount": 200.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11-06-2025",
+              "description": "Zelle payment to TURGAY TOKGOZ Conf# giwfwlnxf",
+              "amount": 800.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11-10-2025",
+              "description": "Zelle payment to Madelin Boyaci Conf# ak4fnqynk",
+              "amount": 950.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11-10-2025",
+              "description": "Zelle payment to Madelin Boyaci Conf# h8k1o5rjo",
+              "amount": 540.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11-10-2025",
+              "description": "Zelle payment to TURGAY TOKGOZ Conf# g7k8btxdi",
+              "amount": 800.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11-12-2025",
+              "description": "Zelle payment to Domingo Vicente ortiz martinez Conf# cmi0vx7zj",
+              "amount": 10000.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11-12-2025",
+              "description": "Zelle payment to Domingo Vicente ortiz martinez Conf# lbpp12oyk",
+              "amount": 3000.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11-12-2025",
+              "description": "Zelle payment to Deniz Celtik Conf# hhrh1qz5n",
+              "amount": 400.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11-12-2025",
+              "description": "Zelle payment to Daniely Dos Santos Conf# cr9i0zdv5",
+              "amount": 230.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11-14-2025",
+              "description": "Zelle payment to Heater Man Max Lopes Conf# fteq4qacd",
+              "amount": 150.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11-14-2025",
+              "description": "Zelle payment to Laura Flores Conf# f908raff9",
+              "amount": 600.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11-17-2025",
+              "description": "Zelle payment to Domingo Vicente ortiz martinez Conf# ew23ispit",
+              "amount": 1500.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11-17-2025",
+              "description": "Zelle payment to Osito Oropeza Conf# fautsnjai",
+              "amount": 800.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11-17-2025",
+              "description": "Zelle payment to Madelin Boyaci Conf# ftxk71tvd",
+              "amount": 1270.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11-17-2025",
+              "description": "Zelle payment to TURGAY TOKGOZ Conf# iefqrjhxu",
+              "amount": 350.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11-18-2025",
+              "description": "Zelle payment to Domingo Vicente ortiz martinez Conf# dn3mjq243",
+              "amount": 300.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11-18-2025",
+              "description": "Zelle payment to Osito Oropeza Conf# bkk0q1ede",
+              "amount": 200.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11-18-2025",
+              "description": "Zelle payment to TURGAY TOKGOZ Conf# blgkljap4",
+              "amount": 2200.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11-18-2025",
+              "description": "Zelle payment to Sezgin Conf# bmbh1cvs1",
+              "amount": 2.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11-19-2025",
+              "description": "Zelle payment to Kasim Abi Conf# bx2wniqwx",
+              "amount": 800.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11-19-2025",
+              "description": "Zelle payment to Carlos Villabon Sanchez Conf# c2mwx6yg3",
+              "amount": 2500.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11-24-2025",
+              "description": "Zelle payment to Domingo Vicente ortiz martinez Conf# d6dh7i8y6",
+              "amount": 1970.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11-24-2025",
+              "description": "Zelle payment to Osito Oropeza Conf# d0ldag6g0",
+              "amount": 1000.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11-24-2025",
+              "description": "Zelle payment to Madelin Boyaci Conf# hdmeccgqe",
+              "amount": 650.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11-28-2025",
+              "description": "Zelle payment to Daniely Dos Santos Conf# ca5hnd8ba",
+              "amount": 230.0,
+              "type": "Debit"
+            }
+          ],
+          "standard_deposit": [
+            {
+              "date": "11-03-2025",
+              "description": "Bank of America DES:CASHREWARD ID:PAINTING INDN:0000000011893669000000 CO ID:2002290310 PPD",
+              "amount": 26.32,
+              "type": "Credit",
+              "non_true_revenue": 1
+            },
+            {
+              "date": "11-04-2025",
+              "description": "BKOFAMERICA MOBILE 11/04 3648123271 DEPOSIT",
+              "amount": 9560.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11-06-2025",
+              "description": "BKOFAMERICA MOBILE 11/06 3860923138 DEPOSIT",
+              "amount": 1800.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11-10-2025",
+              "description": "Counter Credit",
+              "amount": 16010.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11-10-2025",
+              "description": "BKOFAMERICA MOBILE 11/10 3651632012 DEPOSIT",
+              "amount": 1200.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11-12-2025",
+              "description": "BKOFAMERICA MOBILE 11/11 3652170607 DEPOSIT",
+              "amount": 3400.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11-12-2025",
+              "description": "BKOFAMERICA MOBILE 11/11 3863623450 DEPOSIT",
+              "amount": 2550.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11-14-2025",
+              "description": "BKOFAMERICA MOBILE 11/14 3653698532 DEPOSIT",
+              "amount": 2500.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11-14-2025",
+              "description": "BKOFAMERICA MOBILE 11/14 3653695963 DEPOSIT",
+              "amount": 2200.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11-14-2025",
+              "description": "BKOFAMERICA ATM 11/14 #000003133 DEPOSIT TOMS RIVER - ROUTE TOMS RIVER NJ",
+              "amount": 1650.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11-17-2025",
+              "description": "BKOFAMERICA MOBILE 11/17 3655388486 DEPOSIT",
+              "amount": 16750.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11-17-2025",
+              "description": "THE HOME DEPOT 11/16 #000633382 REFUND THE HOME DEPOT #0 TOMS RIVER NJ",
+              "amount": 92.94,
+              "type": "Credit",
+              "non_true_revenue": 1
+            },
+            {
+              "date": "11-21-2025",
+              "description": "BKOFAMERICA MOBILE 11/21 3869496610 DEPOSIT",
+              "amount": 1600.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11-24-2025",
+              "description": "BKOFAMERICA ATM 11/22 #000003407 DEPOSIT TOMS RIVER - ROUTE TOMS RIVER NJ",
+              "amount": 750.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11-26-2025",
+              "description": "BKOFAMERICA MOBILE 11/26 3600489474 DEPOSIT",
+              "amount": 400.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11-28-2025",
+              "description": "BKOFAMERICA ATM 11/27 #000006127 DEPOSIT TOMS RIVER - ROUTE TOMS RIVER NJ",
+              "amount": 75.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11-28-2025",
+              "description": "BKOFAMERICA ATM 11/27 #000006132 DEPOSIT TOMS RIVER - ROUTE TOMS RIVER NJ",
+              "amount": 203.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            }
+          ],
+          "standard_withdrawal": [
+            {
+              "date": "11-03-2025",
+              "description": "EZPASS8882886865 DES:AUTO REPL ID:5P-XXXXXXXXX INDN:DENIZ CELTIK ID:8131996647 PPD",
+              "amount": 140.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11-03-2025",
+              "description": "PURCHASE 1031 SHERWIN-WILLIAMS705153 160-9597779 NJ",
+              "amount": 214.53,
+              "type": "Debit"
+            },
+            {
+              "date": "11-03-2025",
+              "description": "CHECKCARD 1031 KRAUSZERS FOOD STORE TOMS RIVER NJ 24055225305534155107359 CKCD 5499 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392",
+              "amount": 32.93,
+              "type": "Debit"
+            },
+            {
+              "date": "11-03-2025",
+              "description": "PURCHASE 1101 SHERWIN-WILLIAMS705153 160-9597779 NJ",
+              "amount": 457.14,
+              "type": "Debit"
+            },
+            {
+              "date": "11-03-2025",
+              "description": "PURCHASE 1101 AMAZON MKTPL*N45MW3Y62 Amzn.com/billWA",
+              "amount": 24.5,
+              "type": "Debit"
+            },
+            {
+              "date": "11-05-2025",
+              "description": "PURCHASE 1104 SHERWIN-WILLIAMS703458 190-8431010 NJ",
+              "amount": 91.2,
+              "type": "Debit"
+            },
+            {
+              "date": "11-06-2025",
+              "description": "New Jersey Natural Gas Bill Payment",
+              "amount": 200.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11-06-2025",
+              "description": "Veolia Water Bill Payment",
+              "amount": 100.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11-06-2025",
+              "description": "PURCHASE 1105 SHERWIN-WILLIAMS705153 160-9597779 NJ",
+              "amount": 228.53,
+              "type": "Debit"
+            },
+            {
+              "date": "11-06-2025",
+              "description": "CHECKCARD 1105 THE TOWNSHIP OF TOMS RI TOMS RIVER NJ 24055225310539708596506 CKCD 7523 XXXXXXXXXXXX0661 XXXX XXXX XXXX 0661",
+              "amount": 0.75,
+              "type": "Debit"
+            },
+            {
+              "date": "11-06-2025",
+              "description": "ALDI 60051 11/06 #000642000 PURCHASE 740 ROUTE 37 WEST TOMS RIVER NJ",
+              "amount": 187.47,
+              "type": "Debit"
+            },
+            {
+              "date": "11-06-2025",
+              "description": "STOP & SHOP 08 11/06 #000642830 PURCHASE STOP & SHOP 0811 TOMS RIVER NJ",
+              "amount": 45.03,
+              "type": "Debit"
+            },
+            {
+              "date": "11-07-2025",
+              "description": "1-800-690-1803 DES:UptempoMkt ID:260156 INDN:DENIZ CELTIK CO ID:XXXXXXXXX PPD",
+              "amount": 428.56,
+              "type": "Debit"
+            },
+            {
+              "date": "11-07-2025",
+              "description": "CHECKCARD 1106 APPLE.COM/BILL 866-712-7753 CA 24692165310100648795695 RECURRING CKCD 5818 XXXXXXXXXXXX0661 XXXX XXXX XXXX 0661",
+              "amount": 5.32,
+              "type": "Debit"
+            },
+            {
+              "date": "11-07-2025",
+              "description": "CHECKCARD 1106 APPLE COM BILL CUPERTINO CA 00000000000000000152084 RECURRING CKCD 4899 XXXXXXXXXXXX0661 XXXX XXXX XXXX 0661",
+              "amount": 20.25,
+              "type": "Debit"
+            },
+            {
+              "date": "11-07-2025",
+              "description": "STOP & SHOP 08 11/07 #000187359 PURCHASE STOP & SHOP 0811 TOMS RIVER NJ",
+              "amount": 19.38,
+              "type": "Debit"
+            },
+            {
+              "date": "11-10-2025",
+              "description": "AMERICAN EXPRESS DES:ACH PMT ID:A0388 INDN:DENIZ CELTIK CO ID:3133133497 CCD",
+              "amount": 129.2,
+              "type": "Debit"
+            },
+            {
+              "date": "11-10-2025",
+              "description": "CHECKCARD 1106 SHELL OIL 57546228503 TOMS RIVER NJ 24316055311541159414549 CKCD 5542 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392",
+              "amount": 41.08,
+              "type": "Debit"
+            },
+            {
+              "date": "11-10-2025",
+              "description": "PURCHASE 1107 SHERWIN-WILLIAMS705378 173-2752123 NJ",
+              "amount": 88.61,
+              "type": "Debit"
+            },
+            {
+              "date": "11-10-2025",
+              "description": "CHECKCARD 1108 WAWA 953 TOMS RIVER NJ 24055245313543226737688 CKCD 5542 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392",
+              "amount": 34.64,
+              "type": "Debit"
+            },
+            {
+              "date": "11-10-2025",
+              "description": "THE HOME DEPOT 11/08 #000729378 PURCHASE THE HOME DEPOT #0 LAKEWOOD NJ",
+              "amount": 350.19,
+              "type": "Debit"
+            },
+            {
+              "date": "11-10-2025",
+              "description": "CHECKCARD 1107 Dicks Sporting Goods Brick NJ 24204295311001411210224 CKCD 5941 XXXXXXXXXXXX0661 XXXX XXXX XXXX 0661",
+              "amount": 168.27,
+              "type": "Debit"
+            },
+            {
+              "date": "11-10-2025",
+              "description": "PURCHASE 1108 AMAZON MKTPL*BT3NN4LX2 Amzn.com/billWA",
+              "amount": 9.27,
+              "type": "Debit"
+            },
+            {
+              "date": "11-10-2025",
+              "description": "CHECKCARD 1108 TMOBILE AUTO P BELLEVUE WA 00000000000000000432579 RECURRING CKCD 4814 XXXXXXXXXXXX0661 XXXX XXXX XXXX 0661",
+              "amount": 307.35,
+              "type": "Debit"
+            },
+            {
+              "date": "11-10-2025",
+              "description": "PURCHASE 1110 AMAZON MKTPL*BT3TG1791 Amzn.com/billWA",
+              "amount": 31.98,
+              "type": "Debit"
+            },
+            {
+              "date": "11-10-2025",
+              "description": "PURCHASE 1110 AMAZON MKTPL*BT5T137A0 Amzn.com/billWA",
+              "amount": 25.18,
+              "type": "Debit"
+            },
+            {
+              "date": "11-12-2025",
+              "description": "PURCHASE 1111 SHERWIN-WILLIAMS701886 160-9339206 NJ",
+              "amount": 25.54,
+              "type": "Debit"
+            },
+            {
+              "date": "11-12-2025",
+              "description": "CHECKCARD 1111 WAWA 935 MANAHAWKIN NJ 24055245316546369445032 CKCD 5542 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392",
+              "amount": 42.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11-12-2025",
+              "description": "STOP & SHOP 08 11/11 #000017147 PURCHASE STOP & SHOP 0811 TOMS RIVER NJ",
+              "amount": 52.52,
+              "type": "Debit"
+            },
+            {
+              "date": "11-12-2025",
+              "description": "SHOPRITE OF RO 11/12 #000772433 PURCHASE SHOPRITE OF ROUTE TOMS RIVER NJ",
+              "amount": 143.44,
+              "type": "Debit"
+            },
+            {
+              "date": "11-12-2025",
+              "description": "CHECKCARD 1111 EUROPEAN FOOD MARKET TOMS RIVER NJ 24116415315545821038937 CKCD 5411 XXXXXXXXXXXX0661 XXXX XXXX XXXX 0661",
+              "amount": 163.77,
+              "type": "Debit"
+            },
+            {
+              "date": "11-12-2025",
+              "description": "TARGET T-1154 11/12 #000050825 PURCHASE TARGET T-1154 Toms River NJ",
+              "amount": 56.12,
+              "type": "Debit"
+            },
+            {
+              "date": "11-12-2025",
+              "description": "CHECKCARD 1112 APPLE COM BILL CUPERTINO CA 00000000000000000198726 RECURRING CKCD 4899 XXXXXXXXXXXX0661 XXXX XXXX XXXX 0661",
+              "amount": 58.62,
+              "type": "Debit"
+            },
+            {
+              "date": "11-13-2025",
+              "description": "DISCOVER DES:E-PAYMENT ID:8184 INDN:CELTIK DENIZ CO ID:3510020270 WEB",
+              "amount": 113.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11-13-2025",
+              "description": "PURCHASE 1112 SHERWIN-WILLIAMS705153 160-9597779 NJ",
+              "amount": 103.91,
+              "type": "Debit"
+            },
+            {
+              "date": "11-13-2025",
+              "description": "STOP & SHOP 08 11/13 #000602138 PURCHASE STOP & SHOP 0811 TOMS RIVER NJ",
+              "amount": 22.99,
+              "type": "Debit"
+            },
+            {
+              "date": "11-14-2025",
+              "description": "CAPITAL ONE DES:CRCARDPMT ID:CA07D6C02365E06 INDN:Volkan Celtik CO ID:9541719318 CCD",
+              "amount": 50.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11-14-2025",
+              "description": "CHECKCARD 1113 SPEEDWAY 44765 TOMS RIVER NJ 24137465318001265480646 CKCD 5542 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392",
+              "amount": 41.5,
+              "type": "Debit"
+            },
+            {
+              "date": "11-14-2025",
+              "description": "7-ELEVEN 11/14 #000102173 PURCHASE 7-ELEVEN Wall Township NJ",
+              "amount": 39.15,
+              "type": "Debit"
+            },
+            {
+              "date": "11-17-2025",
+              "description": "FAY SERVICING DES:ACH PMTS ID:0050100326 INDN:DENIZ CELTIK CO ID:9412277737 PPD",
+              "amount": 4738.91,
+              "type": "Debit"
+            },
+            {
+              "date": "11-17-2025",
+              "description": "EZPASS8882886865 DES:AUTO REPL ID:5P-XXXXXXXXX INDN:DENIZ CELTIK CO ID:8131996647 PPD",
+              "amount": 140.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11-17-2025",
+              "description": "CHECKCARD 1115 SCHOOLCAFE 855-7292328 TX 24335505319807117350908 CKCD 8999 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392",
+              "amount": 101.95,
+              "type": "Debit"
+            },
+            {
+              "date": "11-17-2025",
+              "description": "CHECKCARD 1114 WAWA 995 TOMS RIVER NJ 24055245319549770647367 CKCD 5542 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392",
+              "amount": 40.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11-17-2025",
+              "description": "OCEAN RESORTS 11/14 #000249957 PURCHASE OCEAN RESORTS CA ATLANTIC CITY NJ",
+              "amount": 520.45,
+              "type": "Debit"
+            },
+            {
+              "date": "11-17-2025",
+              "description": "OCEAN RESORTS 11/14 #000497204 PURCHASE OCEAN RESORTS CA ATLANTIC CITY NJ",
+              "amount": 520.45,
+              "type": "Debit"
+            },
+            {
+              "date": "11-17-2025",
+              "description": "OCEAN RESORTS 11/14 #000729846 PURCHASE OCEAN RESORTS CA ATLANTIC CITY NJ",
+              "amount": 520.45,
+              "type": "Debit"
+            },
+            {
+              "date": "11-17-2025",
+              "description": "OCEAN RESORTS 11/14 #000488830 PURCHASE OCEAN RESORTS CA ATLANTIC CITY NJ",
+              "amount": 313.45,
+              "type": "Debit"
+            },
+            {
+              "date": "11-17-2025",
+              "description": "CHECKCARD 1116 SPEEDWAY 44765 TOMS RIVER NJ 24137465321001136501542 CKCD 5542 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392",
+              "amount": 43.33,
+              "type": "Debit"
+            },
+            {
+              "date": "11-17-2025",
+              "description": "CHECKCARD 1116 TMOBILE AUTO P BELLEVUE WA 00000000000000000523691 RECURRING CKCD 4814 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392",
+              "amount": 87.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11-17-2025",
+              "description": "CHECKCARD 1116 SHOPRITE OF ROUTE37 S1 TOMS RIVER NJ 24692165321100206926390 CKCD 5411 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392",
+              "amount": 12.99,
+              "type": "Debit"
+            },
+            {
+              "date": "11-17-2025",
+              "description": "PURCHASE 1114 AMAZON MKTPL*B87KO7BJO Amzn.com/billWA",
+              "amount": 39.22,
+              "type": "Debit"
+            },
+            {
+              "date": "11-17-2025",
+              "description": "PURCHASE 1116 AMAZON MKTPL*B86TCOQI2 Amzn.com/billWA",
+              "amount": 29.84,
+              "type": "Debit"
+            },
+            {
+              "date": "11-17-2025",
+              "description": "PURCHASE 1117 AMAZON MKTPL*B80XU8100 Amzn.com/billWA",
+              "amount": 57.57,
+              "type": "Debit"
+            },
+            {
+              "date": "11-17-2025",
+              "description": "PURCHASE 1117 AMAZON MKTPL*B83EZ6WN1 Amzn.com/billWA",
+              "amount": 33.04,
+              "type": "Debit"
+            },
+            {
+              "date": "11-18-2025",
+              "description": "TRACTOR SUPPLY 11/18 #000938978 PURCHASE TRACTOR SUPPLY # Toms River NJ",
+              "amount": 96.02,
+              "type": "Debit"
+            },
+            {
+              "date": "11-18-2025",
+              "description": "ALDI 60051 11/18 #000277000 PURCHASE 740 ROUTE 37 WEST TOMS RIVER NJ",
+              "amount": 182.22,
+              "type": "Debit"
+            },
+            {
+              "date": "11-18-2025",
+              "description": "STOP & SHOP 08 11/18 #000106623 PURCHASE STOP & SHOP 0811 TOMS RIVER NJ",
+              "amount": 144.58,
+              "type": "Debit"
+            },
+            {
+              "date": "11-19-2025",
+              "description": "PURCHASE 1118 AMAZON MKTPL*B07QP3LH0 Amzn.com/billWA",
+              "amount": 33.04,
+              "type": "Debit"
+            },
+            {
+              "date": "11-19-2025",
+              "description": "CHECKCARD 1118 SINGIN TOMS RIVER NJ 24055225323553969556351 CKCD 5499 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392",
+              "amount": 18.64,
+              "type": "Debit"
+            },
+            {
+              "date": "11-19-2025",
+              "description": "PURCHASE 1118 AMAZON MKTPL*B09GK3Z30 Amzn.com/billWA",
+              "amount": 26.65,
+              "type": "Debit"
+            },
+            {
+              "date": "11-19-2025",
+              "description": "CHECKCARD 1118 WAWA 700 SHIPBOTTOM NJ 24055245323554053683653 CKCD 5499 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392",
+              "amount": 16.19,
+              "type": "Debit"
+            },
+            {
+              "date": "11-19-2025",
+              "description": "PURCHASE 1118 SHERWIN-WILLIAMS705153 160-9597779 NJ",
+              "amount": 78.9,
+              "type": "Debit"
+            },
+            {
+              "date": "11-19-2025",
+              "description": "CHECKCARD 1118 WAWA 429 MANCHESTER TONJ 24055245323554040150550 CKCD 5499 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392",
+              "amount": 13.43,
+              "type": "Debit"
+            },
+            {
+              "date": "11-19-2025",
+              "description": "CHECKCARD 1119 TIKTOK SHOP TIKTOK.COM CA 24036295323742254510911 CKCD 5399 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392",
+              "amount": 208.62,
+              "type": "Debit"
+            },
+            {
+              "date": "11-19-2025",
+              "description": "CHECKCARD 1118 TUCKERTOWN LUMBER COMPA SURF CITY NJ 24801975322553638464399 CKCD 5211 XXXXXXXXXXXX0661 XXXX XXXX XXXX 0661",
+              "amount": 1300.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11-19-2025",
+              "description": "CHECKCARD 1118 EUROPEAN FOOD MARKET TOMS RIVER NJ 24116415322553486036726 CKCD 5411 XXXXXXXXXXXX0661 XXXX XXXX XXXX 0661",
+              "amount": 47.84,
+              "type": "Debit"
+            },
+            {
+              "date": "11-20-2025",
+              "description": "CHECKCARD 1119 SINGIN TOMS RIVER NJ 24055225324555075613678 CKCD 5499 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392",
+              "amount": 15.45,
+              "type": "Debit"
+            },
+            {
+              "date": "11-20-2025",
+              "description": "CHECKCARD 1119 WAWA 371 TUCKERTON NJ 24055245324555138433963 CKCD 5542 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392",
+              "amount": 37.3,
+              "type": "Debit"
+            },
+            {
+              "date": "11-20-2025",
+              "description": "CHECKCARD 1119 WAWA 700 SHIPBOTTOM NJ 24055245324555153344301 CKCD 5499 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392",
+              "amount": 16.19,
+              "type": "Debit"
+            },
+            {
+              "date": "11-20-2025",
+              "description": "CHECKCARD 1119 TURKISH AIRLINES/WEB ISTANBUL 74779595324031419725590 CKCD 3047 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392",
+              "amount": 330.56,
+              "type": "Debit"
+            },
+            {
+              "date": "11-20-2025",
+              "description": "THE HOME DEPOT 11/20 #000635973 PURCHASE THE HOME DEPOT #0 TOMS RIVER NJ",
+              "amount": 47.9,
+              "type": "Debit"
+            },
+            {
+              "date": "11-20-2025",
+              "description": "PURCHASE 1119 STATE FARM INSURANCE 800-956-6310 IL",
+              "amount": 503.44,
+              "type": "Debit"
+            },
+            {
+              "date": "11-21-2025",
+              "description": "1-800-690-1803 DES:UptempoMkt ID:260156 INDN:DENIZ CELTIK CO ID:XXXXXXXXX PPD",
+              "amount": 428.56,
+              "type": "Debit"
+            },
+            {
+              "date": "11-21-2025",
+              "description": "Credit One Bank DES:Payment ID:58026167 INDN:CELTIK,DENIZ CO ID:WEB000004 WEB",
+              "amount": 61.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11-21-2025",
+              "description": "PURCHASE 1120 AMAZON MKTPL*B006H6X32 Amzn.com/billWA",
+              "amount": 120.54,
+              "type": "Debit"
+            },
+            {
+              "date": "11-21-2025",
+              "description": "PURCHASE 1120 AMAZON MKTPL*B02G68HX1 Amzn.com/billWA",
+              "amount": 47.34,
+              "type": "Debit"
+            },
+            {
+              "date": "11-21-2025",
+              "description": "PURCHASE 1120 SHERWIN-WILLIAMS705026 173-2506070 NJ",
+              "amount": 172.28,
+              "type": "Debit"
+            },
+            {
+              "date": "11-21-2025",
+              "description": "CHECKCARD 1120 SINGIN TOMS RIVER NJ 24055225325556195694399 CKCD 5499 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392",
+              "amount": 15.45,
+              "type": "Debit"
+            },
+            {
+              "date": "11-21-2025",
+              "description": "PURCHASE 1120 SHERWIN-WILLIAMS701886 160-9339206 NJ",
+              "amount": 81.94,
+              "type": "Debit"
+            },
+            {
+              "date": "11-21-2025",
+              "description": "CHECKCARD 1120 WAWA 988 FORKED RIVER NJ 24055245325556292686890 CKCD 5541 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392",
+              "amount": 40.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11-21-2025",
+              "description": "CHECKCARD 1120 WAWA 994 MANAHAWKIN NJ 24055245325556292783127 CKCD 5541 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392",
+              "amount": 16.82,
+              "type": "Debit"
+            },
+            {
+              "date": "11-21-2025",
+              "description": "CHECKCARD 1120 APPLE.COM/BILL 866-712-7753 CA 24692165324103272170262 RECURRING CKCD 5818 XXXXXXXXXXXX0661 XXXX XXXX XXXX 0661",
+              "amount": 2.99,
+              "type": "Debit"
+            },
+            {
+              "date": "11-21-2025",
+              "description": "CHECKCARD 1120 APPLE.COM/BILL 866-712-7753 CA 24692165324103439525218 RECURRING CKCD 5818 XXXXXXXXXXXX0661 XXXX XXXX XXXX 0661",
+              "amount": 5.32,
+              "type": "Debit"
+            },
+            {
+              "date": "11-21-2025",
+              "description": "WAL-MART #1844 11/21 #000260508 PURCHASE 950 ROUTE 37 W TOMS RIVER NJ",
+              "amount": 150.45,
+              "type": "Debit"
+            },
+            {
+              "date": "11-24-2025",
+              "description": "PURCHASE 1121 AMAZON MKTPL*B01KU3DN2 Amzn.com/billWA",
+              "amount": 193.95,
+              "type": "Debit"
+            },
+            {
+              "date": "11-24-2025",
+              "description": "CHECKCARD 1121 SINGIN TOMS RIVER NJ 24055225326557356077704 CKCD 5499 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392",
+              "amount": 15.45,
+              "type": "Debit"
+            },
+            {
+              "date": "11-24-2025",
+              "description": "CHECKCARD 1121 SHERWIN-WILLIAMS705026 TOMS RIVER NJ 24793385325002513225094 CKCD 5231 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392",
+              "amount": 48.01,
+              "type": "Debit"
+            },
+            {
+              "date": "11-24-2025",
+              "description": "CHECKCARD 1121 WAWA 8433 PISCATAWAY NJ 24055245326557471206814 CKCD 5542 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392",
+              "amount": 31.13,
+              "type": "Debit"
+            },
+            {
+              "date": "11-24-2025",
+              "description": "CHECKCARD 1121 WAWA 8433 PISCATAWAY NJ 24055245326557471206806 CKCD 5541 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392",
+              "amount": 22.47,
+              "type": "Debit"
+            },
+            {
+              "date": "11-24-2025",
+              "description": "PURCHASE 1122 SHERWIN-WILLIAMS705153 160-9597779 NJ",
+              "amount": 268.16,
+              "type": "Debit"
+            },
+            {
+              "date": "11-24-2025",
+              "description": "PURCHASE 1123 DD *DDDOORDASHDOMINOS DOORDASH.COM CA",
+              "amount": 34.17,
+              "type": "Debit"
+            },
+            {
+              "date": "11-24-2025",
+              "description": "CHECKCARD 1122 EFES HALAL FOOD MARKET DELRAN NJ 24435655327136837417967 CKCD 5411 XXXXXXXXXXXX0661 XXXX XXXX XXXX 0661",
+              "amount": 80.96,
+              "type": "Debit"
+            },
+            {
+              "date": "11-28-2025",
+              "description": "CAPITAL ONE DES:CRCARDPMT ID:CA07F76B21F302F INDN:Volkan Celtik CO ID:9541719318 CCD",
+              "amount": 55.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11-28-2025",
+              "description": "PURCHASE 1126 AMAZON RETA* B20RJ37P1 WWW.AMAZON.COWA",
+              "amount": 22.36,
+              "type": "Debit"
+            },
+            {
+              "date": "11-28-2025",
+              "description": "PURCHASE 1126 AMAZON MKTPL*B25E23U02 Amzn.com/billWA",
+              "amount": 6.99,
+              "type": "Debit"
+            },
+            {
+              "date": "11-28-2025",
+              "description": "CHECKCARD 1127 APPLE.COM/BILL 866-712-7753 CA 24692165331100337995452 RECURRING CKCD 5818 XXXXXXXXXXXX0661 XXXX XXXX XXXX 0661",
+              "amount": 5.32,
+              "type": "Debit"
+            }
+          ]
+        }
+      ]
+    },
+    "raw_output": "```json\n{\n  \"accounts\": [\n    {\n      \"account_number\": \"381063622979\",\n      \"account_type\": \"Business Advantage Fundamentals Banking\",\n      \"mca_deposit\": [],\n      \"mca_withdrawal\": [],\n      \"returned_items\": [],\n      \"overdrafts\": [],\n      \"service_charges\": [\n        {\n          \"date\": \"11-03-2025\",\n          \"description\": \"Ocean Resort C 10/31 #000412245 WITHDRWL Ocean Resort C ATLANTIC CITY NJ FEE CKCD XXXXXXXXXXXX0661\",\n          \"amount\": 2.5,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-06-2025\",\n          \"description\": \"PNC BANK 11/06 #000009886 WITHDRWL PNC BANK TOMS RIVER NJ FEE CKCD XXXXXXXXXXXX0392\",\n          \"amount\": 2.5,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-07-2025\",\n          \"description\": \"7ELEVEN-FCTI 11/07 #000850751 WITHDRWL 7ELEVEN-FCTI WALL TOWNSHIP NJ FEE CKCD XXXXXXXXXXXX0392\",\n          \"amount\": 2.5,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-10-2025\",\n          \"description\": \"PNC BANK 11/08 #000004030 WITHDRWL PNC BANK MANAHAWKIN NJ FEE CKCD XXXXXXXXXXXX0392\",\n          \"amount\": 2.5,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-12-2025\",\n          \"description\": \"PNC BANK 11/11 #000000225 WITHDRWL PNC BANK FORKED RIVER NJ FEE CKCD XXXXXXXXXXXX0392\",\n          \"amount\": 2.5,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-12-2025\",\n          \"description\": \"PNC BANK 11/11 #000005224 WITHDRWL PNC BANK FORKED RIVER NJ FEE CKCD XXXXXXXXXXXX0392\",\n          \"amount\": 2.5,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-12-2025\",\n          \"description\": \"WELSH FARMS -7 11/12 #000817002 WITHDRWL WELSH FARMS -7155 LAKE COMO NJ FEE CKCD XXXXXXXXXXXX0392\",\n          \"amount\": 2.5,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-12-2025\",\n          \"description\": \"SUNOCO CO-OP-U 11/11 #000558284 WITHDRWL SUNOCO CO-OP-U560 SOUTH AMBOY NJ FEE CKCD XXXXXXXXXXXX0392\",\n          \"amount\": 2.5,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-14-2025\",\n          \"description\": \"KRAUSZERS - -1 11/14 #000786105 WITHDRWL KRAUSZERS - -1237 TOMS RIVER NJ FEE CKCD XXXXXXXXXXXX0392\",\n          \"amount\": 2.5,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-17-2025\",\n          \"description\": \"Ocean Resort C 11/14 #000156768 WITHDRWL Ocean Resort C ATLANTIC CITY NJ FEE CKCD XXXXXXXXXXXX0392\",\n          \"amount\": 2.5,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-19-2025\",\n          \"description\": \"PNC BANK 11/19 #000002391 WITHDRWL PNC BANK TOMS RIVER NJ FEE CKCD XXXXXXXXXXXX0392\",\n          \"amount\": 2.5,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-20-2025\",\n          \"description\": \"CHECKCARD 1119 TURKISH AIRLINES/WEB ISTANBUL 74779595324031419725590 CKCD 3047 XXXXXXXXXXXX0392 INTERNATIONAL TRANSACTION FEE\",\n          \"amount\": 9.92,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-21-2025\",\n          \"description\": \"PNC BANK 11/21 #000006031 WITHDRWL PNC BANK FORKED RIVER NJ FEE CKCD XXXXXXXXXXXX0392\",\n          \"amount\": 2.5,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-24-2025\",\n          \"description\": \"PNC BANK 11/22 #000003039 WITHDRWL PNC BANK TOMS RIVER NJ FEE CKCD XXXXXXXXXXXX0392\",\n          \"amount\": 2.5,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-24-2025\",\n          \"description\": \"BP GAS INDIA-1 11/22 #000315163 WITHDRWL BP GAS INDIA-1629 MANAHAWKIN NJ FEE CKCD XXXXXXXXXXXX0392\",\n          \"amount\": 2.5,\n          \"type\": \"Debit\"\n        }\n      ],\n      \"atm_cash_withdrawal\": [\n        {\n          \"date\": \"11-03-2025\",\n          \"description\": \"BKOFAMERICA ATM 11/01 #000006465 WITHDRWL TOMS RIVER - ROUTE TOMS RIVER NJ\",\n          \"amount\": 400.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-03-2025\",\n          \"description\": \"BKOFAMERICA ATM 11/01 #000006464 WITHDRWL TOMS RIVER - ROUTE TOMS RIVER NJ\",\n          \"amount\": 1500.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-03-2025\",\n          \"description\": \"Ocean Resort C 10/31 #000412245 WITHDRWL Ocean Resort C ATLANTIC CITY NJ\",\n          \"amount\": 507.99,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-05-2025\",\n          \"description\": \"BKOFAMERICA ATM 11/05 #000008653 WITHDRWL TOMS RIVER - ROUTE TOMS RIVER NJ\",\n          \"amount\": 1500.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-06-2025\",\n          \"description\": \"PNC BANK 11/06 #000009886 WITHDRWL PNC BANK TOMS RIVER NJ\",\n          \"amount\": 200.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-07-2025\",\n          \"description\": \"7ELEVEN-FCTI 11/07 #000850751 WITHDRWL 7ELEVEN-FCTI WALL TOWNSHIP NJ\",\n          \"amount\": 203.95,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-10-2025\",\n          \"description\": \"PNC BANK 11/08 #000004030 WITHDRWL PNC BANK MANAHAWKIN NJ\",\n          \"amount\": 400.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-10-2025\",\n          \"description\": \"BKOFAMERICA ATM 11/10 #000009033 WITHDRWL TOMS RIVER - ROUTE TOMS RIVER NJ\",\n          \"amount\": 550.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-12-2025\",\n          \"description\": \"BKOFAMERICA ATM 11/11 #000009141 WITHDRWL TOMS RIVER - ROUTE TOMS RIVER NJ\",\n          \"amount\": 600.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-12-2025\",\n          \"description\": \"PNC BANK 11/11 #000000225 WITHDRWL PNC BANK FORKED RIVER NJ\",\n          \"amount\": 200.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-12-2025\",\n          \"description\": \"PNC BANK 11/11 #000005224 WITHDRWL PNC BANK FORKED RIVER NJ\",\n          \"amount\": 200.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-12-2025\",\n          \"description\": \"SUNOCO CO-OP-U 11/11 #000558284 WITHDRWL SUNOCO CO-OP-U560 SOUTH AMBOY NJ\",\n          \"amount\": 103.5,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-12-2025\",\n          \"description\": \"BKOFAMERICA ATM 11/12 #000009434 WITHDRWL TOMS RIVER - ROUTE TOMS RIVER NJ\",\n          \"amount\": 1300.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-12-2025\",\n          \"description\": \"WELSH FARMS -7 11/12 #000817002 WITHDRWL WELSH FARMS -7155 LAKE COMO NJ\",\n          \"amount\": 81.6,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-13-2025\",\n          \"description\": \"BKOFAMERICA ATM 11/13 #000009663 WITHDRWL TOMS RIVER - ROUTE TOMS RIVER NJ\",\n          \"amount\": 1500.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-14-2025\",\n          \"description\": \"KRAUSZERS - -1 11/14 #000786105 WITHDRWL KRAUSZERS - -1237 TOMS RIVER NJ\",\n          \"amount\": 203.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-14-2025\",\n          \"description\": \"BKOFAMERICA ATM 11/14 #000001204 WITHDRWL TOMS RIVER - ROUTE TOMS RIVER NJ\",\n          \"amount\": 1000.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-17-2025\",\n          \"description\": \"BKOFAMERICA ATM 11/15 #000001381 WITHDRWL TOMS RIVER - ROUTE TOMS RIVER NJ\",\n          \"amount\": 1500.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-17-2025\",\n          \"description\": \"Ocean Resort C 11/14 #000156768 WITHDRWL Ocean Resort C ATLANTIC CITY NJ\",\n          \"amount\": 207.99,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-17-2025\",\n          \"description\": \"BKOFAMERICA ATM 11/15 #000003550 WITHDRWL TOMS RIVER - ROUTE TOMS RIVER NJ\",\n          \"amount\": 1500.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-19-2025\",\n          \"description\": \"PNC BANK 11/19 #000002391 WITHDRWL PNC BANK TOMS RIVER NJ\",\n          \"amount\": 200.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-21-2025\",\n          \"description\": \"PNC BANK 11/21 #000006031 WITHDRWL PNC BANK FORKED RIVER NJ\",\n          \"amount\": 200.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-24-2025\",\n          \"description\": \"BP GAS INDIA-1 11/22 #000315163 WITHDRWL BP GAS INDIA-1629 MANAHAWKIN NJ\",\n          \"amount\": 202.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-24-2025\",\n          \"description\": \"PNC BANK 11/22 #000003039 WITHDRWL PNC BANK TOMS RIVER NJ\",\n          \"amount\": 200.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-28-2025\",\n          \"description\": \"BKOFAMERICA ATM 11/27 #000006133 WITHDRWL TOMS RIVER - ROUTE TOMS RIVER NJ\",\n          \"amount\": 350.0,\n          \"type\": \"Debit\"\n        }\n      ],\n      \"internal_transfer_deposit\": [],\n      \"other_transfer_deposit\": [\n        {\n          \"date\": \"11-17-2025\",\n          \"description\": \"Zelle payment from Conf# awtar6wg9\",\n          \"amount\": 1600.0,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        }\n      ],\n      \"internal_transfer_withdrawal\": [],\n      \"other_transfer_withdrawal\": [\n        {\n          \"date\": \"11-04-2025\",\n          \"description\": \"ALLY DES:ALLY PAYMT ID:228053584854 INDN:Deniz Celtik CO ID:9833122002 CCD\",\n          \"amount\": 500.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-05-2025\",\n          \"description\": \"Zelle payment to Domingo Vicente ortiz martinez Conf# cm55g3yo1\",\n          \"amount\": 1450.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-05-2025\",\n          \"description\": \"Zelle payment to Deniz Celtik Conf# c930w8yjj\",\n          \"amount\": 800.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-06-2025\",\n          \"description\": \"Zelle payment to Deniz Celtik Conf# c2eedsnwk\",\n          \"amount\": 200.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-06-2025\",\n          \"description\": \"Zelle payment to TURGAY TOKGOZ Conf# giwfwlnxf\",\n          \"amount\": 800.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-10-2025\",\n          \"description\": \"Zelle payment to Madelin Boyaci Conf# ak4fnqynk\",\n          \"amount\": 950.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-10-2025\",\n          \"description\": \"Zelle payment to Madelin Boyaci Conf# h8k1o5rjo\",\n          \"amount\": 540.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-10-2025\",\n          \"description\": \"Zelle payment to TURGAY TOKGOZ Conf# g7k8btxdi\",\n          \"amount\": 800.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-12-2025\",\n          \"description\": \"Zelle payment to Domingo Vicente ortiz martinez Conf# cmi0vx7zj\",\n          \"amount\": 10000.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-12-2025\",\n          \"description\": \"Zelle payment to Domingo Vicente ortiz martinez Conf# lbpp12oyk\",\n          \"amount\": 3000.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-12-2025\",\n          \"description\": \"Zelle payment to Deniz Celtik Conf# hhrh1qz5n\",\n          \"amount\": 400.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-12-2025\",\n          \"description\": \"Zelle payment to Daniely Dos Santos Conf# cr9i0zdv5\",\n          \"amount\": 230.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-14-2025\",\n          \"description\": \"Zelle payment to Heater Man Max Lopes Conf# fteq4qacd\",\n          \"amount\": 150.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-14-2025\",\n          \"description\": \"Zelle payment to Laura Flores Conf# f908raff9\",\n          \"amount\": 600.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-17-2025\",\n          \"description\": \"Zelle payment to Domingo Vicente ortiz martinez Conf# ew23ispit\",\n          \"amount\": 1500.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-17-2025\",\n          \"description\": \"Zelle payment to Osito Oropeza Conf# fautsnjai\",\n          \"amount\": 800.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-17-2025\",\n          \"description\": \"Zelle payment to Madelin Boyaci Conf# ftxk71tvd\",\n          \"amount\": 1270.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-17-2025\",\n          \"description\": \"Zelle payment to TURGAY TOKGOZ Conf# iefqrjhxu\",\n          \"amount\": 350.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-18-2025\",\n          \"description\": \"Zelle payment to Domingo Vicente ortiz martinez Conf# dn3mjq243\",\n          \"amount\": 300.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-18-2025\",\n          \"description\": \"Zelle payment to Osito Oropeza Conf# bkk0q1ede\",\n          \"amount\": 200.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-18-2025\",\n          \"description\": \"Zelle payment to TURGAY TOKGOZ Conf# blgkljap4\",\n          \"amount\": 2200.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-18-2025\",\n          \"description\": \"Zelle payment to Sezgin Conf# bmbh1cvs1\",\n          \"amount\": 2.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-19-2025\",\n          \"description\": \"Zelle payment to Kasim Abi Conf# bx2wniqwx\",\n          \"amount\": 800.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-19-2025\",\n          \"description\": \"Zelle payment to Carlos Villabon Sanchez Conf# c2mwx6yg3\",\n          \"amount\": 2500.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-24-2025\",\n          \"description\": \"Zelle payment to Domingo Vicente ortiz martinez Conf# d6dh7i8y6\",\n          \"amount\": 1970.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-24-2025\",\n          \"description\": \"Zelle payment to Osito Oropeza Conf# d0ldag6g0\",\n          \"amount\": 1000.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-24-2025\",\n          \"description\": \"Zelle payment to Madelin Boyaci Conf# hdmeccgqe\",\n          \"amount\": 650.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-28-2025\",\n          \"description\": \"Zelle payment to Daniely Dos Santos Conf# ca5hnd8ba\",\n          \"amount\": 230.0,\n          \"type\": \"Debit\"\n        }\n      ],\n      \"standard_deposit\": [\n        {\n          \"date\": \"11-03-2025\",\n          \"description\": \"Bank of America DES:CASHREWARD ID:PAINTING INDN:0000000011893669000000 CO ID:2002290310 PPD\",\n          \"amount\": 26.32,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"11-04-2025\",\n          \"description\": \"BKOFAMERICA MOBILE 11/04 3648123271 DEPOSIT\",\n          \"amount\": 9560.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11-06-2025\",\n          \"description\": \"BKOFAMERICA MOBILE 11/06 3860923138 DEPOSIT\",\n          \"amount\": 1800.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11-10-2025\",\n          \"description\": \"Counter Credit\",\n          \"amount\": 16010.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11-10-2025\",\n          \"description\": \"BKOFAMERICA MOBILE 11/10 3651632012 DEPOSIT\",\n          \"amount\": 1200.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11-12-2025\",\n          \"description\": \"BKOFAMERICA MOBILE 11/11 3652170607 DEPOSIT\",\n          \"amount\": 3400.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11-12-2025\",\n          \"description\": \"BKOFAMERICA MOBILE 11/11 3863623450 DEPOSIT\",\n          \"amount\": 2550.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11-14-2025\",\n          \"description\": \"BKOFAMERICA MOBILE 11/14 3653698532 DEPOSIT\",\n          \"amount\": 2500.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11-14-2025\",\n          \"description\": \"BKOFAMERICA MOBILE 11/14 3653695963 DEPOSIT\",\n          \"amount\": 2200.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11-14-2025\",\n          \"description\": \"BKOFAMERICA ATM 11/14 #000003133 DEPOSIT TOMS RIVER - ROUTE TOMS RIVER NJ\",\n          \"amount\": 1650.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11-17-2025\",\n          \"description\": \"BKOFAMERICA MOBILE 11/17 3655388486 DEPOSIT\",\n          \"amount\": 16750.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11-17-2025\",\n          \"description\": \"THE HOME DEPOT 11/16 #000633382 REFUND THE HOME DEPOT #0 TOMS RIVER NJ\",\n          \"amount\": 92.94,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"11-21-2025\",\n          \"description\": \"BKOFAMERICA MOBILE 11/21 3869496610 DEPOSIT\",\n          \"amount\": 1600.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11-24-2025\",\n          \"description\": \"BKOFAMERICA ATM 11/22 #000003407 DEPOSIT TOMS RIVER - ROUTE TOMS RIVER NJ\",\n          \"amount\": 750.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11-26-2025\",\n          \"description\": \"BKOFAMERICA MOBILE 11/26 3600489474 DEPOSIT\",\n          \"amount\": 400.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11-28-2025\",\n          \"description\": \"BKOFAMERICA ATM 11/27 #000006127 DEPOSIT TOMS RIVER - ROUTE TOMS RIVER NJ\",\n          \"amount\": 75.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11-28-2025\",\n          \"description\": \"BKOFAMERICA ATM 11/27 #000006132 DEPOSIT TOMS RIVER - ROUTE TOMS RIVER NJ\",\n          \"amount\": 203.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        }\n      ],\n      \"standard_withdrawal\": [\n        {\n          \"date\": \"11-03-2025\",\n          \"description\": \"EZPASS8882886865 DES:AUTO REPL ID:5P-XXXXXXXXX INDN:DENIZ CELTIK ID:8131996647 PPD\",\n          \"amount\": 140.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-03-2025\",\n          \"description\": \"PURCHASE 1031 SHERWIN-WILLIAMS705153 160-9597779 NJ\",\n          \"amount\": 214.53,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-03-2025\",\n          \"description\": \"CHECKCARD 1031 KRAUSZERS FOOD STORE TOMS RIVER NJ 24055225305534155107359 CKCD 5499 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392\",\n          \"amount\": 32.93,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-03-2025\",\n          \"description\": \"PURCHASE 1101 SHERWIN-WILLIAMS705153 160-9597779 NJ\",\n          \"amount\": 457.14,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-03-2025\",\n          \"description\": \"PURCHASE 1101 AMAZON MKTPL*N45MW3Y62 Amzn.com/billWA\",\n          \"amount\": 24.5,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-05-2025\",\n          \"description\": \"PURCHASE 1104 SHERWIN-WILLIAMS703458 190-8431010 NJ\",\n          \"amount\": 91.2,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-06-2025\",\n          \"description\": \"New Jersey Natural Gas Bill Payment\",\n          \"amount\": 200.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-06-2025\",\n          \"description\": \"Veolia Water Bill Payment\",\n          \"amount\": 100.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-06-2025\",\n          \"description\": \"PURCHASE 1105 SHERWIN-WILLIAMS705153 160-9597779 NJ\",\n          \"amount\": 228.53,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-06-2025\",\n          \"description\": \"CHECKCARD 1105 THE TOWNSHIP OF TOMS RI TOMS RIVER NJ 24055225310539708596506 CKCD 7523 XXXXXXXXXXXX0661 XXXX XXXX XXXX 0661\",\n          \"amount\": 0.75,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-06-2025\",\n          \"description\": \"ALDI 60051 11/06 #000642000 PURCHASE 740 ROUTE 37 WEST TOMS RIVER NJ\",\n          \"amount\": 187.47,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-06-2025\",\n          \"description\": \"STOP & SHOP 08 11/06 #000642830 PURCHASE STOP & SHOP 0811 TOMS RIVER NJ\",\n          \"amount\": 45.03,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-07-2025\",\n          \"description\": \"1-800-690-1803 DES:UptempoMkt ID:260156 INDN:DENIZ CELTIK CO ID:XXXXXXXXX PPD\",\n          \"amount\": 428.56,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-07-2025\",\n          \"description\": \"CHECKCARD 1106 APPLE.COM/BILL 866-712-7753 CA 24692165310100648795695 RECURRING CKCD 5818 XXXXXXXXXXXX0661 XXXX XXXX XXXX 0661\",\n          \"amount\": 5.32,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-07-2025\",\n          \"description\": \"CHECKCARD 1106 APPLE COM BILL CUPERTINO CA 00000000000000000152084 RECURRING CKCD 4899 XXXXXXXXXXXX0661 XXXX XXXX XXXX 0661\",\n          \"amount\": 20.25,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-07-2025\",\n          \"description\": \"STOP & SHOP 08 11/07 #000187359 PURCHASE STOP & SHOP 0811 TOMS RIVER NJ\",\n          \"amount\": 19.38,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-10-2025\",\n          \"description\": \"AMERICAN EXPRESS DES:ACH PMT ID:A0388 INDN:DENIZ CELTIK CO ID:3133133497 CCD\",\n          \"amount\": 129.2,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-10-2025\",\n          \"description\": \"CHECKCARD 1106 SHELL OIL 57546228503 TOMS RIVER NJ 24316055311541159414549 CKCD 5542 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392\",\n          \"amount\": 41.08,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-10-2025\",\n          \"description\": \"PURCHASE 1107 SHERWIN-WILLIAMS705378 173-2752123 NJ\",\n          \"amount\": 88.61,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-10-2025\",\n          \"description\": \"CHECKCARD 1108 WAWA 953 TOMS RIVER NJ 24055245313543226737688 CKCD 5542 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392\",\n          \"amount\": 34.64,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-10-2025\",\n          \"description\": \"THE HOME DEPOT 11/08 #000729378 PURCHASE THE HOME DEPOT #0 LAKEWOOD NJ\",\n          \"amount\": 350.19,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-10-2025\",\n          \"description\": \"CHECKCARD 1107 Dicks Sporting Goods Brick NJ 24204295311001411210224 CKCD 5941 XXXXXXXXXXXX0661 XXXX XXXX XXXX 0661\",\n          \"amount\": 168.27,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-10-2025\",\n          \"description\": \"PURCHASE 1108 AMAZON MKTPL*BT3NN4LX2 Amzn.com/billWA\",\n          \"amount\": 9.27,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-10-2025\",\n          \"description\": \"CHECKCARD 1108 TMOBILE AUTO P BELLEVUE WA 00000000000000000432579 RECURRING CKCD 4814 XXXXXXXXXXXX0661 XXXX XXXX XXXX 0661\",\n          \"amount\": 307.35,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-10-2025\",\n          \"description\": \"PURCHASE 1110 AMAZON MKTPL*BT3TG1791 Amzn.com/billWA\",\n          \"amount\": 31.98,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-10-2025\",\n          \"description\": \"PURCHASE 1110 AMAZON MKTPL*BT5T137A0 Amzn.com/billWA\",\n          \"amount\": 25.18,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-12-2025\",\n          \"description\": \"PURCHASE 1111 SHERWIN-WILLIAMS701886 160-9339206 NJ\",\n          \"amount\": 25.54,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-12-2025\",\n          \"description\": \"CHECKCARD 1111 WAWA 935 MANAHAWKIN NJ 24055245316546369445032 CKCD 5542 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392\",\n          \"amount\": 42.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-12-2025\",\n          \"description\": \"STOP & SHOP 08 11/11 #000017147 PURCHASE STOP & SHOP 0811 TOMS RIVER NJ\",\n          \"amount\": 52.52,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-12-2025\",\n          \"description\": \"SHOPRITE OF RO 11/12 #000772433 PURCHASE SHOPRITE OF ROUTE TOMS RIVER NJ\",\n          \"amount\": 143.44,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-12-2025\",\n          \"description\": \"CHECKCARD 1111 EUROPEAN FOOD MARKET TOMS RIVER NJ 24116415315545821038937 CKCD 5411 XXXXXXXXXXXX0661 XXXX XXXX XXXX 0661\",\n          \"amount\": 163.77,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-12-2025\",\n          \"description\": \"TARGET T-1154 11/12 #000050825 PURCHASE TARGET T-1154 Toms River NJ\",\n          \"amount\": 56.12,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-12-2025\",\n          \"description\": \"CHECKCARD 1112 APPLE COM BILL CUPERTINO CA 00000000000000000198726 RECURRING CKCD 4899 XXXXXXXXXXXX0661 XXXX XXXX XXXX 0661\",\n          \"amount\": 58.62,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-13-2025\",\n          \"description\": \"DISCOVER DES:E-PAYMENT ID:8184 INDN:CELTIK DENIZ CO ID:3510020270 WEB\",\n          \"amount\": 113.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-13-2025\",\n          \"description\": \"PURCHASE 1112 SHERWIN-WILLIAMS705153 160-9597779 NJ\",\n          \"amount\": 103.91,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-13-2025\",\n          \"description\": \"STOP & SHOP 08 11/13 #000602138 PURCHASE STOP & SHOP 0811 TOMS RIVER NJ\",\n          \"amount\": 22.99,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-14-2025\",\n          \"description\": \"CAPITAL ONE DES:CRCARDPMT ID:CA07D6C02365E06 INDN:Volkan Celtik CO ID:9541719318 CCD\",\n          \"amount\": 50.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-14-2025\",\n          \"description\": \"CHECKCARD 1113 SPEEDWAY 44765 TOMS RIVER NJ 24137465318001265480646 CKCD 5542 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392\",\n          \"amount\": 41.5,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-14-2025\",\n          \"description\": \"7-ELEVEN 11/14 #000102173 PURCHASE 7-ELEVEN Wall Township NJ\",\n          \"amount\": 39.15,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-17-2025\",\n          \"description\": \"FAY SERVICING DES:ACH PMTS ID:0050100326 INDN:DENIZ CELTIK CO ID:9412277737 PPD\",\n          \"amount\": 4738.91,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-17-2025\",\n          \"description\": \"EZPASS8882886865 DES:AUTO REPL ID:5P-XXXXXXXXX INDN:DENIZ CELTIK CO ID:8131996647 PPD\",\n          \"amount\": 140.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-17-2025\",\n          \"description\": \"CHECKCARD 1115 SCHOOLCAFE 855-7292328 TX 24335505319807117350908 CKCD 8999 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392\",\n          \"amount\": 101.95,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-17-2025\",\n          \"description\": \"CHECKCARD 1114 WAWA 995 TOMS RIVER NJ 24055245319549770647367 CKCD 5542 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392\",\n          \"amount\": 40.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-17-2025\",\n          \"description\": \"OCEAN RESORTS 11/14 #000249957 PURCHASE OCEAN RESORTS CA ATLANTIC CITY NJ\",\n          \"amount\": 520.45,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-17-2025\",\n          \"description\": \"OCEAN RESORTS 11/14 #000497204 PURCHASE OCEAN RESORTS CA ATLANTIC CITY NJ\",\n          \"amount\": 520.45,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-17-2025\",\n          \"description\": \"OCEAN RESORTS 11/14 #000729846 PURCHASE OCEAN RESORTS CA ATLANTIC CITY NJ\",\n          \"amount\": 520.45,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-17-2025\",\n          \"description\": \"OCEAN RESORTS 11/14 #000488830 PURCHASE OCEAN RESORTS CA ATLANTIC CITY NJ\",\n          \"amount\": 313.45,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-17-2025\",\n          \"description\": \"CHECKCARD 1116 SPEEDWAY 44765 TOMS RIVER NJ 24137465321001136501542 CKCD 5542 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392\",\n          \"amount\": 43.33,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-17-2025\",\n          \"description\": \"CHECKCARD 1116 TMOBILE AUTO P BELLEVUE WA 00000000000000000523691 RECURRING CKCD 4814 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392\",\n          \"amount\": 87.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-17-2025\",\n          \"description\": \"CHECKCARD 1116 SHOPRITE OF ROUTE37 S1 TOMS RIVER NJ 24692165321100206926390 CKCD 5411 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392\",\n          \"amount\": 12.99,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-17-2025\",\n          \"description\": \"PURCHASE 1114 AMAZON MKTPL*B87KO7BJO Amzn.com/billWA\",\n          \"amount\": 39.22,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-17-2025\",\n          \"description\": \"PURCHASE 1116 AMAZON MKTPL*B86TCOQI2 Amzn.com/billWA\",\n          \"amount\": 29.84,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-17-2025\",\n          \"description\": \"PURCHASE 1117 AMAZON MKTPL*B80XU8100 Amzn.com/billWA\",\n          \"amount\": 57.57,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-17-2025\",\n          \"description\": \"PURCHASE 1117 AMAZON MKTPL*B83EZ6WN1 Amzn.com/billWA\",\n          \"amount\": 33.04,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-18-2025\",\n          \"description\": \"TRACTOR SUPPLY 11/18 #000938978 PURCHASE TRACTOR SUPPLY # Toms River NJ\",\n          \"amount\": 96.02,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-18-2025\",\n          \"description\": \"ALDI 60051 11/18 #000277000 PURCHASE 740 ROUTE 37 WEST TOMS RIVER NJ\",\n          \"amount\": 182.22,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-18-2025\",\n          \"description\": \"STOP & SHOP 08 11/18 #000106623 PURCHASE STOP & SHOP 0811 TOMS RIVER NJ\",\n          \"amount\": 144.58,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-19-2025\",\n          \"description\": \"PURCHASE 1118 AMAZON MKTPL*B07QP3LH0 Amzn.com/billWA\",\n          \"amount\": 33.04,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-19-2025\",\n          \"description\": \"CHECKCARD 1118 SINGIN TOMS RIVER NJ 24055225323553969556351 CKCD 5499 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392\",\n          \"amount\": 18.64,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-19-2025\",\n          \"description\": \"PURCHASE 1118 AMAZON MKTPL*B09GK3Z30 Amzn.com/billWA\",\n          \"amount\": 26.65,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-19-2025\",\n          \"description\": \"CHECKCARD 1118 WAWA 700 SHIPBOTTOM NJ 24055245323554053683653 CKCD 5499 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392\",\n          \"amount\": 16.19,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-19-2025\",\n          \"description\": \"PURCHASE 1118 SHERWIN-WILLIAMS705153 160-9597779 NJ\",\n          \"amount\": 78.9,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-19-2025\",\n          \"description\": \"CHECKCARD 1118 WAWA 429 MANCHESTER TONJ 24055245323554040150550 CKCD 5499 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392\",\n          \"amount\": 13.43,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-19-2025\",\n          \"description\": \"CHECKCARD 1119 TIKTOK SHOP TIKTOK.COM CA 24036295323742254510911 CKCD 5399 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392\",\n          \"amount\": 208.62,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-19-2025\",\n          \"description\": \"CHECKCARD 1118 TUCKERTOWN LUMBER COMPA SURF CITY NJ 24801975322553638464399 CKCD 5211 XXXXXXXXXXXX0661 XXXX XXXX XXXX 0661\",\n          \"amount\": 1300.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-19-2025\",\n          \"description\": \"CHECKCARD 1118 EUROPEAN FOOD MARKET TOMS RIVER NJ 24116415322553486036726 CKCD 5411 XXXXXXXXXXXX0661 XXXX XXXX XXXX 0661\",\n          \"amount\": 47.84,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-20-2025\",\n          \"description\": \"CHECKCARD 1119 SINGIN TOMS RIVER NJ 24055225324555075613678 CKCD 5499 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392\",\n          \"amount\": 15.45,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-20-2025\",\n          \"description\": \"CHECKCARD 1119 WAWA 371 TUCKERTON NJ 24055245324555138433963 CKCD 5542 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392\",\n          \"amount\": 37.3,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-20-2025\",\n          \"description\": \"CHECKCARD 1119 WAWA 700 SHIPBOTTOM NJ 24055245324555153344301 CKCD 5499 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392\",\n          \"amount\": 16.19,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-20-2025\",\n          \"description\": \"CHECKCARD 1119 TURKISH AIRLINES/WEB ISTANBUL 74779595324031419725590 CKCD 3047 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392\",\n          \"amount\": 330.56,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-20-2025\",\n          \"description\": \"THE HOME DEPOT 11/20 #000635973 PURCHASE THE HOME DEPOT #0 TOMS RIVER NJ\",\n          \"amount\": 47.9,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-20-2025\",\n          \"description\": \"PURCHASE 1119 STATE FARM INSURANCE 800-956-6310 IL\",\n          \"amount\": 503.44,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-21-2025\",\n          \"description\": \"1-800-690-1803 DES:UptempoMkt ID:260156 INDN:DENIZ CELTIK CO ID:XXXXXXXXX PPD\",\n          \"amount\": 428.56,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-21-2025\",\n          \"description\": \"Credit One Bank DES:Payment ID:58026167 INDN:CELTIK,DENIZ CO ID:WEB000004 WEB\",\n          \"amount\": 61.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-21-2025\",\n          \"description\": \"PURCHASE 1120 AMAZON MKTPL*B006H6X32 Amzn.com/billWA\",\n          \"amount\": 120.54,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-21-2025\",\n          \"description\": \"PURCHASE 1120 AMAZON MKTPL*B02G68HX1 Amzn.com/billWA\",\n          \"amount\": 47.34,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-21-2025\",\n          \"description\": \"PURCHASE 1120 SHERWIN-WILLIAMS705026 173-2506070 NJ\",\n          \"amount\": 172.28,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-21-2025\",\n          \"description\": \"CHECKCARD 1120 SINGIN TOMS RIVER NJ 24055225325556195694399 CKCD 5499 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392\",\n          \"amount\": 15.45,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-21-2025\",\n          \"description\": \"PURCHASE 1120 SHERWIN-WILLIAMS701886 160-9339206 NJ\",\n          \"amount\": 81.94,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-21-2025\",\n          \"description\": \"CHECKCARD 1120 WAWA 988 FORKED RIVER NJ 24055245325556292686890 CKCD 5541 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392\",\n          \"amount\": 40.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-21-2025\",\n          \"description\": \"CHECKCARD 1120 WAWA 994 MANAHAWKIN NJ 24055245325556292783127 CKCD 5541 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392\",\n          \"amount\": 16.82,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-21-2025\",\n          \"description\": \"CHECKCARD 1120 APPLE.COM/BILL 866-712-7753 CA 24692165324103272170262 RECURRING CKCD 5818 XXXXXXXXXXXX0661 XXXX XXXX XXXX 0661\",\n          \"amount\": 2.99,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-21-2025\",\n          \"description\": \"CHECKCARD 1120 APPLE.COM/BILL 866-712-7753 CA 24692165324103439525218 RECURRING CKCD 5818 XXXXXXXXXXXX0661 XXXX XXXX XXXX 0661\",\n          \"amount\": 5.32,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-21-2025\",\n          \"description\": \"WAL-MART #1844 11/21 #000260508 PURCHASE 950 ROUTE 37 W TOMS RIVER NJ\",\n          \"amount\": 150.45,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-24-2025\",\n          \"description\": \"PURCHASE 1121 AMAZON MKTPL*B01KU3DN2 Amzn.com/billWA\",\n          \"amount\": 193.95,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-24-2025\",\n          \"description\": \"CHECKCARD 1121 SINGIN TOMS RIVER NJ 24055225326557356077704 CKCD 5499 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392\",\n          \"amount\": 15.45,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-24-2025\",\n          \"description\": \"CHECKCARD 1121 SHERWIN-WILLIAMS705026 TOMS RIVER NJ 24793385325002513225094 CKCD 5231 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392\",\n          \"amount\": 48.01,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-24-2025\",\n          \"description\": \"CHECKCARD 1121 WAWA 8433 PISCATAWAY NJ 24055245326557471206814 CKCD 5542 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392\",\n          \"amount\": 31.13,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-24-2025\",\n          \"description\": \"CHECKCARD 1121 WAWA 8433 PISCATAWAY NJ 24055245326557471206806 CKCD 5541 XXXXXXXXXXXX0392 XXXX XXXX XXXX 0392\",\n          \"amount\": 22.47,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-24-2025\",\n          \"description\": \"PURCHASE 1122 SHERWIN-WILLIAMS705153 160-9597779 NJ\",\n          \"amount\": 268.16,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-24-2025\",\n          \"description\": \"PURCHASE 1123 DD *DDDOORDASHDOMINOS DOORDASH.COM CA\",\n          \"amount\": 34.17,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-24-2025\",\n          \"description\": \"CHECKCARD 1122 EFES HALAL FOOD MARKET DELRAN NJ 24435655327136837417967 CKCD 5411 XXXXXXXXXXXX0661 XXXX XXXX XXXX 0661\",\n          \"amount\": 80.96,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-28-2025\",\n          \"description\": \"CAPITAL ONE DES:CRCARDPMT ID:CA07F76B21F302F INDN:Volkan Celtik CO ID:9541719318 CCD\",\n          \"amount\": 55.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-28-2025\",\n          \"description\": \"PURCHASE 1126 AMAZON RETA* B20RJ37P1 WWW.AMAZON.COWA\",\n          \"amount\": 22.36,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-28-2025\",\n          \"description\": \"PURCHASE 1126 AMAZON MKTPL*B25E23U02 Amzn.com/billWA\",\n          \"amount\": 6.99,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11-28-2025\",\n          \"description\": \"CHECKCARD 1127 APPLE.COM/BILL 866-712-7753 CA 24692165331100337995452 RECURRING CKCD 5818 XXXXXXXXXXXX0661 XXXX XXXX XXXX 0661\",\n          \"amount\": 5.32,\n          \"type\": \"Debit\"\n        }\n      ]\n    }\n  ]\n}\n```",
+    "token_count": {
+      "estimated_tokens": 3562
+    },
+    "failure_reason": null
+  }
+}

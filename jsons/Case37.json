@@ -1,0 +1,1809 @@
+{
+  "document_name": "Case37.pdf",
+  "pipeline_status": "completed",
+  "processing_metadata": {
+    "start_time": "2026-02-04T15:00:52.087110",
+    "end_time": "2026-02-04T15:04:21.294313",
+    "parsing_time_seconds": 120.744909,
+    "bsi_time_seconds": 88.259711,
+    "total_time_seconds": 209.00462
+  },
+  "parsing_agent_result": {
+    "agent_name": "parsing_agent",
+    "processing_status": "success",
+    "start_time": "2026-02-04T15:00:52.280359",
+    "end_time": "2026-02-04T15:02:53.025028",
+    "parsed_json": {
+      "bank_statement_information": {
+        "bank_name": "Capital One Bank",
+        "account_holder": "GOBAH TIRE INC.",
+        "statement_start_date": "11-01-2025",
+        "statement_end_date": "11-28-2025",
+        "n_days": 28,
+        "n_month": [
+          11
+        ],
+        "business_address": "3671 LA HWY 1 S PORT ALLEN LA 70767"
+      },
+      "accounts": [
+        {
+          "account_number": "00005733894040",
+          "account_type": "Business Enhanced Checking",
+          "account_summary": {
+            "beginning_balance": 0.0,
+            "ending_balance": 425.61,
+            "total_deposits": 19161.94,
+            "total_withdrawals": 18736.33,
+            "total_deposits_count": 41,
+            "total_withdrawals_count": 87,
+            "avg_daily_balance": null,
+            "overdraft_days": 7
+          },
+          "transactions": [
+            {
+              "date": "11/03/2025",
+              "description": "TRANSFER DEPOSIT FROM ...5879 MMYM4CS44EELFMF",
+              "amount": 1500.0,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "ACH deposit BANKCARD DEP MERCH DEP 110325 EDDIES TIRES RIMS 739732XXXXX9243",
+              "amount": 1143.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "ACH deposit BANKCARD DEP MERCH DEP 110325 EDDIES TIRES RIMS 739732XXXXX9243",
+              "amount": 759.99,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "TRANSFER DEPOSIT FROM ...5879 MMNUHAIWZQ3V5J9",
+              "amount": 396.0,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "TRANSFER DEPOSIT FROM ...5879 MMWTQKBBCBVP9QO",
+              "amount": 300.0,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "ACH deposit BANKCARD DEP MERCH DEP 110325 EDDIES TIRES RIMS 739732XXXXX9243",
+              "amount": 287.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "TRANSFER DEPOSIT FROM ...5879 MMFE73T3WJCFKEI",
+              "amount": 150.0,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "ATM withdrawal ATM WITHDRAWAL C314 110125 SOUTHGATE RETAIL CENTER BATON ROUGE LA",
+              "amount": 640.0,
+              "type": "Debit",
+              "category": "ATM/Cash Withdrawal"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "TRANSFER WITHDRAWAL TO ...5879 MMVVAUCSQ0CZZDL",
+              "amount": 1800.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "Debit Card Purchase HARBOR FREIGHT T 094223 110125 HARBOR FREIGHT TOOLS U BATON ROUGE LA",
+              "amount": 135.88,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "Mobile Debit Purchase 110325 TIKTOK SHOP 6505840896 CA",
+              "amount": 12.14,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "ACH Withdrawal BANKCARD MTOT DISC 110325 EDDIES TIRES RIMS 518993XXXXX3401",
+              "amount": 71.13,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/04/2025",
+              "description": "ACH deposit BANKCARD DEP MERCH DEP 110425 EDDIES TIRES RIMS 739732XXXXX9243",
+              "amount": 1229.99,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/04/2025",
+              "description": "TRANSFER DEPOSIT FROM ...5879 MMQH3EILDKUCKPM",
+              "amount": 900.0,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "11/04/2025",
+              "description": "ATM withdrawal ATM WITHDRAWAL A09A 110325 INDUSTRIPLEX BATON ROUGE LA",
+              "amount": 540.0,
+              "type": "Debit",
+              "category": "ATM/Cash Withdrawal"
+            },
+            {
+              "date": "11/04/2025",
+              "description": "TRANSFER WITHDRAWAL TO ...5879 MMJVBQYULTOIUX5",
+              "amount": 950.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "11/04/2025",
+              "description": "ATM withdrawal ATM WITHDRAWAL A038 110425 BROADMOOR BATON ROUGE LA",
+              "amount": 1100.0,
+              "type": "Debit",
+              "category": "ATM/Cash Withdrawal"
+            },
+            {
+              "date": "11/04/2025",
+              "description": "Debit Card Purchase RACETRAC454 046443 110325 RACETRAC454 PORT ALLEN LA",
+              "amount": 27.25,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/04/2025",
+              "description": "Debit Card Purchase CIRCLE K 41726 101 110425 CIRCLE K 41726 BATON ROUGE LA",
+              "amount": 40.89,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/04/2025",
+              "description": "Debit Card Purchase 110425 TIRECO DISTRIBUTORS GARDENA CA",
+              "amount": 1472.55,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/04/2025",
+              "description": "Overdraft charge DR AMT 1,472.55 0000000000 110425",
+              "amount": 35.0,
+              "type": "Debit",
+              "category": "Overdraft"
+            },
+            {
+              "date": "11/05/2025",
+              "description": "ACH deposit BANKCARD DEP MERCH DEP 110525 EDDIES TIRES RIMS 739732XXXXX9243",
+              "amount": 513.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/05/2025",
+              "description": "TRANSFER DEPOSIT FROM ...5879 MMAVMFL2BJC6WLS",
+              "amount": 45.0,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "11/05/2025",
+              "description": "Recur Mobile Debit Purchase 110525 SP SHAPERLUV SHERIDAN WY",
+              "amount": 2.95,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/05/2025",
+              "description": "Debit Card Purchase 110525 CIRCLE K 07650 BATON ROUGE LA",
+              "amount": 27.61,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/06/2025",
+              "description": "ACH deposit BANKCARD DEP MERCH DEP 110625 EDDIES TIRES RIMS 739732XXXXX9243",
+              "amount": 987.99,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/06/2025",
+              "description": "TRANSFER DEPOSIT FROM ...5879 MMJ4NF7KGRQ8QSN",
+              "amount": 500.0,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "11/06/2025",
+              "description": "TRANSFER DEPOSIT FROM ...5879 MMZXUIJWIVS9IET",
+              "amount": 350.0,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "11/06/2025",
+              "description": "TRANSFER WITHDRAWAL TO ...5879 MMFOHEDSWQRAFNW",
+              "amount": 850.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "11/06/2025",
+              "description": "ATM withdrawal ATM WITHDRAWAL RC0023 110625 CDSR PORT ALLEN LA",
+              "amount": 303.25,
+              "type": "Debit",
+              "category": "ATM/Cash Withdrawal"
+            },
+            {
+              "date": "11/06/2025",
+              "description": "ATM fee DR AMT 303.25 0000000000 110625",
+              "amount": 2.0,
+              "type": "Debit",
+              "category": "Service Charges/Fees"
+            },
+            {
+              "date": "11/06/2025",
+              "description": "Debit Card Purchase RACETRAC454 046443 110625 RACETRAC454 PORT ALLEN LA",
+              "amount": 38.28,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/06/2025",
+              "description": "Debit Card Purchase 110625 7 BREW COFFEE SB122 BATON ROUGE LA",
+              "amount": 15.14,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/06/2025",
+              "description": "Debit Card Purchase 110625 TIRECO DISTRIBUTORS GARDENA CA",
+              "amount": 377.12,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/06/2025",
+              "description": "ACH Withdrawal BANKCARD DEP MERCH FEES 110625 Eddies tires 739732XXXXX9243",
+              "amount": 15.02,
+              "type": "Debit",
+              "category": "Service Charges/Fees"
+            },
+            {
+              "date": "11/07/2025",
+              "description": "ACH deposit BANKCARD DEP MERCH DEP 110725 EDDIES TIRES RIMS 739732XXXXX9243",
+              "amount": 345.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/07/2025",
+              "description": "Debit Card Purchase WM SUPERCENTER 113600 110625 WM SUPERCENTER 1136 PORT ALLEN LA",
+              "amount": 87.39,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/07/2025",
+              "description": "Debit Card Purchase MURPHY EXPRESS 698662 110625 MURPHY EXPRESS BATON ROUGE LA",
+              "amount": 25.07,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/07/2025",
+              "description": "Debit Card Purchase 110725 CHIME SAN FRANCISC CA",
+              "amount": 40.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/07/2025",
+              "description": "NSF charge DR AMT 1,285.31 0000000000 110725",
+              "amount": 35.0,
+              "type": "Debit",
+              "category": "Overdraft"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "ACH deposit BANKCARD DEP MERCH DEP 111025 EDDIES TIRES RIMS 739732XXXXX9243",
+              "amount": 1279.99,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "ACH deposit BANKCARD DEP MERCH DEP 111025 EDDIES TIRES RIMS 739732XXXXX9243",
+              "amount": 295.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "ACH deposit BANKCARD DEP MERCH DEP 111025 EDDIES TIRES RIMS 739732XXXXX9243",
+              "amount": 50.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "ATM withdrawal ATM WITHDRAWAL A038 111025 BROADMOOR BATON ROUGE LA",
+              "amount": 540.0,
+              "type": "Debit",
+              "category": "ATM/Cash Withdrawal"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Debit Card Purchase RACETRAC454 046443 110825 RACETRAC454 PORT ALLEN LA",
+              "amount": 16.21,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Debit Card Purchase WAL MART 4683 468300 110825 WAL MART 4683 BATON ROUGE LA",
+              "amount": 69.3,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Debit Card Purchase B QUIK 1 122043 110925 B QUIK 1 BATON ROUGE LA",
+              "amount": 25.77,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Debit Card Purchase WAL MART 5327 532700 110925 WAL MART 5327 BATON ROUGE LA",
+              "amount": 25.61,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Recur Debit Card Purchase 111025 APPLE COM BILL CUPERTINO CA",
+              "amount": 7.72,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Debit Card Purchase 111025 IDEAL MARKET 11 BATON ROUGE LA",
+              "amount": 10.54,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Recur Debit Card Purchase 111025 BENNY S UNLIMITED CL BATON ROUGE LA",
+              "amount": 34.99,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Debit Card Purchase 111025 7 BREW COFFEE SB122 BATON ROUGE LA",
+              "amount": 35.36,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Debit Card Purchase 111025 CHIME SAN FRANCISC CA",
+              "amount": 40.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Mobile Debit Purchase 111025 AMAZON MARK BT5FL1H30 SEATTLE WA",
+              "amount": 43.2,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Recur Debit Card Purchase 111025 APPLE COM BILL CUPERTINO CA",
+              "amount": 44.19,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Recur Mobile Debit Purchase 111025 ATT BILL PAYMENT DALLAS TX",
+              "amount": 78.21,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "ACH Withdrawal ENTERGY GS-LA LL BANK DRAFT 111025 ASEEL MAHMOOD 000164285520",
+              "amount": 105.06,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Check 1230",
+              "amount": 684.76,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Check 1231",
+              "amount": 323.72,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "ACH deposit BANKCARD DEP MERCH DEP 111225 EDDIES TIRES RIMS 739732XXXXX9243",
+              "amount": 530.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "ACH deposit BANKCARD DEP MERCH DEP 111225 EDDIES TIRES RIMS 739732XXXXX9243",
+              "amount": 324.8,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Mobile Debit Purch Return 111225 AMAZON MARK BT5FL1H30 SEATTLE WA",
+              "amount": 5.61,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Mobile Debit Purch Return 111225 AMAZON MARK BT5FL1H30 SEATTLE WA",
+              "amount": 5.6,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "TRANSFER DEPOSIT FROM ...5879 MM98ELVEMXPDJKV",
+              "amount": 3.0,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "TRANSFER DEPOSIT FROM ...5879 MMDHPYM8G77AHCR",
+              "amount": 3.0,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Debit Card Purchase IDEAL MARKET 8 530478 111125 IDEAL MARKET 8 BATON ROUGE LA",
+              "amount": 13.25,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Debit Card Purchase IDEAL MARKET 8 530478 111125 IDEAL MARKET 8 BATON ROUGE LA",
+              "amount": 10.28,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Debit Card Purchase 111225 LA INTER SERVICE FEE OLATHE KS",
+              "amount": 4.97,
+              "type": "Debit",
+              "category": "Service Charges/Fees"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Debit Card Purchase 111225 MARY LEE DONUTS BATON ROUGE LA",
+              "amount": 19.08,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Debit Card Purchase 111225 CIRCLE K 07650 BATON ROUGE LA",
+              "amount": 48.18,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Debit Card Purchase 111225 OMVINSTALLMENTPAY BATON ROUGE LA",
+              "amount": 75.78,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Debit Card Purchase 111225 ROSS STORES 647 BATON ROUGE LA",
+              "amount": 157.91,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Check 1233",
+              "amount": 330.45,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "NSF charge DR AMT 2,877.05 0031551480 111225",
+              "amount": 35.0,
+              "type": "Debit",
+              "category": "Overdraft"
+            },
+            {
+              "date": "11/13/2025",
+              "description": "ACH deposit BANKCARD DEP MERCH DEP 111325 EDDIES TIRES RIMS 739732XXXXX9243",
+              "amount": 285.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/13/2025",
+              "description": "Debit Card Purchase TARGET T 2089 220891 111225 TARGET T 2089 BATON ROUGE LA",
+              "amount": 238.75,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/13/2025",
+              "description": "Mobile Debit Purchase 111325 DD DOORDASH JERSEYMIK SAN FRANCISC CA",
+              "amount": 18.45,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/13/2025",
+              "description": "Mobile Debit Purchase 111325 DD DOORDASH TARGET SAN FRANCISC CA",
+              "amount": 59.5,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/13/2025",
+              "description": "ACH Withdrawal ENTERGY GS-LA LL BANK DRAFT 111325 ASEEL MAHMOOD 000166757203",
+              "amount": 311.41,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/13/2025",
+              "description": "ACH Withdrawal ADT SECURITY SER ADTPAPACH 111325 EDDIES TIRES & RIMS XXXXX6464",
+              "amount": 60.63,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/13/2025",
+              "description": "Check 1235",
+              "amount": 273.12,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/13/2025",
+              "description": "Check 1234",
+              "amount": 102.45,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/13/2025",
+              "description": "Overdraft charge DR AMT 102.45 0030738580 111325",
+              "amount": 35.0,
+              "type": "Debit",
+              "category": "Overdraft"
+            },
+            {
+              "date": "11/13/2025",
+              "description": "Overdraft charge DR AMT 273.12 0030738584 111325",
+              "amount": 35.0,
+              "type": "Debit",
+              "category": "Overdraft"
+            },
+            {
+              "date": "11/14/2025",
+              "description": "ACH deposit BANKCARD DEP MERCH DEP 111425 EDDIES TIRES RIMS 739732XXXXX9243",
+              "amount": 650.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/14/2025",
+              "description": "Recur Mobile Debit Purchase 111425 NETFLIX COM LOS GATOS CA",
+              "amount": 27.61,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/14/2025",
+              "description": "Mobile Debit Purchase 111425 AMAZON MKTPL B81S31X41 SEATTLE WA",
+              "amount": 30.9,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/14/2025",
+              "description": "Mobile Debit Purchase 111425 DD DOORDASH CVS SAN FRANCISC CA",
+              "amount": 51.42,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/14/2025",
+              "description": "NSF charge DR AMT 501.27 0030819340 111425",
+              "amount": 35.0,
+              "type": "Debit",
+              "category": "Overdraft"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "ACH deposit BANKCARD DEP MERCH DEP 111725 EDDIES TIRES RIMS 739732XXXXX9243",
+              "amount": 1054.99,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "ACH deposit BANKCARD DEP MERCH DEP 111725 EDDIES TIRES RIMS 739732XXXXX9243",
+              "amount": 308.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "ACH deposit BANKCARD DEP MERCH DEP 111725 EDDIES TIRES RIMS 739732XXXXX9243",
+              "amount": 270.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "ATM withdrawal ATM WITHDRAWAL A684 111725 HARRELL S FERRY BATON ROUGE LA",
+              "amount": 1100.0,
+              "type": "Debit",
+              "category": "ATM/Cash Withdrawal"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "ACH Withdrawal TIRECO DISTRIBUT 3107677990 111725 200465 GOBAH TIRE INC 2VCZ83W44D77I2C",
+              "amount": 216.85,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "ACH Withdrawal Baton Rouge Wate doxoPAY 111725 Gobah tires 7h2bj",
+              "amount": 214.02,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "ACH Withdrawal FDMS PYMT 111725 GOBAH TIRE, INC 052-2280559-000",
+              "amount": 38.59,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "ACH Withdrawal TIRECO DISTRIBUT 3107677990 111725 ASEEL MAHMOOD 2VCYBEDN4W41QSD",
+              "amount": 0.01,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "NSF charge DR AMT 1,166.72 0032450404 111725",
+              "amount": 35.0,
+              "type": "Debit",
+              "category": "Overdraft"
+            },
+            {
+              "date": "11/18/2025",
+              "description": "ACH deposit BANKCARD DEP MERCH DEP 111825 EDDIES TIRES RIMS 739732XXXXX9243",
+              "amount": 749.99,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/18/2025",
+              "description": "ATM withdrawal ATM WITHDRAWAL A684 111825 HARRELL S FERRY BATON ROUGE LA",
+              "amount": 600.0,
+              "type": "Debit",
+              "category": "ATM/Cash Withdrawal"
+            },
+            {
+              "date": "11/18/2025",
+              "description": "ACH Withdrawal WASTE MANAGEMENT PAYMENT 111825 Aseel gobah 000323XXXXX3000",
+              "amount": 176.31,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/18/2025",
+              "description": "Check 1237",
+              "amount": 1178.86,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/18/2025",
+              "description": "Check 1238",
+              "amount": 244.32,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/18/2025",
+              "description": "Overdraft charge DR AMT 244.32 0030824440 111825",
+              "amount": 35.0,
+              "type": "Debit",
+              "category": "Overdraft"
+            },
+            {
+              "date": "11/18/2025",
+              "description": "Overdraft charge DR AMT 1,178.86 0030824444 111825",
+              "amount": 35.0,
+              "type": "Debit",
+              "category": "Overdraft"
+            },
+            {
+              "date": "11/19/2025",
+              "description": "ACH deposit BANKCARD DEP MERCH DEP 111925 EDDIES TIRES RIMS 739732XXXXX9243",
+              "amount": 255.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/19/2025",
+              "description": "ACH deposit BANKCARD DEP MERCH DEP 111925 EDDIES TIRES RIMS 739732XXXXX9243",
+              "amount": 45.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/20/2025",
+              "description": "ACH deposit BANKCARD DEP MERCH DEP 112025 EDDIES TIRES RIMS 739732XXXXX9243",
+              "amount": 235.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/20/2025",
+              "description": "Mobile Debit Purchase 112025 AMAZON MKTPL B01GK31G0 SEATTLE WA",
+              "amount": 88.39,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/20/2025",
+              "description": "Overdraft charge DR AMT 88.39 0000000000 112025",
+              "amount": 35.0,
+              "type": "Debit",
+              "category": "Overdraft"
+            },
+            {
+              "date": "11/21/2025",
+              "description": "ACH deposit BANKCARD DEP MERCH DEP 112125 EDDIES TIRES RIMS 739732XXXXX9243",
+              "amount": 350.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/21/2025",
+              "description": "NSF charge DR AMT 352.42 0000000000 112125",
+              "amount": 35.0,
+              "type": "Debit",
+              "category": "Overdraft"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "ACH deposit BANKCARD DEP MERCH DEP 112425 EDDIES TIRES RIMS 739732XXXXX9243",
+              "amount": 668.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "ACH deposit BANKCARD DEP MERCH DEP 112425 EDDIES TIRES RIMS 739732XXXXX9243",
+              "amount": 330.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "ACH deposit BANKCARD DEP MERCH DEP 112425 EDDIES TIRES RIMS 739732XXXXX9243",
+              "amount": 102.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "ATM withdrawal ATM WITHDRAWAL A684 112425 HARRELL S FERRY BATON ROUGE LA",
+              "amount": 300.0,
+              "type": "Debit",
+              "category": "ATM/Cash Withdrawal"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "NSF charge DR AMT 5,580.00 0032712044 112425",
+              "amount": 35.0,
+              "type": "Debit",
+              "category": "Overdraft"
+            },
+            {
+              "date": "11/25/2025",
+              "description": "ACH deposit BANKCARD DEP MERCH DEP 112525 EDDIES TIRES RIMS 739732XXXXX9243",
+              "amount": 1190.99,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/25/2025",
+              "description": "ATM withdrawal ATM WITHDRAWAL C314 112525 SOUTHGATE RETAIL CENTER BATON ROUGE LA",
+              "amount": 1000.0,
+              "type": "Debit",
+              "category": "ATM/Cash Withdrawal"
+            },
+            {
+              "date": "11/25/2025",
+              "description": "ATM withdrawal ATM WITHDRAWAL C314 112525 SOUTHGATE RETAIL CENTER BATON ROUGE LA",
+              "amount": 500.0,
+              "type": "Debit",
+              "category": "ATM/Cash Withdrawal"
+            },
+            {
+              "date": "11/25/2025",
+              "description": "Overdraft charge DR AMT 500.00 0000000000 112525",
+              "amount": 35.0,
+              "type": "Debit",
+              "category": "Overdraft"
+            },
+            {
+              "date": "11/26/2025",
+              "description": "ACH deposit BANKCARD DEP MERCH DEP 112625 EDDIES TIRES RIMS 739732XXXXX9243",
+              "amount": 165.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/26/2025",
+              "description": "Debit Card Purchase 112625 CHIME SAN FRANCISC CA",
+              "amount": 40.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/26/2025",
+              "description": "Overdraft charge DR AMT 40.00 0000000000 112625",
+              "amount": 35.0,
+              "type": "Debit",
+              "category": "Overdraft"
+            },
+            {
+              "date": "11/28/2025",
+              "description": "ACH deposit BANKCARD DEP MERCH DEP 112825 EDDIES TIRES RIMS 739732XXXXX9243",
+              "amount": 420.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/28/2025",
+              "description": "ACH deposit BANKCARD DEP MERCH DEP 112825 EDDIES TIRES RIMS 739732XXXXX9243",
+              "amount": 179.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/28/2025",
+              "description": "Mobile Debit Purchase 112825 TIKTOK SHOP 8888888888 CA",
+              "amount": 3.31,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/28/2025",
+              "description": "Mobile Debit Purchase 112825 DD DOORDASH RACETRAC SAN FRANCISC CA",
+              "amount": 18.22,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/30/2025",
+              "description": "Service charge",
+              "amount": 35.0,
+              "type": "Debit",
+              "category": "Service Charges/Fees"
+            }
+          ]
+        }
+      ]
+    },
+    "raw_output": "```json\n{\n  \"bank_statement_information\": {\n    \"bank_name\": \"Capital One Bank\",\n    \"account_holder\": \"GOBAH TIRE INC.\",\n    \"statement_start_date\": \"11-01-2025\",\n    \"statement_end_date\": \"11-28-2025\",\n    \"n_days\": 28,\n    \"n_month\": [\n      11\n    ],\n    \"business_address\": \"3671 LA HWY 1 S PORT ALLEN LA 70767\"\n  },\n  \"accounts\": [\n    {\n      \"account_number\": \"00005733894040\",\n      \"account_type\": \"Business Enhanced Checking\",\n      \"account_summary\": {\n        \"beginning_balance\": 0.0,\n        \"ending_balance\": 425.61,\n        \"total_deposits\": 19161.94,\n        \"total_withdrawals\": 18736.33,\n        \"total_deposits_count\": 41,\n        \"total_withdrawals_count\": 87,\n        \"avg_daily_balance\": null,\n        \"overdraft_days\": 7\n      },\n      \"transactions\": [\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"TRANSFER DEPOSIT FROM ...5879 MMYM4CS44EELFMF\",\n          \"amount\": 1500.0,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"ACH deposit BANKCARD DEP MERCH DEP 110325 EDDIES TIRES RIMS 739732XXXXX9243\",\n          \"amount\": 1143.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"ACH deposit BANKCARD DEP MERCH DEP 110325 EDDIES TIRES RIMS 739732XXXXX9243\",\n          \"amount\": 759.99,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"TRANSFER DEPOSIT FROM ...5879 MMNUHAIWZQ3V5J9\",\n          \"amount\": 396.0,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"TRANSFER DEPOSIT FROM ...5879 MMWTQKBBCBVP9QO\",\n          \"amount\": 300.0,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"ACH deposit BANKCARD DEP MERCH DEP 110325 EDDIES TIRES RIMS 739732XXXXX9243\",\n          \"amount\": 287.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"TRANSFER DEPOSIT FROM ...5879 MMFE73T3WJCFKEI\",\n          \"amount\": 150.0,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"ATM withdrawal ATM WITHDRAWAL C314 110125 SOUTHGATE RETAIL CENTER BATON ROUGE LA\",\n          \"amount\": 640.0,\n          \"type\": \"Debit\",\n          \"category\": \"ATM/Cash Withdrawal\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"TRANSFER WITHDRAWAL TO ...5879 MMVVAUCSQ0CZZDL\",\n          \"amount\": 1800.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"Debit Card Purchase HARBOR FREIGHT T 094223 110125 HARBOR FREIGHT TOOLS U BATON ROUGE LA\",\n          \"amount\": 135.88,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"Mobile Debit Purchase 110325 TIKTOK SHOP 6505840896 CA\",\n          \"amount\": 12.14,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"ACH Withdrawal BANKCARD MTOT DISC 110325 EDDIES TIRES RIMS 518993XXXXX3401\",\n          \"amount\": 71.13,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/04/2025\",\n          \"description\": \"ACH deposit BANKCARD DEP MERCH DEP 110425 EDDIES TIRES RIMS 739732XXXXX9243\",\n          \"amount\": 1229.99,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/04/2025\",\n          \"description\": \"TRANSFER DEPOSIT FROM ...5879 MMQH3EILDKUCKPM\",\n          \"amount\": 900.0,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"11/04/2025\",\n          \"description\": \"ATM withdrawal ATM WITHDRAWAL A09A 110325 INDUSTRIPLEX BATON ROUGE LA\",\n          \"amount\": 540.0,\n          \"type\": \"Debit\",\n          \"category\": \"ATM/Cash Withdrawal\"\n        },\n        {\n          \"date\": \"11/04/2025\",\n          \"description\": \"TRANSFER WITHDRAWAL TO ...5879 MMJVBQYULTOIUX5\",\n          \"amount\": 950.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/04/2025\",\n          \"description\": \"ATM withdrawal ATM WITHDRAWAL A038 110425 BROADMOOR BATON ROUGE LA\",\n          \"amount\": 1100.0,\n          \"type\": \"Debit\",\n          \"category\": \"ATM/Cash Withdrawal\"\n        },\n        {\n          \"date\": \"11/04/2025\",\n          \"description\": \"Debit Card Purchase RACETRAC454 046443 110325 RACETRAC454 PORT ALLEN LA\",\n          \"amount\": 27.25,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/04/2025\",\n          \"description\": \"Debit Card Purchase CIRCLE K 41726 101 110425 CIRCLE K 41726 BATON ROUGE LA\",\n          \"amount\": 40.89,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/04/2025\",\n          \"description\": \"Debit Card Purchase 110425 TIRECO DISTRIBUTORS GARDENA CA\",\n          \"amount\": 1472.55,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/04/2025\",\n          \"description\": \"Overdraft charge DR AMT 1,472.55 0000000000 110425\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\",\n          \"category\": \"Overdraft\"\n        },\n        {\n          \"date\": \"11/05/2025\",\n          \"description\": \"ACH deposit BANKCARD DEP MERCH DEP 110525 EDDIES TIRES RIMS 739732XXXXX9243\",\n          \"amount\": 513.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/05/2025\",\n          \"description\": \"TRANSFER DEPOSIT FROM ...5879 MMAVMFL2BJC6WLS\",\n          \"amount\": 45.0,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"11/05/2025\",\n          \"description\": \"Recur Mobile Debit Purchase 110525 SP SHAPERLUV SHERIDAN WY\",\n          \"amount\": 2.95,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/05/2025\",\n          \"description\": \"Debit Card Purchase 110525 CIRCLE K 07650 BATON ROUGE LA\",\n          \"amount\": 27.61,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/06/2025\",\n          \"description\": \"ACH deposit BANKCARD DEP MERCH DEP 110625 EDDIES TIRES RIMS 739732XXXXX9243\",\n          \"amount\": 987.99,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/06/2025\",\n          \"description\": \"TRANSFER DEPOSIT FROM ...5879 MMJ4NF7KGRQ8QSN\",\n          \"amount\": 500.0,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"11/06/2025\",\n          \"description\": \"TRANSFER DEPOSIT FROM ...5879 MMZXUIJWIVS9IET\",\n          \"amount\": 350.0,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"11/06/2025\",\n          \"description\": \"TRANSFER WITHDRAWAL TO ...5879 MMFOHEDSWQRAFNW\",\n          \"amount\": 850.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/06/2025\",\n          \"description\": \"ATM withdrawal ATM WITHDRAWAL RC0023 110625 CDSR PORT ALLEN LA\",\n          \"amount\": 303.25,\n          \"type\": \"Debit\",\n          \"category\": \"ATM/Cash Withdrawal\"\n        },\n        {\n          \"date\": \"11/06/2025\",\n          \"description\": \"ATM fee DR AMT 303.25 0000000000 110625\",\n          \"amount\": 2.0,\n          \"type\": \"Debit\",\n          \"category\": \"Service Charges/Fees\"\n        },\n        {\n          \"date\": \"11/06/2025\",\n          \"description\": \"Debit Card Purchase RACETRAC454 046443 110625 RACETRAC454 PORT ALLEN LA\",\n          \"amount\": 38.28,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/06/2025\",\n          \"description\": \"Debit Card Purchase 110625 7 BREW COFFEE SB122 BATON ROUGE LA\",\n          \"amount\": 15.14,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/06/2025\",\n          \"description\": \"Debit Card Purchase 110625 TIRECO DISTRIBUTORS GARDENA CA\",\n          \"amount\": 377.12,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/06/2025\",\n          \"description\": \"ACH Withdrawal BANKCARD DEP MERCH FEES 110625 Eddies tires 739732XXXXX9243\",\n          \"amount\": 15.02,\n          \"type\": \"Debit\",\n          \"category\": \"Service Charges/Fees\"\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"description\": \"ACH deposit BANKCARD DEP MERCH DEP 110725 EDDIES TIRES RIMS 739732XXXXX9243\",\n          \"amount\": 345.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"description\": \"Debit Card Purchase WM SUPERCENTER 113600 110625 WM SUPERCENTER 1136 PORT ALLEN LA\",\n          \"amount\": 87.39,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"description\": \"Debit Card Purchase MURPHY EXPRESS 698662 110625 MURPHY EXPRESS BATON ROUGE LA\",\n          \"amount\": 25.07,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"description\": \"Debit Card Purchase 110725 CHIME SAN FRANCISC CA\",\n          \"amount\": 40.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"description\": \"NSF charge DR AMT 1,285.31 0000000000 110725\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\",\n          \"category\": \"Overdraft\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"ACH deposit BANKCARD DEP MERCH DEP 111025 EDDIES TIRES RIMS 739732XXXXX9243\",\n          \"amount\": 1279.99,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"ACH deposit BANKCARD DEP MERCH DEP 111025 EDDIES TIRES RIMS 739732XXXXX9243\",\n          \"amount\": 295.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"ACH deposit BANKCARD DEP MERCH DEP 111025 EDDIES TIRES RIMS 739732XXXXX9243\",\n          \"amount\": 50.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"ATM withdrawal ATM WITHDRAWAL A038 111025 BROADMOOR BATON ROUGE LA\",\n          \"amount\": 540.0,\n          \"type\": \"Debit\",\n          \"category\": \"ATM/Cash Withdrawal\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Debit Card Purchase RACETRAC454 046443 110825 RACETRAC454 PORT ALLEN LA\",\n          \"amount\": 16.21,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Debit Card Purchase WAL MART 4683 468300 110825 WAL MART 4683 BATON ROUGE LA\",\n          \"amount\": 69.3,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Debit Card Purchase B QUIK 1 122043 110925 B QUIK 1 BATON ROUGE LA\",\n          \"amount\": 25.77,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Debit Card Purchase WAL MART 5327 532700 110925 WAL MART 5327 BATON ROUGE LA\",\n          \"amount\": 25.61,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Recur Debit Card Purchase 111025 APPLE COM BILL CUPERTINO CA\",\n          \"amount\": 7.72,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Debit Card Purchase 111025 IDEAL MARKET 11 BATON ROUGE LA\",\n          \"amount\": 10.54,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Recur Debit Card Purchase 111025 BENNY S UNLIMITED CL BATON ROUGE LA\",\n          \"amount\": 34.99,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Debit Card Purchase 111025 7 BREW COFFEE SB122 BATON ROUGE LA\",\n          \"amount\": 35.36,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Debit Card Purchase 111025 CHIME SAN FRANCISC CA\",\n          \"amount\": 40.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Mobile Debit Purchase 111025 AMAZON MARK BT5FL1H30 SEATTLE WA\",\n          \"amount\": 43.2,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Recur Debit Card Purchase 111025 APPLE COM BILL CUPERTINO CA\",\n          \"amount\": 44.19,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Recur Mobile Debit Purchase 111025 ATT BILL PAYMENT DALLAS TX\",\n          \"amount\": 78.21,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"ACH Withdrawal ENTERGY GS-LA LL BANK DRAFT 111025 ASEEL MAHMOOD 000164285520\",\n          \"amount\": 105.06,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Check 1230\",\n          \"amount\": 684.76,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Check 1231\",\n          \"amount\": 323.72,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"ACH deposit BANKCARD DEP MERCH DEP 111225 EDDIES TIRES RIMS 739732XXXXX9243\",\n          \"amount\": 530.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"ACH deposit BANKCARD DEP MERCH DEP 111225 EDDIES TIRES RIMS 739732XXXXX9243\",\n          \"amount\": 324.8,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Mobile Debit Purch Return 111225 AMAZON MARK BT5FL1H30 SEATTLE WA\",\n          \"amount\": 5.61,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Mobile Debit Purch Return 111225 AMAZON MARK BT5FL1H30 SEATTLE WA\",\n          \"amount\": 5.6,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"TRANSFER DEPOSIT FROM ...5879 MM98ELVEMXPDJKV\",\n          \"amount\": 3.0,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"TRANSFER DEPOSIT FROM ...5879 MMDHPYM8G77AHCR\",\n          \"amount\": 3.0,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Debit Card Purchase IDEAL MARKET 8 530478 111125 IDEAL MARKET 8 BATON ROUGE LA\",\n          \"amount\": 13.25,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Debit Card Purchase IDEAL MARKET 8 530478 111125 IDEAL MARKET 8 BATON ROUGE LA\",\n          \"amount\": 10.28,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Debit Card Purchase 111225 LA INTER SERVICE FEE OLATHE KS\",\n          \"amount\": 4.97,\n          \"type\": \"Debit\",\n          \"category\": \"Service Charges/Fees\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Debit Card Purchase 111225 MARY LEE DONUTS BATON ROUGE LA\",\n          \"amount\": 19.08,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Debit Card Purchase 111225 CIRCLE K 07650 BATON ROUGE LA\",\n          \"amount\": 48.18,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Debit Card Purchase 111225 OMVINSTALLMENTPAY BATON ROUGE LA\",\n          \"amount\": 75.78,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Debit Card Purchase 111225 ROSS STORES 647 BATON ROUGE LA\",\n          \"amount\": 157.91,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Check 1233\",\n          \"amount\": 330.45,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"NSF charge DR AMT 2,877.05 0031551480 111225\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\",\n          \"category\": \"Overdraft\"\n        },\n        {\n          \"date\": \"11/13/2025\",\n          \"description\": \"ACH deposit BANKCARD DEP MERCH DEP 111325 EDDIES TIRES RIMS 739732XXXXX9243\",\n          \"amount\": 285.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/13/2025\",\n          \"description\": \"Debit Card Purchase TARGET T 2089 220891 111225 TARGET T 2089 BATON ROUGE LA\",\n          \"amount\": 238.75,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/13/2025\",\n          \"description\": \"Mobile Debit Purchase 111325 DD DOORDASH JERSEYMIK SAN FRANCISC CA\",\n          \"amount\": 18.45,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/13/2025\",\n          \"description\": \"Mobile Debit Purchase 111325 DD DOORDASH TARGET SAN FRANCISC CA\",\n          \"amount\": 59.5,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/13/2025\",\n          \"description\": \"ACH Withdrawal ENTERGY GS-LA LL BANK DRAFT 111325 ASEEL MAHMOOD 000166757203\",\n          \"amount\": 311.41,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/13/2025\",\n          \"description\": \"ACH Withdrawal ADT SECURITY SER ADTPAPACH 111325 EDDIES TIRES & RIMS XXXXX6464\",\n          \"amount\": 60.63,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/13/2025\",\n          \"description\": \"Check 1235\",\n          \"amount\": 273.12,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/13/2025\",\n          \"description\": \"Check 1234\",\n          \"amount\": 102.45,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/13/2025\",\n          \"description\": \"Overdraft charge DR AMT 102.45 0030738580 111325\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\",\n          \"category\": \"Overdraft\"\n        },\n        {\n          \"date\": \"11/13/2025\",\n          \"description\": \"Overdraft charge DR AMT 273.12 0030738584 111325\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\",\n          \"category\": \"Overdraft\"\n        },\n        {\n          \"date\": \"11/14/2025\",\n          \"description\": \"ACH deposit BANKCARD DEP MERCH DEP 111425 EDDIES TIRES RIMS 739732XXXXX9243\",\n          \"amount\": 650.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/14/2025\",\n          \"description\": \"Recur Mobile Debit Purchase 111425 NETFLIX COM LOS GATOS CA\",\n          \"amount\": 27.61,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/14/2025\",\n          \"description\": \"Mobile Debit Purchase 111425 AMAZON MKTPL B81S31X41 SEATTLE WA\",\n          \"amount\": 30.9,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/14/2025\",\n          \"description\": \"Mobile Debit Purchase 111425 DD DOORDASH CVS SAN FRANCISC CA\",\n          \"amount\": 51.42,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/14/2025\",\n          \"description\": \"NSF charge DR AMT 501.27 0030819340 111425\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\",\n          \"category\": \"Overdraft\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"ACH deposit BANKCARD DEP MERCH DEP 111725 EDDIES TIRES RIMS 739732XXXXX9243\",\n          \"amount\": 1054.99,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"ACH deposit BANKCARD DEP MERCH DEP 111725 EDDIES TIRES RIMS 739732XXXXX9243\",\n          \"amount\": 308.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"ACH deposit BANKCARD DEP MERCH DEP 111725 EDDIES TIRES RIMS 739732XXXXX9243\",\n          \"amount\": 270.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"ATM withdrawal ATM WITHDRAWAL A684 111725 HARRELL S FERRY BATON ROUGE LA\",\n          \"amount\": 1100.0,\n          \"type\": \"Debit\",\n          \"category\": \"ATM/Cash Withdrawal\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"ACH Withdrawal TIRECO DISTRIBUT 3107677990 111725 200465 GOBAH TIRE INC 2VCZ83W44D77I2C\",\n          \"amount\": 216.85,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"ACH Withdrawal Baton Rouge Wate doxoPAY 111725 Gobah tires 7h2bj\",\n          \"amount\": 214.02,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"ACH Withdrawal FDMS PYMT 111725 GOBAH TIRE, INC 052-2280559-000\",\n          \"amount\": 38.59,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"ACH Withdrawal TIRECO DISTRIBUT 3107677990 111725 ASEEL MAHMOOD 2VCYBEDN4W41QSD\",\n          \"amount\": 0.01,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"NSF charge DR AMT 1,166.72 0032450404 111725\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\",\n          \"category\": \"Overdraft\"\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"description\": \"ACH deposit BANKCARD DEP MERCH DEP 111825 EDDIES TIRES RIMS 739732XXXXX9243\",\n          \"amount\": 749.99,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"description\": \"ATM withdrawal ATM WITHDRAWAL A684 111825 HARRELL S FERRY BATON ROUGE LA\",\n          \"amount\": 600.0,\n          \"type\": \"Debit\",\n          \"category\": \"ATM/Cash Withdrawal\"\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"description\": \"ACH Withdrawal WASTE MANAGEMENT PAYMENT 111825 Aseel gobah 000323XXXXX3000\",\n          \"amount\": 176.31,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"description\": \"Check 1237\",\n          \"amount\": 1178.86,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"description\": \"Check 1238\",\n          \"amount\": 244.32,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"description\": \"Overdraft charge DR AMT 244.32 0030824440 111825\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\",\n          \"category\": \"Overdraft\"\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"description\": \"Overdraft charge DR AMT 1,178.86 0030824444 111825\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\",\n          \"category\": \"Overdraft\"\n        },\n        {\n          \"date\": \"11/19/2025\",\n          \"description\": \"ACH deposit BANKCARD DEP MERCH DEP 111925 EDDIES TIRES RIMS 739732XXXXX9243\",\n          \"amount\": 255.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/19/2025\",\n          \"description\": \"ACH deposit BANKCARD DEP MERCH DEP 111925 EDDIES TIRES RIMS 739732XXXXX9243\",\n          \"amount\": 45.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"description\": \"ACH deposit BANKCARD DEP MERCH DEP 112025 EDDIES TIRES RIMS 739732XXXXX9243\",\n          \"amount\": 235.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"description\": \"Mobile Debit Purchase 112025 AMAZON MKTPL B01GK31G0 SEATTLE WA\",\n          \"amount\": 88.39,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"description\": \"Overdraft charge DR AMT 88.39 0000000000 112025\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\",\n          \"category\": \"Overdraft\"\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"description\": \"ACH deposit BANKCARD DEP MERCH DEP 112125 EDDIES TIRES RIMS 739732XXXXX9243\",\n          \"amount\": 350.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"description\": \"NSF charge DR AMT 352.42 0000000000 112125\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\",\n          \"category\": \"Overdraft\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"ACH deposit BANKCARD DEP MERCH DEP 112425 EDDIES TIRES RIMS 739732XXXXX9243\",\n          \"amount\": 668.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"ACH deposit BANKCARD DEP MERCH DEP 112425 EDDIES TIRES RIMS 739732XXXXX9243\",\n          \"amount\": 330.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"ACH deposit BANKCARD DEP MERCH DEP 112425 EDDIES TIRES RIMS 739732XXXXX9243\",\n          \"amount\": 102.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"ATM withdrawal ATM WITHDRAWAL A684 112425 HARRELL S FERRY BATON ROUGE LA\",\n          \"amount\": 300.0,\n          \"type\": \"Debit\",\n          \"category\": \"ATM/Cash Withdrawal\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"NSF charge DR AMT 5,580.00 0032712044 112425\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\",\n          \"category\": \"Overdraft\"\n        },\n        {\n          \"date\": \"11/25/2025\",\n          \"description\": \"ACH deposit BANKCARD DEP MERCH DEP 112525 EDDIES TIRES RIMS 739732XXXXX9243\",\n          \"amount\": 1190.99,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/25/2025\",\n          \"description\": \"ATM withdrawal ATM WITHDRAWAL C314 112525 SOUTHGATE RETAIL CENTER BATON ROUGE LA\",\n          \"amount\": 1000.0,\n          \"type\": \"Debit\",\n          \"category\": \"ATM/Cash Withdrawal\"\n        },\n        {\n          \"date\": \"11/25/2025\",\n          \"description\": \"ATM withdrawal ATM WITHDRAWAL C314 112525 SOUTHGATE RETAIL CENTER BATON ROUGE LA\",\n          \"amount\": 500.0,\n          \"type\": \"Debit\",\n          \"category\": \"ATM/Cash Withdrawal\"\n        },\n        {\n          \"date\": \"11/25/2025\",\n          \"description\": \"Overdraft charge DR AMT 500.00 0000000000 112525\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\",\n          \"category\": \"Overdraft\"\n        },\n        {\n          \"date\": \"11/26/2025\",\n          \"description\": \"ACH deposit BANKCARD DEP MERCH DEP 112625 EDDIES TIRES RIMS 739732XXXXX9243\",\n          \"amount\": 165.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/26/2025\",\n          \"description\": \"Debit Card Purchase 112625 CHIME SAN FRANCISC CA\",\n          \"amount\": 40.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/26/2025\",\n          \"description\": \"Overdraft charge DR AMT 40.00 0000000000 112625\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\",\n          \"category\": \"Overdraft\"\n        },\n        {\n          \"date\": \"11/28/2025\",\n          \"description\": \"ACH deposit BANKCARD DEP MERCH DEP 112825 EDDIES TIRES RIMS 739732XXXXX9243\",\n          \"amount\": 420.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/28/2025\",\n          \"description\": \"ACH deposit BANKCARD DEP MERCH DEP 112825 EDDIES TIRES RIMS 739732XXXXX9243\",\n          \"amount\": 179.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/28/2025\",\n          \"description\": \"Mobile Debit Purchase 112825 TIKTOK SHOP 8888888888 CA\",\n          \"amount\": 3.31,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/28/2025\",\n          \"description\": \"Mobile Debit Purchase 112825 DD DOORDASH RACETRAC SAN FRANCISC CA\",\n          \"amount\": 18.22,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/30/2025\",\n          \"description\": \"Service charge\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\",\n          \"category\": \"Service Charges/Fees\"\n        }\n      ]\n    }\n  ]\n}\n```",
+    "token_count": {
+      "estimated_tokens": 2796
+    },
+    "failure_reason": null
+  },
+  "bsi_analyzer_result": {
+    "agent_name": "v1_bsi_analyzer_agent",
+    "processing_status": "success",
+    "start_time": "2026-02-04T15:02:53.029842",
+    "end_time": "2026-02-04T15:04:21.289017",
+    "parsed_json": {
+      "accounts": [
+        {
+          "account_number": "00005733894040",
+          "account_type": "Business Enhanced Checking",
+          "mca_deposit": [],
+          "mca_withdrawal": [],
+          "returned_items": [],
+          "overdrafts": [
+            {
+              "date": "11/04/2025",
+              "description": "Overdraft charge DR AMT 1,472.55 0000000000 110425",
+              "amount": 35.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/07/2025",
+              "description": "NSF charge DR AMT 1,285.31 0000000000 110725",
+              "amount": 35.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "NSF charge DR AMT 2,877.05 0031551480 111225",
+              "amount": 35.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/13/2025",
+              "description": "Overdraft charge DR AMT 102.45 0030738580 111325",
+              "amount": 35.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/13/2025",
+              "description": "Overdraft charge DR AMT 273.12 0030738584 111325",
+              "amount": 35.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/14/2025",
+              "description": "NSF charge DR AMT 501.27 0030819340 111425",
+              "amount": 35.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "NSF charge DR AMT 1,166.72 0032450404 111725",
+              "amount": 35.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/18/2025",
+              "description": "Overdraft charge DR AMT 244.32 0030824440 111825",
+              "amount": 35.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/18/2025",
+              "description": "Overdraft charge DR AMT 1,178.86 0030824444 111825",
+              "amount": 35.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/20/2025",
+              "description": "Overdraft charge DR AMT 88.39 0000000000 112025",
+              "amount": 35.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/21/2025",
+              "description": "NSF charge DR AMT 352.42 0000000000 112125",
+              "amount": 35.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "NSF charge DR AMT 5,580.00 0032712044 112425",
+              "amount": 35.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/25/2025",
+              "description": "Overdraft charge DR AMT 500.00 0000000000 112525",
+              "amount": 35.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/26/2025",
+              "description": "Overdraft charge DR AMT 40.00 0000000000 112625",
+              "amount": 35.0,
+              "type": "Debit"
+            }
+          ],
+          "service_charges": [
+            {
+              "date": "11/06/2025",
+              "description": "ATM fee DR AMT 303.25 0000000000 110625",
+              "amount": 2.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/06/2025",
+              "description": "ACH Withdrawal BANKCARD DEP MERCH FEES 110625 Eddies tires 739732XXXXX9243",
+              "amount": 15.02,
+              "type": "Debit"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Debit Card Purchase 111225 LA INTER SERVICE FEE OLATHE KS",
+              "amount": 4.97,
+              "type": "Debit"
+            },
+            {
+              "date": "11/30/2025",
+              "description": "Service charge",
+              "amount": 35.0,
+              "type": "Debit"
+            }
+          ],
+          "atm_cash_withdrawal": [
+            {
+              "date": "11/03/2025",
+              "description": "ATM withdrawal ATM WITHDRAWAL C314 110125 SOUTHGATE RETAIL CENTER BATON ROUGE LA",
+              "amount": 640.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/04/2025",
+              "description": "ATM withdrawal ATM WITHDRAWAL A09A 110325 INDUSTRIPLEX BATON ROUGE LA",
+              "amount": 540.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/04/2025",
+              "description": "ATM withdrawal ATM WITHDRAWAL A038 110425 BROADMOOR BATON ROUGE LA",
+              "amount": 1100.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/06/2025",
+              "description": "ATM withdrawal ATM WITHDRAWAL RC0023 110625 CDSR PORT ALLEN LA",
+              "amount": 303.25,
+              "type": "Debit"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "ATM withdrawal ATM WITHDRAWAL A038 111025 BROADMOOR BATON ROUGE LA",
+              "amount": 540.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "ATM withdrawal ATM WITHDRAWAL A684 111725 HARRELL S FERRY BATON ROUGE LA",
+              "amount": 1100.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/18/2025",
+              "description": "ATM withdrawal ATM WITHDRAWAL A684 111825 HARRELL S FERRY BATON ROUGE LA",
+              "amount": 600.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "ATM withdrawal ATM WITHDRAWAL A684 112425 HARRELL S FERRY BATON ROUGE LA",
+              "amount": 300.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/25/2025",
+              "description": "ATM withdrawal ATM WITHDRAWAL C314 112525 SOUTHGATE RETAIL CENTER BATON ROUGE LA",
+              "amount": 1000.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/25/2025",
+              "description": "ATM withdrawal ATM WITHDRAWAL C314 112525 SOUTHGATE RETAIL CENTER BATON ROUGE LA",
+              "amount": 500.0,
+              "type": "Debit"
+            }
+          ],
+          "internal_transfer_deposit": [
+            {
+              "date": "11/03/2025",
+              "description": "TRANSFER DEPOSIT FROM ...5879 MMYM4CS44EELFMF",
+              "amount": 1500.0,
+              "type": "Credit",
+              "non_true_revenue": 1
+            },
+            {
+              "date": "11/03/2025",
+              "description": "TRANSFER DEPOSIT FROM ...5879 MMNUHAIWZQ3V5J9",
+              "amount": 396.0,
+              "type": "Credit",
+              "non_true_revenue": 1
+            },
+            {
+              "date": "11/03/2025",
+              "description": "TRANSFER DEPOSIT FROM ...5879 MMWTQKBBCBVP9QO",
+              "amount": 300.0,
+              "type": "Credit",
+              "non_true_revenue": 1
+            },
+            {
+              "date": "11/03/2025",
+              "description": "TRANSFER DEPOSIT FROM ...5879 MMFE73T3WJCFKEI",
+              "amount": 150.0,
+              "type": "Credit",
+              "non_true_revenue": 1
+            },
+            {
+              "date": "11/04/2025",
+              "description": "TRANSFER DEPOSIT FROM ...5879 MMQH3EILDKUCKPM",
+              "amount": 900.0,
+              "type": "Credit",
+              "non_true_revenue": 1
+            },
+            {
+              "date": "11/05/2025",
+              "description": "TRANSFER DEPOSIT FROM ...5879 MMAVMFL2BJC6WLS",
+              "amount": 45.0,
+              "type": "Credit",
+              "non_true_revenue": 1
+            },
+            {
+              "date": "11/06/2025",
+              "description": "TRANSFER DEPOSIT FROM ...5879 MMJ4NF7KGRQ8QSN",
+              "amount": 500.0,
+              "type": "Credit",
+              "non_true_revenue": 1
+            },
+            {
+              "date": "11/06/2025",
+              "description": "TRANSFER DEPOSIT FROM ...5879 MMZXUIJWIVS9IET",
+              "amount": 350.0,
+              "type": "Credit",
+              "non_true_revenue": 1
+            },
+            {
+              "date": "11/12/2025",
+              "description": "TRANSFER DEPOSIT FROM ...5879 MM98ELVEMXPDJKV",
+              "amount": 3.0,
+              "type": "Credit",
+              "non_true_revenue": 1
+            },
+            {
+              "date": "11/12/2025",
+              "description": "TRANSFER DEPOSIT FROM ...5879 MMDHPYM8G77AHCR",
+              "amount": 3.0,
+              "type": "Credit",
+              "non_true_revenue": 1
+            }
+          ],
+          "other_transfer_deposit": [],
+          "internal_transfer_withdrawal": [
+            {
+              "date": "11/03/2025",
+              "description": "TRANSFER WITHDRAWAL TO ...5879 MMVVAUCSQ0CZZDL",
+              "amount": 1800.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/04/2025",
+              "description": "TRANSFER WITHDRAWAL TO ...5879 MMJVBQYULTOIUX5",
+              "amount": 950.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/06/2025",
+              "description": "TRANSFER WITHDRAWAL TO ...5879 MMFOHEDSWQRAFNW",
+              "amount": 850.0,
+              "type": "Debit"
+            }
+          ],
+          "other_transfer_withdrawal": [],
+          "standard_deposit": [
+            {
+              "date": "11/03/2025",
+              "description": "ACH deposit BANKCARD DEP MERCH DEP 110325 EDDIES TIRES RIMS 739732XXXXX9243",
+              "amount": 1143.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/03/2025",
+              "description": "ACH deposit BANKCARD DEP MERCH DEP 110325 EDDIES TIRES RIMS 739732XXXXX9243",
+              "amount": 759.99,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/03/2025",
+              "description": "ACH deposit BANKCARD DEP MERCH DEP 110325 EDDIES TIRES RIMS 739732XXXXX9243",
+              "amount": 287.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/04/2025",
+              "description": "ACH deposit BANKCARD DEP MERCH DEP 110425 EDDIES TIRES RIMS 739732XXXXX9243",
+              "amount": 1229.99,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/05/2025",
+              "description": "ACH deposit BANKCARD DEP MERCH DEP 110525 EDDIES TIRES RIMS 739732XXXXX9243",
+              "amount": 513.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/06/2025",
+              "description": "ACH deposit BANKCARD DEP MERCH DEP 110625 EDDIES TIRES RIMS 739732XXXXX9243",
+              "amount": 987.99,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/07/2025",
+              "description": "ACH deposit BANKCARD DEP MERCH DEP 110725 EDDIES TIRES RIMS 739732XXXXX9243",
+              "amount": 345.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/10/2025",
+              "description": "ACH deposit BANKCARD DEP MERCH DEP 111025 EDDIES TIRES RIMS 739732XXXXX9243",
+              "amount": 1279.99,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/10/2025",
+              "description": "ACH deposit BANKCARD DEP MERCH DEP 111025 EDDIES TIRES RIMS 739732XXXXX9243",
+              "amount": 295.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/10/2025",
+              "description": "ACH deposit BANKCARD DEP MERCH DEP 111025 EDDIES TIRES RIMS 739732XXXXX9243",
+              "amount": 50.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/12/2025",
+              "description": "ACH deposit BANKCARD DEP MERCH DEP 111225 EDDIES TIRES RIMS 739732XXXXX9243",
+              "amount": 530.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/12/2025",
+              "description": "ACH deposit BANKCARD DEP MERCH DEP 111225 EDDIES TIRES RIMS 739732XXXXX9243",
+              "amount": 324.8,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Mobile Debit Purch Return 111225 AMAZON MARK BT5FL1H30 SEATTLE WA",
+              "amount": 5.61,
+              "type": "Credit",
+              "non_true_revenue": 1
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Mobile Debit Purch Return 111225 AMAZON MARK BT5FL1H30 SEATTLE WA",
+              "amount": 5.6,
+              "type": "Credit",
+              "non_true_revenue": 1
+            },
+            {
+              "date": "11/13/2025",
+              "description": "ACH deposit BANKCARD DEP MERCH DEP 111325 EDDIES TIRES RIMS 739732XXXXX9243",
+              "amount": 285.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/14/2025",
+              "description": "ACH deposit BANKCARD DEP MERCH DEP 111425 EDDIES TIRES RIMS 739732XXXXX9243",
+              "amount": 650.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/17/2025",
+              "description": "ACH deposit BANKCARD DEP MERCH DEP 111725 EDDIES TIRES RIMS 739732XXXXX9243",
+              "amount": 1054.99,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/17/2025",
+              "description": "ACH deposit BANKCARD DEP MERCH DEP 111725 EDDIES TIRES RIMS 739732XXXXX9243",
+              "amount": 308.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/17/2025",
+              "description": "ACH deposit BANKCARD DEP MERCH DEP 111725 EDDIES TIRES RIMS 739732XXXXX9243",
+              "amount": 270.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/18/2025",
+              "description": "ACH deposit BANKCARD DEP MERCH DEP 111825 EDDIES TIRES RIMS 739732XXXXX9243",
+              "amount": 749.99,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/19/2025",
+              "description": "ACH deposit BANKCARD DEP MERCH DEP 111925 EDDIES TIRES RIMS 739732XXXXX9243",
+              "amount": 255.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/19/2025",
+              "description": "ACH deposit BANKCARD DEP MERCH DEP 111925 EDDIES TIRES RIMS 739732XXXXX9243",
+              "amount": 45.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/20/2025",
+              "description": "ACH deposit BANKCARD DEP MERCH DEP 112025 EDDIES TIRES RIMS 739732XXXXX9243",
+              "amount": 235.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/21/2025",
+              "description": "ACH deposit BANKCARD DEP MERCH DEP 112125 EDDIES TIRES RIMS 739732XXXXX9243",
+              "amount": 350.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/24/2025",
+              "description": "ACH deposit BANKCARD DEP MERCH DEP 112425 EDDIES TIRES RIMS 739732XXXXX9243",
+              "amount": 668.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/24/2025",
+              "description": "ACH deposit BANKCARD DEP MERCH DEP 112425 EDDIES TIRES RIMS 739732XXXXX9243",
+              "amount": 330.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/24/2025",
+              "description": "ACH deposit BANKCARD DEP MERCH DEP 112425 EDDIES TIRES RIMS 739732XXXXX9243",
+              "amount": 102.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/25/2025",
+              "description": "ACH deposit BANKCARD DEP MERCH DEP 112525 EDDIES TIRES RIMS 739732XXXXX9243",
+              "amount": 1190.99,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/26/2025",
+              "description": "ACH deposit BANKCARD DEP MERCH DEP 112625 EDDIES TIRES RIMS 739732XXXXX9243",
+              "amount": 165.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/28/2025",
+              "description": "ACH deposit BANKCARD DEP MERCH DEP 112825 EDDIES TIRES RIMS 739732XXXXX9243",
+              "amount": 420.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/28/2025",
+              "description": "ACH deposit BANKCARD DEP MERCH DEP 112825 EDDIES TIRES RIMS 739732XXXXX9243",
+              "amount": 179.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            }
+          ],
+          "standard_withdrawal": [
+            {
+              "date": "11/03/2025",
+              "description": "Debit Card Purchase HARBOR FREIGHT T 094223 110125 HARBOR FREIGHT TOOLS U BATON ROUGE LA",
+              "amount": 135.88,
+              "type": "Debit"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "Mobile Debit Purchase 110325 TIKTOK SHOP 6505840896 CA",
+              "amount": 12.14,
+              "type": "Debit"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "ACH Withdrawal BANKCARD MTOT DISC 110325 EDDIES TIRES RIMS 518993XXXXX3401",
+              "amount": 71.13,
+              "type": "Debit"
+            },
+            {
+              "date": "11/04/2025",
+              "description": "Debit Card Purchase RACETRAC454 046443 110325 RACETRAC454 PORT ALLEN LA",
+              "amount": 27.25,
+              "type": "Debit"
+            },
+            {
+              "date": "11/04/2025",
+              "description": "Debit Card Purchase CIRCLE K 41726 101 110425 CIRCLE K 41726 BATON ROUGE LA",
+              "amount": 40.89,
+              "type": "Debit"
+            },
+            {
+              "date": "11/04/2025",
+              "description": "Debit Card Purchase 110425 TIRECO DISTRIBUTORS GARDENA CA",
+              "amount": 1472.55,
+              "type": "Debit"
+            },
+            {
+              "date": "11/05/2025",
+              "description": "Recur Mobile Debit Purchase 110525 SP SHAPERLUV SHERIDAN WY",
+              "amount": 2.95,
+              "type": "Debit"
+            },
+            {
+              "date": "11/05/2025",
+              "description": "Debit Card Purchase 110525 CIRCLE K 07650 BATON ROUGE LA",
+              "amount": 27.61,
+              "type": "Debit"
+            },
+            {
+              "date": "11/06/2025",
+              "description": "Debit Card Purchase RACETRAC454 046443 110625 RACETRAC454 PORT ALLEN LA",
+              "amount": 38.28,
+              "type": "Debit"
+            },
+            {
+              "date": "11/06/2025",
+              "description": "Debit Card Purchase 110625 7 BREW COFFEE SB122 BATON ROUGE LA",
+              "amount": 15.14,
+              "type": "Debit"
+            },
+            {
+              "date": "11/06/2025",
+              "description": "Debit Card Purchase 110625 TIRECO DISTRIBUTORS GARDENA CA",
+              "amount": 377.12,
+              "type": "Debit"
+            },
+            {
+              "date": "11/07/2025",
+              "description": "Debit Card Purchase WM SUPERCENTER 113600 110625 WM SUPERCENTER 1136 PORT ALLEN LA",
+              "amount": 87.39,
+              "type": "Debit"
+            },
+            {
+              "date": "11/07/2025",
+              "description": "Debit Card Purchase MURPHY EXPRESS 698662 110625 MURPHY EXPRESS BATON ROUGE LA",
+              "amount": 25.07,
+              "type": "Debit"
+            },
+            {
+              "date": "11/07/2025",
+              "description": "Debit Card Purchase 110725 CHIME SAN FRANCISC CA",
+              "amount": 40.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Debit Card Purchase RACETRAC454 046443 110825 RACETRAC454 PORT ALLEN LA",
+              "amount": 16.21,
+              "type": "Debit"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Debit Card Purchase WAL MART 4683 468300 110825 WAL MART 4683 BATON ROUGE LA",
+              "amount": 69.3,
+              "type": "Debit"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Debit Card Purchase B QUIK 1 122043 110925 B QUIK 1 BATON ROUGE LA",
+              "amount": 25.77,
+              "type": "Debit"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Debit Card Purchase WAL MART 5327 532700 110925 WAL MART 5327 BATON ROUGE LA",
+              "amount": 25.61,
+              "type": "Debit"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Recur Debit Card Purchase 111025 APPLE COM BILL CUPERTINO CA",
+              "amount": 7.72,
+              "type": "Debit"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Debit Card Purchase 111025 IDEAL MARKET 11 BATON ROUGE LA",
+              "amount": 10.54,
+              "type": "Debit"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Recur Debit Card Purchase 111025 BENNY S UNLIMITED CL BATON ROUGE LA",
+              "amount": 34.99,
+              "type": "Debit"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Debit Card Purchase 111025 7 BREW COFFEE SB122 BATON ROUGE LA",
+              "amount": 35.36,
+              "type": "Debit"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Debit Card Purchase 111025 CHIME SAN FRANCISC CA",
+              "amount": 40.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Mobile Debit Purchase 111025 AMAZON MARK BT5FL1H30 SEATTLE WA",
+              "amount": 43.2,
+              "type": "Debit"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Recur Debit Card Purchase 111025 APPLE COM BILL CUPERTINO CA",
+              "amount": 44.19,
+              "type": "Debit"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Recur Mobile Debit Purchase 111025 ATT BILL PAYMENT DALLAS TX",
+              "amount": 78.21,
+              "type": "Debit"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "ACH Withdrawal ENTERGY GS-LA LL BANK DRAFT 111025 ASEEL MAHMOOD 000164285520",
+              "amount": 105.06,
+              "type": "Debit"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Check 1230",
+              "amount": 684.76,
+              "type": "Debit"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Check 1231",
+              "amount": 323.72,
+              "type": "Debit"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Debit Card Purchase IDEAL MARKET 8 530478 111125 IDEAL MARKET 8 BATON ROUGE LA",
+              "amount": 13.25,
+              "type": "Debit"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Debit Card Purchase IDEAL MARKET 8 530478 111125 IDEAL MARKET 8 BATON ROUGE LA",
+              "amount": 10.28,
+              "type": "Debit"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Debit Card Purchase 111225 MARY LEE DONUTS BATON ROUGE LA",
+              "amount": 19.08,
+              "type": "Debit"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Debit Card Purchase 111225 CIRCLE K 07650 BATON ROUGE LA",
+              "amount": 48.18,
+              "type": "Debit"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Debit Card Purchase 111225 OMVINSTALLMENTPAY BATON ROUGE LA",
+              "amount": 75.78,
+              "type": "Debit"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Debit Card Purchase 111225 ROSS STORES 647 BATON ROUGE LA",
+              "amount": 157.91,
+              "type": "Debit"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Check 1233",
+              "amount": 330.45,
+              "type": "Debit"
+            },
+            {
+              "date": "11/13/2025",
+              "description": "Debit Card Purchase TARGET T 2089 220891 111225 TARGET T 2089 BATON ROUGE LA",
+              "amount": 238.75,
+              "type": "Debit"
+            },
+            {
+              "date": "11/13/2025",
+              "description": "Mobile Debit Purchase 111325 DD DOORDASH JERSEYMIK SAN FRANCISC CA",
+              "amount": 18.45,
+              "type": "Debit"
+            },
+            {
+              "date": "11/13/2025",
+              "description": "Mobile Debit Purchase 111325 DD DOORDASH TARGET SAN FRANCISC CA",
+              "amount": 59.5,
+              "type": "Debit"
+            },
+            {
+              "date": "11/13/2025",
+              "description": "ACH Withdrawal ENTERGY GS-LA LL BANK DRAFT 111325 ASEEL MAHMOOD 000166757203",
+              "amount": 311.41,
+              "type": "Debit"
+            },
+            {
+              "date": "11/13/2025",
+              "description": "ACH Withdrawal ADT SECURITY SER ADTPAPACH 111325 EDDIES TIRES & RIMS XXXXX6464",
+              "amount": 60.63,
+              "type": "Debit"
+            },
+            {
+              "date": "11/13/2025",
+              "description": "Check 1235",
+              "amount": 273.12,
+              "type": "Debit"
+            },
+            {
+              "date": "11/13/2025",
+              "description": "Check 1234",
+              "amount": 102.45,
+              "type": "Debit"
+            },
+            {
+              "date": "11/14/2025",
+              "description": "Recur Mobile Debit Purchase 111425 NETFLIX COM LOS GATOS CA",
+              "amount": 27.61,
+              "type": "Debit"
+            },
+            {
+              "date": "11/14/2025",
+              "description": "Mobile Debit Purchase 111425 AMAZON MKTPL B81S31X41 SEATTLE WA",
+              "amount": 30.9,
+              "type": "Debit"
+            },
+            {
+              "date": "11/14/2025",
+              "description": "Mobile Debit Purchase 111425 DD DOORDASH CVS SAN FRANCISC CA",
+              "amount": 51.42,
+              "type": "Debit"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "ACH Withdrawal TIRECO DISTRIBUT 3107677990 111725 200465 GOBAH TIRE INC 2VCZ83W44D77I2C",
+              "amount": 216.85,
+              "type": "Debit"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "ACH Withdrawal Baton Rouge Wate doxoPAY 111725 Gobah tires 7h2bj",
+              "amount": 214.02,
+              "type": "Debit"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "ACH Withdrawal FDMS PYMT 111725 GOBAH TIRE, INC 052-2280559-000",
+              "amount": 38.59,
+              "type": "Debit"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "ACH Withdrawal TIRECO DISTRIBUT 3107677990 111725 ASEEL MAHMOOD 2VCYBEDN4W41QSD",
+              "amount": 0.01,
+              "type": "Debit"
+            },
+            {
+              "date": "11/18/2025",
+              "description": "ACH Withdrawal WASTE MANAGEMENT PAYMENT 111825 Aseel gobah 000323XXXXX3000",
+              "amount": 176.31,
+              "type": "Debit"
+            },
+            {
+              "date": "11/18/2025",
+              "description": "Check 1237",
+              "amount": 1178.86,
+              "type": "Debit"
+            },
+            {
+              "date": "11/18/2025",
+              "description": "Check 1238",
+              "amount": 244.32,
+              "type": "Debit"
+            },
+            {
+              "date": "11/20/2025",
+              "description": "Mobile Debit Purchase 112025 AMAZON MKTPL B01GK31G0 SEATTLE WA",
+              "amount": 88.39,
+              "type": "Debit"
+            },
+            {
+              "date": "11/26/2025",
+              "description": "Debit Card Purchase 112625 CHIME SAN FRANCISC CA",
+              "amount": 40.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/28/2025",
+              "description": "Mobile Debit Purchase 112825 TIKTOK SHOP 8888888888 CA",
+              "amount": 3.31,
+              "type": "Debit"
+            },
+            {
+              "date": "11/28/2025",
+              "description": "Mobile Debit Purchase 112825 DD DOORDASH RACETRAC SAN FRANCISC CA",
+              "amount": 18.22,
+              "type": "Debit"
+            }
+          ]
+        }
+      ]
+    },
+    "raw_output": "```json\n{\n  \"accounts\": [\n    {\n      \"account_number\": \"00005733894040\",\n      \"account_type\": \"Business Enhanced Checking\",\n      \"mca_deposit\": [],\n      \"mca_withdrawal\": [],\n      \"returned_items\": [],\n      \"overdrafts\": [\n        {\n          \"date\": \"11/04/2025\",\n          \"description\": \"Overdraft charge DR AMT 1,472.55 0000000000 110425\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"description\": \"NSF charge DR AMT 1,285.31 0000000000 110725\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"NSF charge DR AMT 2,877.05 0031551480 111225\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/13/2025\",\n          \"description\": \"Overdraft charge DR AMT 102.45 0030738580 111325\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/13/2025\",\n          \"description\": \"Overdraft charge DR AMT 273.12 0030738584 111325\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/14/2025\",\n          \"description\": \"NSF charge DR AMT 501.27 0030819340 111425\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"NSF charge DR AMT 1,166.72 0032450404 111725\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"description\": \"Overdraft charge DR AMT 244.32 0030824440 111825\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"description\": \"Overdraft charge DR AMT 1,178.86 0030824444 111825\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"description\": \"Overdraft charge DR AMT 88.39 0000000000 112025\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"description\": \"NSF charge DR AMT 352.42 0000000000 112125\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"NSF charge DR AMT 5,580.00 0032712044 112425\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/25/2025\",\n          \"description\": \"Overdraft charge DR AMT 500.00 0000000000 112525\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/26/2025\",\n          \"description\": \"Overdraft charge DR AMT 40.00 0000000000 112625\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\"\n        }\n      ],\n      \"service_charges\": [\n        {\n          \"date\": \"11/06/2025\",\n          \"description\": \"ATM fee DR AMT 303.25 0000000000 110625\",\n          \"amount\": 2.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/06/2025\",\n          \"description\": \"ACH Withdrawal BANKCARD DEP MERCH FEES 110625 Eddies tires 739732XXXXX9243\",\n          \"amount\": 15.02,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Debit Card Purchase 111225 LA INTER SERVICE FEE OLATHE KS\",\n          \"amount\": 4.97,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/30/2025\",\n          \"description\": \"Service charge\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\"\n        }\n      ],\n      \"atm_cash_withdrawal\": [\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"ATM withdrawal ATM WITHDRAWAL C314 110125 SOUTHGATE RETAIL CENTER BATON ROUGE LA\",\n          \"amount\": 640.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/04/2025\",\n          \"description\": \"ATM withdrawal ATM WITHDRAWAL A09A 110325 INDUSTRIPLEX BATON ROUGE LA\",\n          \"amount\": 540.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/04/2025\",\n          \"description\": \"ATM withdrawal ATM WITHDRAWAL A038 110425 BROADMOOR BATON ROUGE LA\",\n          \"amount\": 1100.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/06/2025\",\n          \"description\": \"ATM withdrawal ATM WITHDRAWAL RC0023 110625 CDSR PORT ALLEN LA\",\n          \"amount\": 303.25,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"ATM withdrawal ATM WITHDRAWAL A038 111025 BROADMOOR BATON ROUGE LA\",\n          \"amount\": 540.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"ATM withdrawal ATM WITHDRAWAL A684 111725 HARRELL S FERRY BATON ROUGE LA\",\n          \"amount\": 1100.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"description\": \"ATM withdrawal ATM WITHDRAWAL A684 111825 HARRELL S FERRY BATON ROUGE LA\",\n          \"amount\": 600.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"ATM withdrawal ATM WITHDRAWAL A684 112425 HARRELL S FERRY BATON ROUGE LA\",\n          \"amount\": 300.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/25/2025\",\n          \"description\": \"ATM withdrawal ATM WITHDRAWAL C314 112525 SOUTHGATE RETAIL CENTER BATON ROUGE LA\",\n          \"amount\": 1000.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/25/2025\",\n          \"description\": \"ATM withdrawal ATM WITHDRAWAL C314 112525 SOUTHGATE RETAIL CENTER BATON ROUGE LA\",\n          \"amount\": 500.0,\n          \"type\": \"Debit\"\n        }\n      ],\n      \"internal_transfer_deposit\": [\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"TRANSFER DEPOSIT FROM ...5879 MMYM4CS44EELFMF\",\n          \"amount\": 1500.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"TRANSFER DEPOSIT FROM ...5879 MMNUHAIWZQ3V5J9\",\n          \"amount\": 396.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"TRANSFER DEPOSIT FROM ...5879 MMWTQKBBCBVP9QO\",\n          \"amount\": 300.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"TRANSFER DEPOSIT FROM ...5879 MMFE73T3WJCFKEI\",\n          \"amount\": 150.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"11/04/2025\",\n          \"description\": \"TRANSFER DEPOSIT FROM ...5879 MMQH3EILDKUCKPM\",\n          \"amount\": 900.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"11/05/2025\",\n          \"description\": \"TRANSFER DEPOSIT FROM ...5879 MMAVMFL2BJC6WLS\",\n          \"amount\": 45.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"11/06/2025\",\n          \"description\": \"TRANSFER DEPOSIT FROM ...5879 MMJ4NF7KGRQ8QSN\",\n          \"amount\": 500.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"11/06/2025\",\n          \"description\": \"TRANSFER DEPOSIT FROM ...5879 MMZXUIJWIVS9IET\",\n          \"amount\": 350.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"TRANSFER DEPOSIT FROM ...5879 MM98ELVEMXPDJKV\",\n          \"amount\": 3.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"TRANSFER DEPOSIT FROM ...5879 MMDHPYM8G77AHCR\",\n          \"amount\": 3.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        }\n      ],\n      \"other_transfer_deposit\": [],\n      \"internal_transfer_withdrawal\": [\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"TRANSFER WITHDRAWAL TO ...5879 MMVVAUCSQ0CZZDL\",\n          \"amount\": 1800.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/04/2025\",\n          \"description\": \"TRANSFER WITHDRAWAL TO ...5879 MMJVBQYULTOIUX5\",\n          \"amount\": 950.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/06/2025\",\n          \"description\": \"TRANSFER WITHDRAWAL TO ...5879 MMFOHEDSWQRAFNW\",\n          \"amount\": 850.0,\n          \"type\": \"Debit\"\n        }\n      ],\n      \"other_transfer_withdrawal\": [],\n      \"standard_deposit\": [\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"ACH deposit BANKCARD DEP MERCH DEP 110325 EDDIES TIRES RIMS 739732XXXXX9243\",\n          \"amount\": 1143.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"ACH deposit BANKCARD DEP MERCH DEP 110325 EDDIES TIRES RIMS 739732XXXXX9243\",\n          \"amount\": 759.99,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"ACH deposit BANKCARD DEP MERCH DEP 110325 EDDIES TIRES RIMS 739732XXXXX9243\",\n          \"amount\": 287.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/04/2025\",\n          \"description\": \"ACH deposit BANKCARD DEP MERCH DEP 110425 EDDIES TIRES RIMS 739732XXXXX9243\",\n          \"amount\": 1229.99,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/05/2025\",\n          \"description\": \"ACH deposit BANKCARD DEP MERCH DEP 110525 EDDIES TIRES RIMS 739732XXXXX9243\",\n          \"amount\": 513.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/06/2025\",\n          \"description\": \"ACH deposit BANKCARD DEP MERCH DEP 110625 EDDIES TIRES RIMS 739732XXXXX9243\",\n          \"amount\": 987.99,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"description\": \"ACH deposit BANKCARD DEP MERCH DEP 110725 EDDIES TIRES RIMS 739732XXXXX9243\",\n          \"amount\": 345.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"ACH deposit BANKCARD DEP MERCH DEP 111025 EDDIES TIRES RIMS 739732XXXXX9243\",\n          \"amount\": 1279.99,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"ACH deposit BANKCARD DEP MERCH DEP 111025 EDDIES TIRES RIMS 739732XXXXX9243\",\n          \"amount\": 295.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"ACH deposit BANKCARD DEP MERCH DEP 111025 EDDIES TIRES RIMS 739732XXXXX9243\",\n          \"amount\": 50.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"ACH deposit BANKCARD DEP MERCH DEP 111225 EDDIES TIRES RIMS 739732XXXXX9243\",\n          \"amount\": 530.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"ACH deposit BANKCARD DEP MERCH DEP 111225 EDDIES TIRES RIMS 739732XXXXX9243\",\n          \"amount\": 324.8,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Mobile Debit Purch Return 111225 AMAZON MARK BT5FL1H30 SEATTLE WA\",\n          \"amount\": 5.61,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Mobile Debit Purch Return 111225 AMAZON MARK BT5FL1H30 SEATTLE WA\",\n          \"amount\": 5.6,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"11/13/2025\",\n          \"description\": \"ACH deposit BANKCARD DEP MERCH DEP 111325 EDDIES TIRES RIMS 739732XXXXX9243\",\n          \"amount\": 285.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/14/2025\",\n          \"description\": \"ACH deposit BANKCARD DEP MERCH DEP 111425 EDDIES TIRES RIMS 739732XXXXX9243\",\n          \"amount\": 650.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"ACH deposit BANKCARD DEP MERCH DEP 111725 EDDIES TIRES RIMS 739732XXXXX9243\",\n          \"amount\": 1054.99,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"ACH deposit BANKCARD DEP MERCH DEP 111725 EDDIES TIRES RIMS 739732XXXXX9243\",\n          \"amount\": 308.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"ACH deposit BANKCARD DEP MERCH DEP 111725 EDDIES TIRES RIMS 739732XXXXX9243\",\n          \"amount\": 270.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"description\": \"ACH deposit BANKCARD DEP MERCH DEP 111825 EDDIES TIRES RIMS 739732XXXXX9243\",\n          \"amount\": 749.99,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/19/2025\",\n          \"description\": \"ACH deposit BANKCARD DEP MERCH DEP 111925 EDDIES TIRES RIMS 739732XXXXX9243\",\n          \"amount\": 255.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/19/2025\",\n          \"description\": \"ACH deposit BANKCARD DEP MERCH DEP 111925 EDDIES TIRES RIMS 739732XXXXX9243\",\n          \"amount\": 45.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"description\": \"ACH deposit BANKCARD DEP MERCH DEP 112025 EDDIES TIRES RIMS 739732XXXXX9243\",\n          \"amount\": 235.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"description\": \"ACH deposit BANKCARD DEP MERCH DEP 112125 EDDIES TIRES RIMS 739732XXXXX9243\",\n          \"amount\": 350.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"ACH deposit BANKCARD DEP MERCH DEP 112425 EDDIES TIRES RIMS 739732XXXXX9243\",\n          \"amount\": 668.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"ACH deposit BANKCARD DEP MERCH DEP 112425 EDDIES TIRES RIMS 739732XXXXX9243\",\n          \"amount\": 330.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"ACH deposit BANKCARD DEP MERCH DEP 112425 EDDIES TIRES RIMS 739732XXXXX9243\",\n          \"amount\": 102.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/25/2025\",\n          \"description\": \"ACH deposit BANKCARD DEP MERCH DEP 112525 EDDIES TIRES RIMS 739732XXXXX9243\",\n          \"amount\": 1190.99,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/26/2025\",\n          \"description\": \"ACH deposit BANKCARD DEP MERCH DEP 112625 EDDIES TIRES RIMS 739732XXXXX9243\",\n          \"amount\": 165.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/28/2025\",\n          \"description\": \"ACH deposit BANKCARD DEP MERCH DEP 112825 EDDIES TIRES RIMS 739732XXXXX9243\",\n          \"amount\": 420.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/28/2025\",\n          \"description\": \"ACH deposit BANKCARD DEP MERCH DEP 112825 EDDIES TIRES RIMS 739732XXXXX9243\",\n          \"amount\": 179.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        }\n      ],\n      \"standard_withdrawal\": [\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"Debit Card Purchase HARBOR FREIGHT T 094223 110125 HARBOR FREIGHT TOOLS U BATON ROUGE LA\",\n          \"amount\": 135.88,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"Mobile Debit Purchase 110325 TIKTOK SHOP 6505840896 CA\",\n          \"amount\": 12.14,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"ACH Withdrawal BANKCARD MTOT DISC 110325 EDDIES TIRES RIMS 518993XXXXX3401\",\n          \"amount\": 71.13,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/04/2025\",\n          \"description\": \"Debit Card Purchase RACETRAC454 046443 110325 RACETRAC454 PORT ALLEN LA\",\n          \"amount\": 27.25,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/04/2025\",\n          \"description\": \"Debit Card Purchase CIRCLE K 41726 101 110425 CIRCLE K 41726 BATON ROUGE LA\",\n          \"amount\": 40.89,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/04/2025\",\n          \"description\": \"Debit Card Purchase 110425 TIRECO DISTRIBUTORS GARDENA CA\",\n          \"amount\": 1472.55,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/05/2025\",\n          \"description\": \"Recur Mobile Debit Purchase 110525 SP SHAPERLUV SHERIDAN WY\",\n          \"amount\": 2.95,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/05/2025\",\n          \"description\": \"Debit Card Purchase 110525 CIRCLE K 07650 BATON ROUGE LA\",\n          \"amount\": 27.61,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/06/2025\",\n          \"description\": \"Debit Card Purchase RACETRAC454 046443 110625 RACETRAC454 PORT ALLEN LA\",\n          \"amount\": 38.28,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/06/2025\",\n          \"description\": \"Debit Card Purchase 110625 7 BREW COFFEE SB122 BATON ROUGE LA\",\n          \"amount\": 15.14,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/06/2025\",\n          \"description\": \"Debit Card Purchase 110625 TIRECO DISTRIBUTORS GARDENA CA\",\n          \"amount\": 377.12,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"description\": \"Debit Card Purchase WM SUPERCENTER 113600 110625 WM SUPERCENTER 1136 PORT ALLEN LA\",\n          \"amount\": 87.39,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"description\": \"Debit Card Purchase MURPHY EXPRESS 698662 110625 MURPHY EXPRESS BATON ROUGE LA\",\n          \"amount\": 25.07,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"description\": \"Debit Card Purchase 110725 CHIME SAN FRANCISC CA\",\n          \"amount\": 40.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Debit Card Purchase RACETRAC454 046443 110825 RACETRAC454 PORT ALLEN LA\",\n          \"amount\": 16.21,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Debit Card Purchase WAL MART 4683 468300 110825 WAL MART 4683 BATON ROUGE LA\",\n          \"amount\": 69.3,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Debit Card Purchase B QUIK 1 122043 110925 B QUIK 1 BATON ROUGE LA\",\n          \"amount\": 25.77,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Debit Card Purchase WAL MART 5327 532700 110925 WAL MART 5327 BATON ROUGE LA\",\n          \"amount\": 25.61,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Recur Debit Card Purchase 111025 APPLE COM BILL CUPERTINO CA\",\n          \"amount\": 7.72,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Debit Card Purchase 111025 IDEAL MARKET 11 BATON ROUGE LA\",\n          \"amount\": 10.54,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Recur Debit Card Purchase 111025 BENNY S UNLIMITED CL BATON ROUGE LA\",\n          \"amount\": 34.99,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Debit Card Purchase 111025 7 BREW COFFEE SB122 BATON ROUGE LA\",\n          \"amount\": 35.36,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Debit Card Purchase 111025 CHIME SAN FRANCISC CA\",\n          \"amount\": 40.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Mobile Debit Purchase 111025 AMAZON MARK BT5FL1H30 SEATTLE WA\",\n          \"amount\": 43.2,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Recur Debit Card Purchase 111025 APPLE COM BILL CUPERTINO CA\",\n          \"amount\": 44.19,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Recur Mobile Debit Purchase 111025 ATT BILL PAYMENT DALLAS TX\",\n          \"amount\": 78.21,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"ACH Withdrawal ENTERGY GS-LA LL BANK DRAFT 111025 ASEEL MAHMOOD 000164285520\",\n          \"amount\": 105.06,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Check 1230\",\n          \"amount\": 684.76,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Check 1231\",\n          \"amount\": 323.72,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Debit Card Purchase IDEAL MARKET 8 530478 111125 IDEAL MARKET 8 BATON ROUGE LA\",\n          \"amount\": 13.25,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Debit Card Purchase IDEAL MARKET 8 530478 111125 IDEAL MARKET 8 BATON ROUGE LA\",\n          \"amount\": 10.28,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Debit Card Purchase 111225 MARY LEE DONUTS BATON ROUGE LA\",\n          \"amount\": 19.08,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Debit Card Purchase 111225 CIRCLE K 07650 BATON ROUGE LA\",\n          \"amount\": 48.18,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Debit Card Purchase 111225 OMVINSTALLMENTPAY BATON ROUGE LA\",\n          \"amount\": 75.78,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Debit Card Purchase 111225 ROSS STORES 647 BATON ROUGE LA\",\n          \"amount\": 157.91,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Check 1233\",\n          \"amount\": 330.45,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/13/2025\",\n          \"description\": \"Debit Card Purchase TARGET T 2089 220891 111225 TARGET T 2089 BATON ROUGE LA\",\n          \"amount\": 238.75,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/13/2025\",\n          \"description\": \"Mobile Debit Purchase 111325 DD DOORDASH JERSEYMIK SAN FRANCISC CA\",\n          \"amount\": 18.45,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/13/2025\",\n          \"description\": \"Mobile Debit Purchase 111325 DD DOORDASH TARGET SAN FRANCISC CA\",\n          \"amount\": 59.5,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/13/2025\",\n          \"description\": \"ACH Withdrawal ENTERGY GS-LA LL BANK DRAFT 111325 ASEEL MAHMOOD 000166757203\",\n          \"amount\": 311.41,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/13/2025\",\n          \"description\": \"ACH Withdrawal ADT SECURITY SER ADTPAPACH 111325 EDDIES TIRES & RIMS XXXXX6464\",\n          \"amount\": 60.63,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/13/2025\",\n          \"description\": \"Check 1235\",\n          \"amount\": 273.12,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/13/2025\",\n          \"description\": \"Check 1234\",\n          \"amount\": 102.45,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/14/2025\",\n          \"description\": \"Recur Mobile Debit Purchase 111425 NETFLIX COM LOS GATOS CA\",\n          \"amount\": 27.61,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/14/2025\",\n          \"description\": \"Mobile Debit Purchase 111425 AMAZON MKTPL B81S31X41 SEATTLE WA\",\n          \"amount\": 30.9,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/14/2025\",\n          \"description\": \"Mobile Debit Purchase 111425 DD DOORDASH CVS SAN FRANCISC CA\",\n          \"amount\": 51.42,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"ACH Withdrawal TIRECO DISTRIBUT 3107677990 111725 200465 GOBAH TIRE INC 2VCZ83W44D77I2C\",\n          \"amount\": 216.85,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"ACH Withdrawal Baton Rouge Wate doxoPAY 111725 Gobah tires 7h2bj\",\n          \"amount\": 214.02,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"ACH Withdrawal FDMS PYMT 111725 GOBAH TIRE, INC 052-2280559-000\",\n          \"amount\": 38.59,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"ACH Withdrawal TIRECO DISTRIBUT 3107677990 111725 ASEEL MAHMOOD 2VCYBEDN4W41QSD\",\n          \"amount\": 0.01,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"description\": \"ACH Withdrawal WASTE MANAGEMENT PAYMENT 111825 Aseel gobah 000323XXXXX3000\",\n          \"amount\": 176.31,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"description\": \"Check 1237\",\n          \"amount\": 1178.86,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"description\": \"Check 1238\",\n          \"amount\": 244.32,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"description\": \"Mobile Debit Purchase 112025 AMAZON MKTPL B01GK31G0 SEATTLE WA\",\n          \"amount\": 88.39,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/26/2025\",\n          \"description\": \"Debit Card Purchase 112625 CHIME SAN FRANCISC CA\",\n          \"amount\": 40.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/28/2025\",\n          \"description\": \"Mobile Debit Purchase 112825 TIKTOK SHOP 8888888888 CA\",\n          \"amount\": 3.31,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/28/2025\",\n          \"description\": \"Mobile Debit Purchase 112825 DD DOORDASH RACETRAC SAN FRANCISC CA\",\n          \"amount\": 18.22,\n          \"type\": \"Debit\"\n        }\n      ]\n    }\n  ]\n}\n```",
+    "token_count": {
+      "estimated_tokens": 2470
+    },
+    "failure_reason": null
+  }
+}

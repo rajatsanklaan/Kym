@@ -1,0 +1,652 @@
+{
+  "document_name": "Case54.pdf",
+  "pipeline_status": "completed",
+  "processing_metadata": {
+    "start_time": "2026-02-04T15:00:52.152409",
+    "end_time": "2026-02-04T15:02:43.881144",
+    "parsing_time_seconds": 73.779812,
+    "bsi_time_seconds": 37.76286,
+    "total_time_seconds": 111.54267200000001
+  },
+  "parsing_agent_result": {
+    "agent_name": "parsing_agent",
+    "processing_status": "success",
+    "start_time": "2026-02-04T15:00:52.332815",
+    "end_time": "2026-02-04T15:02:06.112429",
+    "parsed_json": {
+      "bank_statement_information": {
+        "bank_name": "LAKE MICHIGAN CREDIT UNION",
+        "account_holder": "PREMIER 1 INTERIORS LLC",
+        "statement_start_date": "09-01-2025",
+        "statement_end_date": "09-30-2025",
+        "n_days": 30,
+        "n_month": [
+          9
+        ],
+        "business_address": "3420 BROADMOOR AVE SE STE 6 GRAND RAPIDS MI 49512-8178"
+      },
+      "accounts": [
+        {
+          "account_number": "xxxxxx8366",
+          "account_type": "BASIC BUSINESS CHECKING",
+          "account_summary": {
+            "beginning_balance": 61800.32,
+            "ending_balance": 29891.01,
+            "total_deposits": 42265.0,
+            "total_withdrawals": 74174.31,
+            "total_deposits_count": null,
+            "total_withdrawals_count": null,
+            "avg_daily_balance": 53544.65,
+            "overdraft_days": 0
+          },
+          "transactions": [
+            {
+              "date": "09-05-2025",
+              "description": "Deposit Bulk",
+              "amount": 5350.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "09-05-2025",
+              "description": "Draft 2059 Tracer 000064787",
+              "amount": 1600.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-06-2025",
+              "description": "Withdrawal ACH PAYCHEX INC. TYPE: PAYROLL ID: 1161124166 CO: PAYCHEX INC.",
+              "amount": 5249.17,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-07-2025",
+              "description": "Withdrawal ACH PAYCHEX EIB TYPE: INVOICE ID: 1161124166 CO: PAYCHEX EIB",
+              "amount": 72.8,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-07-2025",
+              "description": "Withdrawal ACH PAYCHEX-HRS TYPE: 401(K) ID: 9540920001 CO: PAYCHEX-HRS",
+              "amount": 210.35,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-07-2025",
+              "description": "Withdrawal ACH PAYCHEX TPS TYPE: TAXES ID: 1161124166 DATA: 32073 CO: PAYCHEX TPS",
+              "amount": 2040.07,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-10-2025",
+              "description": "Draft 2066 Tracer 000018334",
+              "amount": 2000.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-10-2025",
+              "description": "Draft 2069 Tracer 000006858",
+              "amount": 585.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-11-2025",
+              "description": "Withdrawal Transfer To Loan 01 CONFIRMATION #: WEFPG8MY2Q22",
+              "amount": 207.64,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "09-11-2025",
+              "description": "Draft 2058 Tracer 000147608",
+              "amount": 1362.5,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-11-2025",
+              "description": "Draft 2062 Tracer 000025171",
+              "amount": 1600.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-12-2025",
+              "description": "Deposit",
+              "amount": 30000.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "09-12-2025",
+              "description": "Draft 2063 Tracer 000028621",
+              "amount": 70.95,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-12-2025",
+              "description": "Draft 2067 Tracer 000011052",
+              "amount": 15.52,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-12-2025",
+              "description": "Withdrawal Debit Card Business Debit NORTHERN GYPSUM SUPPLY CEDAR SPRINGS MI 09/12/2025",
+              "amount": 230.5,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-15-2025",
+              "description": "Withdrawal ACH PAYCHEX-HRS TYPE: HRS PMT ID: 2555124166 CO: PAYCHEX-HRS",
+              "amount": 40.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-15-2025",
+              "description": "Withdrawal ACH PAYCHEX-HRS TYPE: HRS PMT ID: 2555124166 CO: PAYCHEX-HRS",
+              "amount": 235.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-17-2025",
+              "description": "Draft 2071 Tracer 000017651",
+              "amount": 4268.09,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-17-2025",
+              "description": "Draft 2072 Tracer 000009927",
+              "amount": 4190.69,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-18-2025",
+              "description": "Withdrawal Debit Card Business Debit DTE ENERGY 800-477-4747 firstpoynt.co MI 09/18/2025",
+              "amount": 34.88,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-18-2025",
+              "description": "Draft 2065 Tracer 000022169",
+              "amount": 127.5,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-18-2025",
+              "description": "Draft 2070 Tracer 000035770",
+              "amount": 175.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-18-2025",
+              "description": "Draft 2073 Tracer 000028022",
+              "amount": 1079.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-19-2025",
+              "description": "Draft 2074 Tracer 000003425",
+              "amount": 29769.16,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-20-2025",
+              "description": "Withdrawal ACH PAYCHEX INC. TYPE: PAYROLL ID: 1161124166 CO: PAYCHEX INC.",
+              "amount": 5839.76,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-21-2025",
+              "description": "Withdrawal Debit Card Business Debit SPEEDWAY 08887 KEN KENTWOOD MI 09/21/2025",
+              "amount": 66.02,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-22-2025",
+              "description": "Withdrawal ACH PAYCHEX EIB TYPE: INVOICE ID: 1161124166 CO: PAYCHEX EIB",
+              "amount": 74.75,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-22-2025",
+              "description": "Withdrawal ACH PAYCHEX-HRS TYPE: 401(K) ID: 9540920001 CO: PAYCHEX-HRS",
+              "amount": 219.77,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-22-2025",
+              "description": "Withdrawal ACH CITIZENS ONE AUT TYPE: LOAN PYMNT ID: 271 CBAF CO: CITIZENS ONE AUT",
+              "amount": 645.96,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-22-2025",
+              "description": "Withdrawal ACH PAYCHEX TPS TYPE: TAXES ID: 1161124166 DATA: 32109 CO: PAYCHEX TPS",
+              "amount": 2164.58,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09-24-2025",
+              "description": "Deposit Bulk",
+              "amount": 3135.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "09-24-2025",
+              "description": "Draft 2080 Tracer 000033586",
+              "amount": 710.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-25-2025",
+              "description": "Draft 2068 Tracer 000009247",
+              "amount": 600.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-25-2025",
+              "description": "Draft 2075 Tracer 000020114",
+              "amount": 1420.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-26-2025",
+              "description": "Draft 2077 Tracer 000016446",
+              "amount": 185.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-26-2025",
+              "description": "Draft 2079 Tracer 000010365 Stop Check 0000002076",
+              "amount": 990.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-27-2025",
+              "description": "Deposit Bulk",
+              "amount": 3780.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "09-27-2025",
+              "description": "Draft 2081 Tracer 000012456",
+              "amount": 6088.8,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09-30-2025",
+              "description": "Withdrawal Excess Tran Fee",
+              "amount": 5.85,
+              "type": "Debit",
+              "category": "Service Charges/Fees"
+            }
+          ]
+        },
+        {
+          "account_number": "xxxxxx8366 (ID 00)",
+          "account_type": "MEMBER SAVINGS",
+          "account_summary": {
+            "beginning_balance": 5.0,
+            "ending_balance": 5.0,
+            "total_deposits": 0.0,
+            "total_withdrawals": 0.0,
+            "total_deposits_count": null,
+            "total_withdrawals_count": null,
+            "avg_daily_balance": null,
+            "overdraft_days": 0
+          },
+          "transactions": []
+        },
+        {
+          "account_number": "xxxxxx8366 (Loan ID 01)",
+          "account_type": "COMMERCIAL I/O LOC",
+          "account_summary": {
+            "beginning_balance": 65000.0,
+            "ending_balance": 95000.0,
+            "total_deposits": null,
+            "total_withdrawals": null,
+            "total_deposits_count": null,
+            "total_withdrawals_count": null,
+            "avg_daily_balance": null,
+            "overdraft_days": null
+          },
+          "transactions": [
+            {
+              "date": "09-11-2025",
+              "description": "Payments Transfer From Share 01 CONFIRMATION #: WEFPG8MY2Q22",
+              "amount": 207.64,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "09-11-2025",
+              "description": "Interest Charge",
+              "amount": 207.64,
+              "type": "Debit",
+              "category": "Service Charges/Fees"
+            },
+            {
+              "date": "09-12-2025",
+              "description": "Loan Advance",
+              "amount": 30000.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            }
+          ]
+        }
+      ]
+    },
+    "raw_output": "```json\n{\n  \"bank_statement_information\": {\n    \"bank_name\": \"LAKE MICHIGAN CREDIT UNION\",\n    \"account_holder\": \"PREMIER 1 INTERIORS LLC\",\n    \"statement_start_date\": \"09-01-2025\",\n    \"statement_end_date\": \"09-30-2025\",\n    \"n_days\": 30,\n    \"n_month\": [\n      9\n    ],\n    \"business_address\": \"3420 BROADMOOR AVE SE STE 6 GRAND RAPIDS MI 49512-8178\"\n  },\n  \"accounts\": [\n    {\n      \"account_number\": \"xxxxxx8366\",\n      \"account_type\": \"BASIC BUSINESS CHECKING\",\n      \"account_summary\": {\n        \"beginning_balance\": 61800.32,\n        \"ending_balance\": 29891.01,\n        \"total_deposits\": 42265.0,\n        \"total_withdrawals\": 74174.31,\n        \"total_deposits_count\": null,\n        \"total_withdrawals_count\": null,\n        \"avg_daily_balance\": 53544.65,\n        \"overdraft_days\": 0\n      },\n      \"transactions\": [\n        {\n          \"date\": \"09-05-2025\",\n          \"description\": \"Deposit Bulk\",\n          \"amount\": 5350.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"09-05-2025\",\n          \"description\": \"Draft 2059 Tracer 000064787\",\n          \"amount\": 1600.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-06-2025\",\n          \"description\": \"Withdrawal ACH PAYCHEX INC. TYPE: PAYROLL ID: 1161124166 CO: PAYCHEX INC.\",\n          \"amount\": 5249.17,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-07-2025\",\n          \"description\": \"Withdrawal ACH PAYCHEX EIB TYPE: INVOICE ID: 1161124166 CO: PAYCHEX EIB\",\n          \"amount\": 72.8,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-07-2025\",\n          \"description\": \"Withdrawal ACH PAYCHEX-HRS TYPE: 401(K) ID: 9540920001 CO: PAYCHEX-HRS\",\n          \"amount\": 210.35,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-07-2025\",\n          \"description\": \"Withdrawal ACH PAYCHEX TPS TYPE: TAXES ID: 1161124166 DATA: 32073 CO: PAYCHEX TPS\",\n          \"amount\": 2040.07,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-10-2025\",\n          \"description\": \"Draft 2066 Tracer 000018334\",\n          \"amount\": 2000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-10-2025\",\n          \"description\": \"Draft 2069 Tracer 000006858\",\n          \"amount\": 585.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-11-2025\",\n          \"description\": \"Withdrawal Transfer To Loan 01 CONFIRMATION #: WEFPG8MY2Q22\",\n          \"amount\": 207.64,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-11-2025\",\n          \"description\": \"Draft 2058 Tracer 000147608\",\n          \"amount\": 1362.5,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-11-2025\",\n          \"description\": \"Draft 2062 Tracer 000025171\",\n          \"amount\": 1600.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-12-2025\",\n          \"description\": \"Deposit\",\n          \"amount\": 30000.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"09-12-2025\",\n          \"description\": \"Draft 2063 Tracer 000028621\",\n          \"amount\": 70.95,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-12-2025\",\n          \"description\": \"Draft 2067 Tracer 000011052\",\n          \"amount\": 15.52,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-12-2025\",\n          \"description\": \"Withdrawal Debit Card Business Debit NORTHERN GYPSUM SUPPLY CEDAR SPRINGS MI 09/12/2025\",\n          \"amount\": 230.5,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-15-2025\",\n          \"description\": \"Withdrawal ACH PAYCHEX-HRS TYPE: HRS PMT ID: 2555124166 CO: PAYCHEX-HRS\",\n          \"amount\": 40.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-15-2025\",\n          \"description\": \"Withdrawal ACH PAYCHEX-HRS TYPE: HRS PMT ID: 2555124166 CO: PAYCHEX-HRS\",\n          \"amount\": 235.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-17-2025\",\n          \"description\": \"Draft 2071 Tracer 000017651\",\n          \"amount\": 4268.09,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-17-2025\",\n          \"description\": \"Draft 2072 Tracer 000009927\",\n          \"amount\": 4190.69,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-18-2025\",\n          \"description\": \"Withdrawal Debit Card Business Debit DTE ENERGY 800-477-4747 firstpoynt.co MI 09/18/2025\",\n          \"amount\": 34.88,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-18-2025\",\n          \"description\": \"Draft 2065 Tracer 000022169\",\n          \"amount\": 127.5,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-18-2025\",\n          \"description\": \"Draft 2070 Tracer 000035770\",\n          \"amount\": 175.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-18-2025\",\n          \"description\": \"Draft 2073 Tracer 000028022\",\n          \"amount\": 1079.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-19-2025\",\n          \"description\": \"Draft 2074 Tracer 000003425\",\n          \"amount\": 29769.16,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-20-2025\",\n          \"description\": \"Withdrawal ACH PAYCHEX INC. TYPE: PAYROLL ID: 1161124166 CO: PAYCHEX INC.\",\n          \"amount\": 5839.76,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-21-2025\",\n          \"description\": \"Withdrawal Debit Card Business Debit SPEEDWAY 08887 KEN KENTWOOD MI 09/21/2025\",\n          \"amount\": 66.02,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-22-2025\",\n          \"description\": \"Withdrawal ACH PAYCHEX EIB TYPE: INVOICE ID: 1161124166 CO: PAYCHEX EIB\",\n          \"amount\": 74.75,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-22-2025\",\n          \"description\": \"Withdrawal ACH PAYCHEX-HRS TYPE: 401(K) ID: 9540920001 CO: PAYCHEX-HRS\",\n          \"amount\": 219.77,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-22-2025\",\n          \"description\": \"Withdrawal ACH CITIZENS ONE AUT TYPE: LOAN PYMNT ID: 271 CBAF CO: CITIZENS ONE AUT\",\n          \"amount\": 645.96,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-22-2025\",\n          \"description\": \"Withdrawal ACH PAYCHEX TPS TYPE: TAXES ID: 1161124166 DATA: 32109 CO: PAYCHEX TPS\",\n          \"amount\": 2164.58,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09-24-2025\",\n          \"description\": \"Deposit Bulk\",\n          \"amount\": 3135.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"09-24-2025\",\n          \"description\": \"Draft 2080 Tracer 000033586\",\n          \"amount\": 710.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-25-2025\",\n          \"description\": \"Draft 2068 Tracer 000009247\",\n          \"amount\": 600.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-25-2025\",\n          \"description\": \"Draft 2075 Tracer 000020114\",\n          \"amount\": 1420.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-26-2025\",\n          \"description\": \"Draft 2077 Tracer 000016446\",\n          \"amount\": 185.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-26-2025\",\n          \"description\": \"Draft 2079 Tracer 000010365 Stop Check 0000002076\",\n          \"amount\": 990.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-27-2025\",\n          \"description\": \"Deposit Bulk\",\n          \"amount\": 3780.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"09-27-2025\",\n          \"description\": \"Draft 2081 Tracer 000012456\",\n          \"amount\": 6088.8,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09-30-2025\",\n          \"description\": \"Withdrawal Excess Tran Fee\",\n          \"amount\": 5.85,\n          \"type\": \"Debit\",\n          \"category\": \"Service Charges/Fees\"\n        }\n      ]\n    },\n    {\n      \"account_number\": \"xxxxxx8366 (ID 00)\",\n      \"account_type\": \"MEMBER SAVINGS\",\n      \"account_summary\": {\n        \"beginning_balance\": 5.0,\n        \"ending_balance\": 5.0,\n        \"total_deposits\": 0.0,\n        \"total_withdrawals\": 0.0,\n        \"total_deposits_count\": null,\n        \"total_withdrawals_count\": null,\n        \"avg_daily_balance\": null,\n        \"overdraft_days\": 0\n      },\n      \"transactions\": []\n    },\n    {\n      \"account_number\": \"xxxxxx8366 (Loan ID 01)\",\n      \"account_type\": \"COMMERCIAL I/O LOC\",\n      \"account_summary\": {\n        \"beginning_balance\": 65000.0,\n        \"ending_balance\": 95000.0,\n        \"total_deposits\": null,\n        \"total_withdrawals\": null,\n        \"total_deposits_count\": null,\n        \"total_withdrawals_count\": null,\n        \"avg_daily_balance\": null,\n        \"overdraft_days\": null\n      },\n      \"transactions\": [\n        {\n          \"date\": \"09-11-2025\",\n          \"description\": \"Payments Transfer From Share 01 CONFIRMATION #: WEFPG8MY2Q22\",\n          \"amount\": 207.64,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"09-11-2025\",\n          \"description\": \"Interest Charge\",\n          \"amount\": 207.64,\n          \"type\": \"Debit\",\n          \"category\": \"Service Charges/Fees\"\n        },\n        {\n          \"date\": \"09-12-2025\",\n          \"description\": \"Loan Advance\",\n          \"amount\": 30000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        }\n      ]\n    }\n  ]\n}\n```",
+    "token_count": {
+      "estimated_tokens": 918
+    },
+    "failure_reason": null
+  },
+  "bsi_analyzer_result": {
+    "agent_name": "v1_bsi_analyzer_agent",
+    "processing_status": "success",
+    "start_time": "2026-02-04T15:02:06.117700",
+    "end_time": "2026-02-04T15:02:43.880256",
+    "parsed_json": {
+      "accounts": [
+        {
+          "account_number": "xxxxxx8366",
+          "account_type": "BASIC BUSINESS CHECKING",
+          "mca_deposit": [],
+          "mca_withdrawal": [],
+          "returned_items": [],
+          "overdrafts": [],
+          "service_charges": [
+            {
+              "date": "09-30-2025",
+              "description": "Withdrawal Excess Tran Fee",
+              "amount": 5.85,
+              "type": "Debit"
+            }
+          ],
+          "atm_cash_withdrawal": [],
+          "internal_transfer_deposit": [],
+          "other_transfer_deposit": [],
+          "internal_transfer_withdrawal": [
+            {
+              "date": "09-11-2025",
+              "description": "Withdrawal Transfer To Loan 01 CONFIRMATION #: WEFPG8MY2Q22",
+              "amount": 207.64,
+              "type": "Debit"
+            }
+          ],
+          "other_transfer_withdrawal": [
+            {
+              "date": "09-06-2025",
+              "description": "Withdrawal ACH PAYCHEX INC. TYPE: PAYROLL ID: 1161124166 CO: PAYCHEX INC.",
+              "amount": 5249.17,
+              "type": "Debit"
+            },
+            {
+              "date": "09-07-2025",
+              "description": "Withdrawal ACH PAYCHEX EIB TYPE: INVOICE ID: 1161124166 CO: PAYCHEX EIB",
+              "amount": 72.8,
+              "type": "Debit"
+            },
+            {
+              "date": "09-07-2025",
+              "description": "Withdrawal ACH PAYCHEX-HRS TYPE: 401(K) ID: 9540920001 CO: PAYCHEX-HRS",
+              "amount": 210.35,
+              "type": "Debit"
+            },
+            {
+              "date": "09-07-2025",
+              "description": "Withdrawal ACH PAYCHEX TPS TYPE: TAXES ID: 1161124166 DATA: 32073 CO: PAYCHEX TPS",
+              "amount": 2040.07,
+              "type": "Debit"
+            },
+            {
+              "date": "09-15-2025",
+              "description": "Withdrawal ACH PAYCHEX-HRS TYPE: HRS PMT ID: 2555124166 CO: PAYCHEX-HRS",
+              "amount": 40.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09-15-2025",
+              "description": "Withdrawal ACH PAYCHEX-HRS TYPE: HRS PMT ID: 2555124166 CO: PAYCHEX-HRS",
+              "amount": 235.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09-20-2025",
+              "description": "Withdrawal ACH PAYCHEX INC. TYPE: PAYROLL ID: 1161124166 CO: PAYCHEX INC.",
+              "amount": 5839.76,
+              "type": "Debit"
+            },
+            {
+              "date": "09-22-2025",
+              "description": "Withdrawal ACH PAYCHEX EIB TYPE: INVOICE ID: 1161124166 CO: PAYCHEX EIB",
+              "amount": 74.75,
+              "type": "Debit"
+            },
+            {
+              "date": "09-22-2025",
+              "description": "Withdrawal ACH PAYCHEX-HRS TYPE: 401(K) ID: 9540920001 CO: PAYCHEX-HRS",
+              "amount": 219.77,
+              "type": "Debit"
+            },
+            {
+              "date": "09-22-2025",
+              "description": "Withdrawal ACH CITIZENS ONE AUT TYPE: LOAN PYMNT ID: 271 CBAF CO: CITIZENS ONE AUT",
+              "amount": 645.96,
+              "type": "Debit"
+            },
+            {
+              "date": "09-22-2025",
+              "description": "Withdrawal ACH PAYCHEX TPS TYPE: TAXES ID: 1161124166 DATA: 32109 CO: PAYCHEX TPS",
+              "amount": 2164.58,
+              "type": "Debit"
+            }
+          ],
+          "standard_deposit": [
+            {
+              "date": "09-05-2025",
+              "description": "Deposit Bulk",
+              "amount": 5350.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-12-2025",
+              "description": "Deposit",
+              "amount": 30000.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-24-2025",
+              "description": "Deposit Bulk",
+              "amount": 3135.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09-27-2025",
+              "description": "Deposit Bulk",
+              "amount": 3780.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            }
+          ],
+          "standard_withdrawal": [
+            {
+              "date": "09-05-2025",
+              "description": "Draft 2059 Tracer 000064787",
+              "amount": 1600.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09-10-2025",
+              "description": "Draft 2066 Tracer 000018334",
+              "amount": 2000.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09-10-2025",
+              "description": "Draft 2069 Tracer 000006858",
+              "amount": 585.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09-11-2025",
+              "description": "Draft 2058 Tracer 000147608",
+              "amount": 1362.5,
+              "type": "Debit"
+            },
+            {
+              "date": "09-11-2025",
+              "description": "Draft 2062 Tracer 000025171",
+              "amount": 1600.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09-12-2025",
+              "description": "Draft 2063 Tracer 000028621",
+              "amount": 70.95,
+              "type": "Debit"
+            },
+            {
+              "date": "09-12-2025",
+              "description": "Draft 2067 Tracer 000011052",
+              "amount": 15.52,
+              "type": "Debit"
+            },
+            {
+              "date": "09-12-2025",
+              "description": "Withdrawal Debit Card Business Debit NORTHERN GYPSUM SUPPLY CEDAR SPRINGS MI 09/12/2025",
+              "amount": 230.5,
+              "type": "Debit"
+            },
+            {
+              "date": "09-17-2025",
+              "description": "Draft 2071 Tracer 000017651",
+              "amount": 4268.09,
+              "type": "Debit"
+            },
+            {
+              "date": "09-17-2025",
+              "description": "Draft 2072 Tracer 000009927",
+              "amount": 4190.69,
+              "type": "Debit"
+            },
+            {
+              "date": "09-18-2025",
+              "description": "Withdrawal Debit Card Business Debit DTE ENERGY 800-477-4747 firstpoynt.co MI 09/18/2025",
+              "amount": 34.88,
+              "type": "Debit"
+            },
+            {
+              "date": "09-18-2025",
+              "description": "Draft 2065 Tracer 000022169",
+              "amount": 127.5,
+              "type": "Debit"
+            },
+            {
+              "date": "09-18-2025",
+              "description": "Draft 2070 Tracer 000035770",
+              "amount": 175.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09-18-2025",
+              "description": "Draft 2073 Tracer 000028022",
+              "amount": 1079.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09-19-2025",
+              "description": "Draft 2074 Tracer 000003425",
+              "amount": 29769.16,
+              "type": "Debit"
+            },
+            {
+              "date": "09-21-2025",
+              "description": "Withdrawal Debit Card Business Debit SPEEDWAY 08887 KEN KENTWOOD MI 09/21/2025",
+              "amount": 66.02,
+              "type": "Debit"
+            },
+            {
+              "date": "09-24-2025",
+              "description": "Draft 2080 Tracer 000033586",
+              "amount": 710.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09-25-2025",
+              "description": "Draft 2068 Tracer 000009247",
+              "amount": 600.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09-25-2025",
+              "description": "Draft 2075 Tracer 000020114",
+              "amount": 1420.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09-26-2025",
+              "description": "Draft 2077 Tracer 000016446",
+              "amount": 185.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09-26-2025",
+              "description": "Draft 2079 Tracer 000010365 Stop Check 0000002076",
+              "amount": 990.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09-27-2025",
+              "description": "Draft 2081 Tracer 000012456",
+              "amount": 6088.8,
+              "type": "Debit"
+            }
+          ]
+        }
+      ]
+    },
+    "raw_output": "```json\n{\n  \"accounts\": [\n    {\n      \"account_number\": \"xxxxxx8366\",\n      \"account_type\": \"BASIC BUSINESS CHECKING\",\n      \"mca_deposit\": [],\n      \"mca_withdrawal\": [],\n      \"returned_items\": [],\n      \"overdrafts\": [],\n      \"service_charges\": [\n        {\n          \"date\": \"09-30-2025\",\n          \"description\": \"Withdrawal Excess Tran Fee\",\n          \"amount\": 5.85,\n          \"type\": \"Debit\"\n        }\n      ],\n      \"atm_cash_withdrawal\": [],\n      \"internal_transfer_deposit\": [],\n      \"other_transfer_deposit\": [],\n      \"internal_transfer_withdrawal\": [\n        {\n          \"date\": \"09-11-2025\",\n          \"description\": \"Withdrawal Transfer To Loan 01 CONFIRMATION #: WEFPG8MY2Q22\",\n          \"amount\": 207.64,\n          \"type\": \"Debit\"\n        }\n      ],\n      \"other_transfer_withdrawal\": [\n        {\n          \"date\": \"09-06-2025\",\n          \"description\": \"Withdrawal ACH PAYCHEX INC. TYPE: PAYROLL ID: 1161124166 CO: PAYCHEX INC.\",\n          \"amount\": 5249.17,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09-07-2025\",\n          \"description\": \"Withdrawal ACH PAYCHEX EIB TYPE: INVOICE ID: 1161124166 CO: PAYCHEX EIB\",\n          \"amount\": 72.8,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09-07-2025\",\n          \"description\": \"Withdrawal ACH PAYCHEX-HRS TYPE: 401(K) ID: 9540920001 CO: PAYCHEX-HRS\",\n          \"amount\": 210.35,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09-07-2025\",\n          \"description\": \"Withdrawal ACH PAYCHEX TPS TYPE: TAXES ID: 1161124166 DATA: 32073 CO: PAYCHEX TPS\",\n          \"amount\": 2040.07,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09-15-2025\",\n          \"description\": \"Withdrawal ACH PAYCHEX-HRS TYPE: HRS PMT ID: 2555124166 CO: PAYCHEX-HRS\",\n          \"amount\": 40.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09-15-2025\",\n          \"description\": \"Withdrawal ACH PAYCHEX-HRS TYPE: HRS PMT ID: 2555124166 CO: PAYCHEX-HRS\",\n          \"amount\": 235.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09-20-2025\",\n          \"description\": \"Withdrawal ACH PAYCHEX INC. TYPE: PAYROLL ID: 1161124166 CO: PAYCHEX INC.\",\n          \"amount\": 5839.76,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09-22-2025\",\n          \"description\": \"Withdrawal ACH PAYCHEX EIB TYPE: INVOICE ID: 1161124166 CO: PAYCHEX EIB\",\n          \"amount\": 74.75,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09-22-2025\",\n          \"description\": \"Withdrawal ACH PAYCHEX-HRS TYPE: 401(K) ID: 9540920001 CO: PAYCHEX-HRS\",\n          \"amount\": 219.77,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09-22-2025\",\n          \"description\": \"Withdrawal ACH CITIZENS ONE AUT TYPE: LOAN PYMNT ID: 271 CBAF CO: CITIZENS ONE AUT\",\n          \"amount\": 645.96,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09-22-2025\",\n          \"description\": \"Withdrawal ACH PAYCHEX TPS TYPE: TAXES ID: 1161124166 DATA: 32109 CO: PAYCHEX TPS\",\n          \"amount\": 2164.58,\n          \"type\": \"Debit\"\n        }\n      ],\n      \"standard_deposit\": [\n        {\n          \"date\": \"09-05-2025\",\n          \"description\": \"Deposit Bulk\",\n          \"amount\": 5350.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-12-2025\",\n          \"description\": \"Deposit\",\n          \"amount\": 30000.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-24-2025\",\n          \"description\": \"Deposit Bulk\",\n          \"amount\": 3135.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09-27-2025\",\n          \"description\": \"Deposit Bulk\",\n          \"amount\": 3780.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        }\n      ],\n      \"standard_withdrawal\": [\n        {\n          \"date\": \"09-05-2025\",\n          \"description\": \"Draft 2059 Tracer 000064787\",\n          \"amount\": 1600.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09-10-2025\",\n          \"description\": \"Draft 2066 Tracer 000018334\",\n          \"amount\": 2000.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09-10-2025\",\n          \"description\": \"Draft 2069 Tracer 000006858\",\n          \"amount\": 585.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09-11-2025\",\n          \"description\": \"Draft 2058 Tracer 000147608\",\n          \"amount\": 1362.5,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09-11-2025\",\n          \"description\": \"Draft 2062 Tracer 000025171\",\n          \"amount\": 1600.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09-12-2025\",\n          \"description\": \"Draft 2063 Tracer 000028621\",\n          \"amount\": 70.95,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09-12-2025\",\n          \"description\": \"Draft 2067 Tracer 000011052\",\n          \"amount\": 15.52,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09-12-2025\",\n          \"description\": \"Withdrawal Debit Card Business Debit NORTHERN GYPSUM SUPPLY CEDAR SPRINGS MI 09/12/2025\",\n          \"amount\": 230.5,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09-17-2025\",\n          \"description\": \"Draft 2071 Tracer 000017651\",\n          \"amount\": 4268.09,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09-17-2025\",\n          \"description\": \"Draft 2072 Tracer 000009927\",\n          \"amount\": 4190.69,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09-18-2025\",\n          \"description\": \"Withdrawal Debit Card Business Debit DTE ENERGY 800-477-4747 firstpoynt.co MI 09/18/2025\",\n          \"amount\": 34.88,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09-18-2025\",\n          \"description\": \"Draft 2065 Tracer 000022169\",\n          \"amount\": 127.5,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09-18-2025\",\n          \"description\": \"Draft 2070 Tracer 000035770\",\n          \"amount\": 175.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09-18-2025\",\n          \"description\": \"Draft 2073 Tracer 000028022\",\n          \"amount\": 1079.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09-19-2025\",\n          \"description\": \"Draft 2074 Tracer 000003425\",\n          \"amount\": 29769.16,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09-21-2025\",\n          \"description\": \"Withdrawal Debit Card Business Debit SPEEDWAY 08887 KEN KENTWOOD MI 09/21/2025\",\n          \"amount\": 66.02,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09-24-2025\",\n          \"description\": \"Draft 2080 Tracer 000033586\",\n          \"amount\": 710.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09-25-2025\",\n          \"description\": \"Draft 2068 Tracer 000009247\",\n          \"amount\": 600.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09-25-2025\",\n          \"description\": \"Draft 2075 Tracer 000020114\",\n          \"amount\": 1420.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09-26-2025\",\n          \"description\": \"Draft 2077 Tracer 000016446\",\n          \"amount\": 185.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09-26-2025\",\n          \"description\": \"Draft 2079 Tracer 000010365 Stop Check 0000002076\",\n          \"amount\": 990.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09-27-2025\",\n          \"description\": \"Draft 2081 Tracer 000012456\",\n          \"amount\": 6088.8,\n          \"type\": \"Debit\"\n        }\n      ]\n    }\n  ]\n}\n```",
+    "token_count": {
+      "estimated_tokens": 658
+    },
+    "failure_reason": null
+  }
+}

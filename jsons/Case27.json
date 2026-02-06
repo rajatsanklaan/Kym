@@ -1,0 +1,619 @@
+{
+  "document_name": "Case27.pdf",
+  "pipeline_status": "completed",
+  "processing_metadata": {
+    "start_time": "2026-02-04T15:03:55.090885",
+    "end_time": "2026-02-04T15:06:02.063666",
+    "parsing_time_seconds": 71.303092,
+    "bsi_time_seconds": 55.657492,
+    "total_time_seconds": 126.96058400000001
+  },
+  "parsing_agent_result": {
+    "agent_name": "parsing_agent",
+    "processing_status": "success",
+    "start_time": "2026-02-04T15:03:55.093904",
+    "end_time": "2026-02-04T15:05:06.396557",
+    "parsed_json": {
+      "bank_statement_information": {
+        "bank_name": "CHASE",
+        "account_holder": "THREEPEAKS BRANDS, INC.",
+        "statement_start_date": "08-30-2025",
+        "statement_end_date": "09-30-2025",
+        "n_days": 32,
+        "n_month": [
+          8,
+          9
+        ],
+        "business_address": "16872 W GREENBRIAR POINT CT SURPRISE AZ 85387-2830"
+      },
+      "accounts": [
+        {
+          "account_number": "000000897883853",
+          "account_type": "Chase Business Complete Checking",
+          "account_summary": {
+            "beginning_balance": 16528.36,
+            "ending_balance": 6239.21,
+            "total_deposits": 38490.0,
+            "total_withdrawals": 48779.15,
+            "total_deposits_count": 3,
+            "total_withdrawals_count": null,
+            "avg_daily_balance": null,
+            "overdraft_days": 2
+          },
+          "transactions": [
+            {
+              "date": "09/02/2025",
+              "description": "CHECK NO. 1109",
+              "amount": 2750.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/02/2025",
+              "description": "CHECK NO. 1110",
+              "amount": 5487.67,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/02/2025",
+              "description": "Rtp/Same Day - High Value",
+              "amount": 25.0,
+              "type": "Debit",
+              "category": "Service Charges/Fees"
+            },
+            {
+              "date": "09/02/2025",
+              "description": "Standard ACH Pmnts Initial Fee Qty = 3",
+              "amount": 7.5,
+              "type": "Debit",
+              "category": "Service Charges/Fees"
+            },
+            {
+              "date": "09/02/2025",
+              "description": "Rtp/Same Day - Low Value",
+              "amount": 15.0,
+              "type": "Debit",
+              "category": "Service Charges/Fees"
+            },
+            {
+              "date": "09/03/2025",
+              "description": "CHECK NO. 1108",
+              "amount": 3064.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/03/2025",
+              "description": "CHECK NO. 1112",
+              "amount": 1740.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/03/2025",
+              "description": "Orig CO Name: Ebf Holdings Orig ID:2900922982 Desc Date: CO Entry Descr:Ebf Debit Sec: CCD Trace#: 091000010278476 Eed: 250903 Ind ID: 000000012359736 Ind Name: Threepeaks Brands Inc. Trn: 2460278476Tc",
+              "amount": 1136.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/03/2025",
+              "description": "Orig CO Name: Ondeck Capital17 Orig ID:882653807A Desc Date: 250902 CO Entry Descr:37235 Sec: CCD Trace#: 113024160123059 Eed: 250903 Ind ID: 284915715 Ind Name: Threepeaks Brands, Inc 20250902F Trn: 2460123059Tc",
+              "amount": 838.75,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/03/2025",
+              "description": "Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date:250902 CO Entry Descr:7E4Af5D63E sec: CCD Trace#: 091000010439711 Eed:250903 Ind ID: 888-244-9099 Ind Name: Threepeaks B Rands, IN Trn: 2460439711Tc",
+              "amount": 345.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/03/2025",
+              "description": "Orig CO Name: Wells Fargo Card Orig ID:3411650794 Desc Date:090225 CO Entry Descr:Ccpymt Sec: Web Trace#: 091000015173823 Eed:250903 Ind ID:90473801326615 Ind Name: Prince Carleton Trn: 2465173823Tc",
+              "amount": 1335.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/03/2025",
+              "description": "Orig CO Name: Wells Fargo Card Orig ID:3411650794 Desc Date:090225 CO Entry Descr:Ccpymt Sec: Web Trace#: 091000015174261 Eed:250903 Ind ID:90496623967894 Ind Name: Prince Carleton Trn: 2465174261Tc",
+              "amount": 123.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/04/2025",
+              "description": "Overdraft Fee For A $1,335.00 Item - Details: Orig CO Name: Wells Fargo Card Orig ID:3411650794 Desc Date: 090225 CO Entry Descr:Ccpymt Sec:Web Trace#:091000015173823 Eed: 250903 Ind ID:90473801326615 Ind Name: Prince Carleton Trn: 2465173823Tc",
+              "amount": 34.0,
+              "type": "Debit",
+              "category": "Overdraft"
+            },
+            {
+              "date": "09/04/2025",
+              "description": "Overdraft Fee For A $123.00 Item - Details: Orig CO Name: Wells Fargo Card Orig ID:3411650794 Desc Date: 090225 CO Entry Descr:Ccpymt Sec:Web Trace#:091000015174261 Eed:250903 Ind ID:90496623967894 Ind Name: Prince Carleton Trn: 2465174261Tc",
+              "amount": 34.0,
+              "type": "Debit",
+              "category": "Overdraft"
+            },
+            {
+              "date": "09/05/2025",
+              "description": "Orig CO Name: Wells Fargo Ifi Orig ID:Intfitrvos Desc Date:090425 CO Entry Descr:DDA To Ddasec: Web Trace#: 091000015025177 Eed: 250905 Ind ID: F20Ts43Db5 Ind Name: Carleton Prince Trn: 2485025177Tc",
+              "amount": 3200.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 0
+            },
+            {
+              "date": "09/05/2025",
+              "description": "CHECK NO. 1111",
+              "amount": 600.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/08/2025",
+              "description": "Payment To Chase Card Ending IN 4493",
+              "amount": 1893.77,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/09/2025",
+              "description": "Deposit 2118217087",
+              "amount": 25000.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "09/09/2025",
+              "description": "Orig CO Name: Ondeck Capital17 Orig ID:882653807A Desc Date: 250909 CO Entry Descr:37419 Sec: CCD Trace#: 113024166397348 Eed: 250909 Ind ID: 286129900 Ind Name: Threepeaks Brands, Inc 20250909E Trn: 2526397348Tc",
+              "amount": 838.75,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/10/2025",
+              "description": "Orig CO Name: Ebf Holdings Orig ID:2900922982 Desc Date: CO Entry Descr:Ebf Debit Sec: CCD Trace#: 091000010624889 Eed: 250910 Ind ID: 000000012397288 Ind Name: Threepeaks Brands Inc. Trn: 2530624889Tc",
+              "amount": 1136.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/10/2025",
+              "description": "Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date: 250909 CO Entry Descr:7259Cc1Cc0Sec: CCD Trace#: 091000012533323 Eed: 250910 Ind ID:888-244-9099 Ind Name: Threepeaks B Rands, IN Trn: 2532533323Tc",
+              "amount": 345.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/12/2025",
+              "description": "Orig CO Name: Demkel Sales Sol Orig ID:9115191002 Desc Date: CO Entry Descr:Corp Pay Sec:CCD Trace#:041001031325659 Eed:250912 Ind ID:SBS Smoothie Ind Name: Three Peaks Brands LLC Trn: 2551325659Tc",
+              "amount": 10290.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 0
+            },
+            {
+              "date": "09/12/2025",
+              "description": "Orig CO Name: Wells Fargo Card Orig ID:3411650794 Desc Date:091125 CO Entry Descr:Ccpymt Sec: Web Trace#: 091000012369073 Eed:250912 Ind ID:90473801326615 Ind Name: Prince Carleton Trn: 2552369073Tc",
+              "amount": 523.27,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/12/2025",
+              "description": "Payment To Chase Card Ending IN 4576",
+              "amount": 40.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/15/2025",
+              "description": "Orig CO Name: Citi Card Online Orig ID: Citictp Desc Date:250912 CO Entry Descr:Payment Sec: Web Trace#: 091409688452404 Eed:250915 Ind ID:431800899954560 Ind Name: Carleton Prince Trn: 2588452404Tc",
+              "amount": 41.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/15/2025",
+              "description": "Orig CO Name: Wells Fargo Card Orig ID:3411650794 Desc Date:091225 CO Entry Descr:Ccpymt Sec: Web Trace#: 091000015125413 Eed:250915 Ind ID:90469707245585 Ind Name: Prince Carleton Trn: 2585125413Tc",
+              "amount": 559.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/15/2025",
+              "description": "Same-Day ACH Payment 11187820031 To Desi (_######9603)",
+              "amount": 15636.6,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/16/2025",
+              "description": "Orig CO Name: Ondeck Capital17 Orig ID:882653807A Desc Date: 250916 CO Entry Descr:37597 Sec: CCD Trace#: 113024163584485 Eed: 250916 Ind ID: 287394219 Ind Name: Threepeaks Brands, Inc 20250916E Trn: 2593584485Tc",
+              "amount": 838.75,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/17/2025",
+              "description": "Orig CO Name: Ebf Holdings Orig ID: 2900922982 Desc Date: CO Entry Descr:Ebf Debit Sec:CCD Trace#:091000010642123 Eed: 250917 Ind ID:000000012435386 Ind Name: Threepeaks Brands Inc. Trn: 2600642123Tc",
+              "amount": 1136.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/17/2025",
+              "description": "Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date:250916 CO Entry Descr:2E9C81B2D7Sec:CCD Trace#: 091000014638896 Eed: 250917 Ind ID:888-244-9099 Ind Name: Threepeaks B Rands, IN Trn: 2604638896Tc",
+              "amount": 345.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/18/2025",
+              "description": "Orig CO Name: 1St Bankcard Ctr Orig ID:8104000010 Desc Date: 250918 CO Entry Descr: Online Pmtsec: Web Trace#: 104000019941933 Eed: 250918 Ind ID:3C0B57564Ba9Ad Ind Name: Carleton Prince Credit Card Pmt Trn: 2619941933Tc",
+              "amount": 604.07,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/23/2025",
+              "description": "Orig CO Name: Ondeck Capital17 Orig ID:882653807A Desc Date: 250923 CO Entry Descr:37785 Sec: CCD Trace#:113024161259379 Eed: 250923 Ind ID:288526547 Ind Name: Threepeaks Brands, Inc 20250923E Trn: 2661259379Tc",
+              "amount": 838.75,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/24/2025",
+              "description": "Orig CO Name: Ebf Holdings Orig ID:2900922982 Desc Date: CO Entry Descr:Ebf Debit Sec: CCD Trace#: 091000015464311 Eed: 250924 Ind ID: 000000012473866 Ind Name: Threepeaks Brands Inc. Trn: 2675464311Tc",
+              "amount": 1136.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/24/2025",
+              "description": "Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date: 250923 CO Entry Descr:7Cf132C071Sec: CCD Trace#: 091000015527064 Eed:250924 Ind ID: 888-244-9099 Ind Name: Threepeaks B Rands, IN Trn: 2675527064Tc",
+              "amount": 345.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/29/2025",
+              "description": "CHECK NO. 1113",
+              "amount": 2456.54,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/30/2025",
+              "description": "CHECK NO. 1114",
+              "amount": 941.25,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/30/2025",
+              "description": "Orig CO Name: Wells Fargo Card Orig ID:3411650794 Desc Date:092925 CO Entry Descr:Ccpymt Sec: Web Trace#: 091000016479393 Eed:250930 Ind ID:90473801326615 Ind Name: Prince Carleton Trn: 2736479393Tc",
+              "amount": 612.73,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/30/2025",
+              "description": "Orig CO Name: Wells Fargo Card Orig ID:3411650794 Desc Date: 092925 CO Entry Descr:Ccpymt Sec: Web Trace#: 091000016479656 Eed:250930 Ind ID:90496623967894 Ind Name: Prince Carleton Trn: 2736479656Tc",
+              "amount": 138.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/30/2025",
+              "description": "Orig CO Name: Ondeck Capital17 Orig ID:882653807A Desc Date: 250930 CO Entry Descr:37975 Sec: CCD Trace#: 113024160343669 Eed: 250930 Ind ID: 289812010 Ind Name: Threepeaks Brands, Inc 20250930E Trn: 2730343669Tc",
+              "amount": 838.75,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            }
+          ]
+        }
+      ]
+    },
+    "raw_output": "```json\n{\n  \"bank_statement_information\": {\n    \"bank_name\": \"CHASE\",\n    \"account_holder\": \"THREEPEAKS BRANDS, INC.\",\n    \"statement_start_date\": \"08-30-2025\",\n    \"statement_end_date\": \"09-30-2025\",\n    \"n_days\": 32,\n    \"n_month\": [\n      8,\n      9\n    ],\n    \"business_address\": \"16872 W GREENBRIAR POINT CT SURPRISE AZ 85387-2830\"\n  },\n  \"accounts\": [\n    {\n      \"account_number\": \"000000897883853\",\n      \"account_type\": \"Chase Business Complete Checking\",\n      \"account_summary\": {\n        \"beginning_balance\": 16528.36,\n        \"ending_balance\": 6239.21,\n        \"total_deposits\": 38490.0,\n        \"total_withdrawals\": 48779.15,\n        \"total_deposits_count\": 3,\n        \"total_withdrawals_count\": null,\n        \"avg_daily_balance\": null,\n        \"overdraft_days\": 2\n      },\n      \"transactions\": [\n        {\n          \"date\": \"09/02/2025\",\n          \"description\": \"CHECK NO. 1109\",\n          \"amount\": 2750.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/02/2025\",\n          \"description\": \"CHECK NO. 1110\",\n          \"amount\": 5487.67,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/02/2025\",\n          \"description\": \"Rtp/Same Day - High Value\",\n          \"amount\": 25.0,\n          \"type\": \"Debit\",\n          \"category\": \"Service Charges/Fees\"\n        },\n        {\n          \"date\": \"09/02/2025\",\n          \"description\": \"Standard ACH Pmnts Initial Fee Qty = 3\",\n          \"amount\": 7.5,\n          \"type\": \"Debit\",\n          \"category\": \"Service Charges/Fees\"\n        },\n        {\n          \"date\": \"09/02/2025\",\n          \"description\": \"Rtp/Same Day - Low Value\",\n          \"amount\": 15.0,\n          \"type\": \"Debit\",\n          \"category\": \"Service Charges/Fees\"\n        },\n        {\n          \"date\": \"09/03/2025\",\n          \"description\": \"CHECK NO. 1108\",\n          \"amount\": 3064.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/03/2025\",\n          \"description\": \"CHECK NO. 1112\",\n          \"amount\": 1740.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/03/2025\",\n          \"description\": \"Orig CO Name: Ebf Holdings Orig ID:2900922982 Desc Date: CO Entry Descr:Ebf Debit Sec: CCD Trace#: 091000010278476 Eed: 250903 Ind ID: 000000012359736 Ind Name: Threepeaks Brands Inc. Trn: 2460278476Tc\",\n          \"amount\": 1136.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/03/2025\",\n          \"description\": \"Orig CO Name: Ondeck Capital17 Orig ID:882653807A Desc Date: 250902 CO Entry Descr:37235 Sec: CCD Trace#: 113024160123059 Eed: 250903 Ind ID: 284915715 Ind Name: Threepeaks Brands, Inc 20250902F Trn: 2460123059Tc\",\n          \"amount\": 838.75,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/03/2025\",\n          \"description\": \"Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date:250902 CO Entry Descr:7E4Af5D63E sec: CCD Trace#: 091000010439711 Eed:250903 Ind ID: 888-244-9099 Ind Name: Threepeaks B Rands, IN Trn: 2460439711Tc\",\n          \"amount\": 345.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/03/2025\",\n          \"description\": \"Orig CO Name: Wells Fargo Card Orig ID:3411650794 Desc Date:090225 CO Entry Descr:Ccpymt Sec: Web Trace#: 091000015173823 Eed:250903 Ind ID:90473801326615 Ind Name: Prince Carleton Trn: 2465173823Tc\",\n          \"amount\": 1335.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/03/2025\",\n          \"description\": \"Orig CO Name: Wells Fargo Card Orig ID:3411650794 Desc Date:090225 CO Entry Descr:Ccpymt Sec: Web Trace#: 091000015174261 Eed:250903 Ind ID:90496623967894 Ind Name: Prince Carleton Trn: 2465174261Tc\",\n          \"amount\": 123.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/04/2025\",\n          \"description\": \"Overdraft Fee For A $1,335.00 Item - Details: Orig CO Name: Wells Fargo Card Orig ID:3411650794 Desc Date: 090225 CO Entry Descr:Ccpymt Sec:Web Trace#:091000015173823 Eed: 250903 Ind ID:90473801326615 Ind Name: Prince Carleton Trn: 2465173823Tc\",\n          \"amount\": 34.0,\n          \"type\": \"Debit\",\n          \"category\": \"Overdraft\"\n        },\n        {\n          \"date\": \"09/04/2025\",\n          \"description\": \"Overdraft Fee For A $123.00 Item - Details: Orig CO Name: Wells Fargo Card Orig ID:3411650794 Desc Date: 090225 CO Entry Descr:Ccpymt Sec:Web Trace#:091000015174261 Eed:250903 Ind ID:90496623967894 Ind Name: Prince Carleton Trn: 2465174261Tc\",\n          \"amount\": 34.0,\n          \"type\": \"Debit\",\n          \"category\": \"Overdraft\"\n        },\n        {\n          \"date\": \"09/05/2025\",\n          \"description\": \"Orig CO Name: Wells Fargo Ifi Orig ID:Intfitrvos Desc Date:090425 CO Entry Descr:DDA To Ddasec: Web Trace#: 091000015025177 Eed: 250905 Ind ID: F20Ts43Db5 Ind Name: Carleton Prince Trn: 2485025177Tc\",\n          \"amount\": 3200.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 0\n        },\n        {\n          \"date\": \"09/05/2025\",\n          \"description\": \"CHECK NO. 1111\",\n          \"amount\": 600.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/08/2025\",\n          \"description\": \"Payment To Chase Card Ending IN 4493\",\n          \"amount\": 1893.77,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/09/2025\",\n          \"description\": \"Deposit 2118217087\",\n          \"amount\": 25000.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"09/09/2025\",\n          \"description\": \"Orig CO Name: Ondeck Capital17 Orig ID:882653807A Desc Date: 250909 CO Entry Descr:37419 Sec: CCD Trace#: 113024166397348 Eed: 250909 Ind ID: 286129900 Ind Name: Threepeaks Brands, Inc 20250909E Trn: 2526397348Tc\",\n          \"amount\": 838.75,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/10/2025\",\n          \"description\": \"Orig CO Name: Ebf Holdings Orig ID:2900922982 Desc Date: CO Entry Descr:Ebf Debit Sec: CCD Trace#: 091000010624889 Eed: 250910 Ind ID: 000000012397288 Ind Name: Threepeaks Brands Inc. Trn: 2530624889Tc\",\n          \"amount\": 1136.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/10/2025\",\n          \"description\": \"Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date: 250909 CO Entry Descr:7259Cc1Cc0Sec: CCD Trace#: 091000012533323 Eed: 250910 Ind ID:888-244-9099 Ind Name: Threepeaks B Rands, IN Trn: 2532533323Tc\",\n          \"amount\": 345.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/12/2025\",\n          \"description\": \"Orig CO Name: Demkel Sales Sol Orig ID:9115191002 Desc Date: CO Entry Descr:Corp Pay Sec:CCD Trace#:041001031325659 Eed:250912 Ind ID:SBS Smoothie Ind Name: Three Peaks Brands LLC Trn: 2551325659Tc\",\n          \"amount\": 10290.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 0\n        },\n        {\n          \"date\": \"09/12/2025\",\n          \"description\": \"Orig CO Name: Wells Fargo Card Orig ID:3411650794 Desc Date:091125 CO Entry Descr:Ccpymt Sec: Web Trace#: 091000012369073 Eed:250912 Ind ID:90473801326615 Ind Name: Prince Carleton Trn: 2552369073Tc\",\n          \"amount\": 523.27,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/12/2025\",\n          \"description\": \"Payment To Chase Card Ending IN 4576\",\n          \"amount\": 40.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"description\": \"Orig CO Name: Citi Card Online Orig ID: Citictp Desc Date:250912 CO Entry Descr:Payment Sec: Web Trace#: 091409688452404 Eed:250915 Ind ID:431800899954560 Ind Name: Carleton Prince Trn: 2588452404Tc\",\n          \"amount\": 41.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"description\": \"Orig CO Name: Wells Fargo Card Orig ID:3411650794 Desc Date:091225 CO Entry Descr:Ccpymt Sec: Web Trace#: 091000015125413 Eed:250915 Ind ID:90469707245585 Ind Name: Prince Carleton Trn: 2585125413Tc\",\n          \"amount\": 559.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"description\": \"Same-Day ACH Payment 11187820031 To Desi (_######9603)\",\n          \"amount\": 15636.6,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/16/2025\",\n          \"description\": \"Orig CO Name: Ondeck Capital17 Orig ID:882653807A Desc Date: 250916 CO Entry Descr:37597 Sec: CCD Trace#: 113024163584485 Eed: 250916 Ind ID: 287394219 Ind Name: Threepeaks Brands, Inc 20250916E Trn: 2593584485Tc\",\n          \"amount\": 838.75,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/17/2025\",\n          \"description\": \"Orig CO Name: Ebf Holdings Orig ID: 2900922982 Desc Date: CO Entry Descr:Ebf Debit Sec:CCD Trace#:091000010642123 Eed: 250917 Ind ID:000000012435386 Ind Name: Threepeaks Brands Inc. Trn: 2600642123Tc\",\n          \"amount\": 1136.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/17/2025\",\n          \"description\": \"Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date:250916 CO Entry Descr:2E9C81B2D7Sec:CCD Trace#: 091000014638896 Eed: 250917 Ind ID:888-244-9099 Ind Name: Threepeaks B Rands, IN Trn: 2604638896Tc\",\n          \"amount\": 345.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/18/2025\",\n          \"description\": \"Orig CO Name: 1St Bankcard Ctr Orig ID:8104000010 Desc Date: 250918 CO Entry Descr: Online Pmtsec: Web Trace#: 104000019941933 Eed: 250918 Ind ID:3C0B57564Ba9Ad Ind Name: Carleton Prince Credit Card Pmt Trn: 2619941933Tc\",\n          \"amount\": 604.07,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/23/2025\",\n          \"description\": \"Orig CO Name: Ondeck Capital17 Orig ID:882653807A Desc Date: 250923 CO Entry Descr:37785 Sec: CCD Trace#:113024161259379 Eed: 250923 Ind ID:288526547 Ind Name: Threepeaks Brands, Inc 20250923E Trn: 2661259379Tc\",\n          \"amount\": 838.75,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/24/2025\",\n          \"description\": \"Orig CO Name: Ebf Holdings Orig ID:2900922982 Desc Date: CO Entry Descr:Ebf Debit Sec: CCD Trace#: 091000015464311 Eed: 250924 Ind ID: 000000012473866 Ind Name: Threepeaks Brands Inc. Trn: 2675464311Tc\",\n          \"amount\": 1136.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/24/2025\",\n          \"description\": \"Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date: 250923 CO Entry Descr:7Cf132C071Sec: CCD Trace#: 091000015527064 Eed:250924 Ind ID: 888-244-9099 Ind Name: Threepeaks B Rands, IN Trn: 2675527064Tc\",\n          \"amount\": 345.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/29/2025\",\n          \"description\": \"CHECK NO. 1113\",\n          \"amount\": 2456.54,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/30/2025\",\n          \"description\": \"CHECK NO. 1114\",\n          \"amount\": 941.25,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/30/2025\",\n          \"description\": \"Orig CO Name: Wells Fargo Card Orig ID:3411650794 Desc Date:092925 CO Entry Descr:Ccpymt Sec: Web Trace#: 091000016479393 Eed:250930 Ind ID:90473801326615 Ind Name: Prince Carleton Trn: 2736479393Tc\",\n          \"amount\": 612.73,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/30/2025\",\n          \"description\": \"Orig CO Name: Wells Fargo Card Orig ID:3411650794 Desc Date: 092925 CO Entry Descr:Ccpymt Sec: Web Trace#: 091000016479656 Eed:250930 Ind ID:90496623967894 Ind Name: Prince Carleton Trn: 2736479656Tc\",\n          \"amount\": 138.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/30/2025\",\n          \"description\": \"Orig CO Name: Ondeck Capital17 Orig ID:882653807A Desc Date: 250930 CO Entry Descr:37975 Sec: CCD Trace#: 113024160343669 Eed: 250930 Ind ID: 289812010 Ind Name: Threepeaks Brands, Inc 20250930E Trn: 2730343669Tc\",\n          \"amount\": 838.75,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        }\n      ]\n    }\n  ]\n}\n```",
+    "token_count": {
+      "estimated_tokens": 1323
+    },
+    "failure_reason": null
+  },
+  "bsi_analyzer_result": {
+    "agent_name": "v1_bsi_analyzer_agent",
+    "processing_status": "success",
+    "start_time": "2026-02-04T15:05:06.405565",
+    "end_time": "2026-02-04T15:06:02.062716",
+    "parsed_json": {
+      "accounts": [
+        {
+          "account_number": "000000897883853",
+          "account_type": "Chase Business Complete Checking",
+          "mca_deposit": [],
+          "mca_withdrawal": [
+            {
+              "mca_name": "Everest Business Funding(or Ebf Holdings)",
+              "date": "09/03/2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Ebf Holdings Orig ID:2900922982 Desc Date: CO Entry Descr:Ebf Debit Sec: CCD Trace#: 091000010278476 Eed: 250903 Ind ID: 000000012359736 Ind Name: Threepeaks Brands Inc. Trn: 2460278476Tc",
+              "amount": 1136.0
+            },
+            {
+              "mca_name": "On Deck",
+              "date": "09/03/2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Ondeck Capital17 Orig ID:882653807A Desc Date: 250902 CO Entry Descr:37235 Sec: CCD Trace#: 113024160123059 Eed: 250903 Ind ID: 284915715 Ind Name: Threepeaks Brands, Inc 20250902F Trn: 2460123059Tc",
+              "amount": 838.75
+            },
+            {
+              "mca_name": "Forward Financing",
+              "date": "09/03/2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date:250902 CO Entry Descr:7E4Af5D63E sec: CCD Trace#: 091000010439711 Eed:250903 Ind ID: 888-244-9099 Ind Name: Threepeaks B Rands, IN Trn: 2460439711Tc",
+              "amount": 345.0
+            },
+            {
+              "mca_name": "On Deck",
+              "date": "09/09/2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Ondeck Capital17 Orig ID:882653807A Desc Date: 250909 CO Entry Descr:37419 Sec: CCD Trace#: 113024166397348 Eed: 250909 Ind ID: 286129900 Ind Name: Threepeaks Brands, Inc 20250909E Trn: 2526397348Tc",
+              "amount": 838.75
+            },
+            {
+              "mca_name": "Everest Business Funding(or Ebf Holdings)",
+              "date": "09/10/2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Ebf Holdings Orig ID:2900922982 Desc Date: CO Entry Descr:Ebf Debit Sec: CCD Trace#: 091000010624889 Eed: 250910 Ind ID: 000000012397288 Ind Name: Threepeaks Brands Inc. Trn: 2530624889Tc",
+              "amount": 1136.0
+            },
+            {
+              "mca_name": "Forward Financing",
+              "date": "09/10/2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date: 250909 CO Entry Descr:7259Cc1Cc0Sec: CCD Trace#: 091000012533323 Eed: 250910 Ind ID:888-244-9099 Ind Name: Threepeaks B Rands, IN Trn: 2532533323Tc",
+              "amount": 345.0
+            },
+            {
+              "mca_name": "On Deck",
+              "date": "09/16/2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Ondeck Capital17 Orig ID:882653807A Desc Date: 250916 CO Entry Descr:37597 Sec: CCD Trace#: 113024163584485 Eed: 250916 Ind ID: 287394219 Ind Name: Threepeaks Brands, Inc 20250916E Trn: 2593584485Tc",
+              "amount": 838.75
+            },
+            {
+              "mca_name": "Everest Business Funding(or Ebf Holdings)",
+              "date": "09/17/2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Ebf Holdings Orig ID: 2900922982 Desc Date: CO Entry Descr:Ebf Debit Sec:CCD Trace#:091000010642123 Eed: 250917 Ind ID:000000012435386 Ind Name: Threepeaks Brands Inc. Trn: 2600642123Tc",
+              "amount": 1136.0
+            },
+            {
+              "mca_name": "Forward Financing",
+              "date": "09/17/2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date:250916 CO Entry Descr:2E9C81B2D7Sec:CCD Trace#: 091000014638896 Eed: 250917 Ind ID:888-244-9099 Ind Name: Threepeaks B Rands, IN Trn: 2604638896Tc",
+              "amount": 345.0
+            },
+            {
+              "mca_name": "On Deck",
+              "date": "09/23/2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Ondeck Capital17 Orig ID:882653807A Desc Date: 250923 CO Entry Descr:37785 Sec: CCD Trace#:113024161259379 Eed: 250923 Ind ID:288526547 Ind Name: Threepeaks Brands, Inc 20250923E Trn: 2661259379Tc",
+              "amount": 838.75
+            },
+            {
+              "mca_name": "Everest Business Funding(or Ebf Holdings)",
+              "date": "09/24/2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Ebf Holdings Orig ID:2900922982 Desc Date: CO Entry Descr:Ebf Debit Sec: CCD Trace#: 091000015464311 Eed: 250924 Ind ID: 000000012473866 Ind Name: Threepeaks Brands Inc. Trn: 2675464311Tc",
+              "amount": 1136.0
+            },
+            {
+              "mca_name": "Forward Financing",
+              "date": "09/24/2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date: 250923 CO Entry Descr:7Cf132C071Sec: CCD Trace#: 091000015527064 Eed:250924 Ind ID: 888-244-9099 Ind Name: Threepeaks B Rands, IN Trn: 2675527064Tc",
+              "amount": 345.0
+            },
+            {
+              "mca_name": "On Deck",
+              "date": "09/30/2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Ondeck Capital17 Orig ID:882653807A Desc Date: 250930 CO Entry Descr:37975 Sec: CCD Trace#: 113024160343669 Eed: 250930 Ind ID: 289812010 Ind Name: Threepeaks Brands, Inc 20250930E Trn: 2730343669Tc",
+              "amount": 838.75
+            }
+          ],
+          "returned_items": [],
+          "overdrafts": [
+            {
+              "date": "09/04/2025",
+              "type": "Debit",
+              "description": "Overdraft Fee For A $1,335.00 Item - Details: Orig CO Name: Wells Fargo Card Orig ID:3411650794 Desc Date: 090225 CO Entry Descr:Ccpymt Sec:Web Trace#:091000015173823 Eed: 250903 Ind ID:90473801326615 Ind Name: Prince Carleton Trn: 2465173823Tc",
+              "amount": 34.0
+            },
+            {
+              "date": "09/04/2025",
+              "type": "Debit",
+              "description": "Overdraft Fee For A $123.00 Item - Details: Orig CO Name: Wells Fargo Card Orig ID:3411650794 Desc Date: 090225 CO Entry Descr:Ccpymt Sec:Web Trace#:091000015174261 Eed:250903 Ind ID:90496623967894 Ind Name: Prince Carleton Trn: 2465174261Tc",
+              "amount": 34.0
+            }
+          ],
+          "service_charges": [
+            {
+              "date": "09/02/2025",
+              "type": "Debit",
+              "description": "Rtp/Same Day - High Value",
+              "amount": 25.0
+            },
+            {
+              "date": "09/02/2025",
+              "type": "Debit",
+              "description": "Standard ACH Pmnts Initial Fee Qty = 3",
+              "amount": 7.5
+            },
+            {
+              "date": "09/02/2025",
+              "type": "Debit",
+              "description": "Rtp/Same Day - Low Value",
+              "amount": 15.0
+            }
+          ],
+          "atm_cash_withdrawal": [],
+          "internal_transfer_deposit": [],
+          "other_transfer_deposit": [
+            {
+              "date": "09/05/2025",
+              "type": "Credit",
+              "description": "Orig CO Name: Wells Fargo Ifi Orig ID:Intfitrvos Desc Date:090425 CO Entry Descr:DDA To Ddasec: Web Trace#: 091000015025177 Eed: 250905 Ind ID: F20Ts43Db5 Ind Name: Carleton Prince Trn: 2485025177Tc",
+              "amount": 3200.0,
+              "is_payment_processor": 0,
+              "non_true_revenue": 1
+            },
+            {
+              "date": "09/12/2025",
+              "type": "Credit",
+              "description": "Orig CO Name: Demkel Sales Sol Orig ID:9115191002 Desc Date: CO Entry Descr:Corp Pay Sec:CCD Trace#:041001031325659 Eed:250912 Ind ID:SBS Smoothie Ind Name: Three Peaks Brands LLC Trn: 2551325659Tc",
+              "amount": 10290.0,
+              "is_payment_processor": 0,
+              "non_true_revenue": 0
+            }
+          ],
+          "internal_transfer_withdrawal": [],
+          "other_transfer_withdrawal": [
+            {
+              "date": "09/15/2025",
+              "type": "Debit",
+              "description": "Same-Day ACH Payment 11187820031 To Desi (_######9603)",
+              "amount": 15636.6
+            }
+          ],
+          "standard_deposit": [
+            {
+              "date": "09/09/2025",
+              "type": "Credit",
+              "description": "Deposit 2118217087",
+              "amount": 25000.0,
+              "non_true_revenue": 0
+            }
+          ],
+          "standard_withdrawal": [
+            {
+              "date": "09/02/2025",
+              "type": "Debit",
+              "description": "CHECK NO. 1109",
+              "amount": 2750.0
+            },
+            {
+              "date": "09/02/2025",
+              "type": "Debit",
+              "description": "CHECK NO. 1110",
+              "amount": 5487.67
+            },
+            {
+              "date": "09/03/2025",
+              "type": "Debit",
+              "description": "CHECK NO. 1108",
+              "amount": 3064.0
+            },
+            {
+              "date": "09/03/2025",
+              "type": "Debit",
+              "description": "CHECK NO. 1112",
+              "amount": 1740.0
+            },
+            {
+              "date": "09/03/2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Wells Fargo Card Orig ID:3411650794 Desc Date:090225 CO Entry Descr:Ccpymt Sec: Web Trace#: 091000015173823 Eed:250903 Ind ID:90473801326615 Ind Name: Prince Carleton Trn: 2465173823Tc",
+              "amount": 1335.0
+            },
+            {
+              "date": "09/03/2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Wells Fargo Card Orig ID:3411650794 Desc Date:090225 CO Entry Descr:Ccpymt Sec: Web Trace#: 091000015174261 Eed:250903 Ind ID:90496623967894 Ind Name: Prince Carleton Trn: 2465174261Tc",
+              "amount": 123.0
+            },
+            {
+              "date": "09/05/2025",
+              "type": "Debit",
+              "description": "CHECK NO. 1111",
+              "amount": 600.0
+            },
+            {
+              "date": "09/08/2025",
+              "type": "Debit",
+              "description": "Payment To Chase Card Ending IN 4493",
+              "amount": 1893.77
+            },
+            {
+              "date": "09/12/2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Wells Fargo Card Orig ID:3411650794 Desc Date:091125 CO Entry Descr:Ccpymt Sec: Web Trace#: 091000012369073 Eed:250912 Ind ID:90473801326615 Ind Name: Prince Carleton Trn: 2552369073Tc",
+              "amount": 523.27
+            },
+            {
+              "date": "09/12/2025",
+              "type": "Debit",
+              "description": "Payment To Chase Card Ending IN 4576",
+              "amount": 40.0
+            },
+            {
+              "date": "09/15/2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Citi Card Online Orig ID: Citictp Desc Date:250912 CO Entry Descr:Payment Sec: Web Trace#: 091409688452404 Eed:250915 Ind ID:431800899954560 Ind Name: Carleton Prince Trn: 2588452404Tc",
+              "amount": 41.0
+            },
+            {
+              "date": "09/15/2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Wells Fargo Card Orig ID:3411650794 Desc Date:091225 CO Entry Descr:Ccpymt Sec: Web Trace#: 091000015125413 Eed:250915 Ind ID:90469707245585 Ind Name: Prince Carleton Trn: 2585125413Tc",
+              "amount": 559.0
+            },
+            {
+              "date": "09/18/2025",
+              "type": "Debit",
+              "description": "Orig CO Name: 1St Bankcard Ctr Orig ID:8104000010 Desc Date: 250918 CO Entry Descr: Online Pmtsec: Web Trace#: 104000019941933 Eed: 250918 Ind ID:3C0B57564Ba9Ad Ind Name: Carleton Prince Credit Card Pmt Trn: 2619941933Tc",
+              "amount": 604.07
+            },
+            {
+              "date": "09/29/2025",
+              "type": "Debit",
+              "description": "CHECK NO. 1113",
+              "amount": 2456.54
+            },
+            {
+              "date": "09/30/2025",
+              "type": "Debit",
+              "description": "CHECK NO. 1114",
+              "amount": 941.25
+            },
+            {
+              "date": "09/30/2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Wells Fargo Card Orig ID:3411650794 Desc Date:092925 CO Entry Descr:Ccpymt Sec: Web Trace#: 091000016479393 Eed:250930 Ind ID:90473801326615 Ind Name: Prince Carleton Trn: 2736479393Tc",
+              "amount": 612.73
+            },
+            {
+              "date": "09/30/2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Wells Fargo Card Orig ID:3411650794 Desc Date: 092925 CO Entry Descr:Ccpymt Sec: Web Trace#: 091000016479656 Eed:250930 Ind ID:90496623967894 Ind Name: Prince Carleton Trn: 2736479656Tc",
+              "amount": 138.0
+            }
+          ]
+        }
+      ]
+    },
+    "raw_output": "```json\n{\n  \"accounts\": [\n    {\n      \"account_number\": \"000000897883853\",\n      \"account_type\": \"Chase Business Complete Checking\",\n      \"mca_deposit\": [],\n      \"mca_withdrawal\": [\n        {\n          \"mca_name\": \"Everest Business Funding(or Ebf Holdings)\",\n          \"date\": \"09/03/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Ebf Holdings Orig ID:2900922982 Desc Date: CO Entry Descr:Ebf Debit Sec: CCD Trace#: 091000010278476 Eed: 250903 Ind ID: 000000012359736 Ind Name: Threepeaks Brands Inc. Trn: 2460278476Tc\",\n          \"amount\": 1136.0\n        },\n        {\n          \"mca_name\": \"On Deck\",\n          \"date\": \"09/03/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Ondeck Capital17 Orig ID:882653807A Desc Date: 250902 CO Entry Descr:37235 Sec: CCD Trace#: 113024160123059 Eed: 250903 Ind ID: 284915715 Ind Name: Threepeaks Brands, Inc 20250902F Trn: 2460123059Tc\",\n          \"amount\": 838.75\n        },\n        {\n          \"mca_name\": \"Forward Financing\",\n          \"date\": \"09/03/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date:250902 CO Entry Descr:7E4Af5D63E sec: CCD Trace#: 091000010439711 Eed:250903 Ind ID: 888-244-9099 Ind Name: Threepeaks B Rands, IN Trn: 2460439711Tc\",\n          \"amount\": 345.0\n        },\n        {\n          \"mca_name\": \"On Deck\",\n          \"date\": \"09/09/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Ondeck Capital17 Orig ID:882653807A Desc Date: 250909 CO Entry Descr:37419 Sec: CCD Trace#: 113024166397348 Eed: 250909 Ind ID: 286129900 Ind Name: Threepeaks Brands, Inc 20250909E Trn: 2526397348Tc\",\n          \"amount\": 838.75\n        },\n        {\n          \"mca_name\": \"Everest Business Funding(or Ebf Holdings)\",\n          \"date\": \"09/10/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Ebf Holdings Orig ID:2900922982 Desc Date: CO Entry Descr:Ebf Debit Sec: CCD Trace#: 091000010624889 Eed: 250910 Ind ID: 000000012397288 Ind Name: Threepeaks Brands Inc. Trn: 2530624889Tc\",\n          \"amount\": 1136.0\n        },\n        {\n          \"mca_name\": \"Forward Financing\",\n          \"date\": \"09/10/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date: 250909 CO Entry Descr:7259Cc1Cc0Sec: CCD Trace#: 091000012533323 Eed: 250910 Ind ID:888-244-9099 Ind Name: Threepeaks B Rands, IN Trn: 2532533323Tc\",\n          \"amount\": 345.0\n        },\n        {\n          \"mca_name\": \"On Deck\",\n          \"date\": \"09/16/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Ondeck Capital17 Orig ID:882653807A Desc Date: 250916 CO Entry Descr:37597 Sec: CCD Trace#: 113024163584485 Eed: 250916 Ind ID: 287394219 Ind Name: Threepeaks Brands, Inc 20250916E Trn: 2593584485Tc\",\n          \"amount\": 838.75\n        },\n        {\n          \"mca_name\": \"Everest Business Funding(or Ebf Holdings)\",\n          \"date\": \"09/17/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Ebf Holdings Orig ID: 2900922982 Desc Date: CO Entry Descr:Ebf Debit Sec:CCD Trace#:091000010642123 Eed: 250917 Ind ID:000000012435386 Ind Name: Threepeaks Brands Inc. Trn: 2600642123Tc\",\n          \"amount\": 1136.0\n        },\n        {\n          \"mca_name\": \"Forward Financing\",\n          \"date\": \"09/17/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date:250916 CO Entry Descr:2E9C81B2D7Sec:CCD Trace#: 091000014638896 Eed: 250917 Ind ID:888-244-9099 Ind Name: Threepeaks B Rands, IN Trn: 2604638896Tc\",\n          \"amount\": 345.0\n        },\n        {\n          \"mca_name\": \"On Deck\",\n          \"date\": \"09/23/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Ondeck Capital17 Orig ID:882653807A Desc Date: 250923 CO Entry Descr:37785 Sec: CCD Trace#:113024161259379 Eed: 250923 Ind ID:288526547 Ind Name: Threepeaks Brands, Inc 20250923E Trn: 2661259379Tc\",\n          \"amount\": 838.75\n        },\n        {\n          \"mca_name\": \"Everest Business Funding(or Ebf Holdings)\",\n          \"date\": \"09/24/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Ebf Holdings Orig ID:2900922982 Desc Date: CO Entry Descr:Ebf Debit Sec: CCD Trace#: 091000015464311 Eed: 250924 Ind ID: 000000012473866 Ind Name: Threepeaks Brands Inc. Trn: 2675464311Tc\",\n          \"amount\": 1136.0\n        },\n        {\n          \"mca_name\": \"Forward Financing\",\n          \"date\": \"09/24/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date: 250923 CO Entry Descr:7Cf132C071Sec: CCD Trace#: 091000015527064 Eed:250924 Ind ID: 888-244-9099 Ind Name: Threepeaks B Rands, IN Trn: 2675527064Tc\",\n          \"amount\": 345.0\n        },\n        {\n          \"mca_name\": \"On Deck\",\n          \"date\": \"09/30/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Ondeck Capital17 Orig ID:882653807A Desc Date: 250930 CO Entry Descr:37975 Sec: CCD Trace#: 113024160343669 Eed: 250930 Ind ID: 289812010 Ind Name: Threepeaks Brands, Inc 20250930E Trn: 2730343669Tc\",\n          \"amount\": 838.75\n        }\n      ],\n      \"returned_items\": [],\n      \"overdrafts\": [\n        {\n          \"date\": \"09/04/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Overdraft Fee For A $1,335.00 Item - Details: Orig CO Name: Wells Fargo Card Orig ID:3411650794 Desc Date: 090225 CO Entry Descr:Ccpymt Sec:Web Trace#:091000015173823 Eed: 250903 Ind ID:90473801326615 Ind Name: Prince Carleton Trn: 2465173823Tc\",\n          \"amount\": 34.0\n        },\n        {\n          \"date\": \"09/04/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Overdraft Fee For A $123.00 Item - Details: Orig CO Name: Wells Fargo Card Orig ID:3411650794 Desc Date: 090225 CO Entry Descr:Ccpymt Sec:Web Trace#:091000015174261 Eed:250903 Ind ID:90496623967894 Ind Name: Prince Carleton Trn: 2465174261Tc\",\n          \"amount\": 34.0\n        }\n      ],\n      \"service_charges\": [\n        {\n          \"date\": \"09/02/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Rtp/Same Day - High Value\",\n          \"amount\": 25.0\n        },\n        {\n          \"date\": \"09/02/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Standard ACH Pmnts Initial Fee Qty = 3\",\n          \"amount\": 7.5\n        },\n        {\n          \"date\": \"09/02/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Rtp/Same Day - Low Value\",\n          \"amount\": 15.0\n        }\n      ],\n      \"atm_cash_withdrawal\": [],\n      \"internal_transfer_deposit\": [],\n      \"other_transfer_deposit\": [\n        {\n          \"date\": \"09/05/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Orig CO Name: Wells Fargo Ifi Orig ID:Intfitrvos Desc Date:090425 CO Entry Descr:DDA To Ddasec: Web Trace#: 091000015025177 Eed: 250905 Ind ID: F20Ts43Db5 Ind Name: Carleton Prince Trn: 2485025177Tc\",\n          \"amount\": 3200.0,\n          \"is_payment_processor\": 0,\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"09/12/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Orig CO Name: Demkel Sales Sol Orig ID:9115191002 Desc Date: CO Entry Descr:Corp Pay Sec:CCD Trace#:041001031325659 Eed:250912 Ind ID:SBS Smoothie Ind Name: Three Peaks Brands LLC Trn: 2551325659Tc\",\n          \"amount\": 10290.0,\n          \"is_payment_processor\": 0,\n          \"non_true_revenue\": 0\n        }\n      ],\n      \"internal_transfer_withdrawal\": [],\n      \"other_transfer_withdrawal\": [\n        {\n          \"date\": \"09/15/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Same-Day ACH Payment 11187820031 To Desi (_######9603)\",\n          \"amount\": 15636.6\n        }\n      ],\n      \"standard_deposit\": [\n        {\n          \"date\": \"09/09/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Deposit 2118217087\",\n          \"amount\": 25000.0,\n          \"non_true_revenue\": 0\n        }\n      ],\n      \"standard_withdrawal\": [\n        {\n          \"date\": \"09/02/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"CHECK NO. 1109\",\n          \"amount\": 2750.0\n        },\n        {\n          \"date\": \"09/02/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"CHECK NO. 1110\",\n          \"amount\": 5487.67\n        },\n        {\n          \"date\": \"09/03/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"CHECK NO. 1108\",\n          \"amount\": 3064.0\n        },\n        {\n          \"date\": \"09/03/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"CHECK NO. 1112\",\n          \"amount\": 1740.0\n        },\n        {\n          \"date\": \"09/03/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Wells Fargo Card Orig ID:3411650794 Desc Date:090225 CO Entry Descr:Ccpymt Sec: Web Trace#: 091000015173823 Eed:250903 Ind ID:90473801326615 Ind Name: Prince Carleton Trn: 2465173823Tc\",\n          \"amount\": 1335.0\n        },\n        {\n          \"date\": \"09/03/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Wells Fargo Card Orig ID:3411650794 Desc Date:090225 CO Entry Descr:Ccpymt Sec: Web Trace#: 091000015174261 Eed:250903 Ind ID:90496623967894 Ind Name: Prince Carleton Trn: 2465174261Tc\",\n          \"amount\": 123.0\n        },\n        {\n          \"date\": \"09/05/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"CHECK NO. 1111\",\n          \"amount\": 600.0\n        },\n        {\n          \"date\": \"09/08/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Payment To Chase Card Ending IN 4493\",\n          \"amount\": 1893.77\n        },\n        {\n          \"date\": \"09/12/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Wells Fargo Card Orig ID:3411650794 Desc Date:091125 CO Entry Descr:Ccpymt Sec: Web Trace#: 091000012369073 Eed:250912 Ind ID:90473801326615 Ind Name: Prince Carleton Trn: 2552369073Tc\",\n          \"amount\": 523.27\n        },\n        {\n          \"date\": \"09/12/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Payment To Chase Card Ending IN 4576\",\n          \"amount\": 40.0\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Citi Card Online Orig ID: Citictp Desc Date:250912 CO Entry Descr:Payment Sec: Web Trace#: 091409688452404 Eed:250915 Ind ID:431800899954560 Ind Name: Carleton Prince Trn: 2588452404Tc\",\n          \"amount\": 41.0\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Wells Fargo Card Orig ID:3411650794 Desc Date:091225 CO Entry Descr:Ccpymt Sec: Web Trace#: 091000015125413 Eed:250915 Ind ID:90469707245585 Ind Name: Prince Carleton Trn: 2585125413Tc\",\n          \"amount\": 559.0\n        },\n        {\n          \"date\": \"09/18/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: 1St Bankcard Ctr Orig ID:8104000010 Desc Date: 250918 CO Entry Descr: Online Pmtsec: Web Trace#: 104000019941933 Eed: 250918 Ind ID:3C0B57564Ba9Ad Ind Name: Carleton Prince Credit Card Pmt Trn: 2619941933Tc\",\n          \"amount\": 604.07\n        },\n        {\n          \"date\": \"09/29/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"CHECK NO. 1113\",\n          \"amount\": 2456.54\n        },\n        {\n          \"date\": \"09/30/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"CHECK NO. 1114\",\n          \"amount\": 941.25\n        },\n        {\n          \"date\": \"09/30/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Wells Fargo Card Orig ID:3411650794 Desc Date:092925 CO Entry Descr:Ccpymt Sec: Web Trace#: 091000016479393 Eed:250930 Ind ID:90473801326615 Ind Name: Prince Carleton Trn: 2736479393Tc\",\n          \"amount\": 612.73\n        },\n        {\n          \"date\": \"09/30/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Wells Fargo Card Orig ID:3411650794 Desc Date: 092925 CO Entry Descr:Ccpymt Sec: Web Trace#: 091000016479656 Eed:250930 Ind ID:90496623967894 Ind Name: Prince Carleton Trn: 2736479656Tc\",\n          \"amount\": 138.0\n        }\n      ]\n    }\n  ]\n}\n```",
+    "token_count": {
+      "estimated_tokens": 1229
+    },
+    "failure_reason": null
+  }
+}

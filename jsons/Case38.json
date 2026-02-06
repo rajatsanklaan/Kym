@@ -1,0 +1,960 @@
+{
+  "document_name": "Case38.pdf",
+  "pipeline_status": "completed",
+  "processing_metadata": {
+    "start_time": "2026-02-04T15:04:50.994958",
+    "end_time": "2026-02-04T15:08:21.680958",
+    "parsing_time_seconds": 109.631565,
+    "bsi_time_seconds": 101.028869,
+    "total_time_seconds": 210.660434
+  },
+  "parsing_agent_result": {
+    "agent_name": "parsing_agent",
+    "processing_status": "success",
+    "start_time": "2026-02-04T15:04:51.003431",
+    "end_time": "2026-02-04T15:06:40.633400",
+    "parsed_json": {
+      "bank_statement_information": {
+        "bank_name": "JPMorgan Chase Bank, N.A.",
+        "account_holder": "THREEPEAKS BRANDS, INC.",
+        "statement_start_date": "11-01-2025",
+        "statement_end_date": "11-28-2025",
+        "n_days": 28,
+        "n_month": [
+          11
+        ],
+        "business_address": "16872 W GREENBRIAR POINT CT SURPRISE AZ 85387-2830"
+      },
+      "accounts": [
+        {
+          "account_number": "000000897883853",
+          "account_type": "Chase Business Complete Checking",
+          "account_summary": {
+            "beginning_balance": 30175.41,
+            "ending_balance": 2843.5,
+            "total_deposits": 28394.0,
+            "total_withdrawals": 55725.91,
+            "total_deposits_count": null,
+            "total_withdrawals_count": null,
+            "avg_daily_balance": null,
+            "overdraft_days": 0
+          },
+          "transactions": [
+            {
+              "date": "11-03-2025",
+              "description": "CHECK NO. 1123 *^",
+              "amount": 375.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-03-2025",
+              "description": "Orig CO Name: Lcf 8884992939 Orig ID:6274933380 Desc Date:251031 CO Entry Descr:Lc10310824Sec: CCD Trace#:122287252810725 Eed:251103 Ind ID:Qj000005Yjo0Mak Ind Name: Threepeaks Brand Scheduled Remittance 006Qj00000Ju9H Qiaa Trn: 3072810725Tc",
+              "amount": 291.8,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11-03-2025",
+              "description": "Standard ACH Pmnts Initial Fee Qty = 6",
+              "amount": 15.0,
+              "type": "Debit",
+              "category": "Service Charges/Fees"
+            },
+            {
+              "date": "11-03-2025",
+              "description": "Rtp/Same Day - Low Value",
+              "amount": 16.44,
+              "type": "Debit",
+              "category": "Service Charges/Fees"
+            },
+            {
+              "date": "11-04-2025",
+              "description": "Fedwire Credit Via: Wells Fargo Bank, N.A./121000248 B/O: Georgia Venture Holdings Corp. NY 11229 Ref: Chase Nyc/Ctr/Bnf=Threepeaks Brands, Inc. Surprise AZ 85387-2830 US/Ac-000000008978 Rfb=Ow00006271745783 Bbi=/Chgs/USD0,00/ Imad: 110411B7033R015528 Trn: 1130371308Ff",
+              "amount": 7000.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11-04-2025",
+              "description": "CHECK NO. 1124 ^",
+              "amount": 18242.7,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-04-2025",
+              "description": "Orig CO Name: Lcf 8884992939 Orig ID:6274933380 Desc Date:251103 CO Entry Descr:Lc11030925Sec: CCD Trace#: 122287254715527 Eed:251104 Ind ID:Nr000001Pstrmaw Ind Name: Threepeaks Brand Scheduled Remittance 006Qj00000Ju9H Qiaa Trn: 3084715527Tc",
+              "amount": 291.8,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11-04-2025",
+              "description": "Orig CO Name: Zoom.Com 888-799 Orig ID: 1800948598 Desc Date: CO Entry Descr:Zoom.Com 8Sec: Web Trace#: 091000014653122 Eed:251104 Ind ID:St-W8P6W2Q3T1S3 Ind Name: Carleton Prince Trn: 3084653122Tc",
+              "amount": 33.98,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-04-2025",
+              "description": "Orig CO Name: Ondeck Capital17 Orig ID:882653807A Desc Date:251104 CO Entry Descr:38859 Sec: CCD Trace#:113024161482090 Eed:251104 Ind ID:296007612 Ind Name: Threepeaks Brands, Inc 20251104E Trn: 3081482090Tc",
+              "amount": 838.75,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11-04-2025",
+              "description": "Domestic Incoming Wire Fee",
+              "amount": 15.0,
+              "type": "Debit",
+              "category": "Service Charges/Fees"
+            },
+            {
+              "date": "11-05-2025",
+              "description": "Orig CO Name: Georgiaventureho Orig ID:562147953C Desc Date:251104 CO Entry Descr: Achpaymentsec: CCD Trace#: 061104598836425 Eed:251105 Ind ID:W003 Ind Name:Gv1014 Threepeaks Bran Trn: 3098836425Tc",
+              "amount": 1600.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11-05-2025",
+              "description": "Orig CO Name: Georgiaventureho Orig ID:562147953C Desc Date:251104 CO Entry Descr: Achpaymentsec: CCD Trace#: 061104598836426 Eed:251105 Ind ID:W002 Ind Name: Gv1014 Threepeaks Bran Trn: 3098836426Tc",
+              "amount": 1600.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11-05-2025",
+              "description": "Orig CO Name: Ebf Holdings Orig ID:2900922982 Desc Date: CO Entry Descr:Ebf Debit Sec: CCD Trace#: 091000018723202 Eed:251105 Ind ID: 000000012701561 Ind Name: Threepeaks Brands Inc. Trn: 3098723202Tc",
+              "amount": 1136.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11-05-2025",
+              "description": "Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date:251104 CO Entry Descr:9924C065Absec:CCD Trace#:091000018654076 Eed:251105 Ind ID:888-244-9099 Ind Name: Threepeaks B Rands, IN Trn: 3098654076Tc",
+              "amount": 345.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11-05-2025",
+              "description": "Orig CO Name: Lcf 8884992939 Orig ID:6274933380 Desc Date:251104 CO Entry Descr:Lc11040937Sec: CCD Trace#: 122287258794968 Eed:251105 Ind ID:Nr000001Pmdnmak Ind Name: Threepeaks Brand Scheduled Remittance 006Qj00000Ju9H Qiaa Trn: 3098794968Tc",
+              "amount": 291.8,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11-05-2025",
+              "description": "11/05 Payment To Chase Card Ending IN 4493",
+              "amount": 1891.77,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-06-2025",
+              "description": "Orig CO Name: Demkel Sales Sol Orig ID:9115191002 Desc Date: CO Entry Descr:Corp Pay Sec:CCD Trace#: 041001034632102 Eed:251106 Ind ID:SBS Smoothie Ind Name: Three Peaks Brands LLC Trn: 3104632102Tc",
+              "amount": 14700.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11-06-2025",
+              "description": "CHECK NO. 1119 ^",
+              "amount": 120.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-06-2025",
+              "description": "Orig CO Name: Georgiaventureho Orig ID:562147953C Desc Date:251105 CO Entry Descr: Achpaymentsec: CCD Trace#: 061104592715076 Eed:251106 Ind ID:W004 Ind Name:Gv1014 Threepeaks Bran Trn: 3102715076Tc",
+              "amount": 1600.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11-06-2025",
+              "description": "Orig CO Name: Lcf 8884992939 Orig ID:6274933380 Desc Date:251105 CO Entry Descr:Lc11050942Sec: CCD Trace#: 122287252654460 Eed:251106 Ind ID:Nr000001Q8Chmak Ind Name: Threepeaks Brand Scheduled Remittance 006Qj00000Ju9H Qiaa Trn: 3102654460Tc",
+              "amount": 291.8,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11-07-2025",
+              "description": "Orig CO Name: Georgiaventureho Orig ID:562147953C Desc Date:251106 CO Entry Descr: Achpaymentsec: CCD Trace#: 061104594710143 Eed:251107 Ind ID:W005 Ind Name: Gv1014 Threepeaks Bran Trn: 3114710143Tc",
+              "amount": 1600.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11-07-2025",
+              "description": "Orig CO Name: Georgiaventureho Orig ID:562147953C Desc Date:251106 CO Entry Descr: Achpaymentsec: CCD Trace#: 061104594710144 Eed:251107 Ind ID:W006 Ind Name:Gv1014 Threepeaks Bran Trn: 3114710144Tc",
+              "amount": 1600.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11-07-2025",
+              "description": "Orig CO Name: Lcf 8884992939 Orig ID:6274933380 Desc Date:251106 CO Entry Descr:Lc11060926Sec: CCD Trace#: 122287254710004 Eed:251107 Ind ID:Nr000001Qqrnma4 Ind Name: Threepeaks Brand Scheduled Remittance 006Qj00000Ju9H Qiaa Trn: 3114710004Tc",
+              "amount": 291.8,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11-10-2025",
+              "description": "Orig CO Name: Georgiaventureho Orig ID:562147953C Desc Date:251107 CO Entry Descr: Achpaymentsec: CCD Trace#: 061104599103818 Eed: 251110 Ind ID:W007 Ind Name: Gv1014 Threepeaks Bran Trn: 3149103818Tc",
+              "amount": 1600.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11-10-2025",
+              "description": "Orig CO Name: Georgiaventureho Orig ID:562147953C Desc Date:251107 CO Entry Descr: Achpaymentsec: CCD Trace#: 061104599103819 Eed:251110 Ind ID:W008 Ind Name: Gv1014 Threepeaks Bran Trn: 3149103819Tc",
+              "amount": 1600.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11-10-2025",
+              "description": "Orig CO Name: Lcf 8884992939 Orig ID:6274933380 Desc Date:251107 CO Entry Descr:Lc11071041 Sec: CCD Trace#: 122287259104200 Eed: 251110 Ind ID:Nr000001Qjlxmak Ind Name: Threepeaks Brand Scheduled Remittance 006Qj00000Ju9H Qiaa Trn: 3149104200Tc",
+              "amount": 291.8,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11-10-2025",
+              "description": "Orig CO Name: Oefranchisingllc Orig ID:9000326709 Desc Date: 111025 CO Entry Descr:Sigonfile Sec:CCD Trace#: 111924683956956 Eed:251110 Ind ID:Px0Hqk Ind Name: Three Peaks Brands, IN 805-699-2040 Trn: 3143956956Tc",
+              "amount": 162.26,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11-12-2025",
+              "description": "Orig CO Name: Demkel Sales Sol Orig ID:9115191002 Desc Date: CO Entry Descr:Corp Pay Sec:CCD Trace#: 041001035365457 Eed:251112 Ind ID:SBS Smoothie Ind Name: Three Peaks Brands LLC Trn: 3165365457Tc",
+              "amount": 2499.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11-12-2025",
+              "description": "Orig CO Name: Ebf Holdings Orig ID:2900922982 Desc Date: CO Entry Descr:Ebf Debit Sec: CCD Trace#: 091000015328237 Eed: 251112 Ind ID: 000000012733815 Ind Name: Threepeaks Brands Inc. Trn: 3165328237Tc",
+              "amount": 1136.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11-12-2025",
+              "description": "Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date: 251110 CO Entry Descr:27302E10A1 Sec: CCD Trace#: 091000015338172 Eed: 251112 Ind ID:888-244-9099 Ind Name: Threepeaks B Rands, IN Trn: 3165338172Tc",
+              "amount": 345.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11-12-2025",
+              "description": "Orig CO Name: Lcf 8884992939 Orig ID:6274933380 Desc Date:251110 CO Entry Descr:Lc11100903Sec: CCD Trace#: 122287255364806 Eed:251112 Ind ID:Nr000001Rtwpmao Ind Name: Threepeaks Brand Scheduled Remittance 006Qj00000Ju9H Qiaa Trn: 3165364806Tc",
+              "amount": 291.8,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11-12-2025",
+              "description": "Orig CO Name: Georgiaventureho Orig ID:562147953C Desc Date:251110 CO Entry Descr: Achpaymentsec: CCD Trace#: 061104595282603 Eed:251112 Ind ID:W010 Ind Name: Gv1014 Threepeaks Bran Trn: 3165282603Tc",
+              "amount": 1600.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11-12-2025",
+              "description": "Orig CO Name: Georgiaventureho Orig ID:562147953C Desc Date:251110 CO Entry Descr: Achpaymentsec: CCD Trace#:061104595282604 Eed: 251112 Ind ID:W009 Ind Name: Gv1014 Threepeaks Bran Trn: 3165282604Tc",
+              "amount": 1600.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11-12-2025",
+              "description": "Orig CO Name: Afco Direct Orig ID: 1472319830 Desc Date: 251110 CO Entry Descr:Payments Sec:CCD Trace#:091000015330983 Eed: 251112 Ind ID:27589853 Ind Name: Threepeaks Brands Inc Trn: 3165330983Tc",
+              "amount": 376.4,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11-12-2025",
+              "description": "Orig CO Name: Ondeck Capital22 Orig ID:880983410E Desc Date: 251112 CO Entry Descr:39039 Sec: CCD Trace#:113024162507471 Eed:251112 Ind ID:297266255 Ind Name: Threepeaks Brands, Inc 20251112F Trn: 3162507471Tc",
+              "amount": 838.75,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11-13-2025",
+              "description": "Orig CO Name: Georgiaventureho Orig ID:562147953C Desc Date:251112 CO Entry Descr: Achpaymentsec: CCD Trace#: 061104592153034 Eed:251113 Ind ID:W011 Ind Name:Gv1014 Threepeaks Bran Trn: 3172153034Tc",
+              "amount": 1600.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11-13-2025",
+              "description": "Orig CO Name: Georgiaventureho Orig ID:562147953C Desc Date:251112 CO Entry Descr: Achpaymentsec: CCD Trace#: 061104592153035 Eed:251113 Ind ID:W012 Ind Name: Gv1014 Threepeaks Bran Trn: 3172153035Tc",
+              "amount": 1600.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11-13-2025",
+              "description": "Orig CO Name: Lcf 8884992939 Orig ID:6274933380 Desc Date:251112 CO Entry Descr:Lc11120959Sec: CCD Trace#:122287252134403 Eed:251113 Ind ID:Nr000001S3Sbma0 Ind Name: Threepeaks Brand Scheduled Remittance 006Qj00000Ju9H Qiaa Trn: 3172134403Tc",
+              "amount": 291.8,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11-13-2025",
+              "description": "Orig CO Name: Wells Fargo Card Orig ID:3411650794 Desc Date: 111225 CO Entry Descr:Ccpymt Sec: Web Trace#: 091000017132647 Eed:251113 Ind ID:90473801326615 Ind Name: Prince Carleton Trn: 3177132647Tc",
+              "amount": 495.96,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-14-2025",
+              "description": "Orig CO Name: Lcf 8884992939 Orig ID:6274933380 Desc Date:251113 CO Entry Descr:Lc11130945Sec: CCD Trace#: 122287250327766 Eed:251114 Ind ID:Nr000001Smuamag Ind Name: Threepeaks Brand Scheduled Remittance 006Qj00000Ju9H Qiaa Trn: 3180327766Tc",
+              "amount": 291.8,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11-17-2025",
+              "description": "11/16 Payment To Chase Card Ending IN 4576",
+              "amount": 40.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11-17-2025",
+              "description": "Orig CO Name: Lcf 8884992939 Orig ID:6274933380 Desc Date:251114 CO Entry Descr:Lc11140949Sec: CCD Trace#: 122287259815472 Eed:251117 Ind ID:Nr000001Sgykma0 Ind Name: Threepeaks Brand Scheduled Remittance 006Qj00000Ju9H Qiaa Trn: 3219815472Tc",
+              "amount": 291.8,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11-18-2025",
+              "description": "Orig CO Name: Lcf 8884992939 Orig ID:6274933380 Desc Date:251117 CO Entry Descr:Lc11170924Sec: CCD Trace#: 122287255282151 Eed:251118 Ind ID:Nr000001 Tkyomag Ind Name: Threepeaks Brand Scheduled Remittance 006Qj00000Ju9H Qiaa Trn: 3225282151 Tc",
+              "amount": 291.8,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11-18-2025",
+              "description": "Orig CO Name: Ondeck Capital22 Orig ID:880983410E Desc Date: 251118 CO Entry Descr:39201 Sec: CCD Trace#: 113024160521294 Eed: 251118 Ind ID:298381740 Ind Name: Threepeaks Brands, Inc 20251118E Trn: 3220521294Tc",
+              "amount": 838.75,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11-19-2025",
+              "description": "Orig CO Name: Ebf Holdings Orig ID:2900922982 Desc Date: CO Entry Descr:Ebf Debit Sec: CCD Trace#: 091000015886592 Eed: 251119 Ind ID:000000012771425 Ind Name: Threepeaks Brands Inc. Trn: 3235886592Tc",
+              "amount": 1136.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11-19-2025",
+              "description": "Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date: 251118 CO Entry Descr:F12Adcf35Bsec: CCD Trace#: 091000015872344 Eed: 251119 Ind ID:888-244-9099 Ind Name: Threepeaks B Rands, IN Trn: 3235872344Tc",
+              "amount": 345.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11-19-2025",
+              "description": "Orig CO Name: Lcf 8884992939 Orig ID:6274933380 Desc Date: 251118 CO Entry Descr:Lc11180906Sec: CCD Trace#: 122287255936805 Eed:251119 Ind ID:Nr000001 Tgmqmas Ind Name: Threepeaks Brand Scheduled Remittance 006Qj00000Ju9H Qiaa Trn: 3235936805Tc",
+              "amount": 291.8,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11-20-2025",
+              "description": "Orig CO Name: Lcf 8884992939 Orig ID:6274933380 Desc Date:251119 CO Entry Descr:Lc11190950Sec: CCD Trace#: 122287253522333 Eed:251120 Ind ID:Nr000001U34Emac Ind Name: Threepeaks Brand Scheduled Remittance 006Qj00000Ju9H Qiaa Trn: 3243522333Tc",
+              "amount": 291.8,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11-21-2025",
+              "description": "Orig CO Name: Lcf 8884992939 Orig ID:6274933380 Desc Date:251120 CO Entry Descr:Lc11200957Sec: CCD Trace#:122287253697067 Eed: 251121 Ind ID:Nr000001Uo2Cmag Ind Name: Threepeaks Brand Scheduled Remittance 006Qj00000Ju9H Qiaa Trn: 3253697067Tc",
+              "amount": 291.8,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11-24-2025",
+              "description": "Orig CO Name: Georgia Venture Orig ID:Bizedp Desc Date: 112125 CO Entry Descr: Vendor Sec:CCD Trace#:091000017622249 Eed:251124 Ind ID:Dpaaakefec Ind Name: Threepeaks Brands Inc Wfb Directpay Trn: 3287622249Tc",
+              "amount": 1600.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11-24-2025",
+              "description": "Orig CO Name: Lcf 8884992939 Orig ID:6274933380 Desc Date:251121 CO Entry Descr:Lc11210938Sec: CCD Trace#: 122287257612917 Eed:251124 Ind ID:Nr000001Uh8Pmas Ind Name: Threepeaks Brand Scheduled Remittance 006Qj00000Ju9H Qiaa Trn: 3287612917Tc",
+              "amount": 291.8,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11-25-2025",
+              "description": "Fedwire Credit Via: Optimumbank/067015096 B/O: Silverlineservices LLC Rockville Centre NY 115704912 Ref: Chase Nyc/Ctr/Bnf=Threepeaks Brands, Inc. Surprise AZ 85387-2830 US/Ac-000000008978 Rfb=Funding Imad: 1125Gmqfmp01037643 Trn: 1249091329Ff",
+              "amount": 2595.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11-25-2025",
+              "description": "Orig CO Name: Lcf 8884992939 Orig ID:6274933380 Desc Date:251124 CO Entry Descr:Lc11240920Sec: CCD Trace#: 122287253198594 Eed:251125 Ind ID:Nr000001 Vnymmag Ind Name: Threepeaks Brand Scheduled Remittance 006Qj00000Ju9H Qiaa Trn: 3293198594Tc",
+              "amount": 291.8,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11-25-2025",
+              "description": "11/25 Online Domestic Wire Transfer A/C: Chante Paynter Chante Carol Paynterpaulsboro NJ 08066 US Ref: Per Adam Graham Trn: 3459455329Es",
+              "amount": 1000.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11-25-2025",
+              "description": "Orig CO Name: Ondeck Capital22 Orig ID:880983410E Desc Date: 251125 CO Entry Descr:39407 Sec: CCD Trace#: 113024164820254 Eed: 251125 Ind ID: 299580574 Ind Name: Threepeaks Brands, Inc 20251125E Trn: 3294820254Tc",
+              "amount": 838.75,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11-25-2025",
+              "description": "Online Domestic Wire Fee",
+              "amount": 25.0,
+              "type": "Debit",
+              "category": "Service Charges/Fees"
+            },
+            {
+              "date": "11-25-2025",
+              "description": "Domestic Incoming Wire Fee",
+              "amount": 15.0,
+              "type": "Debit",
+              "category": "Service Charges/Fees"
+            },
+            {
+              "date": "11-26-2025",
+              "description": "Orig CO Name: Ebf Holdings Orig ID: 2900922982 Desc Date: CO Entry Descr:Ebf Debit Sec: CCD Trace#:091000014789710 Eed:251126 Ind ID:000000012807781 Ind Name: Threepeaks Brands Inc. Trn: 3304789710Tc",
+              "amount": 1136.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11-26-2025",
+              "description": "Orig CO Name: Silverline Servi Orig ID:562147953C Desc Date: 251125 CO Entry Descr: Achpaymentsec: CCD Trace#: 061104594874012 Eed: 251126 Ind ID:W014 Ind Name: Threepeaks Brands 9433 Trn: 3304874012Tc",
+              "amount": 385.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11-26-2025",
+              "description": "Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date:251125 CO Entry Descr: 1812B9C1B9Sec: CCD Trace#: 091000014835842 Eed:251126 Ind ID:888-244-9099 Ind Name: Threepeaks B Rands, IN Trn: 3304835842Tc",
+              "amount": 345.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11-26-2025",
+              "description": "Orig CO Name: Lcf 8884992939 Orig ID:6274933380 Desc Date:251125 CO Entry Descr:Lc11251005Sec: CCD Trace#: 122287254905967 Eed:251126 Ind ID:Nr000001Vj1 Zmas Ind Name: Threepeaks Brand Scheduled Remittance 006Qj00000Ju9H Qiaa Trn: 3304905967Tc",
+              "amount": 291.8,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11-28-2025",
+              "description": "Orig CO Name: Silverline Servi Orig ID:562147953C Desc Date: 251126 CO Entry Descr: Achpaymentsec: CCD Trace#: 061104598926067 Eed:251128 Ind ID:W015 Ind Name: Threepeaks Brands 9436 Trn: 3328926067Tc",
+              "amount": 385.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11-28-2025",
+              "description": "Orig CO Name: Lcf 8884992939 Orig ID:6274933380 Desc Date:251126 CO Entry Descr:Lc11261003Sec: CCD Trace#: 122287259164431 Eed:251128 Ind ID:Nr000001W1Hnmak Ind Name: Threepeaks Brand Scheduled Remittance 006Qj00000Ju9H Qiaa Trn: 3329164431 Tc",
+              "amount": 291.8,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            }
+          ]
+        }
+      ]
+    },
+    "raw_output": "```json\n{\n  \"bank_statement_information\": {\n    \"bank_name\": \"JPMorgan Chase Bank, N.A.\",\n    \"account_holder\": \"THREEPEAKS BRANDS, INC.\",\n    \"statement_start_date\": \"11-01-2025\",\n    \"statement_end_date\": \"11-28-2025\",\n    \"n_days\": 28,\n    \"n_month\": [\n      11\n    ],\n    \"business_address\": \"16872 W GREENBRIAR POINT CT SURPRISE AZ 85387-2830\"\n  },\n  \"accounts\": [\n    {\n      \"account_number\": \"000000897883853\",\n      \"account_type\": \"Chase Business Complete Checking\",\n      \"account_summary\": {\n        \"beginning_balance\": 30175.41,\n        \"ending_balance\": 2843.5,\n        \"total_deposits\": 28394.0,\n        \"total_withdrawals\": 55725.91,\n        \"total_deposits_count\": null,\n        \"total_withdrawals_count\": null,\n        \"avg_daily_balance\": null,\n        \"overdraft_days\": 0\n      },\n      \"transactions\": [\n        {\n          \"date\": \"11-03-2025\",\n          \"description\": \"CHECK NO. 1123 *^\",\n          \"amount\": 375.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-03-2025\",\n          \"description\": \"Orig CO Name: Lcf 8884992939 Orig ID:6274933380 Desc Date:251031 CO Entry Descr:Lc10310824Sec: CCD Trace#:122287252810725 Eed:251103 Ind ID:Qj000005Yjo0Mak Ind Name: Threepeaks Brand Scheduled Remittance 006Qj00000Ju9H Qiaa Trn: 3072810725Tc\",\n          \"amount\": 291.8,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11-03-2025\",\n          \"description\": \"Standard ACH Pmnts Initial Fee Qty = 6\",\n          \"amount\": 15.0,\n          \"type\": \"Debit\",\n          \"category\": \"Service Charges/Fees\"\n        },\n        {\n          \"date\": \"11-03-2025\",\n          \"description\": \"Rtp/Same Day - Low Value\",\n          \"amount\": 16.44,\n          \"type\": \"Debit\",\n          \"category\": \"Service Charges/Fees\"\n        },\n        {\n          \"date\": \"11-04-2025\",\n          \"description\": \"Fedwire Credit Via: Wells Fargo Bank, N.A./121000248 B/O: Georgia Venture Holdings Corp. NY 11229 Ref: Chase Nyc/Ctr/Bnf=Threepeaks Brands, Inc. Surprise AZ 85387-2830 US/Ac-000000008978 Rfb=Ow00006271745783 Bbi=/Chgs/USD0,00/ Imad: 110411B7033R015528 Trn: 1130371308Ff\",\n          \"amount\": 7000.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11-04-2025\",\n          \"description\": \"CHECK NO. 1124 ^\",\n          \"amount\": 18242.7,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-04-2025\",\n          \"description\": \"Orig CO Name: Lcf 8884992939 Orig ID:6274933380 Desc Date:251103 CO Entry Descr:Lc11030925Sec: CCD Trace#: 122287254715527 Eed:251104 Ind ID:Nr000001Pstrmaw Ind Name: Threepeaks Brand Scheduled Remittance 006Qj00000Ju9H Qiaa Trn: 3084715527Tc\",\n          \"amount\": 291.8,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11-04-2025\",\n          \"description\": \"Orig CO Name: Zoom.Com 888-799 Orig ID: 1800948598 Desc Date: CO Entry Descr:Zoom.Com 8Sec: Web Trace#: 091000014653122 Eed:251104 Ind ID:St-W8P6W2Q3T1S3 Ind Name: Carleton Prince Trn: 3084653122Tc\",\n          \"amount\": 33.98,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-04-2025\",\n          \"description\": \"Orig CO Name: Ondeck Capital17 Orig ID:882653807A Desc Date:251104 CO Entry Descr:38859 Sec: CCD Trace#:113024161482090 Eed:251104 Ind ID:296007612 Ind Name: Threepeaks Brands, Inc 20251104E Trn: 3081482090Tc\",\n          \"amount\": 838.75,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11-04-2025\",\n          \"description\": \"Domestic Incoming Wire Fee\",\n          \"amount\": 15.0,\n          \"type\": \"Debit\",\n          \"category\": \"Service Charges/Fees\"\n        },\n        {\n          \"date\": \"11-05-2025\",\n          \"description\": \"Orig CO Name: Georgiaventureho Orig ID:562147953C Desc Date:251104 CO Entry Descr: Achpaymentsec: CCD Trace#: 061104598836425 Eed:251105 Ind ID:W003 Ind Name:Gv1014 Threepeaks Bran Trn: 3098836425Tc\",\n          \"amount\": 1600.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11-05-2025\",\n          \"description\": \"Orig CO Name: Georgiaventureho Orig ID:562147953C Desc Date:251104 CO Entry Descr: Achpaymentsec: CCD Trace#: 061104598836426 Eed:251105 Ind ID:W002 Ind Name: Gv1014 Threepeaks Bran Trn: 3098836426Tc\",\n          \"amount\": 1600.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11-05-2025\",\n          \"description\": \"Orig CO Name: Ebf Holdings Orig ID:2900922982 Desc Date: CO Entry Descr:Ebf Debit Sec: CCD Trace#: 091000018723202 Eed:251105 Ind ID: 000000012701561 Ind Name: Threepeaks Brands Inc. Trn: 3098723202Tc\",\n          \"amount\": 1136.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11-05-2025\",\n          \"description\": \"Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date:251104 CO Entry Descr:9924C065Absec:CCD Trace#:091000018654076 Eed:251105 Ind ID:888-244-9099 Ind Name: Threepeaks B Rands, IN Trn: 3098654076Tc\",\n          \"amount\": 345.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11-05-2025\",\n          \"description\": \"Orig CO Name: Lcf 8884992939 Orig ID:6274933380 Desc Date:251104 CO Entry Descr:Lc11040937Sec: CCD Trace#: 122287258794968 Eed:251105 Ind ID:Nr000001Pmdnmak Ind Name: Threepeaks Brand Scheduled Remittance 006Qj00000Ju9H Qiaa Trn: 3098794968Tc\",\n          \"amount\": 291.8,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11-05-2025\",\n          \"description\": \"11/05 Payment To Chase Card Ending IN 4493\",\n          \"amount\": 1891.77,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-06-2025\",\n          \"description\": \"Orig CO Name: Demkel Sales Sol Orig ID:9115191002 Desc Date: CO Entry Descr:Corp Pay Sec:CCD Trace#: 041001034632102 Eed:251106 Ind ID:SBS Smoothie Ind Name: Three Peaks Brands LLC Trn: 3104632102Tc\",\n          \"amount\": 14700.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11-06-2025\",\n          \"description\": \"CHECK NO. 1119 ^\",\n          \"amount\": 120.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-06-2025\",\n          \"description\": \"Orig CO Name: Georgiaventureho Orig ID:562147953C Desc Date:251105 CO Entry Descr: Achpaymentsec: CCD Trace#: 061104592715076 Eed:251106 Ind ID:W004 Ind Name:Gv1014 Threepeaks Bran Trn: 3102715076Tc\",\n          \"amount\": 1600.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11-06-2025\",\n          \"description\": \"Orig CO Name: Lcf 8884992939 Orig ID:6274933380 Desc Date:251105 CO Entry Descr:Lc11050942Sec: CCD Trace#: 122287252654460 Eed:251106 Ind ID:Nr000001Q8Chmak Ind Name: Threepeaks Brand Scheduled Remittance 006Qj00000Ju9H Qiaa Trn: 3102654460Tc\",\n          \"amount\": 291.8,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11-07-2025\",\n          \"description\": \"Orig CO Name: Georgiaventureho Orig ID:562147953C Desc Date:251106 CO Entry Descr: Achpaymentsec: CCD Trace#: 061104594710143 Eed:251107 Ind ID:W005 Ind Name: Gv1014 Threepeaks Bran Trn: 3114710143Tc\",\n          \"amount\": 1600.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11-07-2025\",\n          \"description\": \"Orig CO Name: Georgiaventureho Orig ID:562147953C Desc Date:251106 CO Entry Descr: Achpaymentsec: CCD Trace#: 061104594710144 Eed:251107 Ind ID:W006 Ind Name:Gv1014 Threepeaks Bran Trn: 3114710144Tc\",\n          \"amount\": 1600.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11-07-2025\",\n          \"description\": \"Orig CO Name: Lcf 8884992939 Orig ID:6274933380 Desc Date:251106 CO Entry Descr:Lc11060926Sec: CCD Trace#: 122287254710004 Eed:251107 Ind ID:Nr000001Qqrnma4 Ind Name: Threepeaks Brand Scheduled Remittance 006Qj00000Ju9H Qiaa Trn: 3114710004Tc\",\n          \"amount\": 291.8,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11-10-2025\",\n          \"description\": \"Orig CO Name: Georgiaventureho Orig ID:562147953C Desc Date:251107 CO Entry Descr: Achpaymentsec: CCD Trace#: 061104599103818 Eed: 251110 Ind ID:W007 Ind Name: Gv1014 Threepeaks Bran Trn: 3149103818Tc\",\n          \"amount\": 1600.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11-10-2025\",\n          \"description\": \"Orig CO Name: Georgiaventureho Orig ID:562147953C Desc Date:251107 CO Entry Descr: Achpaymentsec: CCD Trace#: 061104599103819 Eed:251110 Ind ID:W008 Ind Name: Gv1014 Threepeaks Bran Trn: 3149103819Tc\",\n          \"amount\": 1600.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11-10-2025\",\n          \"description\": \"Orig CO Name: Lcf 8884992939 Orig ID:6274933380 Desc Date:251107 CO Entry Descr:Lc11071041 Sec: CCD Trace#: 122287259104200 Eed: 251110 Ind ID:Nr000001Qjlxmak Ind Name: Threepeaks Brand Scheduled Remittance 006Qj00000Ju9H Qiaa Trn: 3149104200Tc\",\n          \"amount\": 291.8,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11-10-2025\",\n          \"description\": \"Orig CO Name: Oefranchisingllc Orig ID:9000326709 Desc Date: 111025 CO Entry Descr:Sigonfile Sec:CCD Trace#: 111924683956956 Eed:251110 Ind ID:Px0Hqk Ind Name: Three Peaks Brands, IN 805-699-2040 Trn: 3143956956Tc\",\n          \"amount\": 162.26,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11-12-2025\",\n          \"description\": \"Orig CO Name: Demkel Sales Sol Orig ID:9115191002 Desc Date: CO Entry Descr:Corp Pay Sec:CCD Trace#: 041001035365457 Eed:251112 Ind ID:SBS Smoothie Ind Name: Three Peaks Brands LLC Trn: 3165365457Tc\",\n          \"amount\": 2499.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11-12-2025\",\n          \"description\": \"Orig CO Name: Ebf Holdings Orig ID:2900922982 Desc Date: CO Entry Descr:Ebf Debit Sec: CCD Trace#: 091000015328237 Eed: 251112 Ind ID: 000000012733815 Ind Name: Threepeaks Brands Inc. Trn: 3165328237Tc\",\n          \"amount\": 1136.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11-12-2025\",\n          \"description\": \"Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date: 251110 CO Entry Descr:27302E10A1 Sec: CCD Trace#: 091000015338172 Eed: 251112 Ind ID:888-244-9099 Ind Name: Threepeaks B Rands, IN Trn: 3165338172Tc\",\n          \"amount\": 345.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11-12-2025\",\n          \"description\": \"Orig CO Name: Lcf 8884992939 Orig ID:6274933380 Desc Date:251110 CO Entry Descr:Lc11100903Sec: CCD Trace#: 122287255364806 Eed:251112 Ind ID:Nr000001Rtwpmao Ind Name: Threepeaks Brand Scheduled Remittance 006Qj00000Ju9H Qiaa Trn: 3165364806Tc\",\n          \"amount\": 291.8,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11-12-2025\",\n          \"description\": \"Orig CO Name: Georgiaventureho Orig ID:562147953C Desc Date:251110 CO Entry Descr: Achpaymentsec: CCD Trace#: 061104595282603 Eed:251112 Ind ID:W010 Ind Name: Gv1014 Threepeaks Bran Trn: 3165282603Tc\",\n          \"amount\": 1600.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11-12-2025\",\n          \"description\": \"Orig CO Name: Georgiaventureho Orig ID:562147953C Desc Date:251110 CO Entry Descr: Achpaymentsec: CCD Trace#:061104595282604 Eed: 251112 Ind ID:W009 Ind Name: Gv1014 Threepeaks Bran Trn: 3165282604Tc\",\n          \"amount\": 1600.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11-12-2025\",\n          \"description\": \"Orig CO Name: Afco Direct Orig ID: 1472319830 Desc Date: 251110 CO Entry Descr:Payments Sec:CCD Trace#:091000015330983 Eed: 251112 Ind ID:27589853 Ind Name: Threepeaks Brands Inc Trn: 3165330983Tc\",\n          \"amount\": 376.4,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11-12-2025\",\n          \"description\": \"Orig CO Name: Ondeck Capital22 Orig ID:880983410E Desc Date: 251112 CO Entry Descr:39039 Sec: CCD Trace#:113024162507471 Eed:251112 Ind ID:297266255 Ind Name: Threepeaks Brands, Inc 20251112F Trn: 3162507471Tc\",\n          \"amount\": 838.75,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11-13-2025\",\n          \"description\": \"Orig CO Name: Georgiaventureho Orig ID:562147953C Desc Date:251112 CO Entry Descr: Achpaymentsec: CCD Trace#: 061104592153034 Eed:251113 Ind ID:W011 Ind Name:Gv1014 Threepeaks Bran Trn: 3172153034Tc\",\n          \"amount\": 1600.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11-13-2025\",\n          \"description\": \"Orig CO Name: Georgiaventureho Orig ID:562147953C Desc Date:251112 CO Entry Descr: Achpaymentsec: CCD Trace#: 061104592153035 Eed:251113 Ind ID:W012 Ind Name: Gv1014 Threepeaks Bran Trn: 3172153035Tc\",\n          \"amount\": 1600.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11-13-2025\",\n          \"description\": \"Orig CO Name: Lcf 8884992939 Orig ID:6274933380 Desc Date:251112 CO Entry Descr:Lc11120959Sec: CCD Trace#:122287252134403 Eed:251113 Ind ID:Nr000001S3Sbma0 Ind Name: Threepeaks Brand Scheduled Remittance 006Qj00000Ju9H Qiaa Trn: 3172134403Tc\",\n          \"amount\": 291.8,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11-13-2025\",\n          \"description\": \"Orig CO Name: Wells Fargo Card Orig ID:3411650794 Desc Date: 111225 CO Entry Descr:Ccpymt Sec: Web Trace#: 091000017132647 Eed:251113 Ind ID:90473801326615 Ind Name: Prince Carleton Trn: 3177132647Tc\",\n          \"amount\": 495.96,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-14-2025\",\n          \"description\": \"Orig CO Name: Lcf 8884992939 Orig ID:6274933380 Desc Date:251113 CO Entry Descr:Lc11130945Sec: CCD Trace#: 122287250327766 Eed:251114 Ind ID:Nr000001Smuamag Ind Name: Threepeaks Brand Scheduled Remittance 006Qj00000Ju9H Qiaa Trn: 3180327766Tc\",\n          \"amount\": 291.8,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11-17-2025\",\n          \"description\": \"11/16 Payment To Chase Card Ending IN 4576\",\n          \"amount\": 40.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11-17-2025\",\n          \"description\": \"Orig CO Name: Lcf 8884992939 Orig ID:6274933380 Desc Date:251114 CO Entry Descr:Lc11140949Sec: CCD Trace#: 122287259815472 Eed:251117 Ind ID:Nr000001Sgykma0 Ind Name: Threepeaks Brand Scheduled Remittance 006Qj00000Ju9H Qiaa Trn: 3219815472Tc\",\n          \"amount\": 291.8,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11-18-2025\",\n          \"description\": \"Orig CO Name: Lcf 8884992939 Orig ID:6274933380 Desc Date:251117 CO Entry Descr:Lc11170924Sec: CCD Trace#: 122287255282151 Eed:251118 Ind ID:Nr000001 Tkyomag Ind Name: Threepeaks Brand Scheduled Remittance 006Qj00000Ju9H Qiaa Trn: 3225282151 Tc\",\n          \"amount\": 291.8,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11-18-2025\",\n          \"description\": \"Orig CO Name: Ondeck Capital22 Orig ID:880983410E Desc Date: 251118 CO Entry Descr:39201 Sec: CCD Trace#: 113024160521294 Eed: 251118 Ind ID:298381740 Ind Name: Threepeaks Brands, Inc 20251118E Trn: 3220521294Tc\",\n          \"amount\": 838.75,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11-19-2025\",\n          \"description\": \"Orig CO Name: Ebf Holdings Orig ID:2900922982 Desc Date: CO Entry Descr:Ebf Debit Sec: CCD Trace#: 091000015886592 Eed: 251119 Ind ID:000000012771425 Ind Name: Threepeaks Brands Inc. Trn: 3235886592Tc\",\n          \"amount\": 1136.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11-19-2025\",\n          \"description\": \"Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date: 251118 CO Entry Descr:F12Adcf35Bsec: CCD Trace#: 091000015872344 Eed: 251119 Ind ID:888-244-9099 Ind Name: Threepeaks B Rands, IN Trn: 3235872344Tc\",\n          \"amount\": 345.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11-19-2025\",\n          \"description\": \"Orig CO Name: Lcf 8884992939 Orig ID:6274933380 Desc Date: 251118 CO Entry Descr:Lc11180906Sec: CCD Trace#: 122287255936805 Eed:251119 Ind ID:Nr000001 Tgmqmas Ind Name: Threepeaks Brand Scheduled Remittance 006Qj00000Ju9H Qiaa Trn: 3235936805Tc\",\n          \"amount\": 291.8,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11-20-2025\",\n          \"description\": \"Orig CO Name: Lcf 8884992939 Orig ID:6274933380 Desc Date:251119 CO Entry Descr:Lc11190950Sec: CCD Trace#: 122287253522333 Eed:251120 Ind ID:Nr000001U34Emac Ind Name: Threepeaks Brand Scheduled Remittance 006Qj00000Ju9H Qiaa Trn: 3243522333Tc\",\n          \"amount\": 291.8,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11-21-2025\",\n          \"description\": \"Orig CO Name: Lcf 8884992939 Orig ID:6274933380 Desc Date:251120 CO Entry Descr:Lc11200957Sec: CCD Trace#:122287253697067 Eed: 251121 Ind ID:Nr000001Uo2Cmag Ind Name: Threepeaks Brand Scheduled Remittance 006Qj00000Ju9H Qiaa Trn: 3253697067Tc\",\n          \"amount\": 291.8,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11-24-2025\",\n          \"description\": \"Orig CO Name: Georgia Venture Orig ID:Bizedp Desc Date: 112125 CO Entry Descr: Vendor Sec:CCD Trace#:091000017622249 Eed:251124 Ind ID:Dpaaakefec Ind Name: Threepeaks Brands Inc Wfb Directpay Trn: 3287622249Tc\",\n          \"amount\": 1600.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11-24-2025\",\n          \"description\": \"Orig CO Name: Lcf 8884992939 Orig ID:6274933380 Desc Date:251121 CO Entry Descr:Lc11210938Sec: CCD Trace#: 122287257612917 Eed:251124 Ind ID:Nr000001Uh8Pmas Ind Name: Threepeaks Brand Scheduled Remittance 006Qj00000Ju9H Qiaa Trn: 3287612917Tc\",\n          \"amount\": 291.8,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11-25-2025\",\n          \"description\": \"Fedwire Credit Via: Optimumbank/067015096 B/O: Silverlineservices LLC Rockville Centre NY 115704912 Ref: Chase Nyc/Ctr/Bnf=Threepeaks Brands, Inc. Surprise AZ 85387-2830 US/Ac-000000008978 Rfb=Funding Imad: 1125Gmqfmp01037643 Trn: 1249091329Ff\",\n          \"amount\": 2595.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11-25-2025\",\n          \"description\": \"Orig CO Name: Lcf 8884992939 Orig ID:6274933380 Desc Date:251124 CO Entry Descr:Lc11240920Sec: CCD Trace#: 122287253198594 Eed:251125 Ind ID:Nr000001 Vnymmag Ind Name: Threepeaks Brand Scheduled Remittance 006Qj00000Ju9H Qiaa Trn: 3293198594Tc\",\n          \"amount\": 291.8,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11-25-2025\",\n          \"description\": \"11/25 Online Domestic Wire Transfer A/C: Chante Paynter Chante Carol Paynterpaulsboro NJ 08066 US Ref: Per Adam Graham Trn: 3459455329Es\",\n          \"amount\": 1000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11-25-2025\",\n          \"description\": \"Orig CO Name: Ondeck Capital22 Orig ID:880983410E Desc Date: 251125 CO Entry Descr:39407 Sec: CCD Trace#: 113024164820254 Eed: 251125 Ind ID: 299580574 Ind Name: Threepeaks Brands, Inc 20251125E Trn: 3294820254Tc\",\n          \"amount\": 838.75,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11-25-2025\",\n          \"description\": \"Online Domestic Wire Fee\",\n          \"amount\": 25.0,\n          \"type\": \"Debit\",\n          \"category\": \"Service Charges/Fees\"\n        },\n        {\n          \"date\": \"11-25-2025\",\n          \"description\": \"Domestic Incoming Wire Fee\",\n          \"amount\": 15.0,\n          \"type\": \"Debit\",\n          \"category\": \"Service Charges/Fees\"\n        },\n        {\n          \"date\": \"11-26-2025\",\n          \"description\": \"Orig CO Name: Ebf Holdings Orig ID: 2900922982 Desc Date: CO Entry Descr:Ebf Debit Sec: CCD Trace#:091000014789710 Eed:251126 Ind ID:000000012807781 Ind Name: Threepeaks Brands Inc. Trn: 3304789710Tc\",\n          \"amount\": 1136.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11-26-2025\",\n          \"description\": \"Orig CO Name: Silverline Servi Orig ID:562147953C Desc Date: 251125 CO Entry Descr: Achpaymentsec: CCD Trace#: 061104594874012 Eed: 251126 Ind ID:W014 Ind Name: Threepeaks Brands 9433 Trn: 3304874012Tc\",\n          \"amount\": 385.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11-26-2025\",\n          \"description\": \"Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date:251125 CO Entry Descr: 1812B9C1B9Sec: CCD Trace#: 091000014835842 Eed:251126 Ind ID:888-244-9099 Ind Name: Threepeaks B Rands, IN Trn: 3304835842Tc\",\n          \"amount\": 345.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11-26-2025\",\n          \"description\": \"Orig CO Name: Lcf 8884992939 Orig ID:6274933380 Desc Date:251125 CO Entry Descr:Lc11251005Sec: CCD Trace#: 122287254905967 Eed:251126 Ind ID:Nr000001Vj1 Zmas Ind Name: Threepeaks Brand Scheduled Remittance 006Qj00000Ju9H Qiaa Trn: 3304905967Tc\",\n          \"amount\": 291.8,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11-28-2025\",\n          \"description\": \"Orig CO Name: Silverline Servi Orig ID:562147953C Desc Date: 251126 CO Entry Descr: Achpaymentsec: CCD Trace#: 061104598926067 Eed:251128 Ind ID:W015 Ind Name: Threepeaks Brands 9436 Trn: 3328926067Tc\",\n          \"amount\": 385.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11-28-2025\",\n          \"description\": \"Orig CO Name: Lcf 8884992939 Orig ID:6274933380 Desc Date:251126 CO Entry Descr:Lc11261003Sec: CCD Trace#: 122287259164431 Eed:251128 Ind ID:Nr000001W1Hnmak Ind Name: Threepeaks Brand Scheduled Remittance 006Qj00000Ju9H Qiaa Trn: 3329164431 Tc\",\n          \"amount\": 291.8,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        }\n      ]\n    }\n  ]\n}\n```",
+    "token_count": {
+      "estimated_tokens": 2357
+    },
+    "failure_reason": null
+  },
+  "bsi_analyzer_result": {
+    "agent_name": "v1_bsi_analyzer_agent",
+    "processing_status": "success",
+    "start_time": "2026-02-04T15:06:40.651495",
+    "end_time": "2026-02-04T15:08:21.679970",
+    "parsed_json": {
+      "accounts": [
+        {
+          "account_number": "000000897883853",
+          "account_type": "Chase Business Complete Checking",
+          "mca_deposit": [
+            {
+              "mca_name": "Georgia Ventures",
+              "date": "11-04-2025",
+              "type": "Credit",
+              "description": "Fedwire Credit Via: Wells Fargo Bank, N.A./121000248 B/O: Georgia Venture Holdings Corp. NY 11229 Ref: Chase Nyc/Ctr/Bnf=Threepeaks Brands, Inc. Surprise AZ 85387-2830 US/Ac-000000008978 Rfb=Ow00006271745783 Bbi=/Chgs/USD0,00/ Imad: 110411B7033R015528 Trn: 1130371308Ff",
+              "amount": 7000.0,
+              "non_true_revenue": 1
+            },
+            {
+              "mca_name": "Georgia Ventures",
+              "date": "11-24-2025",
+              "type": "Credit",
+              "description": "Orig CO Name: Georgia Venture Orig ID:Bizedp Desc Date: 112125 CO Entry Descr: Vendor Sec:CCD Trace#:091000017622249 Eed:251124 Ind ID:Dpaaakefec Ind Name: Threepeaks Brands Inc Wfb Directpay Trn: 3287622249Tc",
+              "amount": 1600.0,
+              "non_true_revenue": 1
+            },
+            {
+              "mca_name": "Silverline",
+              "date": "11-25-2025",
+              "type": "Credit",
+              "description": "Fedwire Credit Via: Optimumbank/067015096 B/O: Silverlineservices LLC Rockville Centre NY 115704912 Ref: Chase Nyc/Ctr/Bnf=Threepeaks Brands, Inc. Surprise AZ 85387-2830 US/Ac-000000008978 Rfb=Funding Imad: 1125Gmqfmp01037643 Trn: 1249091329Ff",
+              "amount": 2595.0,
+              "non_true_revenue": 1
+            }
+          ],
+          "mca_withdrawal": [
+            {
+              "mca_name": "LCF",
+              "date": "11-03-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Lcf 8884992939 Orig ID:6274933380 Desc Date:251031 CO Entry Descr:Lc10310824Sec: CCD Trace#:122287252810725 Eed:251103 Ind ID:Qj000005Yjo0Mak Ind Name: Threepeaks Brand Scheduled Remittance 006Qj00000Ju9H Qiaa Trn: 3072810725Tc",
+              "amount": 291.8
+            },
+            {
+              "mca_name": "LCF",
+              "date": "11-04-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Lcf 8884992939 Orig ID:6274933380 Desc Date:251103 CO Entry Descr:Lc11030925Sec: CCD Trace#: 122287254715527 Eed:251104 Ind ID:Nr000001Pstrmaw Ind Name: Threepeaks Brand Scheduled Remittance 006Qj00000Ju9H Qiaa Trn: 3084715527Tc",
+              "amount": 291.8
+            },
+            {
+              "mca_name": "On Deck",
+              "date": "11-04-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Ondeck Capital17 Orig ID:882653807A Desc Date:251104 CO Entry Descr:38859 Sec: CCD Trace#:113024161482090 Eed:251104 Ind ID:296007612 Ind Name: Threepeaks Brands, Inc 20251104E Trn: 3081482090Tc",
+              "amount": 838.75
+            },
+            {
+              "mca_name": "Georgia Ventures",
+              "date": "11-05-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Georgiaventureho Orig ID:562147953C Desc Date:251104 CO Entry Descr: Achpaymentsec: CCD Trace#: 061104598836425 Eed:251105 Ind ID:W003 Ind Name:Gv1014 Threepeaks Bran Trn: 3098836425Tc",
+              "amount": 1600.0
+            },
+            {
+              "mca_name": "Georgia Ventures",
+              "date": "11-05-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Georgiaventureho Orig ID:562147953C Desc Date:251104 CO Entry Descr: Achpaymentsec: CCD Trace#: 061104598836426 Eed:251105 Ind ID:W002 Ind Name: Gv1014 Threepeaks Bran Trn: 3098836426Tc",
+              "amount": 1600.0
+            },
+            {
+              "mca_name": "Everest Business Funding(or Ebf Holdings)",
+              "date": "11-05-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Ebf Holdings Orig ID:2900922982 Desc Date: CO Entry Descr:Ebf Debit Sec: CCD Trace#: 091000018723202 Eed:251105 Ind ID: 000000012701561 Ind Name: Threepeaks Brands Inc. Trn: 3098723202Tc",
+              "amount": 1136.0
+            },
+            {
+              "mca_name": "Forward Financing",
+              "date": "11-05-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date:251104 CO Entry Descr:9924C065Absec:CCD Trace#:091000018654076 Eed:251105 Ind ID:888-244-9099 Ind Name: Threepeaks B Rands, IN Trn: 3098654076Tc",
+              "amount": 345.0
+            },
+            {
+              "mca_name": "LCF",
+              "date": "11-05-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Lcf 8884992939 Orig ID:6274933380 Desc Date:251104 CO Entry Descr:Lc11040937Sec: CCD Trace#: 122287258794968 Eed:251105 Ind ID:Nr000001Pmdnmak Ind Name: Threepeaks Brand Scheduled Remittance 006Qj00000Ju9H Qiaa Trn: 3098794968Tc",
+              "amount": 291.8
+            },
+            {
+              "mca_name": "Georgia Ventures",
+              "date": "11-06-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Georgiaventureho Orig ID:562147953C Desc Date:251105 CO Entry Descr: Achpaymentsec: CCD Trace#: 061104592715076 Eed:251106 Ind ID:W004 Ind Name:Gv1014 Threepeaks Bran Trn: 3102715076Tc",
+              "amount": 1600.0
+            },
+            {
+              "mca_name": "LCF",
+              "date": "11-06-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Lcf 8884992939 Orig ID:6274933380 Desc Date:251105 CO Entry Descr:Lc11050942Sec: CCD Trace#: 122287252654460 Eed:251106 Ind ID:Nr000001Q8Chmak Ind Name: Threepeaks Brand Scheduled Remittance 006Qj00000Ju9H Qiaa Trn: 3102654460Tc",
+              "amount": 291.8
+            },
+            {
+              "mca_name": "Georgia Ventures",
+              "date": "11-07-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Georgiaventureho Orig ID:562147953C Desc Date:251106 CO Entry Descr: Achpaymentsec: CCD Trace#: 061104594710143 Eed:251107 Ind ID:W005 Ind Name: Gv1014 Threepeaks Bran Trn: 3114710143Tc",
+              "amount": 1600.0
+            },
+            {
+              "mca_name": "Georgia Ventures",
+              "date": "11-07-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Georgiaventureho Orig ID:562147953C Desc Date:251106 CO Entry Descr: Achpaymentsec: CCD Trace#: 061104594710144 Eed:251107 Ind ID:W006 Ind Name:Gv1014 Threepeaks Bran Trn: 3114710144Tc",
+              "amount": 1600.0
+            },
+            {
+              "mca_name": "LCF",
+              "date": "11-07-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Lcf 8884992939 Orig ID:6274933380 Desc Date:251106 CO Entry Descr:Lc11060926Sec: CCD Trace#: 122287254710004 Eed:251107 Ind ID:Nr000001Qqrnma4 Ind Name: Threepeaks Brand Scheduled Remittance 006Qj00000Ju9H Qiaa Trn: 3114710004Tc",
+              "amount": 291.8
+            },
+            {
+              "mca_name": "Georgia Ventures",
+              "date": "11-10-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Georgiaventureho Orig ID:562147953C Desc Date:251107 CO Entry Descr: Achpaymentsec: CCD Trace#: 061104599103818 Eed: 251110 Ind ID:W007 Ind Name: Gv1014 Threepeaks Bran Trn: 3149103818Tc",
+              "amount": 1600.0
+            },
+            {
+              "mca_name": "Georgia Ventures",
+              "date": "11-10-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Georgiaventureho Orig ID:562147953C Desc Date:251107 CO Entry Descr: Achpaymentsec: CCD Trace#: 061104599103819 Eed:251110 Ind ID:W008 Ind Name: Gv1014 Threepeaks Bran Trn: 3149103819Tc",
+              "amount": 1600.0
+            },
+            {
+              "mca_name": "LCF",
+              "date": "11-10-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Lcf 8884992939 Orig ID:6274933380 Desc Date:251107 CO Entry Descr:Lc11071041 Sec: CCD Trace#: 122287259104200 Eed: 251110 Ind ID:Nr000001Qjlxmak Ind Name: Threepeaks Brand Scheduled Remittance 006Qj00000Ju9H Qiaa Trn: 3149104200Tc",
+              "amount": 291.8
+            },
+            {
+              "mca_name": "Everest Business Funding(or Ebf Holdings)",
+              "date": "11-12-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Ebf Holdings Orig ID:2900922982 Desc Date: CO Entry Descr:Ebf Debit Sec: CCD Trace#: 091000015328237 Eed: 251112 Ind ID: 000000012733815 Ind Name: Threepeaks Brands Inc. Trn: 3165328237Tc",
+              "amount": 1136.0
+            },
+            {
+              "mca_name": "Forward Financing",
+              "date": "11-12-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date: 251110 CO Entry Descr:27302E10A1 Sec: CCD Trace#: 091000015338172 Eed: 251112 Ind ID:888-244-9099 Ind Name: Threepeaks B Rands, IN Trn: 3165338172Tc",
+              "amount": 345.0
+            },
+            {
+              "mca_name": "LCF",
+              "date": "11-12-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Lcf 8884992939 Orig ID:6274933380 Desc Date:251110 CO Entry Descr:Lc11100903Sec: CCD Trace#: 122287255364806 Eed:251112 Ind ID:Nr000001Rtwpmao Ind Name: Threepeaks Brand Scheduled Remittance 006Qj00000Ju9H Qiaa Trn: 3165364806Tc",
+              "amount": 291.8
+            },
+            {
+              "mca_name": "Georgia Ventures",
+              "date": "11-12-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Georgiaventureho Orig ID:562147953C Desc Date:251110 CO Entry Descr: Achpaymentsec: CCD Trace#: 061104595282603 Eed:251112 Ind ID:W010 Ind Name: Gv1014 Threepeaks Bran Trn: 3165282603Tc",
+              "amount": 1600.0
+            },
+            {
+              "mca_name": "Georgia Ventures",
+              "date": "11-12-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Georgiaventureho Orig ID:562147953C Desc Date:251110 CO Entry Descr: Achpaymentsec: CCD Trace#:061104595282604 Eed: 251112 Ind ID:W009 Ind Name: Gv1014 Threepeaks Bran Trn: 3165282604Tc",
+              "amount": 1600.0
+            },
+            {
+              "mca_name": "On Deck",
+              "date": "11-12-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Ondeck Capital22 Orig ID:880983410E Desc Date: 251112 CO Entry Descr:39039 Sec: CCD Trace#:113024162507471 Eed:251112 Ind ID:297266255 Ind Name: Threepeaks Brands, Inc 20251112F Trn: 3162507471Tc",
+              "amount": 838.75
+            },
+            {
+              "mca_name": "Georgia Ventures",
+              "date": "11-13-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Georgiaventureho Orig ID:562147953C Desc Date:251112 CO Entry Descr: Achpaymentsec: CCD Trace#: 061104592153034 Eed:251113 Ind ID:W011 Ind Name:Gv1014 Threepeaks Bran Trn: 3172153034Tc",
+              "amount": 1600.0
+            },
+            {
+              "mca_name": "Georgia Ventures",
+              "date": "11-13-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Georgiaventureho Orig ID:562147953C Desc Date:251112 CO Entry Descr: Achpaymentsec: CCD Trace#: 061104592153035 Eed:251113 Ind ID:W012 Ind Name: Gv1014 Threepeaks Bran Trn: 3172153035Tc",
+              "amount": 1600.0
+            },
+            {
+              "mca_name": "LCF",
+              "date": "11-13-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Lcf 8884992939 Orig ID:6274933380 Desc Date:251112 CO Entry Descr:Lc11120959Sec: CCD Trace#:122287252134403 Eed:251113 Ind ID:Nr000001S3Sbma0 Ind Name: Threepeaks Brand Scheduled Remittance 006Qj00000Ju9H Qiaa Trn: 3172134403Tc",
+              "amount": 291.8
+            },
+            {
+              "mca_name": "LCF",
+              "date": "11-14-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Lcf 8884992939 Orig ID:6274933380 Desc Date:251113 CO Entry Descr:Lc11130945Sec: CCD Trace#: 122287250327766 Eed:251114 Ind ID:Nr000001Smuamag Ind Name: Threepeaks Brand Scheduled Remittance 006Qj00000Ju9H Qiaa Trn: 3180327766Tc",
+              "amount": 291.8
+            },
+            {
+              "mca_name": "LCF",
+              "date": "11-17-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Lcf 8884992939 Orig ID:6274933380 Desc Date:251114 CO Entry Descr:Lc11140949Sec: CCD Trace#: 122287259815472 Eed:251117 Ind ID:Nr000001Sgykma0 Ind Name: Threepeaks Brand Scheduled Remittance 006Qj00000Ju9H Qiaa Trn: 3219815472Tc",
+              "amount": 291.8
+            },
+            {
+              "mca_name": "LCF",
+              "date": "11-18-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Lcf 8884992939 Orig ID:6274933380 Desc Date:251117 CO Entry Descr:Lc11170924Sec: CCD Trace#: 122287255282151 Eed:251118 Ind ID:Nr000001 Tkyomag Ind Name: Threepeaks Brand Scheduled Remittance 006Qj00000Ju9H Qiaa Trn: 3225282151 Tc",
+              "amount": 291.8
+            },
+            {
+              "mca_name": "On Deck",
+              "date": "11-18-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Ondeck Capital22 Orig ID:880983410E Desc Date: 251118 CO Entry Descr:39201 Sec: CCD Trace#: 113024160521294 Eed: 251118 Ind ID: 298381740 Ind Name: Threepeaks Brands, Inc 20251118E Trn: 3220521294Tc",
+              "amount": 838.75
+            },
+            {
+              "mca_name": "Everest Business Funding(or Ebf Holdings)",
+              "date": "11-19-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Ebf Holdings Orig ID:2900922982 Desc Date: CO Entry Descr:Ebf Debit Sec: CCD Trace#: 091000015886592 Eed: 251119 Ind ID:000000012771425 Ind Name: Threepeaks Brands Inc. Trn: 3235886592Tc",
+              "amount": 1136.0
+            },
+            {
+              "mca_name": "Forward Financing",
+              "date": "11-19-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date: 251118 CO Entry Descr:F12Adcf35Bsec: CCD Trace#: 091000015872344 Eed: 251119 Ind ID:888-244-9099 Ind Name: Threepeaks B Rands, IN Trn: 3235872344Tc",
+              "amount": 345.0
+            },
+            {
+              "mca_name": "LCF",
+              "date": "11-19-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Lcf 8884992939 Orig ID:6274933380 Desc Date: 251118 CO Entry Descr:Lc11180906Sec: CCD Trace#: 122287255936805 Eed:251119 Ind ID:Nr000001 Tgmqmas Ind Name: Threepeaks Brand Scheduled Remittance 006Qj00000Ju9H Qiaa Trn: 3235936805Tc",
+              "amount": 291.8
+            },
+            {
+              "mca_name": "LCF",
+              "date": "11-20-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Lcf 8884992939 Orig ID:6274933380 Desc Date:251119 CO Entry Descr:Lc11190950Sec: CCD Trace#: 122287253522333 Eed:251120 Ind ID:Nr000001U34Emac Ind Name: Threepeaks Brand Scheduled Remittance 006Qj00000Ju9H Qiaa Trn: 3243522333Tc",
+              "amount": 291.8
+            },
+            {
+              "mca_name": "LCF",
+              "date": "11-21-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Lcf 8884992939 Orig ID:6274933380 Desc Date:251120 CO Entry Descr:Lc11200957Sec: CCD Trace#:122287253697067 Eed: 251121 Ind ID:Nr000001Uo2Cmag Ind Name: Threepeaks Brand Scheduled Remittance 006Qj00000Ju9H Qiaa Trn: 3253697067Tc",
+              "amount": 291.8
+            },
+            {
+              "mca_name": "LCF",
+              "date": "11-24-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Lcf 8884992939 Orig ID:6274933380 Desc Date:251121 CO Entry Descr:Lc11210938Sec: CCD Trace#: 122287257612917 Eed:251124 Ind ID:Nr000001Uh8Pmas Ind Name: Threepeaks Brand Scheduled Remittance 006Qj00000Ju9H Qiaa Trn: 3287612917Tc",
+              "amount": 291.8
+            },
+            {
+              "mca_name": "LCF",
+              "date": "11-25-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Lcf 8884992939 Orig ID:6274933380 Desc Date:251124 CO Entry Descr:Lc11240920Sec: CCD Trace#: 122287253198594 Eed:251125 Ind ID:Nr000001 Vnymmag Ind Name: Threepeaks Brand Scheduled Remittance 006Qj00000Ju9H Qiaa Trn: 3293198594Tc",
+              "amount": 291.8
+            },
+            {
+              "mca_name": "On Deck",
+              "date": "11-25-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Ondeck Capital22 Orig ID:880983410E Desc Date: 251125 CO Entry Descr:39407 Sec: CCD Trace#: 113024164820254 Eed: 251125 Ind ID: 299580574 Ind Name: Threepeaks Brands, Inc 20251125E Trn: 3294820254Tc",
+              "amount": 838.75
+            },
+            {
+              "mca_name": "Everest Business Funding(or Ebf Holdings)",
+              "date": "11-26-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Ebf Holdings Orig ID: 2900922982 Desc Date: CO Entry Descr:Ebf Debit Sec: CCD Trace#:091000014789710 Eed:251126 Ind ID:000000012807781 Ind Name: Threepeaks Brands Inc. Trn: 3304789710Tc",
+              "amount": 1136.0
+            },
+            {
+              "mca_name": "Silverline",
+              "date": "11-26-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Silverline Servi Orig ID:562147953C Desc Date: 251125 CO Entry Descr: Achpaymentsec: CCD Trace#: 061104594874012 Eed: 251126 Ind ID:W014 Ind Name: Threepeaks Brands 9433 Trn: 3304874012Tc",
+              "amount": 385.0
+            },
+            {
+              "mca_name": "Forward Financing",
+              "date": "11-26-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date:251125 CO Entry Descr: 1812B9C1B9Sec: CCD Trace#: 091000014835842 Eed:251126 Ind ID:888-244-9099 Ind Name: Threepeaks B Rands, IN Trn: 3304835842Tc",
+              "amount": 345.0
+            },
+            {
+              "mca_name": "LCF",
+              "date": "11-26-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Lcf 8884992939 Orig ID:6274933380 Desc Date:251125 CO Entry Descr:Lc11251005Sec: CCD Trace#: 122287254905967 Eed:251126 Ind ID:Nr000001Vj1 Zmas Ind Name: Threepeaks Brand Scheduled Remittance 006Qj00000Ju9H Qiaa Trn: 3304905967Tc",
+              "amount": 291.8
+            },
+            {
+              "mca_name": "Silverline",
+              "date": "11-28-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Silverline Servi Orig ID:562147953C Desc Date: 251126 CO Entry Descr: Achpaymentsec: CCD Trace#: 061104598926067 Eed:251128 Ind ID:W015 Ind Name: Threepeaks Brands 9436 Trn: 3328926067Tc",
+              "amount": 385.0
+            },
+            {
+              "mca_name": "LCF",
+              "date": "11-28-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Lcf 8884992939 Orig ID:6274933380 Desc Date:251126 CO Entry Descr:Lc11261003Sec: CCD Trace#: 122287259164431 Eed:251128 Ind ID:Nr000001W1Hnmak Ind Name: Threepeaks Brand Scheduled Remittance 006Qj00000Ju9H Qiaa Trn: 3329164431 Tc",
+              "amount": 291.8
+            }
+          ],
+          "returned_items": [],
+          "overdrafts": [],
+          "service_charges": [
+            {
+              "date": "11-03-2025",
+              "type": "Debit",
+              "description": "Standard ACH Pmnts Initial Fee Qty = 6",
+              "amount": 15.0
+            },
+            {
+              "date": "11-03-2025",
+              "type": "Debit",
+              "description": "Rtp/Same Day - Low Value",
+              "amount": 16.44
+            },
+            {
+              "date": "11-04-2025",
+              "type": "Debit",
+              "description": "Domestic Incoming Wire Fee",
+              "amount": 15.0
+            },
+            {
+              "date": "11-25-2025",
+              "type": "Debit",
+              "description": "Online Domestic Wire Fee",
+              "amount": 25.0
+            },
+            {
+              "date": "11-25-2025",
+              "type": "Debit",
+              "description": "Domestic Incoming Wire Fee",
+              "amount": 15.0
+            }
+          ],
+          "atm_cash_withdrawal": [],
+          "internal_transfer_deposit": [],
+          "other_transfer_deposit": [],
+          "internal_transfer_withdrawal": [],
+          "other_transfer_withdrawal": [
+            {
+              "date": "11-10-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Oefranchisingllc Orig ID:9000326709 Desc Date: 111025 CO Entry Descr:Sigonfile Sec:CCD Trace#: 111924683956956 Eed:251110 Ind ID:Px0Hqk Ind Name: Three Peaks Brands, IN 805-699-2040 Trn: 3143956956Tc",
+              "amount": 162.26
+            },
+            {
+              "date": "11-12-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Afco Direct Orig ID: 1472319830 Desc Date: 251110 CO Entry Descr:Payments Sec:CCD Trace#:091000015330983 Eed: 251112 Ind ID:27589853 Ind Name: Threepeaks Brands Inc Trn: 3165330983Tc",
+              "amount": 376.4
+            },
+            {
+              "date": "11-25-2025",
+              "type": "Debit",
+              "description": "11/25 Online Domestic Wire Transfer A/C: Chante Paynter Chante Carol Paynterpaulsboro NJ 08066 US Ref: Per Adam Graham Trn: 3459455329Es",
+              "amount": 1000.0
+            }
+          ],
+          "standard_deposit": [
+            {
+              "date": "11-06-2025",
+              "type": "Credit",
+              "description": "Orig CO Name: Demkel Sales Sol Orig ID:9115191002 Desc Date: CO Entry Descr:Corp Pay Sec:CCD Trace#: 041001034632102 Eed:251106 Ind ID:SBS Smoothie Ind Name: Three Peaks Brands LLC Trn: 3104632102Tc",
+              "amount": 14700.0,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11-12-2025",
+              "type": "Credit",
+              "description": "Orig CO Name: Demkel Sales Sol Orig ID:9115191002 Desc Date: CO Entry Descr:Corp Pay Sec:CCD Trace#: 041001035365457 Eed:251112 Ind ID:SBS Smoothie Ind Name: Three Peaks Brands LLC Trn: 3165365457Tc",
+              "amount": 2499.0,
+              "non_true_revenue": 0
+            }
+          ],
+          "standard_withdrawal": [
+            {
+              "date": "11-03-2025",
+              "type": "Debit",
+              "description": "CHECK NO. 1123 *^",
+              "amount": 375.0
+            },
+            {
+              "date": "11-04-2025",
+              "type": "Debit",
+              "description": "CHECK NO. 1124 ^",
+              "amount": 18242.7
+            },
+            {
+              "date": "11-04-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Zoom.Com 888-799 Orig ID: 1800948598 Desc Date: CO Entry Descr:Zoom.Com 8Sec: Web Trace#: 091000014653122 Eed:251104 Ind ID:St-W8P6W2Q3T1S3 Ind Name: Carleton Prince Trn: 3084653122Tc",
+              "amount": 33.98
+            },
+            {
+              "date": "11-05-2025",
+              "type": "Debit",
+              "description": "11/05 Payment To Chase Card Ending IN 4493",
+              "amount": 1891.77
+            },
+            {
+              "date": "11-06-2025",
+              "type": "Debit",
+              "description": "CHECK NO. 1119 ^",
+              "amount": 120.0
+            },
+            {
+              "date": "11-13-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Wells Fargo Card Orig ID:3411650794 Desc Date: 111225 CO Entry Descr:Ccpymt Sec: Web Trace#: 091000017132647 Eed:251113 Ind ID:90473801326615 Ind Name: Prince Carleton Trn: 3177132647Tc",
+              "amount": 495.96
+            },
+            {
+              "date": "11-17-2025",
+              "type": "Debit",
+              "description": "11/16 Payment To Chase Card Ending IN 4576",
+              "amount": 40.0
+            }
+          ]
+        }
+      ]
+    },
+    "raw_output": "```json\n{\n  \"accounts\": [\n    {\n      \"account_number\": \"000000897883853\",\n      \"account_type\": \"Chase Business Complete Checking\",\n      \"mca_deposit\": [\n        {\n          \"mca_name\": \"Georgia Ventures\",\n          \"date\": \"11-04-2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Fedwire Credit Via: Wells Fargo Bank, N.A./121000248 B/O: Georgia Venture Holdings Corp. NY 11229 Ref: Chase Nyc/Ctr/Bnf=Threepeaks Brands, Inc. Surprise AZ 85387-2830 US/Ac-000000008978 Rfb=Ow00006271745783 Bbi=/Chgs/USD0,00/ Imad: 110411B7033R015528 Trn: 1130371308Ff\",\n          \"amount\": 7000.0,\n          \"non_true_revenue\": 1\n        },\n        {\n          \"mca_name\": \"Georgia Ventures\",\n          \"date\": \"11-24-2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Orig CO Name: Georgia Venture Orig ID:Bizedp Desc Date: 112125 CO Entry Descr: Vendor Sec:CCD Trace#:091000017622249 Eed:251124 Ind ID:Dpaaakefec Ind Name: Threepeaks Brands Inc Wfb Directpay Trn: 3287622249Tc\",\n          \"amount\": 1600.0,\n          \"non_true_revenue\": 1\n        },\n        {\n          \"mca_name\": \"Silverline\",\n          \"date\": \"11-25-2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Fedwire Credit Via: Optimumbank/067015096 B/O: Silverlineservices LLC Rockville Centre NY 115704912 Ref: Chase Nyc/Ctr/Bnf=Threepeaks Brands, Inc. Surprise AZ 85387-2830 US/Ac-000000008978 Rfb=Funding Imad: 1125Gmqfmp01037643 Trn: 1249091329Ff\",\n          \"amount\": 2595.0,\n          \"non_true_revenue\": 1\n        }\n      ],\n      \"mca_withdrawal\": [\n        {\n          \"mca_name\": \"LCF\",\n          \"date\": \"11-03-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Lcf 8884992939 Orig ID:6274933380 Desc Date:251031 CO Entry Descr:Lc10310824Sec: CCD Trace#:122287252810725 Eed:251103 Ind ID:Qj000005Yjo0Mak Ind Name: Threepeaks Brand Scheduled Remittance 006Qj00000Ju9H Qiaa Trn: 3072810725Tc\",\n          \"amount\": 291.8\n        },\n        {\n          \"mca_name\": \"LCF\",\n          \"date\": \"11-04-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Lcf 8884992939 Orig ID:6274933380 Desc Date:251103 CO Entry Descr:Lc11030925Sec: CCD Trace#: 122287254715527 Eed:251104 Ind ID:Nr000001Pstrmaw Ind Name: Threepeaks Brand Scheduled Remittance 006Qj00000Ju9H Qiaa Trn: 3084715527Tc\",\n          \"amount\": 291.8\n        },\n        {\n          \"mca_name\": \"On Deck\",\n          \"date\": \"11-04-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Ondeck Capital17 Orig ID:882653807A Desc Date:251104 CO Entry Descr:38859 Sec: CCD Trace#:113024161482090 Eed:251104 Ind ID:296007612 Ind Name: Threepeaks Brands, Inc 20251104E Trn: 3081482090Tc\",\n          \"amount\": 838.75\n        },\n        {\n          \"mca_name\": \"Georgia Ventures\",\n          \"date\": \"11-05-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Georgiaventureho Orig ID:562147953C Desc Date:251104 CO Entry Descr: Achpaymentsec: CCD Trace#: 061104598836425 Eed:251105 Ind ID:W003 Ind Name:Gv1014 Threepeaks Bran Trn: 3098836425Tc\",\n          \"amount\": 1600.0\n        },\n        {\n          \"mca_name\": \"Georgia Ventures\",\n          \"date\": \"11-05-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Georgiaventureho Orig ID:562147953C Desc Date:251104 CO Entry Descr: Achpaymentsec: CCD Trace#: 061104598836426 Eed:251105 Ind ID:W002 Ind Name: Gv1014 Threepeaks Bran Trn: 3098836426Tc\",\n          \"amount\": 1600.0\n        },\n        {\n          \"mca_name\": \"Everest Business Funding(or Ebf Holdings)\",\n          \"date\": \"11-05-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Ebf Holdings Orig ID:2900922982 Desc Date: CO Entry Descr:Ebf Debit Sec: CCD Trace#: 091000018723202 Eed:251105 Ind ID: 000000012701561 Ind Name: Threepeaks Brands Inc. Trn: 3098723202Tc\",\n          \"amount\": 1136.0\n        },\n        {\n          \"mca_name\": \"Forward Financing\",\n          \"date\": \"11-05-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date:251104 CO Entry Descr:9924C065Absec:CCD Trace#:091000018654076 Eed:251105 Ind ID:888-244-9099 Ind Name: Threepeaks B Rands, IN Trn: 3098654076Tc\",\n          \"amount\": 345.0\n        },\n        {\n          \"mca_name\": \"LCF\",\n          \"date\": \"11-05-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Lcf 8884992939 Orig ID:6274933380 Desc Date:251104 CO Entry Descr:Lc11040937Sec: CCD Trace#: 122287258794968 Eed:251105 Ind ID:Nr000001Pmdnmak Ind Name: Threepeaks Brand Scheduled Remittance 006Qj00000Ju9H Qiaa Trn: 3098794968Tc\",\n          \"amount\": 291.8\n        },\n        {\n          \"mca_name\": \"Georgia Ventures\",\n          \"date\": \"11-06-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Georgiaventureho Orig ID:562147953C Desc Date:251105 CO Entry Descr: Achpaymentsec: CCD Trace#: 061104592715076 Eed:251106 Ind ID:W004 Ind Name:Gv1014 Threepeaks Bran Trn: 3102715076Tc\",\n          \"amount\": 1600.0\n        },\n        {\n          \"mca_name\": \"LCF\",\n          \"date\": \"11-06-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Lcf 8884992939 Orig ID:6274933380 Desc Date:251105 CO Entry Descr:Lc11050942Sec: CCD Trace#: 122287252654460 Eed:251106 Ind ID:Nr000001Q8Chmak Ind Name: Threepeaks Brand Scheduled Remittance 006Qj00000Ju9H Qiaa Trn: 3102654460Tc\",\n          \"amount\": 291.8\n        },\n        {\n          \"mca_name\": \"Georgia Ventures\",\n          \"date\": \"11-07-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Georgiaventureho Orig ID:562147953C Desc Date:251106 CO Entry Descr: Achpaymentsec: CCD Trace#: 061104594710143 Eed:251107 Ind ID:W005 Ind Name: Gv1014 Threepeaks Bran Trn: 3114710143Tc\",\n          \"amount\": 1600.0\n        },\n        {\n          \"mca_name\": \"Georgia Ventures\",\n          \"date\": \"11-07-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Georgiaventureho Orig ID:562147953C Desc Date:251106 CO Entry Descr: Achpaymentsec: CCD Trace#: 061104594710144 Eed:251107 Ind ID:W006 Ind Name:Gv1014 Threepeaks Bran Trn: 3114710144Tc\",\n          \"amount\": 1600.0\n        },\n        {\n          \"mca_name\": \"LCF\",\n          \"date\": \"11-07-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Lcf 8884992939 Orig ID:6274933380 Desc Date:251106 CO Entry Descr:Lc11060926Sec: CCD Trace#: 122287254710004 Eed:251107 Ind ID:Nr000001Qqrnma4 Ind Name: Threepeaks Brand Scheduled Remittance 006Qj00000Ju9H Qiaa Trn: 3114710004Tc\",\n          \"amount\": 291.8\n        },\n        {\n          \"mca_name\": \"Georgia Ventures\",\n          \"date\": \"11-10-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Georgiaventureho Orig ID:562147953C Desc Date:251107 CO Entry Descr: Achpaymentsec: CCD Trace#: 061104599103818 Eed: 251110 Ind ID:W007 Ind Name: Gv1014 Threepeaks Bran Trn: 3149103818Tc\",\n          \"amount\": 1600.0\n        },\n        {\n          \"mca_name\": \"Georgia Ventures\",\n          \"date\": \"11-10-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Georgiaventureho Orig ID:562147953C Desc Date:251107 CO Entry Descr: Achpaymentsec: CCD Trace#: 061104599103819 Eed:251110 Ind ID:W008 Ind Name: Gv1014 Threepeaks Bran Trn: 3149103819Tc\",\n          \"amount\": 1600.0\n        },\n        {\n          \"mca_name\": \"LCF\",\n          \"date\": \"11-10-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Lcf 8884992939 Orig ID:6274933380 Desc Date:251107 CO Entry Descr:Lc11071041 Sec: CCD Trace#: 122287259104200 Eed: 251110 Ind ID:Nr000001Qjlxmak Ind Name: Threepeaks Brand Scheduled Remittance 006Qj00000Ju9H Qiaa Trn: 3149104200Tc\",\n          \"amount\": 291.8\n        },\n        {\n          \"mca_name\": \"Everest Business Funding(or Ebf Holdings)\",\n          \"date\": \"11-12-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Ebf Holdings Orig ID:2900922982 Desc Date: CO Entry Descr:Ebf Debit Sec: CCD Trace#: 091000015328237 Eed: 251112 Ind ID: 000000012733815 Ind Name: Threepeaks Brands Inc. Trn: 3165328237Tc\",\n          \"amount\": 1136.0\n        },\n        {\n          \"mca_name\": \"Forward Financing\",\n          \"date\": \"11-12-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date: 251110 CO Entry Descr:27302E10A1 Sec: CCD Trace#: 091000015338172 Eed: 251112 Ind ID:888-244-9099 Ind Name: Threepeaks B Rands, IN Trn: 3165338172Tc\",\n          \"amount\": 345.0\n        },\n        {\n          \"mca_name\": \"LCF\",\n          \"date\": \"11-12-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Lcf 8884992939 Orig ID:6274933380 Desc Date:251110 CO Entry Descr:Lc11100903Sec: CCD Trace#: 122287255364806 Eed:251112 Ind ID:Nr000001Rtwpmao Ind Name: Threepeaks Brand Scheduled Remittance 006Qj00000Ju9H Qiaa Trn: 3165364806Tc\",\n          \"amount\": 291.8\n        },\n        {\n          \"mca_name\": \"Georgia Ventures\",\n          \"date\": \"11-12-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Georgiaventureho Orig ID:562147953C Desc Date:251110 CO Entry Descr: Achpaymentsec: CCD Trace#: 061104595282603 Eed:251112 Ind ID:W010 Ind Name: Gv1014 Threepeaks Bran Trn: 3165282603Tc\",\n          \"amount\": 1600.0\n        },\n        {\n          \"mca_name\": \"Georgia Ventures\",\n          \"date\": \"11-12-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Georgiaventureho Orig ID:562147953C Desc Date:251110 CO Entry Descr: Achpaymentsec: CCD Trace#:061104595282604 Eed: 251112 Ind ID:W009 Ind Name: Gv1014 Threepeaks Bran Trn: 3165282604Tc\",\n          \"amount\": 1600.0\n        },\n        {\n          \"mca_name\": \"On Deck\",\n          \"date\": \"11-12-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Ondeck Capital22 Orig ID:880983410E Desc Date: 251112 CO Entry Descr:39039 Sec: CCD Trace#:113024162507471 Eed:251112 Ind ID:297266255 Ind Name: Threepeaks Brands, Inc 20251112F Trn: 3162507471Tc\",\n          \"amount\": 838.75\n        },\n        {\n          \"mca_name\": \"Georgia Ventures\",\n          \"date\": \"11-13-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Georgiaventureho Orig ID:562147953C Desc Date:251112 CO Entry Descr: Achpaymentsec: CCD Trace#: 061104592153034 Eed:251113 Ind ID:W011 Ind Name:Gv1014 Threepeaks Bran Trn: 3172153034Tc\",\n          \"amount\": 1600.0\n        },\n        {\n          \"mca_name\": \"Georgia Ventures\",\n          \"date\": \"11-13-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Georgiaventureho Orig ID:562147953C Desc Date:251112 CO Entry Descr: Achpaymentsec: CCD Trace#: 061104592153035 Eed:251113 Ind ID:W012 Ind Name: Gv1014 Threepeaks Bran Trn: 3172153035Tc\",\n          \"amount\": 1600.0\n        },\n        {\n          \"mca_name\": \"LCF\",\n          \"date\": \"11-13-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Lcf 8884992939 Orig ID:6274933380 Desc Date:251112 CO Entry Descr:Lc11120959Sec: CCD Trace#:122287252134403 Eed:251113 Ind ID:Nr000001S3Sbma0 Ind Name: Threepeaks Brand Scheduled Remittance 006Qj00000Ju9H Qiaa Trn: 3172134403Tc\",\n          \"amount\": 291.8\n        },\n        {\n          \"mca_name\": \"LCF\",\n          \"date\": \"11-14-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Lcf 8884992939 Orig ID:6274933380 Desc Date:251113 CO Entry Descr:Lc11130945Sec: CCD Trace#: 122287250327766 Eed:251114 Ind ID:Nr000001Smuamag Ind Name: Threepeaks Brand Scheduled Remittance 006Qj00000Ju9H Qiaa Trn: 3180327766Tc\",\n          \"amount\": 291.8\n        },\n        {\n          \"mca_name\": \"LCF\",\n          \"date\": \"11-17-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Lcf 8884992939 Orig ID:6274933380 Desc Date:251114 CO Entry Descr:Lc11140949Sec: CCD Trace#: 122287259815472 Eed:251117 Ind ID:Nr000001Sgykma0 Ind Name: Threepeaks Brand Scheduled Remittance 006Qj00000Ju9H Qiaa Trn: 3219815472Tc\",\n          \"amount\": 291.8\n        },\n        {\n          \"mca_name\": \"LCF\",\n          \"date\": \"11-18-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Lcf 8884992939 Orig ID:6274933380 Desc Date:251117 CO Entry Descr:Lc11170924Sec: CCD Trace#: 122287255282151 Eed:251118 Ind ID:Nr000001 Tkyomag Ind Name: Threepeaks Brand Scheduled Remittance 006Qj00000Ju9H Qiaa Trn: 3225282151 Tc\",\n          \"amount\": 291.8\n        },\n        {\n          \"mca_name\": \"On Deck\",\n          \"date\": \"11-18-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Ondeck Capital22 Orig ID:880983410E Desc Date: 251118 CO Entry Descr:39201 Sec: CCD Trace#: 113024160521294 Eed: 251118 Ind ID: 298381740 Ind Name: Threepeaks Brands, Inc 20251118E Trn: 3220521294Tc\",\n          \"amount\": 838.75\n        },\n        {\n          \"mca_name\": \"Everest Business Funding(or Ebf Holdings)\",\n          \"date\": \"11-19-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Ebf Holdings Orig ID:2900922982 Desc Date: CO Entry Descr:Ebf Debit Sec: CCD Trace#: 091000015886592 Eed: 251119 Ind ID:000000012771425 Ind Name: Threepeaks Brands Inc. Trn: 3235886592Tc\",\n          \"amount\": 1136.0\n        },\n        {\n          \"mca_name\": \"Forward Financing\",\n          \"date\": \"11-19-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date: 251118 CO Entry Descr:F12Adcf35Bsec: CCD Trace#: 091000015872344 Eed: 251119 Ind ID:888-244-9099 Ind Name: Threepeaks B Rands, IN Trn: 3235872344Tc\",\n          \"amount\": 345.0\n        },\n        {\n          \"mca_name\": \"LCF\",\n          \"date\": \"11-19-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Lcf 8884992939 Orig ID:6274933380 Desc Date: 251118 CO Entry Descr:Lc11180906Sec: CCD Trace#: 122287255936805 Eed:251119 Ind ID:Nr000001 Tgmqmas Ind Name: Threepeaks Brand Scheduled Remittance 006Qj00000Ju9H Qiaa Trn: 3235936805Tc\",\n          \"amount\": 291.8\n        },\n        {\n          \"mca_name\": \"LCF\",\n          \"date\": \"11-20-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Lcf 8884992939 Orig ID:6274933380 Desc Date:251119 CO Entry Descr:Lc11190950Sec: CCD Trace#: 122287253522333 Eed:251120 Ind ID:Nr000001U34Emac Ind Name: Threepeaks Brand Scheduled Remittance 006Qj00000Ju9H Qiaa Trn: 3243522333Tc\",\n          \"amount\": 291.8\n        },\n        {\n          \"mca_name\": \"LCF\",\n          \"date\": \"11-21-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Lcf 8884992939 Orig ID:6274933380 Desc Date:251120 CO Entry Descr:Lc11200957Sec: CCD Trace#:122287253697067 Eed: 251121 Ind ID:Nr000001Uo2Cmag Ind Name: Threepeaks Brand Scheduled Remittance 006Qj00000Ju9H Qiaa Trn: 3253697067Tc\",\n          \"amount\": 291.8\n        },\n        {\n          \"mca_name\": \"LCF\",\n          \"date\": \"11-24-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Lcf 8884992939 Orig ID:6274933380 Desc Date:251121 CO Entry Descr:Lc11210938Sec: CCD Trace#: 122287257612917 Eed:251124 Ind ID:Nr000001Uh8Pmas Ind Name: Threepeaks Brand Scheduled Remittance 006Qj00000Ju9H Qiaa Trn: 3287612917Tc\",\n          \"amount\": 291.8\n        },\n        {\n          \"mca_name\": \"LCF\",\n          \"date\": \"11-25-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Lcf 8884992939 Orig ID:6274933380 Desc Date:251124 CO Entry Descr:Lc11240920Sec: CCD Trace#: 122287253198594 Eed:251125 Ind ID:Nr000001 Vnymmag Ind Name: Threepeaks Brand Scheduled Remittance 006Qj00000Ju9H Qiaa Trn: 3293198594Tc\",\n          \"amount\": 291.8\n        },\n        {\n          \"mca_name\": \"On Deck\",\n          \"date\": \"11-25-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Ondeck Capital22 Orig ID:880983410E Desc Date: 251125 CO Entry Descr:39407 Sec: CCD Trace#: 113024164820254 Eed: 251125 Ind ID: 299580574 Ind Name: Threepeaks Brands, Inc 20251125E Trn: 3294820254Tc\",\n          \"amount\": 838.75\n        },\n        {\n          \"mca_name\": \"Everest Business Funding(or Ebf Holdings)\",\n          \"date\": \"11-26-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Ebf Holdings Orig ID: 2900922982 Desc Date: CO Entry Descr:Ebf Debit Sec: CCD Trace#:091000014789710 Eed:251126 Ind ID:000000012807781 Ind Name: Threepeaks Brands Inc. Trn: 3304789710Tc\",\n          \"amount\": 1136.0\n        },\n        {\n          \"mca_name\": \"Silverline\",\n          \"date\": \"11-26-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Silverline Servi Orig ID:562147953C Desc Date: 251125 CO Entry Descr: Achpaymentsec: CCD Trace#: 061104594874012 Eed: 251126 Ind ID:W014 Ind Name: Threepeaks Brands 9433 Trn: 3304874012Tc\",\n          \"amount\": 385.0\n        },\n        {\n          \"mca_name\": \"Forward Financing\",\n          \"date\": \"11-26-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date:251125 CO Entry Descr: 1812B9C1B9Sec: CCD Trace#: 091000014835842 Eed:251126 Ind ID:888-244-9099 Ind Name: Threepeaks B Rands, IN Trn: 3304835842Tc\",\n          \"amount\": 345.0\n        },\n        {\n          \"mca_name\": \"LCF\",\n          \"date\": \"11-26-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Lcf 8884992939 Orig ID:6274933380 Desc Date:251125 CO Entry Descr:Lc11251005Sec: CCD Trace#: 122287254905967 Eed:251126 Ind ID:Nr000001Vj1 Zmas Ind Name: Threepeaks Brand Scheduled Remittance 006Qj00000Ju9H Qiaa Trn: 3304905967Tc\",\n          \"amount\": 291.8\n        },\n        {\n          \"mca_name\": \"Silverline\",\n          \"date\": \"11-28-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Silverline Servi Orig ID:562147953C Desc Date: 251126 CO Entry Descr: Achpaymentsec: CCD Trace#: 061104598926067 Eed:251128 Ind ID:W015 Ind Name: Threepeaks Brands 9436 Trn: 3328926067Tc\",\n          \"amount\": 385.0\n        },\n        {\n          \"mca_name\": \"LCF\",\n          \"date\": \"11-28-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Lcf 8884992939 Orig ID:6274933380 Desc Date:251126 CO Entry Descr:Lc11261003Sec: CCD Trace#: 122287259164431 Eed:251128 Ind ID:Nr000001W1Hnmak Ind Name: Threepeaks Brand Scheduled Remittance 006Qj00000Ju9H Qiaa Trn: 3329164431 Tc\",\n          \"amount\": 291.8\n        }\n      ],\n      \"returned_items\": [],\n      \"overdrafts\": [],\n      \"service_charges\": [\n        {\n          \"date\": \"11-03-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Standard ACH Pmnts Initial Fee Qty = 6\",\n          \"amount\": 15.0\n        },\n        {\n          \"date\": \"11-03-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Rtp/Same Day - Low Value\",\n          \"amount\": 16.44\n        },\n        {\n          \"date\": \"11-04-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Domestic Incoming Wire Fee\",\n          \"amount\": 15.0\n        },\n        {\n          \"date\": \"11-25-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Online Domestic Wire Fee\",\n          \"amount\": 25.0\n        },\n        {\n          \"date\": \"11-25-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Domestic Incoming Wire Fee\",\n          \"amount\": 15.0\n        }\n      ],\n      \"atm_cash_withdrawal\": [],\n      \"internal_transfer_deposit\": [],\n      \"other_transfer_deposit\": [],\n      \"internal_transfer_withdrawal\": [],\n      \"other_transfer_withdrawal\": [\n        {\n          \"date\": \"11-10-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Oefranchisingllc Orig ID:9000326709 Desc Date: 111025 CO Entry Descr:Sigonfile Sec:CCD Trace#: 111924683956956 Eed:251110 Ind ID:Px0Hqk Ind Name: Three Peaks Brands, IN 805-699-2040 Trn: 3143956956Tc\",\n          \"amount\": 162.26\n        },\n        {\n          \"date\": \"11-12-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Afco Direct Orig ID: 1472319830 Desc Date: 251110 CO Entry Descr:Payments Sec:CCD Trace#:091000015330983 Eed: 251112 Ind ID:27589853 Ind Name: Threepeaks Brands Inc Trn: 3165330983Tc\",\n          \"amount\": 376.4\n        },\n        {\n          \"date\": \"11-25-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"11/25 Online Domestic Wire Transfer A/C: Chante Paynter Chante Carol Paynterpaulsboro NJ 08066 US Ref: Per Adam Graham Trn: 3459455329Es\",\n          \"amount\": 1000.0\n        }\n      ],\n      \"standard_deposit\": [\n        {\n          \"date\": \"11-06-2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Orig CO Name: Demkel Sales Sol Orig ID:9115191002 Desc Date: CO Entry Descr:Corp Pay Sec:CCD Trace#: 041001034632102 Eed:251106 Ind ID:SBS Smoothie Ind Name: Three Peaks Brands LLC Trn: 3104632102Tc\",\n          \"amount\": 14700.0,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11-12-2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Orig CO Name: Demkel Sales Sol Orig ID:9115191002 Desc Date: CO Entry Descr:Corp Pay Sec:CCD Trace#: 041001035365457 Eed:251112 Ind ID:SBS Smoothie Ind Name: Three Peaks Brands LLC Trn: 3165365457Tc\",\n          \"amount\": 2499.0,\n          \"non_true_revenue\": 0\n        }\n      ],\n      \"standard_withdrawal\": [\n        {\n          \"date\": \"11-03-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"CHECK NO. 1123 *^\",\n          \"amount\": 375.0\n        },\n        {\n          \"date\": \"11-04-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"CHECK NO. 1124 ^\",\n          \"amount\": 18242.7\n        },\n        {\n          \"date\": \"11-04-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Zoom.Com 888-799 Orig ID: 1800948598 Desc Date: CO Entry Descr:Zoom.Com 8Sec: Web Trace#: 091000014653122 Eed:251104 Ind ID:St-W8P6W2Q3T1S3 Ind Name: Carleton Prince Trn: 3084653122Tc\",\n          \"amount\": 33.98\n        },\n        {\n          \"date\": \"11-05-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"11/05 Payment To Chase Card Ending IN 4493\",\n          \"amount\": 1891.77\n        },\n        {\n          \"date\": \"11-06-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"CHECK NO. 1119 ^\",\n          \"amount\": 120.0\n        },\n        {\n          \"date\": \"11-13-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Wells Fargo Card Orig ID:3411650794 Desc Date: 111225 CO Entry Descr:Ccpymt Sec: Web Trace#: 091000017132647 Eed:251113 Ind ID:90473801326615 Ind Name: Prince Carleton Trn: 3177132647Tc\",\n          \"amount\": 495.96\n        },\n        {\n          \"date\": \"11-17-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"11/16 Payment To Chase Card Ending IN 4576\",\n          \"amount\": 40.0\n        }\n      ]\n    }\n  ]\n}\n```",
+    "token_count": {
+      "estimated_tokens": 2239
+    },
+    "failure_reason": null
+  }
+}

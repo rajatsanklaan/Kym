@@ -1,0 +1,1190 @@
+{
+  "document_name": "Case59.pdf",
+  "pipeline_status": "completed",
+  "processing_metadata": {
+    "start_time": "2026-02-04T15:08:46.218684",
+    "end_time": "2026-02-04T15:11:39.611732",
+    "parsing_time_seconds": 96.59463,
+    "bsi_time_seconds": 76.781977,
+    "total_time_seconds": 173.37660699999998
+  },
+  "parsing_agent_result": {
+    "agent_name": "parsing_agent",
+    "processing_status": "success",
+    "start_time": "2026-02-04T15:08:46.222423",
+    "end_time": "2026-02-04T15:10:22.816806",
+    "parsed_json": {
+      "bank_statement_information": {
+        "bank_name": "WELLS FARGO",
+        "account_holder": "AP RENOVATIONS & FLOORING LLC ALMA AMPARO",
+        "statement_start_date": "10/01/2025",
+        "statement_end_date": "10/31/2025",
+        "n_days": 31,
+        "n_month": [
+          10
+        ],
+        "business_address": "6411 HERITAGE RUN MORROW GA 30260-2563"
+      },
+      "accounts": [
+        {
+          "account_number": "8183990996",
+          "account_type": "Initiate Business Checking",
+          "account_summary": {
+            "beginning_balance": -10.0,
+            "ending_balance": 991.58,
+            "total_deposits": 40546.02,
+            "total_withdrawals": 39544.44,
+            "total_deposits_count": null,
+            "total_withdrawals_count": null,
+            "avg_daily_balance": 1816.0,
+            "overdraft_days": 7
+          },
+          "transactions": [
+            {
+              "date": "10/08/2025",
+              "description": "Online Transfer From Amparo A Way2Save Savings xxxxxx6838 Ref #lb0V7Tjft2 on 10/08/25",
+              "amount": 10.0,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "10/08/2025",
+              "description": "Online Transfer From Amparo A Everyday Checking xxxxxx4316 Ref #lb0V7Tjlth on 10/08/25",
+              "amount": 162.0,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "10/08/2025",
+              "description": "Online Transfer to Amparo A Everyday Checking xxxxxx4316 Ref #lb0V7Tkk39 on 10/08/25",
+              "amount": 150.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "10/09/2025",
+              "description": "Money Transfer authorized on 10/08 From Dave Inc CA S585282069091141 Card 4080",
+              "amount": 75.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "10/09/2025",
+              "description": "Money Transfer authorized on 10/08 From Dave Inc CA S465282069510911 Card 4080",
+              "amount": 75.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "10/10/2025",
+              "description": "Money Transfer authorized on 10/08 Dave Inc Dave.Com CA S385282067938050 Card 4080",
+              "amount": 161.12,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/14/2025",
+              "description": "WT Fed#02M00 Notprovided /Org=Wg Elevate Home LLC Srf# 3003875284Es Trn#251014014306 Rfb# 3003875284Es",
+              "amount": 20000.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 0
+            },
+            {
+              "date": "10/14/2025",
+              "description": "Online Transfer From Amparo A Way2Save Savings xxxxxx6838 Ref #lb0V9Nxqqv on 10/14/25",
+              "amount": 3000.0,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "10/14/2025",
+              "description": "Online Transfer to Amparo A Way2Save Savings xxxxxx6838 Ref #Ib0V9Nkfpt on 10/14/25",
+              "amount": 3000.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "10/14/2025",
+              "description": "Zelle to Amparo Alexander on 10/14 Ref # Wfct0Zcymxg2",
+              "amount": 400.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/14/2025",
+              "description": "Zelle to Rene on 10/14 Ref # Wfct0Zcyqmjh",
+              "amount": 3000.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/14/2025",
+              "description": "Zelle to MI Amor on 10/14 Ref # Wfct0Zcz799N",
+              "amount": 100.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/14/2025",
+              "description": "Online Transfer to Amparo A Everyday Checking xxxxxx4316 Ref #lb0V9Scpcz on 10/14/25",
+              "amount": 370.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "10/14/2025",
+              "description": "Online Transfer to Amparo A Way2Save Savings xxxxxx6838 Ref #Ib0V9W6Dyl on 10/14/25",
+              "amount": 2000.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "10/14/2025",
+              "description": "Purchase authorized on 10/14 WM Supercenter #1047 Morrow GA P000000252719411 Card 4080",
+              "amount": 157.76,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/15/2025",
+              "description": "Purchase authorized on 10/14 Sams Club #8287 770-960-8228 GA S585287802904218 Card 4080",
+              "amount": 5.94,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/15/2025",
+              "description": "Recurring Payment authorized on 10/14 Samsclub #8287 Morrow GA S345287825061536 Card 4080",
+              "amount": 136.26,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/15/2025",
+              "description": "Zelle to MI Amor on 10/15 Ref # Wfct0Zd3Njlb",
+              "amount": 200.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/15/2025",
+              "description": "Online Transfer to Amparo A Everyday Checking xxxxxx4316 Ref #lb0Vbdghzr on 10/15/25",
+              "amount": 179.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "10/16/2025",
+              "description": "Online Transfer From Amparo A Everyday Checking xxxxxx4316 Ref #lb0Vbgt7Zy on 10/16/25",
+              "amount": 179.0,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "10/16/2025",
+              "description": "Purchase authorized on 10/15 Buildersfirstsourc Tucker GA S355288431213356 Card 4080",
+              "amount": 573.83,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/16/2025",
+              "description": "Purchase authorized on 10/15 Sq *Evaluations, C Gosq.Com GA S305288714501353 Card 4080",
+              "amount": 43.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/16/2025",
+              "description": "Purchase authorized on 10/15 Amazon Mktpl*NM7N7 Amzn.Com/Bill WA S355289116373875 Card 4080",
+              "amount": 820.78,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/16/2025",
+              "description": "Purchase authorized on 10/16 The Home Depot #0130 Atlanta GA P345289407457868 Card 4080",
+              "amount": 428.35,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/16/2025",
+              "description": "Zelle to Amparo Alexander on 10/16 Ref # Wfct0Zd7C5Rp",
+              "amount": 2000.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/16/2025",
+              "description": "Online Transfer to Amparo A Everyday Checking xxxxxx4316 Ref #lb0Vbnsndt on 10/16/25",
+              "amount": 1000.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "10/16/2025",
+              "description": "Purchase authorized on 10/16 Bp#2027415Main East Point GA P000000954801323 Card 4080",
+              "amount": 83.27,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/16/2025",
+              "description": "Zelle to Blahdamir Ventanas on 10/16 Ref # Wfct0Zd8Prmd",
+              "amount": 1.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/16/2025",
+              "description": "Zelle to Blahdamir Ventanas on 10/16 Ref # WfctOZd8Q7N3",
+              "amount": 1499.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/16/2025",
+              "description": "Purchase authorized on 10/16 The Home Depot #0114 Morrow GA P355289854827102 Card 4080",
+              "amount": 27.48,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/17/2025",
+              "description": "WT Fed#02L02 Notprovided /Org=Wg Elevate Home LLC Srf# 3507815290Es Trn#251017129398 Rfb# 3507815290Es",
+              "amount": 1000.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 0
+            },
+            {
+              "date": "10/17/2025",
+              "description": "Purchase authorized on 10/15 Truett's Grill-Mor Morrow GA S465288576030646 Card 4080",
+              "amount": 16.72,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/17/2025",
+              "description": "Purchase authorized on 10/15 Amazon Mktpl*NM462 Amzn.Com/Bill WA S585289218380254 Card 4080",
+              "amount": 129.24,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/17/2025",
+              "description": "Purchase authorized on 10/15 Amazon Mktpl*NM11H Amzn.Com/Bill WA S585289231511626 Card 4080",
+              "amount": 143.5,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/17/2025",
+              "description": "Purchase authorized on 10/16 Taqueria Arandas Atlanta GA S385289607535322 Card 4080",
+              "amount": 34.51,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/17/2025",
+              "description": "Purchase authorized on 10/16 Wal-Mart #1047 Morrow GA P000000785493659 Card 4080",
+              "amount": 7.34,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/17/2025",
+              "description": "Online Transfer to Amparo A Everyday Checking xxxxxx4316 Ref #lb0Vby3H5H on 10/17/25",
+              "amount": 40.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "10/17/2025",
+              "description": "Zelle to MI Amor on 10/17 Ref # Wfct0Zdbs8Pz",
+              "amount": 100.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/17/2025",
+              "description": "Zelle to Amparo Alexander on 10/17 Ref # Wfct0Zdcks9F",
+              "amount": 250.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/17/2025",
+              "description": "Zelle to MI Amor on 10/17 Ref # Wfct0Zddlyf9",
+              "amount": 100.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/17/2025",
+              "description": "Online Transfer to Amparo A Way2Save Savings xxxxxx6838 Ref #Ib0Vc8Cnc8 on 10/17/25",
+              "amount": 4200.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "10/20/2025",
+              "description": "Online Transfer From Amparo A Way2Save Savings xxxxxx6838 Ref #lb0Vcsjxn8 on 10/19/25",
+              "amount": 1700.0,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "10/20/2025",
+              "description": "Purchase authorized on 10/15 Amazon Mktpl*NM68U Amzn.Com/Bill WA S385289123349376 Card 4080",
+              "amount": 2138.88,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/20/2025",
+              "description": "Purchase authorized on 10/16 Amazon Mktpl*NM42K Amzn.Com/Bill WA S305289494082770 Card 4080",
+              "amount": 291.59,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/20/2025",
+              "description": "Purchase authorized on 10/16 Amazon Mktpl*NM572 Amzn.Com/Bill WA S585289710317997 Card 4080",
+              "amount": 556.36,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/20/2025",
+              "description": "Purchase authorized on 10/17 Amazon.Com*Nu8414Z Amzn.Com/Bill WA S385290716281202 Card 4080",
+              "amount": 34.01,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/20/2025",
+              "description": "Online Transfer to Amparo A Everyday Checking xxxxxx4316 Ref #lb0Vcqmf59 on 10/19/25",
+              "amount": 5.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "10/20/2025",
+              "description": "Zelle to El Socio Jose Luis on 10/19 Ref # Wfct0ZdI7Z3x",
+              "amount": 1.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/20/2025",
+              "description": "Zelle to El Socio Jose Luis on 10/19 Ref # Wfct0ZdI876R",
+              "amount": 1700.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/20/2025",
+              "description": "Online Transfer to Amparo A Everyday Checking xxxxxx4316 Ref #lb0Vd4Jlsr on 10/20/25",
+              "amount": 30.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "10/21/2025",
+              "description": "WT Fed#02N03 Jpmorgan Chase Ban /Org=Wg Elevate Home LLC Srf# 3345545294Es Trn#251021145861 Rfb# 3345545294Es",
+              "amount": 9000.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 0
+            },
+            {
+              "date": "10/21/2025",
+              "description": "Purchase authorized on 10/20 Courseforanger.Com 407-9066254 FL S465293438410673 Card 4080",
+              "amount": 45.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/21/2025",
+              "description": "Purchase authorized on 10/20 Courseforanger.Com 407-9066254 FL S355293729481523 Card 4080",
+              "amount": 12.95,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/21/2025",
+              "description": "Purchase authorized on 10/20 Sunpass*Acc1165579 888-865-5352 FL S385293813497481 Card 4080",
+              "amount": 17.13,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/21/2025",
+              "description": "Online Transfer to Amparo A Way2Save Savings xxxxxx6838 Ref #Ib0Vdg4Cq8 on 10/21/25",
+              "amount": 1000.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "10/21/2025",
+              "description": "Purchase authorized on 10/21 Floor and Decor 151 McDonough GA P000000586730753 Card 4080",
+              "amount": 2518.04,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/22/2025",
+              "description": "Money Transfer authorized on 10/22 From Dave Inc CA S465295815829138 Card 4080",
+              "amount": 75.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "10/22/2025",
+              "description": "Money Transfer authorized on 10/22 From Dave Inc CA S355295816049280 Card 4080",
+              "amount": 75.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "10/22/2025",
+              "description": "Online Transfer From Amparo A Everyday Checking xxxxxx4316 Ref #lb0Vdskx7T on 10/22/25",
+              "amount": 162.0,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "10/22/2025",
+              "description": "Purchase authorized on 10/22 The Home Depot #0130 Atlanta GA P305295613255543 Card 4080",
+              "amount": 351.31,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/22/2025",
+              "description": "ATM Withdrawal authorized on 10/22 4681 Jonesboro Rd Forest Park GA 0002739 ATM ID 0053R Card 4080",
+              "amount": 1000.0,
+              "type": "Debit",
+              "category": "ATM/Cash Withdrawal"
+            },
+            {
+              "date": "10/22/2025",
+              "description": "Online Transfer to Amparo A Way2Save Savings xxxxxx6838 Ref #Ib0Vdrdhz9 on 10/22/25",
+              "amount": 1320.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "10/22/2025",
+              "description": "Purchase authorized on 10/22 The Home Depot #0130 Atlanta GA P585295775182823 Card 4080",
+              "amount": 219.25,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/22/2025",
+              "description": "Online Transfer to Amparo A Everyday Checking xxxxxx4316 Ref #lb0Vdslxrn on 10/22/25",
+              "amount": 150.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "10/22/2025",
+              "description": "Online Transfer to Amparo A Way2Save Savings xxxxxx6838 Ref #Ib0Vdvdc54 on 10/22/25",
+              "amount": 2000.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "10/23/2025",
+              "description": "Money Transfer authorized on 10/22 Dave Inc Dave.Com CA S345295814210776 Card 4080",
+              "amount": 162.24,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/23/2025",
+              "description": "Zelle to El Socio Jose Luis on 10/23 Ref # Wfct0Zdyqzr8",
+              "amount": 170.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/23/2025",
+              "description": "Purchase Return authorized on 10/23 The Home Depot #0130 Atlanta GA P305296556000970 Card 4080",
+              "amount": 33.02,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "10/24/2025",
+              "description": "Online Transfer to Amparo A Everyday Checking xxxxxx4316 Ref #lb0Vfcy8Rw on 10/24/25",
+              "amount": 125.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "10/27/2025",
+              "description": "Purchase authorized on 10/23 Olive Garden Zk 00 Morrow GA S385297069498349 Card 4080",
+              "amount": 92.8,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/27/2025",
+              "description": "Purchase authorized on 10/24 Racetrac 2574 Forest Park GA S305297400576886 Card 4080",
+              "amount": 30.15,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/27/2025",
+              "description": "Purchase authorized on 10/25 Truett's Grill-Mor 770-210-0500 GA S585298603013608 Card 4080",
+              "amount": 14.67,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/27/2025",
+              "description": "Purchase authorized on 10/26 Chevron 0381995 Forest Park GA S465299713947122 Card 4080",
+              "amount": 12.36,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/28/2025",
+              "description": "Online Transfer to Amparo A Everyday Checking xxxxxx4316 Ref #lb0Vgyhty5 on 10/28/25",
+              "amount": 139.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "10/30/2025",
+              "description": "WT Fed#02N02 Jpmorgan Chase Ban /Org=Wg Elevate Home LLC Srf# 3379305303Es Trn#251030119012 Rfb# 3379305303Es",
+              "amount": 5000.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 0
+            },
+            {
+              "date": "10/30/2025",
+              "description": "Online Transfer to Amparo A Everyday Checking xxxxxx4316 Ref #lb0Vhgfrmt on 10/30/25",
+              "amount": 24.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "10/30/2025",
+              "description": "Zelle to El Socio Jose Luis on 10/30 Ref # Wfct0Zfmz669",
+              "amount": 1700.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/30/2025",
+              "description": "Purchase authorized on 10/30 The Home Depot #0130 Atlanta GA P585303704067664 Card 4080",
+              "amount": 125.78,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/31/2025",
+              "description": "Purchase authorized on 10/30 Chili's MT. Zion Morrow GA S345304062725595 Card 4080",
+              "amount": 60.37,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/31/2025",
+              "description": "Purchase authorized on 10/31 The Home Depot #0130 Atlanta GA P385304582568686 Card 4080",
+              "amount": 1892.55,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/31/2025",
+              "description": "Zelle to Amparo Alexander on 10/31 Ref # Wfct0Zfrrfbf",
+              "amount": 90.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/31/2025",
+              "description": "Purchase authorized on 10/31 The Home Depot #0114 Morrow GA P585305015142051 Card 4080",
+              "amount": 156.9,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            }
+          ]
+        }
+      ]
+    },
+    "raw_output": "```json\n{\n  \"bank_statement_information\": {\n    \"bank_name\": \"WELLS FARGO\",\n    \"account_holder\": \"AP RENOVATIONS & FLOORING LLC ALMA AMPARO\",\n    \"statement_start_date\": \"10/01/2025\",\n    \"statement_end_date\": \"10/31/2025\",\n    \"n_days\": 31,\n    \"n_month\": [\n      10\n    ],\n    \"business_address\": \"6411 HERITAGE RUN MORROW GA 30260-2563\"\n  },\n  \"accounts\": [\n    {\n      \"account_number\": \"8183990996\",\n      \"account_type\": \"Initiate Business Checking\",\n      \"account_summary\": {\n        \"beginning_balance\": -10.00,\n        \"ending_balance\": 991.58,\n        \"total_deposits\": 40546.02,\n        \"total_withdrawals\": 39544.44,\n        \"total_deposits_count\": null,\n        \"total_withdrawals_count\": null,\n        \"avg_daily_balance\": 1816.00,\n        \"overdraft_days\": 7\n      },\n      \"transactions\": [\n        {\n          \"date\": \"10/08/2025\",\n          \"description\": \"Online Transfer From Amparo A Way2Save Savings xxxxxx6838 Ref #lb0V7Tjft2 on 10/08/25\",\n          \"amount\": 10.0,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"10/08/2025\",\n          \"description\": \"Online Transfer From Amparo A Everyday Checking xxxxxx4316 Ref #lb0V7Tjlth on 10/08/25\",\n          \"amount\": 162.0,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"10/08/2025\",\n          \"description\": \"Online Transfer to Amparo A Everyday Checking xxxxxx4316 Ref #lb0V7Tkk39 on 10/08/25\",\n          \"amount\": 150.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/09/2025\",\n          \"description\": \"Money Transfer authorized on 10/08 From Dave Inc CA S585282069091141 Card 4080\",\n          \"amount\": 75.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"10/09/2025\",\n          \"description\": \"Money Transfer authorized on 10/08 From Dave Inc CA S465282069510911 Card 4080\",\n          \"amount\": 75.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"10/10/2025\",\n          \"description\": \"Money Transfer authorized on 10/08 Dave Inc Dave.Com CA S385282067938050 Card 4080\",\n          \"amount\": 161.12,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"WT Fed#02M00 Notprovided /Org=Wg Elevate Home LLC Srf# 3003875284Es Trn#251014014306 Rfb# 3003875284Es\",\n          \"amount\": 20000.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 0\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"Online Transfer From Amparo A Way2Save Savings xxxxxx6838 Ref #lb0V9Nxqqv on 10/14/25\",\n          \"amount\": 3000.0,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"Online Transfer to Amparo A Way2Save Savings xxxxxx6838 Ref #Ib0V9Nkfpt on 10/14/25\",\n          \"amount\": 3000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"Zelle to Amparo Alexander on 10/14 Ref # Wfct0Zcymxg2\",\n          \"amount\": 400.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"Zelle to Rene on 10/14 Ref # Wfct0Zcyqmjh\",\n          \"amount\": 3000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"Zelle to MI Amor on 10/14 Ref # Wfct0Zcz799N\",\n          \"amount\": 100.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"Online Transfer to Amparo A Everyday Checking xxxxxx4316 Ref #lb0V9Scpcz on 10/14/25\",\n          \"amount\": 370.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"Online Transfer to Amparo A Way2Save Savings xxxxxx6838 Ref #Ib0V9W6Dyl on 10/14/25\",\n          \"amount\": 2000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"Purchase authorized on 10/14 WM Supercenter #1047 Morrow GA P000000252719411 Card 4080\",\n          \"amount\": 157.76,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/15/2025\",\n          \"description\": \"Purchase authorized on 10/14 Sams Club #8287 770-960-8228 GA S585287802904218 Card 4080\",\n          \"amount\": 5.94,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/15/2025\",\n          \"description\": \"Recurring Payment authorized on 10/14 Samsclub #8287 Morrow GA S345287825061536 Card 4080\",\n          \"amount\": 136.26,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/15/2025\",\n          \"description\": \"Zelle to MI Amor on 10/15 Ref # Wfct0Zd3Njlb\",\n          \"amount\": 200.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/15/2025\",\n          \"description\": \"Online Transfer to Amparo A Everyday Checking xxxxxx4316 Ref #lb0Vbdghzr on 10/15/25\",\n          \"amount\": 179.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/16/2025\",\n          \"description\": \"Online Transfer From Amparo A Everyday Checking xxxxxx4316 Ref #lb0Vbgt7Zy on 10/16/25\",\n          \"amount\": 179.0,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"10/16/2025\",\n          \"description\": \"Purchase authorized on 10/15 Buildersfirstsourc Tucker GA S355288431213356 Card 4080\",\n          \"amount\": 573.83,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/16/2025\",\n          \"description\": \"Purchase authorized on 10/15 Sq *Evaluations, C Gosq.Com GA S305288714501353 Card 4080\",\n          \"amount\": 43.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/16/2025\",\n          \"description\": \"Purchase authorized on 10/15 Amazon Mktpl*NM7N7 Amzn.Com/Bill WA S355289116373875 Card 4080\",\n          \"amount\": 820.78,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/16/2025\",\n          \"description\": \"Purchase authorized on 10/16 The Home Depot #0130 Atlanta GA P345289407457868 Card 4080\",\n          \"amount\": 428.35,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/16/2025\",\n          \"description\": \"Zelle to Amparo Alexander on 10/16 Ref # Wfct0Zd7C5Rp\",\n          \"amount\": 2000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/16/2025\",\n          \"description\": \"Online Transfer to Amparo A Everyday Checking xxxxxx4316 Ref #lb0Vbnsndt on 10/16/25\",\n          \"amount\": 1000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/16/2025\",\n          \"description\": \"Purchase authorized on 10/16 Bp#2027415Main East Point GA P000000954801323 Card 4080\",\n          \"amount\": 83.27,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/16/2025\",\n          \"description\": \"Zelle to Blahdamir Ventanas on 10/16 Ref # Wfct0Zd8Prmd\",\n          \"amount\": 1.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/16/2025\",\n          \"description\": \"Zelle to Blahdamir Ventanas on 10/16 Ref # WfctOZd8Q7N3\",\n          \"amount\": 1499.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/16/2025\",\n          \"description\": \"Purchase authorized on 10/16 The Home Depot #0114 Morrow GA P355289854827102 Card 4080\",\n          \"amount\": 27.48,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"description\": \"WT Fed#02L02 Notprovided /Org=Wg Elevate Home LLC Srf# 3507815290Es Trn#251017129398 Rfb# 3507815290Es\",\n          \"amount\": 1000.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 0\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"description\": \"Purchase authorized on 10/15 Truett's Grill-Mor Morrow GA S465288576030646 Card 4080\",\n          \"amount\": 16.72,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"description\": \"Purchase authorized on 10/15 Amazon Mktpl*NM462 Amzn.Com/Bill WA S585289218380254 Card 4080\",\n          \"amount\": 129.24,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"description\": \"Purchase authorized on 10/15 Amazon Mktpl*NM11H Amzn.Com/Bill WA S585289231511626 Card 4080\",\n          \"amount\": 143.5,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"description\": \"Purchase authorized on 10/16 Taqueria Arandas Atlanta GA S385289607535322 Card 4080\",\n          \"amount\": 34.51,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"description\": \"Purchase authorized on 10/16 Wal-Mart #1047 Morrow GA P000000785493659 Card 4080\",\n          \"amount\": 7.34,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"description\": \"Online Transfer to Amparo A Everyday Checking xxxxxx4316 Ref #lb0Vby3H5H on 10/17/25\",\n          \"amount\": 40.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"description\": \"Zelle to MI Amor on 10/17 Ref # Wfct0Zdbs8Pz\",\n          \"amount\": 100.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"description\": \"Zelle to Amparo Alexander on 10/17 Ref # Wfct0Zdcks9F\",\n          \"amount\": 250.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"description\": \"Zelle to MI Amor on 10/17 Ref # Wfct0Zddlyf9\",\n          \"amount\": 100.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"description\": \"Online Transfer to Amparo A Way2Save Savings xxxxxx6838 Ref #Ib0Vc8Cnc8 on 10/17/25\",\n          \"amount\": 4200.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/20/2025\",\n          \"description\": \"Online Transfer From Amparo A Way2Save Savings xxxxxx6838 Ref #lb0Vcsjxn8 on 10/19/25\",\n          \"amount\": 1700.0,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"10/20/2025\",\n          \"description\": \"Purchase authorized on 10/15 Amazon Mktpl*NM68U Amzn.Com/Bill WA S385289123349376 Card 4080\",\n          \"amount\": 2138.88,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/20/2025\",\n          \"description\": \"Purchase authorized on 10/16 Amazon Mktpl*NM42K Amzn.Com/Bill WA S305289494082770 Card 4080\",\n          \"amount\": 291.59,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/20/2025\",\n          \"description\": \"Purchase authorized on 10/16 Amazon Mktpl*NM572 Amzn.Com/Bill WA S585289710317997 Card 4080\",\n          \"amount\": 556.36,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/20/2025\",\n          \"description\": \"Purchase authorized on 10/17 Amazon.Com*Nu8414Z Amzn.Com/Bill WA S385290716281202 Card 4080\",\n          \"amount\": 34.01,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/20/2025\",\n          \"description\": \"Online Transfer to Amparo A Everyday Checking xxxxxx4316 Ref #lb0Vcqmf59 on 10/19/25\",\n          \"amount\": 5.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/20/2025\",\n          \"description\": \"Zelle to El Socio Jose Luis on 10/19 Ref # Wfct0ZdI7Z3x\",\n          \"amount\": 1.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/20/2025\",\n          \"description\": \"Zelle to El Socio Jose Luis on 10/19 Ref # Wfct0ZdI876R\",\n          \"amount\": 1700.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/20/2025\",\n          \"description\": \"Online Transfer to Amparo A Everyday Checking xxxxxx4316 Ref #lb0Vd4Jlsr on 10/20/25\",\n          \"amount\": 30.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/21/2025\",\n          \"description\": \"WT Fed#02N03 Jpmorgan Chase Ban /Org=Wg Elevate Home LLC Srf# 3345545294Es Trn#251021145861 Rfb# 3345545294Es\",\n          \"amount\": 9000.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 0\n        },\n        {\n          \"date\": \"10/21/2025\",\n          \"description\": \"Purchase authorized on 10/20 Courseforanger.Com 407-9066254 FL S465293438410673 Card 4080\",\n          \"amount\": 45.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/21/2025\",\n          \"description\": \"Purchase authorized on 10/20 Courseforanger.Com 407-9066254 FL S355293729481523 Card 4080\",\n          \"amount\": 12.95,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/21/2025\",\n          \"description\": \"Purchase authorized on 10/20 Sunpass*Acc1165579 888-865-5352 FL S385293813497481 Card 4080\",\n          \"amount\": 17.13,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/21/2025\",\n          \"description\": \"Online Transfer to Amparo A Way2Save Savings xxxxxx6838 Ref #Ib0Vdg4Cq8 on 10/21/25\",\n          \"amount\": 1000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/21/2025\",\n          \"description\": \"Purchase authorized on 10/21 Floor and Decor 151 McDonough GA P000000586730753 Card 4080\",\n          \"amount\": 2518.04,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/22/2025\",\n          \"description\": \"Money Transfer authorized on 10/22 From Dave Inc CA S465295815829138 Card 4080\",\n          \"amount\": 75.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"10/22/2025\",\n          \"description\": \"Money Transfer authorized on 10/22 From Dave Inc CA S355295816049280 Card 4080\",\n          \"amount\": 75.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"10/22/2025\",\n          \"description\": \"Online Transfer From Amparo A Everyday Checking xxxxxx4316 Ref #lb0Vdskx7T on 10/22/25\",\n          \"amount\": 162.0,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"10/22/2025\",\n          \"description\": \"Purchase authorized on 10/22 The Home Depot #0130 Atlanta GA P305295613255543 Card 4080\",\n          \"amount\": 351.31,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/22/2025\",\n          \"description\": \"ATM Withdrawal authorized on 10/22 4681 Jonesboro Rd Forest Park GA 0002739 ATM ID 0053R Card 4080\",\n          \"amount\": 1000.0,\n          \"type\": \"Debit\",\n          \"category\": \"ATM/Cash Withdrawal\"\n        },\n        {\n          \"date\": \"10/22/2025\",\n          \"description\": \"Online Transfer to Amparo A Way2Save Savings xxxxxx6838 Ref #Ib0Vdrdhz9 on 10/22/25\",\n          \"amount\": 1320.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/22/2025\",\n          \"description\": \"Purchase authorized on 10/22 The Home Depot #0130 Atlanta GA P585295775182823 Card 4080\",\n          \"amount\": 219.25,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/22/2025\",\n          \"description\": \"Online Transfer to Amparo A Everyday Checking xxxxxx4316 Ref #lb0Vdslxrn on 10/22/25\",\n          \"amount\": 150.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/22/2025\",\n          \"description\": \"Online Transfer to Amparo A Way2Save Savings xxxxxx6838 Ref #Ib0Vdvdc54 on 10/22/25\",\n          \"amount\": 2000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/23/2025\",\n          \"description\": \"Money Transfer authorized on 10/22 Dave Inc Dave.Com CA S345295814210776 Card 4080\",\n          \"amount\": 162.24,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/23/2025\",\n          \"description\": \"Zelle to El Socio Jose Luis on 10/23 Ref # Wfct0Zdyqzr8\",\n          \"amount\": 170.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/23/2025\",\n          \"description\": \"Purchase Return authorized on 10/23 The Home Depot #0130 Atlanta GA P305296556000970 Card 4080\",\n          \"amount\": 33.02,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"10/24/2025\",\n          \"description\": \"Online Transfer to Amparo A Everyday Checking xxxxxx4316 Ref #lb0Vfcy8Rw on 10/24/25\",\n          \"amount\": 125.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"description\": \"Purchase authorized on 10/23 Olive Garden Zk 00 Morrow GA S385297069498349 Card 4080\",\n          \"amount\": 92.8,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"description\": \"Purchase authorized on 10/24 Racetrac 2574 Forest Park GA S305297400576886 Card 4080\",\n          \"amount\": 30.15,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"description\": \"Purchase authorized on 10/25 Truett's Grill-Mor 770-210-0500 GA S585298603013608 Card 4080\",\n          \"amount\": 14.67,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"description\": \"Purchase authorized on 10/26 Chevron 0381995 Forest Park GA S465299713947122 Card 4080\",\n          \"amount\": 12.36,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/28/2025\",\n          \"description\": \"Online Transfer to Amparo A Everyday Checking xxxxxx4316 Ref #lb0Vgyhty5 on 10/28/25\",\n          \"amount\": 139.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/30/2025\",\n          \"description\": \"WT Fed#02N02 Jpmorgan Chase Ban /Org=Wg Elevate Home LLC Srf# 3379305303Es Trn#251030119012 Rfb# 3379305303Es\",\n          \"amount\": 5000.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 0\n        },\n        {\n          \"date\": \"10/30/2025\",\n          \"description\": \"Online Transfer to Amparo A Everyday Checking xxxxxx4316 Ref #lb0Vhgfrmt on 10/30/25\",\n          \"amount\": 24.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/30/2025\",\n          \"description\": \"Zelle to El Socio Jose Luis on 10/30 Ref # Wfct0Zfmz669\",\n          \"amount\": 1700.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/30/2025\",\n          \"description\": \"Purchase authorized on 10/30 The Home Depot #0130 Atlanta GA P585303704067664 Card 4080\",\n          \"amount\": 125.78,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/31/2025\",\n          \"description\": \"Purchase authorized on 10/30 Chili's MT. Zion Morrow GA S345304062725595 Card 4080\",\n          \"amount\": 60.37,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/31/2025\",\n          \"description\": \"Purchase authorized on 10/31 The Home Depot #0130 Atlanta GA P385304582568686 Card 4080\",\n          \"amount\": 1892.55,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/31/2025\",\n          \"description\": \"Zelle to Amparo Alexander on 10/31 Ref # Wfct0Zfrrfbf\",\n          \"amount\": 90.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/31/2025\",\n          \"description\": \"Purchase authorized on 10/31 The Home Depot #0114 Morrow GA P585305015142051 Card 4080\",\n          \"amount\": 156.9,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        }\n      ]\n    }\n  ]\n}\n```",
+    "token_count": {
+      "estimated_tokens": 2061
+    },
+    "failure_reason": null
+  },
+  "bsi_analyzer_result": {
+    "agent_name": "v1_bsi_analyzer_agent",
+    "processing_status": "success",
+    "start_time": "2026-02-04T15:10:22.829305",
+    "end_time": "2026-02-04T15:11:39.610549",
+    "parsed_json": {
+      "accounts": [
+        {
+          "account_number": "8183990996",
+          "account_type": "Initiate Business Checking",
+          "mca_deposit": [],
+          "mca_withdrawal": [
+            {
+              "mca_name": "SUNPASS",
+              "date": "10/21/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 10/20 Sunpass*Acc1165579 888-865-5352 FL S385293813497481 Card 4080",
+              "amount": 17.13
+            }
+          ],
+          "returned_items": [],
+          "overdrafts": [],
+          "service_charges": [],
+          "atm_cash_withdrawal": [
+            {
+              "date": "10/22/2025",
+              "type": "Debit",
+              "description": "ATM Withdrawal authorized on 10/22 4681 Jonesboro Rd Forest Park GA 0002739 ATM ID 0053R Card 4080",
+              "amount": 1000.0
+            }
+          ],
+          "internal_transfer_deposit": [
+            {
+              "date": "10/08/2025",
+              "type": "Credit",
+              "description": "Online Transfer From Amparo A Way2Save Savings xxxxxx6838 Ref #lb0V7Tjft2 on 10/08/25",
+              "amount": 10.0,
+              "non_true_revenue": 1
+            },
+            {
+              "date": "10/08/2025",
+              "type": "Credit",
+              "description": "Online Transfer From Amparo A Everyday Checking xxxxxx4316 Ref #lb0V7Tjlth on 10/08/25",
+              "amount": 162.0,
+              "non_true_revenue": 1
+            },
+            {
+              "date": "10/14/2025",
+              "type": "Credit",
+              "description": "Online Transfer From Amparo A Way2Save Savings xxxxxx6838 Ref #lb0V9Nxqqv on 10/14/25",
+              "amount": 3000.0,
+              "non_true_revenue": 1
+            },
+            {
+              "date": "10/16/2025",
+              "type": "Credit",
+              "description": "Online Transfer From Amparo A Everyday Checking xxxxxx4316 Ref #lb0Vbgt7Zy on 10/16/25",
+              "amount": 179.0,
+              "non_true_revenue": 1
+            },
+            {
+              "date": "10/20/2025",
+              "type": "Credit",
+              "description": "Online Transfer From Amparo A Way2Save Savings xxxxxx6838 Ref #lb0Vcsjxn8 on 10/19/25",
+              "amount": 1700.0,
+              "non_true_revenue": 1
+            },
+            {
+              "date": "10/22/2025",
+              "type": "Credit",
+              "description": "Online Transfer From Amparo A Everyday Checking xxxxxx4316 Ref #lb0Vdskx7T on 10/22/25",
+              "amount": 162.0,
+              "non_true_revenue": 1
+            }
+          ],
+          "other_transfer_deposit": [
+            {
+              "date": "10/09/2025",
+              "type": "Credit",
+              "description": "Money Transfer authorized on 10/08 From Dave Inc CA S585282069091141 Card 4080",
+              "amount": 75.0,
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/09/2025",
+              "type": "Credit",
+              "description": "Money Transfer authorized on 10/08 From Dave Inc CA S465282069510911 Card 4080",
+              "amount": 75.0,
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/14/2025",
+              "type": "Credit",
+              "description": "WT Fed#02M00 Notprovided /Org=Wg Elevate Home LLC Srf# 3003875284Es Trn#251014014306 Rfb# 3003875284Es",
+              "amount": 20000.0,
+              "is_payment_processor": 0,
+              "non_true_revenue": 1
+            },
+            {
+              "date": "10/17/2025",
+              "type": "Credit",
+              "description": "WT Fed#02L02 Notprovided /Org=Wg Elevate Home LLC Srf# 3507815290Es Trn#251017129398 Rfb# 3507815290Es",
+              "amount": 1000.0,
+              "is_payment_processor": 0,
+              "non_true_revenue": 1
+            },
+            {
+              "date": "10/21/2025",
+              "type": "Credit",
+              "description": "WT Fed#02N03 Jpmorgan Chase Ban /Org=Wg Elevate Home LLC Srf# 3345545294Es Trn#251021145861 Rfb# 3345545294Es",
+              "amount": 9000.0,
+              "is_payment_processor": 0,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/22/2025",
+              "type": "Credit",
+              "description": "Money Transfer authorized on 10/22 From Dave Inc CA S465295815829138 Card 4080",
+              "amount": 75.0,
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/22/2025",
+              "type": "Credit",
+              "description": "Money Transfer authorized on 10/22 From Dave Inc CA S355295816049280 Card 4080",
+              "amount": 75.0,
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/30/2025",
+              "type": "Credit",
+              "description": "WT Fed#02N02 Jpmorgan Chase Ban /Org=Wg Elevate Home LLC Srf# 3379305303Es Trn#251030119012 Rfb# 3379305303Es",
+              "amount": 5000.0,
+              "is_payment_processor": 0,
+              "non_true_revenue": 0
+            }
+          ],
+          "internal_transfer_withdrawal": [
+            {
+              "date": "10/08/2025",
+              "type": "Debit",
+              "description": "Online Transfer to Amparo A Everyday Checking xxxxxx4316 Ref #lb0V7Tkk39 on 10/08/25",
+              "amount": 150.0
+            },
+            {
+              "date": "10/14/2025",
+              "type": "Debit",
+              "description": "Online Transfer to Amparo A Way2Save Savings xxxxxx6838 Ref #Ib0V9Nkfpt on 10/14/25",
+              "amount": 3000.0
+            },
+            {
+              "date": "10/14/2025",
+              "type": "Debit",
+              "description": "Online Transfer to Amparo A Everyday Checking xxxxxx4316 Ref #lb0V9Scpcz on 10/14/25",
+              "amount": 370.0
+            },
+            {
+              "date": "10/14/2025",
+              "type": "Debit",
+              "description": "Online Transfer to Amparo A Way2Save Savings xxxxxx6838 Ref #Ib0V9W6Dyl on 10/14/25",
+              "amount": 2000.0
+            },
+            {
+              "date": "10/15/2025",
+              "type": "Debit",
+              "description": "Online Transfer to Amparo A Everyday Checking xxxxxx4316 Ref #lb0Vbdghzr on 10/15/25",
+              "amount": 179.0
+            },
+            {
+              "date": "10/16/2025",
+              "type": "Debit",
+              "description": "Online Transfer to Amparo A Everyday Checking xxxxxx4316 Ref #lb0Vbnsndt on 10/16/25",
+              "amount": 1000.0
+            },
+            {
+              "date": "10/17/2025",
+              "type": "Debit",
+              "description": "Online Transfer to Amparo A Everyday Checking xxxxxx4316 Ref #lb0Vby3H5H on 10/17/25",
+              "amount": 40.0
+            },
+            {
+              "date": "10/17/2025",
+              "type": "Debit",
+              "description": "Online Transfer to Amparo A Way2Save Savings xxxxxx6838 Ref #Ib0Vc8Cnc8 on 10/17/25",
+              "amount": 4200.0
+            },
+            {
+              "date": "10/20/2025",
+              "type": "Debit",
+              "description": "Online Transfer to Amparo A Everyday Checking xxxxxx4316 Ref #lb0Vcqmf59 on 10/19/25",
+              "amount": 5.0
+            },
+            {
+              "date": "10/20/2025",
+              "type": "Debit",
+              "description": "Online Transfer to Amparo A Everyday Checking xxxxxx4316 Ref #lb0Vd4Jlsr on 10/20/25",
+              "amount": 30.0
+            },
+            {
+              "date": "10/21/2025",
+              "type": "Debit",
+              "description": "Online Transfer to Amparo A Way2Save Savings xxxxxx6838 Ref #Ib0Vdg4Cq8 on 10/21/25",
+              "amount": 1000.0
+            },
+            {
+              "date": "10/22/2025",
+              "type": "Debit",
+              "description": "Online Transfer to Amparo A Way2Save Savings xxxxxx6838 Ref #Ib0Vdrdhz9 on 10/22/25",
+              "amount": 1320.0
+            },
+            {
+              "date": "10/22/2025",
+              "type": "Debit",
+              "description": "Online Transfer to Amparo A Everyday Checking xxxxxx4316 Ref #lb0Vdslxrn on 10/22/25",
+              "amount": 150.0
+            },
+            {
+              "date": "10/22/2025",
+              "type": "Debit",
+              "description": "Online Transfer to Amparo A Way2Save Savings xxxxxx6838 Ref #Ib0Vdvdc54 on 10/22/25",
+              "amount": 2000.0
+            },
+            {
+              "date": "10/24/2025",
+              "type": "Debit",
+              "description": "Online Transfer to Amparo A Everyday Checking xxxxxx4316 Ref #lb0Vfcy8Rw on 10/24/25",
+              "amount": 125.0
+            },
+            {
+              "date": "10/28/2025",
+              "type": "Debit",
+              "description": "Online Transfer to Amparo A Everyday Checking xxxxxx4316 Ref #lb0Vgyhty5 on 10/28/25",
+              "amount": 139.0
+            },
+            {
+              "date": "10/30/2025",
+              "type": "Debit",
+              "description": "Online Transfer to Amparo A Everyday Checking xxxxxx4316 Ref #lb0Vhgfrmt on 10/30/25",
+              "amount": 24.0
+            }
+          ],
+          "other_transfer_withdrawal": [
+            {
+              "date": "10/10/2025",
+              "type": "Debit",
+              "description": "Money Transfer authorized on 10/08 Dave Inc Dave.Com CA S385282067938050 Card 4080",
+              "amount": 161.12
+            },
+            {
+              "date": "10/14/2025",
+              "type": "Debit",
+              "description": "Zelle to Amparo Alexander on 10/14 Ref # Wfct0Zcymxg2",
+              "amount": 400.0
+            },
+            {
+              "date": "10/14/2025",
+              "type": "Debit",
+              "description": "Zelle to Rene on 10/14 Ref # Wfct0Zcyqmjh",
+              "amount": 3000.0
+            },
+            {
+              "date": "10/14/2025",
+              "type": "Debit",
+              "description": "Zelle to MI Amor on 10/14 Ref # Wfct0Zcz799N",
+              "amount": 100.0
+            },
+            {
+              "date": "10/15/2025",
+              "type": "Debit",
+              "description": "Zelle to MI Amor on 10/15 Ref # Wfct0Zd3Njlb",
+              "amount": 200.0
+            },
+            {
+              "date": "10/16/2025",
+              "type": "Debit",
+              "description": "Zelle to Amparo Alexander on 10/16 Ref # Wfct0Zd7C5Rp",
+              "amount": 2000.0
+            },
+            {
+              "date": "10/16/2025",
+              "type": "Debit",
+              "description": "Zelle to Blahdamir Ventanas on 10/16 Ref # Wfct0Zd8Prmd",
+              "amount": 1.0
+            },
+            {
+              "date": "10/16/2025",
+              "type": "Debit",
+              "description": "Zelle to Blahdamir Ventanas on 10/16 Ref # WfctOZd8Q7N3",
+              "amount": 1499.0
+            },
+            {
+              "date": "10/17/2025",
+              "type": "Debit",
+              "description": "Zelle to MI Amor on 10/17 Ref # Wfct0Zdbs8Pz",
+              "amount": 100.0
+            },
+            {
+              "date": "10/17/2025",
+              "type": "Debit",
+              "description": "Zelle to Amparo Alexander on 10/17 Ref # Wfct0Zdcks9F",
+              "amount": 250.0
+            },
+            {
+              "date": "10/17/2025",
+              "type": "Debit",
+              "description": "Zelle to MI Amor on 10/17 Ref # Wfct0Zddlyf9",
+              "amount": 100.0
+            },
+            {
+              "date": "10/20/2025",
+              "type": "Debit",
+              "description": "Zelle to El Socio Jose Luis on 10/19 Ref # Wfct0ZdI7Z3x",
+              "amount": 1.0
+            },
+            {
+              "date": "10/20/2025",
+              "type": "Debit",
+              "description": "Zelle to El Socio Jose Luis on 10/19 Ref # Wfct0ZdI876R",
+              "amount": 1700.0
+            },
+            {
+              "date": "10/23/2025",
+              "type": "Debit",
+              "description": "Money Transfer authorized on 10/22 Dave Inc Dave.Com CA S345295814210776 Card 4080",
+              "amount": 162.24
+            },
+            {
+              "date": "10/23/2025",
+              "type": "Debit",
+              "description": "Zelle to El Socio Jose Luis on 10/23 Ref # Wfct0Zdyqzr8",
+              "amount": 170.0
+            },
+            {
+              "date": "10/30/2025",
+              "type": "Debit",
+              "description": "Zelle to El Socio Jose Luis on 10/30 Ref # Wfct0Zfmz669",
+              "amount": 1700.0
+            },
+            {
+              "date": "10/31/2025",
+              "type": "Debit",
+              "description": "Zelle to Amparo Alexander on 10/31 Ref # Wfct0Zfrrfbf",
+              "amount": 90.0
+            }
+          ],
+          "standard_deposit": [
+            {
+              "date": "10/23/2025",
+              "type": "Credit",
+              "description": "Purchase Return authorized on 10/23 The Home Depot #0130 Atlanta GA P305296556000970 Card 4080",
+              "amount": 33.02,
+              "non_true_revenue": 1
+            }
+          ],
+          "standard_withdrawal": [
+            {
+              "date": "10/14/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 10/14 WM Supercenter #1047 Morrow GA P000000252719411 Card 4080",
+              "amount": 157.76
+            },
+            {
+              "date": "10/15/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 10/14 Sams Club #8287 770-960-8228 GA S585287802904218 Card 4080",
+              "amount": 5.94
+            },
+            {
+              "date": "10/15/2025",
+              "type": "Debit",
+              "description": "Recurring Payment authorized on 10/14 Samsclub #8287 Morrow GA S345287825061536 Card 4080",
+              "amount": 136.26
+            },
+            {
+              "date": "10/16/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 10/15 Buildersfirstsourc Tucker GA S355288431213356 Card 4080",
+              "amount": 573.83
+            },
+            {
+              "date": "10/16/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 10/15 Sq *Evaluations, C Gosq.Com GA S305288714501353 Card 4080",
+              "amount": 43.0
+            },
+            {
+              "date": "10/16/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 10/15 Amazon Mktpl*NM7N7 Amzn.Com/Bill WA S355289116373875 Card 4080",
+              "amount": 820.78
+            },
+            {
+              "date": "10/16/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 10/16 The Home Depot #0130 Atlanta GA P345289407457868 Card 4080",
+              "amount": 428.35
+            },
+            {
+              "date": "10/16/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 10/16 Bp#2027415Main East Point GA P000000954801323 Card 4080",
+              "amount": 83.27
+            },
+            {
+              "date": "10/16/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 10/16 The Home Depot #0114 Morrow GA P355289854827102 Card 4080",
+              "amount": 27.48
+            },
+            {
+              "date": "10/17/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 10/15 Truett's Grill-Mor Morrow GA S465288576030646 Card 4080",
+              "amount": 16.72
+            },
+            {
+              "date": "10/17/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 10/15 Amazon Mktpl*NM462 Amzn.Com/Bill WA S585289218380254 Card 4080",
+              "amount": 129.24
+            },
+            {
+              "date": "10/17/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 10/15 Amazon Mktpl*NM11H Amzn.Com/Bill WA S585289231511626 Card 4080",
+              "amount": 143.5
+            },
+            {
+              "date": "10/17/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 10/16 Taqueria Arandas Atlanta GA S385289607535322 Card 4080",
+              "amount": 34.51
+            },
+            {
+              "date": "10/17/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 10/16 Wal-Mart #1047 Morrow GA P000000785493659 Card 4080",
+              "amount": 7.34
+            },
+            {
+              "date": "10/20/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 10/15 Amazon Mktpl*NM68U Amzn.Com/Bill WA S385289123349376 Card 4080",
+              "amount": 2138.88
+            },
+            {
+              "date": "10/20/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 10/16 Amazon Mktpl*NM42K Amzn.Com/Bill WA S305289494082770 Card 4080",
+              "amount": 291.59
+            },
+            {
+              "date": "10/20/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 10/16 Amazon Mktpl*NM572 Amzn.Com/Bill WA S585289710317997 Card 4080",
+              "amount": 556.36
+            },
+            {
+              "date": "10/20/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 10/17 Amazon.Com*Nu8414Z Amzn.Com/Bill WA S385290716281202 Card 4080",
+              "amount": 34.01
+            },
+            {
+              "date": "10/21/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 10/20 Courseforanger.Com 407-9066254 FL S465293438410673 Card 4080",
+              "amount": 45.0
+            },
+            {
+              "date": "10/21/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 10/20 Courseforanger.Com 407-9066254 FL S355293729481523 Card 4080",
+              "amount": 12.95
+            },
+            {
+              "date": "10/21/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 10/21 Floor and Decor 151 McDonough GA P000000586730753 Card 4080",
+              "amount": 2518.04
+            },
+            {
+              "date": "10/22/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 10/22 The Home Depot #0130 Atlanta GA P305295613255543 Card 4080",
+              "amount": 351.31
+            },
+            {
+              "date": "10/22/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 10/22 The Home Depot #0130 Atlanta GA P585295775182823 Card 4080",
+              "amount": 219.25
+            },
+            {
+              "date": "10/27/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 10/23 Olive Garden Zk 00 Morrow GA S385297069498349 Card 4080",
+              "amount": 92.8
+            },
+            {
+              "date": "10/27/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 10/24 Racetrac 2574 Forest Park GA S305297400576886 Card 4080",
+              "amount": 30.15
+            },
+            {
+              "date": "10/27/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 10/25 Truett's Grill-Mor 770-210-0500 GA S585298603013608 Card 4080",
+              "amount": 14.67
+            },
+            {
+              "date": "10/27/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 10/26 Chevron 0381995 Forest Park GA S465299713947122 Card 4080",
+              "amount": 12.36
+            },
+            {
+              "date": "10/30/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 10/30 The Home Depot #0130 Atlanta GA P585303704067664 Card 4080",
+              "amount": 125.78
+            },
+            {
+              "date": "10/31/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 10/30 Chili's MT. Zion Morrow GA S345304062725595 Card 4080",
+              "amount": 60.37
+            },
+            {
+              "date": "10/31/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 10/31 The Home Depot #0130 Atlanta GA P385304582568686 Card 4080",
+              "amount": 1892.55
+            },
+            {
+              "date": "10/31/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 10/31 The Home Depot #0114 Morrow GA P585305015142051 Card 4080",
+              "amount": 156.9
+            }
+          ]
+        }
+      ]
+    },
+    "raw_output": "```json\n{\n  \"accounts\": [\n    {\n      \"account_number\": \"8183990996\",\n      \"account_type\": \"Initiate Business Checking\",\n      \"mca_deposit\": [],\n      \"mca_withdrawal\": [\n        {\n          \"mca_name\": \"SUNPASS\",\n          \"date\": \"10/21/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 10/20 Sunpass*Acc1165579 888-865-5352 FL S385293813497481 Card 4080\",\n          \"amount\": 17.13\n        }\n      ],\n      \"returned_items\": [],\n      \"overdrafts\": [],\n      \"service_charges\": [],\n      \"atm_cash_withdrawal\": [\n        {\n          \"date\": \"10/22/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"ATM Withdrawal authorized on 10/22 4681 Jonesboro Rd Forest Park GA 0002739 ATM ID 0053R Card 4080\",\n          \"amount\": 1000.0\n        }\n      ],\n      \"internal_transfer_deposit\": [\n        {\n          \"date\": \"10/08/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Online Transfer From Amparo A Way2Save Savings xxxxxx6838 Ref #lb0V7Tjft2 on 10/08/25\",\n          \"amount\": 10.0,\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"10/08/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Online Transfer From Amparo A Everyday Checking xxxxxx4316 Ref #lb0V7Tjlth on 10/08/25\",\n          \"amount\": 162.0,\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Online Transfer From Amparo A Way2Save Savings xxxxxx6838 Ref #lb0V9Nxqqv on 10/14/25\",\n          \"amount\": 3000.0,\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"10/16/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Online Transfer From Amparo A Everyday Checking xxxxxx4316 Ref #lb0Vbgt7Zy on 10/16/25\",\n          \"amount\": 179.0,\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"10/20/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Online Transfer From Amparo A Way2Save Savings xxxxxx6838 Ref #lb0Vcsjxn8 on 10/19/25\",\n          \"amount\": 1700.0,\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"10/22/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Online Transfer From Amparo A Everyday Checking xxxxxx4316 Ref #lb0Vdskx7T on 10/22/25\",\n          \"amount\": 162.0,\n          \"non_true_revenue\": 1\n        }\n      ],\n      \"other_transfer_deposit\": [\n        {\n          \"date\": \"10/09/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Money Transfer authorized on 10/08 From Dave Inc CA S585282069091141 Card 4080\",\n          \"amount\": 75.0,\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/09/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Money Transfer authorized on 10/08 From Dave Inc CA S465282069510911 Card 4080\",\n          \"amount\": 75.0,\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"WT Fed#02M00 Notprovided /Org=Wg Elevate Home LLC Srf# 3003875284Es Trn#251014014306 Rfb# 3003875284Es\",\n          \"amount\": 20000.0,\n          \"is_payment_processor\": 0,\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"WT Fed#02L02 Notprovided /Org=Wg Elevate Home LLC Srf# 3507815290Es Trn#251017129398 Rfb# 3507815290Es\",\n          \"amount\": 1000.0,\n          \"is_payment_processor\": 0,\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"10/21/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"WT Fed#02N03 Jpmorgan Chase Ban /Org=Wg Elevate Home LLC Srf# 3345545294Es Trn#251021145861 Rfb# 3345545294Es\",\n          \"amount\": 9000.0,\n          \"is_payment_processor\": 0,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/22/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Money Transfer authorized on 10/22 From Dave Inc CA S465295815829138 Card 4080\",\n          \"amount\": 75.0,\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/22/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Money Transfer authorized on 10/22 From Dave Inc CA S355295816049280 Card 4080\",\n          \"amount\": 75.0,\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/30/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"WT Fed#02N02 Jpmorgan Chase Ban /Org=Wg Elevate Home LLC Srf# 3379305303Es Trn#251030119012 Rfb# 3379305303Es\",\n          \"amount\": 5000.0,\n          \"is_payment_processor\": 0,\n          \"non_true_revenue\": 0\n        }\n      ],\n      \"internal_transfer_withdrawal\": [\n        {\n          \"date\": \"10/08/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Online Transfer to Amparo A Everyday Checking xxxxxx4316 Ref #lb0V7Tkk39 on 10/08/25\",\n          \"amount\": 150.0\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Online Transfer to Amparo A Way2Save Savings xxxxxx6838 Ref #Ib0V9Nkfpt on 10/14/25\",\n          \"amount\": 3000.0\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Online Transfer to Amparo A Everyday Checking xxxxxx4316 Ref #lb0V9Scpcz on 10/14/25\",\n          \"amount\": 370.0\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Online Transfer to Amparo A Way2Save Savings xxxxxx6838 Ref #Ib0V9W6Dyl on 10/14/25\",\n          \"amount\": 2000.0\n        },\n        {\n          \"date\": \"10/15/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Online Transfer to Amparo A Everyday Checking xxxxxx4316 Ref #lb0Vbdghzr on 10/15/25\",\n          \"amount\": 179.0\n        },\n        {\n          \"date\": \"10/16/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Online Transfer to Amparo A Everyday Checking xxxxxx4316 Ref #lb0Vbnsndt on 10/16/25\",\n          \"amount\": 1000.0\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Online Transfer to Amparo A Everyday Checking xxxxxx4316 Ref #lb0Vby3H5H on 10/17/25\",\n          \"amount\": 40.0\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Online Transfer to Amparo A Way2Save Savings xxxxxx6838 Ref #Ib0Vc8Cnc8 on 10/17/25\",\n          \"amount\": 4200.0\n        },\n        {\n          \"date\": \"10/20/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Online Transfer to Amparo A Everyday Checking xxxxxx4316 Ref #lb0Vcqmf59 on 10/19/25\",\n          \"amount\": 5.0\n        },\n        {\n          \"date\": \"10/20/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Online Transfer to Amparo A Everyday Checking xxxxxx4316 Ref #lb0Vd4Jlsr on 10/20/25\",\n          \"amount\": 30.0\n        },\n        {\n          \"date\": \"10/21/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Online Transfer to Amparo A Way2Save Savings xxxxxx6838 Ref #Ib0Vdg4Cq8 on 10/21/25\",\n          \"amount\": 1000.0\n        },\n        {\n          \"date\": \"10/22/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Online Transfer to Amparo A Way2Save Savings xxxxxx6838 Ref #Ib0Vdrdhz9 on 10/22/25\",\n          \"amount\": 1320.0\n        },\n        {\n          \"date\": \"10/22/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Online Transfer to Amparo A Everyday Checking xxxxxx4316 Ref #lb0Vdslxrn on 10/22/25\",\n          \"amount\": 150.0\n        },\n        {\n          \"date\": \"10/22/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Online Transfer to Amparo A Way2Save Savings xxxxxx6838 Ref #Ib0Vdvdc54 on 10/22/25\",\n          \"amount\": 2000.0\n        },\n        {\n          \"date\": \"10/24/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Online Transfer to Amparo A Everyday Checking xxxxxx4316 Ref #lb0Vfcy8Rw on 10/24/25\",\n          \"amount\": 125.0\n        },\n        {\n          \"date\": \"10/28/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Online Transfer to Amparo A Everyday Checking xxxxxx4316 Ref #lb0Vgyhty5 on 10/28/25\",\n          \"amount\": 139.0\n        },\n        {\n          \"date\": \"10/30/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Online Transfer to Amparo A Everyday Checking xxxxxx4316 Ref #lb0Vhgfrmt on 10/30/25\",\n          \"amount\": 24.0\n        }\n      ],\n      \"other_transfer_withdrawal\": [\n        {\n          \"date\": \"10/10/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Money Transfer authorized on 10/08 Dave Inc Dave.Com CA S385282067938050 Card 4080\",\n          \"amount\": 161.12\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Zelle to Amparo Alexander on 10/14 Ref # Wfct0Zcymxg2\",\n          \"amount\": 400.0\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Zelle to Rene on 10/14 Ref # Wfct0Zcyqmjh\",\n          \"amount\": 3000.0\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Zelle to MI Amor on 10/14 Ref # Wfct0Zcz799N\",\n          \"amount\": 100.0\n        },\n        {\n          \"date\": \"10/15/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Zelle to MI Amor on 10/15 Ref # Wfct0Zd3Njlb\",\n          \"amount\": 200.0\n        },\n        {\n          \"date\": \"10/16/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Zelle to Amparo Alexander on 10/16 Ref # Wfct0Zd7C5Rp\",\n          \"amount\": 2000.0\n        },\n        {\n          \"date\": \"10/16/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Zelle to Blahdamir Ventanas on 10/16 Ref # Wfct0Zd8Prmd\",\n          \"amount\": 1.0\n        },\n        {\n          \"date\": \"10/16/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Zelle to Blahdamir Ventanas on 10/16 Ref # WfctOZd8Q7N3\",\n          \"amount\": 1499.0\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Zelle to MI Amor on 10/17 Ref # Wfct0Zdbs8Pz\",\n          \"amount\": 100.0\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Zelle to Amparo Alexander on 10/17 Ref # Wfct0Zdcks9F\",\n          \"amount\": 250.0\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Zelle to MI Amor on 10/17 Ref # Wfct0Zddlyf9\",\n          \"amount\": 100.0\n        },\n        {\n          \"date\": \"10/20/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Zelle to El Socio Jose Luis on 10/19 Ref # Wfct0ZdI7Z3x\",\n          \"amount\": 1.0\n        },\n        {\n          \"date\": \"10/20/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Zelle to El Socio Jose Luis on 10/19 Ref # Wfct0ZdI876R\",\n          \"amount\": 1700.0\n        },\n        {\n          \"date\": \"10/23/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Money Transfer authorized on 10/22 Dave Inc Dave.Com CA S345295814210776 Card 4080\",\n          \"amount\": 162.24\n        },\n        {\n          \"date\": \"10/23/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Zelle to El Socio Jose Luis on 10/23 Ref # Wfct0Zdyqzr8\",\n          \"amount\": 170.0\n        },\n        {\n          \"date\": \"10/30/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Zelle to El Socio Jose Luis on 10/30 Ref # Wfct0Zfmz669\",\n          \"amount\": 1700.0\n        },\n        {\n          \"date\": \"10/31/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Zelle to Amparo Alexander on 10/31 Ref # Wfct0Zfrrfbf\",\n          \"amount\": 90.0\n        }\n      ],\n      \"standard_deposit\": [\n        {\n          \"date\": \"10/23/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Purchase Return authorized on 10/23 The Home Depot #0130 Atlanta GA P305296556000970 Card 4080\",\n          \"amount\": 33.02,\n          \"non_true_revenue\": 1\n        }\n      ],\n      \"standard_withdrawal\": [\n        {\n          \"date\": \"10/14/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 10/14 WM Supercenter #1047 Morrow GA P000000252719411 Card 4080\",\n          \"amount\": 157.76\n        },\n        {\n          \"date\": \"10/15/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 10/14 Sams Club #8287 770-960-8228 GA S585287802904218 Card 4080\",\n          \"amount\": 5.94\n        },\n        {\n          \"date\": \"10/15/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Recurring Payment authorized on 10/14 Samsclub #8287 Morrow GA S345287825061536 Card 4080\",\n          \"amount\": 136.26\n        },\n        {\n          \"date\": \"10/16/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 10/15 Buildersfirstsourc Tucker GA S355288431213356 Card 4080\",\n          \"amount\": 573.83\n        },\n        {\n          \"date\": \"10/16/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 10/15 Sq *Evaluations, C Gosq.Com GA S305288714501353 Card 4080\",\n          \"amount\": 43.0\n        },\n        {\n          \"date\": \"10/16/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 10/15 Amazon Mktpl*NM7N7 Amzn.Com/Bill WA S355289116373875 Card 4080\",\n          \"amount\": 820.78\n        },\n        {\n          \"date\": \"10/16/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 10/16 The Home Depot #0130 Atlanta GA P345289407457868 Card 4080\",\n          \"amount\": 428.35\n        },\n        {\n          \"date\": \"10/16/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 10/16 Bp#2027415Main East Point GA P000000954801323 Card 4080\",\n          \"amount\": 83.27\n        },\n        {\n          \"date\": \"10/16/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 10/16 The Home Depot #0114 Morrow GA P355289854827102 Card 4080\",\n          \"amount\": 27.48\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 10/15 Truett's Grill-Mor Morrow GA S465288576030646 Card 4080\",\n          \"amount\": 16.72\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 10/15 Amazon Mktpl*NM462 Amzn.Com/Bill WA S585289218380254 Card 4080\",\n          \"amount\": 129.24\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 10/15 Amazon Mktpl*NM11H Amzn.Com/Bill WA S585289231511626 Card 4080\",\n          \"amount\": 143.5\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 10/16 Taqueria Arandas Atlanta GA S385289607535322 Card 4080\",\n          \"amount\": 34.51\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 10/16 Wal-Mart #1047 Morrow GA P000000785493659 Card 4080\",\n          \"amount\": 7.34\n        },\n        {\n          \"date\": \"10/20/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 10/15 Amazon Mktpl*NM68U Amzn.Com/Bill WA S385289123349376 Card 4080\",\n          \"amount\": 2138.88\n        },\n        {\n          \"date\": \"10/20/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 10/16 Amazon Mktpl*NM42K Amzn.Com/Bill WA S305289494082770 Card 4080\",\n          \"amount\": 291.59\n        },\n        {\n          \"date\": \"10/20/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 10/16 Amazon Mktpl*NM572 Amzn.Com/Bill WA S585289710317997 Card 4080\",\n          \"amount\": 556.36\n        },\n        {\n          \"date\": \"10/20/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 10/17 Amazon.Com*Nu8414Z Amzn.Com/Bill WA S385290716281202 Card 4080\",\n          \"amount\": 34.01\n        },\n        {\n          \"date\": \"10/21/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 10/20 Courseforanger.Com 407-9066254 FL S465293438410673 Card 4080\",\n          \"amount\": 45.0\n        },\n        {\n          \"date\": \"10/21/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 10/20 Courseforanger.Com 407-9066254 FL S355293729481523 Card 4080\",\n          \"amount\": 12.95\n        },\n        {\n          \"date\": \"10/21/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 10/21 Floor and Decor 151 McDonough GA P000000586730753 Card 4080\",\n          \"amount\": 2518.04\n        },\n        {\n          \"date\": \"10/22/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 10/22 The Home Depot #0130 Atlanta GA P305295613255543 Card 4080\",\n          \"amount\": 351.31\n        },\n        {\n          \"date\": \"10/22/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 10/22 The Home Depot #0130 Atlanta GA P585295775182823 Card 4080\",\n          \"amount\": 219.25\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 10/23 Olive Garden Zk 00 Morrow GA S385297069498349 Card 4080\",\n          \"amount\": 92.8\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 10/24 Racetrac 2574 Forest Park GA S305297400576886 Card 4080\",\n          \"amount\": 30.15\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 10/25 Truett's Grill-Mor 770-210-0500 GA S585298603013608 Card 4080\",\n          \"amount\": 14.67\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 10/26 Chevron 0381995 Forest Park GA S465299713947122 Card 4080\",\n          \"amount\": 12.36\n        },\n        {\n          \"date\": \"10/30/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 10/30 The Home Depot #0130 Atlanta GA P585303704067664 Card 4080\",\n          \"amount\": 125.78\n        },\n        {\n          \"date\": \"10/31/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 10/30 Chili's MT. Zion Morrow GA S345304062725595 Card 4080\",\n          \"amount\": 60.37\n        },\n        {\n          \"date\": \"10/31/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 10/31 The Home Depot #0130 Atlanta GA P385304582568686 Card 4080\",\n          \"amount\": 1892.55\n        },\n        {\n          \"date\": \"10/31/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 10/31 The Home Depot #0114 Morrow GA P585305015142051 Card 4080\",\n          \"amount\": 156.9\n        }\n      ]\n    }\n  ]\n}\n```",
+    "token_count": {
+      "estimated_tokens": 1778
+    },
+    "failure_reason": null
+  }
+}

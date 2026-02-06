@@ -1,0 +1,273 @@
+{
+  "document_name": "Case60.pdf",
+  "pipeline_status": "completed",
+  "processing_metadata": {
+    "start_time": "2026-02-04T15:07:06.227875",
+    "end_time": "2026-02-04T15:08:16.447519",
+    "parsing_time_seconds": 33.412234,
+    "bsi_time_seconds": 36.783426,
+    "total_time_seconds": 70.19566
+  },
+  "parsing_agent_result": {
+    "agent_name": "parsing_agent",
+    "processing_status": "success",
+    "start_time": "2026-02-04T15:07:06.232322",
+    "end_time": "2026-02-04T15:07:39.644403",
+    "parsed_json": {
+      "bank_statement_information": {
+        "bank_name": "WELLS FARGO",
+        "account_holder": "AP RENOVATIONS & FLOORING LLC ALMA AMPARO",
+        "statement_start_date": "09/01/2025",
+        "statement_end_date": "09/30/2025",
+        "n_days": 30,
+        "n_month": [
+          9
+        ],
+        "business_address": "6411 HERITAGE RUN MORROW GA 30260-2563"
+      },
+      "accounts": [
+        {
+          "account_number": "8183990996",
+          "account_type": "Initiate Business Checking",
+          "account_summary": {
+            "beginning_balance": 0.0,
+            "ending_balance": -10.0,
+            "total_deposits": 931.89,
+            "total_withdrawals": 941.89,
+            "total_deposits_count": null,
+            "total_withdrawals_count": null,
+            "avg_daily_balance": 1.0,
+            "overdraft_days": 1
+          },
+          "transactions": [
+            {
+              "date": "09/10/2025",
+              "description": "Money Transfer authorized on 09/10 From Dave Inc CA S385253800791832 Card 4080",
+              "amount": 225.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "09/10/2025",
+              "description": "Money Transfer authorized on 09/10 From Dave Inc CA S305253801258453 Card 4080",
+              "amount": 75.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "09/10/2025",
+              "description": "Online Transfer From Amparo A Everyday Checking xxxxxx4316 Ref #lb0Tvclhxx on 09/10/25",
+              "amount": 163.0,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "09/10/2025",
+              "description": "Money Transfer authorized on 09/10 Dave Inc Los Angeles CA S585253800547963 Card 4080",
+              "amount": 162.24,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/10/2025",
+              "description": "Zelle to Amparo Alexander on 09/10 Ref # Wfct0Z8Gjhs5",
+              "amount": 175.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/10/2025",
+              "description": "Zelle to Ruvalcaba Gloria on 09/10 Ref # Wfct0Z8Gjp2J",
+              "amount": 100.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/11/2025",
+              "description": "Online Transfer to Amparo A Everyday Checking xxxxxx4316 Ref #lb0Tvl32S3 on 09/11/25",
+              "amount": 25.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "09/24/2025",
+              "description": "Money Transfer authorized on 09/24 From Dave Inc CA S465267801477483 Card 4080",
+              "amount": 75.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "09/24/2025",
+              "description": "Money Transfer authorized on 09/24 From Dave Inc CA S465267802484807 Card 4080",
+              "amount": 73.89,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "09/24/2025",
+              "description": "Online Transfer From Amparo A Everyday Checking xxxxxx4316 Ref #lb0V2Bwg7Z on 09/24/25",
+              "amount": 320.0,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "09/24/2025",
+              "description": "Money Transfer authorized on 09/24 Dave Inc Los Angeles CA S385267801102199 Card 4080",
+              "amount": 320.75,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/24/2025",
+              "description": "Online Transfer to Amparo A Everyday Checking xxxxxx4316 Ref #lb0V2C3Cht on 09/24/25",
+              "amount": 148.9,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "09/30/2025",
+              "description": "Monthly Service Fee",
+              "amount": 10.0,
+              "type": "Debit",
+              "category": "Service Charges/Fees"
+            }
+          ]
+        }
+      ]
+    },
+    "raw_output": "```json\n{\n  \"bank_statement_information\": {\n    \"bank_name\": \"WELLS FARGO\",\n    \"account_holder\": \"AP RENOVATIONS & FLOORING LLC ALMA AMPARO\",\n    \"statement_start_date\": \"09/01/2025\",\n    \"statement_end_date\": \"09/30/2025\",\n    \"n_days\": 30,\n    \"n_month\": [\n      9\n    ],\n    \"business_address\": \"6411 HERITAGE RUN MORROW GA 30260-2563\"\n  },\n  \"accounts\": [\n    {\n      \"account_number\": \"8183990996\",\n      \"account_type\": \"Initiate Business Checking\",\n      \"account_summary\": {\n        \"beginning_balance\": 0.00,\n        \"ending_balance\": -10.00,\n        \"total_deposits\": 931.89,\n        \"total_withdrawals\": 941.89,\n        \"total_deposits_count\": null,\n        \"total_withdrawals_count\": null,\n        \"avg_daily_balance\": 1.00,\n        \"overdraft_days\": 1\n      },\n      \"transactions\": [\n        {\n          \"date\": \"09/10/2025\",\n          \"description\": \"Money Transfer authorized on 09/10 From Dave Inc CA S385253800791832 Card 4080\",\n          \"amount\": 225.00,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"09/10/2025\",\n          \"description\": \"Money Transfer authorized on 09/10 From Dave Inc CA S305253801258453 Card 4080\",\n          \"amount\": 75.00,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"09/10/2025\",\n          \"description\": \"Online Transfer From Amparo A Everyday Checking xxxxxx4316 Ref #lb0Tvclhxx on 09/10/25\",\n          \"amount\": 163.00,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"09/10/2025\",\n          \"description\": \"Money Transfer authorized on 09/10 Dave Inc Los Angeles CA S585253800547963 Card 4080\",\n          \"amount\": 162.24,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/10/2025\",\n          \"description\": \"Zelle to Amparo Alexander on 09/10 Ref # Wfct0Z8Gjhs5\",\n          \"amount\": 175.00,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/10/2025\",\n          \"description\": \"Zelle to Ruvalcaba Gloria on 09/10 Ref # Wfct0Z8Gjp2J\",\n          \"amount\": 100.00,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/11/2025\",\n          \"description\": \"Online Transfer to Amparo A Everyday Checking xxxxxx4316 Ref #lb0Tvl32S3 on 09/11/25\",\n          \"amount\": 25.00,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/24/2025\",\n          \"description\": \"Money Transfer authorized on 09/24 From Dave Inc CA S465267801477483 Card 4080\",\n          \"amount\": 75.00,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"09/24/2025\",\n          \"description\": \"Money Transfer authorized on 09/24 From Dave Inc CA S465267802484807 Card 4080\",\n          \"amount\": 73.89,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"09/24/2025\",\n          \"description\": \"Online Transfer From Amparo A Everyday Checking xxxxxx4316 Ref #lb0V2Bwg7Z on 09/24/25\",\n          \"amount\": 320.00,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"09/24/2025\",\n          \"description\": \"Money Transfer authorized on 09/24 Dave Inc Los Angeles CA S385267801102199 Card 4080\",\n          \"amount\": 320.75,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/24/2025\",\n          \"description\": \"Online Transfer to Amparo A Everyday Checking xxxxxx4316 Ref #lb0V2C3Cht on 09/24/25\",\n          \"amount\": 148.90,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/30/2025\",\n          \"description\": \"Monthly Service Fee\",\n          \"amount\": 10.00,\n          \"type\": \"Debit\",\n          \"category\": \"Service Charges/Fees\"\n        }\n      ]\n    }\n  ]\n}\n```",
+    "token_count": {
+      "estimated_tokens": 385
+    },
+    "failure_reason": null
+  },
+  "bsi_analyzer_result": {
+    "agent_name": "v1_bsi_analyzer_agent",
+    "processing_status": "success",
+    "start_time": "2026-02-04T15:07:39.660314",
+    "end_time": "2026-02-04T15:08:16.443294",
+    "parsed_json": {
+      "accounts": [
+        {
+          "account_number": "8183990996",
+          "account_type": "Initiate Business Checking",
+          "mca_deposit": [],
+          "mca_withdrawal": [],
+          "returned_items": [],
+          "overdrafts": [],
+          "service_charges": [
+            {
+              "date": "09/30/2025",
+              "description": "Monthly Service Fee",
+              "amount": 10.0,
+              "type": "Debit"
+            }
+          ],
+          "atm_cash_withdrawal": [],
+          "internal_transfer_deposit": [
+            {
+              "date": "09/10/2025",
+              "description": "Online Transfer From Amparo A Everyday Checking xxxxxx4316 Ref #lb0Tvclhxx on 09/10/25",
+              "amount": 163.0,
+              "type": "Credit",
+              "non_true_revenue": 1
+            },
+            {
+              "date": "09/24/2025",
+              "description": "Online Transfer From Amparo A Everyday Checking xxxxxx4316 Ref #lb0V2Bwg7Z on 09/24/25",
+              "amount": 320.0,
+              "type": "Credit",
+              "non_true_revenue": 1
+            }
+          ],
+          "other_transfer_deposit": [
+            {
+              "date": "09/10/2025",
+              "description": "Money Transfer authorized on 09/10 From Dave Inc CA S385253800791832 Card 4080",
+              "amount": 225.0,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09/10/2025",
+              "description": "Money Transfer authorized on 09/10 From Dave Inc CA S305253801258453 Card 4080",
+              "amount": 75.0,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09/24/2025",
+              "description": "Money Transfer authorized on 09/24 From Dave Inc CA S465267801477483 Card 4080",
+              "amount": 75.0,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09/24/2025",
+              "description": "Money Transfer authorized on 09/24 From Dave Inc CA S465267802484807 Card 4080",
+              "amount": 73.89,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            }
+          ],
+          "internal_transfer_withdrawal": [
+            {
+              "date": "09/11/2025",
+              "description": "Online Transfer to Amparo A Everyday Checking xxxxxx4316 Ref #lb0Tvl32S3 on 09/11/25",
+              "amount": 25.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09/24/2025",
+              "description": "Online Transfer to Amparo A Everyday Checking xxxxxx4316 Ref #lb0V2C3Cht on 09/24/25",
+              "amount": 148.9,
+              "type": "Debit"
+            }
+          ],
+          "other_transfer_withdrawal": [
+            {
+              "date": "09/10/2025",
+              "description": "Zelle to Amparo Alexander on 09/10 Ref # Wfct0Z8Gjhs5",
+              "amount": 175.0,
+              "type": "Debit"
+            },
+            {
+              "date": "09/10/2025",
+              "description": "Zelle to Ruvalcaba Gloria on 09/10 Ref # Wfct0Z8Gjp2J",
+              "amount": 100.0,
+              "type": "Debit"
+            }
+          ],
+          "standard_deposit": [],
+          "standard_withdrawal": [
+            {
+              "date": "09/10/2025",
+              "description": "Money Transfer authorized on 09/10 Dave Inc Los Angeles CA S585253800547963 Card 4080",
+              "amount": 162.24,
+              "type": "Debit"
+            },
+            {
+              "date": "09/24/2025",
+              "description": "Money Transfer authorized on 09/24 Dave Inc Los Angeles CA S385267801102199 Card 4080",
+              "amount": 320.75,
+              "type": "Debit"
+            }
+          ]
+        }
+      ]
+    },
+    "raw_output": "```json\n{\n  \"accounts\": [\n    {\n      \"account_number\": \"8183990996\",\n      \"account_type\": \"Initiate Business Checking\",\n      \"mca_deposit\": [],\n      \"mca_withdrawal\": [],\n      \"returned_items\": [],\n      \"overdrafts\": [],\n      \"service_charges\": [\n        {\n          \"date\": \"09/30/2025\",\n          \"description\": \"Monthly Service Fee\",\n          \"amount\": 10.0,\n          \"type\": \"Debit\"\n        }\n      ],\n      \"atm_cash_withdrawal\": [],\n      \"internal_transfer_deposit\": [\n        {\n          \"date\": \"09/10/2025\",\n          \"description\": \"Online Transfer From Amparo A Everyday Checking xxxxxx4316 Ref #lb0Tvclhxx on 09/10/25\",\n          \"amount\": 163.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"09/24/2025\",\n          \"description\": \"Online Transfer From Amparo A Everyday Checking xxxxxx4316 Ref #lb0V2Bwg7Z on 09/24/25\",\n          \"amount\": 320.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        }\n      ],\n      \"other_transfer_deposit\": [\n        {\n          \"date\": \"09/10/2025\",\n          \"description\": \"Money Transfer authorized on 09/10 From Dave Inc CA S385253800791832 Card 4080\",\n          \"amount\": 225.0,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09/10/2025\",\n          \"description\": \"Money Transfer authorized on 09/10 From Dave Inc CA S305253801258453 Card 4080\",\n          \"amount\": 75.0,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09/24/2025\",\n          \"description\": \"Money Transfer authorized on 09/24 From Dave Inc CA S465267801477483 Card 4080\",\n          \"amount\": 75.0,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09/24/2025\",\n          \"description\": \"Money Transfer authorized on 09/24 From Dave Inc CA S465267802484807 Card 4080\",\n          \"amount\": 73.89,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        }\n      ],\n      \"internal_transfer_withdrawal\": [\n        {\n          \"date\": \"09/11/2025\",\n          \"description\": \"Online Transfer to Amparo A Everyday Checking xxxxxx4316 Ref #lb0Tvl32S3 on 09/11/25\",\n          \"amount\": 25.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/24/2025\",\n          \"description\": \"Online Transfer to Amparo A Everyday Checking xxxxxx4316 Ref #lb0V2C3Cht on 09/24/25\",\n          \"amount\": 148.9,\n          \"type\": \"Debit\"\n        }\n      ],\n      \"other_transfer_withdrawal\": [\n        {\n          \"date\": \"09/10/2025\",\n          \"description\": \"Zelle to Amparo Alexander on 09/10 Ref # Wfct0Z8Gjhs5\",\n          \"amount\": 175.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/10/2025\",\n          \"description\": \"Zelle to Ruvalcaba Gloria on 09/10 Ref # Wfct0Z8Gjp2J\",\n          \"amount\": 100.0,\n          \"type\": \"Debit\"\n        }\n      ],\n      \"standard_deposit\": [],\n      \"standard_withdrawal\": [\n        {\n          \"date\": \"09/10/2025\",\n          \"description\": \"Money Transfer authorized on 09/10 Dave Inc Los Angeles CA S585253800547963 Card 4080\",\n          \"amount\": 162.24,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"09/24/2025\",\n          \"description\": \"Money Transfer authorized on 09/24 Dave Inc Los Angeles CA S385267801102199 Card 4080\",\n          \"amount\": 320.75,\n          \"type\": \"Debit\"\n        }\n      ]\n    }\n  ]\n}\n```",
+    "token_count": {
+      "estimated_tokens": 325
+    },
+    "failure_reason": null
+  }
+}

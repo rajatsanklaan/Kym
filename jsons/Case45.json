@@ -1,0 +1,1603 @@
+{
+  "document_name": "Case45.pdf",
+  "pipeline_status": "completed",
+  "processing_metadata": {
+    "start_time": "2026-02-04T15:00:28.757476",
+    "end_time": "2026-02-04T15:04:39.045027",
+    "parsing_time_seconds": 151.854802,
+    "bsi_time_seconds": 98.185686,
+    "total_time_seconds": 250.040488
+  },
+  "parsing_agent_result": {
+    "agent_name": "parsing_agent",
+    "processing_status": "success",
+    "start_time": "2026-02-04T15:00:28.980636",
+    "end_time": "2026-02-04T15:03:00.835208",
+    "parsed_json": {
+      "bank_statement_information": {
+        "bank_name": "WELLS FARGO",
+        "account_holder": "FLIPPING THE SCRIPT LLC",
+        "statement_start_date": "09/04/2025",
+        "statement_end_date": "09/30/2025",
+        "n_days": 27,
+        "n_month": [
+          9
+        ],
+        "business_address": "20 MIRAMAR DR PENNSVILLE NJ 08070-2408"
+      },
+      "accounts": [
+        {
+          "account_number": "1450932494",
+          "account_type": "Initiate Business Checking",
+          "account_summary": {
+            "beginning_balance": 0.0,
+            "ending_balance": 19774.55,
+            "total_deposits": 330218.92,
+            "total_withdrawals": 310444.37,
+            "total_deposits_count": null,
+            "total_withdrawals_count": null,
+            "avg_daily_balance": 58844.0,
+            "overdraft_days": 0
+          },
+          "transactions": [
+            {
+              "date": "09/04/2025",
+              "description": "Deposit",
+              "amount": 500.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "09/10/2025",
+              "description": "Tele-Transfer Fr xxxxxx4309 Reference #TFOTvbltp9",
+              "amount": 1000.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 0
+            },
+            {
+              "date": "09/10/2025",
+              "description": "Purchase authorized on 09/10 Uber * Eats Pending San Francisco CA P000000487180502 Card 3911",
+              "amount": 27.52,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/11/2025",
+              "description": "Non-WF ATM Withdrawal authorized on 09/11 418 N. Broadway Pennsville NJ 465254493499776 ATM ID PM4423 Card 3911",
+              "amount": 200.0,
+              "type": "Debit",
+              "category": "ATM/Cash Withdrawal"
+            },
+            {
+              "date": "09/11/2025",
+              "description": "Non-Wells Fargo ATM Transaction Fee",
+              "amount": 3.0,
+              "type": "Debit",
+              "category": "Service Charges/Fees"
+            },
+            {
+              "date": "09/12/2025",
+              "description": "eDeposit IN Branch 09/12/25 12:32:42 PM 3215 Old Capitol Trail Wilmington DE 3911",
+              "amount": 958.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "09/12/2025",
+              "description": "WT 3678415255Es Jpmorgan Chase B /Org=Vallely Law PIIc Attorney Trust Srf# 3678415255Es Trn#250912180638 Rfb# 3678415255Es",
+              "amount": 311231.11,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 0
+            },
+            {
+              "date": "09/12/2025",
+              "description": "Purchase authorized on 09/11 McDonald's F4573 Pennsville NJ 5585254490830987 Card 3911",
+              "amount": 5.1,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/12/2025",
+              "description": "Money Transfer authorized on 09/11 Cash App*April Tat Oakland CA S585254572106116 Card 3911",
+              "amount": 55.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/12/2025",
+              "description": "Money Transfer authorized on 09/11 Cash App*Aziria Ba Oakland CA S305254649302430 Card 3911",
+              "amount": 50.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/12/2025",
+              "description": "Purchase authorized on 09/11 Ic* Instacart*2246 Instacart.Com CA S305255053864222 Card 3911",
+              "amount": 27.96,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/12/2025",
+              "description": "Money Transfer authorized on 09/11 Cash App*Vaughn HI Oakland CA S305255054306133 Card 3911",
+              "amount": 25.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/15/2025",
+              "description": "Wire Trans Svc Charge - Sequence: 250915101467 Srf# 0066040256117831 Trn#250915101467 Rfb#",
+              "amount": 40.0,
+              "type": "Debit",
+              "category": "Service Charges/Fees"
+            },
+            {
+              "date": "09/15/2025",
+              "description": "Wire Trans Svc Charge - Sequence: 250915101508 Srf# 0066040256927831 Trn#250915101508 Rfb#",
+              "amount": 40.0,
+              "type": "Debit",
+              "category": "Service Charges/Fees"
+            },
+            {
+              "date": "09/15/2025",
+              "description": "Wire Trans Svc Charge - Sequence: 250915101380 Srf# 0066040256496831 Trn#250915101380 Rfb#",
+              "amount": 40.0,
+              "type": "Debit",
+              "category": "Service Charges/Fees"
+            },
+            {
+              "date": "09/15/2025",
+              "description": "Money Transfer authorized on 09/12 Cash App*Vaughn HI Oakland CA S305255504036598 Card 3911",
+              "amount": 30.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/15/2025",
+              "description": "Money Transfer authorized on 09/12 Cash App*April Tat Oakland CA 5585255691935174 Card 3911",
+              "amount": 50.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/15/2025",
+              "description": "Money Transfer authorized on 09/12 Cash App*April Tat Oakland CA S465255747210939 Card 3911",
+              "amount": 1000.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/15/2025",
+              "description": "Money Transfer authorized on 09/12 Cash App*Vaughn HI Oakland CA S385255748975072 Card 3911",
+              "amount": 100.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/15/2025",
+              "description": "Transfer IN Branch - to Pamela Stuart-Highland DDA xxxxxx6339 3215 Old Capitol Trail Wilmington DE",
+              "amount": 130000.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/15/2025",
+              "description": "Withdrawal Made In A Branch/Store",
+              "amount": 27000.0,
+              "type": "Debit",
+              "category": "ATM/Cash Withdrawal"
+            },
+            {
+              "date": "09/15/2025",
+              "description": "Purchase authorized on 09/13 Ic* Instacart Instacart.Com CA S385256731434321 Card 3911",
+              "amount": 56.98,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/15/2025",
+              "description": "Purchase authorized on 09/14 Uber * Eats Pending San Francisco CA P000000786839818 Card 3911",
+              "amount": 17.79,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/15/2025",
+              "description": "Money Transfer authorized on 09/14 Cash App*Vaughn HI Oakland CA S385257585429523 Card 3911",
+              "amount": 100.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/15/2025",
+              "description": "Money Transfer authorized on 09/14 Cash App April Tat Oakland CA S305257669522822 Card 3911",
+              "amount": 55.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/15/2025",
+              "description": "Purchase authorized on 09/14 Uber Technologies, Inc Wilmington DE P000000581521185 Card 3911",
+              "amount": 27.52,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/15/2025",
+              "description": "Purchase authorized on 09/15 Uber Eats Pending San Francisco CA P000000583975532 Card 3911",
+              "amount": 19.83,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/15/2025",
+              "description": "WT Fed#02R00 Municipal Credit U/Ftr/Bnf=Ariana M Stuart Srf# 0066040256117831 Trn#250915101467 Rfb#",
+              "amount": 10000.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/15/2025",
+              "description": "WT Fed#01R00 Td Bank, NA/Ftr/Bnf=Johnathan Stuart Srf# 0066040256927831 Trn#250915101508 Rfb#",
+              "amount": 15000.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/15/2025",
+              "description": "WT Fed#03R00 Navy Federal Credi/Ftr/Bnf=Chantel Stuart Srf# 0066040256496831 Trn#250915101380 Rfb#",
+              "amount": 10000.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/15/2025",
+              "description": "Atlantic City El BILLPAY 250915 Atlantic City E Ivr Anonymous",
+              "amount": 613.01,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/16/2025",
+              "description": "WT Seq#02265 WF Return Wires IN Proc /Org= Srf# 2025091500195771 Trn#250916002265 Rfb#",
+              "amount": 10000.0,
+              "type": "Credit",
+              "category": "Returned Item"
+            },
+            {
+              "date": "09/16/2025",
+              "description": "Harland Clarke Check/Acc. 091325 2Fat100300718L8 Flipping The Script LI",
+              "amount": 37.18,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/16/2025",
+              "description": "Money Transfer authorized on 09/15 Cash App\" Vaughn HI Oakland CA S585258513629723 Card 3911",
+              "amount": 50.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/16/2025",
+              "description": "Money Transfer authorized on 09/15 Cash App*Vern Jeff Oakland CA 5465258826672366 Card 3911",
+              "amount": 1000.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/16/2025",
+              "description": "Purchase authorized on 09/15 Ic* Instacart Instacart.Com CA 5465258852820952 Card 3911",
+              "amount": 45.47,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/16/2025",
+              "description": "Money Transfer authorized on 09/15 Cash App*Malachi M Oakland CA 5465259026552014 Card 3911",
+              "amount": 100.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/16/2025",
+              "description": "Money Transfer authorized on 09/15 Cash App\"April Tat Oakland CA S465259089168705 Card 3911",
+              "amount": 50.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/16/2025",
+              "description": "Purchase authorized on 09/16 Sunoco 05202064 Wilmington DE P000000051435554 Card 3911",
+              "amount": 19.08,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/16/2025",
+              "description": "Sallie Mae Bank Slmloanpmt 250915 5548760879 Pamela Stuart",
+              "amount": 222.63,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/16/2025",
+              "description": "Lakeview Ln Srv Mtg Pymt 091525 0065593204 Pamela Stuart",
+              "amount": 33350.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/17/2025",
+              "description": "eDeposit IN Branch 09/17/25 11:13:43 Am 3215 Old Capitol Trail Wilmington DE 3911",
+              "amount": 107.5,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "09/17/2025",
+              "description": "Money Transfer authorized on 09/16 Cash App*Chance Oakland CA S465259505958173 Card 3911",
+              "amount": 300.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/17/2025",
+              "description": "Money Transfer authorized on 09/16 Cash App*Chance Oakland CA 5585259520288664 Card 3911",
+              "amount": 100.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/17/2025",
+              "description": "Purchase authorized on 09/16 Gold Coast Credit 877-2630643 NY 5385259617262250 Card 3911",
+              "amount": 3000.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/17/2025",
+              "description": "Purchase authorized on 09/16 Delaware Cadillac Wilmington DE S465259745590406 Card 3911",
+              "amount": 4954.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/17/2025",
+              "description": "Recurring Payment authorized on 09/16 Uwm Appraisal Dire Dwellingblock HI S465259849017149 Card 3911",
+              "amount": 535.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/17/2025",
+              "description": "Money Transfer authorized on 09/16 Cash App*Vaughn HI Oakland CA 5585260071273913 Card 3911",
+              "amount": 50.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/17/2025",
+              "description": "Purchase authorized on 09/17 Uber Technologies, Inc Wilmington DE P000000083936601 Card 3911",
+              "amount": 20.16,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/17/2025",
+              "description": "Transfer IN Branch - to Pamela Stuart-Highland DDA xxxxxx6339 3215 Old Capitol Trail Wilmington DE",
+              "amount": 35000.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/18/2025",
+              "description": "Money Transfer authorized on 09/18 From Pamela Stuarthighland NJ S385261526647039 Card 3911",
+              "amount": 881.31,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 0
+            },
+            {
+              "date": "09/18/2025",
+              "description": "eDeposit IN Branch 09/18/25 02:17:49 PM 3215 Old Capitol Trail Wilmington DE 3911",
+              "amount": 541.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "09/18/2025",
+              "description": "Purchase authorized on 09/17 Get It Done Transp 954-439-4252 FL S385260495538807 Card 3911",
+              "amount": 303.85,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/18/2025",
+              "description": "Purchase authorized on 09/17 Get It Done Transp 954-439-4252 FL S305260496810703 Card 3911",
+              "amount": 509.85,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/18/2025",
+              "description": "Money Transfer authorized on 09/17 Cash App*April Tat Oakland CA S385260527000432 Card 3911",
+              "amount": 50.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/18/2025",
+              "description": "Money Transfer authorized on 09/17 Cash App*Vern Jeff Oakland CA S585260616846469 Card 3911",
+              "amount": 2200.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/18/2025",
+              "description": "Money Transfer authorized on 09/17 Cash App*Chance Oakland CA 5585260630396893 Card 3911",
+              "amount": 2500.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/18/2025",
+              "description": "Purchase authorized on 09/18 Uber Technologies, Inc Wilmington DE P000000389817425 Card 3911",
+              "amount": 20.16,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/18/2025",
+              "description": "Purchase authorized on 09/18 Uber * Eats Pending San Francisco CA P000000087441554 Card 3911",
+              "amount": 75.76,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/18/2025",
+              "description": "Ngrid38 Ngrid38Tel 091825 9282166026 Pamela Jeff",
+              "amount": 1000.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/19/2025",
+              "description": "Money Transfer authorized on 09/18 Cash App*April Tat Oakland CA S585261585058347 Card 3911",
+              "amount": 50.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/19/2025",
+              "description": "Money Transfer authorized on 09/18 Cash App*Aaron Tod Oakland CA S385261803936799 Card 3911",
+              "amount": 5000.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/19/2025",
+              "description": "Ngrid38 Ngrid38Tel 091925 2990922026 Pamela Jeff",
+              "amount": 3000.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/19/2025",
+              "description": "Ngrid38 Ngrid 38Tel 091925 6726583022 Pamela Jeff",
+              "amount": 3000.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/22/2025",
+              "description": "Money Transfer authorized on 09/19 Cash App*Aaron Tod Oakland CA S305263007246853 Card 3911",
+              "amount": 5000.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/22/2025",
+              "description": "Money Transfer authorized on 09/19 Cash App*Vaughn HI Oakland CA S305263054521852 Card 3911",
+              "amount": 50.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/22/2025",
+              "description": "Purchase authorized on 09/20 Uber Technologies, Inc Wilmington DE P000000583528119 Card 3911",
+              "amount": 28.04,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/22/2025",
+              "description": "Money Transfer authorized on 09/20 Cash App*Vaughn HI Oakland CA S385263590974229 Card 3911",
+              "amount": 1000.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/22/2025",
+              "description": "Money Transfer authorized on 09/20 Cash App*Vern Jeff Oakland CA S385263785765815 Card 3911",
+              "amount": 50.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/22/2025",
+              "description": "Purchase authorized on 09/20 Ic* Instacart Instacart.Com CA S385263814105651 Card 3911",
+              "amount": 62.22,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/22/2025",
+              "description": "Purchase authorized on 09/20 Ic* Instacart Instacart.Com CA S305264072608101 Card 3911",
+              "amount": 2.12,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/22/2025",
+              "description": "Purchase authorized on 09/21 Uber * Eats Pending San Francisco CA P000000984059763 Card 3911",
+              "amount": 25.62,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/22/2025",
+              "description": "Purchase authorized on 09/22 Uber * Eats Pending San Francisco CA P000000383694955 Card 3911",
+              "amount": 28.04,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/22/2025",
+              "description": "Purchase authorized on 09/22 Uber Technologies, Inc Wilmington DE P000000087850520 Card 3911",
+              "amount": 28.67,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/23/2025",
+              "description": "Purchase authorized on 09/19 Conserve 585-4211028 NY 5465262544504241 Card 3911",
+              "amount": 400.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/23/2025",
+              "description": "Purchase authorized on 09/22 Uber Technologies, Inc Wilmington DE P000000681892839 Card 3911",
+              "amount": 24.76,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/23/2025",
+              "description": "Purchase authorized on 09/23 Uber * Eats Pending San Francisco CA P000000686669655 Card 3911",
+              "amount": 28.04,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/24/2025",
+              "description": "Tele-Transfer Fr xxxxxx8282 Reference #TF0V29Yxfr",
+              "amount": 5000.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 0
+            },
+            {
+              "date": "09/24/2025",
+              "description": "Money Transfer authorized on 09/23 Cash App*Rhyan M Oakland CA S385266442880133 Card 3911",
+              "amount": 91.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/24/2025",
+              "description": "Money Transfer authorized on 09/23 Cash App*April Tat Oakland CA S385266567313909 Card 3911",
+              "amount": 55.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/24/2025",
+              "description": "Purchase authorized on 09/23 Ic* Instacart Instacart.Com CA S465266773187526 Card 3911",
+              "amount": 43.78,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/24/2025",
+              "description": "Purchase authorized on 09/23 Ic* Instacart Instacart.Com CA S305266816797176 Card 3911",
+              "amount": 1.08,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/24/2025",
+              "description": "Money Transfer authorized on 09/23 Cash App*April Tat Oakland CA S465267097414610 Card 3911",
+              "amount": 50.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/24/2025",
+              "description": "Purchase authorized on 09/24 Uber Technologies, Inc Wilmington DE P000000289212128 Card 3911",
+              "amount": 25.62,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/24/2025",
+              "description": "Purchase authorized on 09/24 Uber * Eats Pending San Francisco CA P000000184639184 Card 3911",
+              "amount": 29.6,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/25/2025",
+              "description": "Purchase authorized on 09/24 Ic* Instacart Instacart.Com CA 5305267644259195 Card 3911",
+              "amount": 31.27,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/25/2025",
+              "description": "Purchase authorized on 09/24 Ic* Instacart Instacart.Com CA 5585267682795906 Card 3911",
+              "amount": 1.05,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/25/2025",
+              "description": "Money Transfer authorized on 09/24 Cash App*Vaughn HI Oakland CA S585268018800064 Card 3911",
+              "amount": 55.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/25/2025",
+              "description": "Purchase authorized on 09/25 Uber * Eats Pending San Francisco CA P000000984745525 Card 3911",
+              "amount": 26.04,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/26/2025",
+              "description": "Purchase authorized on 09/24 Global Lending Ser 877-315-6070 GA S465267778622214 Card 3911",
+              "amount": 3367.52,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/26/2025",
+              "description": "Money Transfer authorized on 09/25 Cash App*Chantel Oakland CA S305268515496832 Card 3911",
+              "amount": 500.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/26/2025",
+              "description": "Money Transfer authorized on 09/25 Cash App*Marcos El Oakland CA S465268689996631 Card 3911",
+              "amount": 220.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/26/2025",
+              "description": "Purchase authorized on 09/25 Ic* Instacart Instacart.Com CA 5465268781341678 Card 3911",
+              "amount": 46.34,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/26/2025",
+              "description": "Purchase authorized on 09/25 Cash App*Philo Inc Cash.App CA 5385268791350258 Card 3911",
+              "amount": 25.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/26/2025",
+              "description": "Purchase authorized on 09/25 Ic* Instacart Instacart.Com CA 5305268843039267 Card 3911",
+              "amount": 1.06,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/26/2025",
+              "description": "Money Transfer authorized on 09/25 Cash App*April Tat Oakland CA S585269060047398 Card 3911",
+              "amount": 50.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/26/2025",
+              "description": "Money Transfer authorized on 09/25 Cash App*Vaughn HI Oakland CA S385269073375299 Card 3911",
+              "amount": 100.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/26/2025",
+              "description": "Purchase authorized on 09/26 Uber Technologies, Inc Wilmington DE P000000286626248 Card 3911",
+              "amount": 26.2,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/26/2025",
+              "description": "Non-WF ATM Withdrawal authorized on 09/26 125 S Broadway Pennsville NJ 305269675585883 ATM ID Xb1892 Card 3911",
+              "amount": 303.0,
+              "type": "Debit",
+              "category": "ATM/Cash Withdrawal"
+            },
+            {
+              "date": "09/26/2025",
+              "description": "Non-Wells Fargo ATM Transaction Fee",
+              "amount": 3.0,
+              "type": "Debit",
+              "category": "Service Charges/Fees"
+            },
+            {
+              "date": "09/26/2025",
+              "description": "Carrington Mortgage 250926 4001314887 Vaughn Highland",
+              "amount": 3434.75,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/29/2025",
+              "description": "Purchase authorized on 09/26 Uber Technologies, Inc Wilmington DE P000000981046017 Card 3911",
+              "amount": 24.82,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/29/2025",
+              "description": "Purchase authorized on 09/27 Uber Technologies, Inc Wilmington DE P000000884729794 Card 3911",
+              "amount": 25.78,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/29/2025",
+              "description": "Purchase authorized on 09/27 Ic* Instacart Instacart.Com CA 5465270755139247 Card 3911",
+              "amount": 52.83,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/29/2025",
+              "description": "Purchase authorized on 09/27 Harris Plumbing He 856-9358888 NJ S465270755735758 Card 3911",
+              "amount": 300.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/29/2025",
+              "description": "Purchase authorized on 09/27 Ic* Instacart Instacart.Com CA S465270818923205 Card 3911",
+              "amount": 1.07,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/29/2025",
+              "description": "Purchase authorized on 09/28 Uber * Eats Pending San Francisco CA P000000734204165 Card 3911",
+              "amount": 26.2,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/29/2025",
+              "description": "Purchase authorized on 09/28 Uber *Wawa8332418 San Francisco CA P000000482318889 Card 3911",
+              "amount": 27.62,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/29/2025",
+              "description": "Purchase authorized on 09/29 Uber Technologies, Inc Wilmington DE P000000481447338 Card 3911",
+              "amount": 18.62,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/29/2025",
+              "description": "Tele-Transfer to xxxxxx8282 Reference #TF0V42Cnd5",
+              "amount": 2000.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "09/30/2025",
+              "description": "Purchase authorized on 09/29 Ic* Instacart Instacart.Com CA S465272792831207 Card 3911",
+              "amount": 37.76,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/30/2025",
+              "description": "Purchase authorized on 09/29 Uber * Eats Pending San Francisco CA P000000983073710 Card 3911",
+              "amount": 34.29,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/30/2025",
+              "description": "Purchase authorized on 09/29 Ic* Instacart Instacart.Com CA 5385273036089464 Card 3911",
+              "amount": 3.09,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/30/2025",
+              "description": "Purchase authorized on 09/30 Uber Technologies, Inc Wilmington DE P000000189189726 Card 3911",
+              "amount": 27.32,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "09/30/2025",
+              "description": "< Business to Business ACH Debit - Con Ed of NY Cecony 250926 96529110007 Chantel Stuart",
+              "amount": 1524.3,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            }
+          ]
+        }
+      ]
+    },
+    "raw_output": "```json\n{\n  \"bank_statement_information\": {\n    \"bank_name\": \"WELLS FARGO\",\n    \"account_holder\": \"FLIPPING THE SCRIPT LLC\",\n    \"statement_start_date\": \"09/04/2025\",\n    \"statement_end_date\": \"09/30/2025\",\n    \"n_days\": 27,\n    \"n_month\": [\n      9\n    ],\n    \"business_address\": \"20 MIRAMAR DR PENNSVILLE NJ 08070-2408\"\n  },\n  \"accounts\": [\n    {\n      \"account_number\": \"1450932494\",\n      \"account_type\": \"Initiate Business Checking\",\n      \"account_summary\": {\n        \"beginning_balance\": 0.0,\n        \"ending_balance\": 19774.55,\n        \"total_deposits\": 330218.92,\n        \"total_withdrawals\": 310444.37,\n        \"total_deposits_count\": null,\n        \"total_withdrawals_count\": null,\n        \"avg_daily_balance\": 58844.0,\n        \"overdraft_days\": 0\n      },\n      \"transactions\": [\n        {\n          \"date\": \"09/04/2025\",\n          \"description\": \"Deposit\",\n          \"amount\": 500.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"09/10/2025\",\n          \"description\": \"Tele-Transfer Fr xxxxxx4309 Reference #TFOTvbltp9\",\n          \"amount\": 1000.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 0\n        },\n        {\n          \"date\": \"09/10/2025\",\n          \"description\": \"Purchase authorized on 09/10 Uber * Eats Pending San Francisco CA P000000487180502 Card 3911\",\n          \"amount\": 27.52,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/11/2025\",\n          \"description\": \"Non-WF ATM Withdrawal authorized on 09/11 418 N. Broadway Pennsville NJ 465254493499776 ATM ID PM4423 Card 3911\",\n          \"amount\": 200.0,\n          \"type\": \"Debit\",\n          \"category\": \"ATM/Cash Withdrawal\"\n        },\n        {\n          \"date\": \"09/11/2025\",\n          \"description\": \"Non-Wells Fargo ATM Transaction Fee\",\n          \"amount\": 3.0,\n          \"type\": \"Debit\",\n          \"category\": \"Service Charges/Fees\"\n        },\n        {\n          \"date\": \"09/12/2025\",\n          \"description\": \"eDeposit IN Branch 09/12/25 12:32:42 PM 3215 Old Capitol Trail Wilmington DE 3911\",\n          \"amount\": 958.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"09/12/2025\",\n          \"description\": \"WT 3678415255Es Jpmorgan Chase B /Org=Vallely Law PIIc Attorney Trust Srf# 3678415255Es Trn#250912180638 Rfb# 3678415255Es\",\n          \"amount\": 311231.11,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 0\n        },\n        {\n          \"date\": \"09/12/2025\",\n          \"description\": \"Purchase authorized on 09/11 McDonald's F4573 Pennsville NJ 5585254490830987 Card 3911\",\n          \"amount\": 5.1,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/12/2025\",\n          \"description\": \"Money Transfer authorized on 09/11 Cash App*April Tat Oakland CA S585254572106116 Card 3911\",\n          \"amount\": 55.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/12/2025\",\n          \"description\": \"Money Transfer authorized on 09/11 Cash App*Aziria Ba Oakland CA S305254649302430 Card 3911\",\n          \"amount\": 50.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/12/2025\",\n          \"description\": \"Purchase authorized on 09/11 Ic* Instacart*2246 Instacart.Com CA S305255053864222 Card 3911\",\n          \"amount\": 27.96,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/12/2025\",\n          \"description\": \"Money Transfer authorized on 09/11 Cash App*Vaughn HI Oakland CA S305255054306133 Card 3911\",\n          \"amount\": 25.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"description\": \"Wire Trans Svc Charge - Sequence: 250915101467 Srf# 0066040256117831 Trn#250915101467 Rfb#\",\n          \"amount\": 40.0,\n          \"type\": \"Debit\",\n          \"category\": \"Service Charges/Fees\"\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"description\": \"Wire Trans Svc Charge - Sequence: 250915101508 Srf# 0066040256927831 Trn#250915101508 Rfb#\",\n          \"amount\": 40.0,\n          \"type\": \"Debit\",\n          \"category\": \"Service Charges/Fees\"\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"description\": \"Wire Trans Svc Charge - Sequence: 250915101380 Srf# 0066040256496831 Trn#250915101380 Rfb#\",\n          \"amount\": 40.0,\n          \"type\": \"Debit\",\n          \"category\": \"Service Charges/Fees\"\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"description\": \"Money Transfer authorized on 09/12 Cash App*Vaughn HI Oakland CA S305255504036598 Card 3911\",\n          \"amount\": 30.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"description\": \"Money Transfer authorized on 09/12 Cash App*April Tat Oakland CA 5585255691935174 Card 3911\",\n          \"amount\": 50.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"description\": \"Money Transfer authorized on 09/12 Cash App*April Tat Oakland CA S465255747210939 Card 3911\",\n          \"amount\": 1000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"description\": \"Money Transfer authorized on 09/12 Cash App*Vaughn HI Oakland CA S385255748975072 Card 3911\",\n          \"amount\": 100.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"description\": \"Transfer IN Branch - to Pamela Stuart-Highland DDA xxxxxx6339 3215 Old Capitol Trail Wilmington DE\",\n          \"amount\": 130000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"description\": \"Withdrawal Made In A Branch/Store\",\n          \"amount\": 27000.0,\n          \"type\": \"Debit\",\n          \"category\": \"ATM/Cash Withdrawal\"\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"description\": \"Purchase authorized on 09/13 Ic* Instacart Instacart.Com CA S385256731434321 Card 3911\",\n          \"amount\": 56.98,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"description\": \"Purchase authorized on 09/14 Uber * Eats Pending San Francisco CA P000000786839818 Card 3911\",\n          \"amount\": 17.79,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"description\": \"Money Transfer authorized on 09/14 Cash App*Vaughn HI Oakland CA S385257585429523 Card 3911\",\n          \"amount\": 100.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"description\": \"Money Transfer authorized on 09/14 Cash App April Tat Oakland CA S305257669522822 Card 3911\",\n          \"amount\": 55.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"description\": \"Purchase authorized on 09/14 Uber Technologies, Inc Wilmington DE P000000581521185 Card 3911\",\n          \"amount\": 27.52,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"description\": \"Purchase authorized on 09/15 Uber Eats Pending San Francisco CA P000000583975532 Card 3911\",\n          \"amount\": 19.83,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"description\": \"WT Fed#02R00 Municipal Credit U/Ftr/Bnf=Ariana M Stuart Srf# 0066040256117831 Trn#250915101467 Rfb#\",\n          \"amount\": 10000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"description\": \"WT Fed#01R00 Td Bank, NA/Ftr/Bnf=Johnathan Stuart Srf# 0066040256927831 Trn#250915101508 Rfb#\",\n          \"amount\": 15000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"description\": \"WT Fed#03R00 Navy Federal Credi/Ftr/Bnf=Chantel Stuart Srf# 0066040256496831 Trn#250915101380 Rfb#\",\n          \"amount\": 10000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"description\": \"Atlantic City El BILLPAY 250915 Atlantic City E Ivr Anonymous\",\n          \"amount\": 613.01,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/16/2025\",\n          \"description\": \"WT Seq#02265 WF Return Wires IN Proc /Org= Srf# 2025091500195771 Trn#250916002265 Rfb#\",\n          \"amount\": 10000.0,\n          \"type\": \"Credit\",\n          \"category\": \"Returned Item\"\n        },\n        {\n          \"date\": \"09/16/2025\",\n          \"description\": \"Harland Clarke Check/Acc. 091325 2Fat100300718L8 Flipping The Script LI\",\n          \"amount\": 37.18,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/16/2025\",\n          \"description\": \"Money Transfer authorized on 09/15 Cash App\\\" Vaughn HI Oakland CA S585258513629723 Card 3911\",\n          \"amount\": 50.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/16/2025\",\n          \"description\": \"Money Transfer authorized on 09/15 Cash App*Vern Jeff Oakland CA 5465258826672366 Card 3911\",\n          \"amount\": 1000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/16/2025\",\n          \"description\": \"Purchase authorized on 09/15 Ic* Instacart Instacart.Com CA 5465258852820952 Card 3911\",\n          \"amount\": 45.47,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/16/2025\",\n          \"description\": \"Money Transfer authorized on 09/15 Cash App*Malachi M Oakland CA 5465259026552014 Card 3911\",\n          \"amount\": 100.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/16/2025\",\n          \"description\": \"Money Transfer authorized on 09/15 Cash App\\\"April Tat Oakland CA S465259089168705 Card 3911\",\n          \"amount\": 50.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/16/2025\",\n          \"description\": \"Purchase authorized on 09/16 Sunoco 05202064 Wilmington DE P000000051435554 Card 3911\",\n          \"amount\": 19.08,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/16/2025\",\n          \"description\": \"Sallie Mae Bank Slmloanpmt 250915 5548760879 Pamela Stuart\",\n          \"amount\": 222.63,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/16/2025\",\n          \"description\": \"Lakeview Ln Srv Mtg Pymt 091525 0065593204 Pamela Stuart\",\n          \"amount\": 33350.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/17/2025\",\n          \"description\": \"eDeposit IN Branch 09/17/25 11:13:43 Am 3215 Old Capitol Trail Wilmington DE 3911\",\n          \"amount\": 107.5,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"09/17/2025\",\n          \"description\": \"Money Transfer authorized on 09/16 Cash App*Chance Oakland CA S465259505958173 Card 3911\",\n          \"amount\": 300.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/17/2025\",\n          \"description\": \"Money Transfer authorized on 09/16 Cash App*Chance Oakland CA 5585259520288664 Card 3911\",\n          \"amount\": 100.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/17/2025\",\n          \"description\": \"Purchase authorized on 09/16 Gold Coast Credit 877-2630643 NY 5385259617262250 Card 3911\",\n          \"amount\": 3000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/17/2025\",\n          \"description\": \"Purchase authorized on 09/16 Delaware Cadillac Wilmington DE S465259745590406 Card 3911\",\n          \"amount\": 4954.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/17/2025\",\n          \"description\": \"Recurring Payment authorized on 09/16 Uwm Appraisal Dire Dwellingblock HI S465259849017149 Card 3911\",\n          \"amount\": 535.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/17/2025\",\n          \"description\": \"Money Transfer authorized on 09/16 Cash App*Vaughn HI Oakland CA 5585260071273913 Card 3911\",\n          \"amount\": 50.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/17/2025\",\n          \"description\": \"Purchase authorized on 09/17 Uber Technologies, Inc Wilmington DE P000000083936601 Card 3911\",\n          \"amount\": 20.16,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/17/2025\",\n          \"description\": \"Transfer IN Branch - to Pamela Stuart-Highland DDA xxxxxx6339 3215 Old Capitol Trail Wilmington DE\",\n          \"amount\": 35000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/18/2025\",\n          \"description\": \"Money Transfer authorized on 09/18 From Pamela Stuarthighland NJ S385261526647039 Card 3911\",\n          \"amount\": 881.31,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 0\n        },\n        {\n          \"date\": \"09/18/2025\",\n          \"description\": \"eDeposit IN Branch 09/18/25 02:17:49 PM 3215 Old Capitol Trail Wilmington DE 3911\",\n          \"amount\": 541.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"09/18/2025\",\n          \"description\": \"Purchase authorized on 09/17 Get It Done Transp 954-439-4252 FL S385260495538807 Card 3911\",\n          \"amount\": 303.85,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/18/2025\",\n          \"description\": \"Purchase authorized on 09/17 Get It Done Transp 954-439-4252 FL S305260496810703 Card 3911\",\n          \"amount\": 509.85,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/18/2025\",\n          \"description\": \"Money Transfer authorized on 09/17 Cash App*April Tat Oakland CA S385260527000432 Card 3911\",\n          \"amount\": 50.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/18/2025\",\n          \"description\": \"Money Transfer authorized on 09/17 Cash App*Vern Jeff Oakland CA S585260616846469 Card 3911\",\n          \"amount\": 2200.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/18/2025\",\n          \"description\": \"Money Transfer authorized on 09/17 Cash App*Chance Oakland CA 5585260630396893 Card 3911\",\n          \"amount\": 2500.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/18/2025\",\n          \"description\": \"Purchase authorized on 09/18 Uber Technologies, Inc Wilmington DE P000000389817425 Card 3911\",\n          \"amount\": 20.16,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/18/2025\",\n          \"description\": \"Purchase authorized on 09/18 Uber * Eats Pending San Francisco CA P000000087441554 Card 3911\",\n          \"amount\": 75.76,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/18/2025\",\n          \"description\": \"Ngrid38 Ngrid38Tel 091825 9282166026 Pamela Jeff\",\n          \"amount\": 1000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/19/2025\",\n          \"description\": \"Money Transfer authorized on 09/18 Cash App*April Tat Oakland CA S585261585058347 Card 3911\",\n          \"amount\": 50.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/19/2025\",\n          \"description\": \"Money Transfer authorized on 09/18 Cash App*Aaron Tod Oakland CA S385261803936799 Card 3911\",\n          \"amount\": 5000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/19/2025\",\n          \"description\": \"Ngrid38 Ngrid38Tel 091925 2990922026 Pamela Jeff\",\n          \"amount\": 3000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/19/2025\",\n          \"description\": \"Ngrid38 Ngrid 38Tel 091925 6726583022 Pamela Jeff\",\n          \"amount\": 3000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/22/2025\",\n          \"description\": \"Money Transfer authorized on 09/19 Cash App*Aaron Tod Oakland CA S305263007246853 Card 3911\",\n          \"amount\": 5000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/22/2025\",\n          \"description\": \"Money Transfer authorized on 09/19 Cash App*Vaughn HI Oakland CA S305263054521852 Card 3911\",\n          \"amount\": 50.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/22/2025\",\n          \"description\": \"Purchase authorized on 09/20 Uber Technologies, Inc Wilmington DE P000000583528119 Card 3911\",\n          \"amount\": 28.04,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/22/2025\",\n          \"description\": \"Money Transfer authorized on 09/20 Cash App*Vaughn HI Oakland CA S385263590974229 Card 3911\",\n          \"amount\": 1000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/22/2025\",\n          \"description\": \"Money Transfer authorized on 09/20 Cash App*Vern Jeff Oakland CA S385263785765815 Card 3911\",\n          \"amount\": 50.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/22/2025\",\n          \"description\": \"Purchase authorized on 09/20 Ic* Instacart Instacart.Com CA S385263814105651 Card 3911\",\n          \"amount\": 62.22,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/22/2025\",\n          \"description\": \"Purchase authorized on 09/20 Ic* Instacart Instacart.Com CA S305264072608101 Card 3911\",\n          \"amount\": 2.12,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/22/2025\",\n          \"description\": \"Purchase authorized on 09/21 Uber * Eats Pending San Francisco CA P000000984059763 Card 3911\",\n          \"amount\": 25.62,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/22/2025\",\n          \"description\": \"Purchase authorized on 09/22 Uber * Eats Pending San Francisco CA P000000383694955 Card 3911\",\n          \"amount\": 28.04,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/22/2025\",\n          \"description\": \"Purchase authorized on 09/22 Uber Technologies, Inc Wilmington DE P000000087850520 Card 3911\",\n          \"amount\": 28.67,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/23/2025\",\n          \"description\": \"Purchase authorized on 09/19 Conserve 585-4211028 NY 5465262544504241 Card 3911\",\n          \"amount\": 400.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/23/2025\",\n          \"description\": \"Purchase authorized on 09/22 Uber Technologies, Inc Wilmington DE P000000681892839 Card 3911\",\n          \"amount\": 24.76,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/23/2025\",\n          \"description\": \"Purchase authorized on 09/23 Uber * Eats Pending San Francisco CA P000000686669655 Card 3911\",\n          \"amount\": 28.04,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/24/2025\",\n          \"description\": \"Tele-Transfer Fr xxxxxx8282 Reference #TF0V29Yxfr\",\n          \"amount\": 5000.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 0\n        },\n        {\n          \"date\": \"09/24/2025\",\n          \"description\": \"Money Transfer authorized on 09/23 Cash App*Rhyan M Oakland CA S385266442880133 Card 3911\",\n          \"amount\": 91.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/24/2025\",\n          \"description\": \"Money Transfer authorized on 09/23 Cash App*April Tat Oakland CA S385266567313909 Card 3911\",\n          \"amount\": 55.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/24/2025\",\n          \"description\": \"Purchase authorized on 09/23 Ic* Instacart Instacart.Com CA S465266773187526 Card 3911\",\n          \"amount\": 43.78,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/24/2025\",\n          \"description\": \"Purchase authorized on 09/23 Ic* Instacart Instacart.Com CA S305266816797176 Card 3911\",\n          \"amount\": 1.08,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/24/2025\",\n          \"description\": \"Money Transfer authorized on 09/23 Cash App*April Tat Oakland CA S465267097414610 Card 3911\",\n          \"amount\": 50.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/24/2025\",\n          \"description\": \"Purchase authorized on 09/24 Uber Technologies, Inc Wilmington DE P000000289212128 Card 3911\",\n          \"amount\": 25.62,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/24/2025\",\n          \"description\": \"Purchase authorized on 09/24 Uber * Eats Pending San Francisco CA P000000184639184 Card 3911\",\n          \"amount\": 29.6,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/25/2025\",\n          \"description\": \"Purchase authorized on 09/24 Ic* Instacart Instacart.Com CA 5305267644259195 Card 3911\",\n          \"amount\": 31.27,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/25/2025\",\n          \"description\": \"Purchase authorized on 09/24 Ic* Instacart Instacart.Com CA 5585267682795906 Card 3911\",\n          \"amount\": 1.05,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/25/2025\",\n          \"description\": \"Money Transfer authorized on 09/24 Cash App*Vaughn HI Oakland CA S585268018800064 Card 3911\",\n          \"amount\": 55.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/25/2025\",\n          \"description\": \"Purchase authorized on 09/25 Uber * Eats Pending San Francisco CA P000000984745525 Card 3911\",\n          \"amount\": 26.04,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/26/2025\",\n          \"description\": \"Purchase authorized on 09/24 Global Lending Ser 877-315-6070 GA S465267778622214 Card 3911\",\n          \"amount\": 3367.52,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/26/2025\",\n          \"description\": \"Money Transfer authorized on 09/25 Cash App*Chantel Oakland CA S305268515496832 Card 3911\",\n          \"amount\": 500.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/26/2025\",\n          \"description\": \"Money Transfer authorized on 09/25 Cash App*Marcos El Oakland CA S465268689996631 Card 3911\",\n          \"amount\": 220.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/26/2025\",\n          \"description\": \"Purchase authorized on 09/25 Ic* Instacart Instacart.Com CA 5465268781341678 Card 3911\",\n          \"amount\": 46.34,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/26/2025\",\n          \"description\": \"Purchase authorized on 09/25 Cash App*Philo Inc Cash.App CA 5385268791350258 Card 3911\",\n          \"amount\": 25.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/26/2025\",\n          \"description\": \"Purchase authorized on 09/25 Ic* Instacart Instacart.Com CA 5305268843039267 Card 3911\",\n          \"amount\": 1.06,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/26/2025\",\n          \"description\": \"Money Transfer authorized on 09/25 Cash App*April Tat Oakland CA S585269060047398 Card 3911\",\n          \"amount\": 50.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/26/2025\",\n          \"description\": \"Money Transfer authorized on 09/25 Cash App*Vaughn HI Oakland CA S385269073375299 Card 3911\",\n          \"amount\": 100.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/26/2025\",\n          \"description\": \"Purchase authorized on 09/26 Uber Technologies, Inc Wilmington DE P000000286626248 Card 3911\",\n          \"amount\": 26.2,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/26/2025\",\n          \"description\": \"Non-WF ATM Withdrawal authorized on 09/26 125 S Broadway Pennsville NJ 305269675585883 ATM ID Xb1892 Card 3911\",\n          \"amount\": 303.0,\n          \"type\": \"Debit\",\n          \"category\": \"ATM/Cash Withdrawal\"\n        },\n        {\n          \"date\": \"09/26/2025\",\n          \"description\": \"Non-Wells Fargo ATM Transaction Fee\",\n          \"amount\": 3.0,\n          \"type\": \"Debit\",\n          \"category\": \"Service Charges/Fees\"\n        },\n        {\n          \"date\": \"09/26/2025\",\n          \"description\": \"Carrington Mortgage 250926 4001314887 Vaughn Highland\",\n          \"amount\": 3434.75,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/29/2025\",\n          \"description\": \"Purchase authorized on 09/26 Uber Technologies, Inc Wilmington DE P000000981046017 Card 3911\",\n          \"amount\": 24.82,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/29/2025\",\n          \"description\": \"Purchase authorized on 09/27 Uber Technologies, Inc Wilmington DE P000000884729794 Card 3911\",\n          \"amount\": 25.78,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/29/2025\",\n          \"description\": \"Purchase authorized on 09/27 Ic* Instacart Instacart.Com CA 5465270755139247 Card 3911\",\n          \"amount\": 52.83,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/29/2025\",\n          \"description\": \"Purchase authorized on 09/27 Harris Plumbing He 856-9358888 NJ S465270755735758 Card 3911\",\n          \"amount\": 300.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/29/2025\",\n          \"description\": \"Purchase authorized on 09/27 Ic* Instacart Instacart.Com CA S465270818923205 Card 3911\",\n          \"amount\": 1.07,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/29/2025\",\n          \"description\": \"Purchase authorized on 09/28 Uber * Eats Pending San Francisco CA P000000734204165 Card 3911\",\n          \"amount\": 26.2,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/29/2025\",\n          \"description\": \"Purchase authorized on 09/28 Uber *Wawa8332418 San Francisco CA P000000482318889 Card 3911\",\n          \"amount\": 27.62,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/29/2025\",\n          \"description\": \"Purchase authorized on 09/29 Uber Technologies, Inc Wilmington DE P000000481447338 Card 3911\",\n          \"amount\": 18.62,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/29/2025\",\n          \"description\": \"Tele-Transfer to xxxxxx8282 Reference #TF0V42Cnd5\",\n          \"amount\": 2000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"09/30/2025\",\n          \"description\": \"Purchase authorized on 09/29 Ic* Instacart Instacart.Com CA S465272792831207 Card 3911\",\n          \"amount\": 37.76,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/30/2025\",\n          \"description\": \"Purchase authorized on 09/29 Uber * Eats Pending San Francisco CA P000000983073710 Card 3911\",\n          \"amount\": 34.29,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/30/2025\",\n          \"description\": \"Purchase authorized on 09/29 Ic* Instacart Instacart.Com CA 5385273036089464 Card 3911\",\n          \"amount\": 3.09,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/30/2025\",\n          \"description\": \"Purchase authorized on 09/30 Uber Technologies, Inc Wilmington DE P000000189189726 Card 3911\",\n          \"amount\": 27.32,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"09/30/2025\",\n          \"description\": \"< Business to Business ACH Debit - Con Ed of NY Cecony 250926 96529110007 Chantel Stuart\",\n          \"amount\": 1524.3,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        }\n      ]\n    }\n  ]\n}\n```",
+    "token_count": {
+      "estimated_tokens": 2841
+    },
+    "failure_reason": null
+  },
+  "bsi_analyzer_result": {
+    "agent_name": "v1_bsi_analyzer_agent",
+    "processing_status": "success",
+    "start_time": "2026-02-04T15:03:00.855954",
+    "end_time": "2026-02-04T15:04:39.041174",
+    "parsed_json": {
+      "accounts": [
+        {
+          "account_number": "1450932494",
+          "account_type": "Initiate Business Checking",
+          "mca_deposit": [],
+          "mca_withdrawal": [],
+          "returned_items": [
+            {
+              "date": "09/16/2025",
+              "type": "Credit",
+              "description": "WT Seq#02265 WF Return Wires IN Proc /Org= Srf# 2025091500195771 Trn#250916002265 Rfb#",
+              "amount": 10000.0,
+              "non_true_revenue": 1
+            }
+          ],
+          "overdrafts": [],
+          "service_charges": [
+            {
+              "date": "09/11/2025",
+              "type": "Debit",
+              "description": "Non-Wells Fargo ATM Transaction Fee",
+              "amount": 3.0
+            },
+            {
+              "date": "09/15/2025",
+              "type": "Debit",
+              "description": "Wire Trans Svc Charge - Sequence: 250915101467 Srf# 0066040256117831 Trn#250915101467 Rfb#",
+              "amount": 40.0
+            },
+            {
+              "date": "09/15/2025",
+              "type": "Debit",
+              "description": "Wire Trans Svc Charge - Sequence: 250915101508 Srf# 0066040256927831 Trn#250915101508 Rfb#",
+              "amount": 40.0
+            },
+            {
+              "date": "09/15/2025",
+              "type": "Debit",
+              "description": "Wire Trans Svc Charge - Sequence: 250915101380 Srf# 0066040256496831 Trn#250915101380 Rfb#",
+              "amount": 40.0
+            },
+            {
+              "date": "09/26/2025",
+              "type": "Debit",
+              "description": "Non-Wells Fargo ATM Transaction Fee",
+              "amount": 3.0
+            }
+          ],
+          "atm_cash_withdrawal": [
+            {
+              "date": "09/11/2025",
+              "type": "Debit",
+              "description": "Non-WF ATM Withdrawal authorized on 09/11 418 N. Broadway Pennsville NJ 465254493499776 ATM ID PM4423 Card 3911",
+              "amount": 200.0
+            },
+            {
+              "date": "09/15/2025",
+              "type": "Debit",
+              "description": "Withdrawal Made In A Branch/Store",
+              "amount": 27000.0
+            },
+            {
+              "date": "09/26/2025",
+              "type": "Debit",
+              "description": "Non-WF ATM Withdrawal authorized on 09/26 125 S Broadway Pennsville NJ 305269675585883 ATM ID Xb1892 Card 3911",
+              "amount": 303.0
+            }
+          ],
+          "internal_transfer_deposit": [],
+          "other_transfer_deposit": [
+            {
+              "date": "09/10/2025",
+              "type": "Credit",
+              "description": "Tele-Transfer Fr xxxxxx4309 Reference #TFOTvbltp9",
+              "amount": 1000.0,
+              "is_payment_processor": 0,
+              "non_true_revenue": 1
+            },
+            {
+              "date": "09/12/2025",
+              "type": "Credit",
+              "description": "WT 3678415255Es Jpmorgan Chase B /Org=Vallely Law PIIc Attorney Trust Srf# 3678415255Es Trn#250912180638 Rfb# 3678415255Es",
+              "amount": 311231.11,
+              "is_payment_processor": 0,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09/18/2025",
+              "type": "Credit",
+              "description": "Money Transfer authorized on 09/18 From Pamela Stuarthighland NJ S385261526647039 Card 3911",
+              "amount": 881.31,
+              "is_payment_processor": 0,
+              "non_true_revenue": 1
+            },
+            {
+              "date": "09/24/2025",
+              "type": "Credit",
+              "description": "Tele-Transfer Fr xxxxxx8282 Reference #TF0V29Yxfr",
+              "amount": 5000.0,
+              "is_payment_processor": 0,
+              "non_true_revenue": 1
+            }
+          ],
+          "internal_transfer_withdrawal": [],
+          "other_transfer_withdrawal": [
+            {
+              "date": "09/12/2025",
+              "type": "Debit",
+              "description": "Money Transfer authorized on 09/11 Cash App*April Tat Oakland CA S585254572106116 Card 3911",
+              "amount": 55.0
+            },
+            {
+              "date": "09/12/2025",
+              "type": "Debit",
+              "description": "Money Transfer authorized on 09/11 Cash App*Aziria Ba Oakland CA S305254649302430 Card 3911",
+              "amount": 50.0
+            },
+            {
+              "date": "09/12/2025",
+              "type": "Debit",
+              "description": "Money Transfer authorized on 09/11 Cash App*Vaughn HI Oakland CA S305255054306133 Card 3911",
+              "amount": 25.0
+            },
+            {
+              "date": "09/15/2025",
+              "type": "Debit",
+              "description": "Money Transfer authorized on 09/12 Cash App*Vaughn HI Oakland CA S305255504036598 Card 3911",
+              "amount": 30.0
+            },
+            {
+              "date": "09/15/2025",
+              "type": "Debit",
+              "description": "Money Transfer authorized on 09/12 Cash App*April Tat Oakland CA 5585255691935174 Card 3911",
+              "amount": 50.0
+            },
+            {
+              "date": "09/15/2025",
+              "type": "Debit",
+              "description": "Money Transfer authorized on 09/12 Cash App*April Tat Oakland CA S465255747210939 Card 3911",
+              "amount": 1000.0
+            },
+            {
+              "date": "09/15/2025",
+              "type": "Debit",
+              "description": "Money Transfer authorized on 09/12 Cash App*Vaughn HI Oakland CA S385255748975072 Card 3911",
+              "amount": 100.0
+            },
+            {
+              "date": "09/15/2025",
+              "type": "Debit",
+              "description": "Transfer IN Branch - to Pamela Stuart-Highland DDA xxxxxx6339 3215 Old Capitol Trail Wilmington DE",
+              "amount": 130000.0
+            },
+            {
+              "date": "09/15/2025",
+              "type": "Debit",
+              "description": "Money Transfer authorized on 09/14 Cash App*Vaughn HI Oakland CA S385257585429523 Card 3911",
+              "amount": 100.0
+            },
+            {
+              "date": "09/15/2025",
+              "type": "Debit",
+              "description": "Money Transfer authorized on 09/14 Cash App April Tat Oakland CA S305257669522822 Card 3911",
+              "amount": 55.0
+            },
+            {
+              "date": "09/15/2025",
+              "type": "Debit",
+              "description": "WT Fed#02R00 Municipal Credit U/Ftr/Bnf=Ariana M Stuart Srf# 0066040256117831 Trn#250915101467 Rfb#",
+              "amount": 10000.0
+            },
+            {
+              "date": "09/15/2025",
+              "type": "Debit",
+              "description": "WT Fed#01R00 Td Bank, NA/Ftr/Bnf=Johnathan Stuart Srf# 0066040256927831 Trn#250915101508 Rfb#",
+              "amount": 15000.0
+            },
+            {
+              "date": "09/15/2025",
+              "type": "Debit",
+              "description": "WT Fed#03R00 Navy Federal Credi/Ftr/Bnf=Chantel Stuart Srf# 0066040256496831 Trn#250915101380 Rfb#",
+              "amount": 10000.0
+            },
+            {
+              "date": "09/16/2025",
+              "type": "Debit",
+              "description": "Money Transfer authorized on 09/15 Cash App\" Vaughn HI Oakland CA S585258513629723 Card 3911",
+              "amount": 50.0
+            },
+            {
+              "date": "09/16/2025",
+              "type": "Debit",
+              "description": "Money Transfer authorized on 09/15 Cash App*Vern Jeff Oakland CA 5465258826672366 Card 3911",
+              "amount": 1000.0
+            },
+            {
+              "date": "09/16/2025",
+              "type": "Debit",
+              "description": "Money Transfer authorized on 09/15 Cash App*Malachi M Oakland CA 5465259026552014 Card 3911",
+              "amount": 100.0
+            },
+            {
+              "date": "09/16/2025",
+              "type": "Debit",
+              "description": "Money Transfer authorized on 09/15 Cash App\"April Tat Oakland CA S465259089168705 Card 3911",
+              "amount": 50.0
+            },
+            {
+              "date": "09/17/2025",
+              "type": "Debit",
+              "description": "Money Transfer authorized on 09/16 Cash App*Chance Oakland CA S465259505958173 Card 3911",
+              "amount": 300.0
+            },
+            {
+              "date": "09/17/2025",
+              "type": "Debit",
+              "description": "Money Transfer authorized on 09/16 Cash App*Chance Oakland CA 5585259520288664 Card 3911",
+              "amount": 100.0
+            },
+            {
+              "date": "09/17/2025",
+              "type": "Debit",
+              "description": "Money Transfer authorized on 09/16 Cash App*Vaughn HI Oakland CA 5585260071273913 Card 3911",
+              "amount": 50.0
+            },
+            {
+              "date": "09/17/2025",
+              "type": "Debit",
+              "description": "Transfer IN Branch - to Pamela Stuart-Highland DDA xxxxxx6339 3215 Old Capitol Trail Wilmington DE",
+              "amount": 35000.0
+            },
+            {
+              "date": "09/18/2025",
+              "type": "Debit",
+              "description": "Money Transfer authorized on 09/17 Cash App*April Tat Oakland CA S385260527000432 Card 3911",
+              "amount": 50.0
+            },
+            {
+              "date": "09/18/2025",
+              "type": "Debit",
+              "description": "Money Transfer authorized on 09/17 Cash App*Vern Jeff Oakland CA S585260616846469 Card 3911",
+              "amount": 2200.0
+            },
+            {
+              "date": "09/18/2025",
+              "type": "Debit",
+              "description": "Money Transfer authorized on 09/17 Cash App*Chance Oakland CA 5585260630396893 Card 3911",
+              "amount": 2500.0
+            },
+            {
+              "date": "09/19/2025",
+              "type": "Debit",
+              "description": "Money Transfer authorized on 09/18 Cash App*April Tat Oakland CA S585261585058347 Card 3911",
+              "amount": 50.0
+            },
+            {
+              "date": "09/19/2025",
+              "type": "Debit",
+              "description": "Money Transfer authorized on 09/18 Cash App*Aaron Tod Oakland CA S385261803936799 Card 3911",
+              "amount": 5000.0
+            },
+            {
+              "date": "09/22/2025",
+              "type": "Debit",
+              "description": "Money Transfer authorized on 09/19 Cash App*Aaron Tod Oakland CA S305263007246853 Card 3911",
+              "amount": 5000.0
+            },
+            {
+              "date": "09/22/2025",
+              "type": "Debit",
+              "description": "Money Transfer authorized on 09/19 Cash App*Vaughn HI Oakland CA S305263054521852 Card 3911",
+              "amount": 50.0
+            },
+            {
+              "date": "09/22/2025",
+              "type": "Debit",
+              "description": "Money Transfer authorized on 09/20 Cash App*Vaughn HI Oakland CA S385263590974229 Card 3911",
+              "amount": 1000.0
+            },
+            {
+              "date": "09/22/2025",
+              "type": "Debit",
+              "description": "Money Transfer authorized on 09/20 Cash App*Vern Jeff Oakland CA S385263785765815 Card 3911",
+              "amount": 50.0
+            },
+            {
+              "date": "09/24/2025",
+              "type": "Debit",
+              "description": "Money Transfer authorized on 09/23 Cash App*Rhyan M Oakland CA S385266442880133 Card 3911",
+              "amount": 91.0
+            },
+            {
+              "date": "09/24/2025",
+              "type": "Debit",
+              "description": "Money Transfer authorized on 09/23 Cash App*April Tat Oakland CA S385266567313909 Card 3911",
+              "amount": 55.0
+            },
+            {
+              "date": "09/24/2025",
+              "type": "Debit",
+              "description": "Money Transfer authorized on 09/23 Cash App*April Tat Oakland CA S465267097414610 Card 3911",
+              "amount": 50.0
+            },
+            {
+              "date": "09/25/2025",
+              "type": "Debit",
+              "description": "Money Transfer authorized on 09/24 Cash App*Vaughn HI Oakland CA S585268018800064 Card 3911",
+              "amount": 55.0
+            },
+            {
+              "date": "09/26/2025",
+              "type": "Debit",
+              "description": "Money Transfer authorized on 09/25 Cash App*Chantel Oakland CA S305268515496832 Card 3911",
+              "amount": 500.0
+            },
+            {
+              "date": "09/26/2025",
+              "type": "Debit",
+              "description": "Money Transfer authorized on 09/25 Cash App*Marcos El Oakland CA S465268689996631 Card 3911",
+              "amount": 220.0
+            },
+            {
+              "date": "09/26/2025",
+              "type": "Debit",
+              "description": "Money Transfer authorized on 09/25 Cash App*April Tat Oakland CA S585269060047398 Card 3911",
+              "amount": 50.0
+            },
+            {
+              "date": "09/26/2025",
+              "type": "Debit",
+              "description": "Money Transfer authorized on 09/25 Cash App*Vaughn HI Oakland CA S385269073375299 Card 3911",
+              "amount": 100.0
+            },
+            {
+              "date": "09/29/2025",
+              "type": "Debit",
+              "description": "Tele-Transfer to xxxxxx8282 Reference #TF0V42Cnd5",
+              "amount": 2000.0
+            }
+          ],
+          "standard_deposit": [
+            {
+              "date": "09/04/2025",
+              "type": "Credit",
+              "description": "Deposit",
+              "amount": 500.0,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09/12/2025",
+              "type": "Credit",
+              "description": "eDeposit IN Branch 09/12/25 12:32:42 PM 3215 Old Capitol Trail Wilmington DE 3911",
+              "amount": 958.0,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09/17/2025",
+              "type": "Credit",
+              "description": "eDeposit IN Branch 09/17/25 11:13:43 Am 3215 Old Capitol Trail Wilmington DE 3911",
+              "amount": 107.5,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "09/18/2025",
+              "type": "Credit",
+              "description": "eDeposit IN Branch 09/18/25 02:17:49 PM 3215 Old Capitol Trail Wilmington DE 3911",
+              "amount": 541.0,
+              "non_true_revenue": 0
+            }
+          ],
+          "standard_withdrawal": [
+            {
+              "date": "09/10/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/10 Uber * Eats Pending San Francisco CA P000000487180502 Card 3911",
+              "amount": 27.52
+            },
+            {
+              "date": "09/12/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/11 McDonald's F4573 Pennsville NJ 5585254490830987 Card 3911",
+              "amount": 5.1
+            },
+            {
+              "date": "09/12/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/11 Ic* Instacart*2246 Instacart.Com CA S305255053864222 Card 3911",
+              "amount": 27.96
+            },
+            {
+              "date": "09/15/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/13 Ic* Instacart Instacart.Com CA S385256731434321 Card 3911",
+              "amount": 56.98
+            },
+            {
+              "date": "09/15/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/14 Uber * Eats Pending San Francisco CA P000000786839818 Card 3911",
+              "amount": 17.79
+            },
+            {
+              "date": "09/15/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/14 Uber Technologies, Inc Wilmington DE P000000581521185 Card 3911",
+              "amount": 27.52
+            },
+            {
+              "date": "09/15/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/15 Uber Eats Pending San Francisco CA P000000583975532 Card 3911",
+              "amount": 19.83
+            },
+            {
+              "date": "09/15/2025",
+              "type": "Debit",
+              "description": "Atlantic City El BILLPAY 250915 Atlantic City E Ivr Anonymous",
+              "amount": 613.01
+            },
+            {
+              "date": "09/16/2025",
+              "type": "Debit",
+              "description": "Harland Clarke Check/Acc. 091325 2Fat100300718L8 Flipping The Script LI",
+              "amount": 37.18
+            },
+            {
+              "date": "09/16/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/15 Ic* Instacart Instacart.Com CA 5465258852820952 Card 3911",
+              "amount": 45.47
+            },
+            {
+              "date": "09/16/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/16 Sunoco 05202064 Wilmington DE P000000051435554 Card 3911",
+              "amount": 19.08
+            },
+            {
+              "date": "09/16/2025",
+              "type": "Debit",
+              "description": "Sallie Mae Bank Slmloanpmt 250915 5548760879 Pamela Stuart",
+              "amount": 222.63
+            },
+            {
+              "date": "09/16/2025",
+              "type": "Debit",
+              "description": "Lakeview Ln Srv Mtg Pymt 091525 0065593204 Pamela Stuart",
+              "amount": 33350.0
+            },
+            {
+              "date": "09/17/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/16 Gold Coast Credit 877-2630643 NY 5385259617262250 Card 3911",
+              "amount": 3000.0
+            },
+            {
+              "date": "09/17/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/16 Delaware Cadillac Wilmington DE S465259745590406 Card 3911",
+              "amount": 4954.0
+            },
+            {
+              "date": "09/17/2025",
+              "type": "Debit",
+              "description": "Recurring Payment authorized on 09/16 Uwm Appraisal Dire Dwellingblock HI S465259849017149 Card 3911",
+              "amount": 535.0
+            },
+            {
+              "date": "09/17/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/17 Uber Technologies, Inc Wilmington DE P000000083936601 Card 3911",
+              "amount": 20.16
+            },
+            {
+              "date": "09/18/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/17 Get It Done Transp 954-439-4252 FL S385260495538807 Card 3911",
+              "amount": 303.85
+            },
+            {
+              "date": "09/18/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/17 Get It Done Transp 954-439-4252 FL S305260496810703 Card 3911",
+              "amount": 509.85
+            },
+            {
+              "date": "09/18/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/18 Uber Technologies, Inc Wilmington DE P000000389817425 Card 3911",
+              "amount": 20.16
+            },
+            {
+              "date": "09/18/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/18 Uber * Eats Pending San Francisco CA P000000087441554 Card 3911",
+              "amount": 75.76
+            },
+            {
+              "date": "09/18/2025",
+              "type": "Debit",
+              "description": "Ngrid38 Ngrid38Tel 091825 9282166026 Pamela Jeff",
+              "amount": 1000.0
+            },
+            {
+              "date": "09/19/2025",
+              "type": "Debit",
+              "description": "Ngrid38 Ngrid38Tel 091925 2990922026 Pamela Jeff",
+              "amount": 3000.0
+            },
+            {
+              "date": "09/19/2025",
+              "type": "Debit",
+              "description": "Ngrid38 Ngrid 38Tel 091925 6726583022 Pamela Jeff",
+              "amount": 3000.0
+            },
+            {
+              "date": "09/22/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/20 Uber Technologies, Inc Wilmington DE P000000583528119 Card 3911",
+              "amount": 28.04
+            },
+            {
+              "date": "09/22/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/20 Ic* Instacart Instacart.Com CA S385263814105651 Card 3911",
+              "amount": 62.22
+            },
+            {
+              "date": "09/22/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/20 Ic* Instacart Instacart.Com CA S305264072608101 Card 3911",
+              "amount": 2.12
+            },
+            {
+              "date": "09/22/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/21 Uber * Eats Pending San Francisco CA P000000984059763 Card 3911",
+              "amount": 25.62
+            },
+            {
+              "date": "09/22/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/22 Uber * Eats Pending San Francisco CA P000000383694955 Card 3911",
+              "amount": 28.04
+            },
+            {
+              "date": "09/22/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/22 Uber Technologies, Inc Wilmington DE P000000087850520 Card 3911",
+              "amount": 28.67
+            },
+            {
+              "date": "09/23/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/19 Conserve 585-4211028 NY 5465262544504241 Card 3911",
+              "amount": 400.0
+            },
+            {
+              "date": "09/23/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/22 Uber Technologies, Inc Wilmington DE P000000681892839 Card 3911",
+              "amount": 24.76
+            },
+            {
+              "date": "09/23/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/23 Uber * Eats Pending San Francisco CA P000000686669655 Card 3911",
+              "amount": 28.04
+            },
+            {
+              "date": "09/24/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/23 Ic* Instacart Instacart.Com CA S465266773187526 Card 3911",
+              "amount": 43.78
+            },
+            {
+              "date": "09/24/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/23 Ic* Instacart Instacart.Com CA S305266816797176 Card 3911",
+              "amount": 1.08
+            },
+            {
+              "date": "09/24/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/24 Uber Technologies, Inc Wilmington DE P000000289212128 Card 3911",
+              "amount": 25.62
+            },
+            {
+              "date": "09/24/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/24 Uber * Eats Pending San Francisco CA P000000184639184 Card 3911",
+              "amount": 29.6
+            },
+            {
+              "date": "09/25/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/24 Ic* Instacart Instacart.Com CA 5305267644259195 Card 3911",
+              "amount": 31.27
+            },
+            {
+              "date": "09/25/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/24 Ic* Instacart Instacart.Com CA 5585267682795906 Card 3911",
+              "amount": 1.05
+            },
+            {
+              "date": "09/25/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/25 Uber * Eats Pending San Francisco CA P000000984745525 Card 3911",
+              "amount": 26.04
+            },
+            {
+              "date": "09/26/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/24 Global Lending Ser 877-315-6070 GA S465267778622214 Card 3911",
+              "amount": 3367.52
+            },
+            {
+              "date": "09/26/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/25 Ic* Instacart Instacart.Com CA 5465268781341678 Card 3911",
+              "amount": 46.34
+            },
+            {
+              "date": "09/26/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/25 Cash App*Philo Inc Cash.App CA 5385268791350258 Card 3911",
+              "amount": 25.0
+            },
+            {
+              "date": "09/26/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/25 Ic* Instacart Instacart.Com CA 5305268843039267 Card 3911",
+              "amount": 1.06
+            },
+            {
+              "date": "09/26/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/26 Uber Technologies, Inc Wilmington DE P000000286626248 Card 3911",
+              "amount": 26.2
+            },
+            {
+              "date": "09/26/2025",
+              "type": "Debit",
+              "description": "Carrington Mortgage 250926 4001314887 Vaughn Highland",
+              "amount": 3434.75
+            },
+            {
+              "date": "09/29/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/26 Uber Technologies, Inc Wilmington DE P000000981046017 Card 3911",
+              "amount": 24.82
+            },
+            {
+              "date": "09/29/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/27 Uber Technologies, Inc Wilmington DE P000000884729794 Card 3911",
+              "amount": 25.78
+            },
+            {
+              "date": "09/29/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/27 Ic* Instacart Instacart.Com CA 5465270755139247 Card 3911",
+              "amount": 52.83
+            },
+            {
+              "date": "09/29/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/27 Harris Plumbing He 856-9358888 NJ S465270755735758 Card 3911",
+              "amount": 300.0
+            },
+            {
+              "date": "09/29/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/27 Ic* Instacart Instacart.Com CA S465270818923205 Card 3911",
+              "amount": 1.07
+            },
+            {
+              "date": "09/29/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/28 Uber * Eats Pending San Francisco CA P000000734204165 Card 3911",
+              "amount": 26.2
+            },
+            {
+              "date": "09/29/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/28 Uber *Wawa8332418 San Francisco CA P000000482318889 Card 3911",
+              "amount": 27.62
+            },
+            {
+              "date": "09/29/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/29 Uber Technologies, Inc Wilmington DE P000000481447338 Card 3911",
+              "amount": 18.62
+            },
+            {
+              "date": "09/30/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/29 Ic* Instacart Instacart.Com CA S465272792831207 Card 3911",
+              "amount": 37.76
+            },
+            {
+              "date": "09/30/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/29 Uber * Eats Pending San Francisco CA P000000983073710 Card 3911",
+              "amount": 34.29
+            },
+            {
+              "date": "09/30/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/29 Ic* Instacart Instacart.Com CA 5385273036089464 Card 3911",
+              "amount": 3.09
+            },
+            {
+              "date": "09/30/2025",
+              "type": "Debit",
+              "description": "Purchase authorized on 09/30 Uber Technologies, Inc Wilmington DE P000000189189726 Card 3911",
+              "amount": 27.32
+            },
+            {
+              "date": "09/30/2025",
+              "type": "Debit",
+              "description": "< Business to Business ACH Debit - Con Ed of NY Cecony 250926 96529110007 Chantel Stuart",
+              "amount": 1524.3
+            }
+          ]
+        }
+      ]
+    },
+    "raw_output": "```json\n{\n  \"accounts\": [\n    {\n      \"account_number\": \"1450932494\",\n      \"account_type\": \"Initiate Business Checking\",\n      \"mca_deposit\": [],\n      \"mca_withdrawal\": [],\n      \"returned_items\": [\n        {\n          \"date\": \"09/16/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"WT Seq#02265 WF Return Wires IN Proc /Org= Srf# 2025091500195771 Trn#250916002265 Rfb#\",\n          \"amount\": 10000.0,\n          \"non_true_revenue\": 1\n        }\n      ],\n      \"overdrafts\": [],\n      \"service_charges\": [\n        {\n          \"date\": \"09/11/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Non-Wells Fargo ATM Transaction Fee\",\n          \"amount\": 3.0\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Wire Trans Svc Charge - Sequence: 250915101467 Srf# 0066040256117831 Trn#250915101467 Rfb#\",\n          \"amount\": 40.0\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Wire Trans Svc Charge - Sequence: 250915101508 Srf# 0066040256927831 Trn#250915101508 Rfb#\",\n          \"amount\": 40.0\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Wire Trans Svc Charge - Sequence: 250915101380 Srf# 0066040256496831 Trn#250915101380 Rfb#\",\n          \"amount\": 40.0\n        },\n        {\n          \"date\": \"09/26/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Non-Wells Fargo ATM Transaction Fee\",\n          \"amount\": 3.0\n        }\n      ],\n      \"atm_cash_withdrawal\": [\n        {\n          \"date\": \"09/11/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Non-WF ATM Withdrawal authorized on 09/11 418 N. Broadway Pennsville NJ 465254493499776 ATM ID PM4423 Card 3911\",\n          \"amount\": 200.0\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Withdrawal Made In A Branch/Store\",\n          \"amount\": 27000.0\n        },\n        {\n          \"date\": \"09/26/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Non-WF ATM Withdrawal authorized on 09/26 125 S Broadway Pennsville NJ 305269675585883 ATM ID Xb1892 Card 3911\",\n          \"amount\": 303.0\n        }\n      ],\n      \"internal_transfer_deposit\": [],\n      \"other_transfer_deposit\": [\n        {\n          \"date\": \"09/10/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Tele-Transfer Fr xxxxxx4309 Reference #TFOTvbltp9\",\n          \"amount\": 1000.0,\n          \"is_payment_processor\": 0,\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"09/12/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"WT 3678415255Es Jpmorgan Chase B /Org=Vallely Law PIIc Attorney Trust Srf# 3678415255Es Trn#250912180638 Rfb# 3678415255Es\",\n          \"amount\": 311231.11,\n          \"is_payment_processor\": 0,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09/18/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Money Transfer authorized on 09/18 From Pamela Stuarthighland NJ S385261526647039 Card 3911\",\n          \"amount\": 881.31,\n          \"is_payment_processor\": 0,\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"09/24/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Tele-Transfer Fr xxxxxx8282 Reference #TF0V29Yxfr\",\n          \"amount\": 5000.0,\n          \"is_payment_processor\": 0,\n          \"non_true_revenue\": 1\n        }\n      ],\n      \"internal_transfer_withdrawal\": [],\n      \"other_transfer_withdrawal\": [\n        {\n          \"date\": \"09/12/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Money Transfer authorized on 09/11 Cash App*April Tat Oakland CA S585254572106116 Card 3911\",\n          \"amount\": 55.0\n        },\n        {\n          \"date\": \"09/12/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Money Transfer authorized on 09/11 Cash App*Aziria Ba Oakland CA S305254649302430 Card 3911\",\n          \"amount\": 50.0\n        },\n        {\n          \"date\": \"09/12/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Money Transfer authorized on 09/11 Cash App*Vaughn HI Oakland CA S305255054306133 Card 3911\",\n          \"amount\": 25.0\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Money Transfer authorized on 09/12 Cash App*Vaughn HI Oakland CA S305255504036598 Card 3911\",\n          \"amount\": 30.0\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Money Transfer authorized on 09/12 Cash App*April Tat Oakland CA 5585255691935174 Card 3911\",\n          \"amount\": 50.0\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Money Transfer authorized on 09/12 Cash App*April Tat Oakland CA S465255747210939 Card 3911\",\n          \"amount\": 1000.0\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Money Transfer authorized on 09/12 Cash App*Vaughn HI Oakland CA S385255748975072 Card 3911\",\n          \"amount\": 100.0\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Transfer IN Branch - to Pamela Stuart-Highland DDA xxxxxx6339 3215 Old Capitol Trail Wilmington DE\",\n          \"amount\": 130000.0\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Money Transfer authorized on 09/14 Cash App*Vaughn HI Oakland CA S385257585429523 Card 3911\",\n          \"amount\": 100.0\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Money Transfer authorized on 09/14 Cash App April Tat Oakland CA S305257669522822 Card 3911\",\n          \"amount\": 55.0\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"WT Fed#02R00 Municipal Credit U/Ftr/Bnf=Ariana M Stuart Srf# 0066040256117831 Trn#250915101467 Rfb#\",\n          \"amount\": 10000.0\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"WT Fed#01R00 Td Bank, NA/Ftr/Bnf=Johnathan Stuart Srf# 0066040256927831 Trn#250915101508 Rfb#\",\n          \"amount\": 15000.0\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"WT Fed#03R00 Navy Federal Credi/Ftr/Bnf=Chantel Stuart Srf# 0066040256496831 Trn#250915101380 Rfb#\",\n          \"amount\": 10000.0\n        },\n        {\n          \"date\": \"09/16/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Money Transfer authorized on 09/15 Cash App\\\" Vaughn HI Oakland CA S585258513629723 Card 3911\",\n          \"amount\": 50.0\n        },\n        {\n          \"date\": \"09/16/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Money Transfer authorized on 09/15 Cash App*Vern Jeff Oakland CA 5465258826672366 Card 3911\",\n          \"amount\": 1000.0\n        },\n        {\n          \"date\": \"09/16/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Money Transfer authorized on 09/15 Cash App*Malachi M Oakland CA 5465259026552014 Card 3911\",\n          \"amount\": 100.0\n        },\n        {\n          \"date\": \"09/16/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Money Transfer authorized on 09/15 Cash App\\\"April Tat Oakland CA S465259089168705 Card 3911\",\n          \"amount\": 50.0\n        },\n        {\n          \"date\": \"09/17/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Money Transfer authorized on 09/16 Cash App*Chance Oakland CA S465259505958173 Card 3911\",\n          \"amount\": 300.0\n        },\n        {\n          \"date\": \"09/17/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Money Transfer authorized on 09/16 Cash App*Chance Oakland CA 5585259520288664 Card 3911\",\n          \"amount\": 100.0\n        },\n        {\n          \"date\": \"09/17/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Money Transfer authorized on 09/16 Cash App*Vaughn HI Oakland CA 5585260071273913 Card 3911\",\n          \"amount\": 50.0\n        },\n        {\n          \"date\": \"09/17/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Transfer IN Branch - to Pamela Stuart-Highland DDA xxxxxx6339 3215 Old Capitol Trail Wilmington DE\",\n          \"amount\": 35000.0\n        },\n        {\n          \"date\": \"09/18/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Money Transfer authorized on 09/17 Cash App*April Tat Oakland CA S385260527000432 Card 3911\",\n          \"amount\": 50.0\n        },\n        {\n          \"date\": \"09/18/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Money Transfer authorized on 09/17 Cash App*Vern Jeff Oakland CA S585260616846469 Card 3911\",\n          \"amount\": 2200.0\n        },\n        {\n          \"date\": \"09/18/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Money Transfer authorized on 09/17 Cash App*Chance Oakland CA 5585260630396893 Card 3911\",\n          \"amount\": 2500.0\n        },\n        {\n          \"date\": \"09/19/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Money Transfer authorized on 09/18 Cash App*April Tat Oakland CA S585261585058347 Card 3911\",\n          \"amount\": 50.0\n        },\n        {\n          \"date\": \"09/19/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Money Transfer authorized on 09/18 Cash App*Aaron Tod Oakland CA S385261803936799 Card 3911\",\n          \"amount\": 5000.0\n        },\n        {\n          \"date\": \"09/22/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Money Transfer authorized on 09/19 Cash App*Aaron Tod Oakland CA S305263007246853 Card 3911\",\n          \"amount\": 5000.0\n        },\n        {\n          \"date\": \"09/22/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Money Transfer authorized on 09/19 Cash App*Vaughn HI Oakland CA S305263054521852 Card 3911\",\n          \"amount\": 50.0\n        },\n        {\n          \"date\": \"09/22/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Money Transfer authorized on 09/20 Cash App*Vaughn HI Oakland CA S385263590974229 Card 3911\",\n          \"amount\": 1000.0\n        },\n        {\n          \"date\": \"09/22/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Money Transfer authorized on 09/20 Cash App*Vern Jeff Oakland CA S385263785765815 Card 3911\",\n          \"amount\": 50.0\n        },\n        {\n          \"date\": \"09/24/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Money Transfer authorized on 09/23 Cash App*Rhyan M Oakland CA S385266442880133 Card 3911\",\n          \"amount\": 91.0\n        },\n        {\n          \"date\": \"09/24/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Money Transfer authorized on 09/23 Cash App*April Tat Oakland CA S385266567313909 Card 3911\",\n          \"amount\": 55.0\n        },\n        {\n          \"date\": \"09/24/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Money Transfer authorized on 09/23 Cash App*April Tat Oakland CA S465267097414610 Card 3911\",\n          \"amount\": 50.0\n        },\n        {\n          \"date\": \"09/25/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Money Transfer authorized on 09/24 Cash App*Vaughn HI Oakland CA S585268018800064 Card 3911\",\n          \"amount\": 55.0\n        },\n        {\n          \"date\": \"09/26/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Money Transfer authorized on 09/25 Cash App*Chantel Oakland CA S305268515496832 Card 3911\",\n          \"amount\": 500.0\n        },\n        {\n          \"date\": \"09/26/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Money Transfer authorized on 09/25 Cash App*Marcos El Oakland CA S465268689996631 Card 3911\",\n          \"amount\": 220.0\n        },\n        {\n          \"date\": \"09/26/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Money Transfer authorized on 09/25 Cash App*April Tat Oakland CA S585269060047398 Card 3911\",\n          \"amount\": 50.0\n        },\n        {\n          \"date\": \"09/26/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Money Transfer authorized on 09/25 Cash App*Vaughn HI Oakland CA S385269073375299 Card 3911\",\n          \"amount\": 100.0\n        },\n        {\n          \"date\": \"09/29/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Tele-Transfer to xxxxxx8282 Reference #TF0V42Cnd5\",\n          \"amount\": 2000.0\n        }\n      ],\n      \"standard_deposit\": [\n        {\n          \"date\": \"09/04/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Deposit\",\n          \"amount\": 500.0,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09/12/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"eDeposit IN Branch 09/12/25 12:32:42 PM 3215 Old Capitol Trail Wilmington DE 3911\",\n          \"amount\": 958.0,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09/17/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"eDeposit IN Branch 09/17/25 11:13:43 Am 3215 Old Capitol Trail Wilmington DE 3911\",\n          \"amount\": 107.5,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"09/18/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"eDeposit IN Branch 09/18/25 02:17:49 PM 3215 Old Capitol Trail Wilmington DE 3911\",\n          \"amount\": 541.0,\n          \"non_true_revenue\": 0\n        }\n      ],\n      \"standard_withdrawal\": [\n        {\n          \"date\": \"09/10/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/10 Uber * Eats Pending San Francisco CA P000000487180502 Card 3911\",\n          \"amount\": 27.52\n        },\n        {\n          \"date\": \"09/12/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/11 McDonald's F4573 Pennsville NJ 5585254490830987 Card 3911\",\n          \"amount\": 5.1\n        },\n        {\n          \"date\": \"09/12/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/11 Ic* Instacart*2246 Instacart.Com CA S305255053864222 Card 3911\",\n          \"amount\": 27.96\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/13 Ic* Instacart Instacart.Com CA S385256731434321 Card 3911\",\n          \"amount\": 56.98\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/14 Uber * Eats Pending San Francisco CA P000000786839818 Card 3911\",\n          \"amount\": 17.79\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/14 Uber Technologies, Inc Wilmington DE P000000581521185 Card 3911\",\n          \"amount\": 27.52\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/15 Uber Eats Pending San Francisco CA P000000583975532 Card 3911\",\n          \"amount\": 19.83\n        },\n        {\n          \"date\": \"09/15/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Atlantic City El BILLPAY 250915 Atlantic City E Ivr Anonymous\",\n          \"amount\": 613.01\n        },\n        {\n          \"date\": \"09/16/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Harland Clarke Check/Acc. 091325 2Fat100300718L8 Flipping The Script LI\",\n          \"amount\": 37.18\n        },\n        {\n          \"date\": \"09/16/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/15 Ic* Instacart Instacart.Com CA 5465258852820952 Card 3911\",\n          \"amount\": 45.47\n        },\n        {\n          \"date\": \"09/16/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/16 Sunoco 05202064 Wilmington DE P000000051435554 Card 3911\",\n          \"amount\": 19.08\n        },\n        {\n          \"date\": \"09/16/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Sallie Mae Bank Slmloanpmt 250915 5548760879 Pamela Stuart\",\n          \"amount\": 222.63\n        },\n        {\n          \"date\": \"09/16/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Lakeview Ln Srv Mtg Pymt 091525 0065593204 Pamela Stuart\",\n          \"amount\": 33350.0\n        },\n        {\n          \"date\": \"09/17/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/16 Gold Coast Credit 877-2630643 NY 5385259617262250 Card 3911\",\n          \"amount\": 3000.0\n        },\n        {\n          \"date\": \"09/17/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/16 Delaware Cadillac Wilmington DE S465259745590406 Card 3911\",\n          \"amount\": 4954.0\n        },\n        {\n          \"date\": \"09/17/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Recurring Payment authorized on 09/16 Uwm Appraisal Dire Dwellingblock HI S465259849017149 Card 3911\",\n          \"amount\": 535.0\n        },\n        {\n          \"date\": \"09/17/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/17 Uber Technologies, Inc Wilmington DE P000000083936601 Card 3911\",\n          \"amount\": 20.16\n        },\n        {\n          \"date\": \"09/18/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/17 Get It Done Transp 954-439-4252 FL S385260495538807 Card 3911\",\n          \"amount\": 303.85\n        },\n        {\n          \"date\": \"09/18/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/17 Get It Done Transp 954-439-4252 FL S305260496810703 Card 3911\",\n          \"amount\": 509.85\n        },\n        {\n          \"date\": \"09/18/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/18 Uber Technologies, Inc Wilmington DE P000000389817425 Card 3911\",\n          \"amount\": 20.16\n        },\n        {\n          \"date\": \"09/18/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/18 Uber * Eats Pending San Francisco CA P000000087441554 Card 3911\",\n          \"amount\": 75.76\n        },\n        {\n          \"date\": \"09/18/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Ngrid38 Ngrid38Tel 091825 9282166026 Pamela Jeff\",\n          \"amount\": 1000.0\n        },\n        {\n          \"date\": \"09/19/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Ngrid38 Ngrid38Tel 091925 2990922026 Pamela Jeff\",\n          \"amount\": 3000.0\n        },\n        {\n          \"date\": \"09/19/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Ngrid38 Ngrid 38Tel 091925 6726583022 Pamela Jeff\",\n          \"amount\": 3000.0\n        },\n        {\n          \"date\": \"09/22/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/20 Uber Technologies, Inc Wilmington DE P000000583528119 Card 3911\",\n          \"amount\": 28.04\n        },\n        {\n          \"date\": \"09/22/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/20 Ic* Instacart Instacart.Com CA S385263814105651 Card 3911\",\n          \"amount\": 62.22\n        },\n        {\n          \"date\": \"09/22/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/20 Ic* Instacart Instacart.Com CA S305264072608101 Card 3911\",\n          \"amount\": 2.12\n        },\n        {\n          \"date\": \"09/22/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/21 Uber * Eats Pending San Francisco CA P000000984059763 Card 3911\",\n          \"amount\": 25.62\n        },\n        {\n          \"date\": \"09/22/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/22 Uber * Eats Pending San Francisco CA P000000383694955 Card 3911\",\n          \"amount\": 28.04\n        },\n        {\n          \"date\": \"09/22/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/22 Uber Technologies, Inc Wilmington DE P000000087850520 Card 3911\",\n          \"amount\": 28.67\n        },\n        {\n          \"date\": \"09/23/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/19 Conserve 585-4211028 NY 5465262544504241 Card 3911\",\n          \"amount\": 400.0\n        },\n        {\n          \"date\": \"09/23/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/22 Uber Technologies, Inc Wilmington DE P000000681892839 Card 3911\",\n          \"amount\": 24.76\n        },\n        {\n          \"date\": \"09/23/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/23 Uber * Eats Pending San Francisco CA P000000686669655 Card 3911\",\n          \"amount\": 28.04\n        },\n        {\n          \"date\": \"09/24/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/23 Ic* Instacart Instacart.Com CA S465266773187526 Card 3911\",\n          \"amount\": 43.78\n        },\n        {\n          \"date\": \"09/24/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/23 Ic* Instacart Instacart.Com CA S305266816797176 Card 3911\",\n          \"amount\": 1.08\n        },\n        {\n          \"date\": \"09/24/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/24 Uber Technologies, Inc Wilmington DE P000000289212128 Card 3911\",\n          \"amount\": 25.62\n        },\n        {\n          \"date\": \"09/24/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/24 Uber * Eats Pending San Francisco CA P000000184639184 Card 3911\",\n          \"amount\": 29.6\n        },\n        {\n          \"date\": \"09/25/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/24 Ic* Instacart Instacart.Com CA 5305267644259195 Card 3911\",\n          \"amount\": 31.27\n        },\n        {\n          \"date\": \"09/25/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/24 Ic* Instacart Instacart.Com CA 5585267682795906 Card 3911\",\n          \"amount\": 1.05\n        },\n        {\n          \"date\": \"09/25/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/25 Uber * Eats Pending San Francisco CA P000000984745525 Card 3911\",\n          \"amount\": 26.04\n        },\n        {\n          \"date\": \"09/26/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/24 Global Lending Ser 877-315-6070 GA S465267778622214 Card 3911\",\n          \"amount\": 3367.52\n        },\n        {\n          \"date\": \"09/26/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/25 Ic* Instacart Instacart.Com CA 5465268781341678 Card 3911\",\n          \"amount\": 46.34\n        },\n        {\n          \"date\": \"09/26/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/25 Cash App*Philo Inc Cash.App CA 5385268791350258 Card 3911\",\n          \"amount\": 25.0\n        },\n        {\n          \"date\": \"09/26/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/25 Ic* Instacart Instacart.Com CA 5305268843039267 Card 3911\",\n          \"amount\": 1.06\n        },\n        {\n          \"date\": \"09/26/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/26 Uber Technologies, Inc Wilmington DE P000000286626248 Card 3911\",\n          \"amount\": 26.2\n        },\n        {\n          \"date\": \"09/26/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Carrington Mortgage 250926 4001314887 Vaughn Highland\",\n          \"amount\": 3434.75\n        },\n        {\n          \"date\": \"09/29/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/26 Uber Technologies, Inc Wilmington DE P000000981046017 Card 3911\",\n          \"amount\": 24.82\n        },\n        {\n          \"date\": \"09/29/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/27 Uber Technologies, Inc Wilmington DE P000000884729794 Card 3911\",\n          \"amount\": 25.78\n        },\n        {\n          \"date\": \"09/29/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/27 Ic* Instacart Instacart.Com CA 5465270755139247 Card 3911\",\n          \"amount\": 52.83\n        },\n        {\n          \"date\": \"09/29/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/27 Harris Plumbing He 856-9358888 NJ S465270755735758 Card 3911\",\n          \"amount\": 300.0\n        },\n        {\n          \"date\": \"09/29/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/27 Ic* Instacart Instacart.Com CA S465270818923205 Card 3911\",\n          \"amount\": 1.07\n        },\n        {\n          \"date\": \"09/29/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/28 Uber * Eats Pending San Francisco CA P000000734204165 Card 3911\",\n          \"amount\": 26.2\n        },\n        {\n          \"date\": \"09/29/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/28 Uber *Wawa8332418 San Francisco CA P000000482318889 Card 3911\",\n          \"amount\": 27.62\n        },\n        {\n          \"date\": \"09/29/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/29 Uber Technologies, Inc Wilmington DE P000000481447338 Card 3911\",\n          \"amount\": 18.62\n        },\n        {\n          \"date\": \"09/30/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/29 Ic* Instacart Instacart.Com CA S465272792831207 Card 3911\",\n          \"amount\": 37.76\n        },\n        {\n          \"date\": \"09/30/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/29 Uber * Eats Pending San Francisco CA P000000983073710 Card 3911\",\n          \"amount\": 34.29\n        },\n        {\n          \"date\": \"09/30/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/29 Ic* Instacart Instacart.Com CA 5385273036089464 Card 3911\",\n          \"amount\": 3.09\n        },\n        {\n          \"date\": \"09/30/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Purchase authorized on 09/30 Uber Technologies, Inc Wilmington DE P000000189189726 Card 3911\",\n          \"amount\": 27.32\n        },\n        {\n          \"date\": \"09/30/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"< Business to Business ACH Debit - Con Ed of NY Cecony 250926 96529110007 Chantel Stuart\",\n          \"amount\": 1524.3\n        }\n      ]\n    }\n  ]\n}\n```",
+    "token_count": {
+      "estimated_tokens": 2452
+    },
+    "failure_reason": null
+  }
+}

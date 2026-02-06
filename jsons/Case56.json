@@ -1,0 +1,1059 @@
+{
+  "document_name": "Case56.pdf",
+  "pipeline_status": "completed",
+  "processing_metadata": {
+    "start_time": "2026-02-04T15:00:48.447732",
+    "end_time": "2026-02-04T15:03:09.476312",
+    "parsing_time_seconds": 83.451604,
+    "bsi_time_seconds": 57.164492,
+    "total_time_seconds": 140.616096
+  },
+  "parsing_agent_result": {
+    "agent_name": "parsing_agent",
+    "processing_status": "success",
+    "start_time": "2026-02-04T15:00:48.851961",
+    "end_time": "2026-02-04T15:02:12.303367",
+    "parsed_json": {
+      "bank_statement_information": {
+        "bank_name": "Regions Bank",
+        "account_holder": "GRAY EXPRESS CHARTER SERVICE LLC",
+        "statement_start_date": "10-01-2025",
+        "statement_end_date": "10-31-2025",
+        "n_days": 31,
+        "n_month": [
+          10
+        ],
+        "business_address": "3819 43RD AVE N BIRMINGHAM AL 35217-3701"
+      },
+      "accounts": [
+        {
+          "account_number": "0233244723",
+          "account_type": "LIFEGREEN BUSINESS CHECKING",
+          "account_summary": {
+            "beginning_balance": 45283.31,
+            "ending_balance": 32092.29,
+            "total_deposits": 20484.06,
+            "total_withdrawals": 33675.08,
+            "total_deposits_count": null,
+            "total_withdrawals_count": null,
+            "avg_daily_balance": 40767.0,
+            "overdraft_days": 0
+          },
+          "transactions": [
+            {
+              "date": "10-01-2025",
+              "description": "Recurring Card Transaction Netflix.Com 4899 Netflix.Com CA 95032 0851",
+              "amount": 26.99,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10-01-2025",
+              "description": "Card Purchase Afterpay 5999 185-52896014 CA 94102 0851",
+              "amount": 45.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10-02-2025",
+              "description": "Deposit - Thank You",
+              "amount": 3400.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "10-02-2025",
+              "description": "Card Purchase Bob Sykes Bar B 5813 Bessemer AL 35020 0851",
+              "amount": 44.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10-02-2025",
+              "description": "McA Servicing 8003243863 Gray Express C Pay100125178593",
+              "amount": 994.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10-03-2025",
+              "description": "Card Purchase Char Bar 7 - Bi 5813 205-8029050 AL 35223 0851",
+              "amount": 87.42,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10-03-2025",
+              "description": "Card Purchase Premier Bankcar 6012 605-3573440 SD 57107 0851",
+              "amount": 683.88,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10-06-2025",
+              "description": "Card Credit Cash App*alongi 4829 Oakland CA 94612 0851",
+              "amount": 239.09,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "10-06-2025",
+              "description": "Returned Deposit Item # of Itm(S) 0001",
+              "amount": 3400.0,
+              "type": "Debit",
+              "category": "Returned Item"
+            },
+            {
+              "date": "10-06-2025",
+              "description": "Card Purchase Dtv*directv Ser 4899 800-531-5000 TX 75202 0851",
+              "amount": 203.14,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10-06-2025",
+              "description": "Card Purchase Afterpay 5999 044-4123456 CA 94108 0851",
+              "amount": 31.25,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10-06-2025",
+              "description": "Recurring Card Transaction Apple.Com/Bill 5818 866-712-7753 CA 95014 0851",
+              "amount": 39.59,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10-06-2025",
+              "description": "Card Purchase Cash App*ka Buc 4829 Oakland CA 94612 0851",
+              "amount": 499.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10-06-2025",
+              "description": "Card Purchase Pappadeaux Seaf 5812 Birmingham AL 35243 0851",
+              "amount": 151.91,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10-06-2025",
+              "description": "Card Purchase Cash App*joann 4829 Oakland CA 94612 0851",
+              "amount": 100.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10-06-2025",
+              "description": "Card Purchase Afterpay 5999 044-4123456 CA 94108 0851",
+              "amount": 37.5,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10-06-2025",
+              "description": "Card Purchase Afterpay 5999 044-4123456 CA 94108 0851",
+              "amount": 22.5,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10-06-2025",
+              "description": "Card Purchase Afterpay 5999 Afterpay.Com CA 94102 0851",
+              "amount": 43.75,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10-06-2025",
+              "description": "Card Purchase Afterpay 5999 Afterpay.Com CA 94102 0851",
+              "amount": 50.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10-06-2025",
+              "description": "Card Purchase Afterpay 5999 Afterpay.Com CA 94102 0851",
+              "amount": 62.5,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10-06-2025",
+              "description": "Card Purchase Afterpay 5999 185-52896014 CA 94102 0851",
+              "amount": 85.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10-06-2025",
+              "description": "Card Purchase Afterpay 5999 044-4123456 CA 94108 0851",
+              "amount": 21.25,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10-06-2025",
+              "description": "Card Purchase Afterpay 5999 Afterpay.Com CA 94102 0851",
+              "amount": 42.5,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10-06-2025",
+              "description": "Card Purchase Afterpay 5999 Afterpay.Com CA 94102 0851",
+              "amount": 45.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10-06-2025",
+              "description": "Card Purchase Afterpay 5999 044-4123456 CA 94108 0851",
+              "amount": 31.25,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10-06-2025",
+              "description": "Card Purchase Four*plus*subsc 5999 Paywithfour.C FL 33180 0851",
+              "amount": 12.99,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10-06-2025",
+              "description": "Card Purchase Montgomery YMCA 8641 Montgomery AL 36104 0851",
+              "amount": 6.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10-06-2025",
+              "description": "Nafmd Phonecheck Gray",
+              "amount": 35.95,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10-06-2025",
+              "description": "Lowes Brc Syf Paymnt Gray Express C 798213101090722",
+              "amount": 874.12,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10-07-2025",
+              "description": "Card Credit Cash App*alongi 4829 Oakland CA 94612 0851",
+              "amount": 526.03,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "10-07-2025",
+              "description": "Card Purchase Afterpay 5999 185-52896014 CA 94102 0851",
+              "amount": 12.5,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10-07-2025",
+              "description": "Mudflap Mudflap Fleet Gray Exp ST-D3p1k9i2c7n6",
+              "amount": 568.46,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10-09-2025",
+              "description": "McA Servicing 8003243863 Gray Express C Pay100825178839",
+              "amount": 994.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10-10-2025",
+              "description": "Americo Ins Co's Ins Pmt Alongie Gray",
+              "amount": 141.65,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10-14-2025",
+              "description": "Regions Bank Achautopay Gray Alongi C",
+              "amount": 601.04,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10-14-2025",
+              "description": "Mudflap Mudflap Fleet Gray Exp ST-X5s3f4r6j116",
+              "amount": 764.24,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10-15-2025",
+              "description": "Deposit - Thank You",
+              "amount": 6400.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "10-15-2025",
+              "description": "Card Purchase Gotkts2*neworle 7922 Gotickets.Com DE 19801 2506",
+              "amount": 306.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10-15-2025",
+              "description": "Card Purchase Allianz Event | 6300 Allianzins. US VA 23233 2506",
+              "amount": 12.54,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10-15-2025",
+              "description": "Card Purchase Birminghamjeffe 5814 Birmingham AL 35203 2506",
+              "amount": 41.48,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10-16-2025",
+              "description": "McA Servicing 8003243863 Gray Express C Pay101525179070",
+              "amount": 994.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10-17-2025",
+              "description": "Card Purchase Tst* Up Down - 5813 Birmingham AL 35233 2506",
+              "amount": 121.21,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10-17-2025",
+              "description": "Recurring Card Transaction Nav Tech 855-22 5734 Nav.Com UT 84020 2506",
+              "amount": 54.99,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10-20-2025",
+              "description": "Card Purchase Pappadeaux Seaf 5812 Birmingham AL 35243 2506",
+              "amount": 177.92,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10-20-2025",
+              "description": "Card Purchase Afterpay 5999 185-52896014 CA 94102 2506",
+              "amount": 106.25,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10-21-2025",
+              "description": "Card Purchase Afterpay 5999 185-52896014 CA 94102 2506",
+              "amount": 43.75,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10-21-2025",
+              "description": "Card Purchase Afterpay 5999 044-4123456 CA 94108 2506",
+              "amount": 37.5,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10-21-2025",
+              "description": "Card Purchase Afterpay 5999 185-52896014 CA 94102 2506",
+              "amount": 12.5,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10-21-2025",
+              "description": "Travelers Per Insur Alongie Gray A 5528734",
+              "amount": 351.01,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10-21-2025",
+              "description": "1st Franklin Fin Trans Pmt Alongie Gray A00000008421066",
+              "amount": 515.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10-21-2025",
+              "description": "Prog Specialty Ins Prem Alongie Gray",
+              "amount": 532.61,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10-21-2025",
+              "description": "Mudflap Mudflap Fleet Gray Exp ST-U6q4c2l6j1k3",
+              "amount": 283.2,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10-22-2025",
+              "description": "Deposit - Thank You",
+              "amount": 6450.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "10-22-2025",
+              "description": "Card Purchase Mariner Finance 6051 800-3734004 MD 21236 2506",
+              "amount": 119.29,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10-22-2025",
+              "description": "Card Purchase Afterpay 5999 044-4123456 CA 94108 2506",
+              "amount": 22.5,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10-23-2025",
+              "description": "Card Purchase Afterpay 5999 044-4123456 CA 94102 2506",
+              "amount": 88.48,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10-23-2025",
+              "description": "McA Servicing 8003243863 Gray Express C 132922627",
+              "amount": 994.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10-24-2025",
+              "description": "Card Credit Cash App*alongi 4829 Oakland CA 94612 2506",
+              "amount": 1668.94,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "10-24-2025",
+              "description": "Card Purchase Seasons 52 0074 5812 Birmingham AL 35243 2506",
+              "amount": 77.63,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10-24-2025",
+              "description": "Card Purchase Afterpay 5999 185-52896014 CA 94102 2506",
+              "amount": 62.5,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10-24-2025",
+              "description": "Card Purchase Cash App*sereni 4829 Oakland CA 94612 2506",
+              "amount": 50.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10-24-2025",
+              "description": "Greenlight Premi Ins. Pmts. 98052607gray E 065",
+              "amount": 14795.77,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10-27-2025",
+              "description": "Deposit - Thank You",
+              "amount": 1800.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "10-27-2025",
+              "description": "Card Purchase AL Dept of Reve 9399 Www.Egov.Com AL 36104 2506",
+              "amount": 12.63,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10-27-2025",
+              "description": "Card Purchase Cash App*konner 4829 Oakland CA 94612 2506",
+              "amount": 75.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10-27-2025",
+              "description": "Card Purchase Afterpay 5999 185-52896014 CA 94102 2506",
+              "amount": 42.5,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10-28-2025",
+              "description": "McA Servicing 8003243863 Gray Express C 133102312",
+              "amount": 49.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10-28-2025",
+              "description": "Mudflap Mudflap Fleet Gray Exp ST-C7s0h6i6q9z9",
+              "amount": 89.41,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10-30-2025",
+              "description": "Check No. 1243",
+              "amount": 1400.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10-30-2025",
+              "description": "Check No. 1244",
+              "amount": 402.04,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10-30-2025",
+              "description": "McA Servicing 8003243863 Gray Express C Pay102925179672",
+              "amount": 994.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10-31-2025",
+              "description": "Recurring Card Transaction Netflix.Com 4899 408-5403700 CA 95032 2506",
+              "amount": 26.99,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10-31-2025",
+              "description": "Card Purchase Afterpay 5999 044-4123456 CA 94108 2506",
+              "amount": 25.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            }
+          ]
+        }
+      ]
+    },
+    "raw_output": "```json\n{\n  \"bank_statement_information\": {\n    \"bank_name\": \"Regions Bank\",\n    \"account_holder\": \"GRAY EXPRESS CHARTER SERVICE LLC\",\n    \"statement_start_date\": \"10-01-2025\",\n    \"statement_end_date\": \"10-31-2025\",\n    \"n_days\": 31,\n    \"n_month\": [\n      10\n    ],\n    \"business_address\": \"3819 43RD AVE N BIRMINGHAM AL 35217-3701\"\n  },\n  \"accounts\": [\n    {\n      \"account_number\": \"0233244723\",\n      \"account_type\": \"LIFEGREEN BUSINESS CHECKING\",\n      \"account_summary\": {\n        \"beginning_balance\": 45283.31,\n        \"ending_balance\": 32092.29,\n        \"total_deposits\": 20484.06,\n        \"total_withdrawals\": 33675.08,\n        \"total_deposits_count\": null,\n        \"total_withdrawals_count\": null,\n        \"avg_daily_balance\": 40767.0,\n        \"overdraft_days\": 0\n      },\n      \"transactions\": [\n        {\n          \"date\": \"10-01-2025\",\n          \"description\": \"Recurring Card Transaction Netflix.Com 4899 Netflix.Com CA 95032 0851\",\n          \"amount\": 26.99,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10-01-2025\",\n          \"description\": \"Card Purchase Afterpay 5999 185-52896014 CA 94102 0851\",\n          \"amount\": 45.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10-02-2025\",\n          \"description\": \"Deposit - Thank You\",\n          \"amount\": 3400.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"10-02-2025\",\n          \"description\": \"Card Purchase Bob Sykes Bar B 5813 Bessemer AL 35020 0851\",\n          \"amount\": 44.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10-02-2025\",\n          \"description\": \"McA Servicing 8003243863 Gray Express C Pay100125178593\",\n          \"amount\": 994.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10-03-2025\",\n          \"description\": \"Card Purchase Char Bar 7 - Bi 5813 205-8029050 AL 35223 0851\",\n          \"amount\": 87.42,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10-03-2025\",\n          \"description\": \"Card Purchase Premier Bankcar 6012 605-3573440 SD 57107 0851\",\n          \"amount\": 683.88,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10-06-2025\",\n          \"description\": \"Card Credit Cash App*alongi 4829 Oakland CA 94612 0851\",\n          \"amount\": 239.09,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"10-06-2025\",\n          \"description\": \"Returned Deposit Item # of Itm(S) 0001\",\n          \"amount\": 3400.0,\n          \"type\": \"Debit\",\n          \"category\": \"Returned Item\"\n        },\n        {\n          \"date\": \"10-06-2025\",\n          \"description\": \"Card Purchase Dtv*directv Ser 4899 800-531-5000 TX 75202 0851\",\n          \"amount\": 203.14,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10-06-2025\",\n          \"description\": \"Card Purchase Afterpay 5999 044-4123456 CA 94108 0851\",\n          \"amount\": 31.25,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10-06-2025\",\n          \"description\": \"Recurring Card Transaction Apple.Com/Bill 5818 866-712-7753 CA 95014 0851\",\n          \"amount\": 39.59,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10-06-2025\",\n          \"description\": \"Card Purchase Cash App*ka Buc 4829 Oakland CA 94612 0851\",\n          \"amount\": 499.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10-06-2025\",\n          \"description\": \"Card Purchase Pappadeaux Seaf 5812 Birmingham AL 35243 0851\",\n          \"amount\": 151.91,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10-06-2025\",\n          \"description\": \"Card Purchase Cash App*joann 4829 Oakland CA 94612 0851\",\n          \"amount\": 100.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10-06-2025\",\n          \"description\": \"Card Purchase Afterpay 5999 044-4123456 CA 94108 0851\",\n          \"amount\": 37.5,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10-06-2025\",\n          \"description\": \"Card Purchase Afterpay 5999 044-4123456 CA 94108 0851\",\n          \"amount\": 22.5,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10-06-2025\",\n          \"description\": \"Card Purchase Afterpay 5999 Afterpay.Com CA 94102 0851\",\n          \"amount\": 43.75,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10-06-2025\",\n          \"description\": \"Card Purchase Afterpay 5999 Afterpay.Com CA 94102 0851\",\n          \"amount\": 50.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10-06-2025\",\n          \"description\": \"Card Purchase Afterpay 5999 Afterpay.Com CA 94102 0851\",\n          \"amount\": 62.5,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10-06-2025\",\n          \"description\": \"Card Purchase Afterpay 5999 185-52896014 CA 94102 0851\",\n          \"amount\": 85.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10-06-2025\",\n          \"description\": \"Card Purchase Afterpay 5999 044-4123456 CA 94108 0851\",\n          \"amount\": 21.25,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10-06-2025\",\n          \"description\": \"Card Purchase Afterpay 5999 Afterpay.Com CA 94102 0851\",\n          \"amount\": 42.5,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10-06-2025\",\n          \"description\": \"Card Purchase Afterpay 5999 Afterpay.Com CA 94102 0851\",\n          \"amount\": 45.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10-06-2025\",\n          \"description\": \"Card Purchase Afterpay 5999 044-4123456 CA 94108 0851\",\n          \"amount\": 31.25,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10-06-2025\",\n          \"description\": \"Card Purchase Four*plus*subsc 5999 Paywithfour.C FL 33180 0851\",\n          \"amount\": 12.99,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10-06-2025\",\n          \"description\": \"Card Purchase Montgomery YMCA 8641 Montgomery AL 36104 0851\",\n          \"amount\": 6.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10-06-2025\",\n          \"description\": \"Nafmd Phonecheck Gray\",\n          \"amount\": 35.95,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10-06-2025\",\n          \"description\": \"Lowes Brc Syf Paymnt Gray Express C 798213101090722\",\n          \"amount\": 874.12,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10-07-2025\",\n          \"description\": \"Card Credit Cash App*alongi 4829 Oakland CA 94612 0851\",\n          \"amount\": 526.03,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"10-07-2025\",\n          \"description\": \"Card Purchase Afterpay 5999 185-52896014 CA 94102 0851\",\n          \"amount\": 12.5,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10-07-2025\",\n          \"description\": \"Mudflap Mudflap Fleet Gray Exp ST-D3p1k9i2c7n6\",\n          \"amount\": 568.46,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10-09-2025\",\n          \"description\": \"McA Servicing 8003243863 Gray Express C Pay100825178839\",\n          \"amount\": 994.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10-10-2025\",\n          \"description\": \"Americo Ins Co's Ins Pmt Alongie Gray\",\n          \"amount\": 141.65,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10-14-2025\",\n          \"description\": \"Regions Bank Achautopay Gray Alongi C\",\n          \"amount\": 601.04,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10-14-2025\",\n          \"description\": \"Mudflap Mudflap Fleet Gray Exp ST-X5s3f4r6j116\",\n          \"amount\": 764.24,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10-15-2025\",\n          \"description\": \"Deposit - Thank You\",\n          \"amount\": 6400.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"10-15-2025\",\n          \"description\": \"Card Purchase Gotkts2*neworle 7922 Gotickets.Com DE 19801 2506\",\n          \"amount\": 306.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10-15-2025\",\n          \"description\": \"Card Purchase Allianz Event | 6300 Allianzins. US VA 23233 2506\",\n          \"amount\": 12.54,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10-15-2025\",\n          \"description\": \"Card Purchase Birminghamjeffe 5814 Birmingham AL 35203 2506\",\n          \"amount\": 41.48,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10-16-2025\",\n          \"description\": \"McA Servicing 8003243863 Gray Express C Pay101525179070\",\n          \"amount\": 994.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10-17-2025\",\n          \"description\": \"Card Purchase Tst* Up Down - 5813 Birmingham AL 35233 2506\",\n          \"amount\": 121.21,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10-17-2025\",\n          \"description\": \"Recurring Card Transaction Nav Tech 855-22 5734 Nav.Com UT 84020 2506\",\n          \"amount\": 54.99,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10-20-2025\",\n          \"description\": \"Card Purchase Pappadeaux Seaf 5812 Birmingham AL 35243 2506\",\n          \"amount\": 177.92,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10-20-2025\",\n          \"description\": \"Card Purchase Afterpay 5999 185-52896014 CA 94102 2506\",\n          \"amount\": 106.25,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10-21-2025\",\n          \"description\": \"Card Purchase Afterpay 5999 185-52896014 CA 94102 2506\",\n          \"amount\": 43.75,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10-21-2025\",\n          \"description\": \"Card Purchase Afterpay 5999 044-4123456 CA 94108 2506\",\n          \"amount\": 37.5,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10-21-2025\",\n          \"description\": \"Card Purchase Afterpay 5999 185-52896014 CA 94102 2506\",\n          \"amount\": 12.5,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10-21-2025\",\n          \"description\": \"Travelers Per Insur Alongie Gray A 5528734\",\n          \"amount\": 351.01,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10-21-2025\",\n          \"description\": \"1st Franklin Fin Trans Pmt Alongie Gray A00000008421066\",\n          \"amount\": 515.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10-21-2025\",\n          \"description\": \"Prog Specialty Ins Prem Alongie Gray\",\n          \"amount\": 532.61,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10-21-2025\",\n          \"description\": \"Mudflap Mudflap Fleet Gray Exp ST-U6q4c2l6j1k3\",\n          \"amount\": 283.2,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10-22-2025\",\n          \"description\": \"Deposit - Thank You\",\n          \"amount\": 6450.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"10-22-2025\",\n          \"description\": \"Card Purchase Mariner Finance 6051 800-3734004 MD 21236 2506\",\n          \"amount\": 119.29,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10-22-2025\",\n          \"description\": \"Card Purchase Afterpay 5999 044-4123456 CA 94108 2506\",\n          \"amount\": 22.5,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10-23-2025\",\n          \"description\": \"Card Purchase Afterpay 5999 044-4123456 CA 94102 2506\",\n          \"amount\": 88.48,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10-23-2025\",\n          \"description\": \"McA Servicing 8003243863 Gray Express C 132922627\",\n          \"amount\": 994.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10-24-2025\",\n          \"description\": \"Card Credit Cash App*alongi 4829 Oakland CA 94612 2506\",\n          \"amount\": 1668.94,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"10-24-2025\",\n          \"description\": \"Card Purchase Seasons 52 0074 5812 Birmingham AL 35243 2506\",\n          \"amount\": 77.63,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10-24-2025\",\n          \"description\": \"Card Purchase Afterpay 5999 185-52896014 CA 94102 2506\",\n          \"amount\": 62.5,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10-24-2025\",\n          \"description\": \"Card Purchase Cash App*sereni 4829 Oakland CA 94612 2506\",\n          \"amount\": 50.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10-24-2025\",\n          \"description\": \"Greenlight Premi Ins. Pmts. 98052607gray E 065\",\n          \"amount\": 14795.77,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10-27-2025\",\n          \"description\": \"Deposit - Thank You\",\n          \"amount\": 1800.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"10-27-2025\",\n          \"description\": \"Card Purchase AL Dept of Reve 9399 Www.Egov.Com AL 36104 2506\",\n          \"amount\": 12.63,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10-27-2025\",\n          \"description\": \"Card Purchase Cash App*konner 4829 Oakland CA 94612 2506\",\n          \"amount\": 75.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10-27-2025\",\n          \"description\": \"Card Purchase Afterpay 5999 185-52896014 CA 94102 2506\",\n          \"amount\": 42.5,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10-28-2025\",\n          \"description\": \"McA Servicing 8003243863 Gray Express C 133102312\",\n          \"amount\": 49.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10-28-2025\",\n          \"description\": \"Mudflap Mudflap Fleet Gray Exp ST-C7s0h6i6q9z9\",\n          \"amount\": 89.41,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10-30-2025\",\n          \"description\": \"Check No. 1243\",\n          \"amount\": 1400.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10-30-2025\",\n          \"description\": \"Check No. 1244\",\n          \"amount\": 402.04,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10-30-2025\",\n          \"description\": \"McA Servicing 8003243863 Gray Express C Pay102925179672\",\n          \"amount\": 994.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10-31-2025\",\n          \"description\": \"Recurring Card Transaction Netflix.Com 4899 408-5403700 CA 95032 2506\",\n          \"amount\": 26.99,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10-31-2025\",\n          \"description\": \"Card Purchase Afterpay 5999 044-4123456 CA 94108 2506\",\n          \"amount\": 25.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        }\n      ]\n    }\n  ]\n}\n```",
+    "token_count": {
+      "estimated_tokens": 1526
+    },
+    "failure_reason": null
+  },
+  "bsi_analyzer_result": {
+    "agent_name": "v1_bsi_analyzer_agent",
+    "processing_status": "success",
+    "start_time": "2026-02-04T15:02:12.308629",
+    "end_time": "2026-02-04T15:03:09.472257",
+    "parsed_json": {
+      "accounts": [
+        {
+          "account_number": "0233244723",
+          "account_type": "LIFEGREEN BUSINESS CHECKING",
+          "mca_deposit": [],
+          "mca_withdrawal": [
+            {
+              "mca_name": "MCA Servicing",
+              "date": "10-02-2025",
+              "type": "Debit",
+              "description": "McA Servicing 8003243863 Gray Express C Pay100125178593",
+              "amount": 994.0
+            },
+            {
+              "mca_name": "MCA Servicing",
+              "date": "10-09-2025",
+              "type": "Debit",
+              "description": "McA Servicing 8003243863 Gray Express C Pay100825178839",
+              "amount": 994.0
+            },
+            {
+              "mca_name": "MCA Servicing",
+              "date": "10-16-2025",
+              "type": "Debit",
+              "description": "McA Servicing 8003243863 Gray Express C Pay101525179070",
+              "amount": 994.0
+            },
+            {
+              "mca_name": "MCA Servicing",
+              "date": "10-23-2025",
+              "type": "Debit",
+              "description": "McA Servicing 8003243863 Gray Express C 132922627",
+              "amount": 994.0
+            },
+            {
+              "mca_name": "MCA Servicing",
+              "date": "10-28-2025",
+              "type": "Debit",
+              "description": "McA Servicing 8003243863 Gray Express C 133102312",
+              "amount": 49.0
+            },
+            {
+              "mca_name": "MCA Servicing",
+              "date": "10-30-2025",
+              "type": "Debit",
+              "description": "McA Servicing 8003243863 Gray Express C Pay102925179672",
+              "amount": 994.0
+            }
+          ],
+          "returned_items": [
+            {
+              "date": "10-06-2025",
+              "type": "Debit",
+              "description": "Returned Deposit Item # of Itm(S) 0001",
+              "amount": 3400.0,
+              "non_true_revenue": 1
+            }
+          ],
+          "overdrafts": [],
+          "service_charges": [],
+          "atm_cash_withdrawal": [],
+          "internal_transfer_deposit": [],
+          "other_transfer_deposit": [
+            {
+              "date": "10-06-2025",
+              "type": "Credit",
+              "description": "Card Credit Cash App*alongi 4829 Oakland CA 94612 0851",
+              "amount": 239.09,
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10-07-2025",
+              "type": "Credit",
+              "description": "Card Credit Cash App*alongi 4829 Oakland CA 94612 0851",
+              "amount": 526.03,
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10-24-2025",
+              "type": "Credit",
+              "description": "Card Credit Cash App*alongi 4829 Oakland CA 94612 2506",
+              "amount": 1668.94,
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            }
+          ],
+          "internal_transfer_withdrawal": [],
+          "other_transfer_withdrawal": [
+            {
+              "date": "10-06-2025",
+              "type": "Debit",
+              "description": "Card Purchase Cash App*ka Buc 4829 Oakland CA 94612 0851",
+              "amount": 499.0
+            },
+            {
+              "date": "10-06-2025",
+              "type": "Debit",
+              "description": "Card Purchase Cash App*joann 4829 Oakland CA 94612 0851",
+              "amount": 100.0
+            },
+            {
+              "date": "10-14-2025",
+              "type": "Debit",
+              "description": "Regions Bank Achautopay Gray Alongi C",
+              "amount": 601.04
+            },
+            {
+              "date": "10-24-2025",
+              "type": "Debit",
+              "description": "Card Purchase Cash App*sereni 4829 Oakland CA 94612 2506",
+              "amount": 50.0
+            },
+            {
+              "date": "10-27-2025",
+              "type": "Debit",
+              "description": "Card Purchase Cash App*konner 4829 Oakland CA 94612 2506",
+              "amount": 75.0
+            }
+          ],
+          "standard_deposit": [
+            {
+              "date": "10-02-2025",
+              "type": "Credit",
+              "description": "Deposit - Thank You",
+              "amount": 3400.0,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10-15-2025",
+              "type": "Credit",
+              "description": "Deposit - Thank You",
+              "amount": 6400.0,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10-22-2025",
+              "type": "Credit",
+              "description": "Deposit - Thank You",
+              "amount": 6450.0,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10-27-2025",
+              "type": "Credit",
+              "description": "Deposit - Thank You",
+              "amount": 1800.0,
+              "non_true_revenue": 0
+            }
+          ],
+          "standard_withdrawal": [
+            {
+              "date": "10-01-2025",
+              "type": "Debit",
+              "description": "Recurring Card Transaction Netflix.Com 4899 Netflix.Com CA 95032 0851",
+              "amount": 26.99
+            },
+            {
+              "date": "10-01-2025",
+              "type": "Debit",
+              "description": "Card Purchase Afterpay 5999 185-52896014 CA 94102 0851",
+              "amount": 45.0
+            },
+            {
+              "date": "10-02-2025",
+              "type": "Debit",
+              "description": "Card Purchase Bob Sykes Bar B 5813 Bessemer AL 35020 0851",
+              "amount": 44.0
+            },
+            {
+              "date": "10-03-2025",
+              "type": "Debit",
+              "description": "Card Purchase Char Bar 7 - Bi 5813 205-8029050 AL 35223 0851",
+              "amount": 87.42
+            },
+            {
+              "date": "10-03-2025",
+              "type": "Debit",
+              "description": "Card Purchase Premier Bankcar 6012 605-3573440 SD 57107 0851",
+              "amount": 683.88
+            },
+            {
+              "date": "10-06-2025",
+              "type": "Debit",
+              "description": "Card Purchase Dtv*directv Ser 4899 800-531-5000 TX 75202 0851",
+              "amount": 203.14
+            },
+            {
+              "date": "10-06-2025",
+              "type": "Debit",
+              "description": "Card Purchase Afterpay 5999 044-4123456 CA 94108 0851",
+              "amount": 31.25
+            },
+            {
+              "date": "10-06-2025",
+              "type": "Debit",
+              "description": "Recurring Card Transaction Apple.Com/Bill 5818 866-712-7753 CA 95014 0851",
+              "amount": 39.59
+            },
+            {
+              "date": "10-06-2025",
+              "type": "Debit",
+              "description": "Card Purchase Pappadeaux Seaf 5812 Birmingham AL 35243 0851",
+              "amount": 151.91
+            },
+            {
+              "date": "10-06-2025",
+              "type": "Debit",
+              "description": "Card Purchase Afterpay 5999 044-4123456 CA 94108 0851",
+              "amount": 37.5
+            },
+            {
+              "date": "10-06-2025",
+              "type": "Debit",
+              "description": "Card Purchase Afterpay 5999 044-4123456 CA 94108 0851",
+              "amount": 22.5
+            },
+            {
+              "date": "10-06-2025",
+              "type": "Debit",
+              "description": "Card Purchase Afterpay 5999 Afterpay.Com CA 94102 0851",
+              "amount": 43.75
+            },
+            {
+              "date": "10-06-2025",
+              "type": "Debit",
+              "description": "Card Purchase Afterpay 5999 Afterpay.Com CA 94102 0851",
+              "amount": 50.0
+            },
+            {
+              "date": "10-06-2025",
+              "type": "Debit",
+              "description": "Card Purchase Afterpay 5999 Afterpay.Com CA 94102 0851",
+              "amount": 62.5
+            },
+            {
+              "date": "10-06-2025",
+              "type": "Debit",
+              "description": "Card Purchase Afterpay 5999 185-52896014 CA 94102 0851",
+              "amount": 85.0
+            },
+            {
+              "date": "10-06-2025",
+              "type": "Debit",
+              "description": "Card Purchase Afterpay 5999 044-4123456 CA 94108 0851",
+              "amount": 21.25
+            },
+            {
+              "date": "10-06-2025",
+              "type": "Debit",
+              "description": "Card Purchase Afterpay 5999 Afterpay.Com CA 94102 0851",
+              "amount": 42.5
+            },
+            {
+              "date": "10-06-2025",
+              "type": "Debit",
+              "description": "Card Purchase Afterpay 5999 Afterpay.Com CA 94102 0851",
+              "amount": 45.0
+            },
+            {
+              "date": "10-06-2025",
+              "type": "Debit",
+              "description": "Card Purchase Afterpay 5999 044-4123456 CA 94108 0851",
+              "amount": 31.25
+            },
+            {
+              "date": "10-06-2025",
+              "type": "Debit",
+              "description": "Card Purchase Four*plus*subsc 5999 Paywithfour.C FL 33180 0851",
+              "amount": 12.99
+            },
+            {
+              "date": "10-06-2025",
+              "type": "Debit",
+              "description": "Card Purchase Montgomery YMCA 8641 Montgomery AL 36104 0851",
+              "amount": 6.0
+            },
+            {
+              "date": "10-06-2025",
+              "type": "Debit",
+              "description": "Nafmd Phonecheck Gray",
+              "amount": 35.95
+            },
+            {
+              "date": "10-06-2025",
+              "type": "Debit",
+              "description": "Lowes Brc Syf Paymnt Gray Express C 798213101090722",
+              "amount": 874.12
+            },
+            {
+              "date": "10-07-2025",
+              "type": "Debit",
+              "description": "Card Purchase Afterpay 5999 185-52896014 CA 94102 0851",
+              "amount": 12.5
+            },
+            {
+              "date": "10-07-2025",
+              "type": "Debit",
+              "description": "Mudflap Mudflap Fleet Gray Exp ST-D3p1k9i2c7n6",
+              "amount": 568.46
+            },
+            {
+              "date": "10-10-2025",
+              "type": "Debit",
+              "description": "Americo Ins Co's Ins Pmt Alongie Gray",
+              "amount": 141.65
+            },
+            {
+              "date": "10-14-2025",
+              "type": "Debit",
+              "description": "Mudflap Mudflap Fleet Gray Exp ST-X5s3f4r6j116",
+              "amount": 764.24
+            },
+            {
+              "date": "10-15-2025",
+              "type": "Debit",
+              "description": "Card Purchase Gotkts2*neworle 7922 Gotickets.Com DE 19801 2506",
+              "amount": 306.0
+            },
+            {
+              "date": "10-15-2025",
+              "type": "Debit",
+              "description": "Card Purchase Allianz Event | 6300 Allianzins. US VA 23233 2506",
+              "amount": 12.54
+            },
+            {
+              "date": "10-15-2025",
+              "type": "Debit",
+              "description": "Card Purchase Birminghamjeffe 5814 Birmingham AL 35203 2506",
+              "amount": 41.48
+            },
+            {
+              "date": "10-17-2025",
+              "type": "Debit",
+              "description": "Card Purchase Tst* Up Down - 5813 Birmingham AL 35233 2506",
+              "amount": 121.21
+            },
+            {
+              "date": "10-17-2025",
+              "type": "Debit",
+              "description": "Recurring Card Transaction Nav Tech 855-22 5734 Nav.Com UT 84020 2506",
+              "amount": 54.99
+            },
+            {
+              "date": "10-20-2025",
+              "type": "Debit",
+              "description": "Card Purchase Pappadeaux Seaf 5812 Birmingham AL 35243 2506",
+              "amount": 177.92
+            },
+            {
+              "date": "10-20-2025",
+              "type": "Debit",
+              "description": "Card Purchase Afterpay 5999 185-52896014 CA 94102 2506",
+              "amount": 106.25
+            },
+            {
+              "date": "10-21-2025",
+              "type": "Debit",
+              "description": "Card Purchase Afterpay 5999 185-52896014 CA 94102 2506",
+              "amount": 43.75
+            },
+            {
+              "date": "10-21-2025",
+              "type": "Debit",
+              "description": "Card Purchase Afterpay 5999 044-4123456 CA 94108 2506",
+              "amount": 37.5
+            },
+            {
+              "date": "10-21-2025",
+              "type": "Debit",
+              "description": "Card Purchase Afterpay 5999 185-52896014 CA 94102 2506",
+              "amount": 12.5
+            },
+            {
+              "date": "10-21-2025",
+              "type": "Debit",
+              "description": "Travelers Per Insur Alongie Gray A 5528734",
+              "amount": 351.01
+            },
+            {
+              "date": "10-21-2025",
+              "type": "Debit",
+              "description": "1st Franklin Fin Trans Pmt Alongie Gray A00000008421066",
+              "amount": 515.0
+            },
+            {
+              "date": "10-21-2025",
+              "type": "Debit",
+              "description": "Prog Specialty Ins Prem Alongie Gray",
+              "amount": 532.61
+            },
+            {
+              "date": "10-21-2025",
+              "type": "Debit",
+              "description": "Mudflap Mudflap Fleet Gray Exp ST-U6q4c2l6j1k3",
+              "amount": 283.2
+            },
+            {
+              "date": "10-22-2025",
+              "type": "Debit",
+              "description": "Card Purchase Mariner Finance 6051 800-3734004 MD 21236 2506",
+              "amount": 119.29
+            },
+            {
+              "date": "10-22-2025",
+              "type": "Debit",
+              "description": "Card Purchase Afterpay 5999 044-4123456 CA 94108 2506",
+              "amount": 22.5
+            },
+            {
+              "date": "10-23-2025",
+              "type": "Debit",
+              "description": "Card Purchase Afterpay 5999 044-4123456 CA 94102 2506",
+              "amount": 88.48
+            },
+            {
+              "date": "10-24-2025",
+              "type": "Debit",
+              "description": "Card Purchase Seasons 52 0074 5812 Birmingham AL 35243 2506",
+              "amount": 77.63
+            },
+            {
+              "date": "10-24-2025",
+              "type": "Debit",
+              "description": "Card Purchase Afterpay 5999 185-52896014 CA 94102 2506",
+              "amount": 62.5
+            },
+            {
+              "date": "10-24-2025",
+              "type": "Debit",
+              "description": "Greenlight Premi Ins. Pmts. 98052607gray E 065",
+              "amount": 14795.77
+            },
+            {
+              "date": "10-27-2025",
+              "type": "Debit",
+              "description": "Card Purchase AL Dept of Reve 9399 Www.Egov.Com AL 36104 2506",
+              "amount": 12.63
+            },
+            {
+              "date": "10-27-2025",
+              "type": "Debit",
+              "description": "Card Purchase Afterpay 5999 185-52896014 CA 94102 2506",
+              "amount": 42.5
+            },
+            {
+              "date": "10-28-2025",
+              "type": "Debit",
+              "description": "Mudflap Mudflap Fleet Gray Exp ST-C7s0h6i6q9z9",
+              "amount": 89.41
+            },
+            {
+              "date": "10-30-2025",
+              "type": "Debit",
+              "description": "Check No. 1243",
+              "amount": 1400.0
+            },
+            {
+              "date": "10-30-2025",
+              "type": "Debit",
+              "description": "Check No. 1244",
+              "amount": 402.04
+            },
+            {
+              "date": "10-31-2025",
+              "type": "Debit",
+              "description": "Recurring Card Transaction Netflix.Com 4899 408-5403700 CA 95032 2506",
+              "amount": 26.99
+            },
+            {
+              "date": "10-31-2025",
+              "type": "Debit",
+              "description": "Card Purchase Afterpay 5999 044-4123456 CA 94108 2506",
+              "amount": 25.0
+            }
+          ]
+        }
+      ]
+    },
+    "raw_output": "```json\n{\n  \"accounts\": [\n    {\n      \"account_number\": \"0233244723\",\n      \"account_type\": \"LIFEGREEN BUSINESS CHECKING\",\n      \"mca_deposit\": [],\n      \"mca_withdrawal\": [\n        {\n          \"mca_name\": \"MCA Servicing\",\n          \"date\": \"10-02-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"McA Servicing 8003243863 Gray Express C Pay100125178593\",\n          \"amount\": 994.0\n        },\n        {\n          \"mca_name\": \"MCA Servicing\",\n          \"date\": \"10-09-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"McA Servicing 8003243863 Gray Express C Pay100825178839\",\n          \"amount\": 994.0\n        },\n        {\n          \"mca_name\": \"MCA Servicing\",\n          \"date\": \"10-16-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"McA Servicing 8003243863 Gray Express C Pay101525179070\",\n          \"amount\": 994.0\n        },\n        {\n          \"mca_name\": \"MCA Servicing\",\n          \"date\": \"10-23-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"McA Servicing 8003243863 Gray Express C 132922627\",\n          \"amount\": 994.0\n        },\n        {\n          \"mca_name\": \"MCA Servicing\",\n          \"date\": \"10-28-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"McA Servicing 8003243863 Gray Express C 133102312\",\n          \"amount\": 49.0\n        },\n        {\n          \"mca_name\": \"MCA Servicing\",\n          \"date\": \"10-30-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"McA Servicing 8003243863 Gray Express C Pay102925179672\",\n          \"amount\": 994.0\n        }\n      ],\n      \"returned_items\": [\n        {\n          \"date\": \"10-06-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Returned Deposit Item # of Itm(S) 0001\",\n          \"amount\": 3400.0,\n          \"non_true_revenue\": 1\n        }\n      ],\n      \"overdrafts\": [],\n      \"service_charges\": [],\n      \"atm_cash_withdrawal\": [],\n      \"internal_transfer_deposit\": [],\n      \"other_transfer_deposit\": [\n        {\n          \"date\": \"10-06-2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Card Credit Cash App*alongi 4829 Oakland CA 94612 0851\",\n          \"amount\": 239.09,\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10-07-2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Card Credit Cash App*alongi 4829 Oakland CA 94612 0851\",\n          \"amount\": 526.03,\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10-24-2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Card Credit Cash App*alongi 4829 Oakland CA 94612 2506\",\n          \"amount\": 1668.94,\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        }\n      ],\n      \"internal_transfer_withdrawal\": [],\n      \"other_transfer_withdrawal\": [\n        {\n          \"date\": \"10-06-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Card Purchase Cash App*ka Buc 4829 Oakland CA 94612 0851\",\n          \"amount\": 499.0\n        },\n        {\n          \"date\": \"10-06-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Card Purchase Cash App*joann 4829 Oakland CA 94612 0851\",\n          \"amount\": 100.0\n        },\n        {\n          \"date\": \"10-14-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Regions Bank Achautopay Gray Alongi C\",\n          \"amount\": 601.04\n        },\n        {\n          \"date\": \"10-24-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Card Purchase Cash App*sereni 4829 Oakland CA 94612 2506\",\n          \"amount\": 50.0\n        },\n        {\n          \"date\": \"10-27-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Card Purchase Cash App*konner 4829 Oakland CA 94612 2506\",\n          \"amount\": 75.0\n        }\n      ],\n      \"standard_deposit\": [\n        {\n          \"date\": \"10-02-2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Deposit - Thank You\",\n          \"amount\": 3400.0,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10-15-2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Deposit - Thank You\",\n          \"amount\": 6400.0,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10-22-2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Deposit - Thank You\",\n          \"amount\": 6450.0,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10-27-2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Deposit - Thank You\",\n          \"amount\": 1800.0,\n          \"non_true_revenue\": 0\n        }\n      ],\n      \"standard_withdrawal\": [\n        {\n          \"date\": \"10-01-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Recurring Card Transaction Netflix.Com 4899 Netflix.Com CA 95032 0851\",\n          \"amount\": 26.99\n        },\n        {\n          \"date\": \"10-01-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Card Purchase Afterpay 5999 185-52896014 CA 94102 0851\",\n          \"amount\": 45.0\n        },\n        {\n          \"date\": \"10-02-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Card Purchase Bob Sykes Bar B 5813 Bessemer AL 35020 0851\",\n          \"amount\": 44.0\n        },\n        {\n          \"date\": \"10-03-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Card Purchase Char Bar 7 - Bi 5813 205-8029050 AL 35223 0851\",\n          \"amount\": 87.42\n        },\n        {\n          \"date\": \"10-03-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Card Purchase Premier Bankcar 6012 605-3573440 SD 57107 0851\",\n          \"amount\": 683.88\n        },\n        {\n          \"date\": \"10-06-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Card Purchase Dtv*directv Ser 4899 800-531-5000 TX 75202 0851\",\n          \"amount\": 203.14\n        },\n        {\n          \"date\": \"10-06-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Card Purchase Afterpay 5999 044-4123456 CA 94108 0851\",\n          \"amount\": 31.25\n        },\n        {\n          \"date\": \"10-06-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Recurring Card Transaction Apple.Com/Bill 5818 866-712-7753 CA 95014 0851\",\n          \"amount\": 39.59\n        },\n        {\n          \"date\": \"10-06-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Card Purchase Pappadeaux Seaf 5812 Birmingham AL 35243 0851\",\n          \"amount\": 151.91\n        },\n        {\n          \"date\": \"10-06-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Card Purchase Afterpay 5999 044-4123456 CA 94108 0851\",\n          \"amount\": 37.5\n        },\n        {\n          \"date\": \"10-06-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Card Purchase Afterpay 5999 044-4123456 CA 94108 0851\",\n          \"amount\": 22.5\n        },\n        {\n          \"date\": \"10-06-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Card Purchase Afterpay 5999 Afterpay.Com CA 94102 0851\",\n          \"amount\": 43.75\n        },\n        {\n          \"date\": \"10-06-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Card Purchase Afterpay 5999 Afterpay.Com CA 94102 0851\",\n          \"amount\": 50.0\n        },\n        {\n          \"date\": \"10-06-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Card Purchase Afterpay 5999 Afterpay.Com CA 94102 0851\",\n          \"amount\": 62.5\n        },\n        {\n          \"date\": \"10-06-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Card Purchase Afterpay 5999 185-52896014 CA 94102 0851\",\n          \"amount\": 85.0\n        },\n        {\n          \"date\": \"10-06-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Card Purchase Afterpay 5999 044-4123456 CA 94108 0851\",\n          \"amount\": 21.25\n        },\n        {\n          \"date\": \"10-06-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Card Purchase Afterpay 5999 Afterpay.Com CA 94102 0851\",\n          \"amount\": 42.5\n        },\n        {\n          \"date\": \"10-06-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Card Purchase Afterpay 5999 Afterpay.Com CA 94102 0851\",\n          \"amount\": 45.0\n        },\n        {\n          \"date\": \"10-06-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Card Purchase Afterpay 5999 044-4123456 CA 94108 0851\",\n          \"amount\": 31.25\n        },\n        {\n          \"date\": \"10-06-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Card Purchase Four*plus*subsc 5999 Paywithfour.C FL 33180 0851\",\n          \"amount\": 12.99\n        },\n        {\n          \"date\": \"10-06-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Card Purchase Montgomery YMCA 8641 Montgomery AL 36104 0851\",\n          \"amount\": 6.0\n        },\n        {\n          \"date\": \"10-06-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Nafmd Phonecheck Gray\",\n          \"amount\": 35.95\n        },\n        {\n          \"date\": \"10-06-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Lowes Brc Syf Paymnt Gray Express C 798213101090722\",\n          \"amount\": 874.12\n        },\n        {\n          \"date\": \"10-07-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Card Purchase Afterpay 5999 185-52896014 CA 94102 0851\",\n          \"amount\": 12.5\n        },\n        {\n          \"date\": \"10-07-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Mudflap Mudflap Fleet Gray Exp ST-D3p1k9i2c7n6\",\n          \"amount\": 568.46\n        },\n        {\n          \"date\": \"10-10-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Americo Ins Co's Ins Pmt Alongie Gray\",\n          \"amount\": 141.65\n        },\n        {\n          \"date\": \"10-14-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Mudflap Mudflap Fleet Gray Exp ST-X5s3f4r6j116\",\n          \"amount\": 764.24\n        },\n        {\n          \"date\": \"10-15-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Card Purchase Gotkts2*neworle 7922 Gotickets.Com DE 19801 2506\",\n          \"amount\": 306.0\n        },\n        {\n          \"date\": \"10-15-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Card Purchase Allianz Event | 6300 Allianzins. US VA 23233 2506\",\n          \"amount\": 12.54\n        },\n        {\n          \"date\": \"10-15-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Card Purchase Birminghamjeffe 5814 Birmingham AL 35203 2506\",\n          \"amount\": 41.48\n        },\n        {\n          \"date\": \"10-17-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Card Purchase Tst* Up Down - 5813 Birmingham AL 35233 2506\",\n          \"amount\": 121.21\n        },\n        {\n          \"date\": \"10-17-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Recurring Card Transaction Nav Tech 855-22 5734 Nav.Com UT 84020 2506\",\n          \"amount\": 54.99\n        },\n        {\n          \"date\": \"10-20-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Card Purchase Pappadeaux Seaf 5812 Birmingham AL 35243 2506\",\n          \"amount\": 177.92\n        },\n        {\n          \"date\": \"10-20-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Card Purchase Afterpay 5999 185-52896014 CA 94102 2506\",\n          \"amount\": 106.25\n        },\n        {\n          \"date\": \"10-21-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Card Purchase Afterpay 5999 185-52896014 CA 94102 2506\",\n          \"amount\": 43.75\n        },\n        {\n          \"date\": \"10-21-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Card Purchase Afterpay 5999 044-4123456 CA 94108 2506\",\n          \"amount\": 37.5\n        },\n        {\n          \"date\": \"10-21-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Card Purchase Afterpay 5999 185-52896014 CA 94102 2506\",\n          \"amount\": 12.5\n        },\n        {\n          \"date\": \"10-21-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Travelers Per Insur Alongie Gray A 5528734\",\n          \"amount\": 351.01\n        },\n        {\n          \"date\": \"10-21-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"1st Franklin Fin Trans Pmt Alongie Gray A00000008421066\",\n          \"amount\": 515.0\n        },\n        {\n          \"date\": \"10-21-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Prog Specialty Ins Prem Alongie Gray\",\n          \"amount\": 532.61\n        },\n        {\n          \"date\": \"10-21-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Mudflap Mudflap Fleet Gray Exp ST-U6q4c2l6j1k3\",\n          \"amount\": 283.2\n        },\n        {\n          \"date\": \"10-22-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Card Purchase Mariner Finance 6051 800-3734004 MD 21236 2506\",\n          \"amount\": 119.29\n        },\n        {\n          \"date\": \"10-22-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Card Purchase Afterpay 5999 044-4123456 CA 94108 2506\",\n          \"amount\": 22.5\n        },\n        {\n          \"date\": \"10-23-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Card Purchase Afterpay 5999 044-4123456 CA 94102 2506\",\n          \"amount\": 88.48\n        },\n        {\n          \"date\": \"10-24-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Card Purchase Seasons 52 0074 5812 Birmingham AL 35243 2506\",\n          \"amount\": 77.63\n        },\n        {\n          \"date\": \"10-24-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Card Purchase Afterpay 5999 185-52896014 CA 94102 2506\",\n          \"amount\": 62.5\n        },\n        {\n          \"date\": \"10-24-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Greenlight Premi Ins. Pmts. 98052607gray E 065\",\n          \"amount\": 14795.77\n        },\n        {\n          \"date\": \"10-27-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Card Purchase AL Dept of Reve 9399 Www.Egov.Com AL 36104 2506\",\n          \"amount\": 12.63\n        },\n        {\n          \"date\": \"10-27-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Card Purchase Afterpay 5999 185-52896014 CA 94102 2506\",\n          \"amount\": 42.5\n        },\n        {\n          \"date\": \"10-28-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Mudflap Mudflap Fleet Gray Exp ST-C7s0h6i6q9z9\",\n          \"amount\": 89.41\n        },\n        {\n          \"date\": \"10-30-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Check No. 1243\",\n          \"amount\": 1400.0\n        },\n        {\n          \"date\": \"10-30-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Check No. 1244\",\n          \"amount\": 402.04\n        },\n        {\n          \"date\": \"10-31-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Recurring Card Transaction Netflix.Com 4899 408-5403700 CA 95032 2506\",\n          \"amount\": 26.99\n        },\n        {\n          \"date\": \"10-31-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Card Purchase Afterpay 5999 044-4123456 CA 94108 2506\",\n          \"amount\": 25.0\n        }\n      ]\n    }\n  ]\n}\n```",
+    "token_count": {
+      "estimated_tokens": 1311
+    },
+    "failure_reason": null
+  }
+}
