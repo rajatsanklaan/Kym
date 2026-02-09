@@ -1,0 +1,608 @@
+{
+  "document_name": "Case65.pdf",
+  "pipeline_status": "completed",
+  "processing_metadata": {
+    "start_time": "2026-02-04T15:08:42.904872",
+    "end_time": "2026-02-04T15:11:16.942319",
+    "parsing_time_seconds": 92.581988,
+    "bsi_time_seconds": 61.434228,
+    "total_time_seconds": 154.016216
+  },
+  "parsing_agent_result": {
+    "agent_name": "parsing_agent",
+    "processing_status": "success",
+    "start_time": "2026-02-04T15:08:42.911037",
+    "end_time": "2026-02-04T15:10:15.492635",
+    "parsed_json": {
+      "bank_statement_information": {
+        "bank_name": "Chase",
+        "account_holder": "P2 TRADING, INC.",
+        "statement_start_date": "11-01-2025",
+        "statement_end_date": "11-28-2025",
+        "n_days": 28,
+        "n_month": [
+          11
+        ],
+        "business_address": "17115 ALBURTIS AVE ARTESIA CA 90701-2616"
+      },
+      "accounts": [
+        {
+          "account_number": "000000522903108",
+          "account_type": "Chase Platinum Business Checking",
+          "account_summary": {
+            "beginning_balance": 2.67,
+            "ending_balance": 86.92,
+            "total_deposits": 6684.72,
+            "total_withdrawals": 6600.47,
+            "total_deposits_count": 22,
+            "total_withdrawals_count": null,
+            "avg_daily_balance": null,
+            "overdraft_days": 8
+          },
+          "transactions": [
+            {
+              "date": "11/03/2025",
+              "description": "Orig CO Name: Home Depot 5113 Orig ID: 1953261426 Desc Date: Nov 03 CO Entry Descr:EDI Paymntsec:CCD Trace#: 031100206114955 Eed:251103 Ind ID:200191426310035 Ind Name: P2 Trading Inc. Ref*TN*2001914263 Trn: 3076114955Tc",
+              "amount": 846.44,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "11/02 Online Transfer To Chk... 0017 Transaction#: 26819911159",
+              "amount": 800.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "Orig CO Name: Godaddyps Orig ID:9941752619 Desc Date:251102 CO Entry Descr: Deposit Sec:CCD Trace#: 091000010946977 Eed:251103 Ind ID:993211347881 Ind Name: P2 Auto Parts Merchant Svcs Trn: 3070946977Tc",
+              "amount": 35.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "Orig CO Name: Merchant Bankcd Orig ID:G592126793 Desc Date:251102 CO Entry Descr: Deposit Sec:CCD Trace#: 091000018076157 Eed:251103 Ind ID: 496499386886 Ind Name: P2 Trading Inc Bankcard Dep Trn: 3078076157Tc Ppi",
+              "amount": 79.99,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/05/2025",
+              "description": "Orig CO Name: Home Depot 5113 Orig ID: 1953261426 Desc Date: Nov 05 CO Entry Descr:EDI Paymntsec:CCD Trace#: 031100202317401 Eed:251105 Ind ID:200193264310035 Ind Name: P2 Trading Inc. Ref*TN*2001932643\\ Trn: 3092317401Tc",
+              "amount": 177.83,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/05/2025",
+              "description": "Orig CO Name: Lowes Orig ID:9991000010 Desc Date: CO Entry Descr: Trade Pmt Sec: CTX Trace#: 091000013054890 Eed:251105 Ind ID: 600157269 Ind Name: 0014P2 Trading Inc 1 Trn: 3093054890Tc",
+              "amount": 51.89,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/05/2025",
+              "description": "Orig CO Name: Britecap Financi Orig ID: 1043767703 Desc Date: CO Entry Descr: Preauthpmtsec:CCD Trace#: 091408591201167 Eed:251105 Ind ID:2236775 Ind Name: P2 Trading Inc 866-623-4900 Trn: 3091201167Tc 4 Info",
+              "amount": 716.09,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/05/2025",
+              "description": "Service Charges For The Month of October",
+              "amount": 299.0,
+              "type": "Debit",
+              "category": "Service Charges/Fees"
+            },
+            {
+              "date": "11/06/2025",
+              "description": "Orig CO Name: Home Depot 5113 Orig ID: 1953261426 Desc Date: Nov 06 CO Entry Descr:EDI Paymntsec:CCD Trace#: 031100205237806 Eed:251106 Ind ID:200194088610035 Ind Name: P2 Trading Inc. Ref*TN*2001940886\\ Trn: 3105237806Tc",
+              "amount": 118.51,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/07/2025",
+              "description": "Orig CO Name: Lowes Orig ID:9991000010 Desc Date: CO Entry Descr: Trade Pmt Sec: CTX Trace#: 091000010317050 Eed:251107 Ind ID:600160621 Ind Name: 0024P2 Trading Inc 1 Trn: 3110317050Tc",
+              "amount": 180.83,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/07/2025",
+              "description": "Orig CO Name: Home Depot 5113 Orig ID: 1953261426 Desc Date: Nov 07 CO Entry Descr:EDI Paymntsec:CCD Trace#: 031100207937709 Eed:251107 Ind ID:200195389310035 Ind Name: P2 Trading Inc. Ref*TN*2001953893\\ Trn: 3117937709Tc",
+              "amount": 159.27,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Orig CO Name: Home Depot 5113 Orig ID: 1953261426 Desc Date: Nov 10 CO Entry Descr:EDI Paymntsec:CCD Trace#: 031100204918790 Eed:251110 Ind ID:200196415310035 Ind Name: P2 Trading Inc. Ref*TN*2001964153 Trn: 3144918790Tc",
+              "amount": 712.75,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Recurring Card Purchase 11/09 Vzwrlss* Apocc Visw 800-922-0204 FL Card 2372",
+              "amount": 128.74,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "11/08 Payment To Chase Card Ending IN 6497",
+              "amount": 150.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Orig CO Name: Lowes Orig ID:9991000010 Desc Date: CO Entry Descr: Trade Pmt Sec: CTX Trace#: 091000016652544 Eed:251112 Ind ID: 600162832 Ind Name: 0017P2 Trading Inc 1 Trn: 3166652544Tc",
+              "amount": 132.31,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Orig CO Name: Home Depot 5113 Orig ID: 1953261426 Desc Date: Nov 12 CO Entry Descr:EDI Paymntsec:CCD Trace#: 031100206767086 Eed:251112 Ind ID:200198309810035 Ind Name: P2 Trading Inc. Ref*TN*2001983098\\ Trn: 3166767086Tc",
+              "amount": 114.18,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Orig CO Name: ADT Security Ser Orig ID:8881323080 Desc Date: CO Entry Descr: Adtpapach Sec: PPD Trace#:043301607340542 Eed:251112 Ind ID: Ind Name: Apollo Trn: 3167340542Tc",
+              "amount": 82.85,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Orig CO Name: Britecap Financi Orig ID: 1043767703 Desc Date: CO Entry Descr: Preauthpmtsec:CCD Trace#: 091408597916268 Eed:251112 Ind ID:2244149 Ind Name: P2 Trading Inc 866-623-4900 Trn: 3167916268Tc 4 Info",
+              "amount": 716.09,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/13/2025",
+              "description": "Orig CO Name: Home Depot 5113 Orig ID: 1953261426 Desc Date: Nov 13 CO Entry Descr:EDI Paymntsec:CCD Trace#: 031100203208692 Eed:251113 Ind ID:200198947310035 Ind Name: P2 Trading Inc. Ref* TN*2001989473\\ Trn: 3173208692Tc",
+              "amount": 154.43,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/13/2025",
+              "description": "Orig CO Name: Farmers Ins Exch Orig ID:9496351303 Desc Date: 251113 CO Entry Descr:EFT Pymt Sec:PPD Trace#:021000020983988 Eed:251113 Ind ID: Ind Name:. P2 Auto Parts, Inc. Trn: 3170983988 Tc",
+              "amount": 376.74,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/14/2025",
+              "description": "Orig CO Name: Lowes Orig ID:9991000010 Desc Date: CO Entry Descr: Trade Pmt Sec: CTX Trace#: 091000016335911 Eed:251114 Ind ID:600166523 Ind Name: 0033P2 Trading Inc 1 Trn: 3186335911Tc",
+              "amount": 427.19,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/14/2025",
+              "description": "Orig CO Name: Home Depot 5113 Orig ID: 1953261426 Desc Date: Nov 14 CO Entry Descr:EDI Paymntsec:CCD Trace#: 031100201904644 Eed:251114 Ind ID:200199963010035 Ind Name: P2 Trading Inc. Ref* TN*2001999630\\ Trn: 3181904644Tc",
+              "amount": 227.61,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "Orig CO Name: Home Depot 5113 Orig ID: 1953261426 Desc Date: Nov 17 CO Entry Descr:EDI Paymntsec:CCD Trace#: 031100204497216 Eed:251117 Ind ID:200201298210035 Ind Name: P2 Trading Inc. Ref* TN*2002012982\\ Trn: 3214497216Tc",
+              "amount": 301.14,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "11/16 Online Transfer To Chk... 0017 Transaction#: 26986830187",
+              "amount": 200.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "11/19/2025",
+              "description": "Orig CO Name: Home Depot 5113 Orig ID: 1953261426 Desc Date: Nov 19 CO Entry Descr:EDI Paymntsec:CCD Trace#: 031100201037802 Eed:251119 Ind ID:200203067210035 Ind Name: P2 Trading Inc. Ref* TN*2002030672\\ Trn: 3231037802Tc",
+              "amount": 415.03,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/19/2025",
+              "description": "Orig CO Name: Lowes Orig ID:9991000010 Desc Date: CO Entry Descr: Trade Pmt Sec: CTX Trace#: 091000018225810 Eed: 251119 Ind ID:600168735 Ind Name: 0022P2 Trading Inc 1 Trn: 3238225810Tc",
+              "amount": 264.17,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/19/2025",
+              "description": "Orig CO Name: Britecap Financi Orig ID: 1043767703 Desc Date: CO Entry Descr: Preauthpmtsec:CCD Trace#: 091408597662572 Eed:251119 Ind ID:2254971 Ind Name:P2 Trading Inc 866-623-4900 Trn: 3237662572Tc 4 Info",
+              "amount": 715.97,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/20/2025",
+              "description": "Orig CO Name: Home Depot 5113 Orig ID: 1953261426 Desc Date: Nov 20 CO Entry Descr:EDI Paymntsec:CCD Trace#: 031100207272235 Eed:251120 Ind ID:200204079310035 Ind Name: P2 Trading Inc. Ref* TN*2002040793\\ Trn: 3247272235Tc",
+              "amount": 79.58,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/21/2025",
+              "description": "Orig CO Name: Lowes Orig ID:9991000010 Desc Date: CO Entry Descr: Trade Pmt Sec: CTX Trace#: 091000019918206 Eed: 251121 Ind ID:600171575 Ind Name: 0037P2 Trading Inc 1 Trn: 3259918206Tc",
+              "amount": 490.7,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/21/2025",
+              "description": "Orig CO Name: Home Depot 5113 Orig ID: 1953261426 Desc Date: Nov 21 CO Entry Descr:EDI Paymntsec:CCD Trace#: 031100206582703 Eed:251121 Ind ID:200205151810035 Ind Name: P2 Trading Inc. Ref* TN*2002051518\\ Trn: 3256582703Tc",
+              "amount": 83.34,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/21/2025",
+              "description": "11/21 Online Transfer To Chk...0017 Transaction#: 27044299626",
+              "amount": 600.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Orig CO Name: Home Depot 5113 Orig ID: 1953261426 Desc Date: Nov 24 CO Entry Descr:EDI Paymntsec:CCD Trace#: 031100203694283 Eed:251124 Ind ID:200206149510035 Ind Name: P2 Trading Inc. Ref* TN*2002061495\\ Trn: 3283694283Tc",
+              "amount": 863.81,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "11/23 Online Transfer To Chk... 0017 Transaction#: 27063813219",
+              "amount": 900.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "11/26/2025",
+              "description": "Orig CO Name: Home Depot 5113 Orig ID: 1953261426 Desc Date: Nov 26 CO Entry Descr:EDI Paymntsec:CCD Trace#: 031100205452659 Eed:251126 Ind ID:200207954110035 Ind Name: P2 Trading Inc. Ref* TN*2002079541 Trn: 3305452659Tc",
+              "amount": 272.65,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/26/2025",
+              "description": "Orig CO Name: Lowes Orig ID:9991000010 Desc Date: CO Entry Descr: Trade Pmt Sec: CTX Trace#: 091000018760297 Eed:251126 Ind ID: 600176188 Ind Name: 0014P2 Trading Inc 1 Trn: 3308760297Tc",
+              "amount": 78.02,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/26/2025",
+              "description": "11/26 Online Transfer To Chk ... 0017 Transaction#: 27100567859",
+              "amount": 300.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "11/28/2025",
+              "description": "Orig CO Name: Lowes Orig ID:9991000010 Desc Date: CO Entry Descr: Trade Pmt Sec: CTX Trace#: 091000012999387 Eed:251128 Ind ID:600179573 Ind Name:0040P2 Trading Inc 1 Trn: 3322999387Tc",
+              "amount": 533.04,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/28/2025",
+              "description": "11/28 Online Transfer To Chk... 0017 Transaction#: 27122983835",
+              "amount": 500.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            }
+          ]
+        }
+      ]
+    },
+    "raw_output": "```json\n{\n  \"bank_statement_information\": {\n    \"bank_name\": \"Chase\",\n    \"account_holder\": \"P2 TRADING, INC.\",\n    \"statement_start_date\": \"11-01-2025\",\n    \"statement_end_date\": \"11-28-2025\",\n    \"n_days\": 28,\n    \"n_month\": [\n      11\n    ],\n    \"business_address\": \"17115 ALBURTIS AVE ARTESIA CA 90701-2616\"\n  },\n  \"accounts\": [\n    {\n      \"account_number\": \"000000522903108\",\n      \"account_type\": \"Chase Platinum Business Checking\",\n      \"account_summary\": {\n        \"beginning_balance\": 2.67,\n        \"ending_balance\": 86.92,\n        \"total_deposits\": 6684.72,\n        \"total_withdrawals\": 6600.47,\n        \"total_deposits_count\": 22,\n        \"total_withdrawals_count\": null,\n        \"avg_daily_balance\": null,\n        \"overdraft_days\": 8\n      },\n      \"transactions\": [\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"Orig CO Name: Home Depot 5113 Orig ID: 1953261426 Desc Date: Nov 03 CO Entry Descr:EDI Paymntsec:CCD Trace#: 031100206114955 Eed:251103 Ind ID:200191426310035 Ind Name: P2 Trading Inc. Ref*TN*2001914263 Trn: 3076114955Tc\",\n          \"amount\": 846.44,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"11/02 Online Transfer To Chk... 0017 Transaction#: 26819911159\",\n          \"amount\": 800.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"Orig CO Name: Godaddyps Orig ID:9941752619 Desc Date:251102 CO Entry Descr: Deposit Sec:CCD Trace#: 091000010946977 Eed:251103 Ind ID:993211347881 Ind Name: P2 Auto Parts Merchant Svcs Trn: 3070946977Tc\",\n          \"amount\": 35.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"Orig CO Name: Merchant Bankcd Orig ID:G592126793 Desc Date:251102 CO Entry Descr: Deposit Sec:CCD Trace#: 091000018076157 Eed:251103 Ind ID: 496499386886 Ind Name: P2 Trading Inc Bankcard Dep Trn: 3078076157Tc Ppi\",\n          \"amount\": 79.99,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/05/2025\",\n          \"description\": \"Orig CO Name: Home Depot 5113 Orig ID: 1953261426 Desc Date: Nov 05 CO Entry Descr:EDI Paymntsec:CCD Trace#: 031100202317401 Eed:251105 Ind ID:200193264310035 Ind Name: P2 Trading Inc. Ref*TN*2001932643\\\\ Trn: 3092317401Tc\",\n          \"amount\": 177.83,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/05/2025\",\n          \"description\": \"Orig CO Name: Lowes Orig ID:9991000010 Desc Date: CO Entry Descr: Trade Pmt Sec: CTX Trace#: 091000013054890 Eed:251105 Ind ID: 600157269 Ind Name: 0014P2 Trading Inc 1 Trn: 3093054890Tc\",\n          \"amount\": 51.89,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/05/2025\",\n          \"description\": \"Orig CO Name: Britecap Financi Orig ID: 1043767703 Desc Date: CO Entry Descr: Preauthpmtsec:CCD Trace#: 091408591201167 Eed:251105 Ind ID:2236775 Ind Name: P2 Trading Inc 866-623-4900 Trn: 3091201167Tc 4 Info\",\n          \"amount\": 716.09,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/05/2025\",\n          \"description\": \"Service Charges For The Month of October\",\n          \"amount\": 299.0,\n          \"type\": \"Debit\",\n          \"category\": \"Service Charges/Fees\"\n        },\n        {\n          \"date\": \"11/06/2025\",\n          \"description\": \"Orig CO Name: Home Depot 5113 Orig ID: 1953261426 Desc Date: Nov 06 CO Entry Descr:EDI Paymntsec:CCD Trace#: 031100205237806 Eed:251106 Ind ID:200194088610035 Ind Name: P2 Trading Inc. Ref*TN*2001940886\\\\ Trn: 3105237806Tc\",\n          \"amount\": 118.51,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"description\": \"Orig CO Name: Lowes Orig ID:9991000010 Desc Date: CO Entry Descr: Trade Pmt Sec: CTX Trace#: 091000010317050 Eed:251107 Ind ID:600160621 Ind Name: 0024P2 Trading Inc 1 Trn: 3110317050Tc\",\n          \"amount\": 180.83,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"description\": \"Orig CO Name: Home Depot 5113 Orig ID: 1953261426 Desc Date: Nov 07 CO Entry Descr:EDI Paymntsec:CCD Trace#: 031100207937709 Eed:251107 Ind ID:200195389310035 Ind Name: P2 Trading Inc. Ref*TN*2001953893\\\\ Trn: 3117937709Tc\",\n          \"amount\": 159.27,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Orig CO Name: Home Depot 5113 Orig ID: 1953261426 Desc Date: Nov 10 CO Entry Descr:EDI Paymntsec:CCD Trace#: 031100204918790 Eed:251110 Ind ID:200196415310035 Ind Name: P2 Trading Inc. Ref*TN*2001964153 Trn: 3144918790Tc\",\n          \"amount\": 712.75,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Recurring Card Purchase 11/09 Vzwrlss* Apocc Visw 800-922-0204 FL Card 2372\",\n          \"amount\": 128.74,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"11/08 Payment To Chase Card Ending IN 6497\",\n          \"amount\": 150.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Orig CO Name: Lowes Orig ID:9991000010 Desc Date: CO Entry Descr: Trade Pmt Sec: CTX Trace#: 091000016652544 Eed:251112 Ind ID: 600162832 Ind Name: 0017P2 Trading Inc 1 Trn: 3166652544Tc\",\n          \"amount\": 132.31,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Orig CO Name: Home Depot 5113 Orig ID: 1953261426 Desc Date: Nov 12 CO Entry Descr:EDI Paymntsec:CCD Trace#: 031100206767086 Eed:251112 Ind ID:200198309810035 Ind Name: P2 Trading Inc. Ref*TN*2001983098\\\\ Trn: 3166767086Tc\",\n          \"amount\": 114.18,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Orig CO Name: ADT Security Ser Orig ID:8881323080 Desc Date: CO Entry Descr: Adtpapach Sec: PPD Trace#:043301607340542 Eed:251112 Ind ID: Ind Name: Apollo Trn: 3167340542Tc\",\n          \"amount\": 82.85,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Orig CO Name: Britecap Financi Orig ID: 1043767703 Desc Date: CO Entry Descr: Preauthpmtsec:CCD Trace#: 091408597916268 Eed:251112 Ind ID:2244149 Ind Name: P2 Trading Inc 866-623-4900 Trn: 3167916268Tc 4 Info\",\n          \"amount\": 716.09,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/13/2025\",\n          \"description\": \"Orig CO Name: Home Depot 5113 Orig ID: 1953261426 Desc Date: Nov 13 CO Entry Descr:EDI Paymntsec:CCD Trace#: 031100203208692 Eed:251113 Ind ID:200198947310035 Ind Name: P2 Trading Inc. Ref* TN*2001989473\\\\ Trn: 3173208692Tc\",\n          \"amount\": 154.43,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/13/2025\",\n          \"description\": \"Orig CO Name: Farmers Ins Exch Orig ID:9496351303 Desc Date: 251113 CO Entry Descr:EFT Pymt Sec:PPD Trace#:021000020983988 Eed:251113 Ind ID: Ind Name:. P2 Auto Parts, Inc. Trn: 3170983988 Tc\",\n          \"amount\": 376.74,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/14/2025\",\n          \"description\": \"Orig CO Name: Lowes Orig ID:9991000010 Desc Date: CO Entry Descr: Trade Pmt Sec: CTX Trace#: 091000016335911 Eed:251114 Ind ID:600166523 Ind Name: 0033P2 Trading Inc 1 Trn: 3186335911Tc\",\n          \"amount\": 427.19,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/14/2025\",\n          \"description\": \"Orig CO Name: Home Depot 5113 Orig ID: 1953261426 Desc Date: Nov 14 CO Entry Descr:EDI Paymntsec:CCD Trace#: 031100201904644 Eed:251114 Ind ID:200199963010035 Ind Name: P2 Trading Inc. Ref* TN*2001999630\\\\ Trn: 3181904644Tc\",\n          \"amount\": 227.61,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"Orig CO Name: Home Depot 5113 Orig ID: 1953261426 Desc Date: Nov 17 CO Entry Descr:EDI Paymntsec:CCD Trace#: 031100204497216 Eed:251117 Ind ID:200201298210035 Ind Name: P2 Trading Inc. Ref* TN*2002012982\\\\ Trn: 3214497216Tc\",\n          \"amount\": 301.14,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"11/16 Online Transfer To Chk... 0017 Transaction#: 26986830187\",\n          \"amount\": 200.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/19/2025\",\n          \"description\": \"Orig CO Name: Home Depot 5113 Orig ID: 1953261426 Desc Date: Nov 19 CO Entry Descr:EDI Paymntsec:CCD Trace#: 031100201037802 Eed:251119 Ind ID:200203067210035 Ind Name: P2 Trading Inc. Ref* TN*2002030672\\\\ Trn: 3231037802Tc\",\n          \"amount\": 415.03,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/19/2025\",\n          \"description\": \"Orig CO Name: Lowes Orig ID:9991000010 Desc Date: CO Entry Descr: Trade Pmt Sec: CTX Trace#: 091000018225810 Eed: 251119 Ind ID:600168735 Ind Name: 0022P2 Trading Inc 1 Trn: 3238225810Tc\",\n          \"amount\": 264.17,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/19/2025\",\n          \"description\": \"Orig CO Name: Britecap Financi Orig ID: 1043767703 Desc Date: CO Entry Descr: Preauthpmtsec:CCD Trace#: 091408597662572 Eed:251119 Ind ID:2254971 Ind Name:P2 Trading Inc 866-623-4900 Trn: 3237662572Tc 4 Info\",\n          \"amount\": 715.97,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"description\": \"Orig CO Name: Home Depot 5113 Orig ID: 1953261426 Desc Date: Nov 20 CO Entry Descr:EDI Paymntsec:CCD Trace#: 031100207272235 Eed:251120 Ind ID:200204079310035 Ind Name: P2 Trading Inc. Ref* TN*2002040793\\\\ Trn: 3247272235Tc\",\n          \"amount\": 79.58,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"description\": \"Orig CO Name: Lowes Orig ID:9991000010 Desc Date: CO Entry Descr: Trade Pmt Sec: CTX Trace#: 091000019918206 Eed: 251121 Ind ID:600171575 Ind Name: 0037P2 Trading Inc 1 Trn: 3259918206Tc\",\n          \"amount\": 490.7,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"description\": \"Orig CO Name: Home Depot 5113 Orig ID: 1953261426 Desc Date: Nov 21 CO Entry Descr:EDI Paymntsec:CCD Trace#: 031100206582703 Eed:251121 Ind ID:200205151810035 Ind Name: P2 Trading Inc. Ref* TN*2002051518\\\\ Trn: 3256582703Tc\",\n          \"amount\": 83.34,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"description\": \"11/21 Online Transfer To Chk...0017 Transaction#: 27044299626\",\n          \"amount\": 600.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Orig CO Name: Home Depot 5113 Orig ID: 1953261426 Desc Date: Nov 24 CO Entry Descr:EDI Paymntsec:CCD Trace#: 031100203694283 Eed:251124 Ind ID:200206149510035 Ind Name: P2 Trading Inc. Ref* TN*2002061495\\\\ Trn: 3283694283Tc\",\n          \"amount\": 863.81,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"11/23 Online Transfer To Chk... 0017 Transaction#: 27063813219\",\n          \"amount\": 900.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/26/2025\",\n          \"description\": \"Orig CO Name: Home Depot 5113 Orig ID: 1953261426 Desc Date: Nov 26 CO Entry Descr:EDI Paymntsec:CCD Trace#: 031100205452659 Eed:251126 Ind ID:200207954110035 Ind Name: P2 Trading Inc. Ref* TN*2002079541 Trn: 3305452659Tc\",\n          \"amount\": 272.65,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/26/2025\",\n          \"description\": \"Orig CO Name: Lowes Orig ID:9991000010 Desc Date: CO Entry Descr: Trade Pmt Sec: CTX Trace#: 091000018760297 Eed:251126 Ind ID: 600176188 Ind Name: 0014P2 Trading Inc 1 Trn: 3308760297Tc\",\n          \"amount\": 78.02,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/26/2025\",\n          \"description\": \"11/26 Online Transfer To Chk ... 0017 Transaction#: 27100567859\",\n          \"amount\": 300.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/28/2025\",\n          \"description\": \"Orig CO Name: Lowes Orig ID:9991000010 Desc Date: CO Entry Descr: Trade Pmt Sec: CTX Trace#: 091000012999387 Eed:251128 Ind ID:600179573 Ind Name:0040P2 Trading Inc 1 Trn: 3322999387Tc\",\n          \"amount\": 533.04,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/28/2025\",\n          \"description\": \"11/28 Online Transfer To Chk... 0017 Transaction#: 27122983835\",\n          \"amount\": 500.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        }\n      ]\n    }\n  ]\n}\n```",
+    "token_count": {
+      "estimated_tokens": 1453
+    },
+    "failure_reason": null
+  },
+  "bsi_analyzer_result": {
+    "agent_name": "v1_bsi_analyzer_agent",
+    "processing_status": "success",
+    "start_time": "2026-02-04T15:10:15.507705",
+    "end_time": "2026-02-04T15:11:16.941712",
+    "parsed_json": {
+      "accounts": [
+        {
+          "account_number": "000000522903108",
+          "account_type": "Chase Platinum Business Checking",
+          "mca_deposit": [],
+          "mca_withdrawal": [
+            {
+              "mca_name": "Brite cap Financi",
+              "date": "11/05/2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Britecap Financi Orig ID: 1043767703 Desc Date: CO Entry Descr: Preauthpmtsec:CCD Trace#: 091408591201167 Eed:251105 Ind ID:2236775 Ind Name: P2 Trading Inc 866-623-4900 Trn: 3091201167Tc 4 Info",
+              "amount": 716.09
+            },
+            {
+              "mca_name": "Brite cap Financi",
+              "date": "11/12/2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Britecap Financi Orig ID: 1043767703 Desc Date: CO Entry Descr: Preauthpmtsec:CCD Trace#: 091408597916268 Eed:251112 Ind ID:2244149 Ind Name: P2 Trading Inc 866-623-4900 Trn: 3167916268Tc 4 Info",
+              "amount": 716.09
+            },
+            {
+              "mca_name": "Brite cap Financi",
+              "date": "11/19/2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Britecap Financi Orig ID: 1043767703 Desc Date: CO Entry Descr: Preauthpmtsec:CCD Trace#: 091408597662572 Eed:251119 Ind ID:2254971 Ind Name:P2 Trading Inc 866-623-4900 Trn: 3237662572Tc 4 Info",
+              "amount": 715.97
+            }
+          ],
+          "returned_items": [],
+          "overdrafts": [],
+          "service_charges": [
+            {
+              "date": "11/05/2025",
+              "type": "Debit",
+              "description": "Service Charges For The Month of October",
+              "amount": 299.0
+            }
+          ],
+          "atm_cash_withdrawal": [],
+          "internal_transfer_deposit": [],
+          "other_transfer_deposit": [],
+          "internal_transfer_withdrawal": [
+            {
+              "date": "11/03/2025",
+              "type": "Debit",
+              "description": "11/02 Online Transfer To Chk... 0017 Transaction#: 26819911159",
+              "amount": 800.0
+            },
+            {
+              "date": "11/17/2025",
+              "type": "Debit",
+              "description": "11/16 Online Transfer To Chk... 0017 Transaction#: 26986830187",
+              "amount": 200.0
+            },
+            {
+              "date": "11/21/2025",
+              "type": "Debit",
+              "description": "11/21 Online Transfer To Chk...0017 Transaction#: 27044299626",
+              "amount": 600.0
+            },
+            {
+              "date": "11/24/2025",
+              "type": "Debit",
+              "description": "11/23 Online Transfer To Chk... 0017 Transaction#: 27063813219",
+              "amount": 900.0
+            },
+            {
+              "date": "11/26/2025",
+              "type": "Debit",
+              "description": "11/26 Online Transfer To Chk ... 0017 Transaction#: 27100567859",
+              "amount": 300.0
+            },
+            {
+              "date": "11/28/2025",
+              "type": "Debit",
+              "description": "11/28 Online Transfer To Chk... 0017 Transaction#: 27122983835",
+              "amount": 500.0
+            }
+          ],
+          "other_transfer_withdrawal": [],
+          "standard_deposit": [
+            {
+              "date": "11/03/2025",
+              "type": "Credit",
+              "description": "Orig CO Name: Home Depot 5113 Orig ID: 1953261426 Desc Date: Nov 03 CO Entry Descr:EDI Paymntsec:CCD Trace#: 031100206114955 Eed:251103 Ind ID:200191426310035 Ind Name: P2 Trading Inc. Ref*TN*2001914263 Trn: 3076114955Tc",
+              "amount": 846.44,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/05/2025",
+              "type": "Credit",
+              "description": "Orig CO Name: Home Depot 5113 Orig ID: 1953261426 Desc Date: Nov 05 CO Entry Descr:EDI Paymntsec:CCD Trace#: 031100202317401 Eed:251105 Ind ID:200193264310035 Ind Name: P2 Trading Inc. Ref*TN*2001932643\\ Trn: 3092317401Tc",
+              "amount": 177.83,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/05/2025",
+              "type": "Credit",
+              "description": "Orig CO Name: Lowes Orig ID:9991000010 Desc Date: CO Entry Descr: Trade Pmt Sec: CTX Trace#: 091000013054890 Eed:251105 Ind ID: 600157269 Ind Name: 0014P2 Trading Inc 1 Trn: 3093054890Tc",
+              "amount": 51.89,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/06/2025",
+              "type": "Credit",
+              "description": "Orig CO Name: Home Depot 5113 Orig ID: 1953261426 Desc Date: Nov 06 CO Entry Descr:EDI Paymntsec:CCD Trace#: 031100205237806 Eed:251106 Ind ID:200194088610035 Ind Name: P2 Trading Inc. Ref*TN*2001940886\\ Trn: 3105237806Tc",
+              "amount": 118.51,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/07/2025",
+              "type": "Credit",
+              "description": "Orig CO Name: Lowes Orig ID:9991000010 Desc Date: CO Entry Descr: Trade Pmt Sec: CTX Trace#: 091000010317050 Eed:251107 Ind ID:600160621 Ind Name: 0024P2 Trading Inc 1 Trn: 3110317050Tc",
+              "amount": 180.83,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/07/2025",
+              "type": "Credit",
+              "description": "Orig CO Name: Home Depot 5113 Orig ID: 1953261426 Desc Date: Nov 07 CO Entry Descr:EDI Paymntsec:CCD Trace#: 031100207937709 Eed:251107 Ind ID:200195389310035 Ind Name: P2 Trading Inc. Ref*TN*2001953893\\ Trn: 3117937709Tc",
+              "amount": 159.27,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/10/2025",
+              "type": "Credit",
+              "description": "Orig CO Name: Home Depot 5113 Orig ID: 1953261426 Desc Date: Nov 10 CO Entry Descr:EDI Paymntsec:CCD Trace#: 031100204918790 Eed:251110 Ind ID:200196415310035 Ind Name: P2 Trading Inc. Ref*TN*2001964153 Trn: 3144918790Tc",
+              "amount": 712.75,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/12/2025",
+              "type": "Credit",
+              "description": "Orig CO Name: Lowes Orig ID:9991000010 Desc Date: CO Entry Descr: Trade Pmt Sec: CTX Trace#: 091000016652544 Eed:251112 Ind ID: 600162832 Ind Name: 0017P2 Trading Inc 1 Trn: 3166652544Tc",
+              "amount": 132.31,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/12/2025",
+              "type": "Credit",
+              "description": "Orig CO Name: Home Depot 5113 Orig ID: 1953261426 Desc Date: Nov 12 CO Entry Descr:EDI Paymntsec:CCD Trace#: 031100206767086 Eed:251112 Ind ID:200198309810035 Ind Name: P2 Trading Inc. Ref*TN*2001983098\\ Trn: 3166767086Tc",
+              "amount": 114.18,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/13/2025",
+              "type": "Credit",
+              "description": "Orig CO Name: Home Depot 5113 Orig ID: 1953261426 Desc Date: Nov 13 CO Entry Descr:EDI Paymntsec:CCD Trace#: 031100203208692 Eed:251113 Ind ID:200198947310035 Ind Name: P2 Trading Inc. Ref* TN*2001989473\\ Trn: 3173208692Tc",
+              "amount": 154.43,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/14/2025",
+              "type": "Credit",
+              "description": "Orig CO Name: Lowes Orig ID:9991000010 Desc Date: CO Entry Descr: Trade Pmt Sec: CTX Trace#: 091000016335911 Eed:251114 Ind ID:600166523 Ind Name: 0033P2 Trading Inc 1 Trn: 3186335911Tc",
+              "amount": 427.19,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/14/2025",
+              "type": "Credit",
+              "description": "Orig CO Name: Home Depot 5113 Orig ID: 1953261426 Desc Date: Nov 14 CO Entry Descr:EDI Paymntsec:CCD Trace#: 031100201904644 Eed:251114 Ind ID:200199963010035 Ind Name: P2 Trading Inc. Ref* TN*2001999630\\ Trn: 3181904644Tc",
+              "amount": 227.61,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/17/2025",
+              "type": "Credit",
+              "description": "Orig CO Name: Home Depot 5113 Orig ID: 1953261426 Desc Date: Nov 17 CO Entry Descr:EDI Paymntsec:CCD Trace#: 031100204497216 Eed:251117 Ind ID:200201298210035 Ind Name: P2 Trading Inc. Ref* TN*2002012982\\ Trn: 3214497216Tc",
+              "amount": 301.14,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/19/2025",
+              "type": "Credit",
+              "description": "Orig CO Name: Home Depot 5113 Orig ID: 1953261426 Desc Date: Nov 19 CO Entry Descr:EDI Paymntsec:CCD Trace#: 031100201037802 Eed:251119 Ind ID:200203067210035 Ind Name: P2 Trading Inc. Ref* TN*2002030672\\ Trn: 3231037802Tc",
+              "amount": 415.03,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/19/2025",
+              "type": "Credit",
+              "description": "Orig CO Name: Lowes Orig ID:9991000010 Desc Date: CO Entry Descr: Trade Pmt Sec: CTX Trace#: 091000018225810 Eed: 251119 Ind ID:600168735 Ind Name: 0022P2 Trading Inc 1 Trn: 3238225810Tc",
+              "amount": 264.17,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/20/2025",
+              "type": "Credit",
+              "description": "Orig CO Name: Home Depot 5113 Orig ID: 1953261426 Desc Date: Nov 20 CO Entry Descr:EDI Paymntsec:CCD Trace#: 031100207272235 Eed:251120 Ind ID:200204079310035 Ind Name: P2 Trading Inc. Ref* TN*2002040793\\ Trn: 3247272235Tc",
+              "amount": 79.58,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/21/2025",
+              "type": "Credit",
+              "description": "Orig CO Name: Lowes Orig ID:9991000010 Desc Date: CO Entry Descr: Trade Pmt Sec: CTX Trace#: 091000019918206 Eed: 251121 Ind ID:600171575 Ind Name: 0037P2 Trading Inc 1 Trn: 3259918206Tc",
+              "amount": 490.7,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/21/2025",
+              "type": "Credit",
+              "description": "Orig CO Name: Home Depot 5113 Orig ID: 1953261426 Desc Date: Nov 21 CO Entry Descr:EDI Paymntsec:CCD Trace#: 031100206582703 Eed:251121 Ind ID:200205151810035 Ind Name: P2 Trading Inc. Ref* TN*2002051518\\ Trn: 3256582703Tc",
+              "amount": 83.34,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/24/2025",
+              "type": "Credit",
+              "description": "Orig CO Name: Home Depot 5113 Orig ID: 1953261426 Desc Date: Nov 24 CO Entry Descr:EDI Paymntsec:CCD Trace#: 031100203694283 Eed:251124 Ind ID:200206149510035 Ind Name: P2 Trading Inc. Ref* TN*2002061495\\ Trn: 3283694283Tc",
+              "amount": 863.81,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/26/2025",
+              "type": "Credit",
+              "description": "Orig CO Name: Home Depot 5113 Orig ID: 1953261426 Desc Date: Nov 26 CO Entry Descr:EDI Paymntsec:CCD Trace#: 031100205452659 Eed:251126 Ind ID:200207954110035 Ind Name: P2 Trading Inc. Ref* TN*2002079541 Trn: 3305452659Tc",
+              "amount": 272.65,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/26/2025",
+              "type": "Credit",
+              "description": "Orig CO Name: Lowes Orig ID:9991000010 Desc Date: CO Entry Descr: Trade Pmt Sec: CTX Trace#: 091000018760297 Eed:251126 Ind ID: 600176188 Ind Name: 0014P2 Trading Inc 1 Trn: 3308760297Tc",
+              "amount": 78.02,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/28/2025",
+              "type": "Credit",
+              "description": "Orig CO Name: Lowes Orig ID:9991000010 Desc Date: CO Entry Descr: Trade Pmt Sec: CTX Trace#: 091000012999387 Eed:251128 Ind ID:600179573 Ind Name:0040P2 Trading Inc 1 Trn: 3322999387Tc",
+              "amount": 533.04,
+              "non_true_revenue": 0
+            }
+          ],
+          "standard_withdrawal": [
+            {
+              "date": "11/03/2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Godaddyps Orig ID:9941752619 Desc Date:251102 CO Entry Descr: Deposit Sec:CCD Trace#: 091000010946977 Eed:251103 Ind ID:993211347881 Ind Name: P2 Auto Parts Merchant Svcs Trn: 3070946977Tc",
+              "amount": 35.0
+            },
+            {
+              "date": "11/03/2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Merchant Bankcd Orig ID:G592126793 Desc Date:251102 CO Entry Descr: Deposit Sec:CCD Trace#: 091000018076157 Eed:251103 Ind ID: 496499386886 Ind Name: P2 Trading Inc Bankcard Dep Trn: 3078076157Tc Ppi",
+              "amount": 79.99
+            },
+            {
+              "date": "11/10/2025",
+              "type": "Debit",
+              "description": "Recurring Card Purchase 11/09 Vzwrlss* Apocc Visw 800-922-0204 FL Card 2372",
+              "amount": 128.74
+            },
+            {
+              "date": "11/10/2025",
+              "type": "Debit",
+              "description": "11/08 Payment To Chase Card Ending IN 6497",
+              "amount": 150.0
+            },
+            {
+              "date": "11/12/2025",
+              "type": "Debit",
+              "description": "Orig CO Name: ADT Security Ser Orig ID:8881323080 Desc Date: CO Entry Descr: Adtpapach Sec: PPD Trace#:043301607340542 Eed:251112 Ind ID: Ind Name: Apollo Trn: 3167340542Tc",
+              "amount": 82.85
+            },
+            {
+              "date": "11/13/2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Farmers Ins Exch Orig ID:9496351303 Desc Date: 251113 CO Entry Descr:EFT Pymt Sec:PPD Trace#:021000020983988 Eed:251113 Ind ID: Ind Name:. P2 Auto Parts, Inc. Trn: 3170983988 Tc",
+              "amount": 376.74
+            }
+          ]
+        }
+      ]
+    },
+    "raw_output": "```json\n{\n  \"accounts\": [\n    {\n      \"account_number\": \"000000522903108\",\n      \"account_type\": \"Chase Platinum Business Checking\",\n      \"mca_deposit\": [],\n      \"mca_withdrawal\": [\n        {\n          \"mca_name\": \"Brite cap Financi\",\n          \"date\": \"11/05/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Britecap Financi Orig ID: 1043767703 Desc Date: CO Entry Descr: Preauthpmtsec:CCD Trace#: 091408591201167 Eed:251105 Ind ID:2236775 Ind Name: P2 Trading Inc 866-623-4900 Trn: 3091201167Tc 4 Info\",\n          \"amount\": 716.09\n        },\n        {\n          \"mca_name\": \"Brite cap Financi\",\n          \"date\": \"11/12/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Britecap Financi Orig ID: 1043767703 Desc Date: CO Entry Descr: Preauthpmtsec:CCD Trace#: 091408597916268 Eed:251112 Ind ID:2244149 Ind Name: P2 Trading Inc 866-623-4900 Trn: 3167916268Tc 4 Info\",\n          \"amount\": 716.09\n        },\n        {\n          \"mca_name\": \"Brite cap Financi\",\n          \"date\": \"11/19/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Britecap Financi Orig ID: 1043767703 Desc Date: CO Entry Descr: Preauthpmtsec:CCD Trace#: 091408597662572 Eed:251119 Ind ID:2254971 Ind Name:P2 Trading Inc 866-623-4900 Trn: 3237662572Tc 4 Info\",\n          \"amount\": 715.97\n        }\n      ],\n      \"returned_items\": [],\n      \"overdrafts\": [],\n      \"service_charges\": [\n        {\n          \"date\": \"11/05/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Service Charges For The Month of October\",\n          \"amount\": 299.0\n        }\n      ],\n      \"atm_cash_withdrawal\": [],\n      \"internal_transfer_deposit\": [],\n      \"other_transfer_deposit\": [],\n      \"internal_transfer_withdrawal\": [\n        {\n          \"date\": \"11/03/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"11/02 Online Transfer To Chk... 0017 Transaction#: 26819911159\",\n          \"amount\": 800.0\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"11/16 Online Transfer To Chk... 0017 Transaction#: 26986830187\",\n          \"amount\": 200.0\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"11/21 Online Transfer To Chk...0017 Transaction#: 27044299626\",\n          \"amount\": 600.0\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"11/23 Online Transfer To Chk... 0017 Transaction#: 27063813219\",\n          \"amount\": 900.0\n        },\n        {\n          \"date\": \"11/26/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"11/26 Online Transfer To Chk ... 0017 Transaction#: 27100567859\",\n          \"amount\": 300.0\n        },\n        {\n          \"date\": \"11/28/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"11/28 Online Transfer To Chk... 0017 Transaction#: 27122983835\",\n          \"amount\": 500.0\n        }\n      ],\n      \"other_transfer_withdrawal\": [],\n      \"standard_deposit\": [\n        {\n          \"date\": \"11/03/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Orig CO Name: Home Depot 5113 Orig ID: 1953261426 Desc Date: Nov 03 CO Entry Descr:EDI Paymntsec:CCD Trace#: 031100206114955 Eed:251103 Ind ID:200191426310035 Ind Name: P2 Trading Inc. Ref*TN*2001914263 Trn: 3076114955Tc\",\n          \"amount\": 846.44,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/05/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Orig CO Name: Home Depot 5113 Orig ID: 1953261426 Desc Date: Nov 05 CO Entry Descr:EDI Paymntsec:CCD Trace#: 031100202317401 Eed:251105 Ind ID:200193264310035 Ind Name: P2 Trading Inc. Ref*TN*2001932643\\\\ Trn: 3092317401Tc\",\n          \"amount\": 177.83,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/05/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Orig CO Name: Lowes Orig ID:9991000010 Desc Date: CO Entry Descr: Trade Pmt Sec: CTX Trace#: 091000013054890 Eed:251105 Ind ID: 600157269 Ind Name: 0014P2 Trading Inc 1 Trn: 3093054890Tc\",\n          \"amount\": 51.89,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/06/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Orig CO Name: Home Depot 5113 Orig ID: 1953261426 Desc Date: Nov 06 CO Entry Descr:EDI Paymntsec:CCD Trace#: 031100205237806 Eed:251106 Ind ID:200194088610035 Ind Name: P2 Trading Inc. Ref*TN*2001940886\\\\ Trn: 3105237806Tc\",\n          \"amount\": 118.51,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Orig CO Name: Lowes Orig ID:9991000010 Desc Date: CO Entry Descr: Trade Pmt Sec: CTX Trace#: 091000010317050 Eed:251107 Ind ID:600160621 Ind Name: 0024P2 Trading Inc 1 Trn: 3110317050Tc\",\n          \"amount\": 180.83,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Orig CO Name: Home Depot 5113 Orig ID: 1953261426 Desc Date: Nov 07 CO Entry Descr:EDI Paymntsec:CCD Trace#: 031100207937709 Eed:251107 Ind ID:200195389310035 Ind Name: P2 Trading Inc. Ref*TN*2001953893\\\\ Trn: 3117937709Tc\",\n          \"amount\": 159.27,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Orig CO Name: Home Depot 5113 Orig ID: 1953261426 Desc Date: Nov 10 CO Entry Descr:EDI Paymntsec:CCD Trace#: 031100204918790 Eed:251110 Ind ID:200196415310035 Ind Name: P2 Trading Inc. Ref*TN*2001964153 Trn: 3144918790Tc\",\n          \"amount\": 712.75,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Orig CO Name: Lowes Orig ID:9991000010 Desc Date: CO Entry Descr: Trade Pmt Sec: CTX Trace#: 091000016652544 Eed:251112 Ind ID: 600162832 Ind Name: 0017P2 Trading Inc 1 Trn: 3166652544Tc\",\n          \"amount\": 132.31,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Orig CO Name: Home Depot 5113 Orig ID: 1953261426 Desc Date: Nov 12 CO Entry Descr:EDI Paymntsec:CCD Trace#: 031100206767086 Eed:251112 Ind ID:200198309810035 Ind Name: P2 Trading Inc. Ref*TN*2001983098\\\\ Trn: 3166767086Tc\",\n          \"amount\": 114.18,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/13/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Orig CO Name: Home Depot 5113 Orig ID: 1953261426 Desc Date: Nov 13 CO Entry Descr:EDI Paymntsec:CCD Trace#: 031100203208692 Eed:251113 Ind ID:200198947310035 Ind Name: P2 Trading Inc. Ref* TN*2001989473\\\\ Trn: 3173208692Tc\",\n          \"amount\": 154.43,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/14/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Orig CO Name: Lowes Orig ID:9991000010 Desc Date: CO Entry Descr: Trade Pmt Sec: CTX Trace#: 091000016335911 Eed:251114 Ind ID:600166523 Ind Name: 0033P2 Trading Inc 1 Trn: 3186335911Tc\",\n          \"amount\": 427.19,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/14/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Orig CO Name: Home Depot 5113 Orig ID: 1953261426 Desc Date: Nov 14 CO Entry Descr:EDI Paymntsec:CCD Trace#: 031100201904644 Eed:251114 Ind ID:200199963010035 Ind Name: P2 Trading Inc. Ref* TN*2001999630\\\\ Trn: 3181904644Tc\",\n          \"amount\": 227.61,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Orig CO Name: Home Depot 5113 Orig ID: 1953261426 Desc Date: Nov 17 CO Entry Descr:EDI Paymntsec:CCD Trace#: 031100204497216 Eed:251117 Ind ID:200201298210035 Ind Name: P2 Trading Inc. Ref* TN*2002012982\\\\ Trn: 3214497216Tc\",\n          \"amount\": 301.14,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/19/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Orig CO Name: Home Depot 5113 Orig ID: 1953261426 Desc Date: Nov 19 CO Entry Descr:EDI Paymntsec:CCD Trace#: 031100201037802 Eed:251119 Ind ID:200203067210035 Ind Name: P2 Trading Inc. Ref* TN*2002030672\\\\ Trn: 3231037802Tc\",\n          \"amount\": 415.03,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/19/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Orig CO Name: Lowes Orig ID:9991000010 Desc Date: CO Entry Descr: Trade Pmt Sec: CTX Trace#: 091000018225810 Eed: 251119 Ind ID:600168735 Ind Name: 0022P2 Trading Inc 1 Trn: 3238225810Tc\",\n          \"amount\": 264.17,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Orig CO Name: Home Depot 5113 Orig ID: 1953261426 Desc Date: Nov 20 CO Entry Descr:EDI Paymntsec:CCD Trace#: 031100207272235 Eed:251120 Ind ID:200204079310035 Ind Name: P2 Trading Inc. Ref* TN*2002040793\\\\ Trn: 3247272235Tc\",\n          \"amount\": 79.58,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Orig CO Name: Lowes Orig ID:9991000010 Desc Date: CO Entry Descr: Trade Pmt Sec: CTX Trace#: 091000019918206 Eed: 251121 Ind ID:600171575 Ind Name: 0037P2 Trading Inc 1 Trn: 3259918206Tc\",\n          \"amount\": 490.7,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Orig CO Name: Home Depot 5113 Orig ID: 1953261426 Desc Date: Nov 21 CO Entry Descr:EDI Paymntsec:CCD Trace#: 031100206582703 Eed:251121 Ind ID:200205151810035 Ind Name: P2 Trading Inc. Ref* TN*2002051518\\\\ Trn: 3256582703Tc\",\n          \"amount\": 83.34,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Orig CO Name: Home Depot 5113 Orig ID: 1953261426 Desc Date: Nov 24 CO Entry Descr:EDI Paymntsec:CCD Trace#: 031100203694283 Eed:251124 Ind ID:200206149510035 Ind Name: P2 Trading Inc. Ref* TN*2002061495\\\\ Trn: 3283694283Tc\",\n          \"amount\": 863.81,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/26/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Orig CO Name: Home Depot 5113 Orig ID: 1953261426 Desc Date: Nov 26 CO Entry Descr:EDI Paymntsec:CCD Trace#: 031100205452659 Eed:251126 Ind ID:200207954110035 Ind Name: P2 Trading Inc. Ref* TN*2002079541 Trn: 3305452659Tc\",\n          \"amount\": 272.65,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/26/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Orig CO Name: Lowes Orig ID:9991000010 Desc Date: CO Entry Descr: Trade Pmt Sec: CTX Trace#: 091000018760297 Eed:251126 Ind ID: 600176188 Ind Name: 0014P2 Trading Inc 1 Trn: 3308760297Tc\",\n          \"amount\": 78.02,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/28/2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Orig CO Name: Lowes Orig ID:9991000010 Desc Date: CO Entry Descr: Trade Pmt Sec: CTX Trace#: 091000012999387 Eed:251128 Ind ID:600179573 Ind Name:0040P2 Trading Inc 1 Trn: 3322999387Tc\",\n          \"amount\": 533.04,\n          \"non_true_revenue\": 0\n        }\n      ],\n      \"standard_withdrawal\": [\n        {\n          \"date\": \"11/03/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Godaddyps Orig ID:9941752619 Desc Date:251102 CO Entry Descr: Deposit Sec:CCD Trace#: 091000010946977 Eed:251103 Ind ID:993211347881 Ind Name: P2 Auto Parts Merchant Svcs Trn: 3070946977Tc\",\n          \"amount\": 35.0\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Merchant Bankcd Orig ID:G592126793 Desc Date:251102 CO Entry Descr: Deposit Sec:CCD Trace#: 091000018076157 Eed:251103 Ind ID: 496499386886 Ind Name: P2 Trading Inc Bankcard Dep Trn: 3078076157Tc Ppi\",\n          \"amount\": 79.99\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Recurring Card Purchase 11/09 Vzwrlss* Apocc Visw 800-922-0204 FL Card 2372\",\n          \"amount\": 128.74\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"11/08 Payment To Chase Card Ending IN 6497\",\n          \"amount\": 150.0\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: ADT Security Ser Orig ID:8881323080 Desc Date: CO Entry Descr: Adtpapach Sec: PPD Trace#:043301607340542 Eed:251112 Ind ID: Ind Name: Apollo Trn: 3167340542Tc\",\n          \"amount\": 82.85\n        },\n        {\n          \"date\": \"11/13/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Farmers Ins Exch Orig ID:9496351303 Desc Date: 251113 CO Entry Descr:EFT Pymt Sec:PPD Trace#:021000020983988 Eed:251113 Ind ID: Ind Name:. P2 Auto Parts, Inc. Trn: 3170983988 Tc\",\n          \"amount\": 376.74\n        }\n      ]\n    }\n  ]\n}\n```",
+    "token_count": {
+      "estimated_tokens": 1370
+    },
+    "failure_reason": null
+  }
+}

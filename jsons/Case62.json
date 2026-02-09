@@ -1,0 +1,1249 @@
+{
+  "document_name": "Case62.pdf",
+  "pipeline_status": "completed",
+  "processing_metadata": {
+    "start_time": "2026-02-04T15:07:09.795477",
+    "end_time": "2026-02-04T15:09:45.466451",
+    "parsing_time_seconds": 93.808771,
+    "bsi_time_seconds": 61.839442,
+    "total_time_seconds": 155.648213
+  },
+  "parsing_agent_result": {
+    "agent_name": "parsing_agent",
+    "processing_status": "success",
+    "start_time": "2026-02-04T15:07:09.798841",
+    "end_time": "2026-02-04T15:08:43.606924",
+    "parsed_json": {
+      "bank_statement_information": {
+        "bank_name": "BANK OF AMERICA",
+        "account_holder": "ACEVEDO BOSA CARGO & TRANSPORT LLC",
+        "statement_start_date": "10-01-2025",
+        "statement_end_date": "10-31-2025",
+        "n_days": 31,
+        "n_month": [
+          10
+        ],
+        "business_address": "4605 N LOIS AVE APT 5 TAMPA, FL 33614-7070"
+      },
+      "accounts": [
+        {
+          "account_number": "898161084973",
+          "account_type": "Business Advantage Fundamentals Banking",
+          "account_summary": {
+            "beginning_balance": 11.6,
+            "ending_balance": 345.16,
+            "total_deposits": 11840.0,
+            "total_withdrawals": 11506.44,
+            "total_deposits_count": 16,
+            "total_withdrawals_count": 72,
+            "avg_daily_balance": 221.94,
+            "overdraft_days": 0
+          },
+          "transactions": [
+            {
+              "date": "10/03/2025",
+              "description": "Online Banking transfer from CHK 7685 Confirmation# 8650576186",
+              "amount": 600.0,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "10/03/2025",
+              "description": "Online Banking transfer from CHK 7685 Confirmation# 7553817773",
+              "amount": 160.0,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "10/03/2025",
+              "description": "Zelle payment to Irma Carro Conf# zkph15lvh",
+              "amount": 335.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/03/2025",
+              "description": "Online Banking transfer to CHK 7685 Confirmation# 7352110953",
+              "amount": 140.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "10/03/2025",
+              "description": "Zelle payment to FRANK ROMERO Conf# tgt4ikc2y",
+              "amount": 30.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/03/2025",
+              "description": "Online Banking transfer to CHK 7685 Confirmation# 8654585939",
+              "amount": 10.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "BKOFAMERICA ATM 10/05 #000009098 DEPOSIT MARINER VILLAGE SPRING HILL FL",
+              "amount": 300.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "Online Banking transfer to CHK 7685 Confirmation# 7857939735",
+              "amount": 140.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "Zelle payment to yarisel viera Conf# ytvwgdxrq",
+              "amount": 30.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "CHECKCARD 1003 AV DESTINATIONS 4075692208 FL 82701595276900013436750 CKCD 4722 XXXXXXXXXXXX6053 XXXX XXXX XXXX 6053",
+              "amount": 99.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "DD'S DISCOUNT 10/05 #000050738 PURCHASE DD'S DISCOUNT #53 TAMPA FL",
+              "amount": 124.51,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/07/2025",
+              "description": "BKOFAMERICA ATM 10/07 #000008079 DEPOSIT MARINER VILLAGE SPRING HILL FL",
+              "amount": 240.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "10/07/2025",
+              "description": "Online Banking transfer to CHK 7685 Confirmation# 8384150219",
+              "amount": 30.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "10/07/2025",
+              "description": "CHECKCARD 1005 OLIVE GARDEN ZK O TAMPA FL 55310205279302050975588 CKCD 5812 XXXXXXXXXXXX6053 XXXX XXXX XXXX 6053",
+              "amount": 99.75,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/07/2025",
+              "description": "CHECKCARD 1005 STARBUCKS STORE 1 TAMPA FL 55432865279200900314681 CKCD 5814 XXXXXXXXXXXX6053 XXXX XXXX XXXX 6053",
+              "amount": 23.54,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/07/2025",
+              "description": "CHECKCARD 1007 CIRCLE K # 075 LAND O LAKES FL CKCD 5542 XXXXXXXXXXXX6053 XXXX XXXX XXXX 6053",
+              "amount": 26.97,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/08/2025",
+              "description": "Zelle payment to Chavary Conf# svmen8tb1",
+              "amount": 25.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/08/2025",
+              "description": "CHECKCARD 1007 SQ *LA CAMAGUEYAN Tampa FL 55432865280201403329603 CKCD 5814 XXXXXXXXXXXX6053 XXXX XXXX XXXX 6053",
+              "amount": 49.3,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/08/2025",
+              "description": "ROSS STORES #6 10/07 #000021205 PURCHASE ROSS STORES #659 BROOKSVILLE FL",
+              "amount": 82.33,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/09/2025",
+              "description": "PURCHASE 1009 TIKTOK SHOP 6505840896 CA",
+              "amount": 6.24,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/10/2025",
+              "description": "Zelle payment to Silaidy Conf# u6hulwt9u",
+              "amount": 30.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/14/2025",
+              "description": "Online Banking transfer to CHK 7685 Confirmation# 7528661670",
+              "amount": 10.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "10/14/2025",
+              "description": "PURCHASE 1011 TIKTOK SHOP 6505840896 CA",
+              "amount": 17.01,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/16/2025",
+              "description": "Online Banking transfer from CHK 7685 Confirmation# 8364130504",
+              "amount": 440.0,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "10/17/2025",
+              "description": "Zelle payment to Irma Carro Conf# z2gk750d4",
+              "amount": 200.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/17/2025",
+              "description": "Zelle payment to DIEGO QUINTANA Conf# tkjaznu49",
+              "amount": 30.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/17/2025",
+              "description": "PLANET FITNESS B DES:IClub Fees ID:PR2528904887944 INDN:Maria Acevedo CO ID:GXXXXXXXXX PPD PMT INFO:3526007701",
+              "amount": 26.68,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/17/2025",
+              "description": "CHECKCARD 1016 SQ *LA CAMAGUEYAN Tampa FL 55432865290204626287317 CKCD 5814 XXXXXXXXXXXX6053 XXXX XXXX XXXX 6053",
+              "amount": 56.06,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/20/2025",
+              "description": "BKOFAMERICA ATM 10/20 #000005615 DEPOSIT MARINER VILLAGE SPRING HILL FL",
+              "amount": 300.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "10/20/2025",
+              "description": "Zelle payment to FRANK ROMERO Conf# sfpurOidn",
+              "amount": 30.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/20/2025",
+              "description": "Zelle payment to Angel Conf# s1xn7kldu",
+              "amount": 15.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/20/2025",
+              "description": "WAWA 5251 10/18 #000152487 PURCHASE WAWA 5251 TAMPA FL",
+              "amount": 15.44,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/20/2025",
+              "description": "AUTOZONE 2477 10/19 #000200742 PURCHASE 12445 CORTEZ BLVD BROOKSVILLE FL",
+              "amount": 31.94,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/20/2025",
+              "description": "ROSS STORES #6 10/20 #000018507 PURCHASE ROSS STORES #659 BROOKSVILLE FL",
+              "amount": 123.93,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/20/2025",
+              "description": "WAL-MART #1213 10/20 #000307000 PURCHASE 13300 CORTEZ BLVD BROOKSVILLE FL",
+              "amount": 43.16,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/21/2025",
+              "description": "Online Banking transfer to CHK 7685 Confirmation# 8606869647",
+              "amount": 50.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "10/21/2025",
+              "description": "PURCHASE 1020 TIKTOK SHOP 6505840896 CA",
+              "amount": 9.04,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/21/2025",
+              "description": "SAMS CLUB #481 10/21 #000527964 PURCHASE 13360 CORTEZ BLVD BROOKSVILLE FL",
+              "amount": 33.63,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/22/2025",
+              "description": "Online Banking transfer from SAV 3262 Confirmation# 7513998984",
+              "amount": 3000.0,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "10/22/2025",
+              "description": "Online Banking transfer from CHK 7685 Confirmation# 7614307537",
+              "amount": 900.0,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "10/22/2025",
+              "description": "Zelle payment to Suleidy Acevedo Conf# v1kfbw8wf",
+              "amount": 1400.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/22/2025",
+              "description": "Zelle payment to Silaidy Conf# zyhp2vj52",
+              "amount": 1500.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/22/2025",
+              "description": "Online Banking transfer to CHK 7685 Confirmation# 7814610940",
+              "amount": 150.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "10/22/2025",
+              "description": "Online Banking transfer to CHK 7685 Confirmation# 7115207051",
+              "amount": 200.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "10/22/2025",
+              "description": "Online Banking transfer to CHK 7685 Confirmation# 7516900981",
+              "amount": 400.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "10/22/2025",
+              "description": "PURCHASE 1021 TIKTOK SHOP 6505840896 CA",
+              "amount": 21.99,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/22/2025",
+              "description": "PURCHASE 1021 TIKTOK SHOP 6505840896 CA",
+              "amount": 46.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/22/2025",
+              "description": "WAL-MART #3526 10/22 #000469300 PURCHASE 7305 BROAD ST BROOKSVILLE FL",
+              "amount": 193.11,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/23/2025",
+              "description": "Online Banking transfer from CHK 7685 Confirmation# 8321353465",
+              "amount": 1000.0,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "10/23/2025",
+              "description": "Zelle payment to Suleidy Acevedo Conf# tyaq6iphg",
+              "amount": 100.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/24/2025",
+              "description": "Online Banking transfer from SAV 3262 Confirmation# 7632281751",
+              "amount": 1000.0,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "10/24/2025",
+              "description": "Zelle payment to YLY GLOBAL Conf# vqkt1o4ws",
+              "amount": 25.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/24/2025",
+              "description": "Zelle payment to Irma Carro Conf# xg8fgwpz8",
+              "amount": 525.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/24/2025",
+              "description": "Online Banking transfer to CHK 7685 Confirmation# 7230713274",
+              "amount": 250.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "10/24/2025",
+              "description": "Zelle payment to FRANK ROMERO Conf# upnygu53c",
+              "amount": 25.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/24/2025",
+              "description": "Zelle payment to Suleidy Acevedo Conf# y79k7vs20",
+              "amount": 400.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/24/2025",
+              "description": "Zelle payment to Silaidy Conf# yx7uref9y",
+              "amount": 10.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/24/2025",
+              "description": "Zelle payment to Amor Animal Conf# ytfxqinix",
+              "amount": 400.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/24/2025",
+              "description": "PURCHASE 1023 TIKTOK SHOP CULVER CITY CA",
+              "amount": 40.17,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/27/2025",
+              "description": "Online Banking transfer from SAV 3262 Confirmation# 7357959202",
+              "amount": 1000.0,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "10/27/2025",
+              "description": "Online Banking transfer from SAV 3262 Confirmation# 8240302053",
+              "amount": 500.0,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "10/27/2025",
+              "description": "Zelle payment to Amor Animal Conf# vtl8ob8u0",
+              "amount": 400.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/27/2025",
+              "description": "Online Banking transfer to CHK 7685 Confirmation# 8360144618",
+              "amount": 200.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "10/27/2025",
+              "description": "Online Banking transfer to CHK 7685 Confirmation# 7460863626",
+              "amount": 500.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "10/27/2025",
+              "description": "PURCHASE 1025 TIKTOK SHOP 6505840896 CA",
+              "amount": 35.99,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/27/2025",
+              "description": "PURCHASE 1027 TIKTOK SHOP 6505840896 CA",
+              "amount": 148.04,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/27/2025",
+              "description": "PURCHASE 1026 TikTok Shop TikTo 6505840896 CA",
+              "amount": 36.08,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/28/2025",
+              "description": "Online Banking transfer from SAV 3262 Confirmation# 7267958551",
+              "amount": 1000.0,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "10/28/2025",
+              "description": "Online Banking transfer from CHK 7685 Confirmation# 7565402844",
+              "amount": 600.0,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "10/28/2025",
+              "description": "Zelle payment to Silaidy Conf# yjnlkknzn",
+              "amount": 100.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/28/2025",
+              "description": "Zelle payment to Yuslady Escobar Conf# z8wm3pvf0",
+              "amount": 250.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/28/2025",
+              "description": "Zelle payment to Alejandro Esposo Conf# srs53muub",
+              "amount": 500.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/28/2025",
+              "description": "PURCHASE 1028 TIKTOK SHOP 6505840896 CA",
+              "amount": 34.49,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/28/2025",
+              "description": "PURCHASE 1027 TIKTOK SHOP 6505840896 CA",
+              "amount": 57.78,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/28/2025",
+              "description": "PURCHASE 1028 TIKTOK SHOP 6505840896 CA",
+              "amount": 38.32,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/28/2025",
+              "description": "BURLINGTON STO 10/28 #000357472 PURCHASE BURLINGTON STORES HIALEAH FL",
+              "amount": 129.37,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/29/2025",
+              "description": "Online Banking transfer from CHK 7685 Confirmation# 8077537398",
+              "amount": 300.0,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "10/29/2025",
+              "description": "Zelle payment to YORDAN FRIAS Conf# sdy7rrso3",
+              "amount": 50.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/29/2025",
+              "description": "Zelle payment to JOSE MARIA GUTIERREZ Conf# s1cbwvujh",
+              "amount": 250.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/29/2025",
+              "description": "Zelle payment to Silaidy Conf# m64mu56y8",
+              "amount": 10.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/29/2025",
+              "description": "CHECKCARD 1028 STANTON OPTICAL 4 HIALEAH FL 85409245301980001940301 CKCD 8043 XXXXXXXXXXXX6053 XXXX XXXX XXXX 6053",
+              "amount": 537.99,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/30/2025",
+              "description": "Zelle payment to JOSE MARIA GUTIERREZ Conf# thwg035t5",
+              "amount": 80.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/30/2025",
+              "description": "PURCHASE 1030 TikTok Shop TikTo 6505840896 CA",
+              "amount": 41.39,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/30/2025",
+              "description": "PURCHASE 1029 TIKTOK SHOP 6505840896 CA",
+              "amount": 26.95,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/31/2025",
+              "description": "Online Banking transfer from CHK 7685 Confirmation# 7990865553",
+              "amount": 500.0,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "10/31/2025",
+              "description": "Online Banking transfer to CHK 7685 Confirmation# 8591910174",
+              "amount": 200.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "10/31/2025",
+              "description": "Online Banking transfer to CHK 7685 Confirmation# 7491992154",
+              "amount": 200.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "10/31/2025",
+              "description": "PURCHASE 1030 TIKTOK SHOP 6505840896 CA",
+              "amount": 20.24,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            }
+          ]
+        }
+      ]
+    },
+    "raw_output": "```json\n{\n  \"bank_statement_information\": {\n    \"bank_name\": \"BANK OF AMERICA\",\n    \"account_holder\": \"ACEVEDO BOSA CARGO & TRANSPORT LLC\",\n    \"statement_start_date\": \"10-01-2025\",\n    \"statement_end_date\": \"10-31-2025\",\n    \"n_days\": 31,\n    \"n_month\": [\n      10\n    ],\n    \"business_address\": \"4605 N LOIS AVE APT 5 TAMPA, FL 33614-7070\"\n  },\n  \"accounts\": [\n    {\n      \"account_number\": \"898161084973\",\n      \"account_type\": \"Business Advantage Fundamentals Banking\",\n      \"account_summary\": {\n        \"beginning_balance\": 11.6,\n        \"ending_balance\": 345.16,\n        \"total_deposits\": 11840.0,\n        \"total_withdrawals\": 11506.44,\n        \"total_deposits_count\": 16,\n        \"total_withdrawals_count\": 72,\n        \"avg_daily_balance\": 221.94,\n        \"overdraft_days\": 0\n      },\n      \"transactions\": [\n        {\n          \"date\": \"10/03/2025\",\n          \"description\": \"Online Banking transfer from CHK 7685 Confirmation# 8650576186\",\n          \"amount\": 600.0,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"10/03/2025\",\n          \"description\": \"Online Banking transfer from CHK 7685 Confirmation# 7553817773\",\n          \"amount\": 160.0,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"10/03/2025\",\n          \"description\": \"Zelle payment to Irma Carro Conf# zkph15lvh\",\n          \"amount\": 335.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/03/2025\",\n          \"description\": \"Online Banking transfer to CHK 7685 Confirmation# 7352110953\",\n          \"amount\": 140.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/03/2025\",\n          \"description\": \"Zelle payment to FRANK ROMERO Conf# tgt4ikc2y\",\n          \"amount\": 30.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/03/2025\",\n          \"description\": \"Online Banking transfer to CHK 7685 Confirmation# 8654585939\",\n          \"amount\": 10.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"BKOFAMERICA ATM 10/05 #000009098 DEPOSIT MARINER VILLAGE SPRING HILL FL\",\n          \"amount\": 300.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"Online Banking transfer to CHK 7685 Confirmation# 7857939735\",\n          \"amount\": 140.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"Zelle payment to yarisel viera Conf# ytvwgdxrq\",\n          \"amount\": 30.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"CHECKCARD 1003 AV DESTINATIONS 4075692208 FL 82701595276900013436750 CKCD 4722 XXXXXXXXXXXX6053 XXXX XXXX XXXX 6053\",\n          \"amount\": 99.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"DD'S DISCOUNT 10/05 #000050738 PURCHASE DD'S DISCOUNT #53 TAMPA FL\",\n          \"amount\": 124.51,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/07/2025\",\n          \"description\": \"BKOFAMERICA ATM 10/07 #000008079 DEPOSIT MARINER VILLAGE SPRING HILL FL\",\n          \"amount\": 240.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"10/07/2025\",\n          \"description\": \"Online Banking transfer to CHK 7685 Confirmation# 8384150219\",\n          \"amount\": 30.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/07/2025\",\n          \"description\": \"CHECKCARD 1005 OLIVE GARDEN ZK O TAMPA FL 55310205279302050975588 CKCD 5812 XXXXXXXXXXXX6053 XXXX XXXX XXXX 6053\",\n          \"amount\": 99.75,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/07/2025\",\n          \"description\": \"CHECKCARD 1005 STARBUCKS STORE 1 TAMPA FL 55432865279200900314681 CKCD 5814 XXXXXXXXXXXX6053 XXXX XXXX XXXX 6053\",\n          \"amount\": 23.54,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/07/2025\",\n          \"description\": \"CHECKCARD 1007 CIRCLE K # 075 LAND O LAKES FL CKCD 5542 XXXXXXXXXXXX6053 XXXX XXXX XXXX 6053\",\n          \"amount\": 26.97,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/08/2025\",\n          \"description\": \"Zelle payment to Chavary Conf# svmen8tb1\",\n          \"amount\": 25.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/08/2025\",\n          \"description\": \"CHECKCARD 1007 SQ *LA CAMAGUEYAN Tampa FL 55432865280201403329603 CKCD 5814 XXXXXXXXXXXX6053 XXXX XXXX XXXX 6053\",\n          \"amount\": 49.3,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/08/2025\",\n          \"description\": \"ROSS STORES #6 10/07 #000021205 PURCHASE ROSS STORES #659 BROOKSVILLE FL\",\n          \"amount\": 82.33,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/09/2025\",\n          \"description\": \"PURCHASE 1009 TIKTOK SHOP 6505840896 CA\",\n          \"amount\": 6.24,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/10/2025\",\n          \"description\": \"Zelle payment to Silaidy Conf# u6hulwt9u\",\n          \"amount\": 30.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"Online Banking transfer to CHK 7685 Confirmation# 7528661670\",\n          \"amount\": 10.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"PURCHASE 1011 TIKTOK SHOP 6505840896 CA\",\n          \"amount\": 17.01,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/16/2025\",\n          \"description\": \"Online Banking transfer from CHK 7685 Confirmation# 8364130504\",\n          \"amount\": 440.0,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"description\": \"Zelle payment to Irma Carro Conf# z2gk750d4\",\n          \"amount\": 200.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"description\": \"Zelle payment to DIEGO QUINTANA Conf# tkjaznu49\",\n          \"amount\": 30.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"description\": \"PLANET FITNESS B DES:IClub Fees ID:PR2528904887944 INDN:Maria Acevedo CO ID:GXXXXXXXXX PPD PMT INFO:3526007701\",\n          \"amount\": 26.68,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"description\": \"CHECKCARD 1016 SQ *LA CAMAGUEYAN Tampa FL 55432865290204626287317 CKCD 5814 XXXXXXXXXXXX6053 XXXX XXXX XXXX 6053\",\n          \"amount\": 56.06,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/20/2025\",\n          \"description\": \"BKOFAMERICA ATM 10/20 #000005615 DEPOSIT MARINER VILLAGE SPRING HILL FL\",\n          \"amount\": 300.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"10/20/2025\",\n          \"description\": \"Zelle payment to FRANK ROMERO Conf# sfpurOidn\",\n          \"amount\": 30.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/20/2025\",\n          \"description\": \"Zelle payment to Angel Conf# s1xn7kldu\",\n          \"amount\": 15.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/20/2025\",\n          \"description\": \"WAWA 5251 10/18 #000152487 PURCHASE WAWA 5251 TAMPA FL\",\n          \"amount\": 15.44,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/20/2025\",\n          \"description\": \"AUTOZONE 2477 10/19 #000200742 PURCHASE 12445 CORTEZ BLVD BROOKSVILLE FL\",\n          \"amount\": 31.94,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/20/2025\",\n          \"description\": \"ROSS STORES #6 10/20 #000018507 PURCHASE ROSS STORES #659 BROOKSVILLE FL\",\n          \"amount\": 123.93,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/20/2025\",\n          \"description\": \"WAL-MART #1213 10/20 #000307000 PURCHASE 13300 CORTEZ BLVD BROOKSVILLE FL\",\n          \"amount\": 43.16,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/21/2025\",\n          \"description\": \"Online Banking transfer to CHK 7685 Confirmation# 8606869647\",\n          \"amount\": 50.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/21/2025\",\n          \"description\": \"PURCHASE 1020 TIKTOK SHOP 6505840896 CA\",\n          \"amount\": 9.04,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/21/2025\",\n          \"description\": \"SAMS CLUB #481 10/21 #000527964 PURCHASE 13360 CORTEZ BLVD BROOKSVILLE FL\",\n          \"amount\": 33.63,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/22/2025\",\n          \"description\": \"Online Banking transfer from SAV 3262 Confirmation# 7513998984\",\n          \"amount\": 3000.0,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"10/22/2025\",\n          \"description\": \"Online Banking transfer from CHK 7685 Confirmation# 7614307537\",\n          \"amount\": 900.0,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"10/22/2025\",\n          \"description\": \"Zelle payment to Suleidy Acevedo Conf# v1kfbw8wf\",\n          \"amount\": 1400.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/22/2025\",\n          \"description\": \"Zelle payment to Silaidy Conf# zyhp2vj52\",\n          \"amount\": 1500.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/22/2025\",\n          \"description\": \"Online Banking transfer to CHK 7685 Confirmation# 7814610940\",\n          \"amount\": 150.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/22/2025\",\n          \"description\": \"Online Banking transfer to CHK 7685 Confirmation# 7115207051\",\n          \"amount\": 200.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/22/2025\",\n          \"description\": \"Online Banking transfer to CHK 7685 Confirmation# 7516900981\",\n          \"amount\": 400.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/22/2025\",\n          \"description\": \"PURCHASE 1021 TIKTOK SHOP 6505840896 CA\",\n          \"amount\": 21.99,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/22/2025\",\n          \"description\": \"PURCHASE 1021 TIKTOK SHOP 6505840896 CA\",\n          \"amount\": 46.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/22/2025\",\n          \"description\": \"WAL-MART #3526 10/22 #000469300 PURCHASE 7305 BROAD ST BROOKSVILLE FL\",\n          \"amount\": 193.11,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/23/2025\",\n          \"description\": \"Online Banking transfer from CHK 7685 Confirmation# 8321353465\",\n          \"amount\": 1000.0,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"10/23/2025\",\n          \"description\": \"Zelle payment to Suleidy Acevedo Conf# tyaq6iphg\",\n          \"amount\": 100.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/24/2025\",\n          \"description\": \"Online Banking transfer from SAV 3262 Confirmation# 7632281751\",\n          \"amount\": 1000.0,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"10/24/2025\",\n          \"description\": \"Zelle payment to YLY GLOBAL Conf# vqkt1o4ws\",\n          \"amount\": 25.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/24/2025\",\n          \"description\": \"Zelle payment to Irma Carro Conf# xg8fgwpz8\",\n          \"amount\": 525.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/24/2025\",\n          \"description\": \"Online Banking transfer to CHK 7685 Confirmation# 7230713274\",\n          \"amount\": 250.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/24/2025\",\n          \"description\": \"Zelle payment to FRANK ROMERO Conf# upnygu53c\",\n          \"amount\": 25.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/24/2025\",\n          \"description\": \"Zelle payment to Suleidy Acevedo Conf# y79k7vs20\",\n          \"amount\": 400.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/24/2025\",\n          \"description\": \"Zelle payment to Silaidy Conf# yx7uref9y\",\n          \"amount\": 10.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/24/2025\",\n          \"description\": \"Zelle payment to Amor Animal Conf# ytfxqinix\",\n          \"amount\": 400.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/24/2025\",\n          \"description\": \"PURCHASE 1023 TIKTOK SHOP CULVER CITY CA\",\n          \"amount\": 40.17,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"description\": \"Online Banking transfer from SAV 3262 Confirmation# 7357959202\",\n          \"amount\": 1000.0,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"description\": \"Online Banking transfer from SAV 3262 Confirmation# 8240302053\",\n          \"amount\": 500.0,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"description\": \"Zelle payment to Amor Animal Conf# vtl8ob8u0\",\n          \"amount\": 400.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"description\": \"Online Banking transfer to CHK 7685 Confirmation# 8360144618\",\n          \"amount\": 200.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"description\": \"Online Banking transfer to CHK 7685 Confirmation# 7460863626\",\n          \"amount\": 500.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"description\": \"PURCHASE 1025 TIKTOK SHOP 6505840896 CA\",\n          \"amount\": 35.99,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"description\": \"PURCHASE 1027 TIKTOK SHOP 6505840896 CA\",\n          \"amount\": 148.04,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"description\": \"PURCHASE 1026 TikTok Shop TikTo 6505840896 CA\",\n          \"amount\": 36.08,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/28/2025\",\n          \"description\": \"Online Banking transfer from SAV 3262 Confirmation# 7267958551\",\n          \"amount\": 1000.0,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"10/28/2025\",\n          \"description\": \"Online Banking transfer from CHK 7685 Confirmation# 7565402844\",\n          \"amount\": 600.0,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"10/28/2025\",\n          \"description\": \"Zelle payment to Silaidy Conf# yjnlkknzn\",\n          \"amount\": 100.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/28/2025\",\n          \"description\": \"Zelle payment to Yuslady Escobar Conf# z8wm3pvf0\",\n          \"amount\": 250.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/28/2025\",\n          \"description\": \"Zelle payment to Alejandro Esposo Conf# srs53muub\",\n          \"amount\": 500.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/28/2025\",\n          \"description\": \"PURCHASE 1028 TIKTOK SHOP 6505840896 CA\",\n          \"amount\": 34.49,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/28/2025\",\n          \"description\": \"PURCHASE 1027 TIKTOK SHOP 6505840896 CA\",\n          \"amount\": 57.78,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/28/2025\",\n          \"description\": \"PURCHASE 1028 TIKTOK SHOP 6505840896 CA\",\n          \"amount\": 38.32,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/28/2025\",\n          \"description\": \"BURLINGTON STO 10/28 #000357472 PURCHASE BURLINGTON STORES HIALEAH FL\",\n          \"amount\": 129.37,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/29/2025\",\n          \"description\": \"Online Banking transfer from CHK 7685 Confirmation# 8077537398\",\n          \"amount\": 300.0,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"10/29/2025\",\n          \"description\": \"Zelle payment to YORDAN FRIAS Conf# sdy7rrso3\",\n          \"amount\": 50.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/29/2025\",\n          \"description\": \"Zelle payment to JOSE MARIA GUTIERREZ Conf# s1cbwvujh\",\n          \"amount\": 250.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/29/2025\",\n          \"description\": \"Zelle payment to Silaidy Conf# m64mu56y8\",\n          \"amount\": 10.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/29/2025\",\n          \"description\": \"CHECKCARD 1028 STANTON OPTICAL 4 HIALEAH FL 85409245301980001940301 CKCD 8043 XXXXXXXXXXXX6053 XXXX XXXX XXXX 6053\",\n          \"amount\": 537.99,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/30/2025\",\n          \"description\": \"Zelle payment to JOSE MARIA GUTIERREZ Conf# thwg035t5\",\n          \"amount\": 80.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/30/2025\",\n          \"description\": \"PURCHASE 1030 TikTok Shop TikTo 6505840896 CA\",\n          \"amount\": 41.39,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/30/2025\",\n          \"description\": \"PURCHASE 1029 TIKTOK SHOP 6505840896 CA\",\n          \"amount\": 26.95,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/31/2025\",\n          \"description\": \"Online Banking transfer from CHK 7685 Confirmation# 7990865553\",\n          \"amount\": 500.0,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"10/31/2025\",\n          \"description\": \"Online Banking transfer to CHK 7685 Confirmation# 8591910174\",\n          \"amount\": 200.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/31/2025\",\n          \"description\": \"Online Banking transfer to CHK 7685 Confirmation# 7491992154\",\n          \"amount\": 200.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/31/2025\",\n          \"description\": \"PURCHASE 1030 TIKTOK SHOP 6505840896 CA\",\n          \"amount\": 20.24,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        }\n      ]\n    }\n  ]\n}\n```",
+    "token_count": {
+      "estimated_tokens": 1908
+    },
+    "failure_reason": null
+  },
+  "bsi_analyzer_result": {
+    "agent_name": "v1_bsi_analyzer_agent",
+    "processing_status": "success",
+    "start_time": "2026-02-04T15:08:43.626001",
+    "end_time": "2026-02-04T15:09:45.465006",
+    "parsed_json": {
+      "accounts": [
+        {
+          "account_number": "898161084973",
+          "account_type": "Business Advantage Fundamentals Banking",
+          "mca_deposit": [],
+          "mca_withdrawal": [],
+          "returned_items": [],
+          "overdrafts": [],
+          "service_charges": [],
+          "atm_cash_withdrawal": [],
+          "internal_transfer_deposit": [
+            {
+              "date": "10/03/2025",
+              "description": "Online Banking transfer from CHK 7685 Confirmation# 8650576186",
+              "amount": 600.0,
+              "type": "Credit",
+              "non_true_revenue": 1
+            },
+            {
+              "date": "10/03/2025",
+              "description": "Online Banking transfer from CHK 7685 Confirmation# 7553817773",
+              "amount": 160.0,
+              "type": "Credit",
+              "non_true_revenue": 1
+            },
+            {
+              "date": "10/16/2025",
+              "description": "Online Banking transfer from CHK 7685 Confirmation# 8364130504",
+              "amount": 440.0,
+              "type": "Credit",
+              "non_true_revenue": 1
+            },
+            {
+              "date": "10/22/2025",
+              "description": "Online Banking transfer from SAV 3262 Confirmation# 7513998984",
+              "amount": 3000.0,
+              "type": "Credit",
+              "non_true_revenue": 1
+            },
+            {
+              "date": "10/22/2025",
+              "description": "Online Banking transfer from CHK 7685 Confirmation# 7614307537",
+              "amount": 900.0,
+              "type": "Credit",
+              "non_true_revenue": 1
+            },
+            {
+              "date": "10/23/2025",
+              "description": "Online Banking transfer from CHK 7685 Confirmation# 8321353465",
+              "amount": 1000.0,
+              "type": "Credit",
+              "non_true_revenue": 1
+            },
+            {
+              "date": "10/24/2025",
+              "description": "Online Banking transfer from SAV 3262 Confirmation# 7632281751",
+              "amount": 1000.0,
+              "type": "Credit",
+              "non_true_revenue": 1
+            },
+            {
+              "date": "10/27/2025",
+              "description": "Online Banking transfer from SAV 3262 Confirmation# 7357959202",
+              "amount": 1000.0,
+              "type": "Credit",
+              "non_true_revenue": 1
+            },
+            {
+              "date": "10/27/2025",
+              "description": "Online Banking transfer from SAV 3262 Confirmation# 8240302053",
+              "amount": 500.0,
+              "type": "Credit",
+              "non_true_revenue": 1
+            },
+            {
+              "date": "10/28/2025",
+              "description": "Online Banking transfer from SAV 3262 Confirmation# 7267958551",
+              "amount": 1000.0,
+              "type": "Credit",
+              "non_true_revenue": 1
+            },
+            {
+              "date": "10/28/2025",
+              "description": "Online Banking transfer from CHK 7685 Confirmation# 7565402844",
+              "amount": 600.0,
+              "type": "Credit",
+              "non_true_revenue": 1
+            },
+            {
+              "date": "10/29/2025",
+              "description": "Online Banking transfer from CHK 7685 Confirmation# 8077537398",
+              "amount": 300.0,
+              "type": "Credit",
+              "non_true_revenue": 1
+            },
+            {
+              "date": "10/31/2025",
+              "description": "Online Banking transfer from CHK 7685 Confirmation# 7990865553",
+              "amount": 500.0,
+              "type": "Credit",
+              "non_true_revenue": 1
+            }
+          ],
+          "other_transfer_deposit": [],
+          "internal_transfer_withdrawal": [
+            {
+              "date": "10/03/2025",
+              "description": "Online Banking transfer to CHK 7685 Confirmation# 7352110953",
+              "amount": 140.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/03/2025",
+              "description": "Online Banking transfer to CHK 7685 Confirmation# 8654585939",
+              "amount": 10.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "Online Banking transfer to CHK 7685 Confirmation# 7857939735",
+              "amount": 140.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/07/2025",
+              "description": "Online Banking transfer to CHK 7685 Confirmation# 8384150219",
+              "amount": 30.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/14/2025",
+              "description": "Online Banking transfer to CHK 7685 Confirmation# 7528661670",
+              "amount": 10.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/21/2025",
+              "description": "Online Banking transfer to CHK 7685 Confirmation# 8606869647",
+              "amount": 50.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/22/2025",
+              "description": "Online Banking transfer to CHK 7685 Confirmation# 7814610940",
+              "amount": 150.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/22/2025",
+              "description": "Online Banking transfer to CHK 7685 Confirmation# 7115207051",
+              "amount": 200.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/22/2025",
+              "description": "Online Banking transfer to CHK 7685 Confirmation# 7516900981",
+              "amount": 400.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/24/2025",
+              "description": "Online Banking transfer to CHK 7685 Confirmation# 7230713274",
+              "amount": 250.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/27/2025",
+              "description": "Online Banking transfer to CHK 7685 Confirmation# 8360144618",
+              "amount": 200.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/27/2025",
+              "description": "Online Banking transfer to CHK 7685 Confirmation# 7460863626",
+              "amount": 500.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/31/2025",
+              "description": "Online Banking transfer to CHK 7685 Confirmation# 8591910174",
+              "amount": 200.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/31/2025",
+              "description": "Online Banking transfer to CHK 7685 Confirmation# 7491992154",
+              "amount": 200.0,
+              "type": "Debit"
+            }
+          ],
+          "other_transfer_withdrawal": [
+            {
+              "date": "10/03/2025",
+              "description": "Zelle payment to Irma Carro Conf# zkph15lvh",
+              "amount": 335.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/03/2025",
+              "description": "Zelle payment to FRANK ROMERO Conf# tgt4ikc2y",
+              "amount": 30.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "Zelle payment to yarisel viera Conf# ytvwgdxrq",
+              "amount": 30.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/08/2025",
+              "description": "Zelle payment to Chavary Conf# svmen8tb1",
+              "amount": 25.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/10/2025",
+              "description": "Zelle payment to Silaidy Conf# u6hulwt9u",
+              "amount": 30.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/17/2025",
+              "description": "Zelle payment to Irma Carro Conf# z2gk750d4",
+              "amount": 200.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/17/2025",
+              "description": "Zelle payment to DIEGO QUINTANA Conf# tkjaznu49",
+              "amount": 30.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/20/2025",
+              "description": "Zelle payment to FRANK ROMERO Conf# sfpurOidn",
+              "amount": 30.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/20/2025",
+              "description": "Zelle payment to Angel Conf# s1xn7kldu",
+              "amount": 15.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/22/2025",
+              "description": "Zelle payment to Suleidy Acevedo Conf# v1kfbw8wf",
+              "amount": 1400.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/22/2025",
+              "description": "Zelle payment to Silaidy Conf# zyhp2vj52",
+              "amount": 1500.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/23/2025",
+              "description": "Zelle payment to Suleidy Acevedo Conf# tyaq6iphg",
+              "amount": 100.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/24/2025",
+              "description": "Zelle payment to YLY GLOBAL Conf# vqkt1o4ws",
+              "amount": 25.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/24/2025",
+              "description": "Zelle payment to Irma Carro Conf# xg8fgwpz8",
+              "amount": 525.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/24/2025",
+              "description": "Zelle payment to FRANK ROMERO Conf# upnygu53c",
+              "amount": 25.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/24/2025",
+              "description": "Zelle payment to Suleidy Acevedo Conf# y79k7vs20",
+              "amount": 400.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/24/2025",
+              "description": "Zelle payment to Silaidy Conf# yx7uref9y",
+              "amount": 10.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/24/2025",
+              "description": "Zelle payment to Amor Animal Conf# ytfxqinix",
+              "amount": 400.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/27/2025",
+              "description": "Zelle payment to Amor Animal Conf# vtl8ob8u0",
+              "amount": 400.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/28/2025",
+              "description": "Zelle payment to Silaidy Conf# yjnlkknzn",
+              "amount": 100.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/28/2025",
+              "description": "Zelle payment to Yuslady Escobar Conf# z8wm3pvf0",
+              "amount": 250.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/28/2025",
+              "description": "Zelle payment to Alejandro Esposo Conf# srs53muub",
+              "amount": 500.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/29/2025",
+              "description": "Zelle payment to YORDAN FRIAS Conf# sdy7rrso3",
+              "amount": 50.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/29/2025",
+              "description": "Zelle payment to JOSE MARIA GUTIERREZ Conf# s1cbwvujh",
+              "amount": 250.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/29/2025",
+              "description": "Zelle payment to Silaidy Conf# m64mu56y8",
+              "amount": 10.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/30/2025",
+              "description": "Zelle payment to JOSE MARIA GUTIERREZ Conf# thwg035t5",
+              "amount": 80.0,
+              "type": "Debit"
+            }
+          ],
+          "standard_deposit": [
+            {
+              "date": "10/06/2025",
+              "description": "BKOFAMERICA ATM 10/05 #000009098 DEPOSIT MARINER VILLAGE SPRING HILL FL",
+              "amount": 300.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/07/2025",
+              "description": "BKOFAMERICA ATM 10/07 #000008079 DEPOSIT MARINER VILLAGE SPRING HILL FL",
+              "amount": 240.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/20/2025",
+              "description": "BKOFAMERICA ATM 10/20 #000005615 DEPOSIT MARINER VILLAGE SPRING HILL FL",
+              "amount": 300.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            }
+          ],
+          "standard_withdrawal": [
+            {
+              "date": "10/06/2025",
+              "description": "CHECKCARD 1003 AV DESTINATIONS 4075692208 FL 82701595276900013436750 CKCD 4722 XXXXXXXXXXXX6053 XXXX XXXX XXXX 6053",
+              "amount": 99.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "DD'S DISCOUNT 10/05 #000050738 PURCHASE DD'S DISCOUNT #53 TAMPA FL",
+              "amount": 124.51,
+              "type": "Debit"
+            },
+            {
+              "date": "10/07/2025",
+              "description": "CHECKCARD 1005 OLIVE GARDEN ZK O TAMPA FL 55310205279302050975588 CKCD 5812 XXXXXXXXXXXX6053 XXXX XXXX XXXX 6053",
+              "amount": 99.75,
+              "type": "Debit"
+            },
+            {
+              "date": "10/07/2025",
+              "description": "CHECKCARD 1005 STARBUCKS STORE 1 TAMPA FL 55432865279200900314681 CKCD 5814 XXXXXXXXXXXX6053 XXXX XXXX XXXX 6053",
+              "amount": 23.54,
+              "type": "Debit"
+            },
+            {
+              "date": "10/07/2025",
+              "description": "CHECKCARD 1007 CIRCLE K # 075 LAND O LAKES FL CKCD 5542 XXXXXXXXXXXX6053 XXXX XXXX XXXX 6053",
+              "amount": 26.97,
+              "type": "Debit"
+            },
+            {
+              "date": "10/08/2025",
+              "description": "CHECKCARD 1007 SQ *LA CAMAGUEYAN Tampa FL 55432865280201403329603 CKCD 5814 XXXXXXXXXXXX6053 XXXX XXXX XXXX 6053",
+              "amount": 49.3,
+              "type": "Debit"
+            },
+            {
+              "date": "10/08/2025",
+              "description": "ROSS STORES #6 10/07 #000021205 PURCHASE ROSS STORES #659 BROOKSVILLE FL",
+              "amount": 82.33,
+              "type": "Debit"
+            },
+            {
+              "date": "10/09/2025",
+              "description": "PURCHASE 1009 TIKTOK SHOP 6505840896 CA",
+              "amount": 6.24,
+              "type": "Debit"
+            },
+            {
+              "date": "10/14/2025",
+              "description": "PURCHASE 1011 TIKTOK SHOP 6505840896 CA",
+              "amount": 17.01,
+              "type": "Debit"
+            },
+            {
+              "date": "10/17/2025",
+              "description": "PLANET FITNESS B DES:IClub Fees ID:PR2528904887944 INDN:Maria Acevedo CO ID:GXXXXXXXXX PPD PMT INFO:3526007701",
+              "amount": 26.68,
+              "type": "Debit"
+            },
+            {
+              "date": "10/17/2025",
+              "description": "CHECKCARD 1016 SQ *LA CAMAGUEYAN Tampa FL 55432865290204626287317 CKCD 5814 XXXXXXXXXXXX6053 XXXX XXXX XXXX 6053",
+              "amount": 56.06,
+              "type": "Debit"
+            },
+            {
+              "date": "10/20/2025",
+              "description": "WAWA 5251 10/18 #000152487 PURCHASE WAWA 5251 TAMPA FL",
+              "amount": 15.44,
+              "type": "Debit"
+            },
+            {
+              "date": "10/20/2025",
+              "description": "AUTOZONE 2477 10/19 #000200742 PURCHASE 12445 CORTEZ BLVD BROOKSVILLE FL",
+              "amount": 31.94,
+              "type": "Debit"
+            },
+            {
+              "date": "10/20/2025",
+              "description": "ROSS STORES #6 10/20 #000018507 PURCHASE ROSS STORES #659 BROOKSVILLE FL",
+              "amount": 123.93,
+              "type": "Debit"
+            },
+            {
+              "date": "10/20/2025",
+              "description": "WAL-MART #1213 10/20 #000307000 PURCHASE 13300 CORTEZ BLVD BROOKSVILLE FL",
+              "amount": 43.16,
+              "type": "Debit"
+            },
+            {
+              "date": "10/21/2025",
+              "description": "PURCHASE 1020 TIKTOK SHOP 6505840896 CA",
+              "amount": 9.04,
+              "type": "Debit"
+            },
+            {
+              "date": "10/21/2025",
+              "description": "SAMS CLUB #481 10/21 #000527964 PURCHASE 13360 CORTEZ BLVD BROOKSVILLE FL",
+              "amount": 33.63,
+              "type": "Debit"
+            },
+            {
+              "date": "10/22/2025",
+              "description": "PURCHASE 1021 TIKTOK SHOP 6505840896 CA",
+              "amount": 21.99,
+              "type": "Debit"
+            },
+            {
+              "date": "10/22/2025",
+              "description": "PURCHASE 1021 TIKTOK SHOP 6505840896 CA",
+              "amount": 46.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/22/2025",
+              "description": "WAL-MART #3526 10/22 #000469300 PURCHASE 7305 BROAD ST BROOKSVILLE FL",
+              "amount": 193.11,
+              "type": "Debit"
+            },
+            {
+              "date": "10/24/2025",
+              "description": "PURCHASE 1023 TIKTOK SHOP CULVER CITY CA",
+              "amount": 40.17,
+              "type": "Debit"
+            },
+            {
+              "date": "10/27/2025",
+              "description": "PURCHASE 1025 TIKTOK SHOP 6505840896 CA",
+              "amount": 35.99,
+              "type": "Debit"
+            },
+            {
+              "date": "10/27/2025",
+              "description": "PURCHASE 1027 TIKTOK SHOP 6505840896 CA",
+              "amount": 148.04,
+              "type": "Debit"
+            },
+            {
+              "date": "10/27/2025",
+              "description": "PURCHASE 1026 TikTok Shop TikTo 6505840896 CA",
+              "amount": 36.08,
+              "type": "Debit"
+            },
+            {
+              "date": "10/28/2025",
+              "description": "PURCHASE 1028 TIKTOK SHOP 6505840896 CA",
+              "amount": 34.49,
+              "type": "Debit"
+            },
+            {
+              "date": "10/28/2025",
+              "description": "PURCHASE 1027 TIKTOK SHOP 6505840896 CA",
+              "amount": 57.78,
+              "type": "Debit"
+            },
+            {
+              "date": "10/28/2025",
+              "description": "PURCHASE 1028 TIKTOK SHOP 6505840896 CA",
+              "amount": 38.32,
+              "type": "Debit"
+            },
+            {
+              "date": "10/28/2025",
+              "description": "BURLINGTON STO 10/28 #000357472 PURCHASE BURLINGTON STORES HIALEAH FL",
+              "amount": 129.37,
+              "type": "Debit"
+            },
+            {
+              "date": "10/29/2025",
+              "description": "CHECKCARD 1028 STANTON OPTICAL 4 HIALEAH FL 85409245301980001940301 CKCD 8043 XXXXXXXXXXXX6053 XXXX XXXX XXXX 6053",
+              "amount": 537.99,
+              "type": "Debit"
+            },
+            {
+              "date": "10/30/2025",
+              "description": "PURCHASE 1030 TikTok Shop TikTo 6505840896 CA",
+              "amount": 41.39,
+              "type": "Debit"
+            },
+            {
+              "date": "10/30/2025",
+              "description": "PURCHASE 1029 TIKTOK SHOP 6505840896 CA",
+              "amount": 26.95,
+              "type": "Debit"
+            },
+            {
+              "date": "10/31/2025",
+              "description": "PURCHASE 1030 TIKTOK SHOP 6505840896 CA",
+              "amount": 20.24,
+              "type": "Debit"
+            }
+          ]
+        }
+      ]
+    },
+    "raw_output": "```json\n{\n  \"accounts\": [\n    {\n      \"account_number\": \"898161084973\",\n      \"account_type\": \"Business Advantage Fundamentals Banking\",\n      \"mca_deposit\": [],\n      \"mca_withdrawal\": [],\n      \"returned_items\": [],\n      \"overdrafts\": [],\n      \"service_charges\": [],\n      \"atm_cash_withdrawal\": [],\n      \"internal_transfer_deposit\": [\n        {\n          \"date\": \"10/03/2025\",\n          \"description\": \"Online Banking transfer from CHK 7685 Confirmation# 8650576186\",\n          \"amount\": 600.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"10/03/2025\",\n          \"description\": \"Online Banking transfer from CHK 7685 Confirmation# 7553817773\",\n          \"amount\": 160.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"10/16/2025\",\n          \"description\": \"Online Banking transfer from CHK 7685 Confirmation# 8364130504\",\n          \"amount\": 440.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"10/22/2025\",\n          \"description\": \"Online Banking transfer from SAV 3262 Confirmation# 7513998984\",\n          \"amount\": 3000.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"10/22/2025\",\n          \"description\": \"Online Banking transfer from CHK 7685 Confirmation# 7614307537\",\n          \"amount\": 900.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"10/23/2025\",\n          \"description\": \"Online Banking transfer from CHK 7685 Confirmation# 8321353465\",\n          \"amount\": 1000.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"10/24/2025\",\n          \"description\": \"Online Banking transfer from SAV 3262 Confirmation# 7632281751\",\n          \"amount\": 1000.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"description\": \"Online Banking transfer from SAV 3262 Confirmation# 7357959202\",\n          \"amount\": 1000.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"description\": \"Online Banking transfer from SAV 3262 Confirmation# 8240302053\",\n          \"amount\": 500.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"10/28/2025\",\n          \"description\": \"Online Banking transfer from SAV 3262 Confirmation# 7267958551\",\n          \"amount\": 1000.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"10/28/2025\",\n          \"description\": \"Online Banking transfer from CHK 7685 Confirmation# 7565402844\",\n          \"amount\": 600.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"10/29/2025\",\n          \"description\": \"Online Banking transfer from CHK 7685 Confirmation# 8077537398\",\n          \"amount\": 300.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"10/31/2025\",\n          \"description\": \"Online Banking transfer from CHK 7685 Confirmation# 7990865553\",\n          \"amount\": 500.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        }\n      ],\n      \"other_transfer_deposit\": [],\n      \"internal_transfer_withdrawal\": [\n        {\n          \"date\": \"10/03/2025\",\n          \"description\": \"Online Banking transfer to CHK 7685 Confirmation# 7352110953\",\n          \"amount\": 140.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/03/2025\",\n          \"description\": \"Online Banking transfer to CHK 7685 Confirmation# 8654585939\",\n          \"amount\": 10.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"Online Banking transfer to CHK 7685 Confirmation# 7857939735\",\n          \"amount\": 140.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/07/2025\",\n          \"description\": \"Online Banking transfer to CHK 7685 Confirmation# 8384150219\",\n          \"amount\": 30.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"Online Banking transfer to CHK 7685 Confirmation# 7528661670\",\n          \"amount\": 10.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/21/2025\",\n          \"description\": \"Online Banking transfer to CHK 7685 Confirmation# 8606869647\",\n          \"amount\": 50.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/22/2025\",\n          \"description\": \"Online Banking transfer to CHK 7685 Confirmation# 7814610940\",\n          \"amount\": 150.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/22/2025\",\n          \"description\": \"Online Banking transfer to CHK 7685 Confirmation# 7115207051\",\n          \"amount\": 200.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/22/2025\",\n          \"description\": \"Online Banking transfer to CHK 7685 Confirmation# 7516900981\",\n          \"amount\": 400.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/24/2025\",\n          \"description\": \"Online Banking transfer to CHK 7685 Confirmation# 7230713274\",\n          \"amount\": 250.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"description\": \"Online Banking transfer to CHK 7685 Confirmation# 8360144618\",\n          \"amount\": 200.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"description\": \"Online Banking transfer to CHK 7685 Confirmation# 7460863626\",\n          \"amount\": 500.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/31/2025\",\n          \"description\": \"Online Banking transfer to CHK 7685 Confirmation# 8591910174\",\n          \"amount\": 200.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/31/2025\",\n          \"description\": \"Online Banking transfer to CHK 7685 Confirmation# 7491992154\",\n          \"amount\": 200.0,\n          \"type\": \"Debit\"\n        }\n      ],\n      \"other_transfer_withdrawal\": [\n        {\n          \"date\": \"10/03/2025\",\n          \"description\": \"Zelle payment to Irma Carro Conf# zkph15lvh\",\n          \"amount\": 335.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/03/2025\",\n          \"description\": \"Zelle payment to FRANK ROMERO Conf# tgt4ikc2y\",\n          \"amount\": 30.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"Zelle payment to yarisel viera Conf# ytvwgdxrq\",\n          \"amount\": 30.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/08/2025\",\n          \"description\": \"Zelle payment to Chavary Conf# svmen8tb1\",\n          \"amount\": 25.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/10/2025\",\n          \"description\": \"Zelle payment to Silaidy Conf# u6hulwt9u\",\n          \"amount\": 30.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"description\": \"Zelle payment to Irma Carro Conf# z2gk750d4\",\n          \"amount\": 200.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"description\": \"Zelle payment to DIEGO QUINTANA Conf# tkjaznu49\",\n          \"amount\": 30.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/20/2025\",\n          \"description\": \"Zelle payment to FRANK ROMERO Conf# sfpurOidn\",\n          \"amount\": 30.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/20/2025\",\n          \"description\": \"Zelle payment to Angel Conf# s1xn7kldu\",\n          \"amount\": 15.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/22/2025\",\n          \"description\": \"Zelle payment to Suleidy Acevedo Conf# v1kfbw8wf\",\n          \"amount\": 1400.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/22/2025\",\n          \"description\": \"Zelle payment to Silaidy Conf# zyhp2vj52\",\n          \"amount\": 1500.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/23/2025\",\n          \"description\": \"Zelle payment to Suleidy Acevedo Conf# tyaq6iphg\",\n          \"amount\": 100.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/24/2025\",\n          \"description\": \"Zelle payment to YLY GLOBAL Conf# vqkt1o4ws\",\n          \"amount\": 25.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/24/2025\",\n          \"description\": \"Zelle payment to Irma Carro Conf# xg8fgwpz8\",\n          \"amount\": 525.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/24/2025\",\n          \"description\": \"Zelle payment to FRANK ROMERO Conf# upnygu53c\",\n          \"amount\": 25.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/24/2025\",\n          \"description\": \"Zelle payment to Suleidy Acevedo Conf# y79k7vs20\",\n          \"amount\": 400.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/24/2025\",\n          \"description\": \"Zelle payment to Silaidy Conf# yx7uref9y\",\n          \"amount\": 10.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/24/2025\",\n          \"description\": \"Zelle payment to Amor Animal Conf# ytfxqinix\",\n          \"amount\": 400.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"description\": \"Zelle payment to Amor Animal Conf# vtl8ob8u0\",\n          \"amount\": 400.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/28/2025\",\n          \"description\": \"Zelle payment to Silaidy Conf# yjnlkknzn\",\n          \"amount\": 100.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/28/2025\",\n          \"description\": \"Zelle payment to Yuslady Escobar Conf# z8wm3pvf0\",\n          \"amount\": 250.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/28/2025\",\n          \"description\": \"Zelle payment to Alejandro Esposo Conf# srs53muub\",\n          \"amount\": 500.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/29/2025\",\n          \"description\": \"Zelle payment to YORDAN FRIAS Conf# sdy7rrso3\",\n          \"amount\": 50.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/29/2025\",\n          \"description\": \"Zelle payment to JOSE MARIA GUTIERREZ Conf# s1cbwvujh\",\n          \"amount\": 250.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/29/2025\",\n          \"description\": \"Zelle payment to Silaidy Conf# m64mu56y8\",\n          \"amount\": 10.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/30/2025\",\n          \"description\": \"Zelle payment to JOSE MARIA GUTIERREZ Conf# thwg035t5\",\n          \"amount\": 80.0,\n          \"type\": \"Debit\"\n        }\n      ],\n      \"standard_deposit\": [\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"BKOFAMERICA ATM 10/05 #000009098 DEPOSIT MARINER VILLAGE SPRING HILL FL\",\n          \"amount\": 300.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/07/2025\",\n          \"description\": \"BKOFAMERICA ATM 10/07 #000008079 DEPOSIT MARINER VILLAGE SPRING HILL FL\",\n          \"amount\": 240.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/20/2025\",\n          \"description\": \"BKOFAMERICA ATM 10/20 #000005615 DEPOSIT MARINER VILLAGE SPRING HILL FL\",\n          \"amount\": 300.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        }\n      ],\n      \"standard_withdrawal\": [\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"CHECKCARD 1003 AV DESTINATIONS 4075692208 FL 82701595276900013436750 CKCD 4722 XXXXXXXXXXXX6053 XXXX XXXX XXXX 6053\",\n          \"amount\": 99.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"DD'S DISCOUNT 10/05 #000050738 PURCHASE DD'S DISCOUNT #53 TAMPA FL\",\n          \"amount\": 124.51,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/07/2025\",\n          \"description\": \"CHECKCARD 1005 OLIVE GARDEN ZK O TAMPA FL 55310205279302050975588 CKCD 5812 XXXXXXXXXXXX6053 XXXX XXXX XXXX 6053\",\n          \"amount\": 99.75,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/07/2025\",\n          \"description\": \"CHECKCARD 1005 STARBUCKS STORE 1 TAMPA FL 55432865279200900314681 CKCD 5814 XXXXXXXXXXXX6053 XXXX XXXX XXXX 6053\",\n          \"amount\": 23.54,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/07/2025\",\n          \"description\": \"CHECKCARD 1007 CIRCLE K # 075 LAND O LAKES FL CKCD 5542 XXXXXXXXXXXX6053 XXXX XXXX XXXX 6053\",\n          \"amount\": 26.97,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/08/2025\",\n          \"description\": \"CHECKCARD 1007 SQ *LA CAMAGUEYAN Tampa FL 55432865280201403329603 CKCD 5814 XXXXXXXXXXXX6053 XXXX XXXX XXXX 6053\",\n          \"amount\": 49.3,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/08/2025\",\n          \"description\": \"ROSS STORES #6 10/07 #000021205 PURCHASE ROSS STORES #659 BROOKSVILLE FL\",\n          \"amount\": 82.33,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/09/2025\",\n          \"description\": \"PURCHASE 1009 TIKTOK SHOP 6505840896 CA\",\n          \"amount\": 6.24,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"PURCHASE 1011 TIKTOK SHOP 6505840896 CA\",\n          \"amount\": 17.01,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"description\": \"PLANET FITNESS B DES:IClub Fees ID:PR2528904887944 INDN:Maria Acevedo CO ID:GXXXXXXXXX PPD PMT INFO:3526007701\",\n          \"amount\": 26.68,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"description\": \"CHECKCARD 1016 SQ *LA CAMAGUEYAN Tampa FL 55432865290204626287317 CKCD 5814 XXXXXXXXXXXX6053 XXXX XXXX XXXX 6053\",\n          \"amount\": 56.06,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/20/2025\",\n          \"description\": \"WAWA 5251 10/18 #000152487 PURCHASE WAWA 5251 TAMPA FL\",\n          \"amount\": 15.44,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/20/2025\",\n          \"description\": \"AUTOZONE 2477 10/19 #000200742 PURCHASE 12445 CORTEZ BLVD BROOKSVILLE FL\",\n          \"amount\": 31.94,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/20/2025\",\n          \"description\": \"ROSS STORES #6 10/20 #000018507 PURCHASE ROSS STORES #659 BROOKSVILLE FL\",\n          \"amount\": 123.93,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/20/2025\",\n          \"description\": \"WAL-MART #1213 10/20 #000307000 PURCHASE 13300 CORTEZ BLVD BROOKSVILLE FL\",\n          \"amount\": 43.16,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/21/2025\",\n          \"description\": \"PURCHASE 1020 TIKTOK SHOP 6505840896 CA\",\n          \"amount\": 9.04,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/21/2025\",\n          \"description\": \"SAMS CLUB #481 10/21 #000527964 PURCHASE 13360 CORTEZ BLVD BROOKSVILLE FL\",\n          \"amount\": 33.63,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/22/2025\",\n          \"description\": \"PURCHASE 1021 TIKTOK SHOP 6505840896 CA\",\n          \"amount\": 21.99,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/22/2025\",\n          \"description\": \"PURCHASE 1021 TIKTOK SHOP 6505840896 CA\",\n          \"amount\": 46.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/22/2025\",\n          \"description\": \"WAL-MART #3526 10/22 #000469300 PURCHASE 7305 BROAD ST BROOKSVILLE FL\",\n          \"amount\": 193.11,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/24/2025\",\n          \"description\": \"PURCHASE 1023 TIKTOK SHOP CULVER CITY CA\",\n          \"amount\": 40.17,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"description\": \"PURCHASE 1025 TIKTOK SHOP 6505840896 CA\",\n          \"amount\": 35.99,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"description\": \"PURCHASE 1027 TIKTOK SHOP 6505840896 CA\",\n          \"amount\": 148.04,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"description\": \"PURCHASE 1026 TikTok Shop TikTo 6505840896 CA\",\n          \"amount\": 36.08,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/28/2025\",\n          \"description\": \"PURCHASE 1028 TIKTOK SHOP 6505840896 CA\",\n          \"amount\": 34.49,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/28/2025\",\n          \"description\": \"PURCHASE 1027 TIKTOK SHOP 6505840896 CA\",\n          \"amount\": 57.78,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/28/2025\",\n          \"description\": \"PURCHASE 1028 TIKTOK SHOP 6505840896 CA\",\n          \"amount\": 38.32,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/28/2025\",\n          \"description\": \"BURLINGTON STO 10/28 #000357472 PURCHASE BURLINGTON STORES HIALEAH FL\",\n          \"amount\": 129.37,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/29/2025\",\n          \"description\": \"CHECKCARD 1028 STANTON OPTICAL 4 HIALEAH FL 85409245301980001940301 CKCD 8043 XXXXXXXXXXXX6053 XXXX XXXX XXXX 6053\",\n          \"amount\": 537.99,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/30/2025\",\n          \"description\": \"PURCHASE 1030 TikTok Shop TikTo 6505840896 CA\",\n          \"amount\": 41.39,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/30/2025\",\n          \"description\": \"PURCHASE 1029 TIKTOK SHOP 6505840896 CA\",\n          \"amount\": 26.95,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/31/2025\",\n          \"description\": \"PURCHASE 1030 TIKTOK SHOP 6505840896 CA\",\n          \"amount\": 20.24,\n          \"type\": \"Debit\"\n        }\n      ]\n    }\n  ]\n}\n```",
+    "token_count": {
+      "estimated_tokens": 1596
+    },
+    "failure_reason": null
+  }
+}

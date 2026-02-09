@@ -1,0 +1,1878 @@
+{
+  "document_name": "Case61.pdf",
+  "pipeline_status": "completed",
+  "processing_metadata": {
+    "start_time": "2026-02-04T15:06:21.992507",
+    "end_time": "2026-02-04T15:09:57.191933",
+    "parsing_time_seconds": 127.471424,
+    "bsi_time_seconds": 87.70912,
+    "total_time_seconds": 215.180544
+  },
+  "parsing_agent_result": {
+    "agent_name": "parsing_agent",
+    "processing_status": "success",
+    "start_time": "2026-02-04T15:06:21.997031",
+    "end_time": "2026-02-04T15:08:29.468184",
+    "parsed_json": {
+      "bank_statement_information": {
+        "bank_name": "PNC BANK",
+        "account_holder": "KAMAKA HEARING AIDS LLC DBA MIRACLE EAR",
+        "statement_start_date": "08/01/2025",
+        "statement_end_date": "08/29/2025",
+        "n_days": 29,
+        "n_month": [
+          8
+        ],
+        "business_address": "83 SPRING RD MALVERN PA 19355-2110"
+      },
+      "accounts": [
+        {
+          "account_number": "XX-XXXX-5095",
+          "account_type": "Business Checking",
+          "account_summary": {
+            "beginning_balance": 13146.08,
+            "ending_balance": 18785.45,
+            "total_deposits": 57045.9,
+            "total_withdrawals": 51406.53,
+            "total_deposits_count": 25,
+            "total_withdrawals_count": 110,
+            "avg_daily_balance": 7474.61,
+            "overdraft_days": 1
+          },
+          "transactions": [
+            {
+              "date": "08/01/2025",
+              "description": "Mobile Deposit",
+              "amount": 2500.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "08/01/2025",
+              "description": "Debit Card Credit Ic* Instacart San Francis Ca",
+              "amount": 15.9,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "08/01/2025",
+              "description": "PNC Merchant Deposit 373187090999",
+              "amount": 40.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "08/01/2025",
+              "description": "PNC Merchant Deposit 373187091997",
+              "amount": 2500.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "08/01/2025",
+              "description": "0259 Debit Card Purchase Pp*Apple.Com/Bill 402-9357733 Ca",
+              "amount": 13.77,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/01/2025",
+              "description": "0259 Debit Card Purchase Steels Fudge Oc Ocean City NJ",
+              "amount": 33.35,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/01/2025",
+              "description": "0259 Debit Card Purchase Jillys T-Shirt Fac Ocean City NJ",
+              "amount": 44.12,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/01/2025",
+              "description": "0259 Debit Card Purchase Georges General Ocean City NJ",
+              "amount": 43.9,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/01/2025",
+              "description": "0259 Debit Card Purchase Johnson's Popcorn 609-3985404 NJ",
+              "amount": 21.59,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/01/2025",
+              "description": "Service Charge Period Ending 07/31/2025",
+              "amount": 50.0,
+              "type": "Debit",
+              "category": "Service Charges/Fees"
+            },
+            {
+              "date": "08/04/2025",
+              "description": "Corporate ACH Payments Synchrony Bank A044191",
+              "amount": 3960.4,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 0
+            },
+            {
+              "date": "08/04/2025",
+              "description": "PNC Merchant Deposit 373187091997 Effective 08-02-25",
+              "amount": 2000.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "08/04/2025",
+              "description": "0259 Debit Card Purchase Big Mountain Disposal 570-7535192 PA",
+              "amount": 12.35,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/04/2025",
+              "description": "0259 Debit Card Purchase Warner Tech-Care Produ 612-6234300 Mn",
+              "amount": 170.27,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/04/2025",
+              "description": "0259 Debit Card Purchase DD *Doordash Walgreens Doordash.Co Ca",
+              "amount": 34.62,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/04/2025",
+              "description": "0259 Debit Card Purchase Malvern Pizza and Beer Malvern PA",
+              "amount": 84.29,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/04/2025",
+              "description": "0259 Debit Card Purchase Pp*Google Youtube Subs 402-9357733 Ca",
+              "amount": 10.59,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/04/2025",
+              "description": "0259 Debit Card Purchase Paypal *Customsx2U8 18017054665 Hk",
+              "amount": 35.98,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/04/2025",
+              "description": "0259 Debit Card Purchase Wawa 8091 Malvern PA",
+              "amount": 24.31,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/04/2025",
+              "description": "0259 Debit Card Purchase Pp*Google Starz 402-9357733 Ca",
+              "amount": 11.65,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/04/2025",
+              "description": "0259 Debit Card Purchase Sheetz 0461 Duncannon",
+              "amount": 3.9,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/04/2025",
+              "description": "5377 Debit Card Purchase Ic* Instacart Instacart.C Ca",
+              "amount": 90.88,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/04/2025",
+              "description": "Corporate ACH Rent S379Ao1 244511942",
+              "amount": 2204.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/04/2025",
+              "description": "Corporate ACH ACH Pmt Amex Epayment W1350",
+              "amount": 500.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "08/04/2025",
+              "description": "Corporate ACH ACH Pmt Amex Epayment W2044",
+              "amount": 500.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "08/04/2025",
+              "description": "ACH Debit Cable Svcs Comcast-Xfinity 5548989",
+              "amount": 448.72,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/04/2025",
+              "description": "ACH Web-Recur Debit Federal Express Epa55718704",
+              "amount": 38.36,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/04/2025",
+              "description": "PNC Merchant Interchng 373187090999 Effective 08-02-25",
+              "amount": 286.49,
+              "type": "Debit",
+              "category": "Service Charges/Fees"
+            },
+            {
+              "date": "08/04/2025",
+              "description": "PNC Merchant Discount 373187090999 Effective 08-02-25",
+              "amount": 80.67,
+              "type": "Debit",
+              "category": "Service Charges/Fees"
+            },
+            {
+              "date": "08/04/2025",
+              "description": "PNC Merchant Fee 373187090999 Effective 08-02-25",
+              "amount": 31.22,
+              "type": "Debit",
+              "category": "Service Charges/Fees"
+            },
+            {
+              "date": "08/04/2025",
+              "description": "PNC Merchant Interchng 373187091997 Effective 08-02-25",
+              "amount": 51.02,
+              "type": "Debit",
+              "category": "Service Charges/Fees"
+            },
+            {
+              "date": "08/04/2025",
+              "description": "PNC Merchant Fee 373187091997 Effective 08-02-25",
+              "amount": 26.94,
+              "type": "Debit",
+              "category": "Service Charges/Fees"
+            },
+            {
+              "date": "08/04/2025",
+              "description": "PNC Merchant Discount 373187091997 Effective 08-02-25",
+              "amount": 23.49,
+              "type": "Debit",
+              "category": "Service Charges/Fees"
+            },
+            {
+              "date": "08/04/2025",
+              "description": "Intl Purch & Adv Fee Vis 0802 Hk",
+              "amount": 1.08,
+              "type": "Debit",
+              "category": "Service Charges/Fees"
+            },
+            {
+              "date": "08/05/2025",
+              "description": "Check number 1360",
+              "amount": 11500.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/05/2025",
+              "description": "0259 Debit Card Purchase Fish Window Cleaning 3 814-6827181 PA",
+              "amount": 28.56,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/05/2025",
+              "description": "0259 Recurring Debit Card Disney Plus 888-9057888 Ca",
+              "amount": 16.95,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/05/2025",
+              "description": "ACH Debit Pmt Ram XXXXX6276",
+              "amount": 1415.46,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "08/05/2025",
+              "description": "ACH Debit Mailworks The Mailworks XXXXXXXX8346",
+              "amount": 845.73,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/06/2025",
+              "description": "PNC Merchant Deposit 373187090999",
+              "amount": 40.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "08/06/2025",
+              "description": "5377 Recurring Debit Card Experian* Credit Repo 479-3436237 Ca",
+              "amount": 26.49,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/06/2025",
+              "description": "ACH Web Web Pmts Timepayment Corp Ggj2Vq",
+              "amount": 50.82,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "08/07/2025",
+              "description": "Mobile Deposit",
+              "amount": 7500.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "08/07/2025",
+              "description": "PNC Merchant Deposit 373187090999",
+              "amount": 500.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "08/07/2025",
+              "description": "PNC Merchant Deposit 373187091997",
+              "amount": 32.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "08/07/2025",
+              "description": "Check number 1365",
+              "amount": 2065.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/07/2025",
+              "description": "Check number 1369",
+              "amount": 272.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/07/2025",
+              "description": "0259 Debit Card Purchase DD *Doordash Giant Doordash.Co Ca",
+              "amount": 26.24,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/07/2025",
+              "description": "5377 Debit Card Purchase One On One Fitness Con 814-2341625 PA",
+              "amount": 95.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/07/2025",
+              "description": "POS Purchase Lowe's #22 Mill Hall PA",
+              "amount": 72.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/07/2025",
+              "description": "ACH Debit Auto Repl Ezpassxxxxxx6865 5Pxxxxxx9514",
+              "amount": 25.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/08/2025",
+              "description": "0259 Debit Card Purchase Staples Inc staples.c",
+              "amount": 45.55,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/08/2025",
+              "description": "0259 Debit Card Purchase Sheetz 2122 State Col",
+              "amount": 35.66,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/08/2025",
+              "description": "5377 Debit Card Purchase Sq *Appalachian Movers State Colle PA",
+              "amount": 100.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/08/2025",
+              "description": "0259 Debit Card Purchase Prairie Labs Inc 952-9087654 Mn",
+              "amount": 1298.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/08/2025",
+              "description": "ATM Withdrawal 1781 N Atherton St State Colleg PA",
+              "amount": 300.0,
+              "type": "Debit",
+              "category": "ATM/Cash Withdrawal"
+            },
+            {
+              "date": "08/11/2025",
+              "description": "Mobile Deposit",
+              "amount": 906.25,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "08/11/2025",
+              "description": "Check number 1178",
+              "amount": 1500.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/11/2025",
+              "description": "0259 Debit Card Purchase Walmart.Com 800-92562",
+              "amount": 62.53,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/11/2025",
+              "description": "0259 Debit Card Purchase Postage Handling 518-4359300 NY",
+              "amount": 1206.1,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/11/2025",
+              "description": "5377 Debit Card Purchase Sq *Appalachian Movers State Colle PA",
+              "amount": 760.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/11/2025",
+              "description": "5377 Debit Card Purchase Sheetz 0715 State Col",
+              "amount": 124.7,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/11/2025",
+              "description": "5377 Debit Card Purchase Giant 6072 State Coll",
+              "amount": 73.74,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/11/2025",
+              "description": "0259 Recurring Debit Card Intuit *null Cl.Intuit.C Ca",
+              "amount": 22.26,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/11/2025",
+              "description": "ACH Debit Cable Svcs Comcast-Xfinity 7504063",
+              "amount": 465.02,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/11/2025",
+              "description": "Corporate ACH Ccdmthchgs Worldpay 0Pq897",
+              "amount": 130.3,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "08/11/2025",
+              "description": "ACH Debit Opco-ACH Firstenergy XXXXXXXX5752",
+              "amount": 124.71,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/11/2025",
+              "description": "Corporate ACH Ccdmthchgs Worldpay 0Pq895",
+              "amount": 117.4,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "08/11/2025",
+              "description": "ACH Web-Recur Debit Federal Express Epa60717565",
+              "amount": 53.68,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/11/2025",
+              "description": "Corporate ACH Clover Fee Clover Fees 1309527",
+              "amount": 37.1,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "08/12/2025",
+              "description": "Mobile Deposit",
+              "amount": 3000.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "08/12/2025",
+              "description": "PNC Merchant Deposit 373187090999",
+              "amount": 360.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "08/12/2025",
+              "description": "5377 Debit Card Purchase Ihop#3404 State Colle",
+              "amount": 56.31,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/12/2025",
+              "description": "0259 Debit Card Purchase DD *Doordash Jerseymik Doordash.Co Ca",
+              "amount": 59.06,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/12/2025",
+              "description": "0259 Debit Card Purchase DD *Doordash Dairyquee Doordash.Co Ca",
+              "amount": 28.46,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/12/2025",
+              "description": "0259 Recurring Debit Card Ppl*Www.Peoplefinders 800-7188997 Ca",
+              "amount": 24.95,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/12/2025",
+              "description": "0259 Recurring Debit Card Andersonsnutrition.Co Andersonsnu PA",
+              "amount": 8.99,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/12/2025",
+              "description": "ACH Debit Pmt Ram XXXXX6276",
+              "amount": 1415.46,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "08/13/2025",
+              "description": "Check number 1370",
+              "amount": 6390.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/13/2025",
+              "description": "0259 Debit Card Purchase Jersey Mikes Online Uc https://pro NJ",
+              "amount": 41.64,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/14/2025",
+              "description": "Deposit",
+              "amount": 1800.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "08/14/2025",
+              "description": "Mobile Deposit",
+              "amount": 200.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "08/14/2025",
+              "description": "5377 Recurring Debit Card Extra Space 0259 610-2969199 PA",
+              "amount": 145.62,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/14/2025",
+              "description": "Corporate ACH Quickbooks Intuit Payroll S 871080727",
+              "amount": 2389.37,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "08/15/2025",
+              "description": "ACH Web Billpay Columbia Gas Of 211358290010007",
+              "amount": 35.08,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/18/2025",
+              "description": "Mobile Deposit",
+              "amount": 3000.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "08/18/2025",
+              "description": "0259 Debit Card Purchase Sheetz 2475 State Col",
+              "amount": 29.99,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/18/2025",
+              "description": "0259 Recurring Debit Card State Farm 800-95663",
+              "amount": 197.92,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/18/2025",
+              "description": "0259 Recurring Debit Card State Farm 800-95663",
+              "amount": 679.32,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/18/2025",
+              "description": "ACH Web II Payment Huntington Banks 20067968767",
+              "amount": 668.35,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "08/18/2025",
+              "description": "Corporate ACH Padliuccon Unemp Comp EFT",
+              "amount": 154.78,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "08/18/2025",
+              "description": "ACH Web Web Pmts Timepayment Corp Wwsswq",
+              "amount": 50.82,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "08/18/2025",
+              "description": "ACH Web-Recur Debit Federal Express Epa60724746",
+              "amount": 38.42,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/19/2025",
+              "description": "ACH Debit Pmt Ram XXXXX6276",
+              "amount": 1415.46,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "08/19/2025",
+              "description": "Overdraft Item Fee",
+              "amount": 36.0,
+              "type": "Debit",
+              "category": "Overdraft"
+            },
+            {
+              "date": "08/19/2025",
+              "description": "Overdraft Item Fee",
+              "amount": 36.0,
+              "type": "Debit",
+              "category": "Overdraft"
+            },
+            {
+              "date": "08/19/2025",
+              "description": "Overdraft Item Fee",
+              "amount": 36.0,
+              "type": "Debit",
+              "category": "Overdraft"
+            },
+            {
+              "date": "08/19/2025",
+              "description": "Overdraft Item Fee",
+              "amount": 36.0,
+              "type": "Debit",
+              "category": "Overdraft"
+            },
+            {
+              "date": "08/20/2025",
+              "description": "PNC Merchant Deposit 373187090999",
+              "amount": 4245.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "08/20/2025",
+              "description": "ACH Debit Aqua Servi Aqua XXXXXXXXXXX3442",
+              "amount": 33.33,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/20/2025",
+              "description": "Overdraft Item Fee",
+              "amount": 36.0,
+              "type": "Debit",
+              "category": "Overdraft"
+            },
+            {
+              "date": "08/21/2025",
+              "description": "Mobile Deposit",
+              "amount": 500.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "08/22/2025",
+              "description": "5377 Debit Card Purchase Wine and Spirits 1412 State Colle PA",
+              "amount": 25.43,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/22/2025",
+              "description": "0259 Recurring Debit Card Sqsp* Worksp#19570073 Squarespace NY",
+              "amount": 26.72,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/22/2025",
+              "description": "ACH Debit Tx Rlm Rocketloans d1dec17bc8c8499",
+              "amount": 582.76,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "08/22/2025",
+              "description": "Corporate ACH Online Pmt Capital One Ca0600C81F0Ca01",
+              "amount": 500.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "08/22/2025",
+              "description": "Corporate ACH Elec Svc Ppl Eu 9825065039Lh",
+              "amount": 172.17,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/22/2025",
+              "description": "Corporate ACH Web Pymt Cardmember Serv ***********7500",
+              "amount": 107.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "08/25/2025",
+              "description": "Mobile Deposit",
+              "amount": 500.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "08/25/2025",
+              "description": "5377 Debit Card Purchase Jersey Mikes 8007 State Colle PA",
+              "amount": 39.92,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/25/2025",
+              "description": "5377 Debit Card Purchase Wendy's State College State Colle PA",
+              "amount": 14.91,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/25/2025",
+              "description": "0259 Debit Card Purchase DD *Doordash Giant Doordash.Co Ca",
+              "amount": 23.53,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/25/2025",
+              "description": "5377 Debit Card Purchase Ic* Instacart Instacart.C Ca",
+              "amount": 168.12,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/25/2025",
+              "description": "0259 Debit Card Purchase Prime Video *7D9R92Gs3 888-8023080 Wa",
+              "amount": 4.02,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/25/2025",
+              "description": "5377 Debit Card Purchase Ic* Instacart Instacart.C Ca",
+              "amount": 117.23,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/25/2025",
+              "description": "0259 Recurring Debit Card Experian* Credit Repo 479-3436237 Ca",
+              "amount": 26.49,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/25/2025",
+              "description": "ACH Debit POS Innova Postage Handling XXXXXXXX9341",
+              "amount": 1165.31,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/25/2025",
+              "description": "ACH Debit Auto Repl Ezpassxxxxxx6865 5Pxxxxxx5554",
+              "amount": 40.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/25/2025",
+              "description": "ACH Web-Recur Debit Federal Express Epa55896478",
+              "amount": 13.25,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/25/2025",
+              "description": "ACH Web-Recur Debit Federal Express Epa55907637",
+              "amount": 12.62,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/26/2025",
+              "description": "Deposit",
+              "amount": 11235.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "08/26/2025",
+              "description": "0259 Debit Card Purchase Pp*Apple.Com/Bill 402-9357733 Ca",
+              "amount": 4.23,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/26/2025",
+              "description": "ACH Debit Pmt Ram XXXXX6276",
+              "amount": 1415.46,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "08/27/2025",
+              "description": "Deposit",
+              "amount": 3000.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "08/27/2025",
+              "description": "PNC Merchant Deposit 373187090999",
+              "amount": 80.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "08/27/2025",
+              "description": "0259 Debit Card Purchase Walmart.Com 800-92562",
+              "amount": 42.11,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/28/2025",
+              "description": "Deposit",
+              "amount": 525.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "08/28/2025",
+              "description": "Debit Card Credit PA 814-4098634 PA",
+              "amount": 1680.1,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "08/28/2025",
+              "description": "5377 Debit Card Purchase Balfurd Dry Cleaner State Colle PA",
+              "amount": 29.68,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/28/2025",
+              "description": "0259 Debit Card Purchase Pp*Apple.Com/Bill 402-9357733 Ca",
+              "amount": 2.99,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/28/2025",
+              "description": "5377 Debit Card Purchase Ic* Instacart Instacart.C Ca",
+              "amount": 128.55,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/28/2025",
+              "description": "0259 Recurring Debit Card Anc*Ancestry.Com 800-2623787 Ut",
+              "amount": 34.97,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/28/2025",
+              "description": "Corporate ACH Quickbooks Intuit Payroll S 871080727",
+              "amount": 4865.68,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "08/29/2025",
+              "description": "Deposit",
+              "amount": 6926.25,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "08/29/2025",
+              "description": "0259 Recurring Debit Card Netflix.Com Netflix.Com Ca",
+              "amount": 26.49,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            }
+          ]
+        }
+      ]
+    },
+    "raw_output": "```json\n{\n  \"bank_statement_information\": {\n    \"bank_name\": \"PNC BANK\",\n    \"account_holder\": \"KAMAKA HEARING AIDS LLC DBA MIRACLE EAR\",\n    \"statement_start_date\": \"08/01/2025\",\n    \"statement_end_date\": \"08/29/2025\",\n    \"n_days\": 29,\n    \"n_month\": [\n      8\n    ],\n    \"business_address\": \"83 SPRING RD MALVERN PA 19355-2110\"\n  },\n  \"accounts\": [\n    {\n      \"account_number\": \"XX-XXXX-5095\",\n      \"account_type\": \"Business Checking\",\n      \"account_summary\": {\n        \"beginning_balance\": 13146.08,\n        \"ending_balance\": 18785.45,\n        \"total_deposits\": 57045.9,\n        \"total_withdrawals\": 51406.53,\n        \"total_deposits_count\": 25,\n        \"total_withdrawals_count\": 110,\n        \"avg_daily_balance\": 7474.61,\n        \"overdraft_days\": 1\n      },\n      \"transactions\": [\n        {\n          \"date\": \"08/01/2025\",\n          \"description\": \"Mobile Deposit\",\n          \"amount\": 2500.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"08/01/2025\",\n          \"description\": \"Debit Card Credit Ic* Instacart San Francis Ca\",\n          \"amount\": 15.9,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"08/01/2025\",\n          \"description\": \"PNC Merchant Deposit 373187090999\",\n          \"amount\": 40.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"08/01/2025\",\n          \"description\": \"PNC Merchant Deposit 373187091997\",\n          \"amount\": 2500.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"08/01/2025\",\n          \"description\": \"0259 Debit Card Purchase Pp*Apple.Com/Bill 402-9357733 Ca\",\n          \"amount\": 13.77,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/01/2025\",\n          \"description\": \"0259 Debit Card Purchase Steels Fudge Oc Ocean City NJ\",\n          \"amount\": 33.35,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/01/2025\",\n          \"description\": \"0259 Debit Card Purchase Jillys T-Shirt Fac Ocean City NJ\",\n          \"amount\": 44.12,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/01/2025\",\n          \"description\": \"0259 Debit Card Purchase Georges General Ocean City NJ\",\n          \"amount\": 43.9,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/01/2025\",\n          \"description\": \"0259 Debit Card Purchase Johnson's Popcorn 609-3985404 NJ\",\n          \"amount\": 21.59,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/01/2025\",\n          \"description\": \"Service Charge Period Ending 07/31/2025\",\n          \"amount\": 50.0,\n          \"type\": \"Debit\",\n          \"category\": \"Service Charges/Fees\"\n        },\n        {\n          \"date\": \"08/04/2025\",\n          \"description\": \"Corporate ACH Payments Synchrony Bank A044191\",\n          \"amount\": 3960.4,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 0\n        },\n        {\n          \"date\": \"08/04/2025\",\n          \"description\": \"PNC Merchant Deposit 373187091997 Effective 08-02-25\",\n          \"amount\": 2000.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"08/04/2025\",\n          \"description\": \"0259 Debit Card Purchase Big Mountain Disposal 570-7535192 PA\",\n          \"amount\": 12.35,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/04/2025\",\n          \"description\": \"0259 Debit Card Purchase Warner Tech-Care Produ 612-6234300 Mn\",\n          \"amount\": 170.27,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/04/2025\",\n          \"description\": \"0259 Debit Card Purchase DD *Doordash Walgreens Doordash.Co Ca\",\n          \"amount\": 34.62,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/04/2025\",\n          \"description\": \"0259 Debit Card Purchase Malvern Pizza and Beer Malvern PA\",\n          \"amount\": 84.29,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/04/2025\",\n          \"description\": \"0259 Debit Card Purchase Pp*Google Youtube Subs 402-9357733 Ca\",\n          \"amount\": 10.59,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/04/2025\",\n          \"description\": \"0259 Debit Card Purchase Paypal *Customsx2U8 18017054665 Hk\",\n          \"amount\": 35.98,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/04/2025\",\n          \"description\": \"0259 Debit Card Purchase Wawa 8091 Malvern PA\",\n          \"amount\": 24.31,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/04/2025\",\n          \"description\": \"0259 Debit Card Purchase Pp*Google Starz 402-9357733 Ca\",\n          \"amount\": 11.65,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/04/2025\",\n          \"description\": \"0259 Debit Card Purchase Sheetz 0461 Duncannon\",\n          \"amount\": 3.9,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/04/2025\",\n          \"description\": \"5377 Debit Card Purchase Ic* Instacart Instacart.C Ca\",\n          \"amount\": 90.88,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/04/2025\",\n          \"description\": \"Corporate ACH Rent S379Ao1 244511942\",\n          \"amount\": 2204.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/04/2025\",\n          \"description\": \"Corporate ACH ACH Pmt Amex Epayment W1350\",\n          \"amount\": 500.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"08/04/2025\",\n          \"description\": \"Corporate ACH ACH Pmt Amex Epayment W2044\",\n          \"amount\": 500.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"08/04/2025\",\n          \"description\": \"ACH Debit Cable Svcs Comcast-Xfinity 5548989\",\n          \"amount\": 448.72,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/04/2025\",\n          \"description\": \"ACH Web-Recur Debit Federal Express Epa55718704\",\n          \"amount\": 38.36,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/04/2025\",\n          \"description\": \"PNC Merchant Interchng 373187090999 Effective 08-02-25\",\n          \"amount\": 286.49,\n          \"type\": \"Debit\",\n          \"category\": \"Service Charges/Fees\"\n        },\n        {\n          \"date\": \"08/04/2025\",\n          \"description\": \"PNC Merchant Discount 373187090999 Effective 08-02-25\",\n          \"amount\": 80.67,\n          \"type\": \"Debit\",\n          \"category\": \"Service Charges/Fees\"\n        },\n        {\n          \"date\": \"08/04/2025\",\n          \"description\": \"PNC Merchant Fee 373187090999 Effective 08-02-25\",\n          \"amount\": 31.22,\n          \"type\": \"Debit\",\n          \"category\": \"Service Charges/Fees\"\n        },\n        {\n          \"date\": \"08/04/2025\",\n          \"description\": \"PNC Merchant Interchng 373187091997 Effective 08-02-25\",\n          \"amount\": 51.02,\n          \"type\": \"Debit\",\n          \"category\": \"Service Charges/Fees\"\n        },\n        {\n          \"date\": \"08/04/2025\",\n          \"description\": \"PNC Merchant Fee 373187091997 Effective 08-02-25\",\n          \"amount\": 26.94,\n          \"type\": \"Debit\",\n          \"category\": \"Service Charges/Fees\"\n        },\n        {\n          \"date\": \"08/04/2025\",\n          \"description\": \"PNC Merchant Discount 373187091997 Effective 08-02-25\",\n          \"amount\": 23.49,\n          \"type\": \"Debit\",\n          \"category\": \"Service Charges/Fees\"\n        },\n        {\n          \"date\": \"08/04/2025\",\n          \"description\": \"Intl Purch & Adv Fee Vis 0802 Hk\",\n          \"amount\": 1.08,\n          \"type\": \"Debit\",\n          \"category\": \"Service Charges/Fees\"\n        },\n        {\n          \"date\": \"08/05/2025\",\n          \"description\": \"Check number 1360\",\n          \"amount\": 11500.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/05/2025\",\n          \"description\": \"0259 Debit Card Purchase Fish Window Cleaning 3 814-6827181 PA\",\n          \"amount\": 28.56,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/05/2025\",\n          \"description\": \"0259 Recurring Debit Card Disney Plus 888-9057888 Ca\",\n          \"amount\": 16.95,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/05/2025\",\n          \"description\": \"ACH Debit Pmt Ram XXXXX6276\",\n          \"amount\": 1415.46,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"08/05/2025\",\n          \"description\": \"ACH Debit Mailworks The Mailworks XXXXXXXX8346\",\n          \"amount\": 845.73,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/06/2025\",\n          \"description\": \"PNC Merchant Deposit 373187090999\",\n          \"amount\": 40.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"08/06/2025\",\n          \"description\": \"5377 Recurring Debit Card Experian* Credit Repo 479-3436237 Ca\",\n          \"amount\": 26.49,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/06/2025\",\n          \"description\": \"ACH Web Web Pmts Timepayment Corp Ggj2Vq\",\n          \"amount\": 50.82,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"08/07/2025\",\n          \"description\": \"Mobile Deposit\",\n          \"amount\": 7500.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"08/07/2025\",\n          \"description\": \"PNC Merchant Deposit 373187090999\",\n          \"amount\": 500.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"08/07/2025\",\n          \"description\": \"PNC Merchant Deposit 373187091997\",\n          \"amount\": 32.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"08/07/2025\",\n          \"description\": \"Check number 1365\",\n          \"amount\": 2065.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/07/2025\",\n          \"description\": \"Check number 1369\",\n          \"amount\": 272.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/07/2025\",\n          \"description\": \"0259 Debit Card Purchase DD *Doordash Giant Doordash.Co Ca\",\n          \"amount\": 26.24,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/07/2025\",\n          \"description\": \"5377 Debit Card Purchase One On One Fitness Con 814-2341625 PA\",\n          \"amount\": 95.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/07/2025\",\n          \"description\": \"POS Purchase Lowe's #22 Mill Hall PA\",\n          \"amount\": 72.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/07/2025\",\n          \"description\": \"ACH Debit Auto Repl Ezpassxxxxxx6865 5Pxxxxxx9514\",\n          \"amount\": 25.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/08/2025\",\n          \"description\": \"0259 Debit Card Purchase Staples Inc staples.c\",\n          \"amount\": 45.55,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/08/2025\",\n          \"description\": \"0259 Debit Card Purchase Sheetz 2122 State Col\",\n          \"amount\": 35.66,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/08/2025\",\n          \"description\": \"5377 Debit Card Purchase Sq *Appalachian Movers State Colle PA\",\n          \"amount\": 100.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/08/2025\",\n          \"description\": \"0259 Debit Card Purchase Prairie Labs Inc 952-9087654 Mn\",\n          \"amount\": 1298.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/08/2025\",\n          \"description\": \"ATM Withdrawal 1781 N Atherton St State Colleg PA\",\n          \"amount\": 300.0,\n          \"type\": \"Debit\",\n          \"category\": \"ATM/Cash Withdrawal\"\n        },\n        {\n          \"date\": \"08/11/2025\",\n          \"description\": \"Mobile Deposit\",\n          \"amount\": 906.25,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"08/11/2025\",\n          \"description\": \"Check number 1178\",\n          \"amount\": 1500.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/11/2025\",\n          \"description\": \"0259 Debit Card Purchase Walmart.Com 800-92562\",\n          \"amount\": 62.53,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/11/2025\",\n          \"description\": \"0259 Debit Card Purchase Postage Handling 518-4359300 NY\",\n          \"amount\": 1206.1,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/11/2025\",\n          \"description\": \"5377 Debit Card Purchase Sq *Appalachian Movers State Colle PA\",\n          \"amount\": 760.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/11/2025\",\n          \"description\": \"5377 Debit Card Purchase Sheetz 0715 State Col\",\n          \"amount\": 124.7,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/11/2025\",\n          \"description\": \"5377 Debit Card Purchase Giant 6072 State Coll\",\n          \"amount\": 73.74,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/11/2025\",\n          \"description\": \"0259 Recurring Debit Card Intuit *null Cl.Intuit.C Ca\",\n          \"amount\": 22.26,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/11/2025\",\n          \"description\": \"ACH Debit Cable Svcs Comcast-Xfinity 7504063\",\n          \"amount\": 465.02,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/11/2025\",\n          \"description\": \"Corporate ACH Ccdmthchgs Worldpay 0Pq897\",\n          \"amount\": 130.3,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"08/11/2025\",\n          \"description\": \"ACH Debit Opco-ACH Firstenergy XXXXXXXX5752\",\n          \"amount\": 124.71,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/11/2025\",\n          \"description\": \"Corporate ACH Ccdmthchgs Worldpay 0Pq895\",\n          \"amount\": 117.4,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"08/11/2025\",\n          \"description\": \"ACH Web-Recur Debit Federal Express Epa60717565\",\n          \"amount\": 53.68,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/11/2025\",\n          \"description\": \"Corporate ACH Clover Fee Clover Fees 1309527\",\n          \"amount\": 37.1,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"08/12/2025\",\n          \"description\": \"Mobile Deposit\",\n          \"amount\": 3000.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"08/12/2025\",\n          \"description\": \"PNC Merchant Deposit 373187090999\",\n          \"amount\": 360.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"08/12/2025\",\n          \"description\": \"5377 Debit Card Purchase Ihop#3404 State Colle\",\n          \"amount\": 56.31,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/12/2025\",\n          \"description\": \"0259 Debit Card Purchase DD *Doordash Jerseymik Doordash.Co Ca\",\n          \"amount\": 59.06,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/12/2025\",\n          \"description\": \"0259 Debit Card Purchase DD *Doordash Dairyquee Doordash.Co Ca\",\n          \"amount\": 28.46,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/12/2025\",\n          \"description\": \"0259 Recurring Debit Card Ppl*Www.Peoplefinders 800-7188997 Ca\",\n          \"amount\": 24.95,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/12/2025\",\n          \"description\": \"0259 Recurring Debit Card Andersonsnutrition.Co Andersonsnu PA\",\n          \"amount\": 8.99,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/12/2025\",\n          \"description\": \"ACH Debit Pmt Ram XXXXX6276\",\n          \"amount\": 1415.46,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"08/13/2025\",\n          \"description\": \"Check number 1370\",\n          \"amount\": 6390.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/13/2025\",\n          \"description\": \"0259 Debit Card Purchase Jersey Mikes Online Uc https://pro NJ\",\n          \"amount\": 41.64,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/14/2025\",\n          \"description\": \"Deposit\",\n          \"amount\": 1800.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"08/14/2025\",\n          \"description\": \"Mobile Deposit\",\n          \"amount\": 200.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"08/14/2025\",\n          \"description\": \"5377 Recurring Debit Card Extra Space 0259 610-2969199 PA\",\n          \"amount\": 145.62,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/14/2025\",\n          \"description\": \"Corporate ACH Quickbooks Intuit Payroll S 871080727\",\n          \"amount\": 2389.37,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"08/15/2025\",\n          \"description\": \"ACH Web Billpay Columbia Gas Of 211358290010007\",\n          \"amount\": 35.08,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/18/2025\",\n          \"description\": \"Mobile Deposit\",\n          \"amount\": 3000.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"08/18/2025\",\n          \"description\": \"0259 Debit Card Purchase Sheetz 2475 State Col\",\n          \"amount\": 29.99,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/18/2025\",\n          \"description\": \"0259 Recurring Debit Card State Farm 800-95663\",\n          \"amount\": 197.92,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/18/2025\",\n          \"description\": \"0259 Recurring Debit Card State Farm 800-95663\",\n          \"amount\": 679.32,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/18/2025\",\n          \"description\": \"ACH Web II Payment Huntington Banks 20067968767\",\n          \"amount\": 668.35,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"08/18/2025\",\n          \"description\": \"Corporate ACH Padliuccon Unemp Comp EFT\",\n          \"amount\": 154.78,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"08/18/2025\",\n          \"description\": \"ACH Web Web Pmts Timepayment Corp Wwsswq\",\n          \"amount\": 50.82,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"08/18/2025\",\n          \"description\": \"ACH Web-Recur Debit Federal Express Epa60724746\",\n          \"amount\": 38.42,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/19/2025\",\n          \"description\": \"ACH Debit Pmt Ram XXXXX6276\",\n          \"amount\": 1415.46,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"08/19/2025\",\n          \"description\": \"Overdraft Item Fee\",\n          \"amount\": 36.0,\n          \"type\": \"Debit\",\n          \"category\": \"Overdraft\"\n        },\n        {\n          \"date\": \"08/19/2025\",\n          \"description\": \"Overdraft Item Fee\",\n          \"amount\": 36.0,\n          \"type\": \"Debit\",\n          \"category\": \"Overdraft\"\n        },\n        {\n          \"date\": \"08/19/2025\",\n          \"description\": \"Overdraft Item Fee\",\n          \"amount\": 36.0,\n          \"type\": \"Debit\",\n          \"category\": \"Overdraft\"\n        },\n        {\n          \"date\": \"08/19/2025\",\n          \"description\": \"Overdraft Item Fee\",\n          \"amount\": 36.0,\n          \"type\": \"Debit\",\n          \"category\": \"Overdraft\"\n        },\n        {\n          \"date\": \"08/20/2025\",\n          \"description\": \"PNC Merchant Deposit 373187090999\",\n          \"amount\": 4245.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"08/20/2025\",\n          \"description\": \"ACH Debit Aqua Servi Aqua XXXXXXXXXXX3442\",\n          \"amount\": 33.33,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/20/2025\",\n          \"description\": \"Overdraft Item Fee\",\n          \"amount\": 36.0,\n          \"type\": \"Debit\",\n          \"category\": \"Overdraft\"\n        },\n        {\n          \"date\": \"08/21/2025\",\n          \"description\": \"Mobile Deposit\",\n          \"amount\": 500.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"08/22/2025\",\n          \"description\": \"5377 Debit Card Purchase Wine and Spirits 1412 State Colle PA\",\n          \"amount\": 25.43,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/22/2025\",\n          \"description\": \"0259 Recurring Debit Card Sqsp* Worksp#19570073 Squarespace NY\",\n          \"amount\": 26.72,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/22/2025\",\n          \"description\": \"ACH Debit Tx Rlm Rocketloans d1dec17bc8c8499\",\n          \"amount\": 582.76,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"08/22/2025\",\n          \"description\": \"Corporate ACH Online Pmt Capital One Ca0600C81F0Ca01\",\n          \"amount\": 500.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"08/22/2025\",\n          \"description\": \"Corporate ACH Elec Svc Ppl Eu 9825065039Lh\",\n          \"amount\": 172.17,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/22/2025\",\n          \"description\": \"Corporate ACH Web Pymt Cardmember Serv ***********7500\",\n          \"amount\": 107.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"08/25/2025\",\n          \"description\": \"Mobile Deposit\",\n          \"amount\": 500.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"08/25/2025\",\n          \"description\": \"5377 Debit Card Purchase Jersey Mikes 8007 State Colle PA\",\n          \"amount\": 39.92,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/25/2025\",\n          \"description\": \"5377 Debit Card Purchase Wendy's State College State Colle PA\",\n          \"amount\": 14.91,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/25/2025\",\n          \"description\": \"0259 Debit Card Purchase DD *Doordash Giant Doordash.Co Ca\",\n          \"amount\": 23.53,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/25/2025\",\n          \"description\": \"5377 Debit Card Purchase Ic* Instacart Instacart.C Ca\",\n          \"amount\": 168.12,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/25/2025\",\n          \"description\": \"0259 Debit Card Purchase Prime Video *7D9R92Gs3 888-8023080 Wa\",\n          \"amount\": 4.02,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/25/2025\",\n          \"description\": \"5377 Debit Card Purchase Ic* Instacart Instacart.C Ca\",\n          \"amount\": 117.23,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/25/2025\",\n          \"description\": \"0259 Recurring Debit Card Experian* Credit Repo 479-3436237 Ca\",\n          \"amount\": 26.49,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/25/2025\",\n          \"description\": \"ACH Debit POS Innova Postage Handling XXXXXXXX9341\",\n          \"amount\": 1165.31,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/25/2025\",\n          \"description\": \"ACH Debit Auto Repl Ezpassxxxxxx6865 5Pxxxxxx5554\",\n          \"amount\": 40.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/25/2025\",\n          \"description\": \"ACH Web-Recur Debit Federal Express Epa55896478\",\n          \"amount\": 13.25,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/25/2025\",\n          \"description\": \"ACH Web-Recur Debit Federal Express Epa55907637\",\n          \"amount\": 12.62,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/26/2025\",\n          \"description\": \"Deposit\",\n          \"amount\": 11235.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"08/26/2025\",\n          \"description\": \"0259 Debit Card Purchase Pp*Apple.Com/Bill 402-9357733 Ca\",\n          \"amount\": 4.23,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/26/2025\",\n          \"description\": \"ACH Debit Pmt Ram XXXXX6276\",\n          \"amount\": 1415.46,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"08/27/2025\",\n          \"description\": \"Deposit\",\n          \"amount\": 3000.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"08/27/2025\",\n          \"description\": \"PNC Merchant Deposit 373187090999\",\n          \"amount\": 80.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"08/27/2025\",\n          \"description\": \"0259 Debit Card Purchase Walmart.Com 800-92562\",\n          \"amount\": 42.11,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/28/2025\",\n          \"description\": \"Deposit\",\n          \"amount\": 525.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"08/28/2025\",\n          \"description\": \"Debit Card Credit PA 814-4098634 PA\",\n          \"amount\": 1680.1,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"08/28/2025\",\n          \"description\": \"5377 Debit Card Purchase Balfurd Dry Cleaner State Colle PA\",\n          \"amount\": 29.68,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/28/2025\",\n          \"description\": \"0259 Debit Card Purchase Pp*Apple.Com/Bill 402-9357733 Ca\",\n          \"amount\": 2.99,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/28/2025\",\n          \"description\": \"5377 Debit Card Purchase Ic* Instacart Instacart.C Ca\",\n          \"amount\": 128.55,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/28/2025\",\n          \"description\": \"0259 Recurring Debit Card Anc*Ancestry.Com 800-2623787 Ut\",\n          \"amount\": 34.97,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/28/2025\",\n          \"description\": \"Corporate ACH Quickbooks Intuit Payroll S 871080727\",\n          \"amount\": 4865.68,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"08/29/2025\",\n          \"description\": \"Deposit\",\n          \"amount\": 6926.25,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"08/29/2025\",\n          \"description\": \"0259 Recurring Debit Card Netflix.Com Netflix.Com Ca\",\n          \"amount\": 26.49,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        }\n      ]\n    }\n  ]\n}\n```",
+    "token_count": {
+      "estimated_tokens": 2558
+    },
+    "failure_reason": null
+  },
+  "bsi_analyzer_result": {
+    "agent_name": "v1_bsi_analyzer_agent",
+    "processing_status": "success",
+    "start_time": "2026-02-04T15:08:29.479847",
+    "end_time": "2026-02-04T15:09:57.188616",
+    "parsed_json": {
+      "accounts": [
+        {
+          "account_number": "XX-XXXX-5095",
+          "account_type": "Business Checking",
+          "mca_deposit": [],
+          "mca_withdrawal": [
+            {
+              "mca_name": "Ram Payment",
+              "date": "08/05/2025",
+              "type": "Debit",
+              "description": "ACH Debit Pmt Ram XXXXX6276",
+              "amount": 1415.46
+            },
+            {
+              "mca_name": "Ram Payment",
+              "date": "08/12/2025",
+              "type": "Debit",
+              "description": "ACH Debit Pmt Ram XXXXX6276",
+              "amount": 1415.46
+            },
+            {
+              "mca_name": "Ram Payment",
+              "date": "08/19/2025",
+              "type": "Debit",
+              "description": "ACH Debit Pmt Ram XXXXX6276",
+              "amount": 1415.46
+            },
+            {
+              "mca_name": "Ram Payment",
+              "date": "08/26/2025",
+              "type": "Debit",
+              "description": "ACH Debit Pmt Ram XXXXX6276",
+              "amount": 1415.46
+            }
+          ],
+          "returned_items": [],
+          "overdrafts": [
+            {
+              "date": "08/19/2025",
+              "description": "Overdraft Item Fee",
+              "amount": 36.0,
+              "type": "Debit"
+            },
+            {
+              "date": "08/19/2025",
+              "description": "Overdraft Item Fee",
+              "amount": 36.0,
+              "type": "Debit"
+            },
+            {
+              "date": "08/19/2025",
+              "description": "Overdraft Item Fee",
+              "amount": 36.0,
+              "type": "Debit"
+            },
+            {
+              "date": "08/19/2025",
+              "description": "Overdraft Item Fee",
+              "amount": 36.0,
+              "type": "Debit"
+            },
+            {
+              "date": "08/20/2025",
+              "description": "Overdraft Item Fee",
+              "amount": 36.0,
+              "type": "Debit"
+            }
+          ],
+          "service_charges": [
+            {
+              "date": "08/01/2025",
+              "description": "Service Charge Period Ending 07/31/2025",
+              "amount": 50.0,
+              "type": "Debit"
+            },
+            {
+              "date": "08/04/2025",
+              "description": "PNC Merchant Interchng 373187090999 Effective 08-02-25",
+              "amount": 286.49,
+              "type": "Debit"
+            },
+            {
+              "date": "08/04/2025",
+              "description": "PNC Merchant Discount 373187090999 Effective 08-02-25",
+              "amount": 80.67,
+              "type": "Debit"
+            },
+            {
+              "date": "08/04/2025",
+              "description": "PNC Merchant Fee 373187090999 Effective 08-02-25",
+              "amount": 31.22,
+              "type": "Debit"
+            },
+            {
+              "date": "08/04/2025",
+              "description": "PNC Merchant Interchng 373187091997 Effective 08-02-25",
+              "amount": 51.02,
+              "type": "Debit"
+            },
+            {
+              "date": "08/04/2025",
+              "description": "PNC Merchant Fee 373187091997 Effective 08-02-25",
+              "amount": 26.94,
+              "type": "Debit"
+            },
+            {
+              "date": "08/04/2025",
+              "description": "PNC Merchant Discount 373187091997 Effective 08-02-25",
+              "amount": 23.49,
+              "type": "Debit"
+            },
+            {
+              "date": "08/04/2025",
+              "description": "Intl Purch & Adv Fee Vis 0802 Hk",
+              "amount": 1.08,
+              "type": "Debit"
+            }
+          ],
+          "atm_cash_withdrawal": [
+            {
+              "date": "08/08/2025",
+              "description": "ATM Withdrawal 1781 N Atherton St State Colleg PA",
+              "amount": 300.0,
+              "type": "Debit"
+            }
+          ],
+          "internal_transfer_deposit": [],
+          "other_transfer_deposit": [
+            {
+              "date": "08/04/2025",
+              "description": "Corporate ACH Payments Synchrony Bank A044191",
+              "amount": 3960.4,
+              "type": "Credit",
+              "is_payment_processor": 0,
+              "non_true_revenue": 0
+            }
+          ],
+          "internal_transfer_withdrawal": [],
+          "other_transfer_withdrawal": [
+            {
+              "date": "08/04/2025",
+              "description": "Corporate ACH ACH Pmt Amex Epayment W1350",
+              "amount": 500.0,
+              "type": "Debit"
+            },
+            {
+              "date": "08/04/2025",
+              "description": "Corporate ACH ACH Pmt Amex Epayment W2044",
+              "amount": 500.0,
+              "type": "Debit"
+            },
+            {
+              "date": "08/06/2025",
+              "description": "ACH Web Web Pmts Timepayment Corp Ggj2Vq",
+              "amount": 50.82,
+              "type": "Debit"
+            },
+            {
+              "date": "08/11/2025",
+              "description": "Corporate ACH Ccdmthchgs Worldpay 0Pq897",
+              "amount": 130.3,
+              "type": "Debit"
+            },
+            {
+              "date": "08/11/2025",
+              "description": "Corporate ACH Ccdmthchgs Worldpay 0Pq895",
+              "amount": 117.4,
+              "type": "Debit"
+            },
+            {
+              "date": "08/11/2025",
+              "description": "Corporate ACH Clover Fee Clover Fees 1309527",
+              "amount": 37.1,
+              "type": "Debit"
+            },
+            {
+              "date": "08/14/2025",
+              "description": "Corporate ACH Quickbooks Intuit Payroll S 871080727",
+              "amount": 2389.37,
+              "type": "Debit"
+            },
+            {
+              "date": "08/18/2025",
+              "description": "ACH Web II Payment Huntington Banks 20067968767",
+              "amount": 668.35,
+              "type": "Debit"
+            },
+            {
+              "date": "08/18/2025",
+              "description": "Corporate ACH Padliuccon Unemp Comp EFT",
+              "amount": 154.78,
+              "type": "Debit"
+            },
+            {
+              "date": "08/18/2025",
+              "description": "ACH Web Web Pmts Timepayment Corp Wwsswq",
+              "amount": 50.82,
+              "type": "Debit"
+            },
+            {
+              "date": "08/22/2025",
+              "description": "ACH Debit Tx Rlm Rocketloans d1dec17bc8c8499",
+              "amount": 582.76,
+              "type": "Debit"
+            },
+            {
+              "date": "08/22/2025",
+              "description": "Corporate ACH Online Pmt Capital One Ca0600C81F0Ca01",
+              "amount": 500.0,
+              "type": "Debit"
+            },
+            {
+              "date": "08/22/2025",
+              "description": "Corporate ACH Web Pymt Cardmember Serv ***********7500",
+              "amount": 107.0,
+              "type": "Debit"
+            },
+            {
+              "date": "08/28/2025",
+              "description": "Corporate ACH Quickbooks Intuit Payroll S 871080727",
+              "amount": 4865.68,
+              "type": "Debit"
+            }
+          ],
+          "standard_deposit": [
+            {
+              "date": "08/01/2025",
+              "description": "Mobile Deposit",
+              "amount": 2500.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "08/01/2025",
+              "description": "Debit Card Credit Ic* Instacart San Francis Ca",
+              "amount": 15.9,
+              "type": "Credit",
+              "non_true_revenue": 1
+            },
+            {
+              "date": "08/01/2025",
+              "description": "PNC Merchant Deposit 373187090999",
+              "amount": 40.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "08/01/2025",
+              "description": "PNC Merchant Deposit 373187091997",
+              "amount": 2500.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "08/04/2025",
+              "description": "PNC Merchant Deposit 373187091997 Effective 08-02-25",
+              "amount": 2000.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "08/06/2025",
+              "description": "PNC Merchant Deposit 373187090999",
+              "amount": 40.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "08/07/2025",
+              "description": "Mobile Deposit",
+              "amount": 7500.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "08/07/2025",
+              "description": "PNC Merchant Deposit 373187090999",
+              "amount": 500.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "08/07/2025",
+              "description": "PNC Merchant Deposit 373187091997",
+              "amount": 32.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "08/11/2025",
+              "description": "Mobile Deposit",
+              "amount": 906.25,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "08/12/2025",
+              "description": "Mobile Deposit",
+              "amount": 3000.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "08/12/2025",
+              "description": "PNC Merchant Deposit 373187090999",
+              "amount": 360.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "08/14/2025",
+              "description": "Deposit",
+              "amount": 1800.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "08/14/2025",
+              "description": "Mobile Deposit",
+              "amount": 200.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "08/18/2025",
+              "description": "Mobile Deposit",
+              "amount": 3000.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "08/20/2025",
+              "description": "PNC Merchant Deposit 373187090999",
+              "amount": 4245.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "08/21/2025",
+              "description": "Mobile Deposit",
+              "amount": 500.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "08/25/2025",
+              "description": "Mobile Deposit",
+              "amount": 500.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "08/26/2025",
+              "description": "Deposit",
+              "amount": 11235.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "08/27/2025",
+              "description": "Deposit",
+              "amount": 3000.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "08/27/2025",
+              "description": "PNC Merchant Deposit 373187090999",
+              "amount": 80.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "08/28/2025",
+              "description": "Deposit",
+              "amount": 525.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "08/28/2025",
+              "description": "Debit Card Credit PA 814-4098634 PA",
+              "amount": 1680.1,
+              "type": "Credit",
+              "non_true_revenue": 1
+            },
+            {
+              "date": "08/29/2025",
+              "description": "Deposit",
+              "amount": 6926.25,
+              "type": "Credit",
+              "non_true_revenue": 0
+            }
+          ],
+          "standard_withdrawal": [
+            {
+              "date": "08/01/2025",
+              "description": "0259 Debit Card Purchase Pp*Apple.Com/Bill 402-9357733 Ca",
+              "amount": 13.77,
+              "type": "Debit"
+            },
+            {
+              "date": "08/01/2025",
+              "description": "0259 Debit Card Purchase Steels Fudge Oc Ocean City NJ",
+              "amount": 33.35,
+              "type": "Debit"
+            },
+            {
+              "date": "08/01/2025",
+              "description": "0259 Debit Card Purchase Jillys T-Shirt Fac Ocean City NJ",
+              "amount": 44.12,
+              "type": "Debit"
+            },
+            {
+              "date": "08/01/2025",
+              "description": "0259 Debit Card Purchase Georges General Ocean City NJ",
+              "amount": 43.9,
+              "type": "Debit"
+            },
+            {
+              "date": "08/01/2025",
+              "description": "0259 Debit Card Purchase Johnson's Popcorn 609-3985404 NJ",
+              "amount": 21.59,
+              "type": "Debit"
+            },
+            {
+              "date": "08/04/2025",
+              "description": "0259 Debit Card Purchase Big Mountain Disposal 570-7535192 PA",
+              "amount": 12.35,
+              "type": "Debit"
+            },
+            {
+              "date": "08/04/2025",
+              "description": "0259 Debit Card Purchase Warner Tech-Care Produ 612-6234300 Mn",
+              "amount": 170.27,
+              "type": "Debit"
+            },
+            {
+              "date": "08/04/2025",
+              "description": "0259 Debit Card Purchase DD *Doordash Walgreens Doordash.Co Ca",
+              "amount": 34.62,
+              "type": "Debit"
+            },
+            {
+              "date": "08/04/2025",
+              "description": "0259 Debit Card Purchase Malvern Pizza and Beer Malvern PA",
+              "amount": 84.29,
+              "type": "Debit"
+            },
+            {
+              "date": "08/04/2025",
+              "description": "0259 Debit Card Purchase Pp*Google Youtube Subs 402-9357733 Ca",
+              "amount": 10.59,
+              "type": "Debit"
+            },
+            {
+              "date": "08/04/2025",
+              "description": "0259 Debit Card Purchase Paypal *Customsx2U8 18017054665 Hk",
+              "amount": 35.98,
+              "type": "Debit"
+            },
+            {
+              "date": "08/04/2025",
+              "description": "0259 Debit Card Purchase Wawa 8091 Malvern PA",
+              "amount": 24.31,
+              "type": "Debit"
+            },
+            {
+              "date": "08/04/2025",
+              "description": "0259 Debit Card Purchase Pp*Google Starz 402-9357733 Ca",
+              "amount": 11.65,
+              "type": "Debit"
+            },
+            {
+              "date": "08/04/2025",
+              "description": "0259 Debit Card Purchase Sheetz 0461 Duncannon",
+              "amount": 3.9,
+              "type": "Debit"
+            },
+            {
+              "date": "08/04/2025",
+              "description": "5377 Debit Card Purchase Ic* Instacart Instacart.C Ca",
+              "amount": 90.88,
+              "type": "Debit"
+            },
+            {
+              "date": "08/04/2025",
+              "description": "Corporate ACH Rent S379Ao1 244511942",
+              "amount": 2204.0,
+              "type": "Debit"
+            },
+            {
+              "date": "08/04/2025",
+              "description": "ACH Debit Cable Svcs Comcast-Xfinity 5548989",
+              "amount": 448.72,
+              "type": "Debit"
+            },
+            {
+              "date": "08/04/2025",
+              "description": "ACH Web-Recur Debit Federal Express Epa55718704",
+              "amount": 38.36,
+              "type": "Debit"
+            },
+            {
+              "date": "08/05/2025",
+              "description": "Check number 1360",
+              "amount": 11500.0,
+              "type": "Debit"
+            },
+            {
+              "date": "08/05/2025",
+              "description": "0259 Debit Card Purchase Fish Window Cleaning 3 814-6827181 PA",
+              "amount": 28.56,
+              "type": "Debit"
+            },
+            {
+              "date": "08/05/2025",
+              "description": "0259 Recurring Debit Card Disney Plus 888-9057888 Ca",
+              "amount": 16.95,
+              "type": "Debit"
+            },
+            {
+              "date": "08/05/2025",
+              "description": "ACH Debit Mailworks The Mailworks XXXXXXXX8346",
+              "amount": 845.73,
+              "type": "Debit"
+            },
+            {
+              "date": "08/06/2025",
+              "description": "5377 Recurring Debit Card Experian* Credit Repo 479-3436237 Ca",
+              "amount": 26.49,
+              "type": "Debit"
+            },
+            {
+              "date": "08/07/2025",
+              "description": "Check number 1365",
+              "amount": 2065.0,
+              "type": "Debit"
+            },
+            {
+              "date": "08/07/2025",
+              "description": "Check number 1369",
+              "amount": 272.0,
+              "type": "Debit"
+            },
+            {
+              "date": "08/07/2025",
+              "description": "0259 Debit Card Purchase DD *Doordash Giant Doordash.Co Ca",
+              "amount": 26.24,
+              "type": "Debit"
+            },
+            {
+              "date": "08/07/2025",
+              "description": "5377 Debit Card Purchase One On One Fitness Con 814-2341625 PA",
+              "amount": 95.0,
+              "type": "Debit"
+            },
+            {
+              "date": "08/07/2025",
+              "description": "POS Purchase Lowe's #22 Mill Hall PA",
+              "amount": 72.0,
+              "type": "Debit"
+            },
+            {
+              "date": "08/07/2025",
+              "description": "ACH Debit Auto Repl Ezpassxxxxxx6865 5Pxxxxxx9514",
+              "amount": 25.0,
+              "type": "Debit"
+            },
+            {
+              "date": "08/08/2025",
+              "description": "0259 Debit Card Purchase Staples Inc staples.c",
+              "amount": 45.55,
+              "type": "Debit"
+            },
+            {
+              "date": "08/08/2025",
+              "description": "0259 Debit Card Purchase Sheetz 2122 State Col",
+              "amount": 35.66,
+              "type": "Debit"
+            },
+            {
+              "date": "08/08/2025",
+              "description": "5377 Debit Card Purchase Sq *Appalachian Movers State Colle PA",
+              "amount": 100.0,
+              "type": "Debit"
+            },
+            {
+              "date": "08/08/2025",
+              "description": "0259 Debit Card Purchase Prairie Labs Inc 952-9087654 Mn",
+              "amount": 1298.0,
+              "type": "Debit"
+            },
+            {
+              "date": "08/11/2025",
+              "description": "Check number 1178",
+              "amount": 1500.0,
+              "type": "Debit"
+            },
+            {
+              "date": "08/11/2025",
+              "description": "0259 Debit Card Purchase Walmart.Com 800-92562",
+              "amount": 62.53,
+              "type": "Debit"
+            },
+            {
+              "date": "08/11/2025",
+              "description": "0259 Debit Card Purchase Postage Handling 518-4359300 NY",
+              "amount": 1206.1,
+              "type": "Debit"
+            },
+            {
+              "date": "08/11/2025",
+              "description": "5377 Debit Card Purchase Sq *Appalachian Movers State Colle PA",
+              "amount": 760.0,
+              "type": "Debit"
+            },
+            {
+              "date": "08/11/2025",
+              "description": "5377 Debit Card Purchase Sheetz 0715 State Col",
+              "amount": 124.7,
+              "type": "Debit"
+            },
+            {
+              "date": "08/11/2025",
+              "description": "5377 Debit Card Purchase Giant 6072 State Coll",
+              "amount": 73.74,
+              "type": "Debit"
+            },
+            {
+              "date": "08/11/2025",
+              "description": "0259 Recurring Debit Card Intuit *null Cl.Intuit.C Ca",
+              "amount": 22.26,
+              "type": "Debit"
+            },
+            {
+              "date": "08/11/2025",
+              "description": "ACH Debit Cable Svcs Comcast-Xfinity 7504063",
+              "amount": 465.02,
+              "type": "Debit"
+            },
+            {
+              "date": "08/11/2025",
+              "description": "ACH Debit Opco-ACH Firstenergy XXXXXXXX5752",
+              "amount": 124.71,
+              "type": "Debit"
+            },
+            {
+              "date": "08/11/2025",
+              "description": "ACH Web-Recur Debit Federal Express Epa60717565",
+              "amount": 53.68,
+              "type": "Debit"
+            },
+            {
+              "date": "08/12/2025",
+              "description": "5377 Debit Card Purchase Ihop#3404 State Colle",
+              "amount": 56.31,
+              "type": "Debit"
+            },
+            {
+              "date": "08/12/2025",
+              "description": "0259 Debit Card Purchase DD *Doordash Jerseymik Doordash.Co Ca",
+              "amount": 59.06,
+              "type": "Debit"
+            },
+            {
+              "date": "08/12/2025",
+              "description": "0259 Debit Card Purchase DD *Doordash Dairyquee Doordash.Co Ca",
+              "amount": 28.46,
+              "type": "Debit"
+            },
+            {
+              "date": "08/12/2025",
+              "description": "0259 Recurring Debit Card Ppl*Www.Peoplefinders 800-7188997 Ca",
+              "amount": 24.95,
+              "type": "Debit"
+            },
+            {
+              "date": "08/12/2025",
+              "description": "0259 Recurring Debit Card Andersonsnutrition.Co Andersonsnu PA",
+              "amount": 8.99,
+              "type": "Debit"
+            },
+            {
+              "date": "08/13/2025",
+              "description": "Check number 1370",
+              "amount": 6390.0,
+              "type": "Debit"
+            },
+            {
+              "date": "08/13/2025",
+              "description": "0259 Debit Card Purchase Jersey Mikes Online Uc https://pro NJ",
+              "amount": 41.64,
+              "type": "Debit"
+            },
+            {
+              "date": "08/14/2025",
+              "description": "5377 Recurring Debit Card Extra Space 0259 610-2969199 PA",
+              "amount": 145.62,
+              "type": "Debit"
+            },
+            {
+              "date": "08/15/2025",
+              "description": "ACH Web Billpay Columbia Gas Of 211358290010007",
+              "amount": 35.08,
+              "type": "Debit"
+            },
+            {
+              "date": "08/18/2025",
+              "description": "0259 Debit Card Purchase Sheetz 2475 State Col",
+              "amount": 29.99,
+              "type": "Debit"
+            },
+            {
+              "date": "08/18/2025",
+              "description": "0259 Recurring Debit Card State Farm 800-95663",
+              "amount": 197.92,
+              "type": "Debit"
+            },
+            {
+              "date": "08/18/2025",
+              "description": "0259 Recurring Debit Card State Farm 800-95663",
+              "amount": 679.32,
+              "type": "Debit"
+            },
+            {
+              "date": "08/18/2025",
+              "description": "ACH Web-Recur Debit Federal Express Epa60724746",
+              "amount": 38.42,
+              "type": "Debit"
+            },
+            {
+              "date": "08/20/2025",
+              "description": "ACH Debit Aqua Servi Aqua XXXXXXXXXXX3442",
+              "amount": 33.33,
+              "type": "Debit"
+            },
+            {
+              "date": "08/22/2025",
+              "description": "5377 Debit Card Purchase Wine and Spirits 1412 State Colle PA",
+              "amount": 25.43,
+              "type": "Debit"
+            },
+            {
+              "date": "08/22/2025",
+              "description": "0259 Recurring Debit Card Sqsp* Worksp#19570073 Squarespace NY",
+              "amount": 26.72,
+              "type": "Debit"
+            },
+            {
+              "date": "08/22/2025",
+              "description": "Corporate ACH Elec Svc Ppl Eu 9825065039Lh",
+              "amount": 172.17,
+              "type": "Debit"
+            },
+            {
+              "date": "08/25/2025",
+              "description": "5377 Debit Card Purchase Jersey Mikes 8007 State Colle PA",
+              "amount": 39.92,
+              "type": "Debit"
+            },
+            {
+              "date": "08/25/2025",
+              "description": "5377 Debit Card Purchase Wendy's State College State Colle PA",
+              "amount": 14.91,
+              "type": "Debit"
+            },
+            {
+              "date": "08/25/2025",
+              "description": "0259 Debit Card Purchase DD *Doordash Giant Doordash.Co Ca",
+              "amount": 23.53,
+              "type": "Debit"
+            },
+            {
+              "date": "08/25/2025",
+              "description": "5377 Debit Card Purchase Ic* Instacart Instacart.C Ca",
+              "amount": 168.12,
+              "type": "Debit"
+            },
+            {
+              "date": "08/25/2025",
+              "description": "0259 Debit Card Purchase Prime Video *7D9R92Gs3 888-8023080 Wa",
+              "amount": 4.02,
+              "type": "Debit"
+            },
+            {
+              "date": "08/25/2025",
+              "description": "5377 Debit Card Purchase Ic* Instacart Instacart.C Ca",
+              "amount": 117.23,
+              "type": "Debit"
+            },
+            {
+              "date": "08/25/2025",
+              "description": "0259 Recurring Debit Card Experian* Credit Repo 479-3436237 Ca",
+              "amount": 26.49,
+              "type": "Debit"
+            },
+            {
+              "date": "08/25/2025",
+              "description": "ACH Debit POS Innova Postage Handling XXXXXXXX9341",
+              "amount": 1165.31,
+              "type": "Debit"
+            },
+            {
+              "date": "08/25/2025",
+              "description": "ACH Debit Auto Repl Ezpassxxxxxx6865 5Pxxxxxx5554",
+              "amount": 40.0,
+              "type": "Debit"
+            },
+            {
+              "date": "08/25/2025",
+              "description": "ACH Web-Recur Debit Federal Express Epa55896478",
+              "amount": 13.25,
+              "type": "Debit"
+            },
+            {
+              "date": "08/25/2025",
+              "description": "ACH Web-Recur Debit Federal Express Epa55907637",
+              "amount": 12.62,
+              "type": "Debit"
+            },
+            {
+              "date": "08/26/2025",
+              "description": "0259 Debit Card Purchase Pp*Apple.Com/Bill 402-9357733 Ca",
+              "amount": 4.23,
+              "type": "Debit"
+            },
+            {
+              "date": "08/27/2025",
+              "description": "0259 Debit Card Purchase Walmart.Com 800-92562",
+              "amount": 42.11,
+              "type": "Debit"
+            },
+            {
+              "date": "08/28/2025",
+              "description": "5377 Debit Card Purchase Balfurd Dry Cleaner State Colle PA",
+              "amount": 29.68,
+              "type": "Debit"
+            },
+            {
+              "date": "08/28/2025",
+              "description": "0259 Debit Card Purchase Pp*Apple.Com/Bill 402-9357733 Ca",
+              "amount": 2.99,
+              "type": "Debit"
+            },
+            {
+              "date": "08/28/2025",
+              "description": "5377 Debit Card Purchase Ic* Instacart Instacart.C Ca",
+              "amount": 128.55,
+              "type": "Debit"
+            },
+            {
+              "date": "08/28/2025",
+              "description": "0259 Recurring Debit Card Anc*Ancestry.Com 800-2623787 Ut",
+              "amount": 34.97,
+              "type": "Debit"
+            },
+            {
+              "date": "08/29/2025",
+              "description": "0259 Recurring Debit Card Netflix.Com Netflix.Com Ca",
+              "amount": 26.49,
+              "type": "Debit"
+            }
+          ]
+        }
+      ]
+    },
+    "raw_output": "```json\n{\n  \"accounts\": [\n    {\n      \"account_number\": \"XX-XXXX-5095\",\n      \"account_type\": \"Business Checking\",\n      \"mca_deposit\": [],\n      \"mca_withdrawal\": [\n        {\n          \"mca_name\": \"Ram Payment\",\n          \"date\": \"08/05/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"ACH Debit Pmt Ram XXXXX6276\",\n          \"amount\": 1415.46\n        },\n        {\n          \"mca_name\": \"Ram Payment\",\n          \"date\": \"08/12/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"ACH Debit Pmt Ram XXXXX6276\",\n          \"amount\": 1415.46\n        },\n        {\n          \"mca_name\": \"Ram Payment\",\n          \"date\": \"08/19/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"ACH Debit Pmt Ram XXXXX6276\",\n          \"amount\": 1415.46\n        },\n        {\n          \"mca_name\": \"Ram Payment\",\n          \"date\": \"08/26/2025\",\n          \"type\": \"Debit\",\n          \"description\": \"ACH Debit Pmt Ram XXXXX6276\",\n          \"amount\": 1415.46\n        }\n      ],\n      \"returned_items\": [],\n      \"overdrafts\": [\n        {\n          \"date\": \"08/19/2025\",\n          \"description\": \"Overdraft Item Fee\",\n          \"amount\": 36.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/19/2025\",\n          \"description\": \"Overdraft Item Fee\",\n          \"amount\": 36.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/19/2025\",\n          \"description\": \"Overdraft Item Fee\",\n          \"amount\": 36.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/19/2025\",\n          \"description\": \"Overdraft Item Fee\",\n          \"amount\": 36.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/20/2025\",\n          \"description\": \"Overdraft Item Fee\",\n          \"amount\": 36.0,\n          \"type\": \"Debit\"\n        }\n      ],\n      \"service_charges\": [\n        {\n          \"date\": \"08/01/2025\",\n          \"description\": \"Service Charge Period Ending 07/31/2025\",\n          \"amount\": 50.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/04/2025\",\n          \"description\": \"PNC Merchant Interchng 373187090999 Effective 08-02-25\",\n          \"amount\": 286.49,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/04/2025\",\n          \"description\": \"PNC Merchant Discount 373187090999 Effective 08-02-25\",\n          \"amount\": 80.67,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/04/2025\",\n          \"description\": \"PNC Merchant Fee 373187090999 Effective 08-02-25\",\n          \"amount\": 31.22,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/04/2025\",\n          \"description\": \"PNC Merchant Interchng 373187091997 Effective 08-02-25\",\n          \"amount\": 51.02,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/04/2025\",\n          \"description\": \"PNC Merchant Fee 373187091997 Effective 08-02-25\",\n          \"amount\": 26.94,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/04/2025\",\n          \"description\": \"PNC Merchant Discount 373187091997 Effective 08-02-25\",\n          \"amount\": 23.49,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/04/2025\",\n          \"description\": \"Intl Purch & Adv Fee Vis 0802 Hk\",\n          \"amount\": 1.08,\n          \"type\": \"Debit\"\n        }\n      ],\n      \"atm_cash_withdrawal\": [\n        {\n          \"date\": \"08/08/2025\",\n          \"description\": \"ATM Withdrawal 1781 N Atherton St State Colleg PA\",\n          \"amount\": 300.0,\n          \"type\": \"Debit\"\n        }\n      ],\n      \"internal_transfer_deposit\": [],\n      \"other_transfer_deposit\": [\n        {\n          \"date\": \"08/04/2025\",\n          \"description\": \"Corporate ACH Payments Synchrony Bank A044191\",\n          \"amount\": 3960.4,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 0,\n          \"non_true_revenue\": 0\n        }\n      ],\n      \"internal_transfer_withdrawal\": [],\n      \"other_transfer_withdrawal\": [\n        {\n          \"date\": \"08/04/2025\",\n          \"description\": \"Corporate ACH ACH Pmt Amex Epayment W1350\",\n          \"amount\": 500.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/04/2025\",\n          \"description\": \"Corporate ACH ACH Pmt Amex Epayment W2044\",\n          \"amount\": 500.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/06/2025\",\n          \"description\": \"ACH Web Web Pmts Timepayment Corp Ggj2Vq\",\n          \"amount\": 50.82,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/11/2025\",\n          \"description\": \"Corporate ACH Ccdmthchgs Worldpay 0Pq897\",\n          \"amount\": 130.3,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/11/2025\",\n          \"description\": \"Corporate ACH Ccdmthchgs Worldpay 0Pq895\",\n          \"amount\": 117.4,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/11/2025\",\n          \"description\": \"Corporate ACH Clover Fee Clover Fees 1309527\",\n          \"amount\": 37.1,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/14/2025\",\n          \"description\": \"Corporate ACH Quickbooks Intuit Payroll S 871080727\",\n          \"amount\": 2389.37,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/18/2025\",\n          \"description\": \"ACH Web II Payment Huntington Banks 20067968767\",\n          \"amount\": 668.35,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/18/2025\",\n          \"description\": \"Corporate ACH Padliuccon Unemp Comp EFT\",\n          \"amount\": 154.78,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/18/2025\",\n          \"description\": \"ACH Web Web Pmts Timepayment Corp Wwsswq\",\n          \"amount\": 50.82,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/22/2025\",\n          \"description\": \"ACH Debit Tx Rlm Rocketloans d1dec17bc8c8499\",\n          \"amount\": 582.76,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/22/2025\",\n          \"description\": \"Corporate ACH Online Pmt Capital One Ca0600C81F0Ca01\",\n          \"amount\": 500.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/22/2025\",\n          \"description\": \"Corporate ACH Web Pymt Cardmember Serv ***********7500\",\n          \"amount\": 107.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/28/2025\",\n          \"description\": \"Corporate ACH Quickbooks Intuit Payroll S 871080727\",\n          \"amount\": 4865.68,\n          \"type\": \"Debit\"\n        }\n      ],\n      \"standard_deposit\": [\n        {\n          \"date\": \"08/01/2025\",\n          \"description\": \"Mobile Deposit\",\n          \"amount\": 2500.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"08/01/2025\",\n          \"description\": \"Debit Card Credit Ic* Instacart San Francis Ca\",\n          \"amount\": 15.9,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"08/01/2025\",\n          \"description\": \"PNC Merchant Deposit 373187090999\",\n          \"amount\": 40.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"08/01/2025\",\n          \"description\": \"PNC Merchant Deposit 373187091997\",\n          \"amount\": 2500.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"08/04/2025\",\n          \"description\": \"PNC Merchant Deposit 373187091997 Effective 08-02-25\",\n          \"amount\": 2000.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"08/06/2025\",\n          \"description\": \"PNC Merchant Deposit 373187090999\",\n          \"amount\": 40.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"08/07/2025\",\n          \"description\": \"Mobile Deposit\",\n          \"amount\": 7500.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"08/07/2025\",\n          \"description\": \"PNC Merchant Deposit 373187090999\",\n          \"amount\": 500.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"08/07/2025\",\n          \"description\": \"PNC Merchant Deposit 373187091997\",\n          \"amount\": 32.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"08/11/2025\",\n          \"description\": \"Mobile Deposit\",\n          \"amount\": 906.25,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"08/12/2025\",\n          \"description\": \"Mobile Deposit\",\n          \"amount\": 3000.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"08/12/2025\",\n          \"description\": \"PNC Merchant Deposit 373187090999\",\n          \"amount\": 360.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"08/14/2025\",\n          \"description\": \"Deposit\",\n          \"amount\": 1800.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"08/14/2025\",\n          \"description\": \"Mobile Deposit\",\n          \"amount\": 200.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"08/18/2025\",\n          \"description\": \"Mobile Deposit\",\n          \"amount\": 3000.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"08/20/2025\",\n          \"description\": \"PNC Merchant Deposit 373187090999\",\n          \"amount\": 4245.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"08/21/2025\",\n          \"description\": \"Mobile Deposit\",\n          \"amount\": 500.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"08/25/2025\",\n          \"description\": \"Mobile Deposit\",\n          \"amount\": 500.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"08/26/2025\",\n          \"description\": \"Deposit\",\n          \"amount\": 11235.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"08/27/2025\",\n          \"description\": \"Deposit\",\n          \"amount\": 3000.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"08/27/2025\",\n          \"description\": \"PNC Merchant Deposit 373187090999\",\n          \"amount\": 80.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"08/28/2025\",\n          \"description\": \"Deposit\",\n          \"amount\": 525.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"08/28/2025\",\n          \"description\": \"Debit Card Credit PA 814-4098634 PA\",\n          \"amount\": 1680.1,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"08/29/2025\",\n          \"description\": \"Deposit\",\n          \"amount\": 6926.25,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        }\n      ],\n      \"standard_withdrawal\": [\n        {\n          \"date\": \"08/01/2025\",\n          \"description\": \"0259 Debit Card Purchase Pp*Apple.Com/Bill 402-9357733 Ca\",\n          \"amount\": 13.77,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/01/2025\",\n          \"description\": \"0259 Debit Card Purchase Steels Fudge Oc Ocean City NJ\",\n          \"amount\": 33.35,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/01/2025\",\n          \"description\": \"0259 Debit Card Purchase Jillys T-Shirt Fac Ocean City NJ\",\n          \"amount\": 44.12,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/01/2025\",\n          \"description\": \"0259 Debit Card Purchase Georges General Ocean City NJ\",\n          \"amount\": 43.9,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/01/2025\",\n          \"description\": \"0259 Debit Card Purchase Johnson's Popcorn 609-3985404 NJ\",\n          \"amount\": 21.59,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/04/2025\",\n          \"description\": \"0259 Debit Card Purchase Big Mountain Disposal 570-7535192 PA\",\n          \"amount\": 12.35,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/04/2025\",\n          \"description\": \"0259 Debit Card Purchase Warner Tech-Care Produ 612-6234300 Mn\",\n          \"amount\": 170.27,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/04/2025\",\n          \"description\": \"0259 Debit Card Purchase DD *Doordash Walgreens Doordash.Co Ca\",\n          \"amount\": 34.62,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/04/2025\",\n          \"description\": \"0259 Debit Card Purchase Malvern Pizza and Beer Malvern PA\",\n          \"amount\": 84.29,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/04/2025\",\n          \"description\": \"0259 Debit Card Purchase Pp*Google Youtube Subs 402-9357733 Ca\",\n          \"amount\": 10.59,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/04/2025\",\n          \"description\": \"0259 Debit Card Purchase Paypal *Customsx2U8 18017054665 Hk\",\n          \"amount\": 35.98,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/04/2025\",\n          \"description\": \"0259 Debit Card Purchase Wawa 8091 Malvern PA\",\n          \"amount\": 24.31,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/04/2025\",\n          \"description\": \"0259 Debit Card Purchase Pp*Google Starz 402-9357733 Ca\",\n          \"amount\": 11.65,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/04/2025\",\n          \"description\": \"0259 Debit Card Purchase Sheetz 0461 Duncannon\",\n          \"amount\": 3.9,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/04/2025\",\n          \"description\": \"5377 Debit Card Purchase Ic* Instacart Instacart.C Ca\",\n          \"amount\": 90.88,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/04/2025\",\n          \"description\": \"Corporate ACH Rent S379Ao1 244511942\",\n          \"amount\": 2204.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/04/2025\",\n          \"description\": \"ACH Debit Cable Svcs Comcast-Xfinity 5548989\",\n          \"amount\": 448.72,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/04/2025\",\n          \"description\": \"ACH Web-Recur Debit Federal Express Epa55718704\",\n          \"amount\": 38.36,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/05/2025\",\n          \"description\": \"Check number 1360\",\n          \"amount\": 11500.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/05/2025\",\n          \"description\": \"0259 Debit Card Purchase Fish Window Cleaning 3 814-6827181 PA\",\n          \"amount\": 28.56,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/05/2025\",\n          \"description\": \"0259 Recurring Debit Card Disney Plus 888-9057888 Ca\",\n          \"amount\": 16.95,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/05/2025\",\n          \"description\": \"ACH Debit Mailworks The Mailworks XXXXXXXX8346\",\n          \"amount\": 845.73,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/06/2025\",\n          \"description\": \"5377 Recurring Debit Card Experian* Credit Repo 479-3436237 Ca\",\n          \"amount\": 26.49,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/07/2025\",\n          \"description\": \"Check number 1365\",\n          \"amount\": 2065.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/07/2025\",\n          \"description\": \"Check number 1369\",\n          \"amount\": 272.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/07/2025\",\n          \"description\": \"0259 Debit Card Purchase DD *Doordash Giant Doordash.Co Ca\",\n          \"amount\": 26.24,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/07/2025\",\n          \"description\": \"5377 Debit Card Purchase One On One Fitness Con 814-2341625 PA\",\n          \"amount\": 95.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/07/2025\",\n          \"description\": \"POS Purchase Lowe's #22 Mill Hall PA\",\n          \"amount\": 72.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/07/2025\",\n          \"description\": \"ACH Debit Auto Repl Ezpassxxxxxx6865 5Pxxxxxx9514\",\n          \"amount\": 25.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/08/2025\",\n          \"description\": \"0259 Debit Card Purchase Staples Inc staples.c\",\n          \"amount\": 45.55,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/08/2025\",\n          \"description\": \"0259 Debit Card Purchase Sheetz 2122 State Col\",\n          \"amount\": 35.66,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/08/2025\",\n          \"description\": \"5377 Debit Card Purchase Sq *Appalachian Movers State Colle PA\",\n          \"amount\": 100.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/08/2025\",\n          \"description\": \"0259 Debit Card Purchase Prairie Labs Inc 952-9087654 Mn\",\n          \"amount\": 1298.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/11/2025\",\n          \"description\": \"Check number 1178\",\n          \"amount\": 1500.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/11/2025\",\n          \"description\": \"0259 Debit Card Purchase Walmart.Com 800-92562\",\n          \"amount\": 62.53,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/11/2025\",\n          \"description\": \"0259 Debit Card Purchase Postage Handling 518-4359300 NY\",\n          \"amount\": 1206.1,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/11/2025\",\n          \"description\": \"5377 Debit Card Purchase Sq *Appalachian Movers State Colle PA\",\n          \"amount\": 760.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/11/2025\",\n          \"description\": \"5377 Debit Card Purchase Sheetz 0715 State Col\",\n          \"amount\": 124.7,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/11/2025\",\n          \"description\": \"5377 Debit Card Purchase Giant 6072 State Coll\",\n          \"amount\": 73.74,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/11/2025\",\n          \"description\": \"0259 Recurring Debit Card Intuit *null Cl.Intuit.C Ca\",\n          \"amount\": 22.26,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/11/2025\",\n          \"description\": \"ACH Debit Cable Svcs Comcast-Xfinity 7504063\",\n          \"amount\": 465.02,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/11/2025\",\n          \"description\": \"ACH Debit Opco-ACH Firstenergy XXXXXXXX5752\",\n          \"amount\": 124.71,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/11/2025\",\n          \"description\": \"ACH Web-Recur Debit Federal Express Epa60717565\",\n          \"amount\": 53.68,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/12/2025\",\n          \"description\": \"5377 Debit Card Purchase Ihop#3404 State Colle\",\n          \"amount\": 56.31,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/12/2025\",\n          \"description\": \"0259 Debit Card Purchase DD *Doordash Jerseymik Doordash.Co Ca\",\n          \"amount\": 59.06,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/12/2025\",\n          \"description\": \"0259 Debit Card Purchase DD *Doordash Dairyquee Doordash.Co Ca\",\n          \"amount\": 28.46,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/12/2025\",\n          \"description\": \"0259 Recurring Debit Card Ppl*Www.Peoplefinders 800-7188997 Ca\",\n          \"amount\": 24.95,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/12/2025\",\n          \"description\": \"0259 Recurring Debit Card Andersonsnutrition.Co Andersonsnu PA\",\n          \"amount\": 8.99,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/13/2025\",\n          \"description\": \"Check number 1370\",\n          \"amount\": 6390.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/13/2025\",\n          \"description\": \"0259 Debit Card Purchase Jersey Mikes Online Uc https://pro NJ\",\n          \"amount\": 41.64,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/14/2025\",\n          \"description\": \"5377 Recurring Debit Card Extra Space 0259 610-2969199 PA\",\n          \"amount\": 145.62,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/15/2025\",\n          \"description\": \"ACH Web Billpay Columbia Gas Of 211358290010007\",\n          \"amount\": 35.08,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/18/2025\",\n          \"description\": \"0259 Debit Card Purchase Sheetz 2475 State Col\",\n          \"amount\": 29.99,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/18/2025\",\n          \"description\": \"0259 Recurring Debit Card State Farm 800-95663\",\n          \"amount\": 197.92,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/18/2025\",\n          \"description\": \"0259 Recurring Debit Card State Farm 800-95663\",\n          \"amount\": 679.32,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/18/2025\",\n          \"description\": \"ACH Web-Recur Debit Federal Express Epa60724746\",\n          \"amount\": 38.42,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/20/2025\",\n          \"description\": \"ACH Debit Aqua Servi Aqua XXXXXXXXXXX3442\",\n          \"amount\": 33.33,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/22/2025\",\n          \"description\": \"5377 Debit Card Purchase Wine and Spirits 1412 State Colle PA\",\n          \"amount\": 25.43,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/22/2025\",\n          \"description\": \"0259 Recurring Debit Card Sqsp* Worksp#19570073 Squarespace NY\",\n          \"amount\": 26.72,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/22/2025\",\n          \"description\": \"Corporate ACH Elec Svc Ppl Eu 9825065039Lh\",\n          \"amount\": 172.17,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/25/2025\",\n          \"description\": \"5377 Debit Card Purchase Jersey Mikes 8007 State Colle PA\",\n          \"amount\": 39.92,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/25/2025\",\n          \"description\": \"5377 Debit Card Purchase Wendy's State College State Colle PA\",\n          \"amount\": 14.91,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/25/2025\",\n          \"description\": \"0259 Debit Card Purchase DD *Doordash Giant Doordash.Co Ca\",\n          \"amount\": 23.53,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/25/2025\",\n          \"description\": \"5377 Debit Card Purchase Ic* Instacart Instacart.C Ca\",\n          \"amount\": 168.12,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/25/2025\",\n          \"description\": \"0259 Debit Card Purchase Prime Video *7D9R92Gs3 888-8023080 Wa\",\n          \"amount\": 4.02,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/25/2025\",\n          \"description\": \"5377 Debit Card Purchase Ic* Instacart Instacart.C Ca\",\n          \"amount\": 117.23,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/25/2025\",\n          \"description\": \"0259 Recurring Debit Card Experian* Credit Repo 479-3436237 Ca\",\n          \"amount\": 26.49,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/25/2025\",\n          \"description\": \"ACH Debit POS Innova Postage Handling XXXXXXXX9341\",\n          \"amount\": 1165.31,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/25/2025\",\n          \"description\": \"ACH Debit Auto Repl Ezpassxxxxxx6865 5Pxxxxxx5554\",\n          \"amount\": 40.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/25/2025\",\n          \"description\": \"ACH Web-Recur Debit Federal Express Epa55896478\",\n          \"amount\": 13.25,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/25/2025\",\n          \"description\": \"ACH Web-Recur Debit Federal Express Epa55907637\",\n          \"amount\": 12.62,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/26/2025\",\n          \"description\": \"0259 Debit Card Purchase Pp*Apple.Com/Bill 402-9357733 Ca\",\n          \"amount\": 4.23,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/27/2025\",\n          \"description\": \"0259 Debit Card Purchase Walmart.Com 800-92562\",\n          \"amount\": 42.11,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/28/2025\",\n          \"description\": \"5377 Debit Card Purchase Balfurd Dry Cleaner State Colle PA\",\n          \"amount\": 29.68,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/28/2025\",\n          \"description\": \"0259 Debit Card Purchase Pp*Apple.Com/Bill 402-9357733 Ca\",\n          \"amount\": 2.99,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/28/2025\",\n          \"description\": \"5377 Debit Card Purchase Ic* Instacart Instacart.C Ca\",\n          \"amount\": 128.55,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/28/2025\",\n          \"description\": \"0259 Recurring Debit Card Anc*Ancestry.Com 800-2623787 Ut\",\n          \"amount\": 34.97,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/29/2025\",\n          \"description\": \"0259 Recurring Debit Card Netflix.Com Netflix.Com Ca\",\n          \"amount\": 26.49,\n          \"type\": \"Debit\"\n        }\n      ]\n    }\n  ]\n}\n```",
+    "token_count": {
+      "estimated_tokens": 2180
+    },
+    "failure_reason": null
+  }
+}

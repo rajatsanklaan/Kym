@@ -1,0 +1,2624 @@
+{
+  "document_name": "Case70.pdf",
+  "pipeline_status": "completed",
+  "processing_metadata": {
+    "start_time": "2026-02-04T15:08:15.003126",
+    "end_time": "2026-02-04T15:12:36.017021",
+    "parsing_time_seconds": 127.312118,
+    "bsi_time_seconds": 133.68877,
+    "total_time_seconds": 261.00088800000003
+  },
+  "parsing_agent_result": {
+    "agent_name": "parsing_agent",
+    "processing_status": "success",
+    "start_time": "2026-02-04T15:08:15.008077",
+    "end_time": "2026-02-04T15:10:22.318613",
+    "parsed_json": {
+      "bank_statement_information": {
+        "bank_name": "TRUIST",
+        "account_holder": "BENNETT'S HAULING LLC",
+        "statement_start_date": "10/01/2025",
+        "statement_end_date": "10/31/2025",
+        "n_days": 31,
+        "n_month": [
+          10
+        ],
+        "business_address": "405 E UNION ST MARSHVILLE NC 28103-1272"
+      },
+      "accounts": [
+        {
+          "account_number": "1340027833488",
+          "account_type": "TRUIST SIMPLE BUSINESS CHECKING",
+          "account_summary": {
+            "beginning_balance": 1729.46,
+            "ending_balance": 2185.7,
+            "total_deposits": 32108.87,
+            "total_withdrawals": 31652.63,
+            "total_deposits_count": null,
+            "total_withdrawals_count": null,
+            "avg_daily_balance": null,
+            "overdraft_days": null
+          },
+          "transactions": [
+            {
+              "date": "10/01/2025",
+              "description": "CHECK # *15423226",
+              "amount": 1100.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/01/2025",
+              "description": "DEBIT CARD PURCHASE-PIN 09-30-25 HAGERSTOWN MD 4298 AC & T GARLAND GROH",
+              "amount": 10.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/01/2025",
+              "description": "DEBIT CARD PURCHASE-PIN 09-30-25 MONROE 6937 TARGET T-2074",
+              "amount": 99.48,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/01/2025",
+              "description": "DEBIT CARD PURCHASE BKG*HOTEL AT BOOKI 09-30 147-036-3250 NY 6937",
+              "amount": 90.51,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/01/2025",
+              "description": "ACH CREDIT SURELINE CAPITAL XXXX BENNETTS HAULING LLC",
+              "amount": 456.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "10/02/2025",
+              "description": "CHECK # 1048",
+              "amount": 510.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/02/2025",
+              "description": "DEBIT CARD MISC DEBIT APPLE CASH SENT MO 10-01 1INFINITELOOP CA 6937",
+              "amount": 60.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/02/2025",
+              "description": "DEBIT CARD PURCHASE-PIN 10-01-25 MARSHVILLE 6937 SPEEDWAY 46982",
+              "amount": 116.16,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/02/2025",
+              "description": "VISA MONEY TRANSFER CREDIT 10-01-25 NEW YORK CITY NY 6937 VENMO*BENNETT MASSON",
+              "amount": 48.1,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "10/02/2025",
+              "description": "VISA MONEY TRANSFER CREDIT 10-01-25 CUPERTINO CA 6937 APPLE CASH INST XFER",
+              "amount": 64.02,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "10/02/2025",
+              "description": "VISA MONEY TRANSFER CREDIT 10-01-25 NEW YORK CITY NY 6937 VENMO*BENNETT MASSON",
+              "amount": 93.34,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "10/02/2025",
+              "description": "VISA MONEY TRANSFER CREDIT 10-01-25 VISA DIRECT NY 6937 VENMO*BENNETT MASSON",
+              "amount": 731.97,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "10/03/2025",
+              "description": "DEBIT CARD PURCHASE QUALITY INN OK339 09-22 SALLISAW OK 4298",
+              "amount": 80.44,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/03/2025",
+              "description": "DEBIT CARD PURCHASE HARRAHS HOTELS ADV 10-02 8284977777 NC 6937",
+              "amount": 83.68,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/03/2025",
+              "description": "DEBIT CARD PURCHASE CASCADE FALLS BAR 10-01 CHEROKEE NC 6937",
+              "amount": 10.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/03/2025",
+              "description": "DEBIT CARD PURCHASE SQ *OLE SMOKY DIST 10-02 Gatlinburg TN 6937",
+              "amount": 21.9,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/03/2025",
+              "description": "DEBIT CARD PURCHASE-PIN 10-02-25 SEVIERVILLE 6937 TARGET STORE T-2903",
+              "amount": 66.76,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/03/2025",
+              "description": "DEBIT CARD PURCHASE Partners on Bookin 10-02 Amsterdam 6937",
+              "amount": 105.39,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/03/2025",
+              "description": "DEBIT CARD PURCHASE PUBLIX #1713 10-02 SEVIERVILLE TN 6937",
+              "amount": 78.73,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/03/2025",
+              "description": "INTERNET PAYMENT WEB PMTS MON AQUA&FITNESS 450R4R",
+              "amount": 50.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/03/2025",
+              "description": "ACH CORP DEBIT MOBILE PMT CAPITAL ONE Masson Bennett CUSTOMER ID CA091109A933595",
+              "amount": 100.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/03/2025",
+              "description": "DEBIT CARD PURCHASE-PIN 10-03-25 SUFFOLK 4298 7-ELEVEN",
+              "amount": 35.01,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/03/2025",
+              "description": "INT'L SERVICE ASSESSMENT FEE Partners on Bookin 10-02 Amsterdam 6937",
+              "amount": 3.16,
+              "type": "Debit",
+              "category": "Service Charges/Fees"
+            },
+            {
+              "date": "10/03/2025",
+              "description": "ACH CREDIT SURELINE CAPITAL XXXX BENNETTS HAULING LLC",
+              "amount": 1037.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "10/03/2025",
+              "description": "ACH CREDIT SURELINE CAPITAL XXXX BENNETTS HAULING LLC",
+              "amount": 422.5,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "10/03/2025",
+              "description": "INCOMING WIRE TRANSFER WIRE REF# 20251003-00022480",
+              "amount": 1559.5,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 0
+            },
+            {
+              "date": "10/06/2025",
+              "description": "CHECK # 1047",
+              "amount": 530.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "DEBIT CARD PURCHASE HARRAHS CHEROKEE H 10-03 CHEROKEE NC 6937",
+              "amount": 37.61,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "DEBIT CARD PURCHASE CHEROKEE LOBBY CAF 10-02 CHEROKEE NC 6937",
+              "amount": 30.38,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "DEBIT CARD PURCHASE CKE*GATLINBURG BRE 10-03 SEVIERVILLE TN 6937",
+              "amount": 38.91,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "DEBIT CARD PURCHASE LIQUOR & WINE OF T 10-02 GATLINBURG TN 6937",
+              "amount": 64.71,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "DEBIT CARD RECURRING PYMT APPLE.COM/BILL 10-03 866-712-7753 CA 6937",
+              "amount": 41.63,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "DEBIT CARD PURCHASE-PIN 10-03-25 SUFFOLK VA 4298 RACEWAY 6793",
+              "amount": 125.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "DEBIT CARD PURCHASE MCM GATLINBURG ALD 10-03 GATLINBURG TN 6937",
+              "amount": 94.5,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "DEBIT CARD PURCHASE LIQUOR & WINE OF T 10-03 GATLINBURG TN 6937",
+              "amount": 49.37,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "DEBIT CARD PURCHASE-PIN 10-03-25 PIGEON FORGE TN 6937 BOOT FACTORY OUTLET",
+              "amount": 329.24,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "DEBIT CARD PURCHASE-PIN 10-03-25 SEVIERVILLE 6937 TARGET STORE T-2903",
+              "amount": 54.8,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "VISA MONEY TRANSFER DEBIT 10-04-25 VISA DIRECT NY 6937 VENMO *LOGAN RUSHING",
+              "amount": 160.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "DEBIT CARD PURCHASE CRACKER BARREL #51 10-04 SEVIERVILLE TN 6937",
+              "amount": 89.22,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "DEBIT CARD PURCHASE STONEBROOK LODGE C 10-05 CHEROKEE NC 6937",
+              "amount": 208.02,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "DEBIT CARD PURCHASE VALLEY RIVER HOTEL 10-05 8284977777 NC 6937",
+              "amount": 380.32,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "DEBIT CARD PURCHASE SUPER.COM * HOTE 10-04 844-461-2577 CA 6937",
+              "amount": 519.1,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "DEBIT CARD NON-TRUIST ATM FEE 10-04-25 CHEROKEE 6937 TNSSMART",
+              "amount": 3.0,
+              "type": "Debit",
+              "category": "Service Charges/Fees"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "ATM NETWORK CASH WITHDRAWAL 10-04-25 CHEROKEE 6937 TNSSMART",
+              "amount": 508.99,
+              "type": "Debit",
+              "category": "ATM/Cash Withdrawal"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "DEBIT CARD PURCHASE THE CHEROKEE TOWER 10-04 CHEROKEE NC 6937",
+              "amount": 38.7,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "DEBIT CARD PURCHASE BRIO-CHEROKEE 10-04 CHEROKEE NC 6937",
+              "amount": 170.98,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "DEBIT CARD RECURRING PYMT MICROSOFT*XBOX GAM 10-05 MICROSOFT.COM WA 6937",
+              "amount": 21.34,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "DEBIT CARD RETURN VALLEY RIVER HOTEL 10-05 8284977777 NC 6937",
+              "amount": 39.22,
+              "type": "Credit",
+              "category": "Returned Item"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "VISA MONEY TRANSFER CREDIT 10-03-25 NEW YORK CITY NY 6937 VENMO*BENNETT MASSON",
+              "amount": 108.08,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "10/06/2025",
+              "description": "DEBIT CARD RETURN VALLEY RIVER HOTEL 10-05 8284977777 NC 6937",
+              "amount": 341.1,
+              "type": "Credit",
+              "category": "Returned Item"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "CASH DEPOSIT 10-06-25 20:59 A816 MARSHVILLE BRANCH 18169197",
+              "amount": 2100.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "10/07/2025",
+              "description": "DEBIT CARD PURCHASE HARRAHS CHEROKEE H 10-06 CHEROKEE NC 6937",
+              "amount": 37.61,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/07/2025",
+              "description": "DEBIT CARD PURCHASE HARRAHS HOTELS ADV 10-06 8284977777 NC 6937",
+              "amount": 124.6,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/07/2025",
+              "description": "DEBIT CARD PURCHASE GORDON RAMSAY FOOD 10-05 CHEROKEE NC 6937",
+              "amount": 37.01,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/07/2025",
+              "description": "DEBIT CARD PURCHASE-PIN 10-06-25 MORGANTON 6937 SPEEDWAY 46962",
+              "amount": 101.37,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/07/2025",
+              "description": "DEBIT CARD RECURRING PYMT APTS BENNETT 10-07 APARTMENTS.CO GA 6937",
+              "amount": 2157.75,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/07/2025",
+              "description": "OVERDRAFT FEE NOT CHARGED 36",
+              "amount": 36.0,
+              "type": "Debit",
+              "category": "Overdraft"
+            },
+            {
+              "date": "10/07/2025",
+              "description": "VISA MONEY TRANSFER CREDIT 10-06-25 VISA DIRECT NY 6937 VENMO*BENNETT MASSON",
+              "amount": 22.6,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "10/07/2025",
+              "description": "VISA MONEY TRANSFER CREDIT 10-06-25 CUPERTINO CA 6937 APPLE CASH INST XFER",
+              "amount": 114.66,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "10/07/2025",
+              "description": "ACH CREDIT SURELINE CAPITAL XXXX BENNETTS HAULING LLC",
+              "amount": 429.5,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "10/07/2025",
+              "description": "NO CHARGE POSITIVE AVAIL BAL 36",
+              "amount": 36.0,
+              "type": "Credit",
+              "category": "Service Charges/Fees"
+            },
+            {
+              "date": "10/08/2025",
+              "description": "DEBIT CARD PURCHASE HARRAHS CHEROKEE H 10-07 CHEROKEE NC 6937",
+              "amount": 44.6,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/08/2025",
+              "description": "DEBIT CARD PURCHASE THE CHEROKEE STARB 10-06 CHEROKEE NC 6937",
+              "amount": 26.77,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/08/2025",
+              "description": "DEBIT CARD PURCHASE TACO BELL 042087 10-06 ASHEVILLE NC 6937",
+              "amount": 34.61,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/08/2025",
+              "description": "DEBIT CARD MISC DEBIT APPLE CASH SENT MO 10-07 1INFINITELOOP CA 6937",
+              "amount": 300.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/08/2025",
+              "description": "DEBIT CARD RECURRING PYMT NATL GEN INS*RECUR 10-07 800-462-2123 NY 6937",
+              "amount": 425.28,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/08/2025",
+              "description": "OVERDRAFT ITEM FEE ($36/ITEM) 36",
+              "amount": 36.0,
+              "type": "Debit",
+              "category": "Overdraft"
+            },
+            {
+              "date": "10/08/2025",
+              "description": "VISA MONEY TRANSFER CREDIT 10-08-25 CUPERTINO CA 6937 APPLE CASH INST XFER",
+              "amount": 22.66,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "10/09/2025",
+              "description": "DEBIT CARD RECURRING PYMT APPLE.COM/BILL 10-08 866-712-7753 CA 6937",
+              "amount": 2.99,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/09/2025",
+              "description": "ACH CREDIT SURELINE CAPITAL XXXX BENNETTS HAULING LLC",
+              "amount": 351.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "10/10/2025",
+              "description": "DEBIT CARD PURCHASE-PIN 10-09-25 MONROE 4298 BP#5054069AMOCO",
+              "amount": 20.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/10/2025",
+              "description": "VISA MONEY TRANSFER CREDIT 10-09-25 VISA DIRECT NY 6937 VENMO*BENNETT MASSON",
+              "amount": 62.46,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "10/10/2025",
+              "description": "VISA MONEY TRANSFER CREDIT 10-10-25 VISA DIRECT NY 6937 VENMO*BENNETT MASSON",
+              "amount": 245.63,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "10/10/2025",
+              "description": "ACH CREDIT SURELINE CAPITAL XXXX BENNETTS HAULING LLC",
+              "amount": 486.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "10/14/2025",
+              "description": "DEBIT CARD MISC DEBIT APPLE CASH SENT MO 10-10 1INFINITELOOP CA 6937",
+              "amount": 200.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/14/2025",
+              "description": "DEBIT CARD PURCHASE ICI*FEETOWN OF MAR 10-10 866-342-9266 MA 6937",
+              "amount": 6.1,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/14/2025",
+              "description": "DEBIT CARD PURCHASE TOWN OF MARSHVILLE 10-10 704-624-2515 NC 6937",
+              "amount": 174.3,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/14/2025",
+              "description": "DEBIT CARD PURCHASE-PIN 10-10-25 CONCORD 6937 ADVANCE AUTO PA",
+              "amount": 25.98,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/14/2025",
+              "description": "DEBIT CARD PURCHASE TIRE 4 LESS CLT 10-10 CHARLOTTE NC 6937",
+              "amount": 56.38,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/14/2025",
+              "description": "DEBIT CARD PURCHASE-PIN 10-10-25 CONCORD 6937 7-ELEVEN 35558",
+              "amount": 49.99,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/14/2025",
+              "description": "DEBIT CARD PURCHASE LOGANS ROADHOUSE 2 10-10 MONROE NC 6937",
+              "amount": 60.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/14/2025",
+              "description": "DEBIT CARD PURCHASE THE WHEEL 10-10 MARSHVILLE NC 6937",
+              "amount": 13.54,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/14/2025",
+              "description": "DEBIT CARD PURCHASE MARSHVILLE ABC BOA 10-10 MARSHVILLE NC 6937",
+              "amount": 16.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/14/2025",
+              "description": "DEBIT CARD PURCHASE-PIN 10-10-25 MARSHVILLE 6937 SPEEDWAY 46982",
+              "amount": 5.01,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/14/2025",
+              "description": "DEBIT CARD MISC DEBIT APPLE CASH SENT MO 10-12 1INFINITELOOP CA 6937",
+              "amount": 105.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/14/2025",
+              "description": "DEBIT CARD RECURRING PYMT HOS247 LLC 10-12 HOS247.COM CA 6937",
+              "amount": 25.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/14/2025",
+              "description": "DEBIT CARD MISC DEBIT APPLE CASH SENT MO 10-13 1INFINITELOOP CA 6937",
+              "amount": 275.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/14/2025",
+              "description": "DEBIT CARD PURCHASE Hotel at Booking.c 10-13 312-4560000 DE 6937",
+              "amount": 90.95,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/14/2025",
+              "description": "ACH CORP DEBIT MOBILE PMT CAPITAL ONE Masson Bennett CUSTOMER ID CA0884449FC8C2D",
+              "amount": 50.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/14/2025",
+              "description": "DEBIT CARD PURCHASE-PIN 10-14-25 ROCKY MOUNT 4298 SPEEDWAY 44694",
+              "amount": 125.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/14/2025",
+              "description": "VISA MONEY TRANSFER CREDIT 10-13-25 CUPERTINO CA 6937 APPLE CASH INST XFER",
+              "amount": 39.4,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "10/14/2025",
+              "description": "VISA MONEY TRANSFER CREDIT 10-12-25 CUPERTINO CA 6937 APPLE CASH INST XFER",
+              "amount": 64.02,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "10/14/2025",
+              "description": "VISA MONEY TRANSFER CREDIT 10-13-25 CUPERTINO CA 6937 APPLE CASH INST XFER",
+              "amount": 184.2,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "10/14/2025",
+              "description": "ACH CREDIT SURELINE CAPITAL XXXX BENNETTS HAULING LLC",
+              "amount": 499.5,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "10/15/2025",
+              "description": "CHECK # 1049",
+              "amount": 1476.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/15/2025",
+              "description": "DEBIT CARD PURCHASE SHELL OIL 57543975 10-13 LEWISTON NC 4298",
+              "amount": 25.07,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/15/2025",
+              "description": "DEBIT CARD PURCHASE COUNTRY INN & SUIT 10-13 ROCKY MOUNT NC 4298",
+              "amount": 94.14,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/15/2025",
+              "description": "0077716327 BetrLink LLC 2503 MASSON BENNETT",
+              "amount": 309.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/15/2025",
+              "description": "ACH CORP DEBIT MOBILE PMT CAPITAL ONE Masson Bennett CUSTOMER ID CA0324192846032",
+              "amount": 210.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/15/2025",
+              "description": "ACH CORP DEBIT ONLINE PMT CAPITAL ONE Masson Bennett CUSTOMER ID CA087A0696064E1",
+              "amount": 254.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/15/2025",
+              "description": "OVERDRAFT ITEM FEE ($36/ITEM) 36",
+              "amount": 36.0,
+              "type": "Debit",
+              "category": "Overdraft"
+            },
+            {
+              "date": "10/15/2025",
+              "description": "ACH CREDIT SURELINE CAPITAL XXXX BENNETTS HAULING LLC",
+              "amount": 1638.74,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "10/16/2025",
+              "description": "DEBIT CARD PURCHASE SLEEP INN & SUITES 10-15 CULLMAN AL 4298",
+              "amount": 95.34,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/16/2025",
+              "description": "ACH CREDIT SURELINE CAPITAL XXXX BENNETTS HAULING LLC",
+              "amount": 740.25,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "10/17/2025",
+              "description": "CHECK # *17013714",
+              "amount": 3100.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/17/2025",
+              "description": "DEBIT CARD PURCHASE-PIN 10-16-25 ATOKA OK 4298 LOVE'S #0268 INSIDE",
+              "amount": 21.19,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/17/2025",
+              "description": "DEBIT CARD PURCHASE BKG*HOTEL AT BOOKI 10-16 147-036-3250 NY 6937",
+              "amount": 63.51,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/17/2025",
+              "description": "VISA MONEY TRANSFER CREDIT 10-16-25 CUPERTINO CA 6937 APPLE CASH INST XFER",
+              "amount": 398.92,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "10/17/2025",
+              "description": "INCOMING WIRE TRANSFER WIRE REF# 20251017-00032078",
+              "amount": 1118.75,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 0
+            },
+            {
+              "date": "10/17/2025",
+              "description": "ACH CREDIT SURELINE CAPITAL XXXX BENNETTS HAULING LLC",
+              "amount": 1686.62,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "10/20/2025",
+              "description": "DEBIT CARD PURCHASE COMFORT SUITES TXF 10-16 WACO TX 4298",
+              "amount": 95.72,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/20/2025",
+              "description": "DEBIT CARD PURCHASE DD *DOORDASH CHICK 10-17 DOORDASH.COM CA 4298",
+              "amount": 20.69,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/20/2025",
+              "description": "DEBIT CARD PURCHASE MICROTEL INN & SUI 10-17 CLAREMORE OK 4298",
+              "amount": 246.3,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/20/2025",
+              "description": "DEBIT CARD PURCHASE DD *DOORDASH LACAN 10-18 855-973-1040 CA 4298",
+              "amount": 21.51,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/20/2025",
+              "description": "DEBIT CARD MISC DEBIT APPLE CASH SENT MO 10-18 1INFINITELOOP CA 6937",
+              "amount": 65.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/20/2025",
+              "description": "DEBIT CARD MISC DEBIT APPLE CASH SENT MO 10-19 1INFINITELOOP CA 6937",
+              "amount": 565.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/20/2025",
+              "description": "DEBIT CARD RECURRING PYMT APPLE.COM/BILL 10-19 866-712-7753 CA 6937",
+              "amount": 11.73,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/20/2025",
+              "description": "VISA MONEY TRANSFER CREDIT 10-17-25 VISA DIRECT NY 6937 VENMO* BENNETT MASSON",
+              "amount": 52.92,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "10/20/2025",
+              "description": "CASH DEPOSIT 10-18-25 12:47 A816 MARSHVILLE BRANCH 18161939",
+              "amount": 565.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "10/20/2025",
+              "description": "DEPOSIT",
+              "amount": 3350.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "10/21/2025",
+              "description": "DEBIT CARD PURCHASE IPFS Corporation 10-20 Kansas City MO 6937",
+              "amount": 3410.83,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/21/2025",
+              "description": "TRUIST ATM CASH WITHDRAWAL 10-21-25 6937 MARSHVILLE BRANCH",
+              "amount": 500.0,
+              "type": "Debit",
+              "category": "ATM/Cash Withdrawal"
+            },
+            {
+              "date": "10/21/2025",
+              "description": "SERVICE CHARGES - PRIOR PERIOD",
+              "amount": 130.9,
+              "type": "Debit",
+              "category": "Service Charges/Fees"
+            },
+            {
+              "date": "10/21/2025",
+              "description": "VISA MONEY TRANSFER CREDIT 10-20-25 CUPERTINO CA 6937 APPLE CASH INST XFER",
+              "amount": 157.6,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "10/21/2025",
+              "description": "ACH CREDIT SURELINE CAPITAL XXXX BENNETTS HAULING LLC",
+              "amount": 1200.75,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "10/22/2025",
+              "description": "DEBIT CARD PURCHASE QUAILITY INN&SUITE 10-21 CLARKSVILLE AR 4298",
+              "amount": 94.99,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/22/2025",
+              "description": "DEBIT CARD PURCHASE-PIN 10-21-25 MARSHVILLE NC 6937 FOOD LION #0422",
+              "amount": 9.13,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/22/2025",
+              "description": "DEBIT CARD PURCHASE-PIN 10-21-25 CONWAY 4298 DUSTY'S",
+              "amount": 15.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/22/2025",
+              "description": "DEBIT CARD PURCHASE-PIN 10-21-25 MORRILTON AR 4298 ROBERSON TIRE SERVICE, IN",
+              "amount": 181.02,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/22/2025",
+              "description": "VISA MONEY TRANSFER CREDIT 10-21-25 CUPERTINO CA 6937 APPLE CASH INST XFER",
+              "amount": 300.42,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "10/22/2025",
+              "description": "ACH CREDIT SURELINE CAPITAL XXXX BENNETTS HAULING LLC",
+              "amount": 406.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "10/23/2025",
+              "description": "DEBIT CARD PURCHASE-PIN 10-22-25 SUMMIT 4298 TA EXPRESS TRUC",
+              "amount": 445.91,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/23/2025",
+              "description": "VISA MONEY TRANSFER DEBIT 10-22-25 VISA DIRECT NY 6937 VENMO *KINLEY CALLOWAY",
+              "amount": 150.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/23/2025",
+              "description": "DEBIT CARD PURCHASE BKG*HOTEL AT BOOKI 10-23 147-036-3250 NY 6937",
+              "amount": 80.18,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/23/2025",
+              "description": "VISA MONEY TRANSFER CREDIT 10-23-25 CUPERTINO CA 6937 APPLE CASH INST XFER",
+              "amount": 49.25,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "10/23/2025",
+              "description": "CASH DEPOSIT 10-23-25 20:35 A816 MARSHVILLE BRANCH 18163014",
+              "amount": 380.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "10/24/2025",
+              "description": "CHECK # 1050",
+              "amount": 1990.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/24/2025",
+              "description": "DEBIT CARD PURCHASE HIGHLAND SUITES 10-23 MINOT ND 4298",
+              "amount": 50.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/24/2025",
+              "description": "DEBIT CARD PURCHASE-PIN 10-23-25 JAMESTOWN ND 4298 SHELL SERVICE STATION",
+              "amount": 15.1,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/24/2025",
+              "description": "DEBIT CARD PURCHASE-PIN 10-23-25 VALLEY CITY ND 4298 LOVE'S #0849 INSIDE",
+              "amount": 150.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/24/2025",
+              "description": "VISA MONEY TRANSFER DEBIT 10-23-25 VISA DIRECT NY 6937 VENMO *KAY EDWARDS",
+              "amount": 20.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/24/2025",
+              "description": "VISA MONEY TRANSFER DEBIT 10-23-25 VISA DIRECT NY 6937 VENMO *KAY EDWARDS",
+              "amount": 10.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/24/2025",
+              "description": "VISA MONEY TRANSFER DEBIT 10-23-25 VISA DIRECT NY 6937 VENMO *CONNOR POLHEMUS",
+              "amount": 804.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/24/2025",
+              "description": "DEBIT CARD PURCHASE-PIN 10-23-25 MARSHVILLE 6937 SPEEDWAY 46982",
+              "amount": 107.02,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/24/2025",
+              "description": "VISA MONEY TRANSFER CREDIT 10-24-25 CUPERTINO CA 6937 APPLE CASH INST XFER",
+              "amount": 129.35,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "10/24/2025",
+              "description": "INCOMING WIRE TRANSFER WIRE REF# 20251024-00031085",
+              "amount": 807.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 0
+            },
+            {
+              "date": "10/24/2025",
+              "description": "VISA MONEY TRANSFER CREDIT 10-23-25 VISA DIRECT NY 6937 VENMO*BENNETT MASSON",
+              "amount": 984.47,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "10/24/2025",
+              "description": "ACH CREDIT SURELINE CAPITAL XXXX BENNETTS HAULING LLC",
+              "amount": 2607.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "10/27/2025",
+              "description": "DEBIT CARD PURCHASE SPI*DUKE-ENERGY 10-24 800-777-9898 NC 6937",
+              "amount": 380.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/27/2025",
+              "description": "DEBIT CARD PURCHASE SMARTWOOD INN 10-24 OSSEO WI 4298",
+              "amount": 85.03,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/27/2025",
+              "description": "VISA MONEY TRANSFER DEBIT 10-24-25 VISA DIRECT NY 6937 VENMO *RAINA ECKERSLEY",
+              "amount": 250.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/27/2025",
+              "description": "DEBIT CARD PURCHASE-PIN 10-24-25 OSSEO 4298 431-TA EXPRESS",
+              "amount": 20.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/27/2025",
+              "description": "DEBIT CARD PURCHASE LAKE WOOD COFFEE HO 10-24 MYRTLE BEACH SC 6937",
+              "amount": 15.15,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/27/2025",
+              "description": "DEBIT CARD PURCHASE TST* MIYABI JR EXP 10-25 843-282-9422 SC 6937",
+              "amount": 47.04,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/27/2025",
+              "description": "DEBIT CARD RECURRING PYMT HOS247 LLC 10-26 HOS247.COM CA 6937",
+              "amount": 25.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/27/2025",
+              "description": "ACH CORP DEBIT PAYMENT TRULIANT FEDERAL Masson Bennett CUSTOMER ID 018870001387379",
+              "amount": 2000.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/27/2025",
+              "description": "DEBIT CARD RETURN HIGHLAND SUITES 10-23 MINOT ND 4298",
+              "amount": 50.0,
+              "type": "Credit",
+              "category": "Returned Item"
+            },
+            {
+              "date": "10/27/2025",
+              "description": "VISA MONEY TRANSFER CREDIT 10-26-25 VISA DIRECT NY 6937 VENMO*BENNETT MASSON",
+              "amount": 78.6,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "10/27/2025",
+              "description": "VISA MONEY TRANSFER CREDIT 10-26-25 CUPERTINO CA 6937 APPLE CASH INST XFER",
+              "amount": 128.05,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "10/27/2025",
+              "description": "VISA MONEY TRANSFER CREDIT 10-26-25 CUPERTINO CA 6937 APPLE CASH INST XFER",
+              "amount": 295.5,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "10/27/2025",
+              "description": "VISA MONEY TRANSFER CREDIT 10-27-25 NEW YORK CITY NY 6937 VENMO*BENNETT MASSON",
+              "amount": 499.86,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "10/28/2025",
+              "description": "DEBIT CARD PURCHASE LOGANS ROADHOUSE 2 10-27 MONROE NC 6937",
+              "amount": 25.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/28/2025",
+              "description": "DEBIT CARD PURCHASE-PIN 10-27-25 MONROE 4298 FAIRVIEW GROCER",
+              "amount": 125.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/28/2025",
+              "description": "DEBIT CARD PURCHASE-PIN 10-27-25 MARSHVILLE NC 6937 FOOD LION #0422",
+              "amount": 48.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/28/2025",
+              "description": "DEBIT CARD PURCHASE-PIN 10-27-25 NEWBERRY SC 4298 LOVE'S #0396 INSIDE",
+              "amount": 100.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/28/2025",
+              "description": "ACH CORP DEBIT PAYMENT TRULIANT FEDERAL Masson Bennett CUSTOMER ID 018870001391731",
+              "amount": 1000.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/28/2025",
+              "description": "OVERDRAFT ITEM FEE ($36/ITEM) 36",
+              "amount": 36.0,
+              "type": "Debit",
+              "category": "Overdraft"
+            },
+            {
+              "date": "10/29/2025",
+              "description": "DEBIT CARD PURCHASE-PIN 10-28-25 DILLON SC 4298 QT 7133 OUTSIDE",
+              "amount": 20.39,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/29/2025",
+              "description": "DEBIT CARD PURCHASE-PIN 10-28-25 FAYETTEVILLE NC 4298 AUTOZONE 1091 131 S EAST",
+              "amount": 26.74,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/29/2025",
+              "description": "TRUIST ONLINE CREDIT LINE PMT MOBILE TO ****1001 -",
+              "amount": 1152.51,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "10/29/2025",
+              "description": "CASH DEPOSIT 10-29-25 09:03 A816 MARSHVILLE BRANCH 18164178",
+              "amount": 280.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "10/29/2025",
+              "description": "CASH DEPOSIT 10-29-25 09:01 A816 MARSHVILLE BRANCH 18164176",
+              "amount": 870.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "10/29/2025",
+              "description": "ACH CREDIT SURELINE CAPITAL XXXX BENNETTS HAULING LLC",
+              "amount": 1248.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "10/30/2025",
+              "description": "DEBIT CARD PURCHASE LA QUINTA MOTOR IN 10-28 COLUMBIA SC 4298",
+              "amount": 97.78,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/30/2025",
+              "description": "DEBIT CARD PURCHASE BP#6458095PAR MAR 10-29 JACKSON OH 4298",
+              "amount": 140.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/30/2025",
+              "description": "DEBIT CARD PURCHASE-PIN 10-29-25 WINGATE NC 6937 WINGATE VALERO",
+              "amount": 10.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/30/2025",
+              "description": "DEBIT CARD PURCHASE-PIN 10-29-25 SCOTTSBURG 4298 SPEEDWAY 43733",
+              "amount": 92.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/30/2025",
+              "description": "DEBIT CARD PURCHASE-PIN 10-30-25 DECATUR AL 4298 CIRCLE K # 2709302",
+              "amount": 100.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/30/2025",
+              "description": "DEBIT CARD PURCHASE-PIN 10-30-25 DECATUR AL 4298 CIRCLE K # 2709302",
+              "amount": 12.49,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/30/2025",
+              "description": "DEBIT CARD PURCHASE-PIN 10-30-25 MARSHVILLE 6937 SPEEDWAY 46982",
+              "amount": 25.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/30/2025",
+              "description": "ACH CREDIT SURELINE CAPITAL XXXX BENNETTS HAULING LLC",
+              "amount": 496.62,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "10/31/2025",
+              "description": "DEBIT CARD PURCHASE-PIN 10-30-25 CULLMAN AL 4298 TRACTOR-SUPPLY-C 1807 SEC",
+              "amount": 65.34,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "10/31/2025",
+              "description": "VISA MONEY TRANSFER DEBIT 10-30-25 VISA DIRECT NY 6937 VENMO *LANDON OXENDINE",
+              "amount": 100.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "10/31/2025",
+              "description": "VISA MONEY TRANSFER CREDIT 10-31-25 NEW YORK CITY NY 6937 VENMO*BENNETT MASSON",
+              "amount": 57.74,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "10/31/2025",
+              "description": "ACH CREDIT SURELINE CAPITAL XXXX BENNETTS HAULING LLC",
+              "amount": 954.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "10/31/2025",
+              "description": "INCOMING WIRE TRANSFER WIRE REF# 20251031-00045360",
+              "amount": 1019.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 0
+            }
+          ]
+        }
+      ]
+    },
+    "raw_output": "```json\n{\n  \"bank_statement_information\": {\n    \"bank_name\": \"TRUIST\",\n    \"account_holder\": \"BENNETT'S HAULING LLC\",\n    \"statement_start_date\": \"10/01/2025\",\n    \"statement_end_date\": \"10/31/2025\",\n    \"n_days\": 31,\n    \"n_month\": [\n      10\n    ],\n    \"business_address\": \"405 E UNION ST MARSHVILLE NC 28103-1272\"\n  },\n  \"accounts\": [\n    {\n      \"account_number\": \"1340027833488\",\n      \"account_type\": \"TRUIST SIMPLE BUSINESS CHECKING\",\n      \"account_summary\": {\n        \"beginning_balance\": 1729.46,\n        \"ending_balance\": 2185.7,\n        \"total_deposits\": 32108.87,\n        \"total_withdrawals\": 31652.63,\n        \"total_deposits_count\": null,\n        \"total_withdrawals_count\": null,\n        \"avg_daily_balance\": null,\n        \"overdraft_days\": null\n      },\n      \"transactions\": [\n        {\n          \"date\": \"10/01/2025\",\n          \"description\": \"CHECK # *15423226\",\n          \"amount\": 1100.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/01/2025\",\n          \"description\": \"DEBIT CARD PURCHASE-PIN 09-30-25 HAGERSTOWN MD 4298 AC & T GARLAND GROH\",\n          \"amount\": 10.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/01/2025\",\n          \"description\": \"DEBIT CARD PURCHASE-PIN 09-30-25 MONROE 6937 TARGET T-2074\",\n          \"amount\": 99.48,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/01/2025\",\n          \"description\": \"DEBIT CARD PURCHASE BKG*HOTEL AT BOOKI 09-30 147-036-3250 NY 6937\",\n          \"amount\": 90.51,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/01/2025\",\n          \"description\": \"ACH CREDIT SURELINE CAPITAL XXXX BENNETTS HAULING LLC\",\n          \"amount\": 456.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"10/02/2025\",\n          \"description\": \"CHECK # 1048\",\n          \"amount\": 510.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/02/2025\",\n          \"description\": \"DEBIT CARD MISC DEBIT APPLE CASH SENT MO 10-01 1INFINITELOOP CA 6937\",\n          \"amount\": 60.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/02/2025\",\n          \"description\": \"DEBIT CARD PURCHASE-PIN 10-01-25 MARSHVILLE 6937 SPEEDWAY 46982\",\n          \"amount\": 116.16,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/02/2025\",\n          \"description\": \"VISA MONEY TRANSFER CREDIT 10-01-25 NEW YORK CITY NY 6937 VENMO*BENNETT MASSON\",\n          \"amount\": 48.1,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"10/02/2025\",\n          \"description\": \"VISA MONEY TRANSFER CREDIT 10-01-25 CUPERTINO CA 6937 APPLE CASH INST XFER\",\n          \"amount\": 64.02,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"10/02/2025\",\n          \"description\": \"VISA MONEY TRANSFER CREDIT 10-01-25 NEW YORK CITY NY 6937 VENMO*BENNETT MASSON\",\n          \"amount\": 93.34,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"10/02/2025\",\n          \"description\": \"VISA MONEY TRANSFER CREDIT 10-01-25 VISA DIRECT NY 6937 VENMO*BENNETT MASSON\",\n          \"amount\": 731.97,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"10/03/2025\",\n          \"description\": \"DEBIT CARD PURCHASE QUALITY INN OK339 09-22 SALLISAW OK 4298\",\n          \"amount\": 80.44,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/03/2025\",\n          \"description\": \"DEBIT CARD PURCHASE HARRAHS HOTELS ADV 10-02 8284977777 NC 6937\",\n          \"amount\": 83.68,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/03/2025\",\n          \"description\": \"DEBIT CARD PURCHASE CASCADE FALLS BAR 10-01 CHEROKEE NC 6937\",\n          \"amount\": 10.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/03/2025\",\n          \"description\": \"DEBIT CARD PURCHASE SQ *OLE SMOKY DIST 10-02 Gatlinburg TN 6937\",\n          \"amount\": 21.9,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/03/2025\",\n          \"description\": \"DEBIT CARD PURCHASE-PIN 10-02-25 SEVIERVILLE 6937 TARGET STORE T-2903\",\n          \"amount\": 66.76,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/03/2025\",\n          \"description\": \"DEBIT CARD PURCHASE Partners on Bookin 10-02 Amsterdam 6937\",\n          \"amount\": 105.39,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/03/2025\",\n          \"description\": \"DEBIT CARD PURCHASE PUBLIX #1713 10-02 SEVIERVILLE TN 6937\",\n          \"amount\": 78.73,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/03/2025\",\n          \"description\": \"INTERNET PAYMENT WEB PMTS MON AQUA&FITNESS 450R4R\",\n          \"amount\": 50.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/03/2025\",\n          \"description\": \"ACH CORP DEBIT MOBILE PMT CAPITAL ONE Masson Bennett CUSTOMER ID CA091109A933595\",\n          \"amount\": 100.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/03/2025\",\n          \"description\": \"DEBIT CARD PURCHASE-PIN 10-03-25 SUFFOLK 4298 7-ELEVEN\",\n          \"amount\": 35.01,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/03/2025\",\n          \"description\": \"INT'L SERVICE ASSESSMENT FEE Partners on Bookin 10-02 Amsterdam 6937\",\n          \"amount\": 3.16,\n          \"type\": \"Debit\",\n          \"category\": \"Service Charges/Fees\"\n        },\n        {\n          \"date\": \"10/03/2025\",\n          \"description\": \"ACH CREDIT SURELINE CAPITAL XXXX BENNETTS HAULING LLC\",\n          \"amount\": 1037.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"10/03/2025\",\n          \"description\": \"ACH CREDIT SURELINE CAPITAL XXXX BENNETTS HAULING LLC\",\n          \"amount\": 422.5,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"10/03/2025\",\n          \"description\": \"INCOMING WIRE TRANSFER WIRE REF# 20251003-00022480\",\n          \"amount\": 1559.5,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 0\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"CHECK # 1047\",\n          \"amount\": 530.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"DEBIT CARD PURCHASE HARRAHS CHEROKEE H 10-03 CHEROKEE NC 6937\",\n          \"amount\": 37.61,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"DEBIT CARD PURCHASE CHEROKEE LOBBY CAF 10-02 CHEROKEE NC 6937\",\n          \"amount\": 30.38,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"DEBIT CARD PURCHASE CKE*GATLINBURG BRE 10-03 SEVIERVILLE TN 6937\",\n          \"amount\": 38.91,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"DEBIT CARD PURCHASE LIQUOR & WINE OF T 10-02 GATLINBURG TN 6937\",\n          \"amount\": 64.71,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"DEBIT CARD RECURRING PYMT APPLE.COM/BILL 10-03 866-712-7753 CA 6937\",\n          \"amount\": 41.63,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"DEBIT CARD PURCHASE-PIN 10-03-25 SUFFOLK VA 4298 RACEWAY 6793\",\n          \"amount\": 125.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"DEBIT CARD PURCHASE MCM GATLINBURG ALD 10-03 GATLINBURG TN 6937\",\n          \"amount\": 94.5,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"DEBIT CARD PURCHASE LIQUOR & WINE OF T 10-03 GATLINBURG TN 6937\",\n          \"amount\": 49.37,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"DEBIT CARD PURCHASE-PIN 10-03-25 PIGEON FORGE TN 6937 BOOT FACTORY OUTLET\",\n          \"amount\": 329.24,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"DEBIT CARD PURCHASE-PIN 10-03-25 SEVIERVILLE 6937 TARGET STORE T-2903\",\n          \"amount\": 54.8,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"VISA MONEY TRANSFER DEBIT 10-04-25 VISA DIRECT NY 6937 VENMO *LOGAN RUSHING\",\n          \"amount\": 160.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"DEBIT CARD PURCHASE CRACKER BARREL #51 10-04 SEVIERVILLE TN 6937\",\n          \"amount\": 89.22,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"DEBIT CARD PURCHASE STONEBROOK LODGE C 10-05 CHEROKEE NC 6937\",\n          \"amount\": 208.02,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"DEBIT CARD PURCHASE VALLEY RIVER HOTEL 10-05 8284977777 NC 6937\",\n          \"amount\": 380.32,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"DEBIT CARD PURCHASE SUPER.COM * HOTE 10-04 844-461-2577 CA 6937\",\n          \"amount\": 519.1,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"DEBIT CARD NON-TRUIST ATM FEE 10-04-25 CHEROKEE 6937 TNSSMART\",\n          \"amount\": 3.0,\n          \"type\": \"Debit\",\n          \"category\": \"Service Charges/Fees\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"ATM NETWORK CASH WITHDRAWAL 10-04-25 CHEROKEE 6937 TNSSMART\",\n          \"amount\": 508.99,\n          \"type\": \"Debit\",\n          \"category\": \"ATM/Cash Withdrawal\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"DEBIT CARD PURCHASE THE CHEROKEE TOWER 10-04 CHEROKEE NC 6937\",\n          \"amount\": 38.7,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"DEBIT CARD PURCHASE BRIO-CHEROKEE 10-04 CHEROKEE NC 6937\",\n          \"amount\": 170.98,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"DEBIT CARD RECURRING PYMT MICROSOFT*XBOX GAM 10-05 MICROSOFT.COM WA 6937\",\n          \"amount\": 21.34,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"DEBIT CARD RETURN VALLEY RIVER HOTEL 10-05 8284977777 NC 6937\",\n          \"amount\": 39.22,\n          \"type\": \"Credit\",\n          \"category\": \"Returned Item\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"VISA MONEY TRANSFER CREDIT 10-03-25 NEW YORK CITY NY 6937 VENMO*BENNETT MASSON\",\n          \"amount\": 108.08,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"DEBIT CARD RETURN VALLEY RIVER HOTEL 10-05 8284977777 NC 6937\",\n          \"amount\": 341.1,\n          \"type\": \"Credit\",\n          \"category\": \"Returned Item\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"CASH DEPOSIT 10-06-25 20:59 A816 MARSHVILLE BRANCH 18169197\",\n          \"amount\": 2100.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"10/07/2025\",\n          \"description\": \"DEBIT CARD PURCHASE HARRAHS CHEROKEE H 10-06 CHEROKEE NC 6937\",\n          \"amount\": 37.61,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/07/2025\",\n          \"description\": \"DEBIT CARD PURCHASE HARRAHS HOTELS ADV 10-06 8284977777 NC 6937\",\n          \"amount\": 124.6,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/07/2025\",\n          \"description\": \"DEBIT CARD PURCHASE GORDON RAMSAY FOOD 10-05 CHEROKEE NC 6937\",\n          \"amount\": 37.01,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/07/2025\",\n          \"description\": \"DEBIT CARD PURCHASE-PIN 10-06-25 MORGANTON 6937 SPEEDWAY 46962\",\n          \"amount\": 101.37,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/07/2025\",\n          \"description\": \"DEBIT CARD RECURRING PYMT APTS BENNETT 10-07 APARTMENTS.CO GA 6937\",\n          \"amount\": 2157.75,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/07/2025\",\n          \"description\": \"OVERDRAFT FEE NOT CHARGED 36\",\n          \"amount\": 36.0,\n          \"type\": \"Debit\",\n          \"category\": \"Overdraft\"\n        },\n        {\n          \"date\": \"10/07/2025\",\n          \"description\": \"VISA MONEY TRANSFER CREDIT 10-06-25 VISA DIRECT NY 6937 VENMO*BENNETT MASSON\",\n          \"amount\": 22.6,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"10/07/2025\",\n          \"description\": \"VISA MONEY TRANSFER CREDIT 10-06-25 CUPERTINO CA 6937 APPLE CASH INST XFER\",\n          \"amount\": 114.66,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"10/07/2025\",\n          \"description\": \"ACH CREDIT SURELINE CAPITAL XXXX BENNETTS HAULING LLC\",\n          \"amount\": 429.5,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"10/07/2025\",\n          \"description\": \"NO CHARGE POSITIVE AVAIL BAL 36\",\n          \"amount\": 36.0,\n          \"type\": \"Credit\",\n          \"category\": \"Service Charges/Fees\"\n        },\n        {\n          \"date\": \"10/08/2025\",\n          \"description\": \"DEBIT CARD PURCHASE HARRAHS CHEROKEE H 10-07 CHEROKEE NC 6937\",\n          \"amount\": 44.6,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/08/2025\",\n          \"description\": \"DEBIT CARD PURCHASE THE CHEROKEE STARB 10-06 CHEROKEE NC 6937\",\n          \"amount\": 26.77,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/08/2025\",\n          \"description\": \"DEBIT CARD PURCHASE TACO BELL 042087 10-06 ASHEVILLE NC 6937\",\n          \"amount\": 34.61,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/08/2025\",\n          \"description\": \"DEBIT CARD MISC DEBIT APPLE CASH SENT MO 10-07 1INFINITELOOP CA 6937\",\n          \"amount\": 300.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/08/2025\",\n          \"description\": \"DEBIT CARD RECURRING PYMT NATL GEN INS*RECUR 10-07 800-462-2123 NY 6937\",\n          \"amount\": 425.28,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/08/2025\",\n          \"description\": \"OVERDRAFT ITEM FEE ($36/ITEM) 36\",\n          \"amount\": 36.0,\n          \"type\": \"Debit\",\n          \"category\": \"Overdraft\"\n        },\n        {\n          \"date\": \"10/08/2025\",\n          \"description\": \"VISA MONEY TRANSFER CREDIT 10-08-25 CUPERTINO CA 6937 APPLE CASH INST XFER\",\n          \"amount\": 22.66,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"10/09/2025\",\n          \"description\": \"DEBIT CARD RECURRING PYMT APPLE.COM/BILL 10-08 866-712-7753 CA 6937\",\n          \"amount\": 2.99,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/09/2025\",\n          \"description\": \"ACH CREDIT SURELINE CAPITAL XXXX BENNETTS HAULING LLC\",\n          \"amount\": 351.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"10/10/2025\",\n          \"description\": \"DEBIT CARD PURCHASE-PIN 10-09-25 MONROE 4298 BP#5054069AMOCO\",\n          \"amount\": 20.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/10/2025\",\n          \"description\": \"VISA MONEY TRANSFER CREDIT 10-09-25 VISA DIRECT NY 6937 VENMO*BENNETT MASSON\",\n          \"amount\": 62.46,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"10/10/2025\",\n          \"description\": \"VISA MONEY TRANSFER CREDIT 10-10-25 VISA DIRECT NY 6937 VENMO*BENNETT MASSON\",\n          \"amount\": 245.63,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"10/10/2025\",\n          \"description\": \"ACH CREDIT SURELINE CAPITAL XXXX BENNETTS HAULING LLC\",\n          \"amount\": 486.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"DEBIT CARD MISC DEBIT APPLE CASH SENT MO 10-10 1INFINITELOOP CA 6937\",\n          \"amount\": 200.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"DEBIT CARD PURCHASE ICI*FEETOWN OF MAR 10-10 866-342-9266 MA 6937\",\n          \"amount\": 6.1,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"DEBIT CARD PURCHASE TOWN OF MARSHVILLE 10-10 704-624-2515 NC 6937\",\n          \"amount\": 174.3,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"DEBIT CARD PURCHASE-PIN 10-10-25 CONCORD 6937 ADVANCE AUTO PA\",\n          \"amount\": 25.98,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"DEBIT CARD PURCHASE TIRE 4 LESS CLT 10-10 CHARLOTTE NC 6937\",\n          \"amount\": 56.38,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"DEBIT CARD PURCHASE-PIN 10-10-25 CONCORD 6937 7-ELEVEN 35558\",\n          \"amount\": 49.99,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"DEBIT CARD PURCHASE LOGANS ROADHOUSE 2 10-10 MONROE NC 6937\",\n          \"amount\": 60.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"DEBIT CARD PURCHASE THE WHEEL 10-10 MARSHVILLE NC 6937\",\n          \"amount\": 13.54,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"DEBIT CARD PURCHASE MARSHVILLE ABC BOA 10-10 MARSHVILLE NC 6937\",\n          \"amount\": 16.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"DEBIT CARD PURCHASE-PIN 10-10-25 MARSHVILLE 6937 SPEEDWAY 46982\",\n          \"amount\": 5.01,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"DEBIT CARD MISC DEBIT APPLE CASH SENT MO 10-12 1INFINITELOOP CA 6937\",\n          \"amount\": 105.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"DEBIT CARD RECURRING PYMT HOS247 LLC 10-12 HOS247.COM CA 6937\",\n          \"amount\": 25.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"DEBIT CARD MISC DEBIT APPLE CASH SENT MO 10-13 1INFINITELOOP CA 6937\",\n          \"amount\": 275.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"DEBIT CARD PURCHASE Hotel at Booking.c 10-13 312-4560000 DE 6937\",\n          \"amount\": 90.95,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"ACH CORP DEBIT MOBILE PMT CAPITAL ONE Masson Bennett CUSTOMER ID CA0884449FC8C2D\",\n          \"amount\": 50.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"DEBIT CARD PURCHASE-PIN 10-14-25 ROCKY MOUNT 4298 SPEEDWAY 44694\",\n          \"amount\": 125.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"VISA MONEY TRANSFER CREDIT 10-13-25 CUPERTINO CA 6937 APPLE CASH INST XFER\",\n          \"amount\": 39.4,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"VISA MONEY TRANSFER CREDIT 10-12-25 CUPERTINO CA 6937 APPLE CASH INST XFER\",\n          \"amount\": 64.02,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"VISA MONEY TRANSFER CREDIT 10-13-25 CUPERTINO CA 6937 APPLE CASH INST XFER\",\n          \"amount\": 184.2,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"ACH CREDIT SURELINE CAPITAL XXXX BENNETTS HAULING LLC\",\n          \"amount\": 499.5,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"10/15/2025\",\n          \"description\": \"CHECK # 1049\",\n          \"amount\": 1476.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/15/2025\",\n          \"description\": \"DEBIT CARD PURCHASE SHELL OIL 57543975 10-13 LEWISTON NC 4298\",\n          \"amount\": 25.07,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/15/2025\",\n          \"description\": \"DEBIT CARD PURCHASE COUNTRY INN & SUIT 10-13 ROCKY MOUNT NC 4298\",\n          \"amount\": 94.14,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/15/2025\",\n          \"description\": \"0077716327 BetrLink LLC 2503 MASSON BENNETT\",\n          \"amount\": 309.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/15/2025\",\n          \"description\": \"ACH CORP DEBIT MOBILE PMT CAPITAL ONE Masson Bennett CUSTOMER ID CA0324192846032\",\n          \"amount\": 210.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/15/2025\",\n          \"description\": \"ACH CORP DEBIT ONLINE PMT CAPITAL ONE Masson Bennett CUSTOMER ID CA087A0696064E1\",\n          \"amount\": 254.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/15/2025\",\n          \"description\": \"OVERDRAFT ITEM FEE ($36/ITEM) 36\",\n          \"amount\": 36.0,\n          \"type\": \"Debit\",\n          \"category\": \"Overdraft\"\n        },\n        {\n          \"date\": \"10/15/2025\",\n          \"description\": \"ACH CREDIT SURELINE CAPITAL XXXX BENNETTS HAULING LLC\",\n          \"amount\": 1638.74,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"10/16/2025\",\n          \"description\": \"DEBIT CARD PURCHASE SLEEP INN & SUITES 10-15 CULLMAN AL 4298\",\n          \"amount\": 95.34,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/16/2025\",\n          \"description\": \"ACH CREDIT SURELINE CAPITAL XXXX BENNETTS HAULING LLC\",\n          \"amount\": 740.25,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"description\": \"CHECK # *17013714\",\n          \"amount\": 3100.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"description\": \"DEBIT CARD PURCHASE-PIN 10-16-25 ATOKA OK 4298 LOVE'S #0268 INSIDE\",\n          \"amount\": 21.19,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"description\": \"DEBIT CARD PURCHASE BKG*HOTEL AT BOOKI 10-16 147-036-3250 NY 6937\",\n          \"amount\": 63.51,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"description\": \"VISA MONEY TRANSFER CREDIT 10-16-25 CUPERTINO CA 6937 APPLE CASH INST XFER\",\n          \"amount\": 398.92,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"description\": \"INCOMING WIRE TRANSFER WIRE REF# 20251017-00032078\",\n          \"amount\": 1118.75,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 0\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"description\": \"ACH CREDIT SURELINE CAPITAL XXXX BENNETTS HAULING LLC\",\n          \"amount\": 1686.62,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"10/20/2025\",\n          \"description\": \"DEBIT CARD PURCHASE COMFORT SUITES TXF 10-16 WACO TX 4298\",\n          \"amount\": 95.72,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/20/2025\",\n          \"description\": \"DEBIT CARD PURCHASE DD *DOORDASH CHICK 10-17 DOORDASH.COM CA 4298\",\n          \"amount\": 20.69,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/20/2025\",\n          \"description\": \"DEBIT CARD PURCHASE MICROTEL INN & SUI 10-17 CLAREMORE OK 4298\",\n          \"amount\": 246.3,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/20/2025\",\n          \"description\": \"DEBIT CARD PURCHASE DD *DOORDASH LACAN 10-18 855-973-1040 CA 4298\",\n          \"amount\": 21.51,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/20/2025\",\n          \"description\": \"DEBIT CARD MISC DEBIT APPLE CASH SENT MO 10-18 1INFINITELOOP CA 6937\",\n          \"amount\": 65.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/20/2025\",\n          \"description\": \"DEBIT CARD MISC DEBIT APPLE CASH SENT MO 10-19 1INFINITELOOP CA 6937\",\n          \"amount\": 565.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/20/2025\",\n          \"description\": \"DEBIT CARD RECURRING PYMT APPLE.COM/BILL 10-19 866-712-7753 CA 6937\",\n          \"amount\": 11.73,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/20/2025\",\n          \"description\": \"VISA MONEY TRANSFER CREDIT 10-17-25 VISA DIRECT NY 6937 VENMO* BENNETT MASSON\",\n          \"amount\": 52.92,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"10/20/2025\",\n          \"description\": \"CASH DEPOSIT 10-18-25 12:47 A816 MARSHVILLE BRANCH 18161939\",\n          \"amount\": 565.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"10/20/2025\",\n          \"description\": \"DEPOSIT\",\n          \"amount\": 3350.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"10/21/2025\",\n          \"description\": \"DEBIT CARD PURCHASE IPFS Corporation 10-20 Kansas City MO 6937\",\n          \"amount\": 3410.83,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/21/2025\",\n          \"description\": \"TRUIST ATM CASH WITHDRAWAL 10-21-25 6937 MARSHVILLE BRANCH\",\n          \"amount\": 500.0,\n          \"type\": \"Debit\",\n          \"category\": \"ATM/Cash Withdrawal\"\n        },\n        {\n          \"date\": \"10/21/2025\",\n          \"description\": \"SERVICE CHARGES - PRIOR PERIOD\",\n          \"amount\": 130.9,\n          \"type\": \"Debit\",\n          \"category\": \"Service Charges/Fees\"\n        },\n        {\n          \"date\": \"10/21/2025\",\n          \"description\": \"VISA MONEY TRANSFER CREDIT 10-20-25 CUPERTINO CA 6937 APPLE CASH INST XFER\",\n          \"amount\": 157.6,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"10/21/2025\",\n          \"description\": \"ACH CREDIT SURELINE CAPITAL XXXX BENNETTS HAULING LLC\",\n          \"amount\": 1200.75,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"10/22/2025\",\n          \"description\": \"DEBIT CARD PURCHASE QUAILITY INN&SUITE 10-21 CLARKSVILLE AR 4298\",\n          \"amount\": 94.99,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/22/2025\",\n          \"description\": \"DEBIT CARD PURCHASE-PIN 10-21-25 MARSHVILLE NC 6937 FOOD LION #0422\",\n          \"amount\": 9.13,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/22/2025\",\n          \"description\": \"DEBIT CARD PURCHASE-PIN 10-21-25 CONWAY 4298 DUSTY'S\",\n          \"amount\": 15.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/22/2025\",\n          \"description\": \"DEBIT CARD PURCHASE-PIN 10-21-25 MORRILTON AR 4298 ROBERSON TIRE SERVICE, IN\",\n          \"amount\": 181.02,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/22/2025\",\n          \"description\": \"VISA MONEY TRANSFER CREDIT 10-21-25 CUPERTINO CA 6937 APPLE CASH INST XFER\",\n          \"amount\": 300.42,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"10/22/2025\",\n          \"description\": \"ACH CREDIT SURELINE CAPITAL XXXX BENNETTS HAULING LLC\",\n          \"amount\": 406.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"10/23/2025\",\n          \"description\": \"DEBIT CARD PURCHASE-PIN 10-22-25 SUMMIT 4298 TA EXPRESS TRUC\",\n          \"amount\": 445.91,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/23/2025\",\n          \"description\": \"VISA MONEY TRANSFER DEBIT 10-22-25 VISA DIRECT NY 6937 VENMO *KINLEY CALLOWAY\",\n          \"amount\": 150.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/23/2025\",\n          \"description\": \"DEBIT CARD PURCHASE BKG*HOTEL AT BOOKI 10-23 147-036-3250 NY 6937\",\n          \"amount\": 80.18,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/23/2025\",\n          \"description\": \"VISA MONEY TRANSFER CREDIT 10-23-25 CUPERTINO CA 6937 APPLE CASH INST XFER\",\n          \"amount\": 49.25,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"10/23/2025\",\n          \"description\": \"CASH DEPOSIT 10-23-25 20:35 A816 MARSHVILLE BRANCH 18163014\",\n          \"amount\": 380.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"10/24/2025\",\n          \"description\": \"CHECK # 1050\",\n          \"amount\": 1990.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/24/2025\",\n          \"description\": \"DEBIT CARD PURCHASE HIGHLAND SUITES 10-23 MINOT ND 4298\",\n          \"amount\": 50.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/24/2025\",\n          \"description\": \"DEBIT CARD PURCHASE-PIN 10-23-25 JAMESTOWN ND 4298 SHELL SERVICE STATION\",\n          \"amount\": 15.1,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/24/2025\",\n          \"description\": \"DEBIT CARD PURCHASE-PIN 10-23-25 VALLEY CITY ND 4298 LOVE'S #0849 INSIDE\",\n          \"amount\": 150.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/24/2025\",\n          \"description\": \"VISA MONEY TRANSFER DEBIT 10-23-25 VISA DIRECT NY 6937 VENMO *KAY EDWARDS\",\n          \"amount\": 20.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/24/2025\",\n          \"description\": \"VISA MONEY TRANSFER DEBIT 10-23-25 VISA DIRECT NY 6937 VENMO *KAY EDWARDS\",\n          \"amount\": 10.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/24/2025\",\n          \"description\": \"VISA MONEY TRANSFER DEBIT 10-23-25 VISA DIRECT NY 6937 VENMO *CONNOR POLHEMUS\",\n          \"amount\": 804.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/24/2025\",\n          \"description\": \"DEBIT CARD PURCHASE-PIN 10-23-25 MARSHVILLE 6937 SPEEDWAY 46982\",\n          \"amount\": 107.02,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/24/2025\",\n          \"description\": \"VISA MONEY TRANSFER CREDIT 10-24-25 CUPERTINO CA 6937 APPLE CASH INST XFER\",\n          \"amount\": 129.35,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"10/24/2025\",\n          \"description\": \"INCOMING WIRE TRANSFER WIRE REF# 20251024-00031085\",\n          \"amount\": 807.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 0\n        },\n        {\n          \"date\": \"10/24/2025\",\n          \"description\": \"VISA MONEY TRANSFER CREDIT 10-23-25 VISA DIRECT NY 6937 VENMO*BENNETT MASSON\",\n          \"amount\": 984.47,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"10/24/2025\",\n          \"description\": \"ACH CREDIT SURELINE CAPITAL XXXX BENNETTS HAULING LLC\",\n          \"amount\": 2607.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"description\": \"DEBIT CARD PURCHASE SPI*DUKE-ENERGY 10-24 800-777-9898 NC 6937\",\n          \"amount\": 380.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"description\": \"DEBIT CARD PURCHASE SMARTWOOD INN 10-24 OSSEO WI 4298\",\n          \"amount\": 85.03,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"description\": \"VISA MONEY TRANSFER DEBIT 10-24-25 VISA DIRECT NY 6937 VENMO *RAINA ECKERSLEY\",\n          \"amount\": 250.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"description\": \"DEBIT CARD PURCHASE-PIN 10-24-25 OSSEO 4298 431-TA EXPRESS\",\n          \"amount\": 20.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"description\": \"DEBIT CARD PURCHASE LAKE WOOD COFFEE HO 10-24 MYRTLE BEACH SC 6937\",\n          \"amount\": 15.15,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"description\": \"DEBIT CARD PURCHASE TST* MIYABI JR EXP 10-25 843-282-9422 SC 6937\",\n          \"amount\": 47.04,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"description\": \"DEBIT CARD RECURRING PYMT HOS247 LLC 10-26 HOS247.COM CA 6937\",\n          \"amount\": 25.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"description\": \"ACH CORP DEBIT PAYMENT TRULIANT FEDERAL Masson Bennett CUSTOMER ID 018870001387379\",\n          \"amount\": 2000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"description\": \"DEBIT CARD RETURN HIGHLAND SUITES 10-23 MINOT ND 4298\",\n          \"amount\": 50.0,\n          \"type\": \"Credit\",\n          \"category\": \"Returned Item\"\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"description\": \"VISA MONEY TRANSFER CREDIT 10-26-25 VISA DIRECT NY 6937 VENMO*BENNETT MASSON\",\n          \"amount\": 78.6,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"description\": \"VISA MONEY TRANSFER CREDIT 10-26-25 CUPERTINO CA 6937 APPLE CASH INST XFER\",\n          \"amount\": 128.05,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"description\": \"VISA MONEY TRANSFER CREDIT 10-26-25 CUPERTINO CA 6937 APPLE CASH INST XFER\",\n          \"amount\": 295.5,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"description\": \"VISA MONEY TRANSFER CREDIT 10-27-25 NEW YORK CITY NY 6937 VENMO*BENNETT MASSON\",\n          \"amount\": 499.86,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"10/28/2025\",\n          \"description\": \"DEBIT CARD PURCHASE LOGANS ROADHOUSE 2 10-27 MONROE NC 6937\",\n          \"amount\": 25.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/28/2025\",\n          \"description\": \"DEBIT CARD PURCHASE-PIN 10-27-25 MONROE 4298 FAIRVIEW GROCER\",\n          \"amount\": 125.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/28/2025\",\n          \"description\": \"DEBIT CARD PURCHASE-PIN 10-27-25 MARSHVILLE NC 6937 FOOD LION #0422\",\n          \"amount\": 48.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/28/2025\",\n          \"description\": \"DEBIT CARD PURCHASE-PIN 10-27-25 NEWBERRY SC 4298 LOVE'S #0396 INSIDE\",\n          \"amount\": 100.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/28/2025\",\n          \"description\": \"ACH CORP DEBIT PAYMENT TRULIANT FEDERAL Masson Bennett CUSTOMER ID 018870001391731\",\n          \"amount\": 1000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/28/2025\",\n          \"description\": \"OVERDRAFT ITEM FEE ($36/ITEM) 36\",\n          \"amount\": 36.0,\n          \"type\": \"Debit\",\n          \"category\": \"Overdraft\"\n        },\n        {\n          \"date\": \"10/29/2025\",\n          \"description\": \"DEBIT CARD PURCHASE-PIN 10-28-25 DILLON SC 4298 QT 7133 OUTSIDE\",\n          \"amount\": 20.39,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/29/2025\",\n          \"description\": \"DEBIT CARD PURCHASE-PIN 10-28-25 FAYETTEVILLE NC 4298 AUTOZONE 1091 131 S EAST\",\n          \"amount\": 26.74,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/29/2025\",\n          \"description\": \"TRUIST ONLINE CREDIT LINE PMT MOBILE TO ****1001 -\",\n          \"amount\": 1152.51,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/29/2025\",\n          \"description\": \"CASH DEPOSIT 10-29-25 09:03 A816 MARSHVILLE BRANCH 18164178\",\n          \"amount\": 280.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"10/29/2025\",\n          \"description\": \"CASH DEPOSIT 10-29-25 09:01 A816 MARSHVILLE BRANCH 18164176\",\n          \"amount\": 870.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"10/29/2025\",\n          \"description\": \"ACH CREDIT SURELINE CAPITAL XXXX BENNETTS HAULING LLC\",\n          \"amount\": 1248.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"10/30/2025\",\n          \"description\": \"DEBIT CARD PURCHASE LA QUINTA MOTOR IN 10-28 COLUMBIA SC 4298\",\n          \"amount\": 97.78,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/30/2025\",\n          \"description\": \"DEBIT CARD PURCHASE BP#6458095PAR MAR 10-29 JACKSON OH 4298\",\n          \"amount\": 140.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/30/2025\",\n          \"description\": \"DEBIT CARD PURCHASE-PIN 10-29-25 WINGATE NC 6937 WINGATE VALERO\",\n          \"amount\": 10.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/30/2025\",\n          \"description\": \"DEBIT CARD PURCHASE-PIN 10-29-25 SCOTTSBURG 4298 SPEEDWAY 43733\",\n          \"amount\": 92.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/30/2025\",\n          \"description\": \"DEBIT CARD PURCHASE-PIN 10-30-25 DECATUR AL 4298 CIRCLE K # 2709302\",\n          \"amount\": 100.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/30/2025\",\n          \"description\": \"DEBIT CARD PURCHASE-PIN 10-30-25 DECATUR AL 4298 CIRCLE K # 2709302\",\n          \"amount\": 12.49,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/30/2025\",\n          \"description\": \"DEBIT CARD PURCHASE-PIN 10-30-25 MARSHVILLE 6937 SPEEDWAY 46982\",\n          \"amount\": 25.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/30/2025\",\n          \"description\": \"ACH CREDIT SURELINE CAPITAL XXXX BENNETTS HAULING LLC\",\n          \"amount\": 496.62,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"10/31/2025\",\n          \"description\": \"DEBIT CARD PURCHASE-PIN 10-30-25 CULLMAN AL 4298 TRACTOR-SUPPLY-C 1807 SEC\",\n          \"amount\": 65.34,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"10/31/2025\",\n          \"description\": \"VISA MONEY TRANSFER DEBIT 10-30-25 VISA DIRECT NY 6937 VENMO *LANDON OXENDINE\",\n          \"amount\": 100.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"10/31/2025\",\n          \"description\": \"VISA MONEY TRANSFER CREDIT 10-31-25 NEW YORK CITY NY 6937 VENMO*BENNETT MASSON\",\n          \"amount\": 57.74,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"10/31/2025\",\n          \"description\": \"ACH CREDIT SURELINE CAPITAL XXXX BENNETTS HAULING LLC\",\n          \"amount\": 954.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"10/31/2025\",\n          \"description\": \"INCOMING WIRE TRANSFER WIRE REF# 20251031-00045360\",\n          \"amount\": 1019.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 0\n        }\n      ]\n    }\n  ]\n}\n```",
+    "token_count": {
+      "estimated_tokens": 4158
+    },
+    "failure_reason": null
+  },
+  "bsi_analyzer_result": {
+    "agent_name": "v1_bsi_analyzer_agent",
+    "processing_status": "success",
+    "start_time": "2026-02-04T15:10:22.327570",
+    "end_time": "2026-02-04T15:12:36.015262",
+    "parsed_json": {
+      "accounts": [
+        {
+          "account_number": "1340027833488",
+          "account_type": "TRUIST SIMPLE BUSINESS CHECKING",
+          "mca_deposit": [],
+          "mca_withdrawal": [],
+          "returned_items": [
+            {
+              "date": "10/06/2025",
+              "description": "DEBIT CARD RETURN VALLEY RIVER HOTEL 10-05 8284977777 NC 6937",
+              "amount": 39.22,
+              "type": "Credit",
+              "non_true_revenue": 1
+            },
+            {
+              "date": "10/06/2025",
+              "description": "DEBIT CARD RETURN VALLEY RIVER HOTEL 10-05 8284977777 NC 6937",
+              "amount": 341.1,
+              "type": "Credit",
+              "non_true_revenue": 1
+            },
+            {
+              "date": "10/27/2025",
+              "description": "DEBIT CARD RETURN HIGHLAND SUITES 10-23 MINOT ND 4298",
+              "amount": 50.0,
+              "type": "Credit",
+              "non_true_revenue": 1
+            }
+          ],
+          "overdrafts": [
+            {
+              "date": "10/07/2025",
+              "description": "OVERDRAFT FEE NOT CHARGED 36",
+              "amount": 36.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/08/2025",
+              "description": "OVERDRAFT ITEM FEE ($36/ITEM) 36",
+              "amount": 36.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/15/2025",
+              "description": "OVERDRAFT ITEM FEE ($36/ITEM) 36",
+              "amount": 36.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/28/2025",
+              "description": "OVERDRAFT ITEM FEE ($36/ITEM) 36",
+              "amount": 36.0,
+              "type": "Debit"
+            }
+          ],
+          "service_charges": [
+            {
+              "date": "10/03/2025",
+              "description": "INT'L SERVICE ASSESSMENT FEE Partners on Bookin 10-02 Amsterdam 6937",
+              "amount": 3.16,
+              "type": "Debit"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "DEBIT CARD NON-TRUIST ATM FEE 10-04-25 CHEROKEE 6937 TNSSMART",
+              "amount": 3.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/07/2025",
+              "description": "NO CHARGE POSITIVE AVAIL BAL 36",
+              "amount": 36.0,
+              "type": "Credit",
+              "non_true_revenue": 1
+            },
+            {
+              "date": "10/21/2025",
+              "description": "SERVICE CHARGES - PRIOR PERIOD",
+              "amount": 130.9,
+              "type": "Debit"
+            }
+          ],
+          "atm_cash_withdrawal": [
+            {
+              "date": "10/06/2025",
+              "description": "ATM NETWORK CASH WITHDRAWAL 10-04-25 CHEROKEE 6937 TNSSMART",
+              "amount": 508.99,
+              "type": "Debit"
+            },
+            {
+              "date": "10/21/2025",
+              "description": "TRUIST ATM CASH WITHDRAWAL 10-21-25 6937 MARSHVILLE BRANCH",
+              "amount": 500.0,
+              "type": "Debit"
+            }
+          ],
+          "internal_transfer_deposit": [],
+          "other_transfer_deposit": [
+            {
+              "date": "10/02/2025",
+              "description": "VISA MONEY TRANSFER CREDIT 10-01-25 NEW YORK CITY NY 6937 VENMO*BENNETT MASSON",
+              "amount": 48.1,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/02/2025",
+              "description": "VISA MONEY TRANSFER CREDIT 10-01-25 CUPERTINO CA 6937 APPLE CASH INST XFER",
+              "amount": 64.02,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/02/2025",
+              "description": "VISA MONEY TRANSFER CREDIT 10-01-25 NEW YORK CITY NY 6937 VENMO*BENNETT MASSON",
+              "amount": 93.34,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/02/2025",
+              "description": "VISA MONEY TRANSFER CREDIT 10-01-25 VISA DIRECT NY 6937 VENMO*BENNETT MASSON",
+              "amount": 731.97,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/03/2025",
+              "description": "INCOMING WIRE TRANSFER WIRE REF# 20251003-00022480",
+              "amount": 1559.5,
+              "type": "Credit",
+              "is_payment_processor": 0,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/06/2025",
+              "description": "VISA MONEY TRANSFER CREDIT 10-03-25 NEW YORK CITY NY 6937 VENMO*BENNETT MASSON",
+              "amount": 108.08,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/07/2025",
+              "description": "VISA MONEY TRANSFER CREDIT 10-06-25 VISA DIRECT NY 6937 VENMO*BENNETT MASSON",
+              "amount": 22.6,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/07/2025",
+              "description": "VISA MONEY TRANSFER CREDIT 10-06-25 CUPERTINO CA 6937 APPLE CASH INST XFER",
+              "amount": 114.66,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/08/2025",
+              "description": "VISA MONEY TRANSFER CREDIT 10-08-25 CUPERTINO CA 6937 APPLE CASH INST XFER",
+              "amount": 22.66,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/10/2025",
+              "description": "VISA MONEY TRANSFER CREDIT 10-09-25 VISA DIRECT NY 6937 VENMO*BENNETT MASSON",
+              "amount": 62.46,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/10/2025",
+              "description": "VISA MONEY TRANSFER CREDIT 10-10-25 VISA DIRECT NY 6937 VENMO*BENNETT MASSON",
+              "amount": 245.63,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/14/2025",
+              "description": "VISA MONEY TRANSFER CREDIT 10-13-25 CUPERTINO CA 6937 APPLE CASH INST XFER",
+              "amount": 39.4,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/14/2025",
+              "description": "VISA MONEY TRANSFER CREDIT 10-12-25 CUPERTINO CA 6937 APPLE CASH INST XFER",
+              "amount": 64.02,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/14/2025",
+              "description": "VISA MONEY TRANSFER CREDIT 10-13-25 CUPERTINO CA 6937 APPLE CASH INST XFER",
+              "amount": 184.2,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/17/2025",
+              "description": "VISA MONEY TRANSFER CREDIT 10-16-25 CUPERTINO CA 6937 APPLE CASH INST XFER",
+              "amount": 398.92,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/17/2025",
+              "description": "INCOMING WIRE TRANSFER WIRE REF# 20251017-00032078",
+              "amount": 1118.75,
+              "type": "Credit",
+              "is_payment_processor": 0,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/20/2025",
+              "description": "VISA MONEY TRANSFER CREDIT 10-17-25 VISA DIRECT NY 6937 VENMO* BENNETT MASSON",
+              "amount": 52.92,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/21/2025",
+              "description": "VISA MONEY TRANSFER CREDIT 10-20-25 CUPERTINO CA 6937 APPLE CASH INST XFER",
+              "amount": 157.6,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/22/2025",
+              "description": "VISA MONEY TRANSFER CREDIT 10-21-25 CUPERTINO CA 6937 APPLE CASH INST XFER",
+              "amount": 300.42,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/23/2025",
+              "description": "VISA MONEY TRANSFER CREDIT 10-23-25 CUPERTINO CA 6937 APPLE CASH INST XFER",
+              "amount": 49.25,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/24/2025",
+              "description": "VISA MONEY TRANSFER CREDIT 10-24-25 CUPERTINO CA 6937 APPLE CASH INST XFER",
+              "amount": 129.35,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/24/2025",
+              "description": "INCOMING WIRE TRANSFER WIRE REF# 20251024-00031085",
+              "amount": 807.0,
+              "type": "Credit",
+              "is_payment_processor": 0,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/24/2025",
+              "description": "VISA MONEY TRANSFER CREDIT 10-23-25 VISA DIRECT NY 6937 VENMO*BENNETT MASSON",
+              "amount": 984.47,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/27/2025",
+              "description": "VISA MONEY TRANSFER CREDIT 10-26-25 VISA DIRECT NY 6937 VENMO*BENNETT MASSON",
+              "amount": 78.6,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/27/2025",
+              "description": "VISA MONEY TRANSFER CREDIT 10-26-25 CUPERTINO CA 6937 APPLE CASH INST XFER",
+              "amount": 128.05,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/27/2025",
+              "description": "VISA MONEY TRANSFER CREDIT 10-26-25 CUPERTINO CA 6937 APPLE CASH INST XFER",
+              "amount": 295.5,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/27/2025",
+              "description": "VISA MONEY TRANSFER CREDIT 10-27-25 NEW YORK CITY NY 6937 VENMO*BENNETT MASSON",
+              "amount": 499.86,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/31/2025",
+              "description": "VISA MONEY TRANSFER CREDIT 10-31-25 NEW YORK CITY NY 6937 VENMO*BENNETT MASSON",
+              "amount": 57.74,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/31/2025",
+              "description": "INCOMING WIRE TRANSFER WIRE REF# 20251031-00045360",
+              "amount": 1019.0,
+              "type": "Credit",
+              "is_payment_processor": 0,
+              "non_true_revenue": 0
+            }
+          ],
+          "internal_transfer_withdrawal": [
+            {
+              "date": "10/29/2025",
+              "description": "TRUIST ONLINE CREDIT LINE PMT MOBILE TO ****1001 -",
+              "amount": 1152.51,
+              "type": "Debit"
+            }
+          ],
+          "other_transfer_withdrawal": [
+            {
+              "date": "10/02/2025",
+              "description": "DEBIT CARD MISC DEBIT APPLE CASH SENT MO 10-01 1INFINITELOOP CA 6937",
+              "amount": 60.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "VISA MONEY TRANSFER DEBIT 10-04-25 VISA DIRECT NY 6937 VENMO *LOGAN RUSHING",
+              "amount": 160.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/08/2025",
+              "description": "DEBIT CARD MISC DEBIT APPLE CASH SENT MO 10-07 1INFINITELOOP CA 6937",
+              "amount": 300.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/14/2025",
+              "description": "DEBIT CARD MISC DEBIT APPLE CASH SENT MO 10-10 1INFINITELOOP CA 6937",
+              "amount": 200.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/14/2025",
+              "description": "DEBIT CARD MISC DEBIT APPLE CASH SENT MO 10-12 1INFINITELOOP CA 6937",
+              "amount": 105.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/14/2025",
+              "description": "DEBIT CARD MISC DEBIT APPLE CASH SENT MO 10-13 1INFINITELOOP CA 6937",
+              "amount": 275.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/20/2025",
+              "description": "DEBIT CARD MISC DEBIT APPLE CASH SENT MO 10-18 1INFINITELOOP CA 6937",
+              "amount": 65.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/20/2025",
+              "description": "DEBIT CARD MISC DEBIT APPLE CASH SENT MO 10-19 1INFINITELOOP CA 6937",
+              "amount": 565.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/23/2025",
+              "description": "VISA MONEY TRANSFER DEBIT 10-22-25 VISA DIRECT NY 6937 VENMO *KINLEY CALLOWAY",
+              "amount": 150.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/24/2025",
+              "description": "VISA MONEY TRANSFER DEBIT 10-23-25 VISA DIRECT NY 6937 VENMO *KAY EDWARDS",
+              "amount": 20.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/24/2025",
+              "description": "VISA MONEY TRANSFER DEBIT 10-23-25 VISA DIRECT NY 6937 VENMO *KAY EDWARDS",
+              "amount": 10.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/24/2025",
+              "description": "VISA MONEY TRANSFER DEBIT 10-23-25 VISA DIRECT NY 6937 VENMO *CONNOR POLHEMUS",
+              "amount": 804.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/27/2025",
+              "description": "VISA MONEY TRANSFER DEBIT 10-24-25 VISA DIRECT NY 6937 VENMO *RAINA ECKERSLEY",
+              "amount": 250.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/31/2025",
+              "description": "VISA MONEY TRANSFER DEBIT 10-30-25 VISA DIRECT NY 6937 VENMO *LANDON OXENDINE",
+              "amount": 100.0,
+              "type": "Debit"
+            }
+          ],
+          "standard_deposit": [
+            {
+              "date": "10/01/2025",
+              "description": "ACH CREDIT SURELINE CAPITAL XXXX BENNETTS HAULING LLC",
+              "amount": 456.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/03/2025",
+              "description": "ACH CREDIT SURELINE CAPITAL XXXX BENNETTS HAULING LLC",
+              "amount": 1037.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/03/2025",
+              "description": "ACH CREDIT SURELINE CAPITAL XXXX BENNETTS HAULING LLC",
+              "amount": 422.5,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/06/2025",
+              "description": "CASH DEPOSIT 10-06-25 20:59 A816 MARSHVILLE BRANCH 18169197",
+              "amount": 2100.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/07/2025",
+              "description": "ACH CREDIT SURELINE CAPITAL XXXX BENNETTS HAULING LLC",
+              "amount": 429.5,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/09/2025",
+              "description": "ACH CREDIT SURELINE CAPITAL XXXX BENNETTS HAULING LLC",
+              "amount": 351.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/10/2025",
+              "description": "ACH CREDIT SURELINE CAPITAL XXXX BENNETTS HAULING LLC",
+              "amount": 486.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/14/2025",
+              "description": "ACH CREDIT SURELINE CAPITAL XXXX BENNETTS HAULING LLC",
+              "amount": 499.5,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/15/2025",
+              "description": "ACH CREDIT SURELINE CAPITAL XXXX BENNETTS HAULING LLC",
+              "amount": 1638.74,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/16/2025",
+              "description": "ACH CREDIT SURELINE CAPITAL XXXX BENNETTS HAULING LLC",
+              "amount": 740.25,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/17/2025",
+              "description": "ACH CREDIT SURELINE CAPITAL XXXX BENNETTS HAULING LLC",
+              "amount": 1686.62,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/20/2025",
+              "description": "CASH DEPOSIT 10-18-25 12:47 A816 MARSHVILLE BRANCH 18161939",
+              "amount": 565.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/20/2025",
+              "description": "DEPOSIT",
+              "amount": 3350.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/21/2025",
+              "description": "ACH CREDIT SURELINE CAPITAL XXXX BENNETTS HAULING LLC",
+              "amount": 1200.75,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/22/2025",
+              "description": "ACH CREDIT SURELINE CAPITAL XXXX BENNETTS HAULING LLC",
+              "amount": 406.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/23/2025",
+              "description": "CASH DEPOSIT 10-23-25 20:35 A816 MARSHVILLE BRANCH 18163014",
+              "amount": 380.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/24/2025",
+              "description": "ACH CREDIT SURELINE CAPITAL XXXX BENNETTS HAULING LLC",
+              "amount": 2607.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/29/2025",
+              "description": "CASH DEPOSIT 10-29-25 09:03 A816 MARSHVILLE BRANCH 18164178",
+              "amount": 280.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/29/2025",
+              "description": "CASH DEPOSIT 10-29-25 09:01 A816 MARSHVILLE BRANCH 18164176",
+              "amount": 870.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/29/2025",
+              "description": "ACH CREDIT SURELINE CAPITAL XXXX BENNETTS HAULING LLC",
+              "amount": 1248.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/30/2025",
+              "description": "ACH CREDIT SURELINE CAPITAL XXXX BENNETTS HAULING LLC",
+              "amount": 496.62,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "10/31/2025",
+              "description": "ACH CREDIT SURELINE CAPITAL XXXX BENNETTS HAULING LLC",
+              "amount": 954.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            }
+          ],
+          "standard_withdrawal": [
+            {
+              "date": "10/01/2025",
+              "description": "CHECK # *15423226",
+              "amount": 1100.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/01/2025",
+              "description": "DEBIT CARD PURCHASE-PIN 09-30-25 HAGERSTOWN MD 4298 AC & T GARLAND GROH",
+              "amount": 10.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/01/2025",
+              "description": "DEBIT CARD PURCHASE-PIN 09-30-25 MONROE 6937 TARGET T-2074",
+              "amount": 99.48,
+              "type": "Debit"
+            },
+            {
+              "date": "10/01/2025",
+              "description": "DEBIT CARD PURCHASE BKG*HOTEL AT BOOKI 09-30 147-036-3250 NY 6937",
+              "amount": 90.51,
+              "type": "Debit"
+            },
+            {
+              "date": "10/02/2025",
+              "description": "CHECK # 1048",
+              "amount": 510.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/02/2025",
+              "description": "DEBIT CARD PURCHASE-PIN 10-01-25 MARSHVILLE 6937 SPEEDWAY 46982",
+              "amount": 116.16,
+              "type": "Debit"
+            },
+            {
+              "date": "10/03/2025",
+              "description": "DEBIT CARD PURCHASE QUALITY INN OK339 09-22 SALLISAW OK 4298",
+              "amount": 80.44,
+              "type": "Debit"
+            },
+            {
+              "date": "10/03/2025",
+              "description": "DEBIT CARD PURCHASE HARRAHS HOTELS ADV 10-02 8284977777 NC 6937",
+              "amount": 83.68,
+              "type": "Debit"
+            },
+            {
+              "date": "10/03/2025",
+              "description": "DEBIT CARD PURCHASE CASCADE FALLS BAR 10-01 CHEROKEE NC 6937",
+              "amount": 10.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/03/2025",
+              "description": "DEBIT CARD PURCHASE SQ *OLE SMOKY DIST 10-02 Gatlinburg TN 6937",
+              "amount": 21.9,
+              "type": "Debit"
+            },
+            {
+              "date": "10/03/2025",
+              "description": "DEBIT CARD PURCHASE-PIN 10-02-25 SEVIERVILLE 6937 TARGET STORE T-2903",
+              "amount": 66.76,
+              "type": "Debit"
+            },
+            {
+              "date": "10/03/2025",
+              "description": "DEBIT CARD PURCHASE Partners on Bookin 10-02 Amsterdam 6937",
+              "amount": 105.39,
+              "type": "Debit"
+            },
+            {
+              "date": "10/03/2025",
+              "description": "DEBIT CARD PURCHASE PUBLIX #1713 10-02 SEVIERVILLE TN 6937",
+              "amount": 78.73,
+              "type": "Debit"
+            },
+            {
+              "date": "10/03/2025",
+              "description": "INTERNET PAYMENT WEB PMTS MON AQUA&FITNESS 450R4R",
+              "amount": 50.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/03/2025",
+              "description": "ACH CORP DEBIT MOBILE PMT CAPITAL ONE Masson Bennett CUSTOMER ID CA091109A933595",
+              "amount": 100.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/03/2025",
+              "description": "DEBIT CARD PURCHASE-PIN 10-03-25 SUFFOLK 4298 7-ELEVEN",
+              "amount": 35.01,
+              "type": "Debit"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "CHECK # 1047",
+              "amount": 530.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "DEBIT CARD PURCHASE HARRAHS CHEROKEE H 10-03 CHEROKEE NC 6937",
+              "amount": 37.61,
+              "type": "Debit"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "DEBIT CARD PURCHASE CHEROKEE LOBBY CAF 10-02 CHEROKEE NC 6937",
+              "amount": 30.38,
+              "type": "Debit"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "DEBIT CARD PURCHASE CKE*GATLINBURG BRE 10-03 SEVIERVILLE TN 6937",
+              "amount": 38.91,
+              "type": "Debit"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "DEBIT CARD PURCHASE LIQUOR & WINE OF T 10-02 GATLINBURG TN 6937",
+              "amount": 64.71,
+              "type": "Debit"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "DEBIT CARD RECURRING PYMT APPLE.COM/BILL 10-03 866-712-7753 CA 6937",
+              "amount": 41.63,
+              "type": "Debit"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "DEBIT CARD PURCHASE-PIN 10-03-25 SUFFOLK VA 4298 RACEWAY 6793",
+              "amount": 125.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "DEBIT CARD PURCHASE MCM GATLINBURG ALD 10-03 GATLINBURG TN 6937",
+              "amount": 94.5,
+              "type": "Debit"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "DEBIT CARD PURCHASE LIQUOR & WINE OF T 10-03 GATLINBURG TN 6937",
+              "amount": 49.37,
+              "type": "Debit"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "DEBIT CARD PURCHASE-PIN 10-03-25 PIGEON FORGE TN 6937 BOOT FACTORY OUTLET",
+              "amount": 329.24,
+              "type": "Debit"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "DEBIT CARD PURCHASE-PIN 10-03-25 SEVIERVILLE 6937 TARGET STORE T-2903",
+              "amount": 54.8,
+              "type": "Debit"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "DEBIT CARD PURCHASE CRACKER BARREL #51 10-04 SEVIERVILLE TN 6937",
+              "amount": 89.22,
+              "type": "Debit"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "DEBIT CARD PURCHASE STONEBROOK LODGE C 10-05 CHEROKEE NC 6937",
+              "amount": 208.02,
+              "type": "Debit"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "DEBIT CARD PURCHASE VALLEY RIVER HOTEL 10-05 8284977777 NC 6937",
+              "amount": 380.32,
+              "type": "Debit"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "DEBIT CARD PURCHASE SUPER.COM * HOTE 10-04 844-461-2577 CA 6937",
+              "amount": 519.1,
+              "type": "Debit"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "DEBIT CARD PURCHASE THE CHEROKEE TOWER 10-04 CHEROKEE NC 6937",
+              "amount": 38.7,
+              "type": "Debit"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "DEBIT CARD PURCHASE BRIO-CHEROKEE 10-04 CHEROKEE NC 6937",
+              "amount": 170.98,
+              "type": "Debit"
+            },
+            {
+              "date": "10/06/2025",
+              "description": "DEBIT CARD RECURRING PYMT MICROSOFT*XBOX GAM 10-05 MICROSOFT.COM WA 6937",
+              "amount": 21.34,
+              "type": "Debit"
+            },
+            {
+              "date": "10/07/2025",
+              "description": "DEBIT CARD PURCHASE HARRAHS CHEROKEE H 10-06 CHEROKEE NC 6937",
+              "amount": 37.61,
+              "type": "Debit"
+            },
+            {
+              "date": "10/07/2025",
+              "description": "DEBIT CARD PURCHASE HARRAHS HOTELS ADV 10-06 8284977777 NC 6937",
+              "amount": 124.6,
+              "type": "Debit"
+            },
+            {
+              "date": "10/07/2025",
+              "description": "DEBIT CARD PURCHASE GORDON RAMSAY FOOD 10-05 CHEROKEE NC 6937",
+              "amount": 37.01,
+              "type": "Debit"
+            },
+            {
+              "date": "10/07/2025",
+              "description": "DEBIT CARD PURCHASE-PIN 10-06-25 MORGANTON 6937 SPEEDWAY 46962",
+              "amount": 101.37,
+              "type": "Debit"
+            },
+            {
+              "date": "10/07/2025",
+              "description": "DEBIT CARD RECURRING PYMT APTS BENNETT 10-07 APARTMENTS.CO GA 6937",
+              "amount": 2157.75,
+              "type": "Debit"
+            },
+            {
+              "date": "10/08/2025",
+              "description": "DEBIT CARD PURCHASE HARRAHS CHEROKEE H 10-07 CHEROKEE NC 6937",
+              "amount": 44.6,
+              "type": "Debit"
+            },
+            {
+              "date": "10/08/2025",
+              "description": "DEBIT CARD PURCHASE THE CHEROKEE STARB 10-06 CHEROKEE NC 6937",
+              "amount": 26.77,
+              "type": "Debit"
+            },
+            {
+              "date": "10/08/2025",
+              "description": "DEBIT CARD PURCHASE TACO BELL 042087 10-06 ASHEVILLE NC 6937",
+              "amount": 34.61,
+              "type": "Debit"
+            },
+            {
+              "date": "10/08/2025",
+              "description": "DEBIT CARD RECURRING PYMT NATL GEN INS*RECUR 10-07 800-462-2123 NY 6937",
+              "amount": 425.28,
+              "type": "Debit"
+            },
+            {
+              "date": "10/09/2025",
+              "description": "DEBIT CARD RECURRING PYMT APPLE.COM/BILL 10-08 866-712-7753 CA 6937",
+              "amount": 2.99,
+              "type": "Debit"
+            },
+            {
+              "date": "10/10/2025",
+              "description": "DEBIT CARD PURCHASE-PIN 10-09-25 MONROE 4298 BP#5054069AMOCO",
+              "amount": 20.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/14/2025",
+              "description": "DEBIT CARD PURCHASE ICI*FEETOWN OF MAR 10-10 866-342-9266 MA 6937",
+              "amount": 6.1,
+              "type": "Debit"
+            },
+            {
+              "date": "10/14/2025",
+              "description": "DEBIT CARD PURCHASE TOWN OF MARSHVILLE 10-10 704-624-2515 NC 6937",
+              "amount": 174.3,
+              "type": "Debit"
+            },
+            {
+              "date": "10/14/2025",
+              "description": "DEBIT CARD PURCHASE-PIN 10-10-25 CONCORD 6937 ADVANCE AUTO PA",
+              "amount": 25.98,
+              "type": "Debit"
+            },
+            {
+              "date": "10/14/2025",
+              "description": "DEBIT CARD PURCHASE TIRE 4 LESS CLT 10-10 CHARLOTTE NC 6937",
+              "amount": 56.38,
+              "type": "Debit"
+            },
+            {
+              "date": "10/14/2025",
+              "description": "DEBIT CARD PURCHASE-PIN 10-10-25 CONCORD 6937 7-ELEVEN 35558",
+              "amount": 49.99,
+              "type": "Debit"
+            },
+            {
+              "date": "10/14/2025",
+              "description": "DEBIT CARD PURCHASE LOGANS ROADHOUSE 2 10-10 MONROE NC 6937",
+              "amount": 60.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/14/2025",
+              "description": "DEBIT CARD PURCHASE THE WHEEL 10-10 MARSHVILLE NC 6937",
+              "amount": 13.54,
+              "type": "Debit"
+            },
+            {
+              "date": "10/14/2025",
+              "description": "DEBIT CARD PURCHASE MARSHVILLE ABC BOA 10-10 MARSHVILLE NC 6937",
+              "amount": 16.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/14/2025",
+              "description": "DEBIT CARD PURCHASE-PIN 10-10-25 MARSHVILLE 6937 SPEEDWAY 46982",
+              "amount": 5.01,
+              "type": "Debit"
+            },
+            {
+              "date": "10/14/2025",
+              "description": "DEBIT CARD RECURRING PYMT HOS247 LLC 10-12 HOS247.COM CA 6937",
+              "amount": 25.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/14/2025",
+              "description": "DEBIT CARD PURCHASE Hotel at Booking.c 10-13 312-4560000 DE 6937",
+              "amount": 90.95,
+              "type": "Debit"
+            },
+            {
+              "date": "10/14/2025",
+              "description": "ACH CORP DEBIT MOBILE PMT CAPITAL ONE Masson Bennett CUSTOMER ID CA0884449FC8C2D",
+              "amount": 50.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/14/2025",
+              "description": "DEBIT CARD PURCHASE-PIN 10-14-25 ROCKY MOUNT 4298 SPEEDWAY 44694",
+              "amount": 125.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/15/2025",
+              "description": "CHECK # 1049",
+              "amount": 1476.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/15/2025",
+              "description": "DEBIT CARD PURCHASE SHELL OIL 57543975 10-13 LEWISTON NC 4298",
+              "amount": 25.07,
+              "type": "Debit"
+            },
+            {
+              "date": "10/15/2025",
+              "description": "DEBIT CARD PURCHASE COUNTRY INN & SUIT 10-13 ROCKY MOUNT NC 4298",
+              "amount": 94.14,
+              "type": "Debit"
+            },
+            {
+              "date": "10/15/2025",
+              "description": "0077716327 BetrLink LLC 2503 MASSON BENNETT",
+              "amount": 309.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/15/2025",
+              "description": "ACH CORP DEBIT MOBILE PMT CAPITAL ONE Masson Bennett CUSTOMER ID CA0324192846032",
+              "amount": 210.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/15/2025",
+              "description": "ACH CORP DEBIT ONLINE PMT CAPITAL ONE Masson Bennett CUSTOMER ID CA087A0696064E1",
+              "amount": 254.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/16/2025",
+              "description": "DEBIT CARD PURCHASE SLEEP INN & SUITES 10-15 CULLMAN AL 4298",
+              "amount": 95.34,
+              "type": "Debit"
+            },
+            {
+              "date": "10/17/2025",
+              "description": "CHECK # *17013714",
+              "amount": 3100.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/17/2025",
+              "description": "DEBIT CARD PURCHASE-PIN 10-16-25 ATOKA OK 4298 LOVE'S #0268 INSIDE",
+              "amount": 21.19,
+              "type": "Debit"
+            },
+            {
+              "date": "10/17/2025",
+              "description": "DEBIT CARD PURCHASE BKG*HOTEL AT BOOKI 10-16 147-036-3250 NY 6937",
+              "amount": 63.51,
+              "type": "Debit"
+            },
+            {
+              "date": "10/20/2025",
+              "description": "DEBIT CARD PURCHASE COMFORT SUITES TXF 10-16 WACO TX 4298",
+              "amount": 95.72,
+              "type": "Debit"
+            },
+            {
+              "date": "10/20/2025",
+              "description": "DEBIT CARD PURCHASE DD *DOORDASH CHICK 10-17 DOORDASH.COM CA 4298",
+              "amount": 20.69,
+              "type": "Debit"
+            },
+            {
+              "date": "10/20/2025",
+              "description": "DEBIT CARD PURCHASE MICROTEL INN & SUI 10-17 CLAREMORE OK 4298",
+              "amount": 246.3,
+              "type": "Debit"
+            },
+            {
+              "date": "10/20/2025",
+              "description": "DEBIT CARD PURCHASE DD *DOORDASH LACAN 10-18 855-973-1040 CA 4298",
+              "amount": 21.51,
+              "type": "Debit"
+            },
+            {
+              "date": "10/20/2025",
+              "description": "DEBIT CARD RECURRING PYMT APPLE.COM/BILL 10-19 866-712-7753 CA 6937",
+              "amount": 11.73,
+              "type": "Debit"
+            },
+            {
+              "date": "10/21/2025",
+              "description": "DEBIT CARD PURCHASE IPFS Corporation 10-20 Kansas City MO 6937",
+              "amount": 3410.83,
+              "type": "Debit"
+            },
+            {
+              "date": "10/22/2025",
+              "description": "DEBIT CARD PURCHASE QUAILITY INN&SUITE 10-21 CLARKSVILLE AR 4298",
+              "amount": 94.99,
+              "type": "Debit"
+            },
+            {
+              "date": "10/22/2025",
+              "description": "DEBIT CARD PURCHASE-PIN 10-21-25 MARSHVILLE NC 6937 FOOD LION #0422",
+              "amount": 9.13,
+              "type": "Debit"
+            },
+            {
+              "date": "10/22/2025",
+              "description": "DEBIT CARD PURCHASE-PIN 10-21-25 CONWAY 4298 DUSTY'S",
+              "amount": 15.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/22/2025",
+              "description": "DEBIT CARD PURCHASE-PIN 10-21-25 MORRILTON AR 4298 ROBERSON TIRE SERVICE, IN",
+              "amount": 181.02,
+              "type": "Debit"
+            },
+            {
+              "date": "10/23/2025",
+              "description": "DEBIT CARD PURCHASE-PIN 10-22-25 SUMMIT 4298 TA EXPRESS TRUC",
+              "amount": 445.91,
+              "type": "Debit"
+            },
+            {
+              "date": "10/23/2025",
+              "description": "DEBIT CARD PURCHASE BKG*HOTEL AT BOOKI 10-23 147-036-3250 NY 6937",
+              "amount": 80.18,
+              "type": "Debit"
+            },
+            {
+              "date": "10/24/2025",
+              "description": "CHECK # 1050",
+              "amount": 1990.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/24/2025",
+              "description": "DEBIT CARD PURCHASE HIGHLAND SUITES 10-23 MINOT ND 4298",
+              "amount": 50.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/24/2025",
+              "description": "DEBIT CARD PURCHASE-PIN 10-23-25 JAMESTOWN ND 4298 SHELL SERVICE STATION",
+              "amount": 15.1,
+              "type": "Debit"
+            },
+            {
+              "date": "10/24/2025",
+              "description": "DEBIT CARD PURCHASE-PIN 10-23-25 VALLEY CITY ND 4298 LOVE'S #0849 INSIDE",
+              "amount": 150.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/24/2025",
+              "description": "DEBIT CARD PURCHASE-PIN 10-23-25 MARSHVILLE 6937 SPEEDWAY 46982",
+              "amount": 107.02,
+              "type": "Debit"
+            },
+            {
+              "date": "10/27/2025",
+              "description": "DEBIT CARD PURCHASE SPI*DUKE-ENERGY 10-24 800-777-9898 NC 6937",
+              "amount": 380.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/27/2025",
+              "description": "DEBIT CARD PURCHASE SMARTWOOD INN 10-24 OSSEO WI 4298",
+              "amount": 85.03,
+              "type": "Debit"
+            },
+            {
+              "date": "10/27/2025",
+              "description": "DEBIT CARD PURCHASE-PIN 10-24-25 OSSEO 4298 431-TA EXPRESS",
+              "amount": 20.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/27/2025",
+              "description": "DEBIT CARD PURCHASE LAKE WOOD COFFEE HO 10-24 MYRTLE BEACH SC 6937",
+              "amount": 15.15,
+              "type": "Debit"
+            },
+            {
+              "date": "10/27/2025",
+              "description": "DEBIT CARD PURCHASE TST* MIYABI JR EXP 10-25 843-282-9422 SC 6937",
+              "amount": 47.04,
+              "type": "Debit"
+            },
+            {
+              "date": "10/27/2025",
+              "description": "DEBIT CARD RECURRING PYMT HOS247 LLC 10-26 HOS247.COM CA 6937",
+              "amount": 25.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/27/2025",
+              "description": "ACH CORP DEBIT PAYMENT TRULIANT FEDERAL Masson Bennett CUSTOMER ID 018870001387379",
+              "amount": 2000.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/28/2025",
+              "description": "DEBIT CARD PURCHASE LOGANS ROADHOUSE 2 10-27 MONROE NC 6937",
+              "amount": 25.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/28/2025",
+              "description": "DEBIT CARD PURCHASE-PIN 10-27-25 MONROE 4298 FAIRVIEW GROCER",
+              "amount": 125.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/28/2025",
+              "description": "DEBIT CARD PURCHASE-PIN 10-27-25 MARSHVILLE NC 6937 FOOD LION #0422",
+              "amount": 48.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/28/2025",
+              "description": "DEBIT CARD PURCHASE-PIN 10-27-25 NEWBERRY SC 4298 LOVE'S #0396 INSIDE",
+              "amount": 100.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/28/2025",
+              "description": "ACH CORP DEBIT PAYMENT TRULIANT FEDERAL Masson Bennett CUSTOMER ID 018870001391731",
+              "amount": 1000.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/29/2025",
+              "description": "DEBIT CARD PURCHASE-PIN 10-28-25 DILLON SC 4298 QT 7133 OUTSIDE",
+              "amount": 20.39,
+              "type": "Debit"
+            },
+            {
+              "date": "10/29/2025",
+              "description": "DEBIT CARD PURCHASE-PIN 10-28-25 FAYETTEVILLE NC 4298 AUTOZONE 1091 131 S EAST",
+              "amount": 26.74,
+              "type": "Debit"
+            },
+            {
+              "date": "10/30/2025",
+              "description": "DEBIT CARD PURCHASE LA QUINTA MOTOR IN 10-28 COLUMBIA SC 4298",
+              "amount": 97.78,
+              "type": "Debit"
+            },
+            {
+              "date": "10/30/2025",
+              "description": "DEBIT CARD PURCHASE BP#6458095PAR MAR 10-29 JACKSON OH 4298",
+              "amount": 140.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/30/2025",
+              "description": "DEBIT CARD PURCHASE-PIN 10-29-25 WINGATE NC 6937 WINGATE VALERO",
+              "amount": 10.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/30/2025",
+              "description": "DEBIT CARD PURCHASE-PIN 10-29-25 SCOTTSBURG 4298 SPEEDWAY 43733",
+              "amount": 92.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/30/2025",
+              "description": "DEBIT CARD PURCHASE-PIN 10-30-25 DECATUR AL 4298 CIRCLE K # 2709302",
+              "amount": 100.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/30/2025",
+              "description": "DEBIT CARD PURCHASE-PIN 10-30-25 DECATUR AL 4298 CIRCLE K # 2709302",
+              "amount": 12.49,
+              "type": "Debit"
+            },
+            {
+              "date": "10/30/2025",
+              "description": "DEBIT CARD PURCHASE-PIN 10-30-25 MARSHVILLE 6937 SPEEDWAY 46982",
+              "amount": 25.0,
+              "type": "Debit"
+            },
+            {
+              "date": "10/31/2025",
+              "description": "DEBIT CARD PURCHASE-PIN 10-30-25 CULLMAN AL 4298 TRACTOR-SUPPLY-C 1807 SEC",
+              "amount": 65.34,
+              "type": "Debit"
+            }
+          ]
+        }
+      ]
+    },
+    "raw_output": "```json\n{\n  \"accounts\": [\n    {\n      \"account_number\": \"1340027833488\",\n      \"account_type\": \"TRUIST SIMPLE BUSINESS CHECKING\",\n      \"mca_deposit\": [],\n      \"mca_withdrawal\": [],\n      \"returned_items\": [\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"DEBIT CARD RETURN VALLEY RIVER HOTEL 10-05 8284977777 NC 6937\",\n          \"amount\": 39.22,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"DEBIT CARD RETURN VALLEY RIVER HOTEL 10-05 8284977777 NC 6937\",\n          \"amount\": 341.1,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"description\": \"DEBIT CARD RETURN HIGHLAND SUITES 10-23 MINOT ND 4298\",\n          \"amount\": 50.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        }\n      ],\n      \"overdrafts\": [\n        {\n          \"date\": \"10/07/2025\",\n          \"description\": \"OVERDRAFT FEE NOT CHARGED 36\",\n          \"amount\": 36.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/08/2025\",\n          \"description\": \"OVERDRAFT ITEM FEE ($36/ITEM) 36\",\n          \"amount\": 36.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/15/2025\",\n          \"description\": \"OVERDRAFT ITEM FEE ($36/ITEM) 36\",\n          \"amount\": 36.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/28/2025\",\n          \"description\": \"OVERDRAFT ITEM FEE ($36/ITEM) 36\",\n          \"amount\": 36.0,\n          \"type\": \"Debit\"\n        }\n      ],\n      \"service_charges\": [\n        {\n          \"date\": \"10/03/2025\",\n          \"description\": \"INT'L SERVICE ASSESSMENT FEE Partners on Bookin 10-02 Amsterdam 6937\",\n          \"amount\": 3.16,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"DEBIT CARD NON-TRUIST ATM FEE 10-04-25 CHEROKEE 6937 TNSSMART\",\n          \"amount\": 3.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/07/2025\",\n          \"description\": \"NO CHARGE POSITIVE AVAIL BAL 36\",\n          \"amount\": 36.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"10/21/2025\",\n          \"description\": \"SERVICE CHARGES - PRIOR PERIOD\",\n          \"amount\": 130.9,\n          \"type\": \"Debit\"\n        }\n      ],\n      \"atm_cash_withdrawal\": [\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"ATM NETWORK CASH WITHDRAWAL 10-04-25 CHEROKEE 6937 TNSSMART\",\n          \"amount\": 508.99,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/21/2025\",\n          \"description\": \"TRUIST ATM CASH WITHDRAWAL 10-21-25 6937 MARSHVILLE BRANCH\",\n          \"amount\": 500.0,\n          \"type\": \"Debit\"\n        }\n      ],\n      \"internal_transfer_deposit\": [],\n      \"other_transfer_deposit\": [\n        {\n          \"date\": \"10/02/2025\",\n          \"description\": \"VISA MONEY TRANSFER CREDIT 10-01-25 NEW YORK CITY NY 6937 VENMO*BENNETT MASSON\",\n          \"amount\": 48.1,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/02/2025\",\n          \"description\": \"VISA MONEY TRANSFER CREDIT 10-01-25 CUPERTINO CA 6937 APPLE CASH INST XFER\",\n          \"amount\": 64.02,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/02/2025\",\n          \"description\": \"VISA MONEY TRANSFER CREDIT 10-01-25 NEW YORK CITY NY 6937 VENMO*BENNETT MASSON\",\n          \"amount\": 93.34,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/02/2025\",\n          \"description\": \"VISA MONEY TRANSFER CREDIT 10-01-25 VISA DIRECT NY 6937 VENMO*BENNETT MASSON\",\n          \"amount\": 731.97,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/03/2025\",\n          \"description\": \"INCOMING WIRE TRANSFER WIRE REF# 20251003-00022480\",\n          \"amount\": 1559.5,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 0,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"VISA MONEY TRANSFER CREDIT 10-03-25 NEW YORK CITY NY 6937 VENMO*BENNETT MASSON\",\n          \"amount\": 108.08,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/07/2025\",\n          \"description\": \"VISA MONEY TRANSFER CREDIT 10-06-25 VISA DIRECT NY 6937 VENMO*BENNETT MASSON\",\n          \"amount\": 22.6,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/07/2025\",\n          \"description\": \"VISA MONEY TRANSFER CREDIT 10-06-25 CUPERTINO CA 6937 APPLE CASH INST XFER\",\n          \"amount\": 114.66,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/08/2025\",\n          \"description\": \"VISA MONEY TRANSFER CREDIT 10-08-25 CUPERTINO CA 6937 APPLE CASH INST XFER\",\n          \"amount\": 22.66,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/10/2025\",\n          \"description\": \"VISA MONEY TRANSFER CREDIT 10-09-25 VISA DIRECT NY 6937 VENMO*BENNETT MASSON\",\n          \"amount\": 62.46,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/10/2025\",\n          \"description\": \"VISA MONEY TRANSFER CREDIT 10-10-25 VISA DIRECT NY 6937 VENMO*BENNETT MASSON\",\n          \"amount\": 245.63,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"VISA MONEY TRANSFER CREDIT 10-13-25 CUPERTINO CA 6937 APPLE CASH INST XFER\",\n          \"amount\": 39.4,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"VISA MONEY TRANSFER CREDIT 10-12-25 CUPERTINO CA 6937 APPLE CASH INST XFER\",\n          \"amount\": 64.02,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"VISA MONEY TRANSFER CREDIT 10-13-25 CUPERTINO CA 6937 APPLE CASH INST XFER\",\n          \"amount\": 184.2,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"description\": \"VISA MONEY TRANSFER CREDIT 10-16-25 CUPERTINO CA 6937 APPLE CASH INST XFER\",\n          \"amount\": 398.92,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"description\": \"INCOMING WIRE TRANSFER WIRE REF# 20251017-00032078\",\n          \"amount\": 1118.75,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 0,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/20/2025\",\n          \"description\": \"VISA MONEY TRANSFER CREDIT 10-17-25 VISA DIRECT NY 6937 VENMO* BENNETT MASSON\",\n          \"amount\": 52.92,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/21/2025\",\n          \"description\": \"VISA MONEY TRANSFER CREDIT 10-20-25 CUPERTINO CA 6937 APPLE CASH INST XFER\",\n          \"amount\": 157.6,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/22/2025\",\n          \"description\": \"VISA MONEY TRANSFER CREDIT 10-21-25 CUPERTINO CA 6937 APPLE CASH INST XFER\",\n          \"amount\": 300.42,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/23/2025\",\n          \"description\": \"VISA MONEY TRANSFER CREDIT 10-23-25 CUPERTINO CA 6937 APPLE CASH INST XFER\",\n          \"amount\": 49.25,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/24/2025\",\n          \"description\": \"VISA MONEY TRANSFER CREDIT 10-24-25 CUPERTINO CA 6937 APPLE CASH INST XFER\",\n          \"amount\": 129.35,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/24/2025\",\n          \"description\": \"INCOMING WIRE TRANSFER WIRE REF# 20251024-00031085\",\n          \"amount\": 807.0,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 0,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/24/2025\",\n          \"description\": \"VISA MONEY TRANSFER CREDIT 10-23-25 VISA DIRECT NY 6937 VENMO*BENNETT MASSON\",\n          \"amount\": 984.47,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"description\": \"VISA MONEY TRANSFER CREDIT 10-26-25 VISA DIRECT NY 6937 VENMO*BENNETT MASSON\",\n          \"amount\": 78.6,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"description\": \"VISA MONEY TRANSFER CREDIT 10-26-25 CUPERTINO CA 6937 APPLE CASH INST XFER\",\n          \"amount\": 128.05,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"description\": \"VISA MONEY TRANSFER CREDIT 10-26-25 CUPERTINO CA 6937 APPLE CASH INST XFER\",\n          \"amount\": 295.5,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"description\": \"VISA MONEY TRANSFER CREDIT 10-27-25 NEW YORK CITY NY 6937 VENMO*BENNETT MASSON\",\n          \"amount\": 499.86,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/31/2025\",\n          \"description\": \"VISA MONEY TRANSFER CREDIT 10-31-25 NEW YORK CITY NY 6937 VENMO*BENNETT MASSON\",\n          \"amount\": 57.74,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/31/2025\",\n          \"description\": \"INCOMING WIRE TRANSFER WIRE REF# 20251031-00045360\",\n          \"amount\": 1019.0,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 0,\n          \"non_true_revenue\": 0\n        }\n      ],\n      \"internal_transfer_withdrawal\": [\n        {\n          \"date\": \"10/29/2025\",\n          \"description\": \"TRUIST ONLINE CREDIT LINE PMT MOBILE TO ****1001 -\",\n          \"amount\": 1152.51,\n          \"type\": \"Debit\"\n        }\n      ],\n      \"other_transfer_withdrawal\": [\n        {\n          \"date\": \"10/02/2025\",\n          \"description\": \"DEBIT CARD MISC DEBIT APPLE CASH SENT MO 10-01 1INFINITELOOP CA 6937\",\n          \"amount\": 60.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"VISA MONEY TRANSFER DEBIT 10-04-25 VISA DIRECT NY 6937 VENMO *LOGAN RUSHING\",\n          \"amount\": 160.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/08/2025\",\n          \"description\": \"DEBIT CARD MISC DEBIT APPLE CASH SENT MO 10-07 1INFINITELOOP CA 6937\",\n          \"amount\": 300.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"DEBIT CARD MISC DEBIT APPLE CASH SENT MO 10-10 1INFINITELOOP CA 6937\",\n          \"amount\": 200.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"DEBIT CARD MISC DEBIT APPLE CASH SENT MO 10-12 1INFINITELOOP CA 6937\",\n          \"amount\": 105.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"DEBIT CARD MISC DEBIT APPLE CASH SENT MO 10-13 1INFINITELOOP CA 6937\",\n          \"amount\": 275.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/20/2025\",\n          \"description\": \"DEBIT CARD MISC DEBIT APPLE CASH SENT MO 10-18 1INFINITELOOP CA 6937\",\n          \"amount\": 65.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/20/2025\",\n          \"description\": \"DEBIT CARD MISC DEBIT APPLE CASH SENT MO 10-19 1INFINITELOOP CA 6937\",\n          \"amount\": 565.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/23/2025\",\n          \"description\": \"VISA MONEY TRANSFER DEBIT 10-22-25 VISA DIRECT NY 6937 VENMO *KINLEY CALLOWAY\",\n          \"amount\": 150.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/24/2025\",\n          \"description\": \"VISA MONEY TRANSFER DEBIT 10-23-25 VISA DIRECT NY 6937 VENMO *KAY EDWARDS\",\n          \"amount\": 20.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/24/2025\",\n          \"description\": \"VISA MONEY TRANSFER DEBIT 10-23-25 VISA DIRECT NY 6937 VENMO *KAY EDWARDS\",\n          \"amount\": 10.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/24/2025\",\n          \"description\": \"VISA MONEY TRANSFER DEBIT 10-23-25 VISA DIRECT NY 6937 VENMO *CONNOR POLHEMUS\",\n          \"amount\": 804.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"description\": \"VISA MONEY TRANSFER DEBIT 10-24-25 VISA DIRECT NY 6937 VENMO *RAINA ECKERSLEY\",\n          \"amount\": 250.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/31/2025\",\n          \"description\": \"VISA MONEY TRANSFER DEBIT 10-30-25 VISA DIRECT NY 6937 VENMO *LANDON OXENDINE\",\n          \"amount\": 100.0,\n          \"type\": \"Debit\"\n        }\n      ],\n      \"standard_deposit\": [\n        {\n          \"date\": \"10/01/2025\",\n          \"description\": \"ACH CREDIT SURELINE CAPITAL XXXX BENNETTS HAULING LLC\",\n          \"amount\": 456.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/03/2025\",\n          \"description\": \"ACH CREDIT SURELINE CAPITAL XXXX BENNETTS HAULING LLC\",\n          \"amount\": 1037.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/03/2025\",\n          \"description\": \"ACH CREDIT SURELINE CAPITAL XXXX BENNETTS HAULING LLC\",\n          \"amount\": 422.5,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"CASH DEPOSIT 10-06-25 20:59 A816 MARSHVILLE BRANCH 18169197\",\n          \"amount\": 2100.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/07/2025\",\n          \"description\": \"ACH CREDIT SURELINE CAPITAL XXXX BENNETTS HAULING LLC\",\n          \"amount\": 429.5,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/09/2025\",\n          \"description\": \"ACH CREDIT SURELINE CAPITAL XXXX BENNETTS HAULING LLC\",\n          \"amount\": 351.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/10/2025\",\n          \"description\": \"ACH CREDIT SURELINE CAPITAL XXXX BENNETTS HAULING LLC\",\n          \"amount\": 486.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"ACH CREDIT SURELINE CAPITAL XXXX BENNETTS HAULING LLC\",\n          \"amount\": 499.5,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/15/2025\",\n          \"description\": \"ACH CREDIT SURELINE CAPITAL XXXX BENNETTS HAULING LLC\",\n          \"amount\": 1638.74,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/16/2025\",\n          \"description\": \"ACH CREDIT SURELINE CAPITAL XXXX BENNETTS HAULING LLC\",\n          \"amount\": 740.25,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"description\": \"ACH CREDIT SURELINE CAPITAL XXXX BENNETTS HAULING LLC\",\n          \"amount\": 1686.62,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/20/2025\",\n          \"description\": \"CASH DEPOSIT 10-18-25 12:47 A816 MARSHVILLE BRANCH 18161939\",\n          \"amount\": 565.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/20/2025\",\n          \"description\": \"DEPOSIT\",\n          \"amount\": 3350.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/21/2025\",\n          \"description\": \"ACH CREDIT SURELINE CAPITAL XXXX BENNETTS HAULING LLC\",\n          \"amount\": 1200.75,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/22/2025\",\n          \"description\": \"ACH CREDIT SURELINE CAPITAL XXXX BENNETTS HAULING LLC\",\n          \"amount\": 406.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/23/2025\",\n          \"description\": \"CASH DEPOSIT 10-23-25 20:35 A816 MARSHVILLE BRANCH 18163014\",\n          \"amount\": 380.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/24/2025\",\n          \"description\": \"ACH CREDIT SURELINE CAPITAL XXXX BENNETTS HAULING LLC\",\n          \"amount\": 2607.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/29/2025\",\n          \"description\": \"CASH DEPOSIT 10-29-25 09:03 A816 MARSHVILLE BRANCH 18164178\",\n          \"amount\": 280.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/29/2025\",\n          \"description\": \"CASH DEPOSIT 10-29-25 09:01 A816 MARSHVILLE BRANCH 18164176\",\n          \"amount\": 870.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/29/2025\",\n          \"description\": \"ACH CREDIT SURELINE CAPITAL XXXX BENNETTS HAULING LLC\",\n          \"amount\": 1248.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/30/2025\",\n          \"description\": \"ACH CREDIT SURELINE CAPITAL XXXX BENNETTS HAULING LLC\",\n          \"amount\": 496.62,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"10/31/2025\",\n          \"description\": \"ACH CREDIT SURELINE CAPITAL XXXX BENNETTS HAULING LLC\",\n          \"amount\": 954.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        }\n      ],\n      \"standard_withdrawal\": [\n        {\n          \"date\": \"10/01/2025\",\n          \"description\": \"CHECK # *15423226\",\n          \"amount\": 1100.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/01/2025\",\n          \"description\": \"DEBIT CARD PURCHASE-PIN 09-30-25 HAGERSTOWN MD 4298 AC & T GARLAND GROH\",\n          \"amount\": 10.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/01/2025\",\n          \"description\": \"DEBIT CARD PURCHASE-PIN 09-30-25 MONROE 6937 TARGET T-2074\",\n          \"amount\": 99.48,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/01/2025\",\n          \"description\": \"DEBIT CARD PURCHASE BKG*HOTEL AT BOOKI 09-30 147-036-3250 NY 6937\",\n          \"amount\": 90.51,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/02/2025\",\n          \"description\": \"CHECK # 1048\",\n          \"amount\": 510.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/02/2025\",\n          \"description\": \"DEBIT CARD PURCHASE-PIN 10-01-25 MARSHVILLE 6937 SPEEDWAY 46982\",\n          \"amount\": 116.16,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/03/2025\",\n          \"description\": \"DEBIT CARD PURCHASE QUALITY INN OK339 09-22 SALLISAW OK 4298\",\n          \"amount\": 80.44,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/03/2025\",\n          \"description\": \"DEBIT CARD PURCHASE HARRAHS HOTELS ADV 10-02 8284977777 NC 6937\",\n          \"amount\": 83.68,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/03/2025\",\n          \"description\": \"DEBIT CARD PURCHASE CASCADE FALLS BAR 10-01 CHEROKEE NC 6937\",\n          \"amount\": 10.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/03/2025\",\n          \"description\": \"DEBIT CARD PURCHASE SQ *OLE SMOKY DIST 10-02 Gatlinburg TN 6937\",\n          \"amount\": 21.9,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/03/2025\",\n          \"description\": \"DEBIT CARD PURCHASE-PIN 10-02-25 SEVIERVILLE 6937 TARGET STORE T-2903\",\n          \"amount\": 66.76,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/03/2025\",\n          \"description\": \"DEBIT CARD PURCHASE Partners on Bookin 10-02 Amsterdam 6937\",\n          \"amount\": 105.39,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/03/2025\",\n          \"description\": \"DEBIT CARD PURCHASE PUBLIX #1713 10-02 SEVIERVILLE TN 6937\",\n          \"amount\": 78.73,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/03/2025\",\n          \"description\": \"INTERNET PAYMENT WEB PMTS MON AQUA&FITNESS 450R4R\",\n          \"amount\": 50.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/03/2025\",\n          \"description\": \"ACH CORP DEBIT MOBILE PMT CAPITAL ONE Masson Bennett CUSTOMER ID CA091109A933595\",\n          \"amount\": 100.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/03/2025\",\n          \"description\": \"DEBIT CARD PURCHASE-PIN 10-03-25 SUFFOLK 4298 7-ELEVEN\",\n          \"amount\": 35.01,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"CHECK # 1047\",\n          \"amount\": 530.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"DEBIT CARD PURCHASE HARRAHS CHEROKEE H 10-03 CHEROKEE NC 6937\",\n          \"amount\": 37.61,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"DEBIT CARD PURCHASE CHEROKEE LOBBY CAF 10-02 CHEROKEE NC 6937\",\n          \"amount\": 30.38,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"DEBIT CARD PURCHASE CKE*GATLINBURG BRE 10-03 SEVIERVILLE TN 6937\",\n          \"amount\": 38.91,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"DEBIT CARD PURCHASE LIQUOR & WINE OF T 10-02 GATLINBURG TN 6937\",\n          \"amount\": 64.71,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"DEBIT CARD RECURRING PYMT APPLE.COM/BILL 10-03 866-712-7753 CA 6937\",\n          \"amount\": 41.63,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"DEBIT CARD PURCHASE-PIN 10-03-25 SUFFOLK VA 4298 RACEWAY 6793\",\n          \"amount\": 125.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"DEBIT CARD PURCHASE MCM GATLINBURG ALD 10-03 GATLINBURG TN 6937\",\n          \"amount\": 94.5,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"DEBIT CARD PURCHASE LIQUOR & WINE OF T 10-03 GATLINBURG TN 6937\",\n          \"amount\": 49.37,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"DEBIT CARD PURCHASE-PIN 10-03-25 PIGEON FORGE TN 6937 BOOT FACTORY OUTLET\",\n          \"amount\": 329.24,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"DEBIT CARD PURCHASE-PIN 10-03-25 SEVIERVILLE 6937 TARGET STORE T-2903\",\n          \"amount\": 54.8,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"DEBIT CARD PURCHASE CRACKER BARREL #51 10-04 SEVIERVILLE TN 6937\",\n          \"amount\": 89.22,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"DEBIT CARD PURCHASE STONEBROOK LODGE C 10-05 CHEROKEE NC 6937\",\n          \"amount\": 208.02,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"DEBIT CARD PURCHASE VALLEY RIVER HOTEL 10-05 8284977777 NC 6937\",\n          \"amount\": 380.32,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"DEBIT CARD PURCHASE SUPER.COM * HOTE 10-04 844-461-2577 CA 6937\",\n          \"amount\": 519.1,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"DEBIT CARD PURCHASE THE CHEROKEE TOWER 10-04 CHEROKEE NC 6937\",\n          \"amount\": 38.7,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"DEBIT CARD PURCHASE BRIO-CHEROKEE 10-04 CHEROKEE NC 6937\",\n          \"amount\": 170.98,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/06/2025\",\n          \"description\": \"DEBIT CARD RECURRING PYMT MICROSOFT*XBOX GAM 10-05 MICROSOFT.COM WA 6937\",\n          \"amount\": 21.34,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/07/2025\",\n          \"description\": \"DEBIT CARD PURCHASE HARRAHS CHEROKEE H 10-06 CHEROKEE NC 6937\",\n          \"amount\": 37.61,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/07/2025\",\n          \"description\": \"DEBIT CARD PURCHASE HARRAHS HOTELS ADV 10-06 8284977777 NC 6937\",\n          \"amount\": 124.6,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/07/2025\",\n          \"description\": \"DEBIT CARD PURCHASE GORDON RAMSAY FOOD 10-05 CHEROKEE NC 6937\",\n          \"amount\": 37.01,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/07/2025\",\n          \"description\": \"DEBIT CARD PURCHASE-PIN 10-06-25 MORGANTON 6937 SPEEDWAY 46962\",\n          \"amount\": 101.37,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/07/2025\",\n          \"description\": \"DEBIT CARD RECURRING PYMT APTS BENNETT 10-07 APARTMENTS.CO GA 6937\",\n          \"amount\": 2157.75,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/08/2025\",\n          \"description\": \"DEBIT CARD PURCHASE HARRAHS CHEROKEE H 10-07 CHEROKEE NC 6937\",\n          \"amount\": 44.6,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/08/2025\",\n          \"description\": \"DEBIT CARD PURCHASE THE CHEROKEE STARB 10-06 CHEROKEE NC 6937\",\n          \"amount\": 26.77,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/08/2025\",\n          \"description\": \"DEBIT CARD PURCHASE TACO BELL 042087 10-06 ASHEVILLE NC 6937\",\n          \"amount\": 34.61,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/08/2025\",\n          \"description\": \"DEBIT CARD RECURRING PYMT NATL GEN INS*RECUR 10-07 800-462-2123 NY 6937\",\n          \"amount\": 425.28,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/09/2025\",\n          \"description\": \"DEBIT CARD RECURRING PYMT APPLE.COM/BILL 10-08 866-712-7753 CA 6937\",\n          \"amount\": 2.99,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/10/2025\",\n          \"description\": \"DEBIT CARD PURCHASE-PIN 10-09-25 MONROE 4298 BP#5054069AMOCO\",\n          \"amount\": 20.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"DEBIT CARD PURCHASE ICI*FEETOWN OF MAR 10-10 866-342-9266 MA 6937\",\n          \"amount\": 6.1,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"DEBIT CARD PURCHASE TOWN OF MARSHVILLE 10-10 704-624-2515 NC 6937\",\n          \"amount\": 174.3,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"DEBIT CARD PURCHASE-PIN 10-10-25 CONCORD 6937 ADVANCE AUTO PA\",\n          \"amount\": 25.98,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"DEBIT CARD PURCHASE TIRE 4 LESS CLT 10-10 CHARLOTTE NC 6937\",\n          \"amount\": 56.38,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"DEBIT CARD PURCHASE-PIN 10-10-25 CONCORD 6937 7-ELEVEN 35558\",\n          \"amount\": 49.99,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"DEBIT CARD PURCHASE LOGANS ROADHOUSE 2 10-10 MONROE NC 6937\",\n          \"amount\": 60.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"DEBIT CARD PURCHASE THE WHEEL 10-10 MARSHVILLE NC 6937\",\n          \"amount\": 13.54,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"DEBIT CARD PURCHASE MARSHVILLE ABC BOA 10-10 MARSHVILLE NC 6937\",\n          \"amount\": 16.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"DEBIT CARD PURCHASE-PIN 10-10-25 MARSHVILLE 6937 SPEEDWAY 46982\",\n          \"amount\": 5.01,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"DEBIT CARD RECURRING PYMT HOS247 LLC 10-12 HOS247.COM CA 6937\",\n          \"amount\": 25.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"DEBIT CARD PURCHASE Hotel at Booking.c 10-13 312-4560000 DE 6937\",\n          \"amount\": 90.95,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"ACH CORP DEBIT MOBILE PMT CAPITAL ONE Masson Bennett CUSTOMER ID CA0884449FC8C2D\",\n          \"amount\": 50.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/14/2025\",\n          \"description\": \"DEBIT CARD PURCHASE-PIN 10-14-25 ROCKY MOUNT 4298 SPEEDWAY 44694\",\n          \"amount\": 125.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/15/2025\",\n          \"description\": \"CHECK # 1049\",\n          \"amount\": 1476.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/15/2025\",\n          \"description\": \"DEBIT CARD PURCHASE SHELL OIL 57543975 10-13 LEWISTON NC 4298\",\n          \"amount\": 25.07,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/15/2025\",\n          \"description\": \"DEBIT CARD PURCHASE COUNTRY INN & SUIT 10-13 ROCKY MOUNT NC 4298\",\n          \"amount\": 94.14,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/15/2025\",\n          \"description\": \"0077716327 BetrLink LLC 2503 MASSON BENNETT\",\n          \"amount\": 309.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/15/2025\",\n          \"description\": \"ACH CORP DEBIT MOBILE PMT CAPITAL ONE Masson Bennett CUSTOMER ID CA0324192846032\",\n          \"amount\": 210.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/15/2025\",\n          \"description\": \"ACH CORP DEBIT ONLINE PMT CAPITAL ONE Masson Bennett CUSTOMER ID CA087A0696064E1\",\n          \"amount\": 254.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/16/2025\",\n          \"description\": \"DEBIT CARD PURCHASE SLEEP INN & SUITES 10-15 CULLMAN AL 4298\",\n          \"amount\": 95.34,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"description\": \"CHECK # *17013714\",\n          \"amount\": 3100.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"description\": \"DEBIT CARD PURCHASE-PIN 10-16-25 ATOKA OK 4298 LOVE'S #0268 INSIDE\",\n          \"amount\": 21.19,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/17/2025\",\n          \"description\": \"DEBIT CARD PURCHASE BKG*HOTEL AT BOOKI 10-16 147-036-3250 NY 6937\",\n          \"amount\": 63.51,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/20/2025\",\n          \"description\": \"DEBIT CARD PURCHASE COMFORT SUITES TXF 10-16 WACO TX 4298\",\n          \"amount\": 95.72,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/20/2025\",\n          \"description\": \"DEBIT CARD PURCHASE DD *DOORDASH CHICK 10-17 DOORDASH.COM CA 4298\",\n          \"amount\": 20.69,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/20/2025\",\n          \"description\": \"DEBIT CARD PURCHASE MICROTEL INN & SUI 10-17 CLAREMORE OK 4298\",\n          \"amount\": 246.3,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/20/2025\",\n          \"description\": \"DEBIT CARD PURCHASE DD *DOORDASH LACAN 10-18 855-973-1040 CA 4298\",\n          \"amount\": 21.51,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/20/2025\",\n          \"description\": \"DEBIT CARD RECURRING PYMT APPLE.COM/BILL 10-19 866-712-7753 CA 6937\",\n          \"amount\": 11.73,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/21/2025\",\n          \"description\": \"DEBIT CARD PURCHASE IPFS Corporation 10-20 Kansas City MO 6937\",\n          \"amount\": 3410.83,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/22/2025\",\n          \"description\": \"DEBIT CARD PURCHASE QUAILITY INN&SUITE 10-21 CLARKSVILLE AR 4298\",\n          \"amount\": 94.99,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/22/2025\",\n          \"description\": \"DEBIT CARD PURCHASE-PIN 10-21-25 MARSHVILLE NC 6937 FOOD LION #0422\",\n          \"amount\": 9.13,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/22/2025\",\n          \"description\": \"DEBIT CARD PURCHASE-PIN 10-21-25 CONWAY 4298 DUSTY'S\",\n          \"amount\": 15.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/22/2025\",\n          \"description\": \"DEBIT CARD PURCHASE-PIN 10-21-25 MORRILTON AR 4298 ROBERSON TIRE SERVICE, IN\",\n          \"amount\": 181.02,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/23/2025\",\n          \"description\": \"DEBIT CARD PURCHASE-PIN 10-22-25 SUMMIT 4298 TA EXPRESS TRUC\",\n          \"amount\": 445.91,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/23/2025\",\n          \"description\": \"DEBIT CARD PURCHASE BKG*HOTEL AT BOOKI 10-23 147-036-3250 NY 6937\",\n          \"amount\": 80.18,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/24/2025\",\n          \"description\": \"CHECK # 1050\",\n          \"amount\": 1990.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/24/2025\",\n          \"description\": \"DEBIT CARD PURCHASE HIGHLAND SUITES 10-23 MINOT ND 4298\",\n          \"amount\": 50.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/24/2025\",\n          \"description\": \"DEBIT CARD PURCHASE-PIN 10-23-25 JAMESTOWN ND 4298 SHELL SERVICE STATION\",\n          \"amount\": 15.1,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/24/2025\",\n          \"description\": \"DEBIT CARD PURCHASE-PIN 10-23-25 VALLEY CITY ND 4298 LOVE'S #0849 INSIDE\",\n          \"amount\": 150.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/24/2025\",\n          \"description\": \"DEBIT CARD PURCHASE-PIN 10-23-25 MARSHVILLE 6937 SPEEDWAY 46982\",\n          \"amount\": 107.02,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"description\": \"DEBIT CARD PURCHASE SPI*DUKE-ENERGY 10-24 800-777-9898 NC 6937\",\n          \"amount\": 380.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"description\": \"DEBIT CARD PURCHASE SMARTWOOD INN 10-24 OSSEO WI 4298\",\n          \"amount\": 85.03,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"description\": \"DEBIT CARD PURCHASE-PIN 10-24-25 OSSEO 4298 431-TA EXPRESS\",\n          \"amount\": 20.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"description\": \"DEBIT CARD PURCHASE LAKE WOOD COFFEE HO 10-24 MYRTLE BEACH SC 6937\",\n          \"amount\": 15.15,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"description\": \"DEBIT CARD PURCHASE TST* MIYABI JR EXP 10-25 843-282-9422 SC 6937\",\n          \"amount\": 47.04,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"description\": \"DEBIT CARD RECURRING PYMT HOS247 LLC 10-26 HOS247.COM CA 6937\",\n          \"amount\": 25.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/27/2025\",\n          \"description\": \"ACH CORP DEBIT PAYMENT TRULIANT FEDERAL Masson Bennett CUSTOMER ID 018870001387379\",\n          \"amount\": 2000.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/28/2025\",\n          \"description\": \"DEBIT CARD PURCHASE LOGANS ROADHOUSE 2 10-27 MONROE NC 6937\",\n          \"amount\": 25.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/28/2025\",\n          \"description\": \"DEBIT CARD PURCHASE-PIN 10-27-25 MONROE 4298 FAIRVIEW GROCER\",\n          \"amount\": 125.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/28/2025\",\n          \"description\": \"DEBIT CARD PURCHASE-PIN 10-27-25 MARSHVILLE NC 6937 FOOD LION #0422\",\n          \"amount\": 48.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/28/2025\",\n          \"description\": \"DEBIT CARD PURCHASE-PIN 10-27-25 NEWBERRY SC 4298 LOVE'S #0396 INSIDE\",\n          \"amount\": 100.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/28/2025\",\n          \"description\": \"ACH CORP DEBIT PAYMENT TRULIANT FEDERAL Masson Bennett CUSTOMER ID 018870001391731\",\n          \"amount\": 1000.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/29/2025\",\n          \"description\": \"DEBIT CARD PURCHASE-PIN 10-28-25 DILLON SC 4298 QT 7133 OUTSIDE\",\n          \"amount\": 20.39,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/29/2025\",\n          \"description\": \"DEBIT CARD PURCHASE-PIN 10-28-25 FAYETTEVILLE NC 4298 AUTOZONE 1091 131 S EAST\",\n          \"amount\": 26.74,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/30/2025\",\n          \"description\": \"DEBIT CARD PURCHASE LA QUINTA MOTOR IN 10-28 COLUMBIA SC 4298\",\n          \"amount\": 97.78,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/30/2025\",\n          \"description\": \"DEBIT CARD PURCHASE BP#6458095PAR MAR 10-29 JACKSON OH 4298\",\n          \"amount\": 140.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/30/2025\",\n          \"description\": \"DEBIT CARD PURCHASE-PIN 10-29-25 WINGATE NC 6937 WINGATE VALERO\",\n          \"amount\": 10.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/30/2025\",\n          \"description\": \"DEBIT CARD PURCHASE-PIN 10-29-25 SCOTTSBURG 4298 SPEEDWAY 43733\",\n          \"amount\": 92.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/30/2025\",\n          \"description\": \"DEBIT CARD PURCHASE-PIN 10-30-25 DECATUR AL 4298 CIRCLE K # 2709302\",\n          \"amount\": 100.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/30/2025\",\n          \"description\": \"DEBIT CARD PURCHASE-PIN 10-30-25 DECATUR AL 4298 CIRCLE K # 2709302\",\n          \"amount\": 12.49,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/30/2025\",\n          \"description\": \"DEBIT CARD PURCHASE-PIN 10-30-25 MARSHVILLE 6937 SPEEDWAY 46982\",\n          \"amount\": 25.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"10/31/2025\",\n          \"description\": \"DEBIT CARD PURCHASE-PIN 10-30-25 CULLMAN AL 4298 TRACTOR-SUPPLY-C 1807 SEC\",\n          \"amount\": 65.34,\n          \"type\": \"Debit\"\n        }\n      ]\n    }\n  ]\n}\n```",
+    "token_count": {
+      "estimated_tokens": 3654
+    },
+    "failure_reason": null
+  }
+}

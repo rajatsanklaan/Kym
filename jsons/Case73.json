@@ -1,0 +1,1840 @@
+{
+  "document_name": "Case73.pdf",
+  "pipeline_status": "completed",
+  "processing_metadata": {
+    "start_time": "2026-02-04T15:07:46.719187",
+    "end_time": "2026-02-04T15:12:20.638431",
+    "parsing_time_seconds": 136.083324,
+    "bsi_time_seconds": 137.813472,
+    "total_time_seconds": 273.896796
+  },
+  "parsing_agent_result": {
+    "agent_name": "parsing_agent",
+    "processing_status": "success",
+    "start_time": "2026-02-04T15:07:46.735102",
+    "end_time": "2026-02-04T15:10:02.818013",
+    "parsed_json": {
+      "bank_statement_information": {
+        "bank_name": "CHASE",
+        "account_holder": "TRUE POINT PHLEBOTOMY SOLUTIONS LLC",
+        "statement_start_date": "08-01-2025",
+        "statement_end_date": "08-29-2025",
+        "n_days": 29,
+        "n_month": [
+          8
+        ],
+        "business_address": "449 WINDRUSH DR ELGIN SC 29045"
+      },
+      "accounts": [
+        {
+          "account_number": "000000581326157",
+          "account_type": "Chase Business Complete Checking",
+          "account_summary": {
+            "beginning_balance": -584.88,
+            "ending_balance": 86.85,
+            "total_deposits": 132940.03,
+            "total_withdrawals": 132268.3,
+            "total_deposits_count": null,
+            "total_withdrawals_count": null,
+            "avg_daily_balance": null,
+            "overdraft_days": 10
+          },
+          "transactions": [
+            {
+              "date": "08-01-2025",
+              "description": "Book Transfer Credit B/O: Laboratory of Florida LLC Tampa FL 33615-1599 US Ref: 25-007042025 Trn: 3975315213Es",
+              "amount": 17623.61,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "08-01-2025",
+              "description": "Payment Sent 08/01 Venmo *Tonya Davis Visa Direct NY Card 2912",
+              "amount": 119.9,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "08-01-2025",
+              "description": "Payment Sent 08/01 Venmo *Tonya Davis Visa Direct NY Card 2912",
+              "amount": 79.2,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "08-01-2025",
+              "description": "Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date: 250731 CO Entry Descr:3411D94Ee3Sec:CCD Trace#: 091000019354552 Eed: 250801 Ind ID:888-244-9099 Ind Name: True Point Phlebot Omy Trn: 2139354552Tc",
+              "amount": 462.5,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08-01-2025",
+              "description": "08/01 Online Transfer To Chk... 6132 Transaction#: 25695067826",
+              "amount": 12000.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "08-01-2025",
+              "description": "08/01 Online Transfer To Chk...6132 Transaction#: 25695741335",
+              "amount": 4000.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "08-01-2025",
+              "description": "08/01 Online Transfer To Chk ... 6132 Transaction#: 25696424563",
+              "amount": 377.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "08-04-2025",
+              "description": "Card Purchase With Pin 08/02 Indeed Usi25-04089972 Austin TX Card 2912",
+              "amount": 216.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08-04-2025",
+              "description": "Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date:250801 CO Entry Descr:8403D98A7Bsec: CCD Trace#: 091000017612336 Eed: 250804 Ind ID:888-244-9099 Ind Name: True Point Phlebot Omy Trn: 2167612336Tc",
+              "amount": 462.5,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08-04-2025",
+              "description": "Orig CO Name: Fundbox Inc. Orig ID: 1364759182 Desc Date: CO Entry Descr:Instant Fusec: CCD Trace#: 091000017484072 Eed:250804 Ind ID:Eg8Kbg Gygn Ind Name: Operations 12171 Trn: 2167484072Tc",
+              "amount": 10.24,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08-05-2025",
+              "description": "Overdraft Fee For A $462.50 Item - Details: Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date: 250801 CO Entry Descr: 8403D98A7Bsec:CCD Trace#:091000017612336 Eed: 250804 Ind ID:888-244-9099 Ind Name: True Point Phlebot Omy Trn: 2167612336Tc",
+              "amount": 34.0,
+              "type": "Debit",
+              "category": "Overdraft"
+            },
+            {
+              "date": "08-05-2025",
+              "description": "Overdraft Fee For A $10.24 Item Details: Orig CO Name: Fundbox Inc. Orig ID: 1364759182 Desc Date: CO Entry Descr:Instant Fusec: CCD Trace#: 091000017484072 Eed:250804 Ind ID: Eg8Kbg Gygn Ind Name: Operations 12171 Trn",
+              "amount": 34.0,
+              "type": "Debit",
+              "category": "Overdraft"
+            },
+            {
+              "date": "08-05-2025",
+              "description": "Overdraft Fee For A $216.00 Card Purchase With Pin Details: 0728930802Indeed Usi25-04089972 Austin TX 0############2912 01754",
+              "amount": 34.0,
+              "type": "Debit",
+              "category": "Overdraft"
+            },
+            {
+              "date": "08-06-2025",
+              "description": "Book Transfer Credit B/O: Laboratory of Florida LLC Tampa FL 33615-1599 US Ref: 25-007042025 Trn: 3381345218Es",
+              "amount": 18404.44,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "08-06-2025",
+              "description": "Orig CO Name: Forwardfinancing Orig ID: 5330903620 Desc Date: 250805 CO Entry Descr:55Fbdacc1Esec: CCD Trace#: 091000019469528 Eed:250806 Ind ID:888-244-9099 Ind Name: True Point Phlebot Omy Trn: 2189469528Tc",
+              "amount": 462.5,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08-06-2025",
+              "description": "Zelle Payment To Kim Locklear 25756172313",
+              "amount": 1200.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "08-06-2025",
+              "description": "08/06 Online Domestic Wire Transfer Via: Bank of America, N. A./0959 A/C: Aba/063100277 Miami FL US Ben: James Hoover Hollywood FL 33020 US Ssn: 00521194 Trn: 3472385218Es",
+              "amount": 15000.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "08-06-2025",
+              "description": "Online Domestic Wire Fee",
+              "amount": 25.0,
+              "type": "Debit",
+              "category": "Service Charges/Fees"
+            },
+            {
+              "date": "08-07-2025",
+              "description": "Fedwire Credit Via: Flagstar Bank, NA/026013576 B/O: Seamless Funding LLC, Ref: Chase Nyc/Ctr/Bnf=True Point Phlebotomy Solutions LLC Elgin SC 29045-7 902 US/Ac-000000005813 Rfb=Notprovi Ded Imad: 0807B6B7261F001905 Trn: 0678491219Ff",
+              "amount": 18000.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 0
+            },
+            {
+              "date": "08-07-2025",
+              "description": "Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date: 250806 CO Entry Descr:0Ee10Fbf44Sec: CCD Trace#: 091000018904540 Eed:250807 Ind ID:888-244-9099 Ind Name: True Point Phlebot Omy Trn: 2198904540Tc",
+              "amount": 462.5,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08-07-2025",
+              "description": "Orig CO Name: Fundbox Inc. Orig ID: 1364759182 Desc Date: CO Entry Descr:Adv Debit Sec:CCD Trace#:091000018839840 Eed: 250807 Ind ID:Eg8Kbg Pwcmcw Ind Name: Operations 12199 Trn: 2198839840Tc",
+              "amount": 451.4,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08-07-2025",
+              "description": "Zelle Payment To Diana Pereira 25769129096",
+              "amount": 1420.6,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "08-07-2025",
+              "description": "Domestic Incoming Wire Fee",
+              "amount": 15.0,
+              "type": "Debit",
+              "category": "Service Charges/Fees"
+            },
+            {
+              "date": "08-08-2025",
+              "description": "Fedwire Credit Via: Wells Fargo Bank, N.A./121000248 B/O: Vader Servicing, LLC Miami FL 331821505 US Ref: Chase Nyc/Ctr/Bnf=True Point Phlebotomy Solutions LLC Elgin SC 29045-7 902 US/Ac-000000005813 Rfb=279750 B Bi=/Chgs/USD0,00/ Imad: 080811B7033R013708 Trn: 1064981220Ff",
+              "amount": 14275.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 0
+            },
+            {
+              "date": "08-08-2025",
+              "description": "Zelle Payment From Justin B Leibling 25784568125",
+              "amount": 800.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "08-08-2025",
+              "description": "Payment Sent 08/08 Venmo *Tonya Davis Visa Direct NY Card 2912",
+              "amount": 658.6,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "08-08-2025",
+              "description": "Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date: 250807 CO Entry Descr:Be1551Fff9Sec: CCD Trace#: 091000016787155 Eed: 250808 Ind ID:888-244-9099 Ind Name: True Point Phlebot Omy Trn: 2206787155Tc",
+              "amount": 462.5,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08-08-2025",
+              "description": "Orig CO Name: Seamless Funding Orig ID: 1992378457 Desc Date: 080825 CO Entry Descr:Daily Sec:CCD Trace#: 026013576477547 Eed:250808 Ind ID: 000000147247 Ind Name: True Point Phlebotomy Trn: 2206477547Tc",
+              "amount": 299.8,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08-08-2025",
+              "description": "Zelle Payment To Jessica Eilers Jpm99Bio77Yn",
+              "amount": 1110.19,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "08-08-2025",
+              "description": "Zelle Payment To Katelyn Craft Jpm99Bio7Rmj",
+              "amount": 682.1,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "08-08-2025",
+              "description": "08/08 Same-Day ACH Payment 11183293740 To Shanitaandrews (_######1769)",
+              "amount": 619.2,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "08-08-2025",
+              "description": "08/08 Online Realtime Vendor Payment 11183293806 Payment ID Reference#: 8183293806Rx To Takeda Hinton 2599",
+              "amount": 390.2,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "08-08-2025",
+              "description": "08/08 Same-Day ACH Payment 11183293833 To Ceciliaburnside (_########2559)",
+              "amount": 159.84,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "08-08-2025",
+              "description": "08/08 Online Realtime Vendor Payment 11183281451 Payment ID Reference#: 8183281451Rx To Eleany 8991",
+              "amount": 579.1,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "08-08-2025",
+              "description": "08/08 Same-Day ACH Payment 11183281491 To Ericabillups (_######5349)",
+              "amount": 460.19,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "08-08-2025",
+              "description": "08/08 Online Realtime Vendor Payment 11183281528 Payment ID Reference#: 8183281528Rx To Hannah Tran 9698",
+              "amount": 1011.24,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "08-08-2025",
+              "description": "08/08 Online Realtime Vendor Payment 11183294035 Payment ID Reference#: 8183294035Rx To Ingrid 7768",
+              "amount": 438.3,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "08-08-2025",
+              "description": "Zelle Payment To Jada Gibson Jpm99Bio963T",
+              "amount": 80.8,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "08-08-2025",
+              "description": "08/08 Online Realtime Vendor Payment 11183294194 Payment ID Reference#: 8183294194Rx To Karen Fisher 5400",
+              "amount": 151.14,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "08-08-2025",
+              "description": "08/08 Online Realtime Vendor Payment 11183294223 Payment ID Reference#: 8183294223Rx To Karla Flores 6867",
+              "amount": 342.25,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "08-08-2025",
+              "description": "08/08 Same-Day ACH Payment 11183281880 To Kenyattahollingsworthsavings (_########0353)",
+              "amount": 100.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "08-08-2025",
+              "description": "08/08 Online Realtime Vendor Payment 11183294342 Payment ID Reference#: 8183294342Rx To Kenyatta 6986",
+              "amount": 62.2,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "08-08-2025",
+              "description": "Zelle Payment To Kia Thomas Jpm99Bioa0G9",
+              "amount": 291.48,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "08-08-2025",
+              "description": "08/08 Online Realtime Vendor Payment 11183294464 Payment ID Reference#: 8183294464Rx To Letasha Dantzler 9881",
+              "amount": 914.49,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "08-08-2025",
+              "description": "08/08 Online Realtime Vendor Payment 11183282043 Payment ID Reference#: 8183282043Rx To Galvan 0226",
+              "amount": 1366.83,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "08-08-2025",
+              "description": "08/08 Online Realtime Vendor Payment 11183282133 Payment ID Reference#: 8183282133Rx To Naretta Terhaar 0575",
+              "amount": 330.9,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "08-08-2025",
+              "description": "08/08 Same-Day ACH Payment 11183294617 To Patriciahall (_###8160)",
+              "amount": 177.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "08-08-2025",
+              "description": "08/08 Online Realtime Vendor Payment 11183282235 Payment ID Reference#: 8183282235Rx To Rhonda Holly 1855",
+              "amount": 309.1,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "08-08-2025",
+              "description": "08/08 Online Realtime Vendor Payment 11183294692 Payment ID Reference#: 8183294692Rx To Samantha Carroll 6557",
+              "amount": 252.2,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "08-08-2025",
+              "description": "08/08 Online Realtime Vendor Payment 11183282318 Payment ID Reference#: 8183282318Rx To Temp Acct Stephanie Santiago 9950",
+              "amount": 775.1,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "08-08-2025",
+              "description": "Zelle Payment To Steve Lee Jpm99Bioak88",
+              "amount": 1032.65,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "08-08-2025",
+              "description": "08/08 Same-Day ACH Payment 11183294797 To Vennassawilliams (_######8207)",
+              "amount": 491.58,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "08-08-2025",
+              "description": "08/08 Online Realtime Vendor Payment 11183282493 Payment ID Reference#: 8183282493Rx To Yadoshni 4407",
+              "amount": 595.65,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "08-08-2025",
+              "description": "08/08 Same-Day ACH Payment 11183282850 To Meghanbutler (_######8511)",
+              "amount": 266.2,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "08-08-2025",
+              "description": "08/08 Online Realtime Vendor Payment 11183282887 Payment ID Reference#: 8183282887Rx To Justin Leibling 7624",
+              "amount": 1600.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "08-08-2025",
+              "description": "08/08 Same-Day ACH Payment 11183283036 To Courtneysechrest (_#########0044)",
+              "amount": 182.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "08-08-2025",
+              "description": "08/08 Same-Day ACH Payment 11183295989 To Kimwaldtpps (_########4183)",
+              "amount": 17.5,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "08-08-2025",
+              "description": "08/08 Online Realtime Vendor Payment 11183284107 Payment ID Reference#: 8183284107Rx To Talya Certonio 2927",
+              "amount": 309.8,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "08-08-2025",
+              "description": "08/08 Online Transfer To Chk...6132 Transaction#: 25785010749",
+              "amount": 5000.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "08-08-2025",
+              "description": "Zelle Payment To Kim Locklear 25785088508",
+              "amount": 2800.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "08-08-2025",
+              "description": "08/08 Online Transfer To Chk...6132 Transaction#: 25785271506",
+              "amount": 500.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "08-08-2025",
+              "description": "Domestic Incoming Wire Fee",
+              "amount": 15.0,
+              "type": "Debit",
+              "category": "Service Charges/Fees"
+            },
+            {
+              "date": "08-11-2025",
+              "description": "Payment Sent 08/09 Apple Cash Sent Mone 1Infiniteloop CA Card 2912",
+              "amount": 700.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "08-11-2025",
+              "description": "Card Purchase 08/09 IN *Ainsworth & Clancy 305-6003816 FL Card 2912",
+              "amount": 252.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08-11-2025",
+              "description": "Card Purchase 08/09 Skufca Law Plic Charlotte NC Card 2912",
+              "amount": 399.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08-11-2025",
+              "description": "Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date:250808 CO Entry Descr:99Ed74Fcecsec: CCD Trace#: 091000018813846 Eed:250811 Ind ID:888-244-9099 Ind Name: True Point Phlebot Omy Trn: 2238813846Tc",
+              "amount": 925.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08-11-2025",
+              "description": "Orig CO Name: Seamless Funding Orig ID: 1992378457 Desc Date: 081125 CO Entry Descr:Daily Sec: CCD Trace#: 026013578711713 Eed:250811 Ind ID:000000147344 Ind Name: True Point Phlebotomy Trn: 2238711713Tc",
+              "amount": 299.8,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08-11-2025",
+              "description": "Orig CO Name: Vader Servicing Orig ID:2822300506 Desc Date: CO Entry Descr:Ebf Debit Sec: CCD Trace#:091000018502241 Eed:250811 Ind ID:000000012243518 Ind Name: True Point Phlebotomy Trn: 2238502241 Tc",
+              "amount": 197.73,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08-11-2025",
+              "description": "Orig CO Name: Accountablehq.CO Orig ID: 1800948598 Desc Date: CO Entry Descr: Training Usec: Web Trace#:091000013613988 Eed:250811 Ind ID: St-A8Y5T5U7R313 Ind Name: True Point Phlebotomy Trn: 2233613988Tc",
+              "amount": 25.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08-11-2025",
+              "description": "Zelle Payment To Kim Locklear 25812583669",
+              "amount": 500.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "08-12-2025",
+              "description": "Card Purchase 08/11 IN *Ainsworth & Clancy 305-6003816 FL Card 2912",
+              "amount": 288.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08-12-2025",
+              "description": "Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date: 250811 CO Entry Descr:04Ab207Eb9Sec: CCD Trace#: 091000018881450 Eed: 250812 Ind ID:888-244-9099 Ind Name: True Point Phlebot Omy Trn: 2248881450Tc",
+              "amount": 462.5,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08-12-2025",
+              "description": "Orig CO Name: Seamless Funding Orig ID: 1992378457 Desc Date: 081225 CO Entry Descr:Daily Sec:CCD Trace#: 026013578977381 Eed:250812 Ind ID: 000000147442 Ind Name: True Point Phlebotomy Trn: 2248977381Tc",
+              "amount": 299.8,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08-12-2025",
+              "description": "Orig CO Name: Intuit Financing Orig ID:9463467445 Desc Date: 250812 CO Entry Descr:Qbc_Pmts Sec:CCD Trace#: 111000028616185 Eed:250812 Ind ID: Ind Name: Kimberly Locklear Trn: 2248616185Tc",
+              "amount": 266.83,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08-12-2025",
+              "description": "Orig CO Name: Vader Servicing Orig ID:2822300506 Desc Date: CO Entry Descr:Ebf Debit Sec: CCD Trace#: 091000018576756 Eed: 250812 Ind ID: 000000012250650 Ind Name: True Point Phlebotomy Trn: 2248576756Tc",
+              "amount": 197.73,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08-12-2025",
+              "description": "Zelle Payment To Kim Locklear 25828559104",
+              "amount": 100.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "08-12-2025",
+              "description": "Zelle Payment To Kim Locklear 25828667839",
+              "amount": 50.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "08-13-2025",
+              "description": "Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date: 250812 CO Entry Descr:81Dab7Ea3Asec: CCD Trace#: 091000015402811 Eed: 250813 Ind ID:888-244-9099 Ind Name: True Point Phlebot Omy Trn: 2255402811Tc",
+              "amount": 462.5,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08-13-2025",
+              "description": "Orig CO Name: Seamless Funding Orig ID: 1992378457 Desc Date: 081325 CO Entry Descr:Daily Sec: CCD Trace#: 026013575498281 Eed:250813 Ind ID: 000000147545 Ind Name: True Point Phlebotomy Trn: 2255498281Tc",
+              "amount": 299.8,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08-13-2025",
+              "description": "Orig CO Name: Vader Servicing Orig ID:2822300506 Desc Date: CO Entry Descr:Ebf Debit Sec: CCD Trace#: 091000015637228 Eed: 250813 Ind ID: 000000012257829 Ind Name: True Point Phlebotomy Trn: 2255637228Tc",
+              "amount": 197.73,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08-14-2025",
+              "description": "Orig CO Name: Forwardfinancing Orig ID: 5330903620 Desc Date: 250813 CO Entry Descr:B69C34C0D0Sec: CCD Trace#: 091000012750226 Eed: 250814 Ind ID:888-244-9099 Ind Name: True Point Phlebot Omy Trn: 2262750226Tc",
+              "amount": 462.5,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08-14-2025",
+              "description": "Orig CO Name: Fundbox Inc. Orig ID: 1364759182 Desc Date: CO Entry Descr:Adv Debit Sec: CCD Trace#:091000012665661 Eed:250814 Ind ID:Eg8Kbg PROMbg Ind Name: Operations 12242 Trn: 2262665661 Tc",
+              "amount": 401.61,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08-14-2025",
+              "description": "Orig CO Name: Seamless Funding Orig ID: 1992378457 Desc Date: 081425 CO Entry Descr:Daily Sec: CCD Trace#: 026013572443067 Eed:250814 Ind ID: 000000147646 Ind Name: True Point Phlebotomy Trn: 2262443067Tc",
+              "amount": 299.8,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08-14-2025",
+              "description": "Orig CO Name: Vader Servicing Orig ID:2822300506 Desc Date: CO Entry Descr:Ebf Debit Sec: CCD Trace#: 091000012516912 Eed: 250814 Ind ID: 000000012265035 Ind Name: True Point Phlebotomy Trn: 2262516912Tc",
+              "amount": 197.73,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08-15-2025",
+              "description": "Orig CO Name: Vader Servicing Orig ID:2822300506 Desc Date: CO Entry Descr:Ebf Debit Sec: CCD Trace#: 091000016555188 Eed: 250815 Ind ID: 000000012272378 Ind Name: True Point Phlebotomy Trn: 2276555188Tc",
+              "amount": 197.73,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08-15-2025",
+              "description": "Overdraft Fee For A $299.80 Item - Details: Orig CO Name: Seamless Funding Orig ID: 1992378457 Desc Date: 081425 CO Entry Descr: Daily Sec:CCD Trace#: 026013572443067 Eed: 250814 Ind ID: 000000147646 Ind Name: True Point Phlebotomy Trn: 2262443067Tc",
+              "amount": 34.0,
+              "type": "Debit",
+              "category": "Overdraft"
+            },
+            {
+              "date": "08-15-2025",
+              "description": "Overdraft Fee For A $197.73 Item - Details: Orig CO Name: Vader Servicing Orig ID:2822300506 Desc Date: CO Entry Descr:Ebf Debit Sec:CCD Trace#:091000012516912 Eed: 250814 Ind ID:000000012265035 Ind Name: True Point Phlebotomy Trn: 2262516912Tc",
+              "amount": 34.0,
+              "type": "Debit",
+              "category": "Overdraft"
+            },
+            {
+              "date": "08-18-2025",
+              "description": "Book Transfer Credit B/O: Laboratory of Florida LLC Tampa FL 33615-1599 US Ref: 25-007042025 Trn: 3728025230Es",
+              "amount": 16247.24,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "08-18-2025",
+              "description": "Orig CO Name: Seamless Funding Orig ID: 1992378457 Desc Date: 081825 CO Entry Descr:Daily Sec: CCD Trace#: 026013577196875 Eed:250818 Ind ID: 000000147857 Ind Name: True Point Phlebotomy Trn: 2307196875Tc",
+              "amount": 299.8,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08-18-2025",
+              "description": "Orig CO Name: Vader Servicing Orig ID:2822300506 Desc Date: CO Entry Descr:Ebf Debit Sec:CCD Trace#: 091000018344499 Eed: 250818 Ind ID: 000000012279601 Ind Name: True Point Phlebotomy Trn: 2308344499Tc",
+              "amount": 197.73,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08-18-2025",
+              "description": "Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date:250815 CO Entry Descr:665B218Af7Sec: CCD Trace#: 091000016455293 Eed: 250818 Ind ID:888-244-9099 Ind Name: True Point Phlebot Omy Trn: 2306455293Tc",
+              "amount": 462.5,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08-18-2025",
+              "description": "08/18 Online Transfer To Chk...6132 Transaction#: 25898835657",
+              "amount": 13000.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "08-18-2025",
+              "description": "08/18 Online Transfer To Chk...6132 Transaction#: 25899326748",
+              "amount": 1105.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "08-19-2025",
+              "description": "Orig CO Name: Webbank/Intuit Orig ID:1153219 Desc Date:250819 CO Entry Descr:Gpweb Loansec: CCD Trace#: 124384588541732 Eed:250819 Ind ID: 1727036 Ind Name: Kimberly Locklear Trn: 2318541732Tc",
+              "amount": 433.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "08-19-2025",
+              "description": "Payment Sent 08/18 Venmo *Tonya Davis Visa Direct NY Card 2912",
+              "amount": 448.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "08-19-2025",
+              "description": "Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date:250818 CO Entry Descr:24Ac255050Sec: CCD Trace#: 091000018718265 Eed:250819 Ind ID:888-244-9099 Ind Name: True Point Phlebot Omy Trn: 2318718265Tc",
+              "amount": 462.5,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08-19-2025",
+              "description": "Orig CO Name: Seamless Funding Orig ID: 1992378457 Desc Date: 081925 CO Entry Descr:Daily Sec: CCD Trace#: 026013578397248 Eed: 250819 Ind ID: 000000147962 Ind Name: True Point Phlebotomy Trn: 2318397248Tc",
+              "amount": 299.8,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08-19-2025",
+              "description": "Orig CO Name: Vader Servicing Orig ID:2822300506 Desc Date: CO Entry Descr:Ebf Debit Sec: CCD Trace#:091000018373606 Eed:250819 Ind ID: 000000012286881 Ind Name: True Point Phlebotomy Trn: 2318373606Tc",
+              "amount": 197.73,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08-20-2025",
+              "description": "Orig CO Name: Vader Servicing Orig ID:2822300506 Desc Date: CO Entry Descr:Ebf Debit Sec: CCD Trace#: 091000014786118 Eed: 250820 Ind ID: 000000012294207 Ind Name: True Point Phlebotomy Trn: 2324786118Tc",
+              "amount": 197.73,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08-20-2025",
+              "description": "Overdraft Fee For A $299.80 Item - Details: Orig CO Name: Seamless Funding ID: 1992378457 Desc Date: 081925 CO Entry Descr: Daily Sec:CCD Trace#: 026013578397248 Eed: 250819 Ind ID:000000147962 Ind Name: True Point Phlebotomy Trn: 2318397248Tc",
+              "amount": 34.0,
+              "type": "Debit",
+              "category": "Overdraft"
+            },
+            {
+              "date": "08-20-2025",
+              "description": "Overdraft Fee For A $197.73 Item - Details: Orig CO Name: Vader Servicing Orig ID:2822300506 Desc Date: CO Entry Descr:Ebf Debit Sec:CCD Trace#: 091000018373606 Eed:250819 Ind ID:000000012286881 Ind Name: True Point Point Phlebotomy Trn: 2318373606Tc",
+              "amount": 34.0,
+              "type": "Debit",
+              "category": "Overdraft"
+            },
+            {
+              "date": "08-21-2025",
+              "description": "Overdraft Fee For A $197.73 Item - Details: Orig CO Name: Vader Servicing Orig ID:2822300506 Desc Date: CO Entry Descr:Ebf Debit Sec:CCD Trace#: 091000014786118 Eed:250820 Ind ID: 000000012294207 Ind Name: True Point Phlebotomy Trn: 2324786118Tc",
+              "amount": 34.0,
+              "type": "Debit",
+              "category": "Overdraft"
+            },
+            {
+              "date": "08-22-2025",
+              "description": "Book Transfer Credit B/O: Laboratory of Florida LLC Tampa FL 33615-1599 US Ref: 25-007042025 Trn: 3450415234Es",
+              "amount": 15812.21,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "08-22-2025",
+              "description": "Book Transfer Credit B/O: Laboratory of Florida LLC Tampa FL 33615-1599 US Ref: 25-007042025 Trn: 3438795234Es",
+              "amount": 15525.13,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "08-22-2025",
+              "description": "Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date: 250821 CO Entry Descr:8801D599A7Sec:CCD Trace#: 091000018767999 Eed: 250822 Ind ID:888-244-9099 Ind Name: True Point Phlebot Omy Trn: 2348767999Tc",
+              "amount": 462.5,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08-22-2025",
+              "description": "Orig CO Name: Seamless Funding Orig ID: 1992378457 Desc Date: 082225 CO Entry Descr:Daily Sec:CCD Trace#: 026013578423927 Eed:250822 Ind ID:000000148283 Ind Name: True Point Phlebotomy Trn: 2348423927Tc",
+              "amount": 299.8,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08-22-2025",
+              "description": "Orig CO Name: Vader Servicing Orig ID:2822300506 Desc Date: CO Entry Descr:Ebf Debit Sec: CCD Trace#: 091000018724535 Eed: 250822 Ind ID:000000012308916 Ind Name: True Point Phlebotomy Trn: 2348724535Tc",
+              "amount": 197.73,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08-22-2025",
+              "description": "08/22 Online Transfer To Chk ...6132 Transaction#: 25944840294",
+              "amount": 10000.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "08-22-2025",
+              "description": "08/22 Online Transfer To Chk...6132 Transaction#: 25945105007",
+              "amount": 3000.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "08-22-2025",
+              "description": "08/22 Online Transfer To Chk ...6132 Transaction#: 25945123042",
+              "amount": 6550.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "08-22-2025",
+              "description": "Zelle Payment To Erica Billups Jpm99Bkd643M",
+              "amount": 467.4,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "08-22-2025",
+              "description": "Zelle Payment To Kim Locklear 25945357323",
+              "amount": 2800.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "08-22-2025",
+              "description": "Orig CO Name: Seamless Funding Orig ID: 1992378457 Desc Date: 082225 CO Entry Descr: Onetime Sec: CCD Trace#: 026013576440707 Eed:250822 Ind ID: 000000148316 Ind Name: True Point Phlebotomy Trn: 2346440707Tc",
+              "amount": 1495.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08-22-2025",
+              "description": "Orig CO Name: American Express Orig ID:2005032111 Desc Date:250822 CO Entry Descr:ACH Pmt Sec:CCD Trace#: 021000024782655 Eed: 250822 Ind ID:M0590 Er Am Ind Name: Kimberly Locklear Trn: 2344782655Tc",
+              "amount": 4507.86,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08-25-2025",
+              "description": "Orig CO Name: Cleveland Diagno Orig ID:9112510100 Desc Date: 250825 CO Entry Descr:Payables Sec: CCD Trace#: 044000024154015 Eed:250825 Ind ID: True Point Phle Ind Name: True Point Phlebotomy Trn: 2374154015Tc",
+              "amount": 440.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "08-25-2025",
+              "description": "Card Purchase 08/22 Affirm * Pay B34Fu1Y7 855-423-3729 CA Card 2912",
+              "amount": 18.91,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08-25-2025",
+              "description": "Card Purchase 08/22 Affirm * Pay 4Hinet4J 855-423-3729 CA Card 2912",
+              "amount": 165.76,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08-25-2025",
+              "description": "Recurring Card Purchase 08/23 Www.Zenbusiness. Com Zenbusiness. C TX Card 2912",
+              "amount": 30.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08-25-2025",
+              "description": "Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date: 250822 CO Entry Descr:2Ddcb68999Sec:CCD Trace#:091000019409879 Eed: 250825 Ind ID:888-244-9099 Ind Name: True Point Phlebot Omy Trn: 2379409879Tc",
+              "amount": 462.5,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08-25-2025",
+              "description": "Orig CO Name: Seamless Funding Orig ID: 1992378457 Desc Date: 082525 CO Entry Descr:Daily Sec: CCD Trace#: 026013579007339 Eed:250825 Ind ID: 000000148387 Ind Name: True Point Phlebotomy Trn: 2379007339Tc",
+              "amount": 299.8,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08-25-2025",
+              "description": "Orig CO Name: Vader Servicing Orig ID:2822300506 Desc Date: CO Entry Descr:Ebf Debit Sec:CCD Trace#: 091000019017645 Eed: 250825 Ind ID: 000000012316171 Ind Name: True Point Phlebotomy Trn: 2379017645Tc",
+              "amount": 197.73,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08-26-2025",
+              "description": "Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date:250825 CO Entry Descr:3111526D36Sec: CCD Trace#: 091000018397520 Eed:250826 Ind ID:888-244-9099 Ind Name: True Point Phlebot Omy Trn: 2388397520Tc",
+              "amount": 462.5,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08-26-2025",
+              "description": "Orig CO Name: Vader Servicing Orig ID:2822300506 Desc Date: CO Entry Descr:Ebf Debit Sec: CCD Trace#: 091000018176317 Eed: 250826 Ind ID: 000000012323485 Ind Name: True Point Phlebotomy Trn: 2388176317Tc",
+              "amount": 197.73,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08-27-2025",
+              "description": "Overdraft Fee For A $462.50 Item Details: Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date:250825 CO Entry Descr: 3111526D36Sec:CCD Trace#: 091000018397520 Eed:250826 Ind ID: 888-244-9099 Ind Name: True Phlebot Omy Trn: 2388397520Tc",
+              "amount": 34.0,
+              "type": "Debit",
+              "category": "Overdraft"
+            },
+            {
+              "date": "08-27-2025",
+              "description": "Overdraft Fee For A $197.73 Item Details: Orig CO Name: Vader Servicing Orig ID:2822300506 Desc Date: CO Entry Descr: Ebf Debit Sec:CCD Trace#:091000018176317 Eed: 250826 Ind ID: 000000012323485 Ind Name: True Point Phlebotomy Trn: 2388176317Tc",
+              "amount": 34.0,
+              "type": "Debit",
+              "category": "Overdraft"
+            },
+            {
+              "date": "08-29-2025",
+              "description": "Book Transfer Credit B/O: Laboratory of Florida LLC Tampa FL 33615-1599 US Ref: 25-008282025 Trn: 3825315241Es",
+              "amount": 15379.4,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "08-29-2025",
+              "description": "Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date:250828 CO Entry Descr:67AFB5A7Dasec: CCD Trace#: 091000019174724 Eed: 250829 Ind ID:888-244-9099 Ind Name: True Point Phlebot Omy Trn: 2419174724Tc",
+              "amount": 462.5,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08-29-2025",
+              "description": "Orig CO Name: Seamless Funding Orig ID: 1992378457 Desc Date: 082925 CO Entry Descr:Daily Sec: CCD Trace#: 026013579076395 Eed:250829 Ind ID: 000000148807 Ind Name: True Point Phlebotomy Trn: 2419076395Tc",
+              "amount": 299.8,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08-29-2025",
+              "description": "Orig CO Name: Vader Servicing Orig ID:2822300506 Desc Date: CO Entry Descr:Ebf Debit Sec: CCD Trace#:091000018775064 Eed: 250829 Ind ID:000000012345916 Ind Name: True Point Phlebotomy Trn: 2418775064Tc",
+              "amount": 197.73,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08-29-2025",
+              "description": "08/29 Online Transfer To Chk...6132 Transaction#: 26027649287",
+              "amount": 13600.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            }
+          ]
+        }
+      ]
+    },
+    "raw_output": "```json\n{\n  \"bank_statement_information\": {\n    \"bank_name\": \"CHASE\",\n    \"account_holder\": \"TRUE POINT PHLEBOTOMY SOLUTIONS LLC\",\n    \"statement_start_date\": \"08-01-2025\",\n    \"statement_end_date\": \"08-29-2025\",\n    \"n_days\": 29,\n    \"n_month\": [\n      8\n    ],\n    \"business_address\": \"449 WINDRUSH DR ELGIN SC 29045\"\n  },\n  \"accounts\": [\n    {\n      \"account_number\": \"000000581326157\",\n      \"account_type\": \"Chase Business Complete Checking\",\n      \"account_summary\": {\n        \"beginning_balance\": -584.88,\n        \"ending_balance\": 86.85,\n        \"total_deposits\": 132940.03,\n        \"total_withdrawals\": 132268.3,\n        \"total_deposits_count\": null,\n        \"total_withdrawals_count\": null,\n        \"avg_daily_balance\": null,\n        \"overdraft_days\": 10\n      },\n      \"transactions\": [\n        {\n          \"date\": \"08-01-2025\",\n          \"description\": \"Book Transfer Credit B/O: Laboratory of Florida LLC Tampa FL 33615-1599 US Ref: 25-007042025 Trn: 3975315213Es\",\n          \"amount\": 17623.61,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"08-01-2025\",\n          \"description\": \"Payment Sent 08/01 Venmo *Tonya Davis Visa Direct NY Card 2912\",\n          \"amount\": 119.9,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"08-01-2025\",\n          \"description\": \"Payment Sent 08/01 Venmo *Tonya Davis Visa Direct NY Card 2912\",\n          \"amount\": 79.2,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"08-01-2025\",\n          \"description\": \"Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date: 250731 CO Entry Descr:3411D94Ee3Sec:CCD Trace#: 091000019354552 Eed: 250801 Ind ID:888-244-9099 Ind Name: True Point Phlebot Omy Trn: 2139354552Tc\",\n          \"amount\": 462.5,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08-01-2025\",\n          \"description\": \"08/01 Online Transfer To Chk... 6132 Transaction#: 25695067826\",\n          \"amount\": 12000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"08-01-2025\",\n          \"description\": \"08/01 Online Transfer To Chk...6132 Transaction#: 25695741335\",\n          \"amount\": 4000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"08-01-2025\",\n          \"description\": \"08/01 Online Transfer To Chk ... 6132 Transaction#: 25696424563\",\n          \"amount\": 377.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"08-04-2025\",\n          \"description\": \"Card Purchase With Pin 08/02 Indeed Usi25-04089972 Austin TX Card 2912\",\n          \"amount\": 216.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08-04-2025\",\n          \"description\": \"Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date:250801 CO Entry Descr:8403D98A7Bsec: CCD Trace#: 091000017612336 Eed: 250804 Ind ID:888-244-9099 Ind Name: True Point Phlebot Omy Trn: 2167612336Tc\",\n          \"amount\": 462.5,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08-04-2025\",\n          \"description\": \"Orig CO Name: Fundbox Inc. Orig ID: 1364759182 Desc Date: CO Entry Descr:Instant Fusec: CCD Trace#: 091000017484072 Eed:250804 Ind ID:Eg8Kbg Gygn Ind Name: Operations 12171 Trn: 2167484072Tc\",\n          \"amount\": 10.24,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08-05-2025\",\n          \"description\": \"Overdraft Fee For A $462.50 Item - Details: Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date: 250801 CO Entry Descr: 8403D98A7Bsec:CCD Trace#:091000017612336 Eed: 250804 Ind ID:888-244-9099 Ind Name: True Point Phlebot Omy Trn: 2167612336Tc\",\n          \"amount\": 34.0,\n          \"type\": \"Debit\",\n          \"category\": \"Overdraft\"\n        },\n        {\n          \"date\": \"08-05-2025\",\n          \"description\": \"Overdraft Fee For A $10.24 Item Details: Orig CO Name: Fundbox Inc. Orig ID: 1364759182 Desc Date: CO Entry Descr:Instant Fusec: CCD Trace#: 091000017484072 Eed:250804 Ind ID: Eg8Kbg Gygn Ind Name: Operations 12171 Trn\",\n          \"amount\": 34.0,\n          \"type\": \"Debit\",\n          \"category\": \"Overdraft\"\n        },\n        {\n          \"date\": \"08-05-2025\",\n          \"description\": \"Overdraft Fee For A $216.00 Card Purchase With Pin Details: 0728930802Indeed Usi25-04089972 Austin TX 0############2912 01754\",\n          \"amount\": 34.0,\n          \"type\": \"Debit\",\n          \"category\": \"Overdraft\"\n        },\n        {\n          \"date\": \"08-06-2025\",\n          \"description\": \"Book Transfer Credit B/O: Laboratory of Florida LLC Tampa FL 33615-1599 US Ref: 25-007042025 Trn: 3381345218Es\",\n          \"amount\": 18404.44,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"08-06-2025\",\n          \"description\": \"Orig CO Name: Forwardfinancing Orig ID: 5330903620 Desc Date: 250805 CO Entry Descr:55Fbdacc1Esec: CCD Trace#: 091000019469528 Eed:250806 Ind ID:888-244-9099 Ind Name: True Point Phlebot Omy Trn: 2189469528Tc\",\n          \"amount\": 462.5,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08-06-2025\",\n          \"description\": \"Zelle Payment To Kim Locklear 25756172313\",\n          \"amount\": 1200.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"08-06-2025\",\n          \"description\": \"08/06 Online Domestic Wire Transfer Via: Bank of America, N. A./0959 A/C: Aba/063100277 Miami FL US Ben: James Hoover Hollywood FL 33020 US Ssn: 00521194 Trn: 3472385218Es\",\n          \"amount\": 15000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"08-06-2025\",\n          \"description\": \"Online Domestic Wire Fee\",\n          \"amount\": 25.0,\n          \"type\": \"Debit\",\n          \"category\": \"Service Charges/Fees\"\n        },\n        {\n          \"date\": \"08-07-2025\",\n          \"description\": \"Fedwire Credit Via: Flagstar Bank, NA/026013576 B/O: Seamless Funding LLC, Ref: Chase Nyc/Ctr/Bnf=True Point Phlebotomy Solutions LLC Elgin SC 29045-7 902 US/Ac-000000005813 Rfb=Notprovi Ded Imad: 0807B6B7261F001905 Trn: 0678491219Ff\",\n          \"amount\": 18000.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 0\n        },\n        {\n          \"date\": \"08-07-2025\",\n          \"description\": \"Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date: 250806 CO Entry Descr:0Ee10Fbf44Sec: CCD Trace#: 091000018904540 Eed:250807 Ind ID:888-244-9099 Ind Name: True Point Phlebot Omy Trn: 2198904540Tc\",\n          \"amount\": 462.5,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08-07-2025\",\n          \"description\": \"Orig CO Name: Fundbox Inc. Orig ID: 1364759182 Desc Date: CO Entry Descr:Adv Debit Sec:CCD Trace#:091000018839840 Eed: 250807 Ind ID:Eg8Kbg Pwcmcw Ind Name: Operations 12199 Trn: 2198839840Tc\",\n          \"amount\": 451.4,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08-07-2025\",\n          \"description\": \"Zelle Payment To Diana Pereira 25769129096\",\n          \"amount\": 1420.6,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"08-07-2025\",\n          \"description\": \"Domestic Incoming Wire Fee\",\n          \"amount\": 15.0,\n          \"type\": \"Debit\",\n          \"category\": \"Service Charges/Fees\"\n        },\n        {\n          \"date\": \"08-08-2025\",\n          \"description\": \"Fedwire Credit Via: Wells Fargo Bank, N.A./121000248 B/O: Vader Servicing, LLC Miami FL 331821505 US Ref: Chase Nyc/Ctr/Bnf=True Point Phlebotomy Solutions LLC Elgin SC 29045-7 902 US/Ac-000000005813 Rfb=279750 B Bi=/Chgs/USD0,00/ Imad: 080811B7033R013708 Trn: 1064981220Ff\",\n          \"amount\": 14275.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 0\n        },\n        {\n          \"date\": \"08-08-2025\",\n          \"description\": \"Zelle Payment From Justin B Leibling 25784568125\",\n          \"amount\": 800.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"08-08-2025\",\n          \"description\": \"Payment Sent 08/08 Venmo *Tonya Davis Visa Direct NY Card 2912\",\n          \"amount\": 658.6,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"08-08-2025\",\n          \"description\": \"Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date: 250807 CO Entry Descr:Be1551Fff9Sec: CCD Trace#: 091000016787155 Eed: 250808 Ind ID:888-244-9099 Ind Name: True Point Phlebot Omy Trn: 2206787155Tc\",\n          \"amount\": 462.5,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08-08-2025\",\n          \"description\": \"Orig CO Name: Seamless Funding Orig ID: 1992378457 Desc Date: 080825 CO Entry Descr:Daily Sec:CCD Trace#: 026013576477547 Eed:250808 Ind ID: 000000147247 Ind Name: True Point Phlebotomy Trn: 2206477547Tc\",\n          \"amount\": 299.8,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08-08-2025\",\n          \"description\": \"Zelle Payment To Jessica Eilers Jpm99Bio77Yn\",\n          \"amount\": 1110.19,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"08-08-2025\",\n          \"description\": \"Zelle Payment To Katelyn Craft Jpm99Bio7Rmj\",\n          \"amount\": 682.1,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"08-08-2025\",\n          \"description\": \"08/08 Same-Day ACH Payment 11183293740 To Shanitaandrews (_######1769)\",\n          \"amount\": 619.2,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"08-08-2025\",\n          \"description\": \"08/08 Online Realtime Vendor Payment 11183293806 Payment ID Reference#: 8183293806Rx To Takeda Hinton 2599\",\n          \"amount\": 390.2,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"08-08-2025\",\n          \"description\": \"08/08 Same-Day ACH Payment 11183293833 To Ceciliaburnside (_########2559)\",\n          \"amount\": 159.84,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"08-08-2025\",\n          \"description\": \"08/08 Online Realtime Vendor Payment 11183281451 Payment ID Reference#: 8183281451Rx To Eleany 8991\",\n          \"amount\": 579.1,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"08-08-2025\",\n          \"description\": \"08/08 Same-Day ACH Payment 11183281491 To Ericabillups (_######5349)\",\n          \"amount\": 460.19,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"08-08-2025\",\n          \"description\": \"08/08 Online Realtime Vendor Payment 11183281528 Payment ID Reference#: 8183281528Rx To Hannah Tran 9698\",\n          \"amount\": 1011.24,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"08-08-2025\",\n          \"description\": \"08/08 Online Realtime Vendor Payment 11183294035 Payment ID Reference#: 8183294035Rx To Ingrid 7768\",\n          \"amount\": 438.3,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"08-08-2025\",\n          \"description\": \"Zelle Payment To Jada Gibson Jpm99Bio963T\",\n          \"amount\": 80.8,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"08-08-2025\",\n          \"description\": \"08/08 Online Realtime Vendor Payment 11183294194 Payment ID Reference#: 8183294194Rx To Karen Fisher 5400\",\n          \"amount\": 151.14,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"08-08-2025\",\n          \"description\": \"08/08 Online Realtime Vendor Payment 11183294223 Payment ID Reference#: 8183294223Rx To Karla Flores 6867\",\n          \"amount\": 342.25,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"08-08-2025\",\n          \"description\": \"08/08 Same-Day ACH Payment 11183281880 To Kenyattahollingsworthsavings (_########0353)\",\n          \"amount\": 100.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"08-08-2025\",\n          \"description\": \"08/08 Online Realtime Vendor Payment 11183294342 Payment ID Reference#: 8183294342Rx To Kenyatta 6986\",\n          \"amount\": 62.2,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"08-08-2025\",\n          \"description\": \"Zelle Payment To Kia Thomas Jpm99Bioa0G9\",\n          \"amount\": 291.48,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"08-08-2025\",\n          \"description\": \"08/08 Online Realtime Vendor Payment 11183294464 Payment ID Reference#: 8183294464Rx To Letasha Dantzler 9881\",\n          \"amount\": 914.49,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"08-08-2025\",\n          \"description\": \"08/08 Online Realtime Vendor Payment 11183282043 Payment ID Reference#: 8183282043Rx To Galvan 0226\",\n          \"amount\": 1366.83,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"08-08-2025\",\n          \"description\": \"08/08 Online Realtime Vendor Payment 11183282133 Payment ID Reference#: 8183282133Rx To Naretta Terhaar 0575\",\n          \"amount\": 330.9,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"08-08-2025\",\n          \"description\": \"08/08 Same-Day ACH Payment 11183294617 To Patriciahall (_###8160)\",\n          \"amount\": 177.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"08-08-2025\",\n          \"description\": \"08/08 Online Realtime Vendor Payment 11183282235 Payment ID Reference#: 8183282235Rx To Rhonda Holly 1855\",\n          \"amount\": 309.1,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"08-08-2025\",\n          \"description\": \"08/08 Online Realtime Vendor Payment 11183294692 Payment ID Reference#: 8183294692Rx To Samantha Carroll 6557\",\n          \"amount\": 252.2,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"08-08-2025\",\n          \"description\": \"08/08 Online Realtime Vendor Payment 11183282318 Payment ID Reference#: 8183282318Rx To Temp Acct Stephanie Santiago 9950\",\n          \"amount\": 775.1,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"08-08-2025\",\n          \"description\": \"Zelle Payment To Steve Lee Jpm99Bioak88\",\n          \"amount\": 1032.65,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"08-08-2025\",\n          \"description\": \"08/08 Same-Day ACH Payment 11183294797 To Vennassawilliams (_######8207)\",\n          \"amount\": 491.58,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"08-08-2025\",\n          \"description\": \"08/08 Online Realtime Vendor Payment 11183282493 Payment ID Reference#: 8183282493Rx To Yadoshni 4407\",\n          \"amount\": 595.65,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"08-08-2025\",\n          \"description\": \"08/08 Same-Day ACH Payment 11183282850 To Meghanbutler (_######8511)\",\n          \"amount\": 266.2,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"08-08-2025\",\n          \"description\": \"08/08 Online Realtime Vendor Payment 11183282887 Payment ID Reference#: 8183282887Rx To Justin Leibling 7624\",\n          \"amount\": 1600.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"08-08-2025\",\n          \"description\": \"08/08 Same-Day ACH Payment 11183283036 To Courtneysechrest (_#########0044)\",\n          \"amount\": 182.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"08-08-2025\",\n          \"description\": \"08/08 Same-Day ACH Payment 11183295989 To Kimwaldtpps (_########4183)\",\n          \"amount\": 17.5,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"08-08-2025\",\n          \"description\": \"08/08 Online Realtime Vendor Payment 11183284107 Payment ID Reference#: 8183284107Rx To Talya Certonio 2927\",\n          \"amount\": 309.8,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"08-08-2025\",\n          \"description\": \"08/08 Online Transfer To Chk...6132 Transaction#: 25785010749\",\n          \"amount\": 5000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"08-08-2025\",\n          \"description\": \"Zelle Payment To Kim Locklear 25785088508\",\n          \"amount\": 2800.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"08-08-2025\",\n          \"description\": \"08/08 Online Transfer To Chk...6132 Transaction#: 25785271506\",\n          \"amount\": 500.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"08-08-2025\",\n          \"description\": \"Domestic Incoming Wire Fee\",\n          \"amount\": 15.0,\n          \"type\": \"Debit\",\n          \"category\": \"Service Charges/Fees\"\n        },\n        {\n          \"date\": \"08-11-2025\",\n          \"description\": \"Payment Sent 08/09 Apple Cash Sent Mone 1Infiniteloop CA Card 2912\",\n          \"amount\": 700.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"08-11-2025\",\n          \"description\": \"Card Purchase 08/09 IN *Ainsworth & Clancy 305-6003816 FL Card 2912\",\n          \"amount\": 252.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08-11-2025\",\n          \"description\": \"Card Purchase 08/09 Skufca Law Plic Charlotte NC Card 2912\",\n          \"amount\": 399.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08-11-2025\",\n          \"description\": \"Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date:250808 CO Entry Descr:99Ed74Fcecsec: CCD Trace#: 091000018813846 Eed:250811 Ind ID:888-244-9099 Ind Name: True Point Phlebot Omy Trn: 2238813846Tc\",\n          \"amount\": 925.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08-11-2025\",\n          \"description\": \"Orig CO Name: Seamless Funding Orig ID: 1992378457 Desc Date: 081125 CO Entry Descr:Daily Sec: CCD Trace#: 026013578711713 Eed:250811 Ind ID:000000147344 Ind Name: True Point Phlebotomy Trn: 2238711713Tc\",\n          \"amount\": 299.8,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08-11-2025\",\n          \"description\": \"Orig CO Name: Vader Servicing Orig ID:2822300506 Desc Date: CO Entry Descr:Ebf Debit Sec: CCD Trace#:091000018502241 Eed:250811 Ind ID:000000012243518 Ind Name: True Point Phlebotomy Trn: 2238502241 Tc\",\n          \"amount\": 197.73,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08-11-2025\",\n          \"description\": \"Orig CO Name: Accountablehq.CO Orig ID: 1800948598 Desc Date: CO Entry Descr: Training Usec: Web Trace#:091000013613988 Eed:250811 Ind ID: St-A8Y5T5U7R313 Ind Name: True Point Phlebotomy Trn: 2233613988Tc\",\n          \"amount\": 25.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08-11-2025\",\n          \"description\": \"Zelle Payment To Kim Locklear 25812583669\",\n          \"amount\": 500.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"08-12-2025\",\n          \"description\": \"Card Purchase 08/11 IN *Ainsworth & Clancy 305-6003816 FL Card 2912\",\n          \"amount\": 288.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08-12-2025\",\n          \"description\": \"Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date: 250811 CO Entry Descr:04Ab207Eb9Sec: CCD Trace#: 091000018881450 Eed: 250812 Ind ID:888-244-9099 Ind Name: True Point Phlebot Omy Trn: 2248881450Tc\",\n          \"amount\": 462.5,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08-12-2025\",\n          \"description\": \"Orig CO Name: Seamless Funding Orig ID: 1992378457 Desc Date: 081225 CO Entry Descr:Daily Sec:CCD Trace#: 026013578977381 Eed:250812 Ind ID: 000000147442 Ind Name: True Point Phlebotomy Trn: 2248977381Tc\",\n          \"amount\": 299.8,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08-12-2025\",\n          \"description\": \"Orig CO Name: Intuit Financing Orig ID:9463467445 Desc Date: 250812 CO Entry Descr:Qbc_Pmts Sec:CCD Trace#: 111000028616185 Eed:250812 Ind ID: Ind Name: Kimberly Locklear Trn: 2248616185Tc\",\n          \"amount\": 266.83,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08-12-2025\",\n          \"description\": \"Orig CO Name: Vader Servicing Orig ID:2822300506 Desc Date: CO Entry Descr:Ebf Debit Sec: CCD Trace#: 091000018576756 Eed: 250812 Ind ID: 000000012250650 Ind Name: True Point Phlebotomy Trn: 2248576756Tc\",\n          \"amount\": 197.73,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08-12-2025\",\n          \"description\": \"Zelle Payment To Kim Locklear 25828559104\",\n          \"amount\": 100.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"08-12-2025\",\n          \"description\": \"Zelle Payment To Kim Locklear 25828667839\",\n          \"amount\": 50.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"08-13-2025\",\n          \"description\": \"Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date: 250812 CO Entry Descr:81Dab7Ea3Asec: CCD Trace#: 091000015402811 Eed: 250813 Ind ID:888-244-9099 Ind Name: True Point Phlebot Omy Trn: 2255402811Tc\",\n          \"amount\": 462.5,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08-13-2025\",\n          \"description\": \"Orig CO Name: Seamless Funding Orig ID: 1992378457 Desc Date: 081325 CO Entry Descr:Daily Sec: CCD Trace#: 026013575498281 Eed:250813 Ind ID: 000000147545 Ind Name: True Point Phlebotomy Trn: 2255498281Tc\",\n          \"amount\": 299.8,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08-13-2025\",\n          \"description\": \"Orig CO Name: Vader Servicing Orig ID:2822300506 Desc Date: CO Entry Descr:Ebf Debit Sec: CCD Trace#: 091000015637228 Eed: 250813 Ind ID: 000000012257829 Ind Name: True Point Phlebotomy Trn: 2255637228Tc\",\n          \"amount\": 197.73,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08-14-2025\",\n          \"description\": \"Orig CO Name: Forwardfinancing Orig ID: 5330903620 Desc Date: 250813 CO Entry Descr:B69C34C0D0Sec: CCD Trace#: 091000012750226 Eed: 250814 Ind ID:888-244-9099 Ind Name: True Point Phlebot Omy Trn: 2262750226Tc\",\n          \"amount\": 462.5,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08-14-2025\",\n          \"description\": \"Orig CO Name: Fundbox Inc. Orig ID: 1364759182 Desc Date: CO Entry Descr:Adv Debit Sec: CCD Trace#:091000012665661 Eed:250814 Ind ID:Eg8Kbg PROMbg Ind Name: Operations 12242 Trn: 2262665661 Tc\",\n          \"amount\": 401.61,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08-14-2025\",\n          \"description\": \"Orig CO Name: Seamless Funding Orig ID: 1992378457 Desc Date: 081425 CO Entry Descr:Daily Sec: CCD Trace#: 026013572443067 Eed:250814 Ind ID: 000000147646 Ind Name: True Point Phlebotomy Trn: 2262443067Tc\",\n          \"amount\": 299.8,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08-14-2025\",\n          \"description\": \"Orig CO Name: Vader Servicing Orig ID:2822300506 Desc Date: CO Entry Descr:Ebf Debit Sec: CCD Trace#: 091000012516912 Eed: 250814 Ind ID: 000000012265035 Ind Name: True Point Phlebotomy Trn: 2262516912Tc\",\n          \"amount\": 197.73,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08-15-2025\",\n          \"description\": \"Orig CO Name: Vader Servicing Orig ID:2822300506 Desc Date: CO Entry Descr:Ebf Debit Sec: CCD Trace#: 091000016555188 Eed: 250815 Ind ID: 000000012272378 Ind Name: True Point Phlebotomy Trn: 2276555188Tc\",\n          \"amount\": 197.73,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08-15-2025\",\n          \"description\": \"Overdraft Fee For A $299.80 Item - Details: Orig CO Name: Seamless Funding Orig ID: 1992378457 Desc Date: 081425 CO Entry Descr: Daily Sec:CCD Trace#: 026013572443067 Eed: 250814 Ind ID: 000000147646 Ind Name: True Point Phlebotomy Trn: 2262443067Tc\",\n          \"amount\": 34.0,\n          \"type\": \"Debit\",\n          \"category\": \"Overdraft\"\n        },\n        {\n          \"date\": \"08-15-2025\",\n          \"description\": \"Overdraft Fee For A $197.73 Item - Details: Orig CO Name: Vader Servicing Orig ID:2822300506 Desc Date: CO Entry Descr:Ebf Debit Sec:CCD Trace#:091000012516912 Eed: 250814 Ind ID:000000012265035 Ind Name: True Point Phlebotomy Trn: 2262516912Tc\",\n          \"amount\": 34.0,\n          \"type\": \"Debit\",\n          \"category\": \"Overdraft\"\n        },\n        {\n          \"date\": \"08-18-2025\",\n          \"description\": \"Book Transfer Credit B/O: Laboratory of Florida LLC Tampa FL 33615-1599 US Ref: 25-007042025 Trn: 3728025230Es\",\n          \"amount\": 16247.24,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"08-18-2025\",\n          \"description\": \"Orig CO Name: Seamless Funding Orig ID: 1992378457 Desc Date: 081825 CO Entry Descr:Daily Sec: CCD Trace#: 026013577196875 Eed:250818 Ind ID: 000000147857 Ind Name: True Point Phlebotomy Trn: 2307196875Tc\",\n          \"amount\": 299.8,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08-18-2025\",\n          \"description\": \"Orig CO Name: Vader Servicing Orig ID:2822300506 Desc Date: CO Entry Descr:Ebf Debit Sec:CCD Trace#: 091000018344499 Eed: 250818 Ind ID: 000000012279601 Ind Name: True Point Phlebotomy Trn: 2308344499Tc\",\n          \"amount\": 197.73,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08-18-2025\",\n          \"description\": \"Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date:250815 CO Entry Descr:665B218Af7Sec: CCD Trace#: 091000016455293 Eed: 250818 Ind ID:888-244-9099 Ind Name: True Point Phlebot Omy Trn: 2306455293Tc\",\n          \"amount\": 462.5,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08-18-2025\",\n          \"description\": \"08/18 Online Transfer To Chk...6132 Transaction#: 25898835657\",\n          \"amount\": 13000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"08-18-2025\",\n          \"description\": \"08/18 Online Transfer To Chk...6132 Transaction#: 25899326748\",\n          \"amount\": 1105.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"08-19-2025\",\n          \"description\": \"Orig CO Name: Webbank/Intuit Orig ID:1153219 Desc Date:250819 CO Entry Descr:Gpweb Loansec: CCD Trace#: 124384588541732 Eed:250819 Ind ID: 1727036 Ind Name: Kimberly Locklear Trn: 2318541732Tc\",\n          \"amount\": 433.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"08-19-2025\",\n          \"description\": \"Payment Sent 08/18 Venmo *Tonya Davis Visa Direct NY Card 2912\",\n          \"amount\": 448.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"08-19-2025\",\n          \"description\": \"Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date:250818 CO Entry Descr:24Ac255050Sec: CCD Trace#: 091000018718265 Eed:250819 Ind ID:888-244-9099 Ind Name: True Point Phlebot Omy Trn: 2318718265Tc\",\n          \"amount\": 462.5,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08-19-2025\",\n          \"description\": \"Orig CO Name: Seamless Funding Orig ID: 1992378457 Desc Date: 081925 CO Entry Descr:Daily Sec: CCD Trace#: 026013578397248 Eed: 250819 Ind ID: 000000147962 Ind Name: True Point Phlebotomy Trn: 2318397248Tc\",\n          \"amount\": 299.8,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08-19-2025\",\n          \"description\": \"Orig CO Name: Vader Servicing Orig ID:2822300506 Desc Date: CO Entry Descr:Ebf Debit Sec: CCD Trace#:091000018373606 Eed:250819 Ind ID: 000000012286881 Ind Name: True Point Phlebotomy Trn: 2318373606Tc\",\n          \"amount\": 197.73,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08-20-2025\",\n          \"description\": \"Orig CO Name: Vader Servicing Orig ID:2822300506 Desc Date: CO Entry Descr:Ebf Debit Sec: CCD Trace#: 091000014786118 Eed: 250820 Ind ID: 000000012294207 Ind Name: True Point Phlebotomy Trn: 2324786118Tc\",\n          \"amount\": 197.73,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08-20-2025\",\n          \"description\": \"Overdraft Fee For A $299.80 Item - Details: Orig CO Name: Seamless Funding ID: 1992378457 Desc Date: 081925 CO Entry Descr: Daily Sec:CCD Trace#: 026013578397248 Eed: 250819 Ind ID:000000147962 Ind Name: True Point Phlebotomy Trn: 2318397248Tc\",\n          \"amount\": 34.0,\n          \"type\": \"Debit\",\n          \"category\": \"Overdraft\"\n        },\n        {\n          \"date\": \"08-20-2025\",\n          \"description\": \"Overdraft Fee For A $197.73 Item - Details: Orig CO Name: Vader Servicing Orig ID:2822300506 Desc Date: CO Entry Descr:Ebf Debit Sec:CCD Trace#: 091000018373606 Eed:250819 Ind ID:000000012286881 Ind Name: True Point Point Phlebotomy Trn: 2318373606Tc\",\n          \"amount\": 34.0,\n          \"type\": \"Debit\",\n          \"category\": \"Overdraft\"\n        },\n        {\n          \"date\": \"08-21-2025\",\n          \"description\": \"Overdraft Fee For A $197.73 Item - Details: Orig CO Name: Vader Servicing Orig ID:2822300506 Desc Date: CO Entry Descr:Ebf Debit Sec:CCD Trace#: 091000014786118 Eed:250820 Ind ID: 000000012294207 Ind Name: True Point Phlebotomy Trn: 2324786118Tc\",\n          \"amount\": 34.0,\n          \"type\": \"Debit\",\n          \"category\": \"Overdraft\"\n        },\n        {\n          \"date\": \"08-22-2025\",\n          \"description\": \"Book Transfer Credit B/O: Laboratory of Florida LLC Tampa FL 33615-1599 US Ref: 25-007042025 Trn: 3450415234Es\",\n          \"amount\": 15812.21,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"08-22-2025\",\n          \"description\": \"Book Transfer Credit B/O: Laboratory of Florida LLC Tampa FL 33615-1599 US Ref: 25-007042025 Trn: 3438795234Es\",\n          \"amount\": 15525.13,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"08-22-2025\",\n          \"description\": \"Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date: 250821 CO Entry Descr:8801D599A7Sec:CCD Trace#: 091000018767999 Eed: 250822 Ind ID:888-244-9099 Ind Name: True Point Phlebot Omy Trn: 2348767999Tc\",\n          \"amount\": 462.5,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08-22-2025\",\n          \"description\": \"Orig CO Name: Seamless Funding Orig ID: 1992378457 Desc Date: 082225 CO Entry Descr:Daily Sec:CCD Trace#: 026013578423927 Eed:250822 Ind ID:000000148283 Ind Name: True Point Phlebotomy Trn: 2348423927Tc\",\n          \"amount\": 299.8,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08-22-2025\",\n          \"description\": \"Orig CO Name: Vader Servicing Orig ID:2822300506 Desc Date: CO Entry Descr:Ebf Debit Sec: CCD Trace#: 091000018724535 Eed: 250822 Ind ID:000000012308916 Ind Name: True Point Phlebotomy Trn: 2348724535Tc\",\n          \"amount\": 197.73,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08-22-2025\",\n          \"description\": \"08/22 Online Transfer To Chk ...6132 Transaction#: 25944840294\",\n          \"amount\": 10000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"08-22-2025\",\n          \"description\": \"08/22 Online Transfer To Chk...6132 Transaction#: 25945105007\",\n          \"amount\": 3000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"08-22-2025\",\n          \"description\": \"08/22 Online Transfer To Chk ...6132 Transaction#: 25945123042\",\n          \"amount\": 6550.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"08-22-2025\",\n          \"description\": \"Zelle Payment To Erica Billups Jpm99Bkd643M\",\n          \"amount\": 467.4,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"08-22-2025\",\n          \"description\": \"Zelle Payment To Kim Locklear 25945357323\",\n          \"amount\": 2800.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"08-22-2025\",\n          \"description\": \"Orig CO Name: Seamless Funding Orig ID: 1992378457 Desc Date: 082225 CO Entry Descr: Onetime Sec: CCD Trace#: 026013576440707 Eed:250822 Ind ID: 000000148316 Ind Name: True Point Phlebotomy Trn: 2346440707Tc\",\n          \"amount\": 1495.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08-22-2025\",\n          \"description\": \"Orig CO Name: American Express Orig ID:2005032111 Desc Date:250822 CO Entry Descr:ACH Pmt Sec:CCD Trace#: 021000024782655 Eed: 250822 Ind ID:M0590 Er Am Ind Name: Kimberly Locklear Trn: 2344782655Tc\",\n          \"amount\": 4507.86,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08-25-2025\",\n          \"description\": \"Orig CO Name: Cleveland Diagno Orig ID:9112510100 Desc Date: 250825 CO Entry Descr:Payables Sec: CCD Trace#: 044000024154015 Eed:250825 Ind ID: True Point Phle Ind Name: True Point Phlebotomy Trn: 2374154015Tc\",\n          \"amount\": 440.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"08-25-2025\",\n          \"description\": \"Card Purchase 08/22 Affirm * Pay B34Fu1Y7 855-423-3729 CA Card 2912\",\n          \"amount\": 18.91,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08-25-2025\",\n          \"description\": \"Card Purchase 08/22 Affirm * Pay 4Hinet4J 855-423-3729 CA Card 2912\",\n          \"amount\": 165.76,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08-25-2025\",\n          \"description\": \"Recurring Card Purchase 08/23 Www.Zenbusiness. Com Zenbusiness. C TX Card 2912\",\n          \"amount\": 30.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08-25-2025\",\n          \"description\": \"Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date: 250822 CO Entry Descr:2Ddcb68999Sec:CCD Trace#:091000019409879 Eed: 250825 Ind ID:888-244-9099 Ind Name: True Point Phlebot Omy Trn: 2379409879Tc\",\n          \"amount\": 462.5,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08-25-2025\",\n          \"description\": \"Orig CO Name: Seamless Funding Orig ID: 1992378457 Desc Date: 082525 CO Entry Descr:Daily Sec: CCD Trace#: 026013579007339 Eed:250825 Ind ID: 000000148387 Ind Name: True Point Phlebotomy Trn: 2379007339Tc\",\n          \"amount\": 299.8,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08-25-2025\",\n          \"description\": \"Orig CO Name: Vader Servicing Orig ID:2822300506 Desc Date: CO Entry Descr:Ebf Debit Sec:CCD Trace#: 091000019017645 Eed: 250825 Ind ID: 000000012316171 Ind Name: True Point Phlebotomy Trn: 2379017645Tc\",\n          \"amount\": 197.73,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08-26-2025\",\n          \"description\": \"Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date:250825 CO Entry Descr:3111526D36Sec: CCD Trace#: 091000018397520 Eed:250826 Ind ID:888-244-9099 Ind Name: True Point Phlebot Omy Trn: 2388397520Tc\",\n          \"amount\": 462.5,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08-26-2025\",\n          \"description\": \"Orig CO Name: Vader Servicing Orig ID:2822300506 Desc Date: CO Entry Descr:Ebf Debit Sec: CCD Trace#: 091000018176317 Eed: 250826 Ind ID: 000000012323485 Ind Name: True Point Phlebotomy Trn: 2388176317Tc\",\n          \"amount\": 197.73,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08-27-2025\",\n          \"description\": \"Overdraft Fee For A $462.50 Item Details: Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date:250825 CO Entry Descr: 3111526D36Sec:CCD Trace#: 091000018397520 Eed:250826 Ind ID: 888-244-9099 Ind Name: True Phlebot Omy Trn: 2388397520Tc\",\n          \"amount\": 34.0,\n          \"type\": \"Debit\",\n          \"category\": \"Overdraft\"\n        },\n        {\n          \"date\": \"08-27-2025\",\n          \"description\": \"Overdraft Fee For A $197.73 Item Details: Orig CO Name: Vader Servicing Orig ID:2822300506 Desc Date: CO Entry Descr: Ebf Debit Sec:CCD Trace#:091000018176317 Eed: 250826 Ind ID: 000000012323485 Ind Name: True Point Phlebotomy Trn: 2388176317Tc\",\n          \"amount\": 34.0,\n          \"type\": \"Debit\",\n          \"category\": \"Overdraft\"\n        },\n        {\n          \"date\": \"08-29-2025\",\n          \"description\": \"Book Transfer Credit B/O: Laboratory of Florida LLC Tampa FL 33615-1599 US Ref: 25-008282025 Trn: 3825315241Es\",\n          \"amount\": 15379.4,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"08-29-2025\",\n          \"description\": \"Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date:250828 CO Entry Descr:67AFB5A7Dasec: CCD Trace#: 091000019174724 Eed: 250829 Ind ID:888-244-9099 Ind Name: True Point Phlebot Omy Trn: 2419174724Tc\",\n          \"amount\": 462.5,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08-29-2025\",\n          \"description\": \"Orig CO Name: Seamless Funding Orig ID: 1992378457 Desc Date: 082925 CO Entry Descr:Daily Sec: CCD Trace#: 026013579076395 Eed:250829 Ind ID: 000000148807 Ind Name: True Point Phlebotomy Trn: 2419076395Tc\",\n          \"amount\": 299.8,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08-29-2025\",\n          \"description\": \"Orig CO Name: Vader Servicing Orig ID:2822300506 Desc Date: CO Entry Descr:Ebf Debit Sec: CCD Trace#:091000018775064 Eed: 250829 Ind ID:000000012345916 Ind Name: True Point Phlebotomy Trn: 2418775064Tc\",\n          \"amount\": 197.73,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08-29-2025\",\n          \"description\": \"08/29 Online Transfer To Chk...6132 Transaction#: 26027649287\",\n          \"amount\": 13600.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        }\n      ]\n    }\n  ]\n}\n```",
+    "token_count": {
+      "estimated_tokens": 4061
+    },
+    "failure_reason": null
+  },
+  "bsi_analyzer_result": {
+    "agent_name": "v1_bsi_analyzer_agent",
+    "processing_status": "success",
+    "start_time": "2026-02-04T15:10:02.824594",
+    "end_time": "2026-02-04T15:12:20.637744",
+    "parsed_json": {
+      "accounts": [
+        {
+          "account_number": "000000581326157",
+          "account_type": "Chase Business Complete Checking",
+          "mca_deposit": [
+            {
+              "mca_name": "Seamless Funding",
+              "date": "08-07-2025",
+              "type": "Credit",
+              "description": "Fedwire Credit Via: Flagstar Bank, NA/026013576 B/O: Seamless Funding LLC, Ref: Chase Nyc/Ctr/Bnf=True Point Phlebotomy Solutions LLC Elgin SC 29045-7 902 US/Ac-000000005813 Rfb=Notprovi Ded Imad: 0807B6B7261F001905 Trn: 0678491219Ff",
+              "amount": 18000.0,
+              "non_true_revenue": 1
+            },
+            {
+              "mca_name": "vader servicing",
+              "date": "08-08-2025",
+              "type": "Credit",
+              "description": "Fedwire Credit Via: Wells Fargo Bank, N.A./121000248 B/O: Vader Servicing, LLC Miami FL 331821505 US Ref: Chase Nyc/Ctr/Bnf=True Point Phlebotomy Solutions LLC Elgin SC 29045-7 902 US/Ac-000000005813 Rfb=279750 B Bi=/Chgs/USD0,00/ Imad: 080811B7033R013708 Trn: 1064981220Ff",
+              "amount": 14275.0,
+              "non_true_revenue": 1
+            }
+          ],
+          "mca_withdrawal": [
+            {
+              "mca_name": "Forward Financing",
+              "date": "08-01-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date: 250731 CO Entry Descr:3411D94Ee3Sec:CCD Trace#: 091000019354552 Eed: 250801 Ind ID:888-244-9099 Ind Name: True Point Phlebot Omy Trn: 2139354552Tc",
+              "amount": 462.5
+            },
+            {
+              "mca_name": "Forward Financing",
+              "date": "08-04-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date:250801 CO Entry Descr:8403D98A7Bsec: CCD Trace#: 091000017612336 Eed: 250804 Ind ID:888-244-9099 Ind Name: True Point Phlebot Omy Trn: 2167612336Tc",
+              "amount": 462.5
+            },
+            {
+              "mca_name": "Forward Financing",
+              "date": "08-06-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Forwardfinancing Orig ID: 5330903620 Desc Date: 250805 CO Entry Descr:55Fbdacc1Esec: CCD Trace#: 091000019469528 Eed:250806 Ind ID:888-244-9099 Ind Name: True Point Phlebot Omy Trn: 2189469528Tc",
+              "amount": 462.5
+            },
+            {
+              "mca_name": "Forward Financing",
+              "date": "08-07-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date: 250806 CO Entry Descr:0Ee10Fbf44Sec: CCD Trace#: 091000018904540 Eed:250807 Ind ID:888-244-9099 Ind Name: True Point Phlebot Omy Trn: 2198904540Tc",
+              "amount": 462.5
+            },
+            {
+              "mca_name": "Forward Financing",
+              "date": "08-08-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date: 250807 CO Entry Descr:Be1551Fff9Sec: CCD Trace#: 091000016787155 Eed: 250808 Ind ID:888-244-9099 Ind Name: True Point Phlebot Omy Trn: 2206787155Tc",
+              "amount": 462.5
+            },
+            {
+              "mca_name": "Seamless Funding",
+              "date": "08-08-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Seamless Funding Orig ID: 1992378457 Desc Date: 080825 CO Entry Descr:Daily Sec:CCD Trace#: 026013576477547 Eed:250808 Ind ID: 000000147247 Ind Name: True Point Phlebotomy Trn: 2206477547Tc",
+              "amount": 299.8
+            },
+            {
+              "mca_name": "Forward Financing",
+              "date": "08-11-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date:250808 CO Entry Descr:99Ed74Fcecsec: CCD Trace#: 091000018813846 Eed:250811 Ind ID:888-244-9099 Ind Name: True Point Phlebot Omy Trn: 2238813846Tc",
+              "amount": 925.0
+            },
+            {
+              "mca_name": "Seamless Funding",
+              "date": "08-11-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Seamless Funding Orig ID: 1992378457 Desc Date: 081125 CO Entry Descr:Daily Sec: CCD Trace#: 026013578711713 Eed:250811 Ind ID:000000147344 Ind Name: True Point Phlebotomy Trn: 2238711713Tc",
+              "amount": 299.8
+            },
+            {
+              "mca_name": "vader servicing",
+              "date": "08-11-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Vader Servicing Orig ID:2822300506 Desc Date: CO Entry Descr:Ebf Debit Sec: CCD Trace#:091000018502241 Eed:250811 Ind ID:000000012243518 Ind Name: True Point Phlebotomy Trn: 2238502241 Tc",
+              "amount": 197.73
+            },
+            {
+              "mca_name": "Forward Financing",
+              "date": "08-12-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date: 250811 CO Entry Descr:04Ab207Eb9Sec: CCD Trace#: 091000018881450 Eed: 250812 Ind ID:888-244-9099 Ind Name: True Point Phlebot Omy Trn: 2248881450Tc",
+              "amount": 462.5
+            },
+            {
+              "mca_name": "Seamless Funding",
+              "date": "08-12-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Seamless Funding Orig ID: 1992378457 Desc Date: 081225 CO Entry Descr:Daily Sec:CCD Trace#: 026013578977381 Eed:250812 Ind ID: 000000147442 Ind Name: True Point Phlebotomy Trn: 2248977381Tc",
+              "amount": 299.8
+            },
+            {
+              "mca_name": "Qbc",
+              "date": "08-12-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Intuit Financing Orig ID:9463467445 Desc Date: 250812 CO Entry Descr:Qbc_Pmts Sec:CCD Trace#: 111000028616185 Eed:250812 Ind ID: Ind Name: Kimberly Locklear Trn: 2248616185Tc",
+              "amount": 266.83
+            },
+            {
+              "mca_name": "vader servicing",
+              "date": "08-12-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Vader Servicing Orig ID:2822300506 Desc Date: CO Entry Descr:Ebf Debit Sec: CCD Trace#: 091000018576756 Eed: 250812 Ind ID: 000000012250650 Ind Name: True Point Phlebotomy Trn: 2248576756Tc",
+              "amount": 197.73
+            },
+            {
+              "mca_name": "Forward Financing",
+              "date": "08-13-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date: 250812 CO Entry Descr:81Dab7Ea3Asec: CCD Trace#: 091000015402811 Eed: 250813 Ind ID:888-244-9099 Ind Name: True Point Phlebot Omy Trn: 2255402811Tc",
+              "amount": 462.5
+            },
+            {
+              "mca_name": "Seamless Funding",
+              "date": "08-13-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Seamless Funding Orig ID: 1992378457 Desc Date: 081325 CO Entry Descr:Daily Sec: CCD Trace#: 026013575498281 Eed:250813 Ind ID: 000000147545 Ind Name: True Point Phlebotomy Trn: 2255498281Tc",
+              "amount": 299.8
+            },
+            {
+              "mca_name": "vader servicing",
+              "date": "08-13-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Vader Servicing Orig ID:2822300506 Desc Date: CO Entry Descr:Ebf Debit Sec: CCD Trace#: 091000015637228 Eed: 250813 Ind ID: 000000012257829 Ind Name: True Point Phlebotomy Trn: 2255637228Tc",
+              "amount": 197.73
+            },
+            {
+              "mca_name": "Forward Financing",
+              "date": "08-14-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Forwardfinancing Orig ID: 5330903620 Desc Date: 250813 CO Entry Descr:B69C34C0D0Sec: CCD Trace#: 091000012750226 Eed: 250814 Ind ID:888-244-9099 Ind Name: True Point Phlebot Omy Trn: 2262750226Tc",
+              "amount": 462.5
+            },
+            {
+              "mca_name": "Seamless Funding",
+              "date": "08-14-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Seamless Funding Orig ID: 1992378457 Desc Date: 081425 CO Entry Descr:Daily Sec: CCD Trace#: 026013572443067 Eed:250814 Ind ID: 000000147646 Ind Name: True Point Phlebotomy Trn: 2262443067Tc",
+              "amount": 299.8
+            },
+            {
+              "mca_name": "vader servicing",
+              "date": "08-14-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Vader Servicing Orig ID:2822300506 Desc Date: CO Entry Descr:Ebf Debit Sec: CCD Trace#: 091000012516912 Eed: 250814 Ind ID: 000000012265035 Ind Name: True Point Phlebotomy Trn: 2262516912Tc",
+              "amount": 197.73
+            },
+            {
+              "mca_name": "vader servicing",
+              "date": "08-15-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Vader Servicing Orig ID:2822300506 Desc Date: CO Entry Descr:Ebf Debit Sec: CCD Trace#: 091000016555188 Eed: 250815 Ind ID: 000000012272378 Ind Name: True Point Phlebotomy Trn: 2276555188Tc",
+              "amount": 197.73
+            },
+            {
+              "mca_name": "Seamless Funding",
+              "date": "08-18-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Seamless Funding Orig ID: 1992378457 Desc Date: 081825 CO Entry Descr:Daily Sec: CCD Trace#: 026013577196875 Eed:250818 Ind ID: 000000147857 Ind Name: True Point Phlebotomy Trn: 2307196875Tc",
+              "amount": 299.8
+            },
+            {
+              "mca_name": "vader servicing",
+              "date": "08-18-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Vader Servicing Orig ID:2822300506 Desc Date: CO Entry Descr:Ebf Debit Sec:CCD Trace#: 091000018344499 Eed: 250818 Ind ID: 000000012279601 Ind Name: True Point Phlebotomy Trn: 2308344499Tc",
+              "amount": 197.73
+            },
+            {
+              "mca_name": "Forward Financing",
+              "date": "08-18-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date:250815 CO Entry Descr:665B218Af7Sec: CCD Trace#: 091000016455293 Eed: 250818 Ind ID:888-244-9099 Ind Name: True Point Phlebot Omy Trn: 2306455293Tc",
+              "amount": 462.5
+            },
+            {
+              "mca_name": "Forward Financing",
+              "date": "08-19-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date:250818 CO Entry Descr:24Ac255050Sec: CCD Trace#: 091000018718265 Eed:250819 Ind ID:888-244-9099 Ind Name: True Point Phlebot Omy Trn: 2318718265Tc",
+              "amount": 462.5
+            },
+            {
+              "mca_name": "Seamless Funding",
+              "date": "08-19-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Seamless Funding Orig ID: 1992378457 Desc Date: 081925 CO Entry Descr:Daily Sec: CCD Trace#: 026013578397248 Eed: 250819 Ind ID: 000000147962 Ind Name: True Point Phlebotomy Trn: 2318397248Tc",
+              "amount": 299.8
+            },
+            {
+              "mca_name": "vader servicing",
+              "date": "08-19-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Vader Servicing Orig ID:2822300506 Desc Date: CO Entry Descr:Ebf Debit Sec: CCD Trace#:091000018373606 Eed:250819 Ind ID: 000000012286881 Ind Name: True Point Phlebotomy Trn: 2318373606Tc",
+              "amount": 197.73
+            },
+            {
+              "mca_name": "vader servicing",
+              "date": "08-20-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Vader Servicing Orig ID:2822300506 Desc Date: CO Entry Descr:Ebf Debit Sec: CCD Trace#: 091000014786118 Eed: 250820 Ind ID: 000000012294207 Ind Name: True Point Phlebotomy Trn: 2324786118Tc",
+              "amount": 197.73
+            },
+            {
+              "mca_name": "Forward Financing",
+              "date": "08-22-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date: 250821 CO Entry Descr:8801D599A7Sec:CCD Trace#: 091000018767999 Eed: 250822 Ind ID:888-244-9099 Ind Name: True Point Phlebot Omy Trn: 2348767999Tc",
+              "amount": 462.5
+            },
+            {
+              "mca_name": "Seamless Funding",
+              "date": "08-22-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Seamless Funding Orig ID: 1992378457 Desc Date: 082225 CO Entry Descr:Daily Sec:CCD Trace#: 026013578423927 Eed:250822 Ind ID:000000148283 Ind Name: True Point Phlebotomy Trn: 2348423927Tc",
+              "amount": 299.8
+            },
+            {
+              "mca_name": "vader servicing",
+              "date": "08-22-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Vader Servicing Orig ID:2822300506 Desc Date: CO Entry Descr:Ebf Debit Sec: CCD Trace#: 091000018724535 Eed: 250822 Ind ID:000000012308916 Ind Name: True Point Phlebotomy Trn: 2348724535Tc",
+              "amount": 197.73
+            },
+            {
+              "mca_name": "Seamless Funding",
+              "date": "08-22-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Seamless Funding Orig ID: 1992378457 Desc Date: 082225 CO Entry Descr: Onetime Sec: CCD Trace#: 026013576440707 Eed:250822 Ind ID: 000000148316 Ind Name: True Point Phlebotomy Trn: 2346440707Tc",
+              "amount": 1495.0
+            },
+            {
+              "mca_name": "Amex",
+              "date": "08-22-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: American Express Orig ID:2005032111 Desc Date:250822 CO Entry Descr:ACH Pmt Sec:CCD Trace#: 021000024782655 Eed: 250822 Ind ID:M0590 Er Am Ind Name: Kimberly Locklear Trn: 2344782655Tc",
+              "amount": 4507.86
+            },
+            {
+              "mca_name": "Forward Financing",
+              "date": "08-25-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date: 250822 CO Entry Descr:2Ddcb68999Sec:CCD Trace#:091000019409879 Eed: 250825 Ind ID:888-244-9099 Ind Name: True Point Phlebot Omy Trn: 2379409879Tc",
+              "amount": 462.5
+            },
+            {
+              "mca_name": "Seamless Funding",
+              "date": "08-25-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Seamless Funding Orig ID: 1992378457 Desc Date: 082525 CO Entry Descr:Daily Sec: CCD Trace#: 026013579007339 Eed:250825 Ind ID: 000000148387 Ind Name: True Point Phlebotomy Trn: 2379007339Tc",
+              "amount": 299.8
+            },
+            {
+              "mca_name": "vader servicing",
+              "date": "08-25-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Vader Servicing Orig ID:2822300506 Desc Date: CO Entry Descr:Ebf Debit Sec:CCD Trace#: 091000019017645 Eed: 250825 Ind ID: 000000012316171 Ind Name: True Point Phlebotomy Trn: 2379017645Tc",
+              "amount": 197.73
+            },
+            {
+              "mca_name": "Forward Financing",
+              "date": "08-26-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date:250825 CO Entry Descr:3111526D36Sec: CCD Trace#: 091000018397520 Eed:250826 Ind ID:888-244-9099 Ind Name: True Point Phlebot Omy Trn: 2388397520Tc",
+              "amount": 462.5
+            },
+            {
+              "mca_name": "vader servicing",
+              "date": "08-26-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Vader Servicing Orig ID:2822300506 Desc Date: CO Entry Descr:Ebf Debit Sec: CCD Trace#: 091000018176317 Eed: 250826 Ind ID: 000000012323485 Ind Name: True Point Phlebotomy Trn: 2388176317Tc",
+              "amount": 197.73
+            },
+            {
+              "mca_name": "Forward Financing",
+              "date": "08-29-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date:250828 CO Entry Descr:67AFB5A7Dasec: CCD Trace#: 091000019174724 Eed: 250829 Ind ID:888-244-9099 Ind Name: True Point Phlebot Omy Trn: 2419174724Tc",
+              "amount": 462.5
+            },
+            {
+              "mca_name": "Seamless Funding",
+              "date": "08-29-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Seamless Funding Orig ID: 1992378457 Desc Date: 082925 CO Entry Descr:Daily Sec: CCD Trace#: 026013579076395 Eed:250829 Ind ID: 000000148807 Ind Name: True Point Phlebotomy Trn: 2419076395Tc",
+              "amount": 299.8
+            },
+            {
+              "mca_name": "vader servicing",
+              "date": "08-29-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Vader Servicing Orig ID:2822300506 Desc Date: CO Entry Descr:Ebf Debit Sec: CCD Trace#:091000018775064 Eed: 250829 Ind ID:000000012345916 Ind Name: True Point Phlebotomy Trn: 2418775064Tc",
+              "amount": 197.73
+            }
+          ],
+          "returned_items": [],
+          "overdrafts": [
+            {
+              "date": "08-05-2025",
+              "type": "Debit",
+              "description": "Overdraft Fee For A $462.50 Item - Details: Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date: 250801 CO Entry Descr: 8403D98A7Bsec:CCD Trace#:091000017612336 Eed: 250804 Ind ID:888-244-9099 Ind Name: True Point Phlebot Omy Trn: 2167612336Tc",
+              "amount": 34.0
+            },
+            {
+              "date": "08-05-2025",
+              "type": "Debit",
+              "description": "Overdraft Fee For A $10.24 Item Details: Orig CO Name: Fundbox Inc. Orig ID: 1364759182 Desc Date: CO Entry Descr:Instant Fusec: CCD Trace#: 091000017484072 Eed:250804 Ind ID: Eg8Kbg Gygn Ind Name: Operations 12171 Trn",
+              "amount": 34.0
+            },
+            {
+              "date": "08-05-2025",
+              "type": "Debit",
+              "description": "Overdraft Fee For A $216.00 Card Purchase With Pin Details: 0728930802Indeed Usi25-04089972 Austin TX 0############2912 01754",
+              "amount": 34.0
+            },
+            {
+              "date": "08-15-2025",
+              "type": "Debit",
+              "description": "Overdraft Fee For A $299.80 Item - Details: Orig CO Name: Seamless Funding Orig ID: 1992378457 Desc Date: 081425 CO Entry Descr: Daily Sec:CCD Trace#: 026013572443067 Eed: 250814 Ind ID: 000000147646 Ind Name: True Point Phlebotomy Trn: 2262443067Tc",
+              "amount": 34.0
+            },
+            {
+              "date": "08-15-2025",
+              "type": "Debit",
+              "description": "Overdraft Fee For A $197.73 Item - Details: Orig CO Name: Vader Servicing Orig ID:2822300506 Desc Date: CO Entry Descr:Ebf Debit Sec:CCD Trace#:091000012516912 Eed: 250814 Ind ID:000000012265035 Ind Name: True Point Phlebotomy Trn: 2262516912Tc",
+              "amount": 34.0
+            },
+            {
+              "date": "08-20-2025",
+              "type": "Debit",
+              "description": "Overdraft Fee For A $299.80 Item - Details: Orig CO Name: Seamless Funding ID: 1992378457 Desc Date: 081925 CO Entry Descr: Daily Sec:CCD Trace#: 026013578397248 Eed: 250819 Ind ID:000000147962 Ind Name: True Point Phlebotomy Trn: 2318397248Tc",
+              "amount": 34.0
+            },
+            {
+              "date": "08-20-2025",
+              "type": "Debit",
+              "description": "Overdraft Fee For A $197.73 Item - Details: Orig CO Name: Vader Servicing Orig ID:2822300506 Desc Date: CO Entry Descr:Ebf Debit Sec:CCD Trace#: 091000018373606 Eed:250819 Ind ID:000000012286881 Ind Name: True Point Point Phlebotomy Trn: 2318373606Tc",
+              "amount": 34.0
+            },
+            {
+              "date": "08-21-2025",
+              "type": "Debit",
+              "description": "Overdraft Fee For A $197.73 Item - Details: Orig CO Name: Vader Servicing Orig ID:2822300506 Desc Date: CO Entry Descr:Ebf Debit Sec:CCD Trace#: 091000014786118 Eed:250820 Ind ID: 000000012294207 Ind Name: True Point Phlebotomy Trn: 2324786118Tc",
+              "amount": 34.0
+            },
+            {
+              "date": "08-27-2025",
+              "type": "Debit",
+              "description": "Overdraft Fee For A $462.50 Item Details: Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date:250825 CO Entry Descr: 3111526D36Sec:CCD Trace#: 091000018397520 Eed:250826 Ind ID: 888-244-9099 Ind Name: True Phlebot Omy Trn: 2388397520Tc",
+              "amount": 34.0
+            },
+            {
+              "date": "08-27-2025",
+              "type": "Debit",
+              "description": "Overdraft Fee For A $197.73 Item Details: Orig CO Name: Vader Servicing Orig ID:2822300506 Desc Date: CO Entry Descr: Ebf Debit Sec:CCD Trace#:091000018176317 Eed: 250826 Ind ID: 000000012323485 Ind Name: True Point Phlebotomy Trn: 2388176317Tc",
+              "amount": 34.0
+            }
+          ],
+          "service_charges": [
+            {
+              "date": "08-06-2025",
+              "type": "Debit",
+              "description": "Online Domestic Wire Fee",
+              "amount": 25.0
+            },
+            {
+              "date": "08-07-2025",
+              "type": "Debit",
+              "description": "Domestic Incoming Wire Fee",
+              "amount": 15.0
+            },
+            {
+              "date": "08-08-2025",
+              "type": "Debit",
+              "description": "Domestic Incoming Wire Fee",
+              "amount": 15.0
+            }
+          ],
+          "atm_cash_withdrawal": [],
+          "internal_transfer_deposit": [],
+          "other_transfer_deposit": [
+            {
+              "date": "08-08-2025",
+              "type": "Credit",
+              "description": "Zelle Payment From Justin B Leibling 25784568125",
+              "amount": 800.0,
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            }
+          ],
+          "internal_transfer_withdrawal": [
+            {
+              "date": "08-01-2025",
+              "type": "Debit",
+              "description": "08/01 Online Transfer To Chk... 6132 Transaction#: 25695067826",
+              "amount": 12000.0
+            },
+            {
+              "date": "08-01-2025",
+              "type": "Debit",
+              "description": "08/01 Online Transfer To Chk...6132 Transaction#: 25695741335",
+              "amount": 4000.0
+            },
+            {
+              "date": "08-01-2025",
+              "type": "Debit",
+              "description": "08/01 Online Transfer To Chk ... 6132 Transaction#: 25696424563",
+              "amount": 377.0
+            },
+            {
+              "date": "08-08-2025",
+              "type": "Debit",
+              "description": "08/08 Online Transfer To Chk...6132 Transaction#: 25785010749",
+              "amount": 5000.0
+            },
+            {
+              "date": "08-08-2025",
+              "type": "Debit",
+              "description": "08/08 Online Transfer To Chk...6132 Transaction#: 25785271506",
+              "amount": 500.0
+            },
+            {
+              "date": "08-18-2025",
+              "type": "Debit",
+              "description": "08/18 Online Transfer To Chk...6132 Transaction#: 25898835657",
+              "amount": 13000.0
+            },
+            {
+              "date": "08-18-2025",
+              "type": "Debit",
+              "description": "08/18 Online Transfer To Chk...6132 Transaction#: 25899326748",
+              "amount": 1105.0
+            },
+            {
+              "date": "08-22-2025",
+              "type": "Debit",
+              "description": "08/22 Online Transfer To Chk ...6132 Transaction#: 25944840294",
+              "amount": 10000.0
+            },
+            {
+              "date": "08-22-2025",
+              "type": "Debit",
+              "description": "08/22 Online Transfer To Chk...6132 Transaction#: 25945105007",
+              "amount": 3000.0
+            },
+            {
+              "date": "08-22-2025",
+              "type": "Debit",
+              "description": "08/22 Online Transfer To Chk ...6132 Transaction#: 25945123042",
+              "amount": 6550.0
+            },
+            {
+              "date": "08-29-2025",
+              "type": "Debit",
+              "description": "08/29 Online Transfer To Chk...6132 Transaction#: 26027649287",
+              "amount": 13600.0
+            }
+          ],
+          "other_transfer_withdrawal": [
+            {
+              "date": "08-01-2025",
+              "type": "Debit",
+              "description": "Payment Sent 08/01 Venmo *Tonya Davis Visa Direct NY Card 2912",
+              "amount": 119.9
+            },
+            {
+              "date": "08-01-2025",
+              "type": "Debit",
+              "description": "Payment Sent 08/01 Venmo *Tonya Davis Visa Direct NY Card 2912",
+              "amount": 79.2
+            },
+            {
+              "date": "08-06-2025",
+              "type": "Debit",
+              "description": "Zelle Payment To Kim Locklear 25756172313",
+              "amount": 1200.0
+            },
+            {
+              "date": "08-06-2025",
+              "type": "Debit",
+              "description": "08/06 Online Domestic Wire Transfer Via: Bank of America, N. A./0959 A/C: Aba/063100277 Miami FL US Ben: James Hoover Hollywood FL 33020 US Ssn: 00521194 Trn: 3472385218Es",
+              "amount": 15000.0
+            },
+            {
+              "date": "08-07-2025",
+              "type": "Debit",
+              "description": "Zelle Payment To Diana Pereira 25769129096",
+              "amount": 1420.6
+            },
+            {
+              "date": "08-08-2025",
+              "type": "Debit",
+              "description": "Payment Sent 08/08 Venmo *Tonya Davis Visa Direct NY Card 2912",
+              "amount": 658.6
+            },
+            {
+              "date": "08-08-2025",
+              "type": "Debit",
+              "description": "Zelle Payment To Jessica Eilers Jpm99Bio77Yn",
+              "amount": 1110.19
+            },
+            {
+              "date": "08-08-2025",
+              "type": "Debit",
+              "description": "Zelle Payment To Katelyn Craft Jpm99Bio7Rmj",
+              "amount": 682.1
+            },
+            {
+              "date": "08-08-2025",
+              "type": "Debit",
+              "description": "08/08 Same-Day ACH Payment 11183293740 To Shanitaandrews (_######1769)",
+              "amount": 619.2
+            },
+            {
+              "date": "08-08-2025",
+              "type": "Debit",
+              "description": "08/08 Online Realtime Vendor Payment 11183293806 Payment ID Reference#: 8183293806Rx To Takeda Hinton 2599",
+              "amount": 390.2
+            },
+            {
+              "date": "08-08-2025",
+              "type": "Debit",
+              "description": "08/08 Same-Day ACH Payment 11183293833 To Ceciliaburnside (_########2559)",
+              "amount": 159.84
+            },
+            {
+              "date": "08-08-2025",
+              "type": "Debit",
+              "description": "08/08 Online Realtime Vendor Payment 11183281451 Payment ID Reference#: 8183281451Rx To Eleany 8991",
+              "amount": 579.1
+            },
+            {
+              "date": "08-08-2025",
+              "type": "Debit",
+              "description": "08/08 Same-Day ACH Payment 11183281491 To Ericabillups (_######5349)",
+              "amount": 460.19
+            },
+            {
+              "date": "08-08-2025",
+              "type": "Debit",
+              "description": "08/08 Online Realtime Vendor Payment 11183281528 Payment ID Reference#: 8183281528Rx To Hannah Tran 9698",
+              "amount": 1011.24
+            },
+            {
+              "date": "08-08-2025",
+              "type": "Debit",
+              "description": "08/08 Online Realtime Vendor Payment 11183294035 Payment ID Reference#: 8183294035Rx To Ingrid 7768",
+              "amount": 438.3
+            },
+            {
+              "date": "08-08-2025",
+              "type": "Debit",
+              "description": "Zelle Payment To Jada Gibson Jpm99Bio963T",
+              "amount": 80.8
+            },
+            {
+              "date": "08-08-2025",
+              "type": "Debit",
+              "description": "08/08 Online Realtime Vendor Payment 11183294194 Payment ID Reference#: 8183294194Rx To Karen Fisher 5400",
+              "amount": 151.14
+            },
+            {
+              "date": "08-08-2025",
+              "type": "Debit",
+              "description": "08/08 Online Realtime Vendor Payment 11183294223 Payment ID Reference#: 8183294223Rx To Karla Flores 6867",
+              "amount": 342.25
+            },
+            {
+              "date": "08-08-2025",
+              "type": "Debit",
+              "description": "08/08 Same-Day ACH Payment 11183281880 To Kenyattahollingsworthsavings (_########0353)",
+              "amount": 100.0
+            },
+            {
+              "date": "08-08-2025",
+              "type": "Debit",
+              "description": "08/08 Online Realtime Vendor Payment 11183294342 Payment ID Reference#: 8183294342Rx To Kenyatta 6986",
+              "amount": 62.2
+            },
+            {
+              "date": "08-08-2025",
+              "type": "Debit",
+              "description": "Zelle Payment To Kia Thomas Jpm99Bioa0G9",
+              "amount": 291.48
+            },
+            {
+              "date": "08-08-2025",
+              "type": "Debit",
+              "description": "08/08 Online Realtime Vendor Payment 11183294464 Payment ID Reference#: 8183294464Rx To Letasha Dantzler 9881",
+              "amount": 914.49
+            },
+            {
+              "date": "08-08-2025",
+              "type": "Debit",
+              "description": "08/08 Online Realtime Vendor Payment 11183282043 Payment ID Reference#: 8183282043Rx To Galvan 0226",
+              "amount": 1366.83
+            },
+            {
+              "date": "08-08-2025",
+              "type": "Debit",
+              "description": "08/08 Online Realtime Vendor Payment 11183282133 Payment ID Reference#: 8183282133Rx To Naretta Terhaar 0575",
+              "amount": 330.9
+            },
+            {
+              "date": "08-08-2025",
+              "type": "Debit",
+              "description": "08/08 Same-Day ACH Payment 11183294617 To Patriciahall (_###8160)",
+              "amount": 177.0
+            },
+            {
+              "date": "08-08-2025",
+              "type": "Debit",
+              "description": "08/08 Online Realtime Vendor Payment 11183282235 Payment ID Reference#: 8183282235Rx To Rhonda Holly 1855",
+              "amount": 309.1
+            },
+            {
+              "date": "08-08-2025",
+              "type": "Debit",
+              "description": "08/08 Online Realtime Vendor Payment 11183294692 Payment ID Reference#: 8183294692Rx To Samantha Carroll 6557",
+              "amount": 252.2
+            },
+            {
+              "date": "08-08-2025",
+              "type": "Debit",
+              "description": "08/08 Online Realtime Vendor Payment 11183282318 Payment ID Reference#: 8183282318Rx To Temp Acct Stephanie Santiago 9950",
+              "amount": 775.1
+            },
+            {
+              "date": "08-08-2025",
+              "type": "Debit",
+              "description": "Zelle Payment To Steve Lee Jpm99Bioak88",
+              "amount": 1032.65
+            },
+            {
+              "date": "08-08-2025",
+              "type": "Debit",
+              "description": "08/08 Same-Day ACH Payment 11183294797 To Vennassawilliams (_######8207)",
+              "amount": 491.58
+            },
+            {
+              "date": "08-08-2025",
+              "type": "Debit",
+              "description": "08/08 Online Realtime Vendor Payment 11183282493 Payment ID Reference#: 8183282493Rx To Yadoshni 4407",
+              "amount": 595.65
+            },
+            {
+              "date": "08-08-2025",
+              "type": "Debit",
+              "description": "08/08 Same-Day ACH Payment 11183282850 To Meghanbutler (_######8511)",
+              "amount": 266.2
+            },
+            {
+              "date": "08-08-2025",
+              "type": "Debit",
+              "description": "08/08 Online Realtime Vendor Payment 11183282887 Payment ID Reference#: 8183282887Rx To Justin Leibling 7624",
+              "amount": 1600.0
+            },
+            {
+              "date": "08-08-2025",
+              "type": "Debit",
+              "description": "08/08 Same-Day ACH Payment 11183283036 To Courtneysechrest (_#########0044)",
+              "amount": 182.0
+            },
+            {
+              "date": "08-08-2025",
+              "type": "Debit",
+              "description": "08/08 Same-Day ACH Payment 11183295989 To Kimwaldtpps (_########4183)",
+              "amount": 17.5
+            },
+            {
+              "date": "08-08-2025",
+              "type": "Debit",
+              "description": "08/08 Online Realtime Vendor Payment 11183284107 Payment ID Reference#: 8183284107Rx To Talya Certonio 2927",
+              "amount": 309.8
+            },
+            {
+              "date": "08-08-2025",
+              "type": "Debit",
+              "description": "Zelle Payment To Kim Locklear 25785088508",
+              "amount": 2800.0
+            },
+            {
+              "date": "08-11-2025",
+              "type": "Debit",
+              "description": "Payment Sent 08/09 Apple Cash Sent Mone 1Infiniteloop CA Card 2912",
+              "amount": 700.0
+            },
+            {
+              "date": "08-11-2025",
+              "type": "Debit",
+              "description": "Zelle Payment To Kim Locklear 25812583669",
+              "amount": 500.0
+            },
+            {
+              "date": "08-12-2025",
+              "type": "Debit",
+              "description": "Zelle Payment To Kim Locklear 25828559104",
+              "amount": 100.0
+            },
+            {
+              "date": "08-12-2025",
+              "type": "Debit",
+              "description": "Zelle Payment To Kim Locklear 25828667839",
+              "amount": 50.0
+            },
+            {
+              "date": "08-19-2025",
+              "type": "Debit",
+              "description": "Payment Sent 08/18 Venmo *Tonya Davis Visa Direct NY Card 2912",
+              "amount": 448.0
+            },
+            {
+              "date": "08-22-2025",
+              "type": "Debit",
+              "description": "Zelle Payment To Erica Billups Jpm99Bkd643M",
+              "amount": 467.4
+            },
+            {
+              "date": "08-22-2025",
+              "type": "Debit",
+              "description": "Zelle Payment To Kim Locklear 25945357323",
+              "amount": 2800.0
+            }
+          ],
+          "standard_deposit": [
+            {
+              "date": "08-01-2025",
+              "type": "Credit",
+              "description": "Book Transfer Credit B/O: Laboratory of Florida LLC Tampa FL 33615-1599 US Ref: 25-007042025 Trn: 3975315213Es",
+              "amount": 17623.61,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "08-06-2025",
+              "type": "Credit",
+              "description": "Book Transfer Credit B/O: Laboratory of Florida LLC Tampa FL 33615-1599 US Ref: 25-007042025 Trn: 3381345218Es",
+              "amount": 18404.44,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "08-18-2025",
+              "type": "Credit",
+              "description": "Book Transfer Credit B/O: Laboratory of Florida LLC Tampa FL 33615-1599 US Ref: 25-007042025 Trn: 3728025230Es",
+              "amount": 16247.24,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "08-19-2025",
+              "type": "Credit",
+              "description": "Orig CO Name: Webbank/Intuit Orig ID:1153219 Desc Date:250819 CO Entry Descr:Gpweb Loansec: CCD Trace#: 124384588541732 Eed:250819 Ind ID: 1727036 Ind Name: Kimberly Locklear Trn: 2318541732Tc",
+              "amount": 433.0,
+              "non_true_revenue": 1
+            },
+            {
+              "date": "08-22-2025",
+              "type": "Credit",
+              "description": "Book Transfer Credit B/O: Laboratory of Florida LLC Tampa FL 33615-1599 US Ref: 25-007042025 Trn: 3450415234Es",
+              "amount": 15812.21,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "08-22-2025",
+              "type": "Credit",
+              "description": "Book Transfer Credit B/O: Laboratory of Florida LLC Tampa FL 33615-1599 US Ref: 25-007042025 Trn: 3438795234Es",
+              "amount": 15525.13,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "08-25-2025",
+              "type": "Credit",
+              "description": "Orig CO Name: Cleveland Diagno Orig ID:9112510100 Desc Date: 250825 CO Entry Descr:Payables Sec: CCD Trace#: 044000024154015 Eed:250825 Ind ID: True Point Phle Ind Name: True Point Phlebotomy Trn: 2374154015Tc",
+              "amount": 440.0,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "08-29-2025",
+              "type": "Credit",
+              "description": "Book Transfer Credit B/O: Laboratory of Florida LLC Tampa FL 33615-1599 US Ref: 25-008282025 Trn: 3825315241Es",
+              "amount": 15379.4,
+              "non_true_revenue": 0
+            }
+          ],
+          "standard_withdrawal": [
+            {
+              "date": "08-04-2025",
+              "type": "Debit",
+              "description": "Card Purchase With Pin 08/02 Indeed Usi25-04089972 Austin TX Card 2912",
+              "amount": 216.0
+            },
+            {
+              "date": "08-04-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Fundbox Inc. Orig ID: 1364759182 Desc Date: CO Entry Descr:Instant Fusec: CCD Trace#: 091000017484072 Eed:250804 Ind ID:Eg8Kbg Gygn Ind Name: Operations 12171 Trn: 2167484072Tc",
+              "amount": 10.24
+            },
+            {
+              "date": "08-07-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Fundbox Inc. Orig ID: 1364759182 Desc Date: CO Entry Descr:Adv Debit Sec:CCD Trace#:091000018839840 Eed: 250807 Ind ID:Eg8Kbg Pwcmcw Ind Name: Operations 12199 Trn: 2198839840Tc",
+              "amount": 451.4
+            },
+            {
+              "date": "08-11-2025",
+              "type": "Debit",
+              "description": "Card Purchase 08/09 IN *Ainsworth & Clancy 305-6003816 FL Card 2912",
+              "amount": 252.0
+            },
+            {
+              "date": "08-11-2025",
+              "type": "Debit",
+              "description": "Card Purchase 08/09 Skufca Law Plic Charlotte NC Card 2912",
+              "amount": 399.0
+            },
+            {
+              "date": "08-11-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Accountablehq.CO Orig ID: 1800948598 Desc Date: CO Entry Descr: Training Usec: Web Trace#:091000013613988 Eed:250811 Ind ID: St-A8Y5T5U7R313 Ind Name: True Point Phlebotomy Trn: 2233613988Tc",
+              "amount": 25.0
+            },
+            {
+              "date": "08-12-2025",
+              "type": "Debit",
+              "description": "Card Purchase 08/11 IN *Ainsworth & Clancy 305-6003816 FL Card 2912",
+              "amount": 288.0
+            },
+            {
+              "date": "08-14-2025",
+              "type": "Debit",
+              "description": "Orig CO Name: Fundbox Inc. Orig ID: 1364759182 Desc Date: CO Entry Descr:Adv Debit Sec: CCD Trace#:091000012665661 Eed:250814 Ind ID:Eg8Kbg PROMbg Ind Name: Operations 12242 Trn: 2262665661 Tc",
+              "amount": 401.61
+            },
+            {
+              "date": "08-25-2025",
+              "type": "Debit",
+              "description": "Card Purchase 08/22 Affirm * Pay B34Fu1Y7 855-423-3729 CA Card 2912",
+              "amount": 18.91
+            },
+            {
+              "date": "08-25-2025",
+              "type": "Debit",
+              "description": "Card Purchase 08/22 Affirm * Pay 4Hinet4J 855-423-3729 CA Card 2912",
+              "amount": 165.76
+            },
+            {
+              "date": "08-25-2025",
+              "type": "Debit",
+              "description": "Recurring Card Purchase 08/23 Www.Zenbusiness. Com Zenbusiness. C TX Card 2912",
+              "amount": 30.0
+            }
+          ]
+        }
+      ]
+    },
+    "raw_output": "```json\n{\n  \"accounts\": [\n    {\n      \"account_number\": \"000000581326157\",\n      \"account_type\": \"Chase Business Complete Checking\",\n      \"mca_deposit\": [\n        {\n          \"mca_name\": \"Seamless Funding\",\n          \"date\": \"08-07-2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Fedwire Credit Via: Flagstar Bank, NA/026013576 B/O: Seamless Funding LLC, Ref: Chase Nyc/Ctr/Bnf=True Point Phlebotomy Solutions LLC Elgin SC 29045-7 902 US/Ac-000000005813 Rfb=Notprovi Ded Imad: 0807B6B7261F001905 Trn: 0678491219Ff\",\n          \"amount\": 18000.0,\n          \"non_true_revenue\": 1\n        },\n        {\n          \"mca_name\": \"vader servicing\",\n          \"date\": \"08-08-2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Fedwire Credit Via: Wells Fargo Bank, N.A./121000248 B/O: Vader Servicing, LLC Miami FL 331821505 US Ref: Chase Nyc/Ctr/Bnf=True Point Phlebotomy Solutions LLC Elgin SC 29045-7 902 US/Ac-000000005813 Rfb=279750 B Bi=/Chgs/USD0,00/ Imad: 080811B7033R013708 Trn: 1064981220Ff\",\n          \"amount\": 14275.0,\n          \"non_true_revenue\": 1\n        }\n      ],\n      \"mca_withdrawal\": [\n        {\n          \"mca_name\": \"Forward Financing\",\n          \"date\": \"08-01-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date: 250731 CO Entry Descr:3411D94Ee3Sec:CCD Trace#: 091000019354552 Eed: 250801 Ind ID:888-244-9099 Ind Name: True Point Phlebot Omy Trn: 2139354552Tc\",\n          \"amount\": 462.5\n        },\n        {\n          \"mca_name\": \"Forward Financing\",\n          \"date\": \"08-04-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date:250801 CO Entry Descr:8403D98A7Bsec: CCD Trace#: 091000017612336 Eed: 250804 Ind ID:888-244-9099 Ind Name: True Point Phlebot Omy Trn: 2167612336Tc\",\n          \"amount\": 462.5\n        },\n        {\n          \"mca_name\": \"Forward Financing\",\n          \"date\": \"08-06-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Forwardfinancing Orig ID: 5330903620 Desc Date: 250805 CO Entry Descr:55Fbdacc1Esec: CCD Trace#: 091000019469528 Eed:250806 Ind ID:888-244-9099 Ind Name: True Point Phlebot Omy Trn: 2189469528Tc\",\n          \"amount\": 462.5\n        },\n        {\n          \"mca_name\": \"Forward Financing\",\n          \"date\": \"08-07-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date: 250806 CO Entry Descr:0Ee10Fbf44Sec: CCD Trace#: 091000018904540 Eed:250807 Ind ID:888-244-9099 Ind Name: True Point Phlebot Omy Trn: 2198904540Tc\",\n          \"amount\": 462.5\n        },\n        {\n          \"mca_name\": \"Forward Financing\",\n          \"date\": \"08-08-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date: 250807 CO Entry Descr:Be1551Fff9Sec: CCD Trace#: 091000016787155 Eed: 250808 Ind ID:888-244-9099 Ind Name: True Point Phlebot Omy Trn: 2206787155Tc\",\n          \"amount\": 462.5\n        },\n        {\n          \"mca_name\": \"Seamless Funding\",\n          \"date\": \"08-08-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Seamless Funding Orig ID: 1992378457 Desc Date: 080825 CO Entry Descr:Daily Sec:CCD Trace#: 026013576477547 Eed:250808 Ind ID: 000000147247 Ind Name: True Point Phlebotomy Trn: 2206477547Tc\",\n          \"amount\": 299.8\n        },\n        {\n          \"mca_name\": \"Forward Financing\",\n          \"date\": \"08-11-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date:250808 CO Entry Descr:99Ed74Fcecsec: CCD Trace#: 091000018813846 Eed:250811 Ind ID:888-244-9099 Ind Name: True Point Phlebot Omy Trn: 2238813846Tc\",\n          \"amount\": 925.0\n        },\n        {\n          \"mca_name\": \"Seamless Funding\",\n          \"date\": \"08-11-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Seamless Funding Orig ID: 1992378457 Desc Date: 081125 CO Entry Descr:Daily Sec: CCD Trace#: 026013578711713 Eed:250811 Ind ID:000000147344 Ind Name: True Point Phlebotomy Trn: 2238711713Tc\",\n          \"amount\": 299.8\n        },\n        {\n          \"mca_name\": \"vader servicing\",\n          \"date\": \"08-11-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Vader Servicing Orig ID:2822300506 Desc Date: CO Entry Descr:Ebf Debit Sec: CCD Trace#:091000018502241 Eed:250811 Ind ID:000000012243518 Ind Name: True Point Phlebotomy Trn: 2238502241 Tc\",\n          \"amount\": 197.73\n        },\n        {\n          \"mca_name\": \"Forward Financing\",\n          \"date\": \"08-12-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date: 250811 CO Entry Descr:04Ab207Eb9Sec: CCD Trace#: 091000018881450 Eed: 250812 Ind ID:888-244-9099 Ind Name: True Point Phlebot Omy Trn: 2248881450Tc\",\n          \"amount\": 462.5\n        },\n        {\n          \"mca_name\": \"Seamless Funding\",\n          \"date\": \"08-12-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Seamless Funding Orig ID: 1992378457 Desc Date: 081225 CO Entry Descr:Daily Sec:CCD Trace#: 026013578977381 Eed:250812 Ind ID: 000000147442 Ind Name: True Point Phlebotomy Trn: 2248977381Tc\",\n          \"amount\": 299.8\n        },\n        {\n          \"mca_name\": \"Qbc\",\n          \"date\": \"08-12-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Intuit Financing Orig ID:9463467445 Desc Date: 250812 CO Entry Descr:Qbc_Pmts Sec:CCD Trace#: 111000028616185 Eed:250812 Ind ID: Ind Name: Kimberly Locklear Trn: 2248616185Tc\",\n          \"amount\": 266.83\n        },\n        {\n          \"mca_name\": \"vader servicing\",\n          \"date\": \"08-12-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Vader Servicing Orig ID:2822300506 Desc Date: CO Entry Descr:Ebf Debit Sec: CCD Trace#: 091000018576756 Eed: 250812 Ind ID: 000000012250650 Ind Name: True Point Phlebotomy Trn: 2248576756Tc\",\n          \"amount\": 197.73\n        },\n        {\n          \"mca_name\": \"Forward Financing\",\n          \"date\": \"08-13-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date: 250812 CO Entry Descr:81Dab7Ea3Asec: CCD Trace#: 091000015402811 Eed: 250813 Ind ID:888-244-9099 Ind Name: True Point Phlebot Omy Trn: 2255402811Tc\",\n          \"amount\": 462.5\n        },\n        {\n          \"mca_name\": \"Seamless Funding\",\n          \"date\": \"08-13-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Seamless Funding Orig ID: 1992378457 Desc Date: 081325 CO Entry Descr:Daily Sec: CCD Trace#: 026013575498281 Eed:250813 Ind ID: 000000147545 Ind Name: True Point Phlebotomy Trn: 2255498281Tc\",\n          \"amount\": 299.8\n        },\n        {\n          \"mca_name\": \"vader servicing\",\n          \"date\": \"08-13-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Vader Servicing Orig ID:2822300506 Desc Date: CO Entry Descr:Ebf Debit Sec: CCD Trace#: 091000015637228 Eed: 250813 Ind ID: 000000012257829 Ind Name: True Point Phlebotomy Trn: 2255637228Tc\",\n          \"amount\": 197.73\n        },\n        {\n          \"mca_name\": \"Forward Financing\",\n          \"date\": \"08-14-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Forwardfinancing Orig ID: 5330903620 Desc Date: 250813 CO Entry Descr:B69C34C0D0Sec: CCD Trace#: 091000012750226 Eed: 250814 Ind ID:888-244-9099 Ind Name: True Point Phlebot Omy Trn: 2262750226Tc\",\n          \"amount\": 462.5\n        },\n        {\n          \"mca_name\": \"Seamless Funding\",\n          \"date\": \"08-14-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Seamless Funding Orig ID: 1992378457 Desc Date: 081425 CO Entry Descr:Daily Sec: CCD Trace#: 026013572443067 Eed:250814 Ind ID: 000000147646 Ind Name: True Point Phlebotomy Trn: 2262443067Tc\",\n          \"amount\": 299.8\n        },\n        {\n          \"mca_name\": \"vader servicing\",\n          \"date\": \"08-14-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Vader Servicing Orig ID:2822300506 Desc Date: CO Entry Descr:Ebf Debit Sec: CCD Trace#: 091000012516912 Eed: 250814 Ind ID: 000000012265035 Ind Name: True Point Phlebotomy Trn: 2262516912Tc\",\n          \"amount\": 197.73\n        },\n        {\n          \"mca_name\": \"vader servicing\",\n          \"date\": \"08-15-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Vader Servicing Orig ID:2822300506 Desc Date: CO Entry Descr:Ebf Debit Sec: CCD Trace#: 091000016555188 Eed: 250815 Ind ID: 000000012272378 Ind Name: True Point Phlebotomy Trn: 2276555188Tc\",\n          \"amount\": 197.73\n        },\n        {\n          \"mca_name\": \"Seamless Funding\",\n          \"date\": \"08-18-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Seamless Funding Orig ID: 1992378457 Desc Date: 081825 CO Entry Descr:Daily Sec: CCD Trace#: 026013577196875 Eed:250818 Ind ID: 000000147857 Ind Name: True Point Phlebotomy Trn: 2307196875Tc\",\n          \"amount\": 299.8\n        },\n        {\n          \"mca_name\": \"vader servicing\",\n          \"date\": \"08-18-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Vader Servicing Orig ID:2822300506 Desc Date: CO Entry Descr:Ebf Debit Sec:CCD Trace#: 091000018344499 Eed: 250818 Ind ID: 000000012279601 Ind Name: True Point Phlebotomy Trn: 2308344499Tc\",\n          \"amount\": 197.73\n        },\n        {\n          \"mca_name\": \"Forward Financing\",\n          \"date\": \"08-18-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date:250815 CO Entry Descr:665B218Af7Sec: CCD Trace#: 091000016455293 Eed: 250818 Ind ID:888-244-9099 Ind Name: True Point Phlebot Omy Trn: 2306455293Tc\",\n          \"amount\": 462.5\n        },\n        {\n          \"mca_name\": \"Forward Financing\",\n          \"date\": \"08-19-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date:250818 CO Entry Descr:24Ac255050Sec: CCD Trace#: 091000018718265 Eed:250819 Ind ID:888-244-9099 Ind Name: True Point Phlebot Omy Trn: 2318718265Tc\",\n          \"amount\": 462.5\n        },\n        {\n          \"mca_name\": \"Seamless Funding\",\n          \"date\": \"08-19-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Seamless Funding Orig ID: 1992378457 Desc Date: 081925 CO Entry Descr:Daily Sec: CCD Trace#: 026013578397248 Eed: 250819 Ind ID: 000000147962 Ind Name: True Point Phlebotomy Trn: 2318397248Tc\",\n          \"amount\": 299.8\n        },\n        {\n          \"mca_name\": \"vader servicing\",\n          \"date\": \"08-19-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Vader Servicing Orig ID:2822300506 Desc Date: CO Entry Descr:Ebf Debit Sec: CCD Trace#:091000018373606 Eed:250819 Ind ID: 000000012286881 Ind Name: True Point Phlebotomy Trn: 2318373606Tc\",\n          \"amount\": 197.73\n        },\n        {\n          \"mca_name\": \"vader servicing\",\n          \"date\": \"08-20-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Vader Servicing Orig ID:2822300506 Desc Date: CO Entry Descr:Ebf Debit Sec: CCD Trace#: 091000014786118 Eed: 250820 Ind ID: 000000012294207 Ind Name: True Point Phlebotomy Trn: 2324786118Tc\",\n          \"amount\": 197.73\n        },\n        {\n          \"mca_name\": \"Forward Financing\",\n          \"date\": \"08-22-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date: 250821 CO Entry Descr:8801D599A7Sec:CCD Trace#: 091000018767999 Eed: 250822 Ind ID:888-244-9099 Ind Name: True Point Phlebot Omy Trn: 2348767999Tc\",\n          \"amount\": 462.5\n        },\n        {\n          \"mca_name\": \"Seamless Funding\",\n          \"date\": \"08-22-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Seamless Funding Orig ID: 1992378457 Desc Date: 082225 CO Entry Descr:Daily Sec:CCD Trace#: 026013578423927 Eed:250822 Ind ID:000000148283 Ind Name: True Point Phlebotomy Trn: 2348423927Tc\",\n          \"amount\": 299.8\n        },\n        {\n          \"mca_name\": \"vader servicing\",\n          \"date\": \"08-22-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Vader Servicing Orig ID:2822300506 Desc Date: CO Entry Descr:Ebf Debit Sec: CCD Trace#: 091000018724535 Eed: 250822 Ind ID:000000012308916 Ind Name: True Point Phlebotomy Trn: 2348724535Tc\",\n          \"amount\": 197.73\n        },\n        {\n          \"mca_name\": \"Seamless Funding\",\n          \"date\": \"08-22-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Seamless Funding Orig ID: 1992378457 Desc Date: 082225 CO Entry Descr: Onetime Sec: CCD Trace#: 026013576440707 Eed:250822 Ind ID: 000000148316 Ind Name: True Point Phlebotomy Trn: 2346440707Tc\",\n          \"amount\": 1495.0\n        },\n        {\n          \"mca_name\": \"Amex\",\n          \"date\": \"08-22-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: American Express Orig ID:2005032111 Desc Date:250822 CO Entry Descr:ACH Pmt Sec:CCD Trace#: 021000024782655 Eed: 250822 Ind ID:M0590 Er Am Ind Name: Kimberly Locklear Trn: 2344782655Tc\",\n          \"amount\": 4507.86\n        },\n        {\n          \"mca_name\": \"Forward Financing\",\n          \"date\": \"08-25-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date: 250822 CO Entry Descr:2Ddcb68999Sec:CCD Trace#:091000019409879 Eed: 250825 Ind ID:888-244-9099 Ind Name: True Point Phlebot Omy Trn: 2379409879Tc\",\n          \"amount\": 462.5\n        },\n        {\n          \"mca_name\": \"Seamless Funding\",\n          \"date\": \"08-25-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Seamless Funding Orig ID: 1992378457 Desc Date: 082525 CO Entry Descr:Daily Sec: CCD Trace#: 026013579007339 Eed:250825 Ind ID: 000000148387 Ind Name: True Point Phlebotomy Trn: 2379007339Tc\",\n          \"amount\": 299.8\n        },\n        {\n          \"mca_name\": \"vader servicing\",\n          \"date\": \"08-25-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Vader Servicing Orig ID:2822300506 Desc Date: CO Entry Descr:Ebf Debit Sec:CCD Trace#: 091000019017645 Eed: 250825 Ind ID: 000000012316171 Ind Name: True Point Phlebotomy Trn: 2379017645Tc\",\n          \"amount\": 197.73\n        },\n        {\n          \"mca_name\": \"Forward Financing\",\n          \"date\": \"08-26-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date:250825 CO Entry Descr:3111526D36Sec: CCD Trace#: 091000018397520 Eed:250826 Ind ID:888-244-9099 Ind Name: True Point Phlebot Omy Trn: 2388397520Tc\",\n          \"amount\": 462.5\n        },\n        {\n          \"mca_name\": \"vader servicing\",\n          \"date\": \"08-26-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Vader Servicing Orig ID:2822300506 Desc Date: CO Entry Descr:Ebf Debit Sec: CCD Trace#: 091000018176317 Eed: 250826 Ind ID: 000000012323485 Ind Name: True Point Phlebotomy Trn: 2388176317Tc\",\n          \"amount\": 197.73\n        },\n        {\n          \"mca_name\": \"Forward Financing\",\n          \"date\": \"08-29-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date:250828 CO Entry Descr:67AFB5A7Dasec: CCD Trace#: 091000019174724 Eed: 250829 Ind ID:888-244-9099 Ind Name: True Point Phlebot Omy Trn: 2419174724Tc\",\n          \"amount\": 462.5\n        },\n        {\n          \"mca_name\": \"Seamless Funding\",\n          \"date\": \"08-29-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Seamless Funding Orig ID: 1992378457 Desc Date: 082925 CO Entry Descr:Daily Sec: CCD Trace#: 026013579076395 Eed:250829 Ind ID: 000000148807 Ind Name: True Point Phlebotomy Trn: 2419076395Tc\",\n          \"amount\": 299.8\n        },\n        {\n          \"mca_name\": \"vader servicing\",\n          \"date\": \"08-29-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Vader Servicing Orig ID:2822300506 Desc Date: CO Entry Descr:Ebf Debit Sec: CCD Trace#:091000018775064 Eed: 250829 Ind ID:000000012345916 Ind Name: True Point Phlebotomy Trn: 2418775064Tc\",\n          \"amount\": 197.73\n        }\n      ],\n      \"returned_items\": [],\n      \"overdrafts\": [\n        {\n          \"date\": \"08-05-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Overdraft Fee For A $462.50 Item - Details: Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date: 250801 CO Entry Descr: 8403D98A7Bsec:CCD Trace#:091000017612336 Eed: 250804 Ind ID:888-244-9099 Ind Name: True Point Phlebot Omy Trn: 2167612336Tc\",\n          \"amount\": 34.0\n        },\n        {\n          \"date\": \"08-05-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Overdraft Fee For A $10.24 Item Details: Orig CO Name: Fundbox Inc. Orig ID: 1364759182 Desc Date: CO Entry Descr:Instant Fusec: CCD Trace#: 091000017484072 Eed:250804 Ind ID: Eg8Kbg Gygn Ind Name: Operations 12171 Trn\",\n          \"amount\": 34.0\n        },\n        {\n          \"date\": \"08-05-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Overdraft Fee For A $216.00 Card Purchase With Pin Details: 0728930802Indeed Usi25-04089972 Austin TX 0############2912 01754\",\n          \"amount\": 34.0\n        },\n        {\n          \"date\": \"08-15-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Overdraft Fee For A $299.80 Item - Details: Orig CO Name: Seamless Funding Orig ID: 1992378457 Desc Date: 081425 CO Entry Descr: Daily Sec:CCD Trace#: 026013572443067 Eed: 250814 Ind ID: 000000147646 Ind Name: True Point Phlebotomy Trn: 2262443067Tc\",\n          \"amount\": 34.0\n        },\n        {\n          \"date\": \"08-15-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Overdraft Fee For A $197.73 Item - Details: Orig CO Name: Vader Servicing Orig ID:2822300506 Desc Date: CO Entry Descr:Ebf Debit Sec:CCD Trace#:091000012516912 Eed: 250814 Ind ID:000000012265035 Ind Name: True Point Phlebotomy Trn: 2262516912Tc\",\n          \"amount\": 34.0\n        },\n        {\n          \"date\": \"08-20-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Overdraft Fee For A $299.80 Item - Details: Orig CO Name: Seamless Funding ID: 1992378457 Desc Date: 081925 CO Entry Descr: Daily Sec:CCD Trace#: 026013578397248 Eed: 250819 Ind ID:000000147962 Ind Name: True Point Phlebotomy Trn: 2318397248Tc\",\n          \"amount\": 34.0\n        },\n        {\n          \"date\": \"08-20-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Overdraft Fee For A $197.73 Item - Details: Orig CO Name: Vader Servicing Orig ID:2822300506 Desc Date: CO Entry Descr:Ebf Debit Sec:CCD Trace#: 091000018373606 Eed:250819 Ind ID:000000012286881 Ind Name: True Point Point Phlebotomy Trn: 2318373606Tc\",\n          \"amount\": 34.0\n        },\n        {\n          \"date\": \"08-21-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Overdraft Fee For A $197.73 Item - Details: Orig CO Name: Vader Servicing Orig ID:2822300506 Desc Date: CO Entry Descr:Ebf Debit Sec:CCD Trace#: 091000014786118 Eed:250820 Ind ID: 000000012294207 Ind Name: True Point Phlebotomy Trn: 2324786118Tc\",\n          \"amount\": 34.0\n        },\n        {\n          \"date\": \"08-27-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Overdraft Fee For A $462.50 Item Details: Orig CO Name: Forwardfinancing Orig ID:5330903620 Desc Date:250825 CO Entry Descr: 3111526D36Sec:CCD Trace#: 091000018397520 Eed:250826 Ind ID: 888-244-9099 Ind Name: True Phlebot Omy Trn: 2388397520Tc\",\n          \"amount\": 34.0\n        },\n        {\n          \"date\": \"08-27-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Overdraft Fee For A $197.73 Item Details: Orig CO Name: Vader Servicing Orig ID:2822300506 Desc Date: CO Entry Descr: Ebf Debit Sec:CCD Trace#:091000018176317 Eed: 250826 Ind ID: 000000012323485 Ind Name: True Point Phlebotomy Trn: 2388176317Tc\",\n          \"amount\": 34.0\n        }\n      ],\n      \"service_charges\": [\n        {\n          \"date\": \"08-06-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Online Domestic Wire Fee\",\n          \"amount\": 25.0\n        },\n        {\n          \"date\": \"08-07-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Domestic Incoming Wire Fee\",\n          \"amount\": 15.0\n        },\n        {\n          \"date\": \"08-08-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Domestic Incoming Wire Fee\",\n          \"amount\": 15.0\n        }\n      ],\n      \"atm_cash_withdrawal\": [],\n      \"internal_transfer_deposit\": [],\n      \"other_transfer_deposit\": [\n        {\n          \"date\": \"08-08-2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Zelle Payment From Justin B Leibling 25784568125\",\n          \"amount\": 800.0,\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        }\n      ],\n      \"internal_transfer_withdrawal\": [\n        {\n          \"date\": \"08-01-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"08/01 Online Transfer To Chk... 6132 Transaction#: 25695067826\",\n          \"amount\": 12000.0\n        },\n        {\n          \"date\": \"08-01-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"08/01 Online Transfer To Chk...6132 Transaction#: 25695741335\",\n          \"amount\": 4000.0\n        },\n        {\n          \"date\": \"08-01-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"08/01 Online Transfer To Chk ... 6132 Transaction#: 25696424563\",\n          \"amount\": 377.0\n        },\n        {\n          \"date\": \"08-08-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"08/08 Online Transfer To Chk...6132 Transaction#: 25785010749\",\n          \"amount\": 5000.0\n        },\n        {\n          \"date\": \"08-08-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"08/08 Online Transfer To Chk...6132 Transaction#: 25785271506\",\n          \"amount\": 500.0\n        },\n        {\n          \"date\": \"08-18-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"08/18 Online Transfer To Chk...6132 Transaction#: 25898835657\",\n          \"amount\": 13000.0\n        },\n        {\n          \"date\": \"08-18-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"08/18 Online Transfer To Chk...6132 Transaction#: 25899326748\",\n          \"amount\": 1105.0\n        },\n        {\n          \"date\": \"08-22-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"08/22 Online Transfer To Chk ...6132 Transaction#: 25944840294\",\n          \"amount\": 10000.0\n        },\n        {\n          \"date\": \"08-22-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"08/22 Online Transfer To Chk...6132 Transaction#: 25945105007\",\n          \"amount\": 3000.0\n        },\n        {\n          \"date\": \"08-22-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"08/22 Online Transfer To Chk ...6132 Transaction#: 25945123042\",\n          \"amount\": 6550.0\n        },\n        {\n          \"date\": \"08-29-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"08/29 Online Transfer To Chk...6132 Transaction#: 26027649287\",\n          \"amount\": 13600.0\n        }\n      ],\n      \"other_transfer_withdrawal\": [\n        {\n          \"date\": \"08-01-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Payment Sent 08/01 Venmo *Tonya Davis Visa Direct NY Card 2912\",\n          \"amount\": 119.9\n        },\n        {\n          \"date\": \"08-01-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Payment Sent 08/01 Venmo *Tonya Davis Visa Direct NY Card 2912\",\n          \"amount\": 79.2\n        },\n        {\n          \"date\": \"08-06-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Zelle Payment To Kim Locklear 25756172313\",\n          \"amount\": 1200.0\n        },\n        {\n          \"date\": \"08-06-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"08/06 Online Domestic Wire Transfer Via: Bank of America, N. A./0959 A/C: Aba/063100277 Miami FL US Ben: James Hoover Hollywood FL 33020 US Ssn: 00521194 Trn: 3472385218Es\",\n          \"amount\": 15000.0\n        },\n        {\n          \"date\": \"08-07-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Zelle Payment To Diana Pereira 25769129096\",\n          \"amount\": 1420.6\n        },\n        {\n          \"date\": \"08-08-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Payment Sent 08/08 Venmo *Tonya Davis Visa Direct NY Card 2912\",\n          \"amount\": 658.6\n        },\n        {\n          \"date\": \"08-08-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Zelle Payment To Jessica Eilers Jpm99Bio77Yn\",\n          \"amount\": 1110.19\n        },\n        {\n          \"date\": \"08-08-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Zelle Payment To Katelyn Craft Jpm99Bio7Rmj\",\n          \"amount\": 682.1\n        },\n        {\n          \"date\": \"08-08-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"08/08 Same-Day ACH Payment 11183293740 To Shanitaandrews (_######1769)\",\n          \"amount\": 619.2\n        },\n        {\n          \"date\": \"08-08-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"08/08 Online Realtime Vendor Payment 11183293806 Payment ID Reference#: 8183293806Rx To Takeda Hinton 2599\",\n          \"amount\": 390.2\n        },\n        {\n          \"date\": \"08-08-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"08/08 Same-Day ACH Payment 11183293833 To Ceciliaburnside (_########2559)\",\n          \"amount\": 159.84\n        },\n        {\n          \"date\": \"08-08-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"08/08 Online Realtime Vendor Payment 11183281451 Payment ID Reference#: 8183281451Rx To Eleany 8991\",\n          \"amount\": 579.1\n        },\n        {\n          \"date\": \"08-08-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"08/08 Same-Day ACH Payment 11183281491 To Ericabillups (_######5349)\",\n          \"amount\": 460.19\n        },\n        {\n          \"date\": \"08-08-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"08/08 Online Realtime Vendor Payment 11183281528 Payment ID Reference#: 8183281528Rx To Hannah Tran 9698\",\n          \"amount\": 1011.24\n        },\n        {\n          \"date\": \"08-08-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"08/08 Online Realtime Vendor Payment 11183294035 Payment ID Reference#: 8183294035Rx To Ingrid 7768\",\n          \"amount\": 438.3\n        },\n        {\n          \"date\": \"08-08-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Zelle Payment To Jada Gibson Jpm99Bio963T\",\n          \"amount\": 80.8\n        },\n        {\n          \"date\": \"08-08-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"08/08 Online Realtime Vendor Payment 11183294194 Payment ID Reference#: 8183294194Rx To Karen Fisher 5400\",\n          \"amount\": 151.14\n        },\n        {\n          \"date\": \"08-08-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"08/08 Online Realtime Vendor Payment 11183294223 Payment ID Reference#: 8183294223Rx To Karla Flores 6867\",\n          \"amount\": 342.25\n        },\n        {\n          \"date\": \"08-08-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"08/08 Same-Day ACH Payment 11183281880 To Kenyattahollingsworthsavings (_########0353)\",\n          \"amount\": 100.0\n        },\n        {\n          \"date\": \"08-08-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"08/08 Online Realtime Vendor Payment 11183294342 Payment ID Reference#: 8183294342Rx To Kenyatta 6986\",\n          \"amount\": 62.2\n        },\n        {\n          \"date\": \"08-08-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Zelle Payment To Kia Thomas Jpm99Bioa0G9\",\n          \"amount\": 291.48\n        },\n        {\n          \"date\": \"08-08-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"08/08 Online Realtime Vendor Payment 11183294464 Payment ID Reference#: 8183294464Rx To Letasha Dantzler 9881\",\n          \"amount\": 914.49\n        },\n        {\n          \"date\": \"08-08-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"08/08 Online Realtime Vendor Payment 11183282043 Payment ID Reference#: 8183282043Rx To Galvan 0226\",\n          \"amount\": 1366.83\n        },\n        {\n          \"date\": \"08-08-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"08/08 Online Realtime Vendor Payment 11183282133 Payment ID Reference#: 8183282133Rx To Naretta Terhaar 0575\",\n          \"amount\": 330.9\n        },\n        {\n          \"date\": \"08-08-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"08/08 Same-Day ACH Payment 11183294617 To Patriciahall (_###8160)\",\n          \"amount\": 177.0\n        },\n        {\n          \"date\": \"08-08-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"08/08 Online Realtime Vendor Payment 11183282235 Payment ID Reference#: 8183282235Rx To Rhonda Holly 1855\",\n          \"amount\": 309.1\n        },\n        {\n          \"date\": \"08-08-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"08/08 Online Realtime Vendor Payment 11183294692 Payment ID Reference#: 8183294692Rx To Samantha Carroll 6557\",\n          \"amount\": 252.2\n        },\n        {\n          \"date\": \"08-08-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"08/08 Online Realtime Vendor Payment 11183282318 Payment ID Reference#: 8183282318Rx To Temp Acct Stephanie Santiago 9950\",\n          \"amount\": 775.1\n        },\n        {\n          \"date\": \"08-08-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Zelle Payment To Steve Lee Jpm99Bioak88\",\n          \"amount\": 1032.65\n        },\n        {\n          \"date\": \"08-08-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"08/08 Same-Day ACH Payment 11183294797 To Vennassawilliams (_######8207)\",\n          \"amount\": 491.58\n        },\n        {\n          \"date\": \"08-08-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"08/08 Online Realtime Vendor Payment 11183282493 Payment ID Reference#: 8183282493Rx To Yadoshni 4407\",\n          \"amount\": 595.65\n        },\n        {\n          \"date\": \"08-08-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"08/08 Same-Day ACH Payment 11183282850 To Meghanbutler (_######8511)\",\n          \"amount\": 266.2\n        },\n        {\n          \"date\": \"08-08-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"08/08 Online Realtime Vendor Payment 11183282887 Payment ID Reference#: 8183282887Rx To Justin Leibling 7624\",\n          \"amount\": 1600.0\n        },\n        {\n          \"date\": \"08-08-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"08/08 Same-Day ACH Payment 11183283036 To Courtneysechrest (_#########0044)\",\n          \"amount\": 182.0\n        },\n        {\n          \"date\": \"08-08-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"08/08 Same-Day ACH Payment 11183295989 To Kimwaldtpps (_########4183)\",\n          \"amount\": 17.5\n        },\n        {\n          \"date\": \"08-08-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"08/08 Online Realtime Vendor Payment 11183284107 Payment ID Reference#: 8183284107Rx To Talya Certonio 2927\",\n          \"amount\": 309.8\n        },\n        {\n          \"date\": \"08-08-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Zelle Payment To Kim Locklear 25785088508\",\n          \"amount\": 2800.0\n        },\n        {\n          \"date\": \"08-11-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Payment Sent 08/09 Apple Cash Sent Mone 1Infiniteloop CA Card 2912\",\n          \"amount\": 700.0\n        },\n        {\n          \"date\": \"08-11-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Zelle Payment To Kim Locklear 25812583669\",\n          \"amount\": 500.0\n        },\n        {\n          \"date\": \"08-12-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Zelle Payment To Kim Locklear 25828559104\",\n          \"amount\": 100.0\n        },\n        {\n          \"date\": \"08-12-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Zelle Payment To Kim Locklear 25828667839\",\n          \"amount\": 50.0\n        },\n        {\n          \"date\": \"08-19-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Payment Sent 08/18 Venmo *Tonya Davis Visa Direct NY Card 2912\",\n          \"amount\": 448.0\n        },\n        {\n          \"date\": \"08-22-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Zelle Payment To Erica Billups Jpm99Bkd643M\",\n          \"amount\": 467.4\n        },\n        {\n          \"date\": \"08-22-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Zelle Payment To Kim Locklear 25945357323\",\n          \"amount\": 2800.0\n        }\n      ],\n      \"standard_deposit\": [\n        {\n          \"date\": \"08-01-2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Book Transfer Credit B/O: Laboratory of Florida LLC Tampa FL 33615-1599 US Ref: 25-007042025 Trn: 3975315213Es\",\n          \"amount\": 17623.61,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"08-06-2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Book Transfer Credit B/O: Laboratory of Florida LLC Tampa FL 33615-1599 US Ref: 25-007042025 Trn: 3381345218Es\",\n          \"amount\": 18404.44,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"08-18-2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Book Transfer Credit B/O: Laboratory of Florida LLC Tampa FL 33615-1599 US Ref: 25-007042025 Trn: 3728025230Es\",\n          \"amount\": 16247.24,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"08-19-2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Orig CO Name: Webbank/Intuit Orig ID:1153219 Desc Date:250819 CO Entry Descr:Gpweb Loansec: CCD Trace#: 124384588541732 Eed:250819 Ind ID: 1727036 Ind Name: Kimberly Locklear Trn: 2318541732Tc\",\n          \"amount\": 433.0,\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"08-22-2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Book Transfer Credit B/O: Laboratory of Florida LLC Tampa FL 33615-1599 US Ref: 25-007042025 Trn: 3450415234Es\",\n          \"amount\": 15812.21,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"08-22-2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Book Transfer Credit B/O: Laboratory of Florida LLC Tampa FL 33615-1599 US Ref: 25-007042025 Trn: 3438795234Es\",\n          \"amount\": 15525.13,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"08-25-2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Orig CO Name: Cleveland Diagno Orig ID:9112510100 Desc Date: 250825 CO Entry Descr:Payables Sec: CCD Trace#: 044000024154015 Eed:250825 Ind ID: True Point Phle Ind Name: True Point Phlebotomy Trn: 2374154015Tc\",\n          \"amount\": 440.0,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"08-29-2025\",\n          \"type\": \"Credit\",\n          \"description\": \"Book Transfer Credit B/O: Laboratory of Florida LLC Tampa FL 33615-1599 US Ref: 25-008282025 Trn: 3825315241Es\",\n          \"amount\": 15379.4,\n          \"non_true_revenue\": 0\n        }\n      ],\n      \"standard_withdrawal\": [\n        {\n          \"date\": \"08-04-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Card Purchase With Pin 08/02 Indeed Usi25-04089972 Austin TX Card 2912\",\n          \"amount\": 216.0\n        },\n        {\n          \"date\": \"08-04-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Fundbox Inc. Orig ID: 1364759182 Desc Date: CO Entry Descr:Instant Fusec: CCD Trace#: 091000017484072 Eed:250804 Ind ID:Eg8Kbg Gygn Ind Name: Operations 12171 Trn: 2167484072Tc\",\n          \"amount\": 10.24\n        },\n        {\n          \"date\": \"08-07-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Fundbox Inc. Orig ID: 1364759182 Desc Date: CO Entry Descr:Adv Debit Sec:CCD Trace#:091000018839840 Eed: 250807 Ind ID:Eg8Kbg Pwcmcw Ind Name: Operations 12199 Trn: 2198839840Tc\",\n          \"amount\": 451.4\n        },\n        {\n          \"date\": \"08-11-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Card Purchase 08/09 IN *Ainsworth & Clancy 305-6003816 FL Card 2912\",\n          \"amount\": 252.0\n        },\n        {\n          \"date\": \"08-11-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Card Purchase 08/09 Skufca Law Plic Charlotte NC Card 2912\",\n          \"amount\": 399.0\n        },\n        {\n          \"date\": \"08-11-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Accountablehq.CO Orig ID: 1800948598 Desc Date: CO Entry Descr: Training Usec: Web Trace#:091000013613988 Eed:250811 Ind ID: St-A8Y5T5U7R313 Ind Name: True Point Phlebotomy Trn: 2233613988Tc\",\n          \"amount\": 25.0\n        },\n        {\n          \"date\": \"08-12-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Card Purchase 08/11 IN *Ainsworth & Clancy 305-6003816 FL Card 2912\",\n          \"amount\": 288.0\n        },\n        {\n          \"date\": \"08-14-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Orig CO Name: Fundbox Inc. Orig ID: 1364759182 Desc Date: CO Entry Descr:Adv Debit Sec: CCD Trace#:091000012665661 Eed:250814 Ind ID:Eg8Kbg PROMbg Ind Name: Operations 12242 Trn: 2262665661 Tc\",\n          \"amount\": 401.61\n        },\n        {\n          \"date\": \"08-25-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Card Purchase 08/22 Affirm * Pay B34Fu1Y7 855-423-3729 CA Card 2912\",\n          \"amount\": 18.91\n        },\n        {\n          \"date\": \"08-25-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Card Purchase 08/22 Affirm * Pay 4Hinet4J 855-423-3729 CA Card 2912\",\n          \"amount\": 165.76\n        },\n        {\n          \"date\": \"08-25-2025\",\n          \"type\": \"Debit\",\n          \"description\": \"Recurring Card Purchase 08/23 Www.Zenbusiness. Com Zenbusiness. C TX Card 2912\",\n          \"amount\": 30.0\n        }\n      ]\n    }\n  ]\n}\n```",
+    "token_count": {
+      "estimated_tokens": 3748
+    },
+    "failure_reason": null
+  }
+}

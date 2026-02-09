@@ -1,0 +1,268 @@
+{
+  "document_name": "Case72.pdf",
+  "pipeline_status": "completed",
+  "processing_metadata": {
+    "start_time": "2026-02-04T15:08:03.648069",
+    "end_time": "2026-02-04T15:09:27.071169",
+    "parsing_time_seconds": 37.16645,
+    "bsi_time_seconds": 46.242782,
+    "total_time_seconds": 83.409232
+  },
+  "parsing_agent_result": {
+    "agent_name": "parsing_agent",
+    "processing_status": "success",
+    "start_time": "2026-02-04T15:08:03.650929",
+    "end_time": "2026-02-04T15:08:40.817106",
+    "parsed_json": {
+      "bank_statement_information": {
+        "bank_name": "JPMorgan Chase Bank, N.A.",
+        "account_holder": "AIRCHEM, LLC",
+        "statement_start_date": "08-01-2025",
+        "statement_end_date": "08-29-2025",
+        "n_days": 29,
+        "n_month": [
+          8
+        ],
+        "business_address": "777 S. FLAGLER DRIVE, PHILLIPS POINT WEST TOWER, SUITE 800 PALM BEACH FL 33401"
+      },
+      "accounts": [
+        {
+          "account_number": "000000677337936",
+          "account_type": "Commercial Checking",
+          "account_summary": {
+            "beginning_balance": 1780.44,
+            "ending_balance": 449.92,
+            "total_deposits": 151000.0,
+            "total_withdrawals": 152330.52,
+            "total_deposits_count": 5,
+            "total_withdrawals_count": 8,
+            "avg_daily_balance": null,
+            "overdraft_days": 3
+          },
+          "transactions": [
+            {
+              "date": "08/01/2025",
+              "description": "Fedwire Credit Via: Wells Fargo Bank, N.A./121000248 B/O: Nabalia Holdings LLC West Palm Beach FL 33401 Ref: Chase Nyc/Ctr/Bnf=Airchem, LLC Palm Beach FL 33401-US/Ac-000000006773 Rfb=Ow00005941844036 Bbi=/Chgs/USD 0,00/ Imad: 080111B7031R008526 Trn: 0529761213Ff YOUR REF: OW00005941844036",
+              "amount": 3000.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 0
+            },
+            {
+              "date": "08/06/2025",
+              "description": "Orig CO Name: Dynamic Equities Orig ID:003074413 Desc Date: Aug 06 CO Entry Descr: Funding Sec: CCD Trace#: 067015096524024 Eed: 250806 Ind ID: Ind Name: Airchem LLC Trn: 2186524024Tc",
+              "amount": 134750.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "08/06/2025",
+              "description": "Book Transfer Debit A/C: China Citic Bank International Hong Kong Hong Kong Hk Trn: 8980000213Jo YOUR REF: NONREF",
+              "amount": 100000.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "08/06/2025",
+              "description": "JPMorgan Access Transfer To Account000000687122575 YOUR REF: 1000463218SB",
+              "amount": 25000.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "08/06/2025",
+              "description": "Orig CO Name: Dynamic Equities Orig ID: 003074413 Desc Date: Aug 06 CO Entry Descr: Dynamic Eqsec:CCD Trace#: 067015094794604 Eed:250806 Ind ID: #4921 Ind Name: Airchem LLC Trn: 2184794604Tc",
+              "amount": 5625.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/07/2025",
+              "description": "Orig CO Name: Dynamic Equities Orig ID:003074413 Desc Date: Aug 07 CO Entry Descr: Dynamic Eqsec:CCD Trace#: 067015093526285 Eed:250807 Ind ID: #4921 Ind Name: Airchem LLC Trn: 2193526285Tc",
+              "amount": 5625.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/08/2025",
+              "description": "Orig CO Name: Dynamic Equities Orig ID:003074413 Desc Date: Aug 08 CO Entry Descr: Dynamic Eqsec:CCD Trace#: 067015097669840 Eed:250808 Ind ID: #4921 Ind Name: Airchem LLC Trn: 2207669840Tc",
+              "amount": 5625.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/11/2025",
+              "description": "Reversal of Orig CO Name: Dynamic Equities Orig ID: 003074413 Desc Date: Aug 08 CO Entry Descr: Dynamic Eqsec:CCD Trace#:067015097669840 Eed: 250808 Ind ID:#4921 Ind Name: Airchem LLC Trn: 2207669840Tc",
+              "amount": 5625.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "08/11/2025",
+              "description": "Orig CO Name: Dynamic Equities Orig ID: 003074413 Desc Date: Aug 11 CO Entry Descr: Dynamic Eqsec:CCD Trace#: 067015095961981 Eed:250811 Ind ID: #4921 Ind Name: Airchem LLC Trn: 2235961981 Tc",
+              "amount": 5625.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "08/12/2025",
+              "description": "Reversal of Orig CO Name: Dynamic Equities Orig ID: 003074413 Desc Date: Aug 11 CO Entry Descr: Dynamic Eqsec:CCD Trace#:067015095961981 Eed: 250811 Ind ID:#4921 Ind Name: Airchem LLC Trn: 2235961981Tc",
+              "amount": 5625.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "08/13/2025",
+              "description": "Chips Debit Via: Wells Fargo Bank, N. A./0407 A/C: Nabalia Holdings LLC Wellington FL 33414 US Ssn: 00552813 Trn: 8702100225Jo YOUR REF: NONREF",
+              "amount": 2500.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "08/15/2025",
+              "description": "Account Analysis Settlement Charge",
+              "amount": 2330.52,
+              "type": "Debit",
+              "category": "Service Charges/Fees"
+            },
+            {
+              "date": "08/27/2025",
+              "description": "Fedwire Credit Via: Wells Fargo Bank, N. A./121000248 B/O: Nabalia Holdings LLC West Palm Beach FL 33401 Ref: Chase Nyc/Ctr/Bnf=Airchem, LLC Palm Beach FL 33401-US/Ac-000000006773 Rfb=Ow00006028567511 Bbi=/Chgs/USD 0,00/ Imad: 082711B7031R003328 Trn: 0142471239Ff YOUR REF: OW00006028567511",
+              "amount": 2000.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 0
+            }
+          ]
+        }
+      ]
+    },
+    "raw_output": "```json\n{\n  \"bank_statement_information\": {\n    \"bank_name\": \"JPMorgan Chase Bank, N.A.\",\n    \"account_holder\": \"AIRCHEM, LLC\",\n    \"statement_start_date\": \"08-01-2025\",\n    \"statement_end_date\": \"08-29-2025\",\n    \"n_days\": 29,\n    \"n_month\": [\n      8\n    ],\n    \"business_address\": \"777 S. FLAGLER DRIVE, PHILLIPS POINT WEST TOWER, SUITE 800 PALM BEACH FL 33401\"\n  },\n  \"accounts\": [\n    {\n      \"account_number\": \"000000677337936\",\n      \"account_type\": \"Commercial Checking\",\n      \"account_summary\": {\n        \"beginning_balance\": 1780.44,\n        \"ending_balance\": 449.92,\n        \"total_deposits\": 151000.0,\n        \"total_withdrawals\": 152330.52,\n        \"total_deposits_count\": 5,\n        \"total_withdrawals_count\": 8,\n        \"avg_daily_balance\": null,\n        \"overdraft_days\": 3\n      },\n      \"transactions\": [\n        {\n          \"date\": \"08/01/2025\",\n          \"description\": \"Fedwire Credit Via: Wells Fargo Bank, N.A./121000248 B/O: Nabalia Holdings LLC West Palm Beach FL 33401 Ref: Chase Nyc/Ctr/Bnf=Airchem, LLC Palm Beach FL 33401-US/Ac-000000006773 Rfb=Ow00005941844036 Bbi=/Chgs/USD 0,00/ Imad: 080111B7031R008526 Trn: 0529761213Ff YOUR REF: OW00005941844036\",\n          \"amount\": 3000.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 0\n        },\n        {\n          \"date\": \"08/06/2025\",\n          \"description\": \"Orig CO Name: Dynamic Equities Orig ID:003074413 Desc Date: Aug 06 CO Entry Descr: Funding Sec: CCD Trace#: 067015096524024 Eed: 250806 Ind ID: Ind Name: Airchem LLC Trn: 2186524024Tc\",\n          \"amount\": 134750.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"08/06/2025\",\n          \"description\": \"Book Transfer Debit A/C: China Citic Bank International Hong Kong Hong Kong Hk Trn: 8980000213Jo YOUR REF: NONREF\",\n          \"amount\": 100000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"08/06/2025\",\n          \"description\": \"JPMorgan Access Transfer To Account000000687122575 YOUR REF: 1000463218SB\",\n          \"amount\": 25000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"08/06/2025\",\n          \"description\": \"Orig CO Name: Dynamic Equities Orig ID: 003074413 Desc Date: Aug 06 CO Entry Descr: Dynamic Eqsec:CCD Trace#: 067015094794604 Eed:250806 Ind ID: #4921 Ind Name: Airchem LLC Trn: 2184794604Tc\",\n          \"amount\": 5625.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/07/2025\",\n          \"description\": \"Orig CO Name: Dynamic Equities Orig ID:003074413 Desc Date: Aug 07 CO Entry Descr: Dynamic Eqsec:CCD Trace#: 067015093526285 Eed:250807 Ind ID: #4921 Ind Name: Airchem LLC Trn: 2193526285Tc\",\n          \"amount\": 5625.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/08/2025\",\n          \"description\": \"Orig CO Name: Dynamic Equities Orig ID:003074413 Desc Date: Aug 08 CO Entry Descr: Dynamic Eqsec:CCD Trace#: 067015097669840 Eed:250808 Ind ID: #4921 Ind Name: Airchem LLC Trn: 2207669840Tc\",\n          \"amount\": 5625.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/11/2025\",\n          \"description\": \"Reversal of Orig CO Name: Dynamic Equities Orig ID: 003074413 Desc Date: Aug 08 CO Entry Descr: Dynamic Eqsec:CCD Trace#:067015097669840 Eed: 250808 Ind ID:#4921 Ind Name: Airchem LLC Trn: 2207669840Tc\",\n          \"amount\": 5625.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"08/11/2025\",\n          \"description\": \"Orig CO Name: Dynamic Equities Orig ID: 003074413 Desc Date: Aug 11 CO Entry Descr: Dynamic Eqsec:CCD Trace#: 067015095961981 Eed:250811 Ind ID: #4921 Ind Name: Airchem LLC Trn: 2235961981 Tc\",\n          \"amount\": 5625.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"08/12/2025\",\n          \"description\": \"Reversal of Orig CO Name: Dynamic Equities Orig ID: 003074413 Desc Date: Aug 11 CO Entry Descr: Dynamic Eqsec:CCD Trace#:067015095961981 Eed: 250811 Ind ID:#4921 Ind Name: Airchem LLC Trn: 2235961981Tc\",\n          \"amount\": 5625.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"08/13/2025\",\n          \"description\": \"Chips Debit Via: Wells Fargo Bank, N. A./0407 A/C: Nabalia Holdings LLC Wellington FL 33414 US Ssn: 00552813 Trn: 8702100225Jo YOUR REF: NONREF\",\n          \"amount\": 2500.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"08/15/2025\",\n          \"description\": \"Account Analysis Settlement Charge\",\n          \"amount\": 2330.52,\n          \"type\": \"Debit\",\n          \"category\": \"Service Charges/Fees\"\n        },\n        {\n          \"date\": \"08/27/2025\",\n          \"description\": \"Fedwire Credit Via: Wells Fargo Bank, N. A./121000248 B/O: Nabalia Holdings LLC West Palm Beach FL 33401 Ref: Chase Nyc/Ctr/Bnf=Airchem, LLC Palm Beach FL 33401-US/Ac-000000006773 Rfb=Ow00006028567511 Bbi=/Chgs/USD 0,00/ Imad: 082711B7031R003328 Trn: 0142471239Ff YOUR REF: OW00006028567511\",\n          \"amount\": 2000.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 0\n        }\n      ]\n    }\n  ]\n}\n```",
+    "token_count": {
+      "estimated_tokens": 563
+    },
+    "failure_reason": null
+  },
+  "bsi_analyzer_result": {
+    "agent_name": "v1_bsi_analyzer_agent",
+    "processing_status": "success",
+    "start_time": "2026-02-04T15:08:40.827980",
+    "end_time": "2026-02-04T15:09:27.070477",
+    "parsed_json": {
+      "accounts": [
+        {
+          "account_number": "000000677337936",
+          "account_type": "Commercial Checking",
+          "mca_deposit": [],
+          "mca_withdrawal": [],
+          "returned_items": [],
+          "overdrafts": [],
+          "service_charges": [
+            {
+              "date": "08/15/2025",
+              "description": "Account Analysis Settlement Charge",
+              "amount": 2330.52,
+              "type": "Debit"
+            }
+          ],
+          "atm_cash_withdrawal": [],
+          "internal_transfer_deposit": [],
+          "other_transfer_deposit": [
+            {
+              "date": "08/01/2025",
+              "description": "Fedwire Credit Via: Wells Fargo Bank, N.A./121000248 B/O: Nabalia Holdings LLC West Palm Beach FL 33401 Ref: Chase Nyc/Ctr/Bnf=Airchem, LLC Palm Beach FL 33401-US/Ac-000000006773 Rfb=Ow00005941844036 Bbi=/Chgs/USD 0,00/ Imad: 080111B7031R008526 Trn: 0529761213Ff YOUR REF: OW00005941844036",
+              "amount": 3000.0,
+              "type": "Credit",
+              "is_payment_processor": 0,
+              "non_true_revenue": 0
+            },
+            {
+              "date": "08/27/2025",
+              "description": "Fedwire Credit Via: Wells Fargo Bank, N. A./121000248 B/O: Nabalia Holdings LLC West Palm Beach FL 33401 Ref: Chase Nyc/Ctr/Bnf=Airchem, LLC Palm Beach FL 33401-US/Ac-000000006773 Rfb=Ow00006028567511 Bbi=/Chgs/USD 0,00/ Imad: 082711B7031R003328 Trn: 0142471239Ff YOUR REF: OW00006028567511",
+              "amount": 2000.0,
+              "type": "Credit",
+              "is_payment_processor": 0,
+              "non_true_revenue": 0
+            }
+          ],
+          "internal_transfer_withdrawal": [
+            {
+              "date": "08/06/2025",
+              "description": "JPMorgan Access Transfer To Account000000687122575 YOUR REF: 1000463218SB",
+              "amount": 25000.0,
+              "type": "Debit"
+            }
+          ],
+          "other_transfer_withdrawal": [
+            {
+              "date": "08/06/2025",
+              "description": "Book Transfer Debit A/C: China Citic Bank International Hong Kong Hong Kong Hk Trn: 8980000213Jo YOUR REF: NONREF",
+              "amount": 100000.0,
+              "type": "Debit"
+            },
+            {
+              "date": "08/13/2025",
+              "description": "Chips Debit Via: Wells Fargo Bank, N. A./0407 A/C: Nabalia Holdings LLC Wellington FL 33414 US Ssn: 00552813 Trn: 8702100225Jo YOUR REF: NONREF",
+              "amount": 2500.0,
+              "type": "Debit"
+            }
+          ],
+          "standard_deposit": [
+            {
+              "date": "08/06/2025",
+              "description": "Orig CO Name: Dynamic Equities Orig ID:003074413 Desc Date: Aug 06 CO Entry Descr: Funding Sec: CCD Trace#: 067015096524024 Eed: 250806 Ind ID: Ind Name: Airchem LLC Trn: 2186524024Tc",
+              "amount": 134750.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "08/11/2025",
+              "description": "Reversal of Orig CO Name: Dynamic Equities Orig ID: 003074413 Desc Date: Aug 08 CO Entry Descr: Dynamic Eqsec:CCD Trace#:067015097669840 Eed: 250808 Ind ID:#4921 Ind Name: Airchem LLC Trn: 2207669840Tc",
+              "amount": 5625.0,
+              "type": "Credit",
+              "non_true_revenue": 1
+            },
+            {
+              "date": "08/12/2025",
+              "description": "Reversal of Orig CO Name: Dynamic Equities Orig ID: 003074413 Desc Date: Aug 11 CO Entry Descr: Dynamic Eqsec:CCD Trace#:067015095961981 Eed: 250811 Ind ID:#4921 Ind Name: Airchem LLC Trn: 2235961981Tc",
+              "amount": 5625.0,
+              "type": "Credit",
+              "non_true_revenue": 1
+            }
+          ],
+          "standard_withdrawal": [
+            {
+              "date": "08/06/2025",
+              "description": "Orig CO Name: Dynamic Equities Orig ID: 003074413 Desc Date: Aug 06 CO Entry Descr: Dynamic Eqsec:CCD Trace#: 067015094794604 Eed:250806 Ind ID: #4921 Ind Name: Airchem LLC Trn: 2184794604Tc",
+              "amount": 5625.0,
+              "type": "Debit"
+            },
+            {
+              "date": "08/07/2025",
+              "description": "Orig CO Name: Dynamic Equities Orig ID:003074413 Desc Date: Aug 07 CO Entry Descr: Dynamic Eqsec:CCD Trace#: 067015093526285 Eed:250807 Ind ID: #4921 Ind Name: Airchem LLC Trn: 2193526285Tc",
+              "amount": 5625.0,
+              "type": "Debit"
+            },
+            {
+              "date": "08/08/2025",
+              "description": "Orig CO Name: Dynamic Equities Orig ID:003074413 Desc Date: Aug 08 CO Entry Descr: Dynamic Eqsec:CCD Trace#: 067015097669840 Eed:250808 Ind ID: #4921 Ind Name: Airchem LLC Trn: 2207669840Tc",
+              "amount": 5625.0,
+              "type": "Debit"
+            },
+            {
+              "date": "08/11/2025",
+              "description": "Orig CO Name: Dynamic Equities Orig ID: 003074413 Desc Date: Aug 11 CO Entry Descr: Dynamic Eqsec:CCD Trace#: 067015095961981 Eed:250811 Ind ID: #4921 Ind Name: Airchem LLC Trn: 2235961981 Tc",
+              "amount": 5625.0,
+              "type": "Debit"
+            }
+          ]
+        }
+      ]
+    },
+    "raw_output": "```json\n{\n  \"accounts\": [\n    {\n      \"account_number\": \"000000677337936\",\n      \"account_type\": \"Commercial Checking\",\n      \"mca_deposit\": [],\n      \"mca_withdrawal\": [],\n      \"returned_items\": [],\n      \"overdrafts\": [],\n      \"service_charges\": [\n        {\n          \"date\": \"08/15/2025\",\n          \"description\": \"Account Analysis Settlement Charge\",\n          \"amount\": 2330.52,\n          \"type\": \"Debit\"\n        }\n      ],\n      \"atm_cash_withdrawal\": [],\n      \"internal_transfer_deposit\": [],\n      \"other_transfer_deposit\": [\n        {\n          \"date\": \"08/01/2025\",\n          \"description\": \"Fedwire Credit Via: Wells Fargo Bank, N.A./121000248 B/O: Nabalia Holdings LLC West Palm Beach FL 33401 Ref: Chase Nyc/Ctr/Bnf=Airchem, LLC Palm Beach FL 33401-US/Ac-000000006773 Rfb=Ow00005941844036 Bbi=/Chgs/USD 0,00/ Imad: 080111B7031R008526 Trn: 0529761213Ff YOUR REF: OW00005941844036\",\n          \"amount\": 3000.0,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 0,\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"08/27/2025\",\n          \"description\": \"Fedwire Credit Via: Wells Fargo Bank, N. A./121000248 B/O: Nabalia Holdings LLC West Palm Beach FL 33401 Ref: Chase Nyc/Ctr/Bnf=Airchem, LLC Palm Beach FL 33401-US/Ac-000000006773 Rfb=Ow00006028567511 Bbi=/Chgs/USD 0,00/ Imad: 082711B7031R003328 Trn: 0142471239Ff YOUR REF: OW00006028567511\",\n          \"amount\": 2000.0,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 0,\n          \"non_true_revenue\": 0\n        }\n      ],\n      \"internal_transfer_withdrawal\": [\n        {\n          \"date\": \"08/06/2025\",\n          \"description\": \"JPMorgan Access Transfer To Account000000687122575 YOUR REF: 1000463218SB\",\n          \"amount\": 25000.0,\n          \"type\": \"Debit\"\n        }\n      ],\n      \"other_transfer_withdrawal\": [\n        {\n          \"date\": \"08/06/2025\",\n          \"description\": \"Book Transfer Debit A/C: China Citic Bank International Hong Kong Hong Kong Hk Trn: 8980000213Jo YOUR REF: NONREF\",\n          \"amount\": 100000.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/13/2025\",\n          \"description\": \"Chips Debit Via: Wells Fargo Bank, N. A./0407 A/C: Nabalia Holdings LLC Wellington FL 33414 US Ssn: 00552813 Trn: 8702100225Jo YOUR REF: NONREF\",\n          \"amount\": 2500.0,\n          \"type\": \"Debit\"\n        }\n      ],\n      \"standard_deposit\": [\n        {\n          \"date\": \"08/06/2025\",\n          \"description\": \"Orig CO Name: Dynamic Equities Orig ID:003074413 Desc Date: Aug 06 CO Entry Descr: Funding Sec: CCD Trace#: 067015096524024 Eed: 250806 Ind ID: Ind Name: Airchem LLC Trn: 2186524024Tc\",\n          \"amount\": 134750.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"08/11/2025\",\n          \"description\": \"Reversal of Orig CO Name: Dynamic Equities Orig ID: 003074413 Desc Date: Aug 08 CO Entry Descr: Dynamic Eqsec:CCD Trace#:067015097669840 Eed: 250808 Ind ID:#4921 Ind Name: Airchem LLC Trn: 2207669840Tc\",\n          \"amount\": 5625.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        },\n        {\n          \"date\": \"08/12/2025\",\n          \"description\": \"Reversal of Orig CO Name: Dynamic Equities Orig ID: 003074413 Desc Date: Aug 11 CO Entry Descr: Dynamic Eqsec:CCD Trace#:067015095961981 Eed: 250811 Ind ID:#4921 Ind Name: Airchem LLC Trn: 2235961981Tc\",\n          \"amount\": 5625.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        }\n      ],\n      \"standard_withdrawal\": [\n        {\n          \"date\": \"08/06/2025\",\n          \"description\": \"Orig CO Name: Dynamic Equities Orig ID: 003074413 Desc Date: Aug 06 CO Entry Descr: Dynamic Eqsec:CCD Trace#: 067015094794604 Eed:250806 Ind ID: #4921 Ind Name: Airchem LLC Trn: 2184794604Tc\",\n          \"amount\": 5625.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/07/2025\",\n          \"description\": \"Orig CO Name: Dynamic Equities Orig ID:003074413 Desc Date: Aug 07 CO Entry Descr: Dynamic Eqsec:CCD Trace#: 067015093526285 Eed:250807 Ind ID: #4921 Ind Name: Airchem LLC Trn: 2193526285Tc\",\n          \"amount\": 5625.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/08/2025\",\n          \"description\": \"Orig CO Name: Dynamic Equities Orig ID:003074413 Desc Date: Aug 08 CO Entry Descr: Dynamic Eqsec:CCD Trace#: 067015097669840 Eed:250808 Ind ID: #4921 Ind Name: Airchem LLC Trn: 2207669840Tc\",\n          \"amount\": 5625.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"08/11/2025\",\n          \"description\": \"Orig CO Name: Dynamic Equities Orig ID: 003074413 Desc Date: Aug 11 CO Entry Descr: Dynamic Eqsec:CCD Trace#: 067015095961981 Eed:250811 Ind ID: #4921 Ind Name: Airchem LLC Trn: 2235961981 Tc\",\n          \"amount\": 5625.0,\n          \"type\": \"Debit\"\n        }\n      ]\n    }\n  ]\n}\n```",
+    "token_count": {
+      "estimated_tokens": 501
+    },
+    "failure_reason": null
+  }
+}

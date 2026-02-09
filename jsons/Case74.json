@@ -1,0 +1,1033 @@
+{
+  "document_name": "Case74.pdf",
+  "pipeline_status": "completed",
+  "processing_metadata": {
+    "start_time": "2026-02-04T15:07:09.713753",
+    "end_time": "2026-02-04T15:09:22.262900",
+    "parsing_time_seconds": 86.266921,
+    "bsi_time_seconds": 46.238753,
+    "total_time_seconds": 132.505674
+  },
+  "parsing_agent_result": {
+    "agent_name": "parsing_agent",
+    "processing_status": "success",
+    "start_time": "2026-02-04T15:07:09.732158",
+    "end_time": "2026-02-04T15:08:35.998818",
+    "parsed_json": {
+      "bank_statement_information": {
+        "bank_name": "WSECU",
+        "account_holder": "AXILLES BUILDERS INC. JERAMY E PETERS",
+        "statement_start_date": "11/01/2025",
+        "statement_end_date": "11/30/2025",
+        "n_days": 30,
+        "n_month": [
+          11
+        ],
+        "business_address": "18375 47TH PL NE LAKE FOREST PARK, WA 98155-4307"
+      },
+      "accounts": [
+        {
+          "account_number": "XXXXXX0900",
+          "account_type": "BUSINESS MONEY MOVER",
+          "account_summary": {
+            "beginning_balance": 42711.1,
+            "ending_balance": 6263.62,
+            "total_deposits": 66534.03,
+            "total_withdrawals": 102981.51,
+            "total_deposits_count": 4,
+            "total_withdrawals_count": 62,
+            "avg_daily_balance": null,
+            "overdraft_days": 6
+          },
+          "transactions": [
+            {
+              "date": "11/03/2025",
+              "description": "Withdrawal ACH SYNCHRONY BANK",
+              "amount": 190.29,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "Withdrawal ACH VENMO",
+              "amount": 200.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "Withdrawal ACH AFFIRM INC",
+              "amount": 220.94,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "Withdrawal ACH HOME DEPOT",
+              "amount": 1000.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "Withdrawal ACH CAPITAL ONE",
+              "amount": 2000.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "Withdrawal ACH CAPITAL ONE",
+              "amount": 11917.78,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "Withdrawal POS #530800196153 THE HOME DEPOT #4706 SEATTLE WA",
+              "amount": 170.89,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "Check 1211",
+              "amount": 1484.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "Check 1212",
+              "amount": 1950.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/04/2025",
+              "description": "Withdrawal ACH AFFIRM INC",
+              "amount": 194.07,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/04/2025",
+              "description": "Check 1207",
+              "amount": 1275.28,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/04/2025",
+              "description": "Check 1206",
+              "amount": 2251.37,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/04/2025",
+              "description": "Check 1209",
+              "amount": 2457.86,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/04/2025",
+              "description": "Check 1210",
+              "amount": 2457.88,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/05/2025",
+              "description": "Withdrawal ACH CAPITAL ONE",
+              "amount": 2000.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/05/2025",
+              "description": "Withdrawal ACH IRS",
+              "amount": 2412.84,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/05/2025",
+              "description": "Withdrawal ACH CAPITAL ONE",
+              "amount": 3000.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/05/2025",
+              "description": "Check 1208",
+              "amount": 2787.86,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/06/2025",
+              "description": "Withdrawal ACH Synchrony Bank",
+              "amount": 233.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/06/2025",
+              "description": "Check 1204",
+              "amount": 609.4,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/06/2025",
+              "description": "Check 1205",
+              "amount": 1500.94,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/07/2025",
+              "description": "Withdrawal ACH Lowes",
+              "amount": 215.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/07/2025",
+              "description": "Withdrawal POS #531116157186 THE HOME DEPOT #4707 SEATTLE WA",
+              "amount": 432.12,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/07/2025",
+              "description": "Check 1203",
+              "amount": 532.61,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/08/2025",
+              "description": "Withdrawal Debit Card ONLINE PASSPORT FEES 843-302-3826 SC",
+              "amount": 130.0,
+              "type": "Debit",
+              "category": "Service Charges/Fees"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Withdrawal ACH BEST BUY",
+              "amount": 68.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Withdrawal Transfer To Loan 01",
+              "amount": 414.18,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Withdrawal ACH CAPITAL ONE",
+              "amount": 1000.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Withdrawal COURTESY PAY FEE",
+              "amount": 27.0,
+              "type": "Debit",
+              "category": "Overdraft"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "Withdrawal ACH CAPITAL ONE",
+              "amount": 300.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "Withdrawal COURTESY PAY FEE",
+              "amount": 27.0,
+              "type": "Debit",
+              "category": "Overdraft"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "Deposit by Check",
+              "amount": 5000.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "Withdrawal",
+              "amount": 500.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "Withdrawal ACH CAPITAL ONE",
+              "amount": 500.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/18/2025",
+              "description": "Deposit CU OnLine Transfer From Share 01",
+              "amount": 4.03,
+              "type": "Credit",
+              "category": "Internal Transfer Deposit"
+            },
+            {
+              "date": "11/18/2025",
+              "description": "Check 1213",
+              "amount": 2912.72,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/19/2025",
+              "description": "Check 1214",
+              "amount": 2239.29,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/19/2025",
+              "description": "Withdrawal COURTESY PAY FEE NSF CAPITAL ONE",
+              "amount": 27.0,
+              "type": "Debit",
+              "category": "Overdraft"
+            },
+            {
+              "date": "11/20/2025",
+              "description": "Check 1218",
+              "amount": 148.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/20/2025",
+              "description": "Withdrawal COURTESY PAY FEE NSF 0000001216 IN THE AMOUNT OF $6,000.00",
+              "amount": 27.0,
+              "type": "Debit",
+              "category": "Overdraft"
+            },
+            {
+              "date": "11/20/2025",
+              "description": "Deposit Debit Card VENMO*Peters Jeramy New York City NY Date 11/21/25 04248185325384828848283 4829",
+              "amount": 2030.0,
+              "type": "Credit",
+              "category": "Other Transfer Deposit",
+              "is_payment_processor": 1
+            },
+            {
+              "date": "11/21/2025",
+              "description": "Withdrawal ACH CAPITAL ONE",
+              "amount": 900.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/21/2025",
+              "description": "Withdrawal COURTESY PAY FEE",
+              "amount": 27.0,
+              "type": "Debit",
+              "category": "Overdraft"
+            },
+            {
+              "date": "11/21/2025",
+              "description": "Check 1217",
+              "amount": 199.12,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/21/2025",
+              "description": "Withdrawal COURTESY PAY FEE",
+              "amount": 27.0,
+              "type": "Debit",
+              "category": "Overdraft"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Withdrawal ACH AFFIRM.COM PAYME",
+              "amount": 220.94,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Withdrawal COURTESY PAY FEE",
+              "amount": 27.0,
+              "type": "Debit",
+              "category": "Overdraft"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Deposit",
+              "amount": 59500.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Withdrawal WIRE IN FEE",
+              "amount": 15.0,
+              "type": "Debit",
+              "category": "Service Charges/Fees"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Withdrawal CU OnLine Transfer To Loan 02",
+              "amount": 2500.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Withdrawal CU OnLine Transfer DBM2Mx0876 To PETERS, JERAMY E XXXXXXXXXX Share 09",
+              "amount": 2500.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Withdrawal Fee WIRE FEE Outgoing",
+              "amount": 25.0,
+              "type": "Debit",
+              "category": "Service Charges/Fees"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Withdrawal",
+              "amount": 14982.24,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/25/2025",
+              "description": "Withdrawal ACH VENMO",
+              "amount": 25.0,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/25/2025",
+              "description": "Withdrawal ACH CAPITAL ONE",
+              "amount": 1500.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/25/2025",
+              "description": "Withdrawal ACH CHASE CREDIT CRD",
+              "amount": 1714.82,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/25/2025",
+              "description": "Withdrawal ACH CAPITAL ONE",
+              "amount": 2000.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/25/2025",
+              "description": "Withdrawal CU OnLine Transfer DBM2Mx0876 To PETERS, JERAMY E XXXXXXXXXX Share 09",
+              "amount": 2500.0,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            },
+            {
+              "date": "11/25/2025",
+              "description": "Withdrawal ACH STAK'S PLUMBING",
+              "amount": 6000.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/25/2025",
+              "description": "Check 1215",
+              "amount": 1378.81,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/26/2025",
+              "description": "Withdrawal ACH CAPITAL ONE",
+              "amount": 3000.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/26/2025",
+              "description": "Check 1220",
+              "amount": 1200.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/26/2025",
+              "description": "Check 1221",
+              "amount": 2457.86,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/26/2025",
+              "description": "Check 1222",
+              "amount": 6500.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            },
+            {
+              "date": "11/28/2025",
+              "description": "Withdrawal ACH VENMO",
+              "amount": 2967.4,
+              "type": "Debit",
+              "category": "Other Transfer Withdrawal"
+            },
+            {
+              "date": "11/28/2025",
+              "description": "Withdrawal at ATM #000000006540 BECU 20011 BALLINGER WAY NE SHORELINE WA",
+              "amount": 500.0,
+              "type": "Debit",
+              "category": "ATM/Cash Withdrawal"
+            }
+          ]
+        },
+        {
+          "account_number": "Share 01",
+          "account_type": "BUSINESS SAVINGS",
+          "account_summary": {
+            "beginning_balance": 5.03,
+            "ending_balance": 1.0,
+            "total_deposits": 0.0,
+            "total_withdrawals": 4.03,
+            "total_deposits_count": 0,
+            "total_withdrawals_count": 1,
+            "avg_daily_balance": null,
+            "overdraft_days": 0
+          },
+          "transactions": [
+            {
+              "date": "11/18/2025",
+              "description": "Withdrawal CU OnLine Transfer To Share 09",
+              "amount": 4.03,
+              "type": "Debit",
+              "category": "Internal Transfer Withdrawal"
+            }
+          ]
+        },
+        {
+          "account_number": "Loan 01",
+          "account_type": "2016 JEEP WRANGLER",
+          "account_summary": {
+            "beginning_balance": 19281.92,
+            "ending_balance": 19243.05,
+            "total_deposits": null,
+            "total_withdrawals": null,
+            "total_deposits_count": null,
+            "total_withdrawals_count": null,
+            "avg_daily_balance": null,
+            "overdraft_days": 0
+          },
+          "transactions": [
+            {
+              "date": "11/12/2025",
+              "description": "Payments Transfer From Share 09",
+              "amount": 414.18,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            },
+            {
+              "date": "11/26/2025",
+              "description": "Loan Advance Insurance CPI Add 10/21/25",
+              "amount": 220.0,
+              "type": "Debit",
+              "category": "Standard Withdrawal"
+            }
+          ]
+        },
+        {
+          "account_number": "Loan 02",
+          "account_type": "BUSINESS LINE OF CREDIT",
+          "account_summary": {
+            "beginning_balance": 50000.0,
+            "ending_balance": 48682.67,
+            "total_deposits": null,
+            "total_withdrawals": null,
+            "total_deposits_count": null,
+            "total_withdrawals_count": null,
+            "avg_daily_balance": null,
+            "overdraft_days": 0
+          },
+          "transactions": [
+            {
+              "date": "11/24/2025",
+              "description": "Payments CU OnLine Transfer From Share 09",
+              "amount": 2500.0,
+              "type": "Credit",
+              "category": "Standard Deposit"
+            }
+          ]
+        }
+      ]
+    },
+    "raw_output": "```json\n{\n  \"bank_statement_information\": {\n    \"bank_name\": \"WSECU\",\n    \"account_holder\": \"AXILLES BUILDERS INC. JERAMY E PETERS\",\n    \"statement_start_date\": \"11/01/2025\",\n    \"statement_end_date\": \"11/30/2025\",\n    \"n_days\": 30,\n    \"n_month\": [\n      11\n    ],\n    \"business_address\": \"18375 47TH PL NE LAKE FOREST PARK, WA 98155-4307\"\n  },\n  \"accounts\": [\n    {\n      \"account_number\": \"XXXXXX0900\",\n      \"account_type\": \"BUSINESS MONEY MOVER\",\n      \"account_summary\": {\n        \"beginning_balance\": 42711.1,\n        \"ending_balance\": 6263.62,\n        \"total_deposits\": 66534.03,\n        \"total_withdrawals\": 102981.51,\n        \"total_deposits_count\": 4,\n        \"total_withdrawals_count\": 62,\n        \"avg_daily_balance\": null,\n        \"overdraft_days\": 6\n      },\n      \"transactions\": [\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"Withdrawal ACH SYNCHRONY BANK\",\n          \"amount\": 190.29,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"Withdrawal ACH VENMO\",\n          \"amount\": 200.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"Withdrawal ACH AFFIRM INC\",\n          \"amount\": 220.94,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"Withdrawal ACH HOME DEPOT\",\n          \"amount\": 1000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"Withdrawal ACH CAPITAL ONE\",\n          \"amount\": 2000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"Withdrawal ACH CAPITAL ONE\",\n          \"amount\": 11917.78,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"Withdrawal POS #530800196153 THE HOME DEPOT #4706 SEATTLE WA\",\n          \"amount\": 170.89,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"Check 1211\",\n          \"amount\": 1484.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"Check 1212\",\n          \"amount\": 1950.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/04/2025\",\n          \"description\": \"Withdrawal ACH AFFIRM INC\",\n          \"amount\": 194.07,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/04/2025\",\n          \"description\": \"Check 1207\",\n          \"amount\": 1275.28,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/04/2025\",\n          \"description\": \"Check 1206\",\n          \"amount\": 2251.37,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/04/2025\",\n          \"description\": \"Check 1209\",\n          \"amount\": 2457.86,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/04/2025\",\n          \"description\": \"Check 1210\",\n          \"amount\": 2457.88,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/05/2025\",\n          \"description\": \"Withdrawal ACH CAPITAL ONE\",\n          \"amount\": 2000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/05/2025\",\n          \"description\": \"Withdrawal ACH IRS\",\n          \"amount\": 2412.84,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/05/2025\",\n          \"description\": \"Withdrawal ACH CAPITAL ONE\",\n          \"amount\": 3000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/05/2025\",\n          \"description\": \"Check 1208\",\n          \"amount\": 2787.86,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/06/2025\",\n          \"description\": \"Withdrawal ACH Synchrony Bank\",\n          \"amount\": 233.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/06/2025\",\n          \"description\": \"Check 1204\",\n          \"amount\": 609.4,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/06/2025\",\n          \"description\": \"Check 1205\",\n          \"amount\": 1500.94,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"description\": \"Withdrawal ACH Lowes\",\n          \"amount\": 215.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"description\": \"Withdrawal POS #531116157186 THE HOME DEPOT #4707 SEATTLE WA\",\n          \"amount\": 432.12,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"description\": \"Check 1203\",\n          \"amount\": 532.61,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/08/2025\",\n          \"description\": \"Withdrawal Debit Card ONLINE PASSPORT FEES 843-302-3826 SC\",\n          \"amount\": 130.0,\n          \"type\": \"Debit\",\n          \"category\": \"Service Charges/Fees\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Withdrawal ACH BEST BUY\",\n          \"amount\": 68.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Withdrawal Transfer To Loan 01\",\n          \"amount\": 414.18,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Withdrawal ACH CAPITAL ONE\",\n          \"amount\": 1000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Withdrawal COURTESY PAY FEE\",\n          \"amount\": 27.0,\n          \"type\": \"Debit\",\n          \"category\": \"Overdraft\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"Withdrawal ACH CAPITAL ONE\",\n          \"amount\": 300.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"Withdrawal COURTESY PAY FEE\",\n          \"amount\": 27.0,\n          \"type\": \"Debit\",\n          \"category\": \"Overdraft\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"Deposit by Check\",\n          \"amount\": 5000.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"Withdrawal\",\n          \"amount\": 500.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"Withdrawal ACH CAPITAL ONE\",\n          \"amount\": 500.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"description\": \"Deposit CU OnLine Transfer From Share 01\",\n          \"amount\": 4.03,\n          \"type\": \"Credit\",\n          \"category\": \"Internal Transfer Deposit\"\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"description\": \"Check 1213\",\n          \"amount\": 2912.72,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/19/2025\",\n          \"description\": \"Check 1214\",\n          \"amount\": 2239.29,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/19/2025\",\n          \"description\": \"Withdrawal COURTESY PAY FEE NSF CAPITAL ONE\",\n          \"amount\": 27.0,\n          \"type\": \"Debit\",\n          \"category\": \"Overdraft\"\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"description\": \"Check 1218\",\n          \"amount\": 148.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"description\": \"Withdrawal COURTESY PAY FEE NSF 0000001216 IN THE AMOUNT OF $6,000.00\",\n          \"amount\": 27.0,\n          \"type\": \"Debit\",\n          \"category\": \"Overdraft\"\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"description\": \"Deposit Debit Card VENMO*Peters Jeramy New York City NY Date 11/21/25 04248185325384828848283 4829\",\n          \"amount\": 2030.0,\n          \"type\": \"Credit\",\n          \"category\": \"Other Transfer Deposit\",\n          \"is_payment_processor\": 1\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"description\": \"Withdrawal ACH CAPITAL ONE\",\n          \"amount\": 900.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"description\": \"Withdrawal COURTESY PAY FEE\",\n          \"amount\": 27.0,\n          \"type\": \"Debit\",\n          \"category\": \"Overdraft\"\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"description\": \"Check 1217\",\n          \"amount\": 199.12,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"description\": \"Withdrawal COURTESY PAY FEE\",\n          \"amount\": 27.0,\n          \"type\": \"Debit\",\n          \"category\": \"Overdraft\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Withdrawal ACH AFFIRM.COM PAYME\",\n          \"amount\": 220.94,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Withdrawal COURTESY PAY FEE\",\n          \"amount\": 27.0,\n          \"type\": \"Debit\",\n          \"category\": \"Overdraft\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Deposit\",\n          \"amount\": 59500.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Withdrawal WIRE IN FEE\",\n          \"amount\": 15.0,\n          \"type\": \"Debit\",\n          \"category\": \"Service Charges/Fees\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Withdrawal CU OnLine Transfer To Loan 02\",\n          \"amount\": 2500.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Withdrawal CU OnLine Transfer DBM2Mx0876 To PETERS, JERAMY E XXXXXXXXXX Share 09\",\n          \"amount\": 2500.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Withdrawal Fee WIRE FEE Outgoing\",\n          \"amount\": 25.0,\n          \"type\": \"Debit\",\n          \"category\": \"Service Charges/Fees\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Withdrawal\",\n          \"amount\": 14982.24,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/25/2025\",\n          \"description\": \"Withdrawal ACH VENMO\",\n          \"amount\": 25.0,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/25/2025\",\n          \"description\": \"Withdrawal ACH CAPITAL ONE\",\n          \"amount\": 1500.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/25/2025\",\n          \"description\": \"Withdrawal ACH CHASE CREDIT CRD\",\n          \"amount\": 1714.82,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/25/2025\",\n          \"description\": \"Withdrawal ACH CAPITAL ONE\",\n          \"amount\": 2000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/25/2025\",\n          \"description\": \"Withdrawal CU OnLine Transfer DBM2Mx0876 To PETERS, JERAMY E XXXXXXXXXX Share 09\",\n          \"amount\": 2500.0,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/25/2025\",\n          \"description\": \"Withdrawal ACH STAK'S PLUMBING\",\n          \"amount\": 6000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/25/2025\",\n          \"description\": \"Check 1215\",\n          \"amount\": 1378.81,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/26/2025\",\n          \"description\": \"Withdrawal ACH CAPITAL ONE\",\n          \"amount\": 3000.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/26/2025\",\n          \"description\": \"Check 1220\",\n          \"amount\": 1200.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/26/2025\",\n          \"description\": \"Check 1221\",\n          \"amount\": 2457.86,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/26/2025\",\n          \"description\": \"Check 1222\",\n          \"amount\": 6500.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        },\n        {\n          \"date\": \"11/28/2025\",\n          \"description\": \"Withdrawal ACH VENMO\",\n          \"amount\": 2967.4,\n          \"type\": \"Debit\",\n          \"category\": \"Other Transfer Withdrawal\"\n        },\n        {\n          \"date\": \"11/28/2025\",\n          \"description\": \"Withdrawal at ATM #000000006540 BECU 20011 BALLINGER WAY NE SHORELINE WA\",\n          \"amount\": 500.0,\n          \"type\": \"Debit\",\n          \"category\": \"ATM/Cash Withdrawal\"\n        }\n      ]\n    },\n    {\n      \"account_number\": \"Share 01\",\n      \"account_type\": \"BUSINESS SAVINGS\",\n      \"account_summary\": {\n        \"beginning_balance\": 5.03,\n        \"ending_balance\": 1.0,\n        \"total_deposits\": 0.0,\n        \"total_withdrawals\": 4.03,\n        \"total_deposits_count\": 0,\n        \"total_withdrawals_count\": 1,\n        \"avg_daily_balance\": null,\n        \"overdraft_days\": 0\n      },\n      \"transactions\": [\n        {\n          \"date\": \"11/18/2025\",\n          \"description\": \"Withdrawal CU OnLine Transfer To Share 09\",\n          \"amount\": 4.03,\n          \"type\": \"Debit\",\n          \"category\": \"Internal Transfer Withdrawal\"\n        }\n      ]\n    },\n    {\n      \"account_number\": \"Loan 01\",\n      \"account_type\": \"2016 JEEP WRANGLER\",\n      \"account_summary\": {\n        \"beginning_balance\": 19281.92,\n        \"ending_balance\": 19243.05,\n        \"total_deposits\": null,\n        \"total_withdrawals\": null,\n        \"total_deposits_count\": null,\n        \"total_withdrawals_count\": null,\n        \"avg_daily_balance\": null,\n        \"overdraft_days\": 0\n      },\n      \"transactions\": [\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Payments Transfer From Share 09\",\n          \"amount\": 414.18,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        },\n        {\n          \"date\": \"11/26/2025\",\n          \"description\": \"Loan Advance Insurance CPI Add 10/21/25\",\n          \"amount\": 220.0,\n          \"type\": \"Debit\",\n          \"category\": \"Standard Withdrawal\"\n        }\n      ]\n    },\n    {\n      \"account_number\": \"Loan 02\",\n      \"account_type\": \"BUSINESS LINE OF CREDIT\",\n      \"account_summary\": {\n        \"beginning_balance\": 50000.0,\n        \"ending_balance\": 48682.67,\n        \"total_deposits\": null,\n        \"total_withdrawals\": null,\n        \"total_deposits_count\": null,\n        \"total_withdrawals_count\": null,\n        \"avg_daily_balance\": null,\n        \"overdraft_days\": 0\n      },\n      \"transactions\": [\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Payments CU OnLine Transfer From Share 09\",\n          \"amount\": 2500.0,\n          \"type\": \"Credit\",\n          \"category\": \"Standard Deposit\"\n        }\n      ]\n    }\n  ]\n}\n```",
+    "token_count": {
+      "estimated_tokens": 1310
+    },
+    "failure_reason": null
+  },
+  "bsi_analyzer_result": {
+    "agent_name": "v1_bsi_analyzer_agent",
+    "processing_status": "success",
+    "start_time": "2026-02-04T15:08:36.020202",
+    "end_time": "2026-02-04T15:09:22.258640",
+    "parsed_json": {
+      "accounts": [
+        {
+          "account_number": "XXXXXX0900",
+          "account_type": "BUSINESS MONEY MOVER",
+          "mca_deposit": [],
+          "mca_withdrawal": [],
+          "returned_items": [],
+          "overdrafts": [
+            {
+              "date": "11/12/2025",
+              "description": "Withdrawal COURTESY PAY FEE",
+              "amount": 27.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "Withdrawal COURTESY PAY FEE",
+              "amount": 27.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/19/2025",
+              "description": "Withdrawal COURTESY PAY FEE NSF CAPITAL ONE",
+              "amount": 27.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/20/2025",
+              "description": "Withdrawal COURTESY PAY FEE NSF 0000001216 IN THE AMOUNT OF $6,000.00",
+              "amount": 27.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/21/2025",
+              "description": "Withdrawal COURTESY PAY FEE",
+              "amount": 27.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/21/2025",
+              "description": "Withdrawal COURTESY PAY FEE",
+              "amount": 27.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Withdrawal COURTESY PAY FEE",
+              "amount": 27.0,
+              "type": "Debit"
+            }
+          ],
+          "service_charges": [
+            {
+              "date": "11/08/2025",
+              "description": "Withdrawal Debit Card ONLINE PASSPORT FEES 843-302-3826 SC",
+              "amount": 130.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Withdrawal WIRE IN FEE",
+              "amount": 15.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Withdrawal Fee WIRE FEE Outgoing",
+              "amount": 25.0,
+              "type": "Debit"
+            }
+          ],
+          "atm_cash_withdrawal": [
+            {
+              "date": "11/28/2025",
+              "description": "Withdrawal at ATM #000000006540 BECU 20011 BALLINGER WAY NE SHORELINE WA",
+              "amount": 500.0,
+              "type": "Debit"
+            }
+          ],
+          "internal_transfer_deposit": [
+            {
+              "date": "11/18/2025",
+              "description": "Deposit CU OnLine Transfer From Share 01",
+              "amount": 4.03,
+              "type": "Credit",
+              "non_true_revenue": 1
+            }
+          ],
+          "internal_transfer_withdrawal": [
+            {
+              "date": "11/12/2025",
+              "description": "Withdrawal Transfer To Loan 01",
+              "amount": 414.18,
+              "type": "Debit"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Withdrawal CU OnLine Transfer To Loan 02",
+              "amount": 2500.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Withdrawal CU OnLine Transfer DBM2Mx0876 To PETERS, JERAMY E XXXXXXXXXX Share 09",
+              "amount": 2500.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/25/2025",
+              "description": "Withdrawal CU OnLine Transfer DBM2Mx0876 To PETERS, JERAMY E XXXXXXXXXX Share 09",
+              "amount": 2500.0,
+              "type": "Debit"
+            }
+          ],
+          "other_transfer_deposit": [
+            {
+              "date": "11/20/2025",
+              "description": "Deposit Debit Card VENMO*Peters Jeramy New York City NY Date 11/21/25 04248185325384828848283 4829",
+              "amount": 2030.0,
+              "type": "Credit",
+              "is_payment_processor": 1,
+              "non_true_revenue": 0
+            }
+          ],
+          "other_transfer_withdrawal": [
+            {
+              "date": "11/03/2025",
+              "description": "Withdrawal ACH VENMO",
+              "amount": 200.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/25/2025",
+              "description": "Withdrawal ACH VENMO",
+              "amount": 25.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/28/2025",
+              "description": "Withdrawal ACH VENMO",
+              "amount": 2967.4,
+              "type": "Debit"
+            }
+          ],
+          "standard_deposit": [
+            {
+              "date": "11/17/2025",
+              "description": "Deposit by Check",
+              "amount": 5000.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Deposit",
+              "amount": 59500.0,
+              "type": "Credit",
+              "non_true_revenue": 0
+            }
+          ],
+          "standard_withdrawal": [
+            {
+              "date": "11/03/2025",
+              "description": "Withdrawal ACH SYNCHRONY BANK",
+              "amount": 190.29,
+              "type": "Debit"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "Withdrawal ACH AFFIRM INC",
+              "amount": 220.94,
+              "type": "Debit"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "Withdrawal ACH HOME DEPOT",
+              "amount": 1000.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "Withdrawal ACH CAPITAL ONE",
+              "amount": 2000.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "Withdrawal ACH CAPITAL ONE",
+              "amount": 11917.78,
+              "type": "Debit"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "Withdrawal POS #530800196153 THE HOME DEPOT #4706 SEATTLE WA",
+              "amount": 170.89,
+              "type": "Debit"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "Check 1211",
+              "amount": 1484.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/03/2025",
+              "description": "Check 1212",
+              "amount": 1950.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/04/2025",
+              "description": "Withdrawal ACH AFFIRM INC",
+              "amount": 194.07,
+              "type": "Debit"
+            },
+            {
+              "date": "11/04/2025",
+              "description": "Check 1207",
+              "amount": 1275.28,
+              "type": "Debit"
+            },
+            {
+              "date": "11/04/2025",
+              "description": "Check 1206",
+              "amount": 2251.37,
+              "type": "Debit"
+            },
+            {
+              "date": "11/04/2025",
+              "description": "Check 1209",
+              "amount": 2457.86,
+              "type": "Debit"
+            },
+            {
+              "date": "11/04/2025",
+              "description": "Check 1210",
+              "amount": 2457.88,
+              "type": "Debit"
+            },
+            {
+              "date": "11/05/2025",
+              "description": "Withdrawal ACH CAPITAL ONE",
+              "amount": 2000.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/05/2025",
+              "description": "Withdrawal ACH IRS",
+              "amount": 2412.84,
+              "type": "Debit"
+            },
+            {
+              "date": "11/05/2025",
+              "description": "Withdrawal ACH CAPITAL ONE",
+              "amount": 3000.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/05/2025",
+              "description": "Check 1208",
+              "amount": 2787.86,
+              "type": "Debit"
+            },
+            {
+              "date": "11/06/2025",
+              "description": "Withdrawal ACH Synchrony Bank",
+              "amount": 233.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/06/2025",
+              "description": "Check 1204",
+              "amount": 609.4,
+              "type": "Debit"
+            },
+            {
+              "date": "11/06/2025",
+              "description": "Check 1205",
+              "amount": 1500.94,
+              "type": "Debit"
+            },
+            {
+              "date": "11/07/2025",
+              "description": "Withdrawal ACH Lowes",
+              "amount": 215.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/07/2025",
+              "description": "Withdrawal POS #531116157186 THE HOME DEPOT #4707 SEATTLE WA",
+              "amount": 432.12,
+              "type": "Debit"
+            },
+            {
+              "date": "11/07/2025",
+              "description": "Check 1203",
+              "amount": 532.61,
+              "type": "Debit"
+            },
+            {
+              "date": "11/10/2025",
+              "description": "Withdrawal ACH BEST BUY",
+              "amount": 68.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/12/2025",
+              "description": "Withdrawal ACH CAPITAL ONE",
+              "amount": 1000.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "Withdrawal ACH CAPITAL ONE",
+              "amount": 300.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "Withdrawal",
+              "amount": 500.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/17/2025",
+              "description": "Withdrawal ACH CAPITAL ONE",
+              "amount": 500.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/18/2025",
+              "description": "Check 1213",
+              "amount": 2912.72,
+              "type": "Debit"
+            },
+            {
+              "date": "11/19/2025",
+              "description": "Check 1214",
+              "amount": 2239.29,
+              "type": "Debit"
+            },
+            {
+              "date": "11/20/2025",
+              "description": "Check 1218",
+              "amount": 148.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/21/2025",
+              "description": "Withdrawal ACH CAPITAL ONE",
+              "amount": 900.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/21/2025",
+              "description": "Check 1217",
+              "amount": 199.12,
+              "type": "Debit"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Withdrawal ACH AFFIRM.COM PAYME",
+              "amount": 220.94,
+              "type": "Debit"
+            },
+            {
+              "date": "11/24/2025",
+              "description": "Withdrawal",
+              "amount": 14982.24,
+              "type": "Debit"
+            },
+            {
+              "date": "11/25/2025",
+              "description": "Withdrawal ACH CAPITAL ONE",
+              "amount": 1500.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/25/2025",
+              "description": "Withdrawal ACH CHASE CREDIT CRD",
+              "amount": 1714.82,
+              "type": "Debit"
+            },
+            {
+              "date": "11/25/2025",
+              "description": "Withdrawal ACH CAPITAL ONE",
+              "amount": 2000.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/25/2025",
+              "description": "Withdrawal ACH STAK'S PLUMBING",
+              "amount": 6000.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/25/2025",
+              "description": "Check 1215",
+              "amount": 1378.81,
+              "type": "Debit"
+            },
+            {
+              "date": "11/26/2025",
+              "description": "Withdrawal ACH CAPITAL ONE",
+              "amount": 3000.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/26/2025",
+              "description": "Check 1220",
+              "amount": 1200.0,
+              "type": "Debit"
+            },
+            {
+              "date": "11/26/2025",
+              "description": "Check 1221",
+              "amount": 2457.86,
+              "type": "Debit"
+            },
+            {
+              "date": "11/26/2025",
+              "description": "Check 1222",
+              "amount": 6500.0,
+              "type": "Debit"
+            }
+          ]
+        }
+      ]
+    },
+    "raw_output": "```json\n{\n  \"accounts\": [\n    {\n      \"account_number\": \"XXXXXX0900\",\n      \"account_type\": \"BUSINESS MONEY MOVER\",\n      \"mca_deposit\": [],\n      \"mca_withdrawal\": [],\n      \"returned_items\": [],\n      \"overdrafts\": [\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Withdrawal COURTESY PAY FEE\",\n          \"amount\": 27.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"Withdrawal COURTESY PAY FEE\",\n          \"amount\": 27.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/19/2025\",\n          \"description\": \"Withdrawal COURTESY PAY FEE NSF CAPITAL ONE\",\n          \"amount\": 27.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"description\": \"Withdrawal COURTESY PAY FEE NSF 0000001216 IN THE AMOUNT OF $6,000.00\",\n          \"amount\": 27.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"description\": \"Withdrawal COURTESY PAY FEE\",\n          \"amount\": 27.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"description\": \"Withdrawal COURTESY PAY FEE\",\n          \"amount\": 27.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Withdrawal COURTESY PAY FEE\",\n          \"amount\": 27.0,\n          \"type\": \"Debit\"\n        }\n      ],\n      \"service_charges\": [\n        {\n          \"date\": \"11/08/2025\",\n          \"description\": \"Withdrawal Debit Card ONLINE PASSPORT FEES 843-302-3826 SC\",\n          \"amount\": 130.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Withdrawal WIRE IN FEE\",\n          \"amount\": 15.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Withdrawal Fee WIRE FEE Outgoing\",\n          \"amount\": 25.0,\n          \"type\": \"Debit\"\n        }\n      ],\n      \"atm_cash_withdrawal\": [\n        {\n          \"date\": \"11/28/2025\",\n          \"description\": \"Withdrawal at ATM #000000006540 BECU 20011 BALLINGER WAY NE SHORELINE WA\",\n          \"amount\": 500.0,\n          \"type\": \"Debit\"\n        }\n      ],\n      \"internal_transfer_deposit\": [\n        {\n          \"date\": \"11/18/2025\",\n          \"description\": \"Deposit CU OnLine Transfer From Share 01\",\n          \"amount\": 4.03,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 1\n        }\n      ],\n      \"internal_transfer_withdrawal\": [\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Withdrawal Transfer To Loan 01\",\n          \"amount\": 414.18,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Withdrawal CU OnLine Transfer To Loan 02\",\n          \"amount\": 2500.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Withdrawal CU OnLine Transfer DBM2Mx0876 To PETERS, JERAMY E XXXXXXXXXX Share 09\",\n          \"amount\": 2500.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/25/2025\",\n          \"description\": \"Withdrawal CU OnLine Transfer DBM2Mx0876 To PETERS, JERAMY E XXXXXXXXXX Share 09\",\n          \"amount\": 2500.0,\n          \"type\": \"Debit\"\n        }\n      ],\n      \"other_transfer_deposit\": [\n        {\n          \"date\": \"11/20/2025\",\n          \"description\": \"Deposit Debit Card VENMO*Peters Jeramy New York City NY Date 11/21/25 04248185325384828848283 4829\",\n          \"amount\": 2030.0,\n          \"type\": \"Credit\",\n          \"is_payment_processor\": 1,\n          \"non_true_revenue\": 0\n        }\n      ],\n      \"other_transfer_withdrawal\": [\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"Withdrawal ACH VENMO\",\n          \"amount\": 200.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/25/2025\",\n          \"description\": \"Withdrawal ACH VENMO\",\n          \"amount\": 25.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/28/2025\",\n          \"description\": \"Withdrawal ACH VENMO\",\n          \"amount\": 2967.4,\n          \"type\": \"Debit\"\n        }\n      ],\n      \"standard_deposit\": [\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"Deposit by Check\",\n          \"amount\": 5000.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Deposit\",\n          \"amount\": 59500.0,\n          \"type\": \"Credit\",\n          \"non_true_revenue\": 0\n        }\n      ],\n      \"standard_withdrawal\": [\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"Withdrawal ACH SYNCHRONY BANK\",\n          \"amount\": 190.29,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"Withdrawal ACH AFFIRM INC\",\n          \"amount\": 220.94,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"Withdrawal ACH HOME DEPOT\",\n          \"amount\": 1000.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"Withdrawal ACH CAPITAL ONE\",\n          \"amount\": 2000.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"Withdrawal ACH CAPITAL ONE\",\n          \"amount\": 11917.78,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"Withdrawal POS #530800196153 THE HOME DEPOT #4706 SEATTLE WA\",\n          \"amount\": 170.89,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"Check 1211\",\n          \"amount\": 1484.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/03/2025\",\n          \"description\": \"Check 1212\",\n          \"amount\": 1950.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/04/2025\",\n          \"description\": \"Withdrawal ACH AFFIRM INC\",\n          \"amount\": 194.07,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/04/2025\",\n          \"description\": \"Check 1207\",\n          \"amount\": 1275.28,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/04/2025\",\n          \"description\": \"Check 1206\",\n          \"amount\": 2251.37,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/04/2025\",\n          \"description\": \"Check 1209\",\n          \"amount\": 2457.86,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/04/2025\",\n          \"description\": \"Check 1210\",\n          \"amount\": 2457.88,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/05/2025\",\n          \"description\": \"Withdrawal ACH CAPITAL ONE\",\n          \"amount\": 2000.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/05/2025\",\n          \"description\": \"Withdrawal ACH IRS\",\n          \"amount\": 2412.84,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/05/2025\",\n          \"description\": \"Withdrawal ACH CAPITAL ONE\",\n          \"amount\": 3000.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/05/2025\",\n          \"description\": \"Check 1208\",\n          \"amount\": 2787.86,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/06/2025\",\n          \"description\": \"Withdrawal ACH Synchrony Bank\",\n          \"amount\": 233.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/06/2025\",\n          \"description\": \"Check 1204\",\n          \"amount\": 609.4,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/06/2025\",\n          \"description\": \"Check 1205\",\n          \"amount\": 1500.94,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"description\": \"Withdrawal ACH Lowes\",\n          \"amount\": 215.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"description\": \"Withdrawal POS #531116157186 THE HOME DEPOT #4707 SEATTLE WA\",\n          \"amount\": 432.12,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/07/2025\",\n          \"description\": \"Check 1203\",\n          \"amount\": 532.61,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/10/2025\",\n          \"description\": \"Withdrawal ACH BEST BUY\",\n          \"amount\": 68.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/12/2025\",\n          \"description\": \"Withdrawal ACH CAPITAL ONE\",\n          \"amount\": 1000.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"Withdrawal ACH CAPITAL ONE\",\n          \"amount\": 300.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"Withdrawal\",\n          \"amount\": 500.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/17/2025\",\n          \"description\": \"Withdrawal ACH CAPITAL ONE\",\n          \"amount\": 500.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/18/2025\",\n          \"description\": \"Check 1213\",\n          \"amount\": 2912.72,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/19/2025\",\n          \"description\": \"Check 1214\",\n          \"amount\": 2239.29,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/20/2025\",\n          \"description\": \"Check 1218\",\n          \"amount\": 148.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"description\": \"Withdrawal ACH CAPITAL ONE\",\n          \"amount\": 900.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/21/2025\",\n          \"description\": \"Check 1217\",\n          \"amount\": 199.12,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Withdrawal ACH AFFIRM.COM PAYME\",\n          \"amount\": 220.94,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/24/2025\",\n          \"description\": \"Withdrawal\",\n          \"amount\": 14982.24,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/25/2025\",\n          \"description\": \"Withdrawal ACH CAPITAL ONE\",\n          \"amount\": 1500.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/25/2025\",\n          \"description\": \"Withdrawal ACH CHASE CREDIT CRD\",\n          \"amount\": 1714.82,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/25/2025\",\n          \"description\": \"Withdrawal ACH CAPITAL ONE\",\n          \"amount\": 2000.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/25/2025\",\n          \"description\": \"Withdrawal ACH STAK'S PLUMBING\",\n          \"amount\": 6000.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/25/2025\",\n          \"description\": \"Check 1215\",\n          \"amount\": 1378.81,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/26/2025\",\n          \"description\": \"Withdrawal ACH CAPITAL ONE\",\n          \"amount\": 3000.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/26/2025\",\n          \"description\": \"Check 1220\",\n          \"amount\": 1200.0,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/26/2025\",\n          \"description\": \"Check 1221\",\n          \"amount\": 2457.86,\n          \"type\": \"Debit\"\n        },\n        {\n          \"date\": \"11/26/2025\",\n          \"description\": \"Check 1222\",\n          \"amount\": 6500.0,\n          \"type\": \"Debit\"\n        }\n      ]\n    }\n  ]\n}\n```",
+    "token_count": {
+      "estimated_tokens": 930
+    },
+    "failure_reason": null
+  }
+}
